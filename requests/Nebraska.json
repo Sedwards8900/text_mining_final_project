@@ -1,0 +1,308 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 21200000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Nebraska storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:09:46.705Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Nebraska+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_yvpee23adys"
+    },
+    "organic": [
+        {
+            "link": "https://www.ketv.com/article/omaha-nebraska-forecast-severe-weather-tornadoes-hail-possible-friday/43874778",
+            "display_link": "https://www.ketv.com \u203a article \u203a omaha-nebraska-fore...",
+            "title": "Eastern Nebraska's severe storms include tornadoes, hail",
+            "description": "Strong to severe storms moved across eastern Nebraska into western Iowa, producing tornadoes, large hail, and damaging winds.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.ketv.com/article/weather-now-extra-nebraskas-worst-storms/43842047",
+            "display_link": "https://www.ketv.com \u203a article \u203a weather-now-extra-n...",
+            "title": "Weather Now Extra: Nebraska's worst storms - Omaha",
+            "description": "In this week's Weather Now Extra, meteorologist Anthony Copeland takes a look back at some of the worst storms in Nebraska history.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.ketv.com/article/nebraska-ketv-storm-chaser-tornado-touch-down/43879281",
+            "display_link": "https://www.ketv.com \u203a article \u203a nebraska-ketv-storm-...",
+            "title": "KETV storm chaser captures tornado touch down - Omaha",
+            "description": "KETV NewsWatch 7 storm chaser Nathan Moore captured a tornado touching down in central Nebraska as part of the severe thunderstorms moving ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.ketv.com/article/storm-rips-off-part-of-elementary-school-roof-in-plainview-nebraska/44498579",
+            "display_link": "https://www.ketv.com \u203a article \u203a storm-rips-off-part-of...",
+            "title": "Storm rips roof off elementary school roof in Plainview, ...",
+            "description": "Storm rips roof off elementary school roof in Plainview, Nebraska. The storm severely damaged the school Monday night in the town northwest ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://journalstar.com/news/local/weather/weather-forecast-nebraska-storms-severe-cold-front/article_b89ae9aa-f18f-5513-b8ae-c38d629a9f7c.html",
+            "display_link": "https://journalstar.com \u203a news \u203a local \u203a weather \u203a article_...",
+            "title": "Severe storms expected in parts of Nebraska Wednesday",
+            "description": "Damaging hail and wind are expected in spots. Flooding and tornadoes can't be ruled out. Full details in our updated forecast video.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://journalstar.com/weather/cold-front-sweeping-across-nebraska-wednesday-snow-chance-returns-thursday/article_3a36dae8-b789-11ed-a001-97ced5817322.html",
+                    "display_link": "https://journalstar.com \u203a weather \u203a article_3a36dae8-b78...",
+                    "title": "Cold front sweeping across Nebraska Wednesday; snow ...",
+                    "description": "This list overflows with tropical storms, hurricanes, and typhoons. It also contains blizzards, floods, tornadoes, and drought. It's got snow in ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 1, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://history.nebraska.gov/publications_section/blizzard-of-1888/",
+            "display_link": "https://history.nebraska.gov \u203a publications_section \u203a b...",
+            "title": "Blizzard of 1888",
+            "description": "The storm lasted from 12 to 18 hours over most of the area, and was followed by minor local storms. The state was two weeks digging itself out. When the ...",
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://omaha.com/news/state-regional/wind-hail-and-winter-storm-were-among-costly-nebraska-weather-disasters-in-2022/article_57a73704-911d-11ed-a433-2f82577a65c1.html",
+            "display_link": "https://omaha.com \u203a news \u203a state-regional \u203a article_57a7...",
+            "title": "Wind, hail and winter storm were among costly Nebraska ...",
+            "description": "June 7 hailstorm and severe weather: Caused at least $1.9 billion in damage. Hail and high winds caused severe damage across much of Nebraska, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://omaha.com/weather/winter-storm-claims-life-in-nebraska-conditions-improve-next-week/article_114334d8-8214-11ed-ac74-9f59502a3db2.html",
+                    "display_link": "https://omaha.com \u203a weather \u203a article_114334d8-8214-1...",
+                    "title": "Winter storm claims life in Nebraska; conditions improve ...",
+                    "description": "Weather was blamed for at least one death on Nebraska's roads, and travelers who became stranded required rescuing, but for the most part, ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 23, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 13,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.wunderground.com/article/safety/winter/news/2020-03-13-bomb-cyclone-record-flooding-nebraska-spencer-dam-2019",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "One Year Ago, a Bomb Cyclone Triggered Record ...",
+            "description": "One year ago, a massive storm in the nation's heartland, known as a bomb cyclone, unleashed record flooding in Nebraska and several other states.",
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Nebraska tornado map",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShwLC_0hhRziuM0sMxVtQNmOTJ8IPXmfNE6nzeETG4AD__T_-ajmWw&s=0",
+            "image_alt": "Image of Nebraska tornado map",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShwLC_0hhRziuM0sMxVtQNmOTJ8IPXmfNE6nzeETG4AD__T_-ajmWw&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Nebraska+tornado+today&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg5EAE",
+            "text": "nebraska tornado today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=tornado+in+omaha,+nebraska+today&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg6EAE",
+            "text": "tornado in omaha, nebraska today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Nebraska+tornado+yesterday&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg3EAE",
+            "text": "nebraska tornado yesterday",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Nebraska+tornado+damage&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg2EAE",
+            "text": "nebraska tornado damage",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=How+MANY+tornadoes+in+Nebraska+Today&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg1EAE",
+            "text": "how many tornadoes in nebraska today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Tornado+in+Nebraska+2023&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg0EAE",
+            "text": "tornado in nebraska 2023",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Spalding+Nebraska+tornado&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ1QJ6BAg4EAE",
+            "text": "spalding nebraska tornado",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What month has the most tornadoes in Nebraska?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+month+has+the+most+tornadoes+in+Nebraska%3F&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQzmd6BAgmEAY",
+            "answer_source": "Tornado Season in Nebraska: Peak Timing and Earliest on Record",
+            "answer_link": "https://a-z-animals.com/blog/tornado-season-in-nebraska/#:~:text=Some%20of%20the%20most%20notorious,from%20March%20to%20late%20July.",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a tornado-season-in-nebra...https://a-z-animals.com \u203a blog \u203a tornado-season-in-nebra...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCYQBQ\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQu04oAHoECCYQBQ\"><div id=\"qZnBZKOpIOWa4-EPnKOsiAU__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Some of the most notorious tornadoes in Nebraska's history have occurred during the month of May. Tornadoes can be extremely intense in Nebraska, especially during the tornado season which lasts from <b>March to late July</b>.</span></span><span class=\"kX21rb ZYHQ7e\">7 days ago</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Some of the most notorious tornadoes in Nebraska's history have occurred during the month of May. Tornadoes can be extremely intense in Nebraska, especially during the tornado season which lasts from March to late July.7 days ago"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "Is Nebraska a tornado alley?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+Nebraska+a+tornado+alley%3F&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQzmd6BAglEAY",
+            "answer_source": "Tornado Averages in Nebraska - Ground Zero Shelters",
+            "answer_link": "https://www.groundzeroshelters.com/nebraska-tornado-averages?#:~:text=Parts%20of%20Nebraska%20is%20considered,occurring%20in%20May%20and%20June.",
+            "answer_display_link": "https://www.groundzeroshelters.com \u203a nebraska-tornado-...https://www.groundzeroshelters.com \u203a nebraska-tornado-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQu04oAHoECCUQBQ\"><div id=\"qZnBZKOpIOWa4-EPnKOsiAU__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Parts of Nebraska is considered to be located in Tornado Alley</b> with the peak of Nebraska high storm season occurring in May and June.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Parts of Nebraska is considered to be located in Tornado Alley with the peak of Nebraska high storm season occurring in May and June."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "What kind of storms are in Nebraska?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+kind+of+storms+are+in+Nebraska%3F&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQzmd6BAgkEAY",
+            "answer_source": "Natural Hazards | Emergency Management",
+            "answer_link": "https://www.unmc.edu/emergency-management/hazards/natural.html#:~:text=Severe%20thunderstorms%20and%20tornados%20typically,with%20high%20winds%20and%20hail.",
+            "answer_display_link": "https://www.unmc.edu \u203a emergency-management \u203a naturalhttps://www.unmc.edu \u203a emergency-management \u203a natural",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQu04oAHoECCQQBQ\"><div id=\"qZnBZKOpIOWa4-EPnKOsiAU__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCEQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Severe thunderstorms and tornados</b> typically occur during the spring and summer months in Nebraska. Severe thunderstorms are capable of producing a tornado with high winds and hail.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Severe thunderstorms and tornados typically occur during the spring and summer months in Nebraska. Severe thunderstorms are capable of producing a tornado with high winds and hail."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "Has Nebraska ever had a tornado?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+Nebraska+ever+had+a+tornado%3F&sa=X&ved=2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQzmd6BAgnEAY",
+            "answer_source": "Top ten killer tornadoes in Nebraska history - National Weather Service",
+            "answer_link": "https://www.weather.gov/oax/topten-tornados#:~:text=The%20Omaha%20Tornado%20March%2023,Ralston%2C%20where%20seven%20people%20died.",
+            "answer_display_link": "https://www.weather.gov \u203a oax \u203a topten-tornadoshttps://www.weather.gov \u203a oax \u203a topten-tornados",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCcQBQ\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQu04oAHoECCcQBQ\"><div id=\"qZnBZKOpIOWa4-EPnKOsiAU__23\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCkQAA\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQ4dMGegQIKRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCkQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CB8QAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;Ab7NRk\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQyQ0oAHoECB8QAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;-fr4liwMwvbulM;Ab7NRo\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"-fr4liwMwvbulM\" data-lpage=\"https://www.weather.gov/oax/topten-tornados\" data-ni=\"1\" data-ref-docid=\"_zhHNoMdZ1RdRM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwjjoczXsa2AAxVlzTgGHZwRC1EQzkx6BAggEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:92px\"><img style=\"margin-left:-15px;width:123px\" alt=\"Top ten killer tornadoes in Nebraska history\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhKxXDb6OSdhWKmkvFF1LU4XO84TUsWhEuLtK5XrL&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"qZnBZKOpIOWa4-EPnKOsiAU__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>The Omaha Tornado March 23, 1913 - 101 Dead</b><br><br> This was the darkest day in Nebraska severe weather history. A family of at least seven tornadoes moved across Nebraska and Iowa. The Omaha tornado was the deadliest. It started in Sarpy County, ripping its way northeast through Ralston, where seven people died.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The Omaha Tornado March 23, 1913 - 101 Dead This was the darkest day in Nebraska severe weather history. A family of at least seven tornadoes moved across Nebraska and Iowa. The Omaha tornado was the deadliest. It started in Sarpy County, ripping its way northeast through Ralston, where seven people died."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}
