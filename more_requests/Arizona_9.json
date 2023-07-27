@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 183000000,
+        "search_time": 0.63,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arizona storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:07.547Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arizona+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_ahsk07agbw5"
+    },
+    "organic": [
+        {
+            "link": "https://azdailysun.com/news/local/weather/extreme-wind-snow-left-thousands-without-power-in-arizona-and-the-storm-has-just-begun/article_5b328c0a-b2fd-11ed-b176-0315bb903ac3.html",
+            "display_link": "https://azdailysun.com \u203a news \u203a local \u203a weather \u203a article_...",
+            "title": "Extreme wind, snow left thousands without power in Arizona",
+            "description": "As of Wednesday morning, the National Weather Service (NWS) recorded snowfall of about 3-7 inches. NWS meteorologist-in-charge Brian Klimowski ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://new.azwater.gov/news/articles/2023-16-02",
+            "display_link": "https://new.azwater.gov \u203a news \u203a articles",
+            "title": "How A Productive Burst Of Winter Moisture May (Or ...",
+            "description": "27 issue of Arizona Water News. Our questions for Dr. Saffell, meanwhile, focused primarily on the effect of the storms in Arizona. In addition ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-arizona-weather-flagstaff-c9e7ef432591522b3e2e1b746c8a98c7",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-arizona-weath...",
+            "title": "Arizona: Tornado damages homes, power lost in dust storms",
+            "description": "WILLIAMS, Ariz. (AP) \u2014 Up to 10 homes were damaged after a tornado touched down in northern Arizona Monday while around Phoenix, dust storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://ktar.com/story/5467921/winter-storm-brings-a-little-snow-to-parts-of-metro-phoenix/",
+            "display_link": "https://ktar.com \u203a story \u203a winter-storm-brings-a-little-s...",
+            "title": "Winter storm brings a little snow to parts of metro Phoenix",
+            "description": "Here's the latest list of closures from the Arizona Department of Transportation: U.S. 180 north of Snowbowl (milepost 236-248); S.R. 89A in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://directorsblog.health.azdhs.gov/tag/dust-storm/",
+            "display_link": "https://directorsblog.health.azdhs.gov \u203a tag \u203a dust-storm",
+            "title": "dust storm \u2013 AZ Dept. of Health Services Director's Blog",
+            "description": "Monsoon season is fast-approaching and with it thunderstorm activity that will ... CDC's Valley Fever Article Spotlights AZ ... Exceptional Dust Storm.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.readworks.org/article/A-Dangerous-Dust-Storm/4560626d-80f7-4cdc-83ee-a82b705534d6",
+            "display_link": "https://www.readworks.org \u203a article \u203a A-Dangerous-D...",
+            "title": "A Dangerous Dust Storm, Third Grade Reading Passage",
+            "description": "dust storm. One day in 2011, in Phoenix, Arizona, a woman was getting in her car, which was parked in her driveway. ... Related. FPO Article Image ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/news/capital-weather-gang/wp/2018/08/03/another-spectacular-haboob-rolled-across-southern-arizona-on-thursday/",
+            "display_link": "https://www.washingtonpost.com \u203a news \u203a 2018/08/03",
+            "title": "Another spectacular haboob rolled across southern ...",
+            "description": "It's been a big season when it comes to haboobs \u2014 towering dust storms that form from the exhaust of thunderstorms \u2014 in Arizona.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 3, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://azbigmedia.com/business/weather/study-arizona-monsoon-storms-extreme/",
+            "display_link": "https://azbigmedia.com \u203a Business News \u203a Weather",
+            "title": "Study: Arizona monsoon storms fewer but more extreme",
+            "description": "The paper, \u201cThe More Extreme Nature of North American Monsoon Precipitation in the Southwestern U.S. as Revealed by a Historical Climatology of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 20, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.citysuntimes.com/news/stay-weather-aware-prepare-for-arizona-s-monsoon-season/article_8f4a72f4-19bf-11ee-8c1c-f7125464cb80.html",
+            "display_link": "https://www.citysuntimes.com \u203a news \u203a article_8f4a72f4-...",
+            "title": "Stay weather aware, prepare for Arizona's monsoon season",
+            "description": "Nearly 3,000 people visit Arizona emergency rooms because of heat-related illnesses annually, so it's important for everyone to do their part in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://tucson.com/news/local/arizonas-deadliest-corridor-for-dust-storms-is-10-miles-between-tucson-and-phoenix/article_bbf2aaec-3009-5a88-9937-62a6f5bb1eb3.html",
+            "display_link": "https://tucson.com \u203a news \u203a local \u203a article_bbf2aaec-300...",
+            "title": "Arizona's deadliest corridor for dust storms is 10 miles ...",
+            "description": "A two-mile stretch near Picacho Peak is the deadliest portion of Interstate 10 in Arizona, killing at least eight people in more than 50 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2013",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

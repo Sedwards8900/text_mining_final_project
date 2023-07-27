@@ -1,0 +1,144 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 60700000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:39:13.832Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_xflhihh2v4"
+    },
+    "organic": [
+        {
+            "link": "https://dep.nj.gov/sandy-10/",
+            "display_link": "https://dep.nj.gov \u203a sandy-10",
+            "title": "Remembering Superstorm Sandy | Home - NJDEP",
+            "description": "New Jersey is experiencing more extreme weather because of climate change. Ten years ago, Superstorm Sandy devastated the East Coast. The ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 26, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwi34_m_4K2AAxUtMlkFHV9nDM44CxDm3gJ6BAgfEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://nypost.com/2021/09/02/tornados-flash-floods-leave-a-trail-of-destruction-in-nj/",
+            "display_link": "https://nypost.com \u203a 2021/09/02 \u203a tornados-flash-floo...",
+            "title": "Tornados, flash floods leave a trail of destruction in NJ",
+            "description": "The tail-end of Hurricane Ida wreaked havoc on New Jersey overnight with at least 12 people killed, dozens of homes destroyed by tornados ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 2, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nature.org/en-us/about-us/where-we-work/united-states/new-jersey/stories-in-new-jersey/sandy-one-year-later/",
+            "display_link": "https://www.nature.org \u203a en-us \u203a sandy-one-year-later",
+            "title": "TNC Lessons from Hurricane Sandy",
+            "description": "Damaged, sand-covered and flooded houses along the NJ coast. Hurricane Sandy Aftermath Aerial views of the damage caused by Hurricane Sandy to the New Jersey ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcnewyork.com/weather/weather-nyc-today-rain-tomorrow-cold-and-winter-storm-see-10-day-forecast-outlook-here/4114794/",
+            "display_link": "https://www.nbcnewyork.com \u203a weather \u203a weather-ny...",
+            "title": "Tornado Warning in NJ; NYC Weather Forecast Details Here",
+            "description": "Weather in NYC the next 10 days, from Brooklyn to Queens and the Bronx, looks iffy thanks to the winter storm. Here's the latest NYC ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.njweather.org/",
+            "display_link": "https://www.njweather.org",
+            "title": "New Jersey Weather and Climate Network |",
+            "description": "NJ June precipitation averaged 3.87\u201d. This was 0.43\u201d below normal, however, it ranks as the 53rd wettest of the past 129 years (or 77th driest) due to the ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cnbc.com/2021/10/26/noreaster-spurs-rescues-in-new-jersey-as-areas-brace-for-hurricane-force-wind-gusts.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/10/26 \u203a noreaster-spurs-re...",
+            "title": "Nor'easter spurs rescues in New Jersey as areas brace for ...",
+            "description": "And as the rain winds down, the winds were expected to wind up. Wind gusts of 30-40 mph were forecast for New York City, while Boston can expect ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 26, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://impact.rutgers.edu/the-rising-tide/",
+            "display_link": "https://impact.rutgers.edu \u203a the-rising-tide",
+            "title": "Saving New Jersey from the Rising Tide - Rutgers Impact",
+            "description": "Rutgers experts provide recommendations to help New Jersey adapt to rising seas, flooding, storms and other threats from climate change.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://twitter.com/myWeatherNJ",
+            "display_link": "https://twitter.com \u203a myWeatherNJ",
+            "title": "Weather NJ (@myWeatherNJ) / Twitter",
+            "description": "A KABOOM warning has been issued for all parts of New Jersey along and SE of the ... I should have a winter storm article with initial impact map posted ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.palegaladvice.com/blog/ongoing-storm-rule-in-new-jersey/",
+            "display_link": "https://www.palegaladvice.com \u203a Philly Injury Blog",
+            "title": "Ongoing Storm Rule In New Jersey",
+            "description": "A recent court ruling helps people injured during snow and ice storms. Related Article: 2021 Ongoing Storm Rule Updated. icy sidewalk injury lawyer in new ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.guttenbergnj.org/_Content/pdf/flyers/NJ-Hurricane-Survival-Guide.pdf",
+            "display_link": "https://www.guttenbergnj.org \u203a pdf \u203a flyers \u203a N...",
+            "title": "Hurricane Survival Guide for New Jersey",
+            "description": "Weather Service NYC (NE NJ Counties) - www.weather.gov/nyc ... National Weather Service NYC (for NE NJ Counties) ... Toilet paper & towelettes.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

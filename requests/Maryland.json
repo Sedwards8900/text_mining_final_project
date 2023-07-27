@@ -1,0 +1,322 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 188000000,
+        "search_time": 0.3,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maryland storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:43.971Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maryland+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_c8g7aavljnj"
+    },
+    "organic": [
+        {
+            "link": "https://www.wbaltv.com/article/scattered-severe-thunderstorms-possible-tueday-maryland/44636849",
+            "display_link": "https://www.wbaltv.com \u203a article \u203a scattered-severe-thun...",
+            "title": "Maryland weather: Scattered, severe thunderstorms Tuesday",
+            "description": "Meteorologist Ava Marie says to expect thunderstorms Tuesday afternoon that could be severe in some areas with strong winds and possible hail.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wbaltv.com/article/maryland-weather-isolated-severe-storms-june-30-2023/44402876",
+            "display_link": "https://www.wbaltv.com \u203a article \u203a maryland-weather-...",
+            "title": "Isolated severe storms moves through Maryland",
+            "description": "Chief Meteorologist Tom Tasselmyer said disturbances passing through Maryland, coupled with the heat, are bringing isolated storms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wbaltv.com/article/baltimore-weather-severe-storms-monday-july-3-2023/44420361",
+            "display_link": "https://www.wbaltv.com \u203a article \u203a baltimore-weather-se...",
+            "title": "Chance for severe storms Monday afternoon in Maryland",
+            "description": "BALTIMORE -- Damaging winds and hail are possible Monday afternoon as severe storms are in the forecast for Maryland.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wbaltv.com/article/maryland-storms-weather-forecast-rain-hail-lightning/44362719",
+            "display_link": "https://www.wbaltv.com \u203a article \u203a maryland-storms-w...",
+            "title": "Storms bring lightning and heavy rain across Maryland",
+            "description": "Chief Meteorologist Tom Tasselmyer says a line of storms is sweeping across Maryland, bringing lightning and heavy rain with potential hail ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.baltimoresun.com/weather/bs-md-thunder-hail-wind-monday-weather-20230625-23ylfqsbgjbo7izxt2zu5ey3su-story.html",
+            "display_link": "https://www.baltimoresun.com \u203a weather",
+            "title": "Maryland weather: Storms cease Tuesday night after ...",
+            "description": "Loading your audio article. Thunderstorms ended Tuesday night in the Baltimore metro region, concluding a rainy start to the week during ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.baltimoresun.com/weather/bs-md-july-9-weather-20230709-7nohxvl6bjdutipkb7qks6rcga-story.html",
+                    "display_link": "https://www.baltimoresun.com \u203a weather",
+                    "title": "Maryland weather: Chance of thunderstorms possible ...",
+                    "description": "A chance of thunderstorms remains throughout the Baltimore metro region Sunday night after heavy rainfall and thunderstorms hit the area in ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 9, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbsnews.com/baltimore/news/hurricane-season-looking-back-at-the-severe-storms-in-maryland-history/",
+            "display_link": "https://www.cbsnews.com \u203a CBS Baltimore \u203a Weather",
+            "title": "Maryland's hurricane seasons: Looking back at the severe ...",
+            "description": "Maryland's hurricane seasons: Looking back at the severe storms in state history \u00b7 1878: A Category 2 unnamed storm hit Baltimore and the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 31, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Maryland+storm+%22article%22&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ5t4CegQIQhAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2022/07/13/maryland-storm-olney-collegepark-damage/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/07/13 \u203a mar...",
+            "title": "How Tuesday's storms unleashed violent winds in ...",
+            "description": "How Tuesday's storms unleashed violent winds in Maryland and Virginia. An arc-shaped storm, known as a bow echo, tore across the Washington area ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.mdsg.umd.edu/topics/coastal-flooding/storm-surges",
+            "display_link": "https://www.mdsg.umd.edu \u203a topics \u203a coastal-flooding",
+            "title": "Storm Surges",
+            "description": "An online interactive page offers videos, photos, and an interactive map showing flooding that is predicted to occur. These articles, all by Michael Fincham, ...",
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://patch.com/maryland/across-md/storm-brings-tornado-threat-high-wind-warning-md-saturday",
+            "display_link": "https://patch.com \u203a maryland \u203a across-md \u203a storm-bri...",
+            "title": "Storm Brings Tornado Threat, High Wind Warning To MD ...",
+            "description": "Forecasters said storms with a tornado risk are expected in parts of Maryland, while the state is under a high wind warning Saturday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+coming+to+Maryland&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg6EAE",
+            "text": "storm coming to maryland",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+Maryland&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg5EAE",
+            "text": "storm maryland",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Winter+storm+warning+for+Maryland&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg4EAE",
+            "text": "winter storm warning for maryland",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Flooding+in+Maryland+today&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg3EAE",
+            "text": "flooding in maryland today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Baltimore+storm&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg2EAE",
+            "text": "baltimore storm",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Emergency+Alert+Maryland+today&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAg1EAE",
+            "text": "emergency alert maryland today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Maryland+weather+radar+fox+45&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAgzEAE",
+            "text": "maryland weather radar fox 45",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Anne+Arundel+County+weather+Alert&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ1QJ6BAgyEAE",
+            "text": "anne arundel county weather alert",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Do hurricanes hit Maryland?",
+            "question_link": "https://www.google.com/search?hl=en&q=Do+hurricanes+hit+Maryland%3F&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQzmd6BAgmEAY",
+            "answer_source": "List of Maryland hurricanes (1950\u2013present) - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/List_of_Maryland_hurricanes_(1950%E2%80%93present)#:~:text=Since%201950%2C%20143%20known%20hurricanes,on%20territory%20ceded%20by%20Maryland.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_Maryland_hurri...https://en.wikipedia.org \u203a wiki \u203a List_of_Maryland_hurri...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCYQBQ\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQu04oAHoECCYQBQ\"><div id=\"apnBZJf3Lty3ptQP0q2huA4__14\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCIQAA\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQ4dMGegQIIhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AY7b04\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQyQ0oAHoECBkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;Z7uNYRLbnU5kTM;AY7b1c\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"Z7uNYRLbnU5kTM\" data-lpage=\"https://en.wikipedia.org/wiki/List_of_Maryland_hurricanes_(1950%E2%80%93present)\" data-ni=\"1\" data-ref-docid=\"RsIWD-p5EySokM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CB0QAA\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQzkx6BAgdEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:150px;width:148px\"><img style=\"margin-left:-25px;width:200px\" alt=\"List of Maryland hurricanes (1950\u2013present) - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsPVcjKYKfKMHlrQRrAYsHWcdHBf1sdrDddA1w4aalqQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"apnBZJf3Lty3ptQP0q2huA4__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Since 1950, 143 known hurricanes, tropical storms and tropical depressions have affected the U.S. state of Maryland</b>. Many of these storms also affect the country's capital, Washington, D.C., since the city is located on territory ceded by Maryland.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Since 1950, 143 known hurricanes, tropical storms and tropical depressions have affected the U.S. state of Maryland. Many of these storms also affect the country's capital, Washington, D.C., since the city is located on territory ceded by Maryland."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "How often does Maryland get hurricanes?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+often+does+Maryland+get+hurricanes%3F&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQzmd6BAgnEAY",
+            "answer_source": "Hurricanes - Maryland State Climatologist Office",
+            "answer_link": "https://www2.atmos.umd.edu/~climate/SpecialTopics/hurricanes.php#:~:text=Only%20three%20times%20since%20recording,3%20or%20higher)%20directly%20hit.",
+            "answer_display_link": "https://www2.atmos.umd.edu \u203a ~climate \u203a SpecialTopicshttps://www2.atmos.umd.edu \u203a ~climate \u203a SpecialTopics",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCcQBQ\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQu04oAHoECCcQBQ\"><div id=\"apnBZJf3Lty3ptQP0q2huA4__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Only <b>three times</b> since recording began in 1851 has a hurricane hit the state. An unnamed category 2 in October of 1878, and unnamed category 1 in 1893, and an unnamed category 1 in 1933. Never has a major hurricane (category 3 or higher) directly hit.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Only three times since recording began in 1851 has a hurricane hit the state. An unnamed category 2 in October of 1878, and unnamed category 1 in 1893, and an unnamed category 1 in 1933. Never has a major hurricane (category 3 or higher) directly hit."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Does Maryland get tornadoes?",
+            "question_link": "https://www.google.com/search?hl=en&q=Does+Maryland+get+tornadoes%3F&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQzmd6BAgkEAY",
+            "answer_source": "Tornadoes - Maryland Department of Emergency Management",
+            "answer_link": "https://mdem.maryland.gov/Pages/resources-Tornadoes.aspx#:~:text=Maryland%20usually%20receives%20at%20lease,Park%2DBeltsville%2DCalverton%20area.",
+            "answer_display_link": "https://mdem.maryland.gov \u203a Pages \u203a resources-Tornadoeshttps://mdem.maryland.gov \u203a Pages \u203a resources-Tornadoes",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQu04oAHoECCQQBQ\"><div id=\"apnBZJf3Lty3ptQP0q2huA4__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Maryland usually receives at lease several tornadoes a year</b>. Many hit in sparsely populated rural areas and cause little or damage or casualties. In Maryland, notable tornadoes have caused casualties and/or significant damage in LaPlata and the College Park-Beltsville-Calverton area.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Maryland usually receives at lease several tornadoes a year. Many hit in sparsely populated rural areas and cause little or damage or casualties. In Maryland, notable tornadoes have caused casualties and/or significant damage in LaPlata and the College Park-Beltsville-Calverton area."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "Does Maryland get severe weather?",
+            "question_link": "https://www.google.com/search?hl=en&q=Does+Maryland+get+severe+weather%3F&sa=X&ved=2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQzmd6BAglEAY",
+            "answer_source": "Weather - Maryland State Archives",
+            "answer_link": "https://msa.maryland.gov/msa/mdmanual/01glance/html/weather.html#:~:text=Hurricanes.,flash%20floods%20accompany%20these%20storms.",
+            "answer_display_link": "https://msa.maryland.gov \u203a msa \u203a mdmanual \u203a html \u203a we...https://msa.maryland.gov \u203a msa \u203a mdmanual \u203a html \u203a we...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwiX1NW5sa2AAxXcm4kEHdJWCOcQu04oAHoECCUQBQ\"><div id=\"apnBZJf3Lty3ptQP0q2huA4__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCEQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Hurricanes. <b>Storm effects from hurricanes moving up the East Coast are felt in Maryland almost every year, most often in August and September</b>. High winds, heavy rains, and sometimes flash floods accompany these storms.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Hurricanes. Storm effects from hurricanes moving up the East Coast are felt in Maryland almost every year, most often in August and September. High winds, heavy rains, and sometimes flash floods accompany these storms."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

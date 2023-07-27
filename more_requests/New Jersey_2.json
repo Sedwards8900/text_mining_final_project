@@ -1,0 +1,136 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 54500000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:39:22.047Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_w4sr7hq1ka"
+    },
+    "organic": [
+        {
+            "link": "https://www.nature.org/en-us/about-us/where-we-work/united-states/new-jersey/stories-in-new-jersey/sandy-one-year-later/",
+            "display_link": "https://www.nature.org \u203a en-us \u203a sandy-one-year-later",
+            "title": "TNC Lessons from Hurricane Sandy",
+            "description": "Damaged, sand-covered and flooded houses along the NJ coast. Hurricane Sandy Aftermath Aerial views of the damage caused by Hurricane Sandy to the New Jersey ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.njweather.org/",
+            "display_link": "https://www.njweather.org",
+            "title": "New Jersey Weather and Climate Network |",
+            "description": "NJ June precipitation averaged 3.87\u201d. This was 0.43\u201d below normal, however, it ranks as the 53rd wettest of the past 129 years (or 77th driest) due to the ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://pressofatlanticcity.com/weather/severe-weather-risk-in-new-jersey-june-13-damaging-wind-hail/article_c04e239e-0931-11ee-8f8a-5bfda391d7b2.html",
+            "display_link": "https://pressofatlanticcity.com \u203a weather \u203a article_c04e23...",
+            "title": "Damaging wind, hail, flooding rain expected later Monday",
+            "description": "After a mostly dry and pleasant June weekend, Monday could start the week off with a bang as severe weather threatens New Jersey.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://whyy.org/articles/nws-soaking-rain-no-coastal-flooding-as-laura-remnants-pass-through-n-j-region/",
+            "display_link": "https://whyy.org \u203a articles \u203a nws-soaking-rain-no-coas...",
+            "title": "Soaking rain, no coastal flooding as Laura passes through ...",
+            "description": "Forecasters expect heavy rain and possibly flash flooding as the remnants of Hurricane Laura pass through the New Jersey region on Saturday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 27, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://twitter.com/myWeatherNJ",
+            "display_link": "https://twitter.com \u203a myWeatherNJ",
+            "title": "Weather NJ (@myWeatherNJ) / Twitter",
+            "description": "A KABOOM warning has been issued for all parts of New Jersey along and SE of the ... I should have a winter storm article with initial impact map posted ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://impact.rutgers.edu/the-rising-tide/",
+            "display_link": "https://impact.rutgers.edu \u203a the-rising-tide",
+            "title": "Saving New Jersey from the Rising Tide - Rutgers Impact",
+            "description": "Rutgers experts provide recommendations to help New Jersey adapt to rising seas, flooding, storms and other threats from climate change.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.guttenbergnj.org/_Content/pdf/flyers/NJ-Hurricane-Survival-Guide.pdf",
+            "display_link": "https://www.guttenbergnj.org \u203a pdf \u203a flyers \u203a N...",
+            "title": "Hurricane Survival Guide for New Jersey",
+            "description": "Weather Service NYC (NE NJ Counties) - www.weather.gov/nyc ... National Weather Service NYC (for NE NJ Counties) ... Toilet paper & towelettes.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://floodlist.com/tag/new-jersey",
+            "display_link": "https://floodlist.com \u203a tag \u203a new-jersey",
+            "title": "New Jersey",
+            "description": "The storm brought heavy rainfall to the region before landfall. A record 1.94 inches (49.28 mm)\u2026 Read Full Article ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.palegaladvice.com/blog/ongoing-storm-rule-in-new-jersey/",
+            "display_link": "https://www.palegaladvice.com \u203a Philly Injury Blog",
+            "title": "Ongoing Storm Rule In New Jersey",
+            "description": "A recent court ruling helps people injured during snow and ice storms. Related Article: 2021 Ongoing Storm Rule Updated. icy sidewalk injury lawyer in new ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.fox29.com/news/cleanup-underway-after-severe-storms-sweep-through-south-jersey",
+            "display_link": "https://www.fox29.com \u203a news \u203a cleanup-underway-afte...",
+            "title": "Cleanup underway, roads closed after severe storms ...",
+            "description": "MARLTON, N.J. - Cleanup is underway in parts of Southern New Jersey after damaging storms swept through the area on Tuesday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwjo97jC4K2AAxURposKHbNcD404DRDm3gJ6BAgkEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

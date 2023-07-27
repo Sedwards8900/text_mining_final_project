@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47300000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:53:10.273Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_69kvsyke1to"
+    },
+    "organic": [
+        {
+            "link": "https://www.severe-weather.eu/global-weather/historic-winter-storm-xylia-colorado-snow-severe-weather-outbreak-mk/",
+            "display_link": "https://www.severe-weather.eu \u203a global-weather \u203a hist...",
+            "title": "UPDATE: Winter Storm Xylia brings historic 3-6 feet of ...",
+            "description": "Winter storm Xylia will impact Colorado and Wyoming with historic snow through Sunday. A Severe Weather Outbreak with tornadoes and large ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://buckrail.com/winter-storm-brings-major-impacts-wydot-issues-reminders-to-motorists/",
+            "display_link": "https://buckrail.com \u203a winter-storm-brings-major-impa...",
+            "title": "Winter storm brings major impacts, WYDOT issues ...",
+            "description": "As a major winter storm brings major travel impacts to the state, the Wyoming Department of Transportation (WYDOT) is issuing some reminders to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "http://www.wrds.uwyo.edu/sco/climateatlas/severe_weather.html",
+            "display_link": "http://www.wrds.uwyo.edu \u203a sco \u203a climateatlas \u203a sever...",
+            "title": "Severe Weather - Wyoming State Climate Office and Water ...",
+            "description": "The average length of a tornado in Wyoming is 3.05 miles with an average width of 79 yards. On average there are six tornado days per year.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.spc.noaa.gov/publications/evans/bighorns.htm",
+            "display_link": "https://www.spc.noaa.gov \u203a publications \u203a evans \u203a big...",
+            "title": "Significant Tornadoes in the Big Horn Mountains of Wyoming",
+            "description": "Evans and Johns (1995) found that eighteen tornadoes were reported in mountainous regions of Wyoming over the forty-four-year period from 1950-1993 (Storm Data) ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nytimes.com/1875/11/20/archives/heavy-snowstorm-in-wyoming.html",
+            "display_link": "https://www.nytimes.com \u203a archives \u203a heavy-snowstorm-...",
+            "title": "HEAVY SNOW-STORM IN WYOMING.",
+            "description": "Full text is unavailable for this digitized archive article. Subscribers may view the full text of this article in its original form through TimesMachine.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://casetext.com/statute/wyoming-statutes/title-40-trade-and-commerce/chapter-12-consumer-protection/article-7-exterior-storm-damage-repair-contracts",
+            "display_link": "https://casetext.com \u203a chapter-12-consumer-protection",
+            "title": "EXTERIOR STORM DAMAGE REPAIR CONTRACTS ...",
+            "description": "Browse Wyoming Statutes | Article 7 - EXTERIOR STORM DAMAGE REPAIR CONTRACTS for free on Casetext.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.foxnews.com/us/wyoming-highway-patrol-compares-winter-storm-antarctica-responds-hundreds-calls",
+            "display_link": "https://www.foxnews.com \u203a wyoming-highway-patrol...",
+            "title": "Wyoming Highway Patrol compares winter storm to ...",
+            "description": "The Wyoming Highway Patrol has released a video showing the wintry weather conditions its troopers have been dealing with while responding ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wsj.com/articles/major-winter-storm-brings-outages-canceled-flights-and-heavy-snow-c2ae1747",
+            "display_link": "https://www.wsj.com \u203a articles \u203a major-winter-storm-brin...",
+            "title": "Winter Storm Brings Heavy Snow, Ice From California ...",
+            "description": "The National Weather Service also expanded blizzard warnings in Wyoming, where a swath of the central part of the state may experience ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.newscenter1.tv/news/severe-weather-forecast-for-northeastern-wyoming-and-western-south-dakota/article_7b76ce96-19b8-11ee-8046-bb763cb529df.html",
+            "display_link": "https://www.newscenter1.tv \u203a news \u203a article_7b76ce96-1...",
+            "title": "Severe weather forecast for northeastern Wyoming and ...",
+            "description": "larger than 2\u201d hail (larger than golfball); 70-80 mph wind gusts; torrential rain and flooding; Isolated tornadoes. Severe Hail Outlook ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wnep.com/article/weather/friday-snow-nepa-what-we-can-expect-stormtracker-16-winter-weather-update/523-a0a1635e-e1b8-48a9-a20b-4535f9d6f4ab",
+            "display_link": "https://www.wnep.com \u203a article \u203a weather \u203a friday-sno...",
+            "title": "Snow continues into Saturday | Here's what we can expect",
+            "description": "Our storm system has arrived producing mainly snow. ... Weather Advisory for the Northern Tier and the Wyoming Valley through Saturday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

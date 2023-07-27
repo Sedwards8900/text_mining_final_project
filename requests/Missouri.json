@@ -1,0 +1,332 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 136000000,
+        "search_time": 0.57,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Missouri storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:09:04.204Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Missouri+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_9yj3qgbph14"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2023/04/04/us/tornado-severe-weather.html",
+            "display_link": "https://www.nytimes.com \u203a tornado-severe-weather",
+            "title": "5 Dead After Tornado in Missouri, as Storms Unsettle Country",
+            "description": "5 Dead After Tornado in Missouri, as Storms Unsettle Country. Powerful winds of up to 130 m.p.h. struck Bollinger County, meteorologists said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/midwest-south-storms-tornadoes-2783b74e077740b3c253ce30632ff04d",
+            "display_link": "https://apnews.com \u203a article \u203a midwest-south-storms-to...",
+            "title": "Missouri tornado kills 5 in latest wave of severe weather",
+            "description": "The Missouri tornado touched down around 3:30 a.m. Wednesday and moved through a rural area of Bollinger County, about 50 miles (80 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsiltv.com/news/missouri/two-injured-two-homes-shop-destroyed-after-storm-passes-through-scott-county/article_b2496816-2a7a-11ee-9b1d-8f65b94de945.html",
+            "display_link": "https://www.wsiltv.com \u203a news \u203a missouri \u203a article_b249...",
+            "title": "Two injured, two homes, shop destroyed after storm passes ...",
+            "description": "MINER, Mo. -- Two people were injured and multiple structures were destroyed after storms hit an area in Scott County.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.npr.org/2023/04/05/1168207850/missouri-tornado-deaths-midwest-storms",
+            "display_link": "https://www.npr.org \u203a 2023/04/05 \u203a missouri-tornado-de...",
+            "title": "A Missouri tornado left at least 5 people dead",
+            "description": "\u2014 A large tornado tore through southeastern Missouri before dawn on Wednesday, killing at least five people and causing widespread destruction ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/04/05/tornado-outlook-south-midwest-storm-deaths/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/04/05 \u203a torn...",
+            "title": "At least four dead after tornado hits Missouri",
+            "description": "At least four people were killed and many were injured after a destructive tornado tore through Bollinger County in Missouri in the middle ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-04-04-severe-storms-tornado-missouri-illinois-iowa-injuries",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Missouri Tornado Death Toll Climbs; 2 Twisters Leave ...",
+            "description": "A deadly twister touched down in southeast Missouri early Wednesday. It was part of another severe weather system that also produced tornadoes in Illinois ...",
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.cbsnews.com/news/missouri-tornado-hail-injured-cattle/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Tornado, baseball-sized hail wreak havoc in Missouri",
+            "description": "A tornado ravaged parts of Missouri on Saturday as winds gusted up to 90 mph and hail the size of baseballs fell, according to the National ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 7, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Missouri+storm+%22article%22&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q5t4CegQINBAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.cnn.com/2023/04/05/weather/us-severe-storms-tornado-threat-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/04/05 \u203a weather \u203a us-sever...",
+            "title": "Storm system that killed 5 people in Missouri threatens 50 ...",
+            "description": "A destructive storm system that spawned at least 11 tornado reports and killed five people in Missouri now threatens millions more from ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.kmbc.com/article/storms-likely-this-morning-in-kansas-and-missouri/44625457",
+            "display_link": "https://www.kmbc.com \u203a article \u203a storms-likely-this-m...",
+            "title": "Storms likely this morning in Kansas and Missouri",
+            "description": "KANSAS CITY, Mo. \u2014. Advertisement. Scattered showers and thunderstorms will likely impact outdoor plans today between now and noon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.forbes.com/sites/brianbushard/2023/04/05/missouri-tornado-5-killed-in-latest-severe-early-season-storm-officials-say/",
+            "display_link": "https://www.forbes.com \u203a brianbushard \u203a 2023/04/05",
+            "title": "Missouri Tornado: 5 Killed In Latest Severe Early-Season ...",
+            "description": "The death toll from a catastrophic tornado that ripped through southern Missouri early Wednesday morning has climbed to five people, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Missouri tornado Map 2023",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnHScEnD5HjcWM9S9M56h57t4LLERDy7MwYD-LpjwC5-1OjUPNbM3XJw&s=0",
+            "image_alt": "Image of Missouri tornado Map 2023",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnHScEnD5HjcWM9S9M56h57t4LLERDy7MwYD-LpjwC5-1OjUPNbM3XJw&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "text": "Tornado in USA",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfksJenWRXRZh-WnflFZYNBUNJ25Q6E9FwYH5n&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfksJenWRXRZh-WnflFZYNBUNJ25Q6E9FwYH5n&s=0",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Missouri+tornado+today&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAhCEAE",
+            "text": "missouri tornado today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Missouri+tornado+2023&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAhBEAE",
+            "text": "missouri tornado 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=When+was+the+last+tornado+in+Missouri&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAhAEAE",
+            "text": "when was the last tornado in missouri",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Glenallen,+MO+tornado&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAg_EAE",
+            "text": "glenallen, mo tornado",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=What+town+in+Missouri+was+hit+by+tornado&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAg-EAE",
+            "text": "what town in missouri was hit by tornado",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Where+is+Bollinger+County,+Missouri&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAhEEAE",
+            "text": "where is bollinger county, missouri",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+storms+tornadoes+Missouri&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Q1QJ6BAhDEAE",
+            "text": "weather storms tornadoes missouri",
+            "rank": 9,
+            "global_rank": 23
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Were 4 deaths confirmed in Missouri tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=Were+4+deaths+confirmed+in+Missouri+tornado%3F&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qzmd6BAgdEAY",
+            "answer_source": "Four Deaths Confirmed In Missouri Tornado | Weather Underground",
+            "answer_link": "https://www.wunderground.com/article/news/news/2023-04-05-missouri-tornado-deaths",
+            "answer_display_link": "https://www.wunderground.com \u203a article \u203a news \u203a newshttps://www.wunderground.com \u203a article \u203a news \u203a news",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB0QBQ\" data-ved=\"2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qu04oAHoECB0QBQ\"><div id=\"fZnBZODgOJDv0PEPlMqk-A4__3\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">F\u200b<b>our deaths have been confirmed from a tornado that ripped through Bollinger County, Missouri, early Wednesday morning</b>. The deaths were in the community of Glenallen. T\u200bhe tornado smashed homes to pieces and shredded trees.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "F\u200bour deaths have been confirmed from a tornado that ripped through Bollinger County, Missouri, early Wednesday morning. The deaths were in the community of Glenallen. T\u200bhe tornado smashed homes to pieces and shredded trees."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 2
+        },
+        {
+            "question": "What part of Missouri did the tornado hit?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Missouri+did+the+tornado+hit%3F&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qzmd6BAgeEAY",
+            "answer_source": "Missouri tornado kills at least 5 people, causes widespread damage",
+            "answer_link": "https://www.cbsnews.com/news/tornado-missouri-deaths-bollinger-county/",
+            "answer_display_link": "https://www.cbsnews.com \u203a news \u203a tornado-missouri-dea...https://www.cbsnews.com \u203a news \u203a tornado-missouri-dea...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB4QBQ\" data-ved=\"2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qu04oAHoECB4QBQ\"><div id=\"fZnBZODgOJDv0PEPlMqk-A4__6\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">At least five people were killed in <b>southeastern Missouri</b> when a tornado struck the area before dawn Wednesday morning, officials said. Mark Winkler, director of the Cape Girardeau County Office of Emergency Management, told CBS News the deaths occurred in Bollinger County, about 50 miles south of St. Louis.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "At least five people were killed in southeastern Missouri when a tornado struck the area before dawn Wednesday morning, officials said. Mark Winkler, director of the Cape Girardeau County Office of Emergency Management, told CBS News the deaths occurred in Bollinger County, about 50 miles south of St. Louis.Apr 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "question": "Did Missouri get hit with a tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+Missouri+get+hit+with+a+tornado%3F&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qzmd6BAgXEAY",
+            "answer_source": "EF-1 tornado touched down Wednesday evening in southeast ...",
+            "answer_link": "https://www.weather.gov/pah/20150708tornado",
+            "answer_display_link": "https://www.weather.gov \u203a pahhttps://www.weather.gov \u203a pah",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qu04oAHoECBcQBQ\"><div id=\"fZnBZODgOJDv0PEPlMqk-A4__9\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>EF-1 tornado touched down Wednesday evening in southeast Missouri</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "EF-1 tornado touched down Wednesday evening in southeast Missouri."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "question": "Is Missouri in Tornado Alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Missouri+in+Tornado+Alley%3F&sa=X&ved=2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qzmd6BAgaEAY",
+            "answer_source": "Discover the Missouri Town Most Likely to Be Hit By a Tornado",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-missouri-town-most-likely-to-be-hit-by-a-tornado/",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-missouri-to...https://a-z-animals.com \u203a blog \u203a discover-the-missouri-to...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwigk-fCsa2AAxWQNzQIHRQlCe8Qu04oAHoECBoQBQ\"><div id=\"fZnBZODgOJDv0PEPlMqk-A4__12\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">While no clear-cut definition dictates the boundaries of Tornado Alley, it generally refers to the an area that stretches from the Canadian Prairies to central Texas and from western Ohio to eastern Colorado. <b>Missouri lies within this boundary</b>, which explains why it experiences numerous tornadoes each year.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 23, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "While no clear-cut definition dictates the boundaries of Tornado Alley, it generally refers to the an area that stretches from the Canadian Prairies to central Texas and from western Ohio to eastern Colorado. Missouri lies within this boundary, which explains why it experiences numerous tornadoes each year.Jun 23, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        }
+    ]
+}

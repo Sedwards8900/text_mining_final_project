@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 38700000,
+        "search_time": 0.45,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "West Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:55.249Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=West+Virginia+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/611.3.10.1.5 (KHTML, like Gecko) Version/14.1.2 Safari/611.3.10.1.5",
+        "request_id": "hl_c3a9eb28_q1upr768qx"
+    },
+    "organic": [
+        {
+            "link": "https://www.wvnews.com/theet/news/fall-storm-season-starting-in-west-virginia-how-to-prepare/article_218fd156-3b5c-11ed-9199-83ecf9f703d3.html",
+            "display_link": "https://www.wvnews.com \u203a theet \u203a news \u203a article_218fd...",
+            "title": "Fall storm season starting in West Virginia; how to prepare",
+            "description": "CLARKSBURG, W.Va. (WV News) \u2014 Along with cooler temperatures and changing leaves, fall often brings the inherent risk of storms as the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.thecentersquare.com/west_virginia/article_90351df0-809e-11ed-b9dd-eb14f1c24059.html",
+            "display_link": "https://www.thecentersquare.com \u203a west_virginia \u203a articl...",
+            "title": "All 55 West Virginia counties under state of preparedness ...",
+            "description": "The National Weather Service in Charleston, West Virginia, is forecasting a \u201clarge and intense\u201d winter storm system will begin impacting parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.fayettetribune.com/news/justice-declares-state-of-emergency-for-all-55-counties-in-wv-ahead-of-winter-storm/article_f660994a-827b-11ed-82c2-a37a6ef81bed.html",
+            "display_link": "https://www.fayettetribune.com \u203a news \u203a article_f660994...",
+            "title": "Justice declares State of Emergency for all 55 counties in ...",
+            "description": "\u201cAll West Virginians need to absolutely be ready for the potential impact this winter storm may bring to our state,\u201d Gov. Justice said. \u201cWest ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wvnstv.com/weather/scattered-strong-storms-possible-through-4th-of-july-weekend/",
+            "display_link": "https://www.wvnstv.com \u203a weather \u203a scattered-strong-sto...",
+            "title": "Scattered strong storms possible through 4th of July weekend",
+            "description": "As a result, scattered showers and storms will meander about southern West Virginia, especially in the afternoon. Some storms could produce ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.channel3000.com/news/national-and-world-news/oh-ohio-west-virginia-storm-damage/video_6fef144a-7081-52f3-8adf-1984190ee8e9.html",
+            "display_link": "https://www.channel3000.com \u203a national-and-world-news",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.reuters.com/article/usa-weather-power/update-3-west-virginia-struggles-with-power-outages-amid-new-storms-idUKL2E8I5DVF20120706",
+            "display_link": "https://www.reuters.com \u203a article \u203a usa-weather-power",
+            "title": "UPDATE 3-West Virginia struggles with power outages ...",
+            "description": "LEWISBURG, W.V., July 5 (Reuters) - Six days after violent storms hit the eastern United States, the state of West Virginia was struggling to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.2news.com/weather/ap_weather_headlines/oh-ohio-west-virginia-storm-damage/video_7b7c2fa1-5fce-55ed-9b9f-f7d75308d7cf.html",
+            "display_link": "https://www.2news.com \u203a weather \u203a ap_weather_headlines",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE | Weather - KTVN",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.register-herald.com/news/local_news/breaking-news-updated-with-photos-storm-prompts-state-of-emergency-motorists-stranded-thousands-without-power/article_32e11727-8623-5466-beae-b231d9b4fa6c.html",
+            "display_link": "https://www.register-herald.com \u203a news \u203a local_news \u203a a...",
+            "title": "Storm prompts state of emergency; motorists stranded ...",
+            "description": "The worst winter storm to hit southern West Virginia in nearly 12 years paralyzed much of the region Friday night and early Saturday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2009",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/03/west-virginia-record-may-snow/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/03 \u203a west...",
+            "title": "West Virginia sees biggest May snowfall on record with up ...",
+            "description": "The cause: A slow-moving zone of low pressure \u00b7 Historic West Virginia snow \u00b7 A storm for the books \u00b7 Storm to exit.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wsaz.com/weather/towercams.shtml",
+            "display_link": "https://www.wsaz.com \u203a weather \u203a towercams",
+            "title": "WSAZ Weather | First Warning Forecast | dual doppler radar",
+            "description": "Showers and storms largely avoided the region last night, though some rain clipped parts of southeastern Kentucky and far southern West Virginia. What did occur ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

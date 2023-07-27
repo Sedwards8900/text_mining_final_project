@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 180000000,
+        "search_time": 0.44,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Missouri storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:35:28.656Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Missouri+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.1 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_5bo9k4vo8ll"
+    },
+    "organic": [
+        {
+            "link": "https://www.ksdk.com/article/weather/severe-weather/severe-weather-crawford-county-missouri/63-66c8ab80-0910-4b37-914d-108bc2cfef57",
+            "display_link": "https://www.ksdk.com \u203a weather \u203a severe-weather \u203a se...",
+            "title": "Severe weather causes damage to buildings in Crawford ...",
+            "description": "SULLIVAN, Mo. \u2014 On Saturday night, downed powerlines bordered scattered metal and debris from buildings in Sullivan, Missouri. Severe storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/eax/mar272014",
+            "display_link": "https://www.weather.gov \u203a eax \u203a mar272014",
+            "title": "Severe Storms Bring Hail and Tornadoes to Missouri",
+            "description": "An early spring severe weather system moved through far eastern Kansas and western Missouri causing several supercell thunderstorms to produce large hail up ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Missouri+storm+%22article%22&sa=X&ved=2ahUKEwjQ8eHU362AAxW7L1kFHSbdBs44DRDm3gJ6BAgVEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.stltoday.com/news/local/at-least-5-people-dead-after-tornado-devastates-southeastern-missouri/article_1e39cbd8-dfe1-5e3d-a82f-43b0d3c21442.html",
+            "display_link": "https://www.stltoday.com \u203a news \u203a local \u203a article_1e39cb...",
+            "title": "At least 5 people dead after tornado devastates ...",
+            "description": "BOLLINGER COUNTY, Mo. \u2014 At least five people died early Wednesday after a tornado touched down near two southeastern Missouri towns.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://stormaware.mo.gov/tornado-facts-history/",
+            "display_link": "https://stormaware.mo.gov \u203a tornado-facts-history",
+            "title": "Tornado Facts and History - Missouri StormAware",
+            "description": "What is a Tornado? A tornado appears as a rotating, funnel-shaped cloud that extends from a thunderstorm to the ground with whirling winds that can reach ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=l2HFRfHP0VY",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "At least 5 dead after EF-2 tornado hits southeast Missouri",
+            "description": "The Missouri State Highway Patrol confirmed at least five people died in ... Details:https://www.ksdk.com/article/weather/tornado-southeast- ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "KSDK News",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "3:07",
+            "duration_sec": 187,
+            "author": "KSDK News",
+            "date": "Apr 5, 2023",
+            "source": "YouTube",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://fox4kc.com/weather/missouri-storms-leave-thousands-without-power-heading-into-july-4th-weekend/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a missouri-storms-leave-...",
+            "title": "Missouri weather: Storms leave thousands without power",
+            "description": "MARYVILLE, Mo. \u2014 People in northern Missouri are cleaning up after a Thursday morning storm ripped through their communities.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://fox2now.com/news/missouri/lingering-storm-damage-power-outages-across-jefferson-county/",
+            "display_link": "https://fox2now.com \u203a news \u203a missouri \u203a lingering-sto...",
+            "title": "Lingering storm damage, power outages across Jefferson ...",
+            "description": "Storm damage in Hillsboro, Missouri, includes dozens of homes, the fire station, the Community Civic Club, and the roof at Hillsboro ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://abc17news.com/news/2021/10/24/parts-of-missouri-left-with-storm-damage-after-severe-weather-sweeps-through-the-state/",
+            "display_link": "https://abc17news.com \u203a news \u203a 2021/10/24 \u203a parts-of...",
+            "title": "Parts of Missouri left with storm damage after severe ...",
+            "description": "More information about Sunday night's storms is available on ABC 17's Weather Alert blog. Article Topic Follows: News. Jump to comments \u2193.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://nypost.com/2023/04/05/missouri-tornado-kills-multiple-people-wreaks-havoc/",
+            "display_link": "https://nypost.com \u203a 2023/04/05 \u203a missouri-tornado-k...",
+            "title": "Multiple dead after tornado wreaks havoc in Missouri",
+            "description": "The Missouri State Highway Patrol confirmed multiple fatalities and injuries after a tornado touched down right before dawn Wednesday in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://extension.missouri.edu/publications/emw1019",
+            "display_link": "https://extension.missouri.edu \u203a publications \u203a emw1019",
+            "title": "Tornado Season: Are You Ready?",
+            "description": "Missouri is considered at high risk from tornadoes and is in \u201ctornado alley,\u201d which places the state in the top five for tornado activity.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

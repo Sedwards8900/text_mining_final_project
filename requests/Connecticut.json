@@ -1,0 +1,257 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 74000000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Connecticut storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:57.007Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Connecticut+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.1 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_c8bxai23xc8"
+    },
+    "organic": [
+        {
+            "link": "https://www.nbcconnecticut.com/weather-news/stories/damage-and-flooding-reported-across-ct-as-severe-storms-move-through/3071628/",
+            "display_link": "https://www.nbcconnecticut.com \u203a stories \u203a damage-a...",
+            "title": "Damage and flooding reported across CT as severe storms ...",
+            "description": "Storm damage is being reported across the state as strong thunderstorms continue moving out of Connecticut. Here is a town-by-town breakdown ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "5 days ago",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nbcconnecticut.com/news/local/strong-storms-cause-damage-flooding-in-connecticut/3067666/",
+                    "display_link": "https://www.nbcconnecticut.com \u203a news \u203a local \u203a stro...",
+                    "title": "Strong storms cause damage, flooding in Connecticut",
+                    "description": "Strong storms that moved through Connecticut on Sunday caused damage and flooding in several cities and towns.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 16, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.fox61.com/article/weather/connecticut-storm-damage-flooding/520-ef1bfdf5-df82-42c6-adec-f8b2f4fcbda2",
+            "display_link": "https://www.fox61.com \u203a article \u203a weather \u203a connectic...",
+            "title": "Overnight storm causes flooding, damage in parts of Connecticut",
+            "description": "A slow-moving storm that passed through the region overnight caused heavy downpours and flash flooding in parts of the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.fox61.com/article/weather/noreaster-connecticut-snow-impact-rain-timeline/520-10c67a7f-2ddf-4f25-8fc8-6d22ceb47916",
+                    "display_link": "https://www.fox61.com \u203a article \u203a weather \u203a noreaster...",
+                    "title": "Connecticut bracing for powerful nor'easter | fox61.com",
+                    "description": "A major nor'easter will hit New England on Monday night through Tuesday, bringing rain and heavy wet snow to Connecticut.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 13, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.ctinsider.com/news/article/ct-weather-winter-storm-snow-sleet-rain-flooding-17817627.php",
+            "display_link": "https://www.ctinsider.com \u203a News",
+            "title": "Winter storm will bring mix of snow, sleet, rain and flooding ...",
+            "description": "A winter storm will produce several inches of snow in northern Connecticut, while the coast will see heavy rain, wind and flooding, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.ctinsider.com/news/article/ct-weather-winter-nor-easter-snow-live-updates-17837941.php",
+                    "display_link": "https://www.ctinsider.com \u203a News",
+                    "title": "CT town officials say nor'easter brought 'incredibly heavy ...",
+                    "description": "After heavy rain fell Monday night, parts of Connecticut saw deep snow as a nor'easter slammed the Northeast. The storm was predicted to ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 14, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "link": "https://portal.ct.gov/DEMHS/External-Weather-Updates/20230312-Winter-Storm-Update",
+            "display_link": "https://portal.ct.gov \u203a 20230312-Winter-Storm-Update",
+            "title": "MAJOR WINTER STORM EXPECTED MONDAY NIGHT ...",
+            "description": "Steadier rain mixed with wet snow in the NW hills is expected to enter western CT by mid afternoon. Monday Night: Mixed precipitation becoming ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.ctpublic.org/news/2023-03-13/winter-storm-could-cover-northwestern-connecticut-with-up-to-12-inches-of-snow",
+            "display_link": "https://www.ctpublic.org \u203a news \u203a winter-storm-could-...",
+            "title": "A nor'easter delivers snow, rain, strong winds",
+            "description": "A powerful winter storm will bring rain and snow to Connecticut through Wednesday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.registercitizen.com/news/article/ct-weather-flooding-storm-damage-litchfield-18192729.php",
+            "display_link": "https://www.registercitizen.com \u203a News",
+            "title": "Heavy rains destroy roads and flood towns in parts of CT",
+            "description": "Heavy rains carried by a storm system moving slowly across the tri-state region inundated western Connecticut, producing flooding that ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "link": "https://patch.com/connecticut/across-ct/new-details-powerful-storm-disrupting-ct-holiday-travel",
+            "display_link": "https://patch.com \u203a connecticut \u203a across-ct \u203a new-detai...",
+            "title": "New Details On Powerful Storm Disrupting CT Holiday Travel",
+            "description": "A powerful storm is expected to drop between 2 to 4 inches of rain on Connecticut, produce strong thunderstorms, and generate wind gusts in excess of 40 mph ...",
+            "rank": 7,
+            "global_rank": 14
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Did Hurricane Ida affect Connecticut?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Did+Hurricane+Ida+affect+Connecticut%3F&sa=X&ved=2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qzmd6BAgZEAY",
+            "answer_source": "Connecticut - Remnants of Hurricane Ida - LSC Disaster Website",
+            "answer_link": "https://www.ladrc.org/disasters/connecticut-remnants-of-hurricane-ida/#:~:text=Hurricane%20Ida%20struck%20Connecticut%20from%20September%201%20to%20September%202%2C%202021.",
+            "answer_display_link": "https://www.ladrc.org \u203a disasters \u203a connecticut-remnants-...https://www.ladrc.org \u203a disasters \u203a connecticut-remnants-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qu04oAHoECBkQBQ\"><div id=\"O5nBZPXOLOjrkvQPhIy38A4__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Hurricane Ida struck Connecticut from September 1 to September 2, 2021</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Hurricane Ida struck Connecticut from September 1 to September 2, 2021."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Does CT get hurricanes?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Does+CT+get+hurricanes%3F&sa=X&ved=2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qzmd6BAgaEAY",
+            "answer_source": "Hurricanes - CT.gov",
+            "answer_link": "https://portal.ct.gov/CTPrepares/Types-of-Emergencies/Hurricanes#:~:text=A%20hurricane%20can%20have%20winds,do%20so%20by%20emergency%20officials.",
+            "answer_display_link": "https://portal.ct.gov \u203a CTPrepares \u203a Types-of-Emergencieshttps://portal.ct.gov \u203a CTPrepares \u203a Types-of-Emergencies",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qu04oAHoECBoQBQ\"><div id=\"O5nBZPXOLOjrkvQPhIy38A4__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A hurricane can have winds of more than 75 miles per hour. <b>Hurricane Season in Connecticut is June 1 through November 30</b>. If there is a hurricane warning, take shelter right away or evacuate if you are told to do so by emergency officials.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A hurricane can have winds of more than 75 miles per hour. Hurricane Season in Connecticut is June 1 through November 30. If there is a hurricane warning, take shelter right away or evacuate if you are told to do so by emergency officials."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Does Connecticut get severe weather?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Does+Connecticut+get+severe+weather%3F&sa=X&ved=2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qzmd6BAgbEAY",
+            "answer_source": "Summer Weather Awareness in Connecticut - CT.gov",
+            "answer_link": "https://portal.ct.gov/DEMHS/Emergency-Management/Resources-For-Individuals/Summer-Weather-Awareness/Summer-Weather-Landing#:~:text=With%20summer%20weather%20and%20fun,tropical%20storms%2C%20and%20extreme%20heat.",
+            "answer_display_link": "https://portal.ct.gov \u203a DEMHS \u203a Resources-For-Individualshttps://portal.ct.gov \u203a DEMHS \u203a Resources-For-Individuals",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qu04oAHoECBsQBQ\"><div id=\"O5nBZPXOLOjrkvQPhIy38A4__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>With summer weather and fun comes the risk for severe weather such as flooding, severe storms and tornadoes, hurricanes, tropical storms, and extreme heat</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "With summer weather and fun comes the risk for severe weather such as flooding, severe storms and tornadoes, hurricanes, tropical storms, and extreme heat."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Did hurricane Sandy hit Connecticut?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Did+hurricane+Sandy+hit+Connecticut%3F&sa=X&ved=2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qzmd6BAgcEAY",
+            "answer_source": "A decade after Superstorm Sandy, one resident recalls costs to ...",
+            "answer_link": "https://www.ctpublic.org/news/2022-10-27/a-decade-after-superstorm-sandy-one-resident-recalls-costs-to-connecticuts-coast#:~:text=29.,York%2C%20New%20Jersey%20and%20Connecticut.",
+            "answer_display_link": "https://www.ctpublic.org \u203a news \u203a a-decade-after-superst...https://www.ctpublic.org \u203a news \u203a a-decade-after-superst...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBwQBQ\" data-ved=\"2ahUKEwi12J6jsa2AAxXotYQIHQTGDe4Qu04oAHoECBwQBQ\"><div id=\"O5nBZPXOLOjrkvQPhIy38A4__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">29. <b>Sandy caused extensive damage to parts of New York, New Jersey and Connecticut</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Oct 27, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "29. Sandy caused extensive damage to parts of New York, New Jersey and Connecticut.Oct 27, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

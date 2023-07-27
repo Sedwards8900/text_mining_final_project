@@ -1,0 +1,178 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 122000000,
+        "search_time": 0.48,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Illinois storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:26:59.486Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Illinois+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.3 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_ktr7e3beclo"
+    },
+    "organic": [
+        {
+            "link": "https://www.fox32chicago.com/news/weather-service-governor-to-survey-illinois-storm-damage",
+            "display_link": "https://www.fox32chicago.com \u203a news \u203a weather-service...",
+            "title": "Weather service, governor to survey Illinois storm damage",
+            "description": "Weather service, governor to survey Illinois storm damage ... article. OTTAWA, Ill. (AP) - The National Weather Service says survey teams ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 1, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://illinoisstormchasers.com/weather-information-2/",
+            "display_link": "https://illinoisstormchasers.com \u203a weather-information-2",
+            "title": "Weather Information - Illinois Storm Chasers, LLC.",
+            "description": "(11:30AM Wed, July 26th 2023) Wednesday morning update on a few disturbances that will continue to move through the region through tonight, bringing the ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Illinois+storm+%22article%22&sa=X&ved=2ahUKEwirp4jh3a2AAxXmR7gEHVm5CCo4FBDm3gJ6BAgZEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.news-gazette.com/news/photo-gallery-storms-wallop-east-central-illinois/collection_33f2c821-cfa5-5730-aa58-cd3a58138e13.html",
+            "display_link": "https://www.news-gazette.com \u203a news \u203a photo-gallery-st...",
+            "title": "PHOTO GALLERY: Storms wallop East Central Illinois",
+            "description": "Mature trees were split in two and shredded of limbs and leaves, semis were blown over on the interstate backing up traffic for hours, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://thesouthern.com/news/local/weather/weather-forecast-illinois-storms-severe-cold-front/article_6b9b7b48-ef1a-5850-80db-69317e08f792.html",
+            "display_link": "https://thesouthern.com \u203a news \u203a local \u203a weather \u203a article...",
+            "title": "Small chance of severe storms in Illinois Thursday",
+            "description": "Showers and storms are in the forecast today, especially during the afternoon and evening with a cold front. Damaging wind, hail, and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://weather.com/news/news/2023-03-31-tornadoes-storms-arkansas-tennessee-illinois-mississippi-missouri",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-03-31-tornad...",
+            "title": "Tornadoes, Storms Slam Arkansas, Illinois, Iowa",
+            "description": "... across several states, including Arkansas, Indiana, Illinois and Tennessee. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.thecentersquare.com/illinois/article_29548878-16c1-11ee-913b-ef3ec1b9e7c3.html",
+            "display_link": "https://www.thecentersquare.com \u203a illinois \u203a article_2954...",
+            "title": "Illinois quick hits: Storms bring damage across state",
+            "description": "Storms bring damage across state. ... FILE - Illinois storm damage ... Strong thunderstorms moved through Illinois Thursday, downing trees, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.spc.noaa.gov/",
+            "display_link": "https://www.spc.noaa.gov",
+            "title": "NOAA/NWS Storm Prediction Center",
+            "description": "Severe thunderstorms associated with wind damage and isolated large hail will be ... P. Skinner, B. Roberts*, P.L. Heinselman, I.L. Jirak, and A.J. Clark, ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://jg-tc.com/rare-bow-echo-storm-topples-trees-downs-power-lines-across-coles-county-central-illinois/article_b59b9d54-16c5-11ee-9588-6f637786a06a.html",
+            "display_link": "https://jg-tc.com \u203a article_b59b9d54-16c5-11ee-9588-6f...",
+            "title": "Rare 'bow echo' storm topples trees, downs power lines ...",
+            "description": "An unusually big \u201cbow echo\u201d storm roared its way through Central Illinois Thursday afternoon, ripping down trees and power lines and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.myjournalcourier.com/news/article/tornado-strong-winds-rip-path-northeast-illinois-18198897.php",
+            "display_link": "https://www.myjournalcourier.com \u203a News",
+            "title": "Tornado, strong winds rip path through northeast Illinois",
+            "description": "Between 1855 and 2021, the weather service recorded 97 significant tornadoes in the Chicago metro area. The deadliest formed in Palos Hills in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://herald-review.com/news/local/weather/storm-packing-high-winds-leaves-downed-trees-power-outages-in-decatur-central-illinois/article_fdbb9694-16c4-11ee-a2bf-b30a54094f75.html",
+            "display_link": "https://herald-review.com \u203a news \u203a local \u203a weather \u203a arti...",
+            "title": "Storm packing high winds leaves downed trees, power ...",
+            "description": "An unusually big \u201cbow echo\u201d storm roared its way through Central Illinois Thursday afternoon, ripping down trees and power lines and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

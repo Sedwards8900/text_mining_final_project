@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33700000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Vermont storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:37.604Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Vermont+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.2 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_nqyynj0nwfi"
+    },
+    "organic": [
+        {
+            "link": "https://abcnews.go.com/US/tornadoes-midwest-floods-northeast-heat-southwest/story?id=101204375",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Fatality confirmed in Vermont flooding amid extreme weather ...",
+            "description": "Extreme weather continues to affect most of the country. ... At least one person was killed by the raging floodwaters in Vermont this week, state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/live-blog/floods-vermont-weather-rain-storms-new-england-live-updates-rcna93587",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a live-blog",
+            "title": "Vermont floods have led to more than 100 rescues, officials ...",
+            "description": "More than 9 inches of rain recorded in parts of Vermont ... Torrents of rainfall drenched Vermont yesterday, with 9.05 inches recorded in Plymouth ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wbur.org/news/2023/07/11/rescuers-brace-for-more-rain-as-relentless-storms-flood-northeast-vermont-hit-hard",
+            "display_link": "https://www.wbur.org \u203a news \u203a 2023/07/11 \u203a rescuers...",
+            "title": "Rescuers brace for more rain as relentless storms flood ...",
+            "description": "Rescuers are bracing for more rain and continued flooding after relentless rain pounded the Northeast on Monday, hitting Vermont and New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://weather.com/safety/floods/news/2023-07-10-flooding-northeast-vermont-new-york",
+            "display_link": "https://weather.com \u203a safety \u203a floods \u203a news \u203a 2023-07-...",
+            "title": "Vermont, New York Hit With Destructive Flooding",
+            "description": "Here is our full recap of this major flash flood event. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.pressdemocrat.com/article/news/vermont-braces-for-more-rain-in-wake-of-historic-flooding/",
+            "display_link": "https://www.pressdemocrat.com \u203a News \u203a Nation",
+            "title": "Vermont braces for more rain in wake of historic flooding",
+            "description": "Vermont prepared for the next round of storms \u2014 and possibly a tornado \u2014 as people took advantage of calm weather Thursday to clean up from ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.burlingtonfreepress.com/story/news/local/vermont/2023/07/13/severe-weather-more-rain-vermont-flash-flood-concerns/70409602007/",
+            "display_link": "https://www.burlingtonfreepress.com \u203a 2023/07/13 \u203a s...",
+            "title": "'This isn't over' says Gov. Scott as Vermont's recovery may ...",
+            "description": "As Vermont turns its focus to recovering from massive flooding, an ominous forecast with heavy rain and severe weather threatens to put ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/article/safety/floods/news/2023-07-11-northeast-rain-flood-threat-vermont-new-york",
+            "display_link": "https://www.wunderground.com \u203a floods \u203a news \u203a 20...",
+            "title": "Rounds Of Rain To Return To The Northeast After Quieter ...",
+            "description": "Roads were washed out, some homes flooded and some towns were isolated. Parts of Vermont saw flooding of the magnitude not seen since Tropical Storm Irene in ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/07/11/vermont-flooding-northeast-floods-damage-road-closures/70400877007/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/07/11 \u203a ve...",
+            "title": "Vermont flooding live updates",
+            "description": "MONTPELIER, Vt. \u2212 Stunned and soaked, residents paddled through the main streets of the capital city of Vermont Tuesday after torrents of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/",
+            "display_link": "https://insideclimatenews.org \u203a News",
+            "title": "Five Years After Hurricane Irene, Vermont Still Striving for ...",
+            "description": "Vermont's vulnerability to flooding was the harsh reality Irene drove home in 2011. More than 2,400 roads, 800 homes and businesses, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 1, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcboston.com/weather/first-alert-severe-storms-and-heavy-rain-could-lead-to-more-flooding-including-in-hard-hit-vermont/3088794/",
+            "display_link": "https://www.nbcboston.com \u203a weather \u203a first-alert-severe...",
+            "title": "Thunderstorms, heavy rain move through New England",
+            "description": "Be prepared for your day and week ahead. Sign up for our weather newsletter. This article tagged under: live radarVermontFirst Alert Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

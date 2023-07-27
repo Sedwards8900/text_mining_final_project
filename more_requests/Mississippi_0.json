@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 124000000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Mississippi storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:57.112Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Mississippi+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.4 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_66wqkl04v68"
+    },
+    "organic": [
+        {
+            "link": "https://www.reuters.com/world/us/least-14-killed-mississippi-tornado-storms-abc-news-2023-03-25/",
+            "display_link": "https://www.reuters.com \u203a world \u203a least-14-killed-mississ...",
+            "title": "Tornado tears across Mississippi, more than two dozen dead",
+            "description": "SILVER CITY, Mississippi, March 25 (Reuters) - Rescuers combed through rubble on Saturday after a powerful storm tore across Mississippi ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wsj.com/articles/mississippi-tornado-kills-23-with-four-missing-and-dozens-injured-5dc08d1",
+            "display_link": "https://www.wsj.com \u203a articles \u203a mississippi-tornado-kills...",
+            "title": "Mississippi Tornado Kills 25 and Injures Dozens",
+            "description": "ROLLING FORK, Miss.\u2014A powerful tornado killed at least 25 people as a storm ripped across Mississippi on Friday night, devastating rural ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.entergynewsroom.com/article/entergy-mississippi-storm-update-6-17-23-10-p-m/",
+            "display_link": "https://www.entergynewsroom.com \u203a article \u203a entergy...",
+            "title": "Entergy Mississippi storm update \u2013 6/17/23, 10 p.m.",
+            "description": "In the last week, Entergy Mississippi has restored nearly 138000 customers after back-to-back storms afflicted our service area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/03/26/tornadoes-severe-weather-live-updates/11542636002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/03/26 \u203a tor...",
+            "title": "Tornadoes severe weather updates: 26 dead in Mississippi ...",
+            "description": "\u2013 Severe storms rumbled across parts of the South on Sunday, two days after violent tornadoes smashed through the Mississippi Delta region \u2014 one ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.dor.ms.gov/news/mississippi-storm-and-flooding-relief",
+            "display_link": "https://www.dor.ms.gov \u203a news \u203a mississippi-storm-an...",
+            "title": "Mississippi Storm and Flooding Relief | DOR",
+            "description": "\u200bMississippi will follow federal extensions granted to victims of severe storms, straight-line winds, tornadoes and flooding that took place between ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbs58.com/news/1-killed-and-almost-2-dozen-injured-in-overnight-storms-in-mississippi-officials-say",
+            "display_link": "https://www.cbs58.com \u203a news \u203a 1-killed-and-almost-2-d...",
+            "title": "1 killed and almost 2 dozen injured in overnight storms ...",
+            "description": "A storm system spawned a reported tornado late Sunday in Mississippi, leaving injuries and structural damage around Bay Springs and Louin in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-65072195",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-65072195",
+            "title": "Mississippi tornado: Why was it so destructive?",
+            "description": "Preliminary findings have registered the tornado a four on the Enhanced Fujita (EF) scale, meaning it had a three-second gust of 166 to 200 mph, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.aljazeera.com/news/2023/3/26/my-city-is-gone-many-dead-as-tornado-tears-across-mississippi",
+            "display_link": "https://www.aljazeera.com \u203a news \u203a my-city-is-gone-...",
+            "title": "US: Biden declares emergency for Mississippi's storm ...",
+            "description": "The tornado stayed on the ground for about an hour and cut a path of destruction some 274km (170 miles) long across Mississippi late on Friday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wjtv.com/weather/severe-weather/nearly-200-mississippi-structures-damaged-by-recent-storms/",
+            "display_link": "https://www.wjtv.com \u203a weather \u203a severe-weather \u203a ne...",
+            "title": "Nearly 200 Mississippi structures damaged by recent storms",
+            "description": "JASPER COUNTY, Miss. (WHLT) \u2013 Nearly 200 homes and businesses have been damaged from this week's deadly storms in Mississippi.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wapt.com/article/jackson-mississippi-weather-storms-tornado/42095537",
+            "display_link": "https://www.wapt.com \u203a article \u203a jackson-mississippi-...",
+            "title": "Mississippi storms spawn tornadoes",
+            "description": "The National Weather Service reported at least 21 tornadoes reported across the state during the severe weather event. Damage will be assessed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

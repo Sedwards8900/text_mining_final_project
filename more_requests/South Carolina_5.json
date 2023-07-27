@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39500000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:46:26.309Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Carolina+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_jvxmaec06l9"
+    },
+    "organic": [
+        {
+            "link": "https://www.cbsnews.com/live-updates/hurricane-ian-florida-damage-south-carolina-forecast-path-2022-09-29/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Hurricane Ian heads for South Carolina after devastating ...",
+            "description": "It could bring a \"life-threatening\" storm surge to South Carolina, forecasters say. Ian left catastrophic destruction in Florida and is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2022/07/02/tropical-storm-colin-carolinas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/07/02 \u203a tropi...",
+            "title": "Sneaky Tropical Storm Colin forms near South Carolina coast",
+            "description": "Tropical storm warnings stretch from just south of Myrtle Beach, S.C., northward through the North Carolina Outer Banks.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bloomberg.com/news/articles/2022-07-02/surprise-tropical-storm-colin-brings-rain-to-south-carolina",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a surpris...",
+            "title": "Surprise Tropical Storm Colin Brings Rain to South Carolina",
+            "description": "This Article is for Subscribers Only. Tropical Storm Colin formed \u201cunexpectedly\u201d early Saturday along the South Carolina coast and will ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.charleston-sc.gov/974/Hurricane-Information",
+            "display_link": "https://www.charleston-sc.gov \u203a Hurricane-Information",
+            "title": "Hurricane Information | Charleston, SC - Official Website",
+            "description": "General Information about hurricanes and how to prepare your home and your family for a storm. Updates on active storms that may affect the Charleston ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wspa.com/news/local-news/severe-weather-causing-storm-damage-in-the-upstate/",
+            "display_link": "https://www.wspa.com \u203a news \u203a local-news \u203a severe-w...",
+            "title": "Severe weather causing storm damage in the Upstate",
+            "description": "TAYLORS, S.C. (WSPA) \u2013 Severe weather is causing power outages and storm damage throughout the Upstate on Sunday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://muse.jhu.edu/article/429626/pdf",
+            "display_link": "https://muse.jhu.edu \u203a article \u203a pdf",
+            "title": "Hurricane Hugo and its Impact on South Carolina",
+            "description": "For additional information about this article. [ Access provided at 19 Jun 2023 04:21 ... In 1989 South Carolina was long overdue for a major hurricane; it.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by RL Janiskee",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1990",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 12",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.thestate.com/news/weather-news/",
+            "display_link": "https://www.thestate.com \u203a news \u203a weather-news",
+            "title": "Columbia South Carolina Weather News & Reports",
+            "description": "Follow the latest Columbia, SC and the midlands South Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.postandcourier.com/hurricanewire/storm-atlantic-impact-south-carolina/article_36ebdf76-2af9-11ee-b99e-6b4b0a99ce0a.html",
+            "display_link": "https://www.postandcourier.com \u203a hurricanewire \u203a article...",
+            "title": "Storm in Atlantic not immediate concern for South Carolina",
+            "description": "Disturbance south of Bermuda could move close to US coast, but no immediate concern for SC \u00b7 Sign up for The Post and Courier's Hurricane Wire ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/Expect-Storm-Surge-15-20-Feet-Landfalling-Category-4-Storm-Carolinas",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a Expect-Stor...",
+            "title": "20 Feet in a Landfalling Category 4 Storm in the Carolinas",
+            "description": "If Florence hits the coast of North or South Carolina as a Category 3 or stronger hurricane, we should expect to see record storm surge heights, with a 15 ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wcnc.com/article/weather/chesterfield-county-storm-damage-tornado-weather/275-5a672e1f-3b6f-49e6-ae30-47eff85ae94a",
+            "display_link": "https://www.wcnc.com \u203a article \u203a weather \u203a chesterfiel...",
+            "title": "Chesterfield County storm damages roofs and topples trees",
+            "description": "CHESTERFIELD COUNTY, S.C. \u2014 A severe thunderstorm in Chesterfield County, South Carolina Sunday caused damage to buildings and trees.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

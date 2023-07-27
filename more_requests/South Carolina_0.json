@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 36000000,
+        "search_time": 0.6,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:46:09.453Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Carolina+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_pjvrdy5fi8i"
+    },
+    "organic": [
+        {
+            "link": "https://www.greenvilleonline.com/story/news/local/2022/09/30/hurricane-ian-storm-nears-sc-coast-heavy-rain-across-region/69527604007/",
+            "display_link": "https://www.greenvilleonline.com \u203a local \u203a 2022/09/30",
+            "title": "Hurricane Ian update: Storm nears SC. Thousands lose ...",
+            "description": "Damage was reported from Hurricane Ian's second U.S. landfall. It came Friday afternoon near Georgetown, South Carolina.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.greenvilleonline.com/story/news/local/2022/09/28/hurricane-ian-update-what-sc-can-expect-greenville-spartanburg/69524718007/",
+                    "display_link": "https://www.greenvilleonline.com \u203a local \u203a 2022/09/28",
+                    "title": "Hurricane Ian update: What SC can expect as storm makes ...",
+                    "description": "Hurricane Ian has strengthened and is now nearly a Category 5 storm. Here's what South Carolina residents need to know and how to prepare.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 28, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/ilm/hurricaneprepsc",
+            "display_link": "https://www.weather.gov \u203a ilm \u203a hurricaneprepsc",
+            "title": "Hurricane Preparedness Webpage for South Carolina",
+            "description": "The National Weather Service and the South Carolina Emergency Management Division are teaming up to bring this hurricane safety campaign to all of South ...",
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2022/09/30/hurricane-ian-damage-tracker-florida-south-carolina/",
+            "display_link": "https://www.washingtonpost.com \u203a weather \u203a 2022/09/30",
+            "title": "Ian weakens slightly after second landfall in South Carolina",
+            "description": "This article is free to access. Why? ... Two days after dealing a devastating blow to Florida's southwestern coast, Hurricane Ian made its second ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.washingtonpost.com/climate-environment/2022/07/02/tropical-storm-colin-carolinas/",
+                    "display_link": "https://www.washingtonpost.com \u203a 2022/07/02 \u203a tropi...",
+                    "title": "Sneaky Tropical Storm Colin forms near South Carolina coast",
+                    "description": "Tropical storm warnings stretch from just south of Myrtle Beach, S.C., northward through the North Carolina Outer Banks.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 2, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cbsnews.com/live-updates/hurricane-ian-florida-damage-south-carolina-forecast-path-2022-09-29/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Hurricane Ian heads for South Carolina after devastating ...",
+            "description": "It could bring a \"life-threatening\" storm surge to South Carolina, forecasters say. Ian left catastrophic destruction in Florida and is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.pbs.org/newshour/nation/ian-regains-hurricane-strength-as-it-moves-toward-south-carolina",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a nation \u203a ian-regains...",
+            "title": "Ian regains hurricane strength as it moves toward South ...",
+            "description": "CHARLESTON, S.C. (AP) \u2014 A revived Hurricane Ian set its sights on South Carolina's coast Friday and the historic city of Charleston, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wcnc.com/article/weather/severe-weather/hurricane-ian-impact-north-carolina-south-carolina/275-f1b5a633-844b-485b-a83e-eb15cdd755db",
+            "display_link": "https://www.wcnc.com \u203a weather \u203a severe-weather \u203a h...",
+            "title": "Ian moves away from Charlotte, leaving damage ...",
+            "description": "Ian made landfall in Georgetown, South Carolina, battering the coast with 85 mph winds, torrential rain and dangerous storm surges on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 1, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.charleston-sc.gov/974/Hurricane-Information",
+            "display_link": "https://www.charleston-sc.gov \u203a Hurricane-Information",
+            "title": "Hurricane Information | Charleston, SC - Official Website",
+            "description": "General Information about hurricanes and how to prepare your home and your family for a storm. Updates on active storms that may affect the Charleston ...",
+            "rank": 7,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wspa.com/news/local-news/severe-weather-causing-storm-damage-in-the-upstate/",
+            "display_link": "https://www.wspa.com \u203a news \u203a local-news \u203a severe-w...",
+            "title": "Severe weather causing storm damage in the Upstate",
+            "description": "TAYLORS, S.C. (WSPA) \u2013 Severe weather is causing power outages and storm damage throughout the Upstate on Sunday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 10
+        }
+    ]
+}

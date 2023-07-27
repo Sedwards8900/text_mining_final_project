@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 16800000,
+        "search_time": 0.49,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Nebraska storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:36:52.754Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Nebraska+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_czgf6b4hi2u"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-01-19-winter-storm-iggy-forecast-midwest-northeast",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Winter Storm Iggy Shattered One-Day Snow Record in ...",
+            "description": "Article image. I\u200bggy's heaviest snow east of the Rockies buried portions of Nebraska under nearly two feet of snow in central parts of the state.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://kdvr.com/weather/severe-weather-blasts-nebraska-one-fatality-reported-amid-damage/",
+            "display_link": "https://kdvr.com \u203a weather \u203a severe-weather-blasts-ne...",
+            "title": "Severe weather blasts Nebraska, 1 death reported along with ...",
+            "description": "Nebraska was pummeled by a round of dangerous severe weather Monday with ... This is an archived article and the information in the article may be outdated.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.eesi.org/articles/view/nebraska-devastated-by-multiple-extreme-weather-events",
+            "display_link": "https://www.eesi.org \u203a articles \u203a view \u203a nebraska-deva...",
+            "title": "Nebraska Devastated by Multiple Extreme Weather Events",
+            "description": "In Nebraska, they say that if you don't like the weather in the ... and is prone to extreme weather events like tornadoes and flash floods.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 7, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.1011now.com/content/news/Heavy-storm-system-hits-Nebraska-507047561.html",
+            "display_link": "https://www.1011now.com \u203a content \u203a news \u203a Heavy-sto...",
+            "title": "Strong storm system to hit Nebraska",
+            "description": "A Blizzard Warning is in effect for the Nebraska panhandle Wednesday into Thursday. A Winter Storm Watch is in effect for part of Western Nebraska Wednesday ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://starherald.com/news/local/weather/weather-forecast-omaha-lincoln-council-bluffs-fremont-columbus-york-beatrice-grand-island-kearney-north-platte-scottsbluff/article_f3e57106-765d-5267-a122-4c3ddbb11e7a.html",
+            "display_link": "https://starherald.com \u203a news \u203a local \u203a weather \u203a article_f...",
+            "title": "More rain in Nebraska Friday; small chance of severe storms",
+            "description": "Another day with scattered showers and storms across Nebraska. Damaging wind, hail, and flooding can't be ruled out in the western half of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://yorknewstimes.com/news/local/weather/weather-forecast-nebraska-rain-storms-severe/article_e98420a6-9faa-5472-bcdb-9a90c8156e29.html",
+            "display_link": "https://yorknewstimes.com \u203a news \u203a local \u203a weather \u203a art...",
+            "title": "Stormy Monday night in Nebraska with severe storms ...",
+            "description": "Some showers and storms during the day, but more widespread activity is forecast for Monday night in Nebraska. Damaging wind and hail could ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.klkntv.com/watch-coverage-of-severe-storms-in-southeast-nebraska/",
+            "display_link": "https://www.klkntv.com \u203a watch-coverage-of-severe-st...",
+            "title": "PHOTOS: Severe storms hit southeast Nebraska",
+            "description": "(KLKN) \u2014 Multiple severe thunderstorm warnings were in effect in Nebraska on Tuesday evening. One cluster of storms with 60 mph winds moved ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kfornow.com/severe-storms-dropped-heavy-rain-hail-produced-damaging-winds-in-se-nebraska-thursday-morning/",
+            "display_link": "https://www.kfornow.com \u203a severe-storms-dropped-he...",
+            "title": "Severe Storms Dropped Heavy Rain, Hail, Produced ...",
+            "description": "Severe Storms Dropped Heavy Rain, Hail, Produced Damaging Winds In SE Nebraska Thursday Morning ... Loading your audio article ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.weather.gov/unr/1888-01-12",
+            "display_link": "https://www.weather.gov \u203a unr",
+            "title": "The \u201cChildren's Blizzard\u201d in the Black Hills Country",
+            "description": "... worst of the storm compared to eastern Dakota Territory, Minnesota, Nebraska, ... Articles from local newspapers the \u201cRapid City Journal\u201d, \u201cBlack Hills ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wowt.com/2023/05/13/tornadoes-leave-destruction-across-eastern-nebraska/",
+            "display_link": "https://www.wowt.com \u203a 2023/05/13 \u203a tornadoes-leave-...",
+            "title": "Tornadoes leave destruction across eastern Nebraska",
+            "description": "DODGE COUNTY, Neb. (WOWT) - Friday night's storms left damage in several parts of Nebraska, including Dodge County.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

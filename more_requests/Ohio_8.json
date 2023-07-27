@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31900000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Ohio storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:42:45.433Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Ohio+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_g8e75yyuc4b"
+    },
+    "organic": [
+        {
+            "link": "https://www.news5cleveland.com/weather/weather-news/tracking-the-tropics-will-tropical-storm-nicole-impact-northeast-ohio",
+            "display_link": "https://www.news5cleveland.com \u203a weather-news \u203a tra...",
+            "title": "The Remnants of Hurricane Nicole will bring tropical ...",
+            "description": "Tracking the tropics: Tropical Storm Nicole is moving inland. News 5's Katie McGraw discusses potential impacts for Northeast Ohio.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kulr8.com/news/national/us-severe-storms-hit-northeast-ohio-tornado-warning-issued/video_bd377566-4323-5d81-aa11-d5dae0d47ad6.html",
+            "display_link": "https://www.kulr8.com \u203a news \u203a national \u203a us-severe-stor...",
+            "title": "US: Severe Storms Hit Northeast Ohio, Tornado Warning ...",
+            "description": "Strong storms hit Northeast Ohio on Thursday, July 20. Tornado Warning and Severe Thunderstorm Warning were issued across the are.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.thecentersquare.com/ohio/article_37a74360-1fff-11ee-98f6-d7e9119e9adf.html",
+            "display_link": "https://www.thecentersquare.com \u203a ohio \u203a article_37a74...",
+            "title": "Ohio reimbursing communities for storm damage",
+            "description": "(The Center Square) \u2013 Ohio communities received another $500000 in state disaster relief from four different storms that happened a year ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://apnews.com/article/ohio-storms-bd187beb9c824142b7e4247beddcecfd",
+            "display_link": "https://apnews.com \u203a article \u203a ohio-storms-bd187beb9...",
+            "title": "Weekend storm could pelt Northeast Ohio with significant ...",
+            "description": "CLEVELAND, Ohio \u2013 The next round of winter storms are headed for Northeast Ohio, loaded with significant snow -- and a glazing of ice -- Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://spectrumnews1.com/oh/columbus/weather/2023/07/25/severe-storms-possible-in-northern-ohio-wednesday-night",
+            "display_link": "https://spectrumnews1.com \u203a weather \u203a 2023/07/25",
+            "title": "Severe storms possible in Ohio Wednesday night",
+            "description": "By Spectrum News Weather Staff Ohio. PUBLISHED 1:30 PM ET Jul. ... Damaging wind, hail and isolated tornadoes are all possible.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cleveland.com/weather/2023/06/northeast-ohio-will-get-hit-with-severe-storms-sunday-long-periods-of-rain-through-tuesday-as-storms-make-way-from-upper-midwest-to-northeast-meteorologists-say.html",
+            "display_link": "https://www.cleveland.com \u203a weather \u203a 2023/06 \u203a northe...",
+            "title": "Northeast Ohio will get hit with severe storms Sunday, long ...",
+            "description": "CLEVELAND, Ohio -- Northeast Ohio will be under a threat of severe weather from Sunday afternoon to Sunday night, followed by a prolonged ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nytimes.com/2019/05/28/us/ohio-tornadoes-dayton.html",
+            "display_link": "https://www.nytimes.com \u203a 2019/05/28 \u203a ohio-tornadoes...",
+            "title": "Tornadoes Rip Through Ohio, Killing at Least 1",
+            "description": "Give this article. Read in app. Storm damage on Tuesday in Brookville, Ohio, northwest of Dayton.Credit...John Minchillo/Associated Press.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 28, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/ohio/columbus",
+            "display_link": "https://www.theweathernetwork.com \u203a ohio \u203a columbus",
+            "title": "3-Day Severe Weather Outlook: Columbus, Ohio",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://abc7news.com/archive/7674215/",
+            "display_link": "https://abc7news.com \u203a archive",
+            "title": "Strong storms in Ohio leave destruction, injuries",
+            "description": "A number of newspapers were hit by storm damage. The Athens Messenger building sustained heavy damage, and Friday's paper had to be printed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2010",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/ohio/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "Ohio \u2014 Weather",
+            "description": "Except for the extreme southern section of the state, Ohio experiences warm humid summers and cold snowy winters. The truly nice periods are on the edges of ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

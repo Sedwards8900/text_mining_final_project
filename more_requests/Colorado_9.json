@@ -1,0 +1,133 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 458000000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:08.793Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_i2j1pmup3g"
+    },
+    "organic": [
+        {
+            "link": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH8PUWO_ARTXISTDRCR",
+            "display_link": "https://library.municode.com \u203a weld_county \u203a codes",
+            "title": "ARTICLE XI. - Storm Drainage Criteria | Weld County, CO",
+            "description": "The provisions of this Article shall be known as the \"Weld County Storm ... covered and approved by the Colorado Discharge Permit System (CDPS) regulations.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.tripadvisor.com/Travel-g28927-s208/Colorado:United-States:Weather.And.When.To.Go.html",
+            "display_link": "https://www.tripadvisor.com \u203a ... \u203a Before You Go",
+            "title": "Inside Colorado : Weather &amp; When to Go",
+            "description": "It's not uncommon to have wide temperature swings from one day to the next (40 degrees F!) or even in a summer day (a thunderstorm can drop the temperature30 ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.news4jax.com/weather/2023/07/06/colorado-state-university-forecasters-now-call-for-an-above-average-hurricane-season/",
+            "display_link": "https://www.news4jax.com \u203a weather \u203a 2023/07/06",
+            "title": "Colorado State University forecasters now call for an above ...",
+            "description": "forecasters are now calling for an above-average hurricane season. The average in the Atlantic basin is 14 named storms, seven hurricanes and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://theconversation.com/hurricane-force-wind-gusts-in-colorado-dust-storms-in-kansas-tornadoes-in-iowa-in-december-heres-what-fueled-a-day-of-extreme-storms-173904",
+            "display_link": "https://theconversation.com \u203a hurricane-force-wind-gu...",
+            "title": "Hurricane-force wind gusts in Colorado, dust storms ...",
+            "description": "This article was updated with a National Weather Service meteorologist describing the storm as a \u201cserial derecho.\u201d Weather \u00b7 Extreme weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://forecast.weather.gov/MapClick.php?textField1=39.7392&textField2=-104.9903",
+            "display_link": "https://forecast.weather.gov \u203a MapClick",
+            "title": "7-Day Forecast 39.75N 104.99W",
+            "description": "Denver CO. Tonight. Tonight: A 40 percent chance of showers and thunderstorms, mainly before 7pm. Mostly. Chance T-storms then. Partly Cloudy. Low: 64 \u00b0F.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://tropical.colostate.edu/",
+            "display_link": "https://tropical.colostate.edu",
+            "title": "CSU Tropical Weather and Climate Research - Colorado ...",
+            "description": "Colorado State University ... An updated Extended Range Forecast of Atlantic Seasonal Hurricane ... Seasonal & Sub-Seasonal Tropical Cyclone Forecasts ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.denver7.com/",
+            "display_link": "https://www.denver7.com",
+            "title": "Denver7 | Local, breaking, in-depth Colorado news, weather",
+            "description": "Denver7 News is home to 360 In-Depth breaking news and weather from across Colorado and stories of hope and positivity from Denver7 Gives on Denver7.com.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.uncovercolorado.com/colorado-weather/",
+            "display_link": "https://www.uncovercolorado.com \u203a colorado-weather",
+            "title": "Colorado's Wild Weather",
+            "description": "A storm system in Akron, CO. ... However, myth or no myth, the article points out that Colorado is still quite sunny compared to the rest of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.newsweek.com/colorado-blizzard-chaos-snow-storm-causes-multiple-car-crashes-1770095",
+            "display_link": "https://www.newsweek.com \u203a ... \u203a Weather \u203a Travel",
+            "title": "Colorado 'Blizzard' Chaos as Snow Storm Causes Multiple ...",
+            "description": "However, the inclement weather continued across Colorado, ... The paper said \"at least a dozen vehicles had reportedly veered into a ditch,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

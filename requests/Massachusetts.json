@@ -1,0 +1,322 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 303000000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Massachusetts storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:47.912Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Massachusetts+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_sr7u2kkxv3"
+    },
+    "organic": [
+        {
+            "link": "https://www.wcvb.com/article/massachusetts-noreaster-coastal-winter-storm-march-14-2023/43274060",
+            "display_link": "https://www.wcvb.com \u203a article \u203a massachusetts-norea...",
+            "title": "Thousands without power, nearly 3 feet of snow for some in ...",
+            "description": "A long-lasting nor'easter brought wind-driven rain and nearly 3 feet to some Massachusetts towns Tuesday, and a few more inches of snow were ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wcvb.com/article/video-severe-storm-threat-across-mass-this-evening/44614566",
+            "display_link": "https://www.wcvb.com \u203a article \u203a video-severe-storm-thr...",
+            "title": "Video: Severe storm threat across Mass. this evening - Wcvb-tv",
+            "description": "GET LOCAL BREAKING NEWS ALERTS \u00b7 Recommended \u00b7 WCVB Boston.",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "5 days ago",
+                    "rank": 1
+                }
+            ],
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAFAAEDBAYHAv/EADwQAAIBAgQEAwUFBgYDAAAAAAECAwQRAAUSIRMxQVEGImEUMnGBkSOhweHwFUJSYrHxJDNTcpLRBzSi/8QAGQEAAwEBAQAAAAAAAAAAAAAAAgMEAQAF/8QALREAAgICAQEGBQQDAAAAAAAAAQIAEQMSITEEMlFhgaEiQZGx4RMUwfAFQnH/2gAMAwEAAhEDEQA/APD5hViOWL2iR9Z1MS1yOnPFNYJpCFXXdjbvqPY/LfGH/av82NB4KlOZ5u0NkkWKF52jfk9gLj4/9Yoyf44KuxyXXl+ZOmZ3YKFqaOalFPURx8UOoQl2iKtYgHkbH7xi9lImmy2qSYQzVBOoNdkYFQDe4NzbmDtbFn9jwwGp9ogppPZ5EURxoWL3JJ5DcBeotfT62xHU0FNDURr7LAixz3ka1klVXtoBJt59VhfsL254gXDjU7be35j8XYWLjYQdwUjRI6GSFEpZQ1ROVZnvt5VbYnYWvcWFsW9VNUVMTvUziYMxeQyhbsbbWNrWttt15b3xnfF0cwzTLKGj4UtZUXThwIEGvVYbDlcWbflffHWKPKIcj8O5fl8ExLRyh6qVAdUx0ln5EHmNt+QAwz9ohUZWNsfKLGNsOV1PP2+kyWZ8OlpdIjkkEyN9oiqQeoDne63tfncX2wJp8zlh/wDUmLQ2Ekv2ZFnPYsoJBBG5Hwvjdo1RNABNXMkoLIhid7EcIgMVFt9dmsfgCcR1sOaDiSNXwxcSMNwUeSy3lLWDBf4dvdv/AEK8nZWd9rqCy7WDX8zGASV01TVU6Qo0cQlmlZgjBeXS7G+/p8NseajM1fLjLNTxzxllidGDxSMoN1YHYke8CbD3vjfdhswaRkpKiOKZ5hIsxaR1dQCyxkabKN0UtclgDcXOCOX0FTHVLLWVCsi1EjhUmc3QgaQ3IE6tXQC1hvuSo9jfbZm9oYx4hbAfF43/ABOYmaAvJUmkjnaRQjymSUeUg3SzcrCy7bWW/W2EmaUtNVB20wu7bKshtuLHnjtXEpv9NP8AiMMWpf8ASj/4jB/t2Aq/aDnGTMbZv79ZgqJlzbKpaaaRX1IVJBvseuA2cQJRErDTUcqKxd4bmNCNJsLE6QRz5b2PK98bjO81phVmhiVVaOLjOwsB8Px+Yxz3Mq2tRiYoOIXQklDY9yT36enx2w7ChYBLuoWMhEom6hLJMuVYFrKZFhkUAaRLJIt9rndrchzsDue5wap8vijnM7yTSSm/vyMVBO50qSQBtyxl8g8RrDTcB4bzaydF7EA/1xsYrsBJuAwB0nphz4yhoiErhhYnoIBc+pIx4nhDxSKOb9ybX/Dlj2GB5G/wx6wsixU0gEVK606aV1Rre29uWFia5/hOFjYQNCpzqoq4adOHR5fl9XVyNYKKcOEtz6Wv88HWfLRRIkeXQe16QHZKRANXXmMQUIcymKmpkDS73WyBu5NsSVlO8NSsUssd7XKx+bT6EnEa5MveJiseMhtnPMpIsQJQ8LX2aBdvux6AtN9pFTCJRzMCc9j27XxPDIKdGvEkjpqKM9w1yBcX+Q+pwpMwkqolE6iNS4IfWTY2589zbb54IEnnaP8AMSKd+G+ukSKJ47lZFhVSDysCO98e6euzDjCJ6+bXysznFWCaRZOGswiiCl2lIB4Sg31b7XuB9+KtLOc0aTNaeQPosssWrzp2Yjse+CAsXNxfE9TQ1FbW00Xnq5m3GtUPmtfoTyOKdRm9dJNFermgQi/vWsBfUXsTYWG259eeKXtxllhdV+0VxbUORxcNOZUaaYzxlANbREdrG+x2Nr7bel9zNlxFuQaMZ2kjGw8OLkNLnVTKjVNTU5kihxw041lkFj/Jv8O298SZ9n9cskVRl1UyxmIMYwNRB63HcYo1ENK1XHNDVypLYDiAIVJa9hsASdj9MPmNNO9KaWNoKtpEVwzBIyw6m5HIXG3xPTcNior3kLls2XXEuoPTnj69JJXZxnFPldNVyTTU0rXQrM1hIdN78vLffb0NjtiWpzXMYHoRLVzGCamWZpAdN31EMo7WsL/HA+o4DVzySslRTScO0coZSjqLWW4AIPy726YPyZWJ3Rq2OljZYigbzO0dxuRdrC5A3HXGoGdVo+N9fQekv7Qcf6Ax4zbeIqUKRhX5nFBJxLu13ZJGF1BLX1A3Jva/5YL+IIo6R1rUfQETSFB970GA8c9LQs8kMMtRJrAjlKm/W4ABB5fHANp566pYV7uiRpqB0lbnntf8sen2ZQaFV/yRtarz1hXL6ukFfBUVUNwr316fdPQ42uX5jTV/E9lfXwzZja1sc6o4KmkgWur4HWjLWVS1i4ONPkGZPWzFKCiWCnC7sTue18U5V8IGNvGHrzQzmNI+JGzFiwIGjv8Ahhmr1WoWMwylGNhIFut8DEeoaWV2jlGhwkqk38vcdxgxST0jrw6SSNgo91Wvb5YmC0IwChQlgcsLC0ufdAthsdCmcqaE5UkVdFO8wba4XYXGKRniqZONJIouQLOQDqt15bYjrc8nzKJqRUWJLWCxgN9eowvZ6iljjp1nXW5LKksYLbgXvcED3QdzcWxLutVBsKBtJFNHK7xSrJckG6sPoDvz+7DTww8CSeKPXoJusV2BFuVuXzvicPOlOs3AkmZmBT2aJQ1x3NrAfL+mKVHUVUdXG9VHFHGq+SGMBmA2G7AADp9B2wDt8lPtE5MxvXGfa5mPEdayv7CkckNrNOGI1MxFwDboBbbub4DUVdU5dWJV0UmiVOfUMOoI6g9Ri54rUp4krLIdLkMhvzWwt/TAVyyurAnnvfFid0Ry9JsMqr6erramR1CCaxiRNhGeZU3PKwNjfofQY0lPMmZ0SQsJ5aQLpVKTbibnmzC/Q9l7FscypqnhShhpIuLq3I9f18cGMt8SV1VW8K1PGGVrRwxiMAgdCNxtsLcsT9pwNkFA0IbFShBFnz6Q9TUtNAKjQstKi7CIFnFt7KSxF/iRb4YJJKyze2VjyS00ULJII6NlvHdSdt7r5dRNjyIwKhklmjfU9LSOQTxWhZ5Qf9wGq/8AtJOIYBFBE0RmaNZX1SuYdMh9FuTbvf3vhuMRn4lOMD7/AH4mphxYse+wJ+QHJ/Ev0z0MMstTHw5YZXLCAwFUi3vpBY9PKLDBfMql4IYGrIeJx0BVZHBIIJ5dr3GB+qnoaWJqSOeSTQWik06lfuL+n1xWbOIqyWJ4BNOImbUKi41D0BJ7HFOPEVtukThB22I/v2nmsz+ZYJ04DPMP8hoqd2C87sbEgHf5WHbEHh+ePPaqlhrFaUxsVeQH1/exLMyVHFkVVAsSU6dv1bFvw7T08tW3GhKTHT9pq02ABN7noAD9Lb7WqxdoAGtesN0s3cNeI/D0+dNEorFp4IvcQJff+2LOR5GMrgVRUNJIObAWDD1GANd4tOXVEtNOs14gq642DLJcAg6jexIDem/LbenR+N0QRCWKSLX7xExfuP4Od7Hny++kjLpVcQLTbznQOLEjHzKH5+pxEIKZ34sIVZSLF1AvbtijQ1Pt8QlpaqOUDsw29Pdv/briKmqooapkkaxAufQ4TGQ4oOkaiCcNis8cjHVDJ5W3w+MnTHQ0skTkgPGbEEFd9jvtbnipHDmi5iEkhkjhjFraG8493e+5JK9et++DF2y+lGieYSWCoNZKjsQOVvy7Yb2lI4mElRINCecvITYAb9e344lR6BVfnOIBFxx5BpkaUKt2I30ja/wxC0lPNOvF1cP94qbkAdB23NsO9YDVhJGmtfVLG5I1i++x2PIj5YZI0nklMChgXJ2NgB1P1xjLpyZpYKOZk/8AyAiLm1NPFFw42h4dibk6WPmPxuMZmTz+UEg/HGl8ej/F0UetGJiY+R9Vrn8sZRo5l92RB8RvilDsoMEEHkR2gcqRxLXHbfG/yb2fRC9HRQrJKg8oTZL8yT+OOdlp1ILWI746nlNZT1fgmkoZZpEfhWbhLc7E4HNeticXKAkCzNGMpo58ugp5AoZt9SgEnuLj88DE8O07VU0SytwQfKxWzAlSfw+/E+Wu1PlFPFlvGnKhtUZPntuL36b8sX3qGy7KxUVCBKhn1aGa5vawH0t9+ATYkbCBjOQ98VBNTlxeITQaZ6aMjTw52HDO4639O3XAgyUKs8YoyhHLVO13G2/L7uxxCtZXyTmNI2UKG4kgJNwT1HfljPVS11RmVbw5ZpE4cjjiLdtIBNj6iwGGFVc8GN2oVD0zWYimhKtyVNV7nlzt3v0xA0syosiuaeQDZ72IHUfrnixTpEJVUyASizAGxstgVN/1ywN8RZdXSU0csgiMLOGOlrW7Xv8ALCMWIu04sALlXN4pquSOohLziVSWK72Kg8rel8CTHIdUBhkMquQRoOpSOY9MHssqoqXL6KCKT7dAdLxsQb3be/IC1hgvRZ5X08DS5nXOyWBbhpZr97k9yT88enhz5FXSuknfEpO1wVkFfWZQ6QI7KahTfWdTAjf8cHaKYyVDSyzEOfqSe2Ak+brX1kTNO06RSMYnkA1KGH5DBCJtUv2YJubgX3HXA0R1hg+E1UGfCKJY+FxNItqVrA4WMs0hRmA2FzsemHwOom7QnXECOKbhRaZDa+tT+7qGwJPK25xUSnMkesJzHvchjzPGaeCV5Yruu5Vzp36knntY/rbF6mhkdGeNgUstmtp3Puj1/DHmkGrHEImuIKipDTn2uYyvGrEcSV9uZJsTz3wby2JYqMvJPTrS1IsGfUX532Hp9+HzZadolatLJGsS6FEZkS9+Qtv/AH549NVipipkoK9IQCFWMUrktcHYDmdwN/X0wNux559ZKcrtwFFTC+Poaak8Rw0tCDwY6VW3a5JJJJ/+hgEW2x0/xPBBmGWywxpSpVzouljARJKy7Lcm2mw6b23Hx5bHqYeewPoMXKKUcSpegnjTd9Rvjp/hCejoskplmYiqN2a63ABJtf0tvbHO8tpKiuzSGlpI+I7gnTYG9sFMyWty2rkp6qVxKFF9LX2+XxwxcZfoRMLATe0ub0lLXyVjvGpeyhBqVQAbE8ul/r9cDXzShzavp3mrEqYDZn0uQRdiAFvb+3rjBOmuns6uhYjTq7defyxs/CXhpMxFPm80kYghY2jHvMFvz7dPpgm7PqvJmDLZ6Sy1Q01c3sMJgQ3XnbXvzJP4Y9+MPDrQUJzOlqOHJo/xCl9IYHt+t8Q5oZf2mQ0bhZHve3Q9vmfuxdzTIKyXLzNVTlk2+xZjy6fPAKoU3NNmCPBxDxVHt0ZMkTKA0i3ICiwUfDfBPMaWmzRleWpSSNTskQAAN77knbtfbF/JstVF0uN38xHfDU9LAMxeOkhaGQG7W6i/I41iLsTgDXMHVOQQJmArokaRlBGnSVDAi1t+X674Gy5Y1a4pBoLvf3m0Dy3Niemw+/G/Wnjqkk30kE+UdMQtktErNNMPMfeHTHBiJpUGcyl8H5zBIXpYVawBCGZNTAkAWF/X7jg/lmUV8UCmeNEkNit5U5XCkE3/AJh3vi/muWwxQyS0kYVdWqynn0+uAeuGLf3WvfUTucMORn6wNQvSe3e7EkE3wsOnDlGq1u4wsZOhSSmily2g4ilvaCeKdR836tgTmNTNJnghZ/so5bJGAAq7MdgPUDDYWPLfvLA7X/r6whXgwS0SxM6iWEiTzHzbR/8AZ+pxvMsoqWko4vZqeOM6BdgvmO3U8zh8LHq51H6nSMUmplPFaqa9m0jUNNjbcbMP18uwxy2b/PlPdiThsLAHuicOsJeFCUqcxlQlZEy+QqwNiPMmPYdoc11IzFlrZIwXOvyhLjnf688LCwAhSPPqqarzR5J2DPwwLhQP6DHQ/wDxmi/sYxWukjMzg9TsPwwsLDX7ggjvTU1FNBKVMkSMV90kcsVqwBpnRt1tex+GFhYUYcz2UyyPnShnYjcWvjTwRoKueQKNZ074bCxx6zpTytj+0K1L+XWDb5YtZn/kEdMLCxk6Ax5opNW9lBH1Axkc+ARpNItblhYWGLBMipWPATfphYWFg4M//9k=",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "1:51",
+            "duration_sec": 111,
+            "date": "5 days ago",
+            "source": "Wcvb-tv",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bostonglobe.com/2023/03/14/metro/rains-have-come-snow-too/",
+            "display_link": "https://www.bostonglobe.com \u203a rains-have-come-snow-too",
+            "title": "Massachusetts and Boston storm, outages March 14",
+            "description": "Over 32,000 without power in Mass. as storm brings heavy snow, strong winds, rain to New England ... Read full article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.bostonherald.com/2023/03/12/noreaster-to-blast-massachusetts-dumping-12-plus-inches-of-heavy-snow-in-spots-a-pretty-impressive-snowstorm/",
+            "display_link": "https://www.bostonherald.com \u203a 2023/03/12 \u203a noreast...",
+            "title": "Nor'easter to blast Massachusetts; new rain-to-snow tracker",
+            "description": "A powerful nor'easter is set to blast Massachusetts from Monday evening through Wednesday, dumping several inches of heavy wet snow as strong ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcboston.com/news/local/massachusetts-noreaster-hour-by-hour-timeline-of-this-weeks-big-winter-storm/2994917/",
+            "display_link": "https://www.nbcboston.com \u203a news \u203a local \u203a massachu...",
+            "title": "Hour-by-Hour Timeline of This Week's Big Winter Storm",
+            "description": "This week's nor'easter expected to bring a wide range of potentially devastating impacts to Massachusetts, including up to 18 inches of snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wbur.org/news/2022/12/22/boston-massachusetts-winter-storm-forecast-christmas-weekend",
+            "display_link": "https://www.wbur.org \u203a news \u203a 2022/12/22 \u203a boston-...",
+            "title": "Rain and wind hit Mass., with potential for flash freezing ...",
+            "description": "A storm from the Midwest on Thursday delivered Greater Boston a dose of wind and rain, along with crashing temperatures.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.npr.org/2023/03/14/1163334629/noreaster-storm-snow-new-england-outages",
+            "display_link": "https://www.npr.org \u203a 2023/03/14 \u203a noreaster-storm-sno...",
+            "title": "Nor'easter dumps snow on New York, Massachusetts ...",
+            "description": "The winter storm's effects are being made worse by 55-mph wind gusts, coastal flooding and the wet, dense snow it's bringing, forecasters say.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.cbsnews.com/boston/news/boston-weather-forecast-snow-ice-rain-storm-friday-saturday-massachusetts-wbz/",
+            "display_link": "https://www.cbsnews.com \u203a CBS Boston \u203a Local News",
+            "title": "After wet Saturday morning, more snow expected in ...",
+            "description": "Here is the latest on our winter storm: As expected, most of the snow accumulation has occurred north of the Mass Pike.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.nytimes.com/2021/10/27/us/cape-cod-noreaster.html",
+            "display_link": "https://www.nytimes.com \u203a cape-cod-noreaster",
+            "title": "Nor'easter Brings Hurricane-Force Winds to Massachusetts",
+            "description": "After soaking the New York region, a nor'easter brought hurricane-force winds to parts of Massachusetts and caused widespread power outages in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 27, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.washingtonpost.com/nation/2022/01/30/winter-storm-bomb-cyclone-outages/",
+            "display_link": "https://www.washingtonpost.com \u203a nation \u203a 2022/01/30",
+            "title": "Massachusetts residents dig out after 'bomb cyclone' storm",
+            "description": "CENTERVILLE, Mass. \u2014 Electricity was coming back online Sunday night after a winter storm with heavy snow and punishing winds pummeled ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Snow+storm+Massachusetts&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAg0EAE",
+            "text": "snow storm massachusetts",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Nor+easter+Massachusetts&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgzEAE",
+            "text": "nor'easter massachusetts",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Boston+weather&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgyEAE",
+            "text": "boston weather",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=nor%27easter+boston+2023&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgxEAE",
+            "text": "nor'easter boston 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Massachusetts+weather&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgwEAE",
+            "text": "massachusetts weather",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Snow+storm+Boston&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgvEAE",
+            "text": "snow storm boston",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Nor+easter+this+week&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAguEAE",
+            "text": "nor'easter this week",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=what+is+a+nor%27easter&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ1QJ6BAgtEAE",
+            "text": "what is a nor'easter",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What states will be affected by nor Easter?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+states+will+be+affected+by+nor+Easter%3F&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQzmd6BAghEAY",
+            "answer_source": "Powerful nor'easter expected to bring heavy snow, power outages to parts ...",
+            "answer_link": "https://www.cbsnews.com/news/powerful-noreaster-heavy-snow-rain-power-outages-northeast-winter-storm-march/",
+            "answer_display_link": "https://www.cbsnews.com \u203a news \u203a powerful-noreaster-h...https://www.cbsnews.com \u203a news \u203a powerful-noreaster-h...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCEQBQ\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQu04oAHoECCEQBQ\"><div id=\"bpnBZK-UDpLJwPAP2LyXqAI__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Although these storms can happen at any time, they occur most often, and are generally \"most violent\" between September and April, the agency says, noting that nor'easters usually develop along the eastern seaboard between <b>Georgia and New Jersey</b> and are known to hit the densely-populated region between Washington, D.C. ...</span></span><span class=\"kX21rb ZYHQ7e\">Mar 13, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Although these storms can happen at any time, they occur most often, and are generally \"most violent\" between September and April, the agency says, noting that nor'easters usually develop along the eastern seaboard between Georgia and New Jersey and are known to hit the densely-populated region between Washington, D.C. ...Mar 13, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 6
+        },
+        {
+            "question": "What was Massachusetts worst storm?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+was+Massachusetts+worst+storm%3F&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQzmd6BAgkEAY",
+            "answer_source": "The 14 Most Infamous Storms on the North Shore of Massachusetts",
+            "answer_link": "https://www.woodmans.com/14-most-infamous-storms-north-shore/",
+            "answer_display_link": "https://www.woodmans.com \u203a 14-most-infamous-storms-...https://www.woodmans.com \u203a 14-most-infamous-storms-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQu04oAHoECCQQBQ\"><div id=\"bpnBZK-UDpLJwPAP2LyXqAI__18\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCkQAA\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQ4dMGegQIKRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCkQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCAQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AZGAmI\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQyQ0oAHoECCAQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;bvpeXtaYmC9_EM;AZGAmM\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"bvpeXtaYmC9_EM\" data-lpage=\"https://www.woodmans.com/14-most-infamous-storms-north-shore/\" data-ni=\"1\" data-ref-docid=\"sQcYt_qr_8Ct2M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCMQAA\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQzkx6BAgjEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-7px;width:163px\" alt=\"The 14 Most Infamous Storms on the North Shore of Massachusetts\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIJX_PiRrRbOL1zdGr_AsHeFydaGioMV8yANUtwd3S_A&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"bpnBZK-UDpLJwPAP2LyXqAI__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">1. <b>The Great Hurricane of 1938</b>. With 138 mph gusts, this Category 3 hurricane was arguably the worst storm to ever hit New England. Dubbed the \u201cLong Island Express\u201d, this storm led to 564 deaths and 1,700 injuries, while also destroying 9,000 homes and businesses and damaging an additional 15,000 structures.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "1. The Great Hurricane of 1938. With 138 mph gusts, this Category 3 hurricane was arguably the worst storm to ever hit New England. Dubbed the \u201cLong Island Express\u201d, this storm led to 564 deaths and 1,700 injuries, while also destroying 9,000 homes and businesses and damaging an additional 15,000 structures."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 7
+        },
+        {
+            "question": "Has it ever snowed in July in Massachusetts?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Has+it+ever+snowed+in+July+in+Massachusetts%3F&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQzmd6BAgmEAY",
+            "answer_source": "9 Times It Snowed Like Crazy in Spring and Summer in Boston",
+            "answer_link": "https://wror.com/listicle/9-times-it-significantly-snowed-in-spring-and-summer-in-boston/",
+            "answer_display_link": "https://wror.com \u203a listicle \u203a 9-times-it-significantly-snow...https://wror.com \u203a listicle \u203a 9-times-it-significantly-snow...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCYQBQ\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQu04oAHoECCYQBQ\"><div id=\"bpnBZK-UDpLJwPAP2LyXqAI__24\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">One inch of snow can bring Boston's public transportation system to a screeching halt (thanks MBTA!). So you can only imagine the chaos that ensues when <b>there's a full-blown snowstorm in the middle of July</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 16, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "One inch of snow can bring Boston's public transportation system to a screeching halt (thanks MBTA!). So you can only imagine the chaos that ensues when there's a full-blown snowstorm in the middle of July.Mar 16, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 8
+        },
+        {
+            "question": "What is the meaning of Nor Easter?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+is+the+meaning+of+Nor+Easter%3F&sa=X&ved=2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQzmd6BAgiEAY",
+            "answer_source": "What is a Nor'easter? - National Weather Service",
+            "answer_link": "https://www.weather.gov/safety/winter-noreaster",
+            "answer_display_link": "https://www.weather.gov \u203a safety \u203a winter-noreasterhttps://www.weather.gov \u203a safety \u203a winter-noreaster",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwivg6m7sa2AAxWSJBAIHVjeBSUQu04oAHoECCIQBQ\"><div id=\"bpnBZK-UDpLJwPAP2LyXqAI__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A Nor'easter is <b>a storm along the East Coast of North America</b>, so called because the winds over the coastal area are typically from the northeast. These storms may occur at any time of year but are most frequent and most violent between September and April.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A Nor'easter is a storm along the East Coast of North America, so called because the winds over the coastal area are typically from the northeast. These storms may occur at any time of year but are most frequent and most violent between September and April."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 307000000,
+        "search_time": 0.32,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Massachusetts storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:32:36.056Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Massachusetts+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_u29zhxwosk"
+    },
+    "organic": [
+        {
+            "link": "https://patch.com/massachusetts/boston/ma-weather-bomb-cyclone-exploding-region-rain-wind",
+            "display_link": "https://patch.com \u203a massachusetts \u203a boston \u203a ma-weath...",
+            "title": "'Bomb Cyclone' Nor'easter Starts Slow, Ramping Up",
+            "description": "MA Weather: 'Bomb Cyclone' Nor'easter Starts Slow, Ramping Up - Boston, MA - The powerful storms' quiet start won't last much longer as the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 16, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wired.com/story/a-bomb-cyclone-brings-massive-flooding-to-new-englandagain/",
+            "display_link": "https://www.wired.com \u203a Science \u203a extreme weather",
+            "title": "A Bomb Cyclone Brings Massive Flooding to New England ...",
+            "description": "\u201cTree down on a house on Mayflower Street.\u201d \u201cWires down on at Keene Street and Congress.\u201d The seaside Massachusetts town is now firmly in the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.woodmans.com/14-most-infamous-storms-north-shore/",
+            "display_link": "https://www.woodmans.com \u203a 14-most-infamous-stor...",
+            "title": "The 14 Most Infamous Storms on the North Shore",
+            "description": "Gusts recorded at Blue Hill Observatory in Massachusetts were measured at 135 mph, while gusts at the New Bedford Airport hit 110 mph in a sheltered area.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Massachusetts+storm+%22article%22&sa=X&ved=2ahUKEwj3qYuC362AAxXBF1kFHVdpDCk4EBDm3gJ6BAgYEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.boston25news.com/news/local/winter-storm-warning-effect-parts-massachusetts-new-hampshire/OTFMQCGCDVGINPGE3I2LDKODME/",
+            "display_link": "https://www.boston25news.com \u203a news \u203a local \u203a winte...",
+            "title": "Winter storm warning in effect for parts of Massachusetts, ...",
+            "description": "In Massachusetts, parts of Worcester, Middlesex, Franklin, Hampshire, and Berkshire counties are under the warning from through Monday evening, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://live959.com/western-massachusetts-braces-for-another-winter-storm-its-big-this-time/",
+            "display_link": "https://live959.com \u203a western-massachusetts-braces-for...",
+            "title": "Western Massachusetts Braces for Another Winter Storm",
+            "description": "Now I'm not trying to tease everyone here, because I know winter storm Keenan which made landfall over the weekend was disappointing for some of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/",
+            "display_link": "https://www.boston.com \u203a weather \u203a 2023/03/02 \u203a sno...",
+            "title": "Snow maps: How much accumulation to expect in Mass.",
+            "description": "Forecasters are predicting a storm will arrive Friday night in Massachusetts, bringing with it a wintry mix of snow, sleet, and rain.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.mass.gov/info-details/winter-storm-safety-tips",
+            "display_link": "https://www.mass.gov \u203a info-details \u203a winter-storm-saf...",
+            "title": "Winter Storm Safety Tips",
+            "description": "Winter storms in New England can range from freezing rain and ice, to a moderate snowfall over a few hours, to blizzard conditions with blinding wind-driven ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Winter_storm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Winter_storm",
+            "title": "Winter storm",
+            "description": "A winter storm is an event in which wind coincides with varieties of precipitation that only ... This article is about storms in winter. For other uses, see Winter storm (disambiguation). \"Snowstorm\" redirects here. For other uses, see Snowstorm ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.metrowestdailynews.com/story/weather/severe/2023/03/13/snow-high-winds-forecast-west-of-boston-tuesday-power-outages/70001036007/",
+            "display_link": "https://www.metrowestdailynews.com \u203a 2023/03/13",
+            "title": "Foot of snow, high winds forecast for west of Boston Tuesday",
+            "description": "The National Weather Service has issued a winter storm warning for most of western Massachusetts, but also including northern Worcester and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.westernmassnews.com/",
+            "display_link": "https://www.westernmassnews.com",
+            "title": "Western Mass News: Springfield News, Weather, and Sports",
+            "description": "Western Mass News is digging deeper and getting answers for you on the latest headlines and breaking news from Springfield and across the Pioneer Valley.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

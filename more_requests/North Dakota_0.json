@@ -1,0 +1,176 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 16800000,
+        "search_time": 0.6,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:27.834Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Dakota+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_6q442d88l9p"
+    },
+    "organic": [
+        {
+            "link": "https://www.fox9.com/weather/north-dakota-blizzard-april-4-2023",
+            "display_link": "https://www.fox9.com \u203a weather \u203a north-dakota-blizzard...",
+            "title": "North Dakota under blizzard warning, no travel advised - FOX 9",
+            "description": "FARGO, N.D. (FOX 9) - A blizzard warning is in effect for much of North Dakota Tuesday through Wednesday as heavy snow and strong winds will ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2022-11-07-west-winter-storm-northern-plains-blizzard-snow",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Winter Storm Alejandra Brings Blizzard, Ice to the Northern ...",
+            "description": "Thundersnow was detected late Thursday morning near Valley City, North Dakota, according to the National Weather Service. Article image.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.kare11.com/article/weather/winter-storm-rolls-through-dakota-northwestern-minnesota/89-c29a11ec-d8a8-4c22-9b90-dcecac856bdf",
+            "display_link": "https://www.kare11.com \u203a article \u203a weather \u203a winter-st...",
+            "title": "Winter storm rolls through North Dakota, northwest Minnesota",
+            "description": "Storm warnings were issued Thursday for western Montana, southwestern through northeastern South Dakota and parts of northwestern Minnesota.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.kfyrtv.com/2023/04/02/windy-sunday-with-snow-showers-across-north-tracking-high-impact-snowstorm-tuewed/",
+            "display_link": "https://www.kfyrtv.com \u203a 2023/04/02 \u203a windy-sunday-w...",
+            "title": "Tue. AM UPDATE: High-impact blizzard expected Tuesday ...",
+            "description": "(This article was last updated at 5 a.m. Tuesday.) Snow will begin before sunrise Tuesday along the ND/SD border, pushing north to the I-94 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.foxweather.com/weather-news/north-dakota-winter-storm-near-white-out-conditions",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a north-...",
+            "title": "Near white-out conditions reported in North Dakota during ...",
+            "description": "The northern Plains' first major winter storm of the season started Wednesday night with freezing rain, or rain that freezes on contact. It ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nytimes.com/2019/10/11/us/north-dakota-weather-blizzard.html",
+            "display_link": "https://www.nytimes.com \u203a north-dakota-weather-blizzard",
+            "title": "Storm Bringing 'Historic' Snowfall to Northern Plains",
+            "description": "Blizzard conditions closed roads and schools in parts of North Dakota on Friday, as temperatures plummeted across the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 11, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-10715789/Montana-North-Dakota-hit-one-century-blizzard.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-10715789",
+            "title": "Montana and North Dakota are hit by 'one-in-a-century' ...",
+            "description": "Wicked weather has struck across the U.S. leaving behind mountains of snow and freezing temperatures. Areas saw tornadoes, thunderstorms, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://globalnews.ca/tag/north-dakota-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a north-dakota-storm",
+            "title": "North Dakota storm | News, Videos & Articles",
+            "description": "North Dakota storm videos and latest news articles; GlobalNews.ca your source for the latest news on North Dakota storm .",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=ukMg-2cLrQ4",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Storm brings heavy snow, winds to North Dakota - YouTube",
+            "description": "Nearly a foot of snow is being dropped in parts of North Dakota.People in the Fargo-Moorhead area are digging out after nearly a fit of snow ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "WKYC Channel 3",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Mar 1, 2023",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "duration": "1:10",
+            "duration_sec": 70,
+            "author": "WKYC Channel 3",
+            "date": "Mar 1, 2023",
+            "source": "YouTube",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.agweek.com/news/north-dakota-remembers-a-perfect-storm",
+            "display_link": "https://www.agweek.com \u203a news \u203a north-dakota-reme...",
+            "title": "North Dakota remembers a 'perfect' storm",
+            "description": "JAMESTOWN, N.D. -- Fifty one years ago this week, most of North Dakota took ... An Associated Press article on Saturday, March 5, 1966, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

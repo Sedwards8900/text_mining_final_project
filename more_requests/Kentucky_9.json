@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 53300000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:21.030Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_ll051ze79xe"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnbc.com/2021/12/11/kentucky-gov-declares-state-of-emergency-after-deadly-tornado.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/12/11 \u203a kentucky-gov-dec...",
+            "title": "Kentucky Gov. declares state of emergency after deadly ...",
+            "description": "Beshear said the tornado that slammed through Western Kentucky struck the city Mayfield before moving northeast through Benton, Princeton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://news.yahoo.com/more-bad-weather-projected-kentucky-124456636.html",
+            "display_link": "https://news.yahoo.com \u203a more-bad-weather-projected...",
+            "title": "More bad weather projected as Kentucky communities ...",
+            "description": "Torrential rainfall and damaging winds are expected to be the main hazards in a storm system taking aim at Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsiltv.com/news/kentucky/severe-storms-cause-damage-throughout-western-kentucky-southern-illinois/article_4adf300e-d3ed-11ed-aca0-a794caa61b04.html",
+            "display_link": "https://www.wsiltv.com \u203a news \u203a kentucky \u203a article_4adf...",
+            "title": "Severe storms cause damage throughout Western ...",
+            "description": "MURRAY, Ky. -- Communities in multiple western Kentucky counties received damage after storms swept through the area Wednesday afternoon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.lpm.org/investigate/2021-12-17/in-western-kentucky-tornadoes-are-frequent-and-put-billions-at-risk",
+            "display_link": "https://www.lpm.org \u203a investigate \u203a in-western-kentuc...",
+            "title": "In western Kentucky, tornadoes are frequent",
+            "description": "The threat is especially high in the counties in the path of last week's deadly tornado front: Fulton, Hickman, Graves, Marshall, Lyon, Caldwell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wkyt.com/2023/03/03/team-coverage-4-confirmed-deaths-ky-high-winds-blew-through/",
+            "display_link": "https://www.wkyt.com \u203a 2023/03/03 \u203a team-coverage-4-...",
+            "title": "4 confirmed deaths in Ky. as storms, high winds blew through",
+            "description": "FRANKFORT, Ky. (WKYT) - At least four people are dead after severe weather blew across Kentucky. Governor Andy Beshear confirmed three ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.poynter.org/reporting-editing/2021/exhausted-journalists-are-rising-to-the-kentucky-tornado-disaster/",
+            "display_link": "https://www.poynter.org \u203a reporting-editing \u203a exhaust...",
+            "title": "Exhausted journalists are rising to the Kentucky tornado ...",
+            "description": "Authorities survey damage from a tornado is seen in Mayfield, Ky., on Saturday, Dec. 11, 2021. Tornadoes and severe weather caused ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wtvq.com/beshear-declares-state-of-emergency-in-ky-ahead-of-strong-storms/",
+            "display_link": "https://www.wtvq.com \u203a beshear-declares-state-of-eme...",
+            "title": "Beshear declares state of emergency in Ky. ahead ...",
+            "description": "Gov. Andy Beshear declared a state of emergency Friday in Kentucky ahead of strong storms and gusty winds the state is expected to get.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cnn.com/2021/12/14/weather/kentucky-tornadoes-storms-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a kentucky-tornadoes-storms-tuesday",
+            "title": "Kentucky tornadoes: In one town, many survivors are left ...",
+            "description": "About 75% of one town, Dawson Springs in western Kentucky, was wiped out by the tornado, Mayor Chris Smiley said. \u201cRight now, our spirits are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://abcnews.go.com/US/flooding-rain-la-south-braces-tornadoes/story?id=97548217",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Severe weather in the South leaves 5 dead in Kentucky",
+            "description": "Five people are dead in Kentucky after severe weather brought thunderstorms and wind gusts which reached up to 75 miles per hour in the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.axios.com/2023/01/30/winter-weather-storm-ice-texas-kentucky-flight-delays",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "Dangerous ice storm underway as Arctic air surges south",
+            "description": "Winter storms and ice freeze U.S.. Winter storm and ice storm warnings were in effect across several states, from Texas to Arkansas to Kentucky, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

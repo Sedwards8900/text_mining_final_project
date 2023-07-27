@@ -1,0 +1,176 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 53300000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:43.297Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.5 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_wp57ha2qzvd"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/floods-storms-science-kentucky-united-states-a31b08dff5cd84dbcab3d370dd0c3d53",
+            "display_link": "https://apnews.com \u203a article \u203a floods-storms-science-k...",
+            "title": "EXPLAINER: One weather system floods St. Louis and ...",
+            "description": "The same stubborn weather system caused intense downpours in St. Louis ... inflatable boats across flood waters over a road in Jackson, Ky., ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/jkl/svrwxclimo",
+            "display_link": "https://www.weather.gov \u203a jkl \u203a svrwxclimo",
+            "title": "East Kentucky Severe Weather Threats",
+            "description": "This article details the outbreak and includes statistics for east tornado to affect the NWS Jackson, KY forecast area that day.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2022-02-02-tornado-outbreak-then-ice-storm-kentucky-tennessee-arkansas",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Ice Storm Strikes Tornado-Ravaged Areas of Tennessee, ...",
+            "description": "A damaging ice storm is underway in parts of Kentucky and Tennessee still recovering from a destructive and deadly December tornado outbreak.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://spectrumnews1.com/ky/louisville/news/2023/04/05/severe-weather-kentucky",
+            "display_link": "https://spectrumnews1.com \u203a severe-weather-kentucky",
+            "title": "3 tornadoes, 1 death reported in Louisville after storm ...",
+            "description": "KENTUCKY \u2014 A line of severe thunderstorms and extreme winds passed across Kentucky Wednesday evening, spinning up at least three tornadoes in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wlwt.com/article/kentucky-severe-weather-threat-storms-tornado-beshear/43176558",
+            "display_link": "https://www.wlwt.com \u203a article \u203a kentucky-severe-wea...",
+            "title": "Kentucky Gov. Beshear issues state of emergency ahead ...",
+            "description": "\"Kentucky is facing dangerous weather, with severe storms, damaging winds and the possibility of tornadoes and flooding. I want to make sure we ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.kentucky.com/news/weather-news/article276931183.html",
+            "display_link": "https://www.kentucky.com \u203a news \u203a article276931183",
+            "title": "Tornadoes, hail, wind and haze. Kentucky weather keeps ...",
+            "description": "Kentucky had many rounds of unseasonable, unusual & severe weather over the past year, including floods, extreme cold, high winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 3, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Kentucky+storm+%22article%22&sa=X&ved=2ahUKEwj4rIew3q2AAxWjADQIHa68AiQ4CxDm3gJ6BAgXEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.courier-journal.com/story/news/2021/12/11/what-we-know-about-kentucky-tornadoes-storm-damage-power-outages-deaths/6475716001/",
+            "display_link": "https://www.courier-journal.com \u203a news \u203a 2021/12/11",
+            "title": "What we know about Kentucky tornadoes, storm damage ...",
+            "description": "Kentucky tornadoes: What to know about the damage, deaths after overnight storms ... While much of the nation slept early Saturday morning, a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.newsweek.com/photos-show-aftermath-deadly-kentucky-storm-over-400k-lost-power-1785538",
+            "display_link": "https://www.newsweek.com \u203a photos-show-aftermath-...",
+            "title": "Photos Show Aftermath of Deadly Kentucky Storm as Over ...",
+            "description": "Lexington and the central Kentucky region experienced severe weather on Friday afternoon as high-speed winds and two tornadoes swept through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnbc.com/2021/12/11/kentucky-gov-declares-state-of-emergency-after-deadly-tornado.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/12/11 \u203a kentucky-gov-dec...",
+            "title": "Kentucky Gov. declares state of emergency after deadly ...",
+            "description": "Beshear said the tornado that slammed through Western Kentucky struck the city Mayfield before moving northeast through Benton, Princeton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://news.yahoo.com/more-bad-weather-projected-kentucky-124456636.html",
+            "display_link": "https://news.yahoo.com \u203a more-bad-weather-projected...",
+            "title": "More bad weather projected as Kentucky communities ...",
+            "description": "Torrential rainfall and damaging winds are expected to be the main hazards in a storm system taking aim at Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

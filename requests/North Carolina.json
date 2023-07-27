@@ -1,0 +1,311 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31000000,
+        "search_time": 0.34,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:14.144Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_vs8zidfc96"
+    },
+    "organic": [
+        {
+            "link": "https://www.wxii12.com/article/north-carolina-severe-weather-storms-tornadoes-alerts/44347277",
+            "display_link": "https://www.wxii12.com \u203a article \u203a north-carolina-sev...",
+            "title": "North Carolina Weather: Live storm blog with real-time ...",
+            "description": "Storms moved through Monday night across North Carolina leaving behind hail, storm damage, and power outages. Check out real-time updates ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wxii12.com/article/north-carolina-storm-updates-warnings-hail/44398006",
+                    "display_link": "https://www.wxii12.com \u203a article \u203a north-carolina-stor...",
+                    "title": "Flash flooding, wind damage, power outages",
+                    "description": "WINSTON-SALEM, N.C. \u2014. Scattered thunderstorms continue moving through the Northern Piedmont and eastern Piedmont Triad this Sunday.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 9, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.newsobserver.com/news/weather-news/",
+            "display_link": "https://www.newsobserver.com \u203a news \u203a weather-news",
+            "title": "Raleigh North Carolina Weather News & Reports",
+            "description": "Follow the latest Raleigh, NC and The Triangle North Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "link": "https://climate.ncsu.edu/climateblog/",
+            "display_link": "https://climate.ncsu.edu \u203a climateblog",
+            "title": "North Carolina Climate Blog",
+            "description": "Subscribe to the Climate Blog Smoke and Storms Fill the Skies in JuneJuly 10, 2023 Cool and at times smoky conditions continued in June, while a week of ...",
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "link": "https://abc11.com/weather-forecast-nc-raleigh/44993/",
+            "display_link": "https://abc11.com \u203a weather-forecast-nc-raleigh",
+            "title": "Find Ways to Stay Cool - ABC11",
+            "description": "RALEIGH, N.C. (WTVD) -- First Alert: A heat wave (3 or more days at 95+) is expected for Central NC today through Saturday. Feels-like temps will top out at ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=North+Carolina+storm+%22article%22&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ5t4CegQILhAB",
+                    "rank": 2
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.readync.gov/stay-informed/north-carolina-hazards/hurricanes",
+            "display_link": "https://www.readync.gov \u203a north-carolina-hazards \u203a h...",
+            "title": "Hurricanes",
+            "description": "Heavy winds, tornadoes, strong thunderstorms, flooding, storm surge and landslides can all be caused by hurricanes causing tragic damage. The Atlantic Hurricane ...",
+            "rank": 5,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.weather.gov/mhx/Sep161999EventReview",
+            "display_link": "https://www.weather.gov \u203a mhx",
+            "title": "Hurricane Floyd",
+            "description": "Floyd was a large and intense Cape Verde hurricane that pounded the Bahama Islands, seriously threatened Florida, struck the coast of North Carolina and ...",
+            "subresults": [
+                {
+                    "link": "https://www.weather.gov/mhx/Florence2018",
+                    "display_link": "https://www.weather.gov \u203a mhx \u203a Florence2018",
+                    "title": "Historical Hurricane Florence, September 12-15, 2018",
+                    "description": "Hurricane Florence was a long-lived Cape Verde hurricane and the wettest tropical cyclone on record in the Carolinas. The sixth named storm, third hurricane ...",
+                    "global_rank": 15,
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 14
+        },
+        {
+            "link": "https://www.wfmynews2.com/article/weather/north-carolina-busy-hurricane-season/83-6a4e9ecf-8657-4297-afdb-a1b7a7f15a30",
+            "display_link": "https://www.wfmynews2.com \u203a article \u203a weather \u203a nor...",
+            "title": "Will it be a busy Hurricane Season for North Carolina?",
+            "description": "The NOAA is predicting a near-normal hurricane season this year. Related Articles. Lower humidity arrives for the weekend. Looking back, our ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 16
+        }
+    ],
+    "videos": [
+        {
+            "link": "https://www.wyff4.com/article/dashcam-video-ef-3-tornado-north-carolina/44637235",
+            "duration": "1:23",
+            "duration_sec": 83,
+            "title": "North Carolina: Tornado dashcam video",
+            "source": "WYFF 4",
+            "author": "WYFF 4",
+            "date": "1 day ago",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYHAQj/xABAEAABAwMCAgcGBAMFCQAAAAABAgMEAAUREiEGMRMUIkFRYYEyU3GRkqEVQlKxByMzcoKiwdEWJCU0Q2Jz8PH/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJBEAAgIBAwMFAQAAAAAAAAAAAAECESEDEjETQVEEFCIyYYH/2gAMAwEAAhEDEQA/AND1Zr3bf0Cl1dr3SPoFXk6xSoqS4hPToAJy2Mn5c/lVI5NiNpClvJALgb7+yo7AHw38a9+OtpyVpo8d6eosNHnVmvdI+kUurte7R9IooJGknbA509TSkHCkkGrtEZAurt+6b+kV71dr3Tf0ijEtlTKXkgFpRICgcgkc6800k0wdoE6u17pv6RXvVmvdN/SKLCKdootABdXa90j6RS6u17pv6BRuivNFGAsD6u17pv6RS6u17pv6RRmiloowFgfVm/dN/QKZ1dvp/wCkj2P0jxo/RURR/vQ/8Z/eplWCovkh6s37pv6RS6s37pv6RReivdNPArBOrNe6b+kV71Zr3Tf0iitNLTTtAC9Wa9039Aryi9NKi0BWL44jBDrnDspcfoBqVFktgsukHdKSAcEgDG4TvnxrRx73EuLK5YZbbkhABejLDmcnACk7FW/cQSPXJ5REjB4vpdikpS1nKUdyhsUjvzufOtFYba1qj/yUtpWFawpPZGOWoeJ3weQ76+dbSPcUWzRR7pYXmOqTls6kkuudV6VpvPiRsBz5bimucYcJsXWLaP5+l1elL5BDSN8e0TnBO3LFc7vpX0jqY6ktBpzGsAghOeah68/Kqu42tT8Vh1RU4sJ9tAzkZ3B7uXL18qtSaymQ4p4aPoI2+2x4qo6HOjbWsujSeR8vKnQBZHH1R47sZ6QNy2pYK/jp8K+Wyyl9tuW8oFCAEdGonIznGPLb9qvItrct8qD1ZYS4hQktLSNkEZJ9MfsaN8q5E4R8H00G4yF9ElDIXjOkJGceOKcuMwv22W1fFIrlsi7QrLcBOivSJNzciNoUjWoNZ71KzuTy2GOVbzg9+8SrOH7+GRIW4ot9EnT/AC/y5Hcef2pW/I6RLNsbD2CwegVqGcDIIzvt44zU4s0AD+jn+8asKz/Gki7N8PzP9n0FU/R2FJGVAd+kYwVfHYVfVnVWR0oeDnnG3G5tvEC7LaLU230TqWlyXsqK1bEhAzjG43PnyxVK5xdcXJzyQ80hpt0gJQ0kbA9/f96GjlXV35E6yjrrLiVpclBXRhKydRKVndZ5hQ5eVDcQ8PPuEz7S2ouSsu9XZeDyQrdSsK7tiOzuoE9+aXVn5G9OPg6TaZzVzipea9rktHek0U9GdZmNdI2pIU0ojI57p/1rkNg4mufDa+uMDpXgNK46lZTjv1jGQP8APFa6wfxJlMuF/iWKmSwnKCYwBUC6oqJxndI0JAG3Pma6fdyxaOf2iy7NnorzRRltet3EFvTcuH5CX4yjgo3CkEcwQdwfI0NIkMRn0svLCXFAnSeYHifAV1Q1oyVo5JaM4umhmipm4b7qctsrUPEChrbcUzFTi1GUWYuAXlKwSo8gE4zjv1eVU134mudp4SuU+K/0M1M1roG1J1AN9hKtj471lqepr6m8PS39malNpmkZDBHxUBSrjav4q8aFR/4jHTvyTFRgfY0qy91qGntdPyav8OujSozzqEolJStSy2pOrA0kat8DSd8AHOB3b0EzcZAugYuCVOpIRh1eQUEEBOVA4I5drHx761F6tabbZH122Y5NjlWlUdpgrcyeZISQScfmIPIbEV4zGtZgQWbi62yZCdTLb7HQqbHgNkpB2HPHhXC64O1MzsqIuRKW8E5W44VOv9kBSSrckk7D2vDfurxu1smc2mO20qMrUodnOggHs9+Ttt3Z+dbt+JEhRW4ki0XWchCAUuJwoADljSrA28KZF/BXnlRGOHSHQSdUlKACsjGcknVyHjS4HaZiZPD1tuBDIhFLHbU203hCsHG2ogkez54ztirWdwRInSIioCugtrbOFFSj2SM4GknJI2yTgfCtImGxCcI/CJK0tgLWWQvWwe/GoYcHw+VTuTryhJfthjXOInZaRlDyR4KT+rHgM+VNYZLyiig2e1/h2hhsvXBsYaDq9OU6slORsTnVt5nFW7nE8+JFjNM2R1JU0CVOOJw2PBSdWQcb+uKr2bRBnzFTLLMkW25FG8SSCpCvMJJGR4YpzsB52Y1GuLyY7y0KGptK9GQRuCRgK3G2/PnSbaBIzd3464nlz1263zrbBcJKELQ2VKKh+TCxz5Yxn1qstN1n31GbtNnKeZ17F7Qek3AGDsMHB9PDn0GPwg2HW3XJgcU090zeWh2VkjKifzHs7Hu/bAzYS2LtHkQkl9sSkokJWQnola8qKRnBBzqwnzGNqqw5K5gzDrkrb60elOXZRUotAHmrJwEkEDfPl3VaoTboabgzDuLcWK6A2YakZShWBnc4JAIwCMKGRtWuiXCLcYNqiXO0NCG5HbDxZkaOidSfZwCNSAd8AnYg4OatZXD3Caj0oYZQ6lWdUeQUkHxOCN9+Z3oA5vcodpuMeRdJD7UWaiQ2NEk6llHZKgpGP5yQNSgSQSNjnAqm6u1cWXXrl0DTTjiAhUBtGkFKlc2xjbKjzwSCOYFdRlWueLg1LhXfoV6wOrPpS8SRkdlRUE5wTt2TjIzRD0Iy3UuTLZEmobacRIDaBHKzlCk6go7EY2ycedMDl3BN0unCVzC4qEFElJXJgvam0qG+NKiD2gdgeRzg+XUpfE/CVxIava+qvoGHGZaFJ6PIzuodkjB55IoPiLh5i4W1pcaGhxlJyYbpS04Tvuh5ORq3VzyD4isu3w/YWobT8ZNxS+skLjT0AFI3GcpASd0428fhTXImaa/zYLdvVI4R4nt8Z9SgpbbS25CpI/SAonJ8ABk4xmuTcTpvEl9Uq6IdCVgBWlBbSFeBTyB78edbZEGIytbjLXRrX7akLUCrxzg78++ovw23lCUGK0UI9lJGQPgK0USHI5eAheVFITk9wG/nzpV1MW23gbQmMf2BSqtojXWO/wBuicP2/wDHXXnp6WEJkPIiukrVjbVgZJwNye+rNl6wXu3PONtuuR9wpK2lpUvA3wlQyfSq5BsgaS5ImxCcAqR0advEE0yWi09MhUZTDsdz2UtuAE7b7kgY865HJcI0K2GXbJLSzY7vcGoxUdMKZbJDqcc8A6cj0Io648Vx5i2m40xpmcwoj+i6Rq5EFJZJ+RFRqatSnUdGstqHIqeV2fUEijnIcaIEut3dwOOLA/lPah8TscUXeB8B6ZfEqENsvxbQ+tZIC+neSPUBogepqjYul0U8p+N+BL1qISiLJeSs+WCg588AedHvGRHwhU5Oo9rU4ELI78nOMUKuPOQ6mV1tvWR2XVQk7g+eKfyFaK+4Spk9lTTRtroW7rxHCl9GvIyQvUkJ3G+3PuqwtcG9SVpNxuERDTW4bYfyonOe0o5PyPrU3TyHkLRPRbpBUOy7o0LT5jKSKJizExEq6CHG1q9pevKj8TVUw3IIfddkiQ3CkpbeQQCqIQ4kZzzSQeX/AKKqb7CF0fZeXHWJzCk9G4xkLa07kFWNzk8sjuoq3yLgzIfeeU5JS4AEIQlOGsE8u0Sc+fhUU5/VNam6ZUaSjslTTJCVJ8CCD58vGpkmkNNEFrsr0aV+IsXPq8peoLCyUpOeQUnOFYJPhjPpVg9Kjzg+u7JskqK3q/mB7tIxnJ0lOQdvH4VFNkPHEiaIug4CSl7II5lSjpwPgKq5E6zIYQ45PtyHS5kvN28uqA/SM5GRnGSKlTQNAsd21XcKeZuzvRIOroGQpoJKRjmspGPT41eWy5vNgGEzHcBGVByX0hJAAB1J2Ty5BOM1Si72aS2tp3ii4JbWC2E9UW2n5IAqvZs3CqFFxvjEMADshKejKfUnNaWqEbyPcUSFuNttmLLCSUpcCS2o+OtOR4HuNBXFUdxLcS5qSx2gptt9RaSpePyr3SeZ2B9KpLXb0W1YlR+NLc43JVnXJYQrpsH9RVk+Fa2Qqy3EEGbCfC0aFMmQlTah/Z3pX3QGWvkWNCgP4tkpp/Qeid1haNX5eahneqmCyibFLk19u2KaIaU6tJUhaseBIIOx8vCtlbeFjEWkMXFXUxg9TSctHHkc0TdbIzK/5hKFNgbNpUEhPjjer3uhbUc2urF6iSQ3bl2mdHKApLypYYJ8ilW/ruK8rVOWGzMLKENuY/7ZbYH3VSqeqOkUD6JgbLUpuO4hY2D0cpJ+X+lDI4ZmzSExWobRO4UhagRWtF8t0bKmIcYHGNaj3eoNPRxY89shTTaR39oj02FZRlLuxbDP2z+H90E9p+ZIbcaQsKUMKVrHeN/8626eGbfg6bckKJyXFO9r54rOXDi2Q2oJSoKBOCvspH+I0M9eIkxjXKnISQNgXQB6hPOq3X2GlRrF8OsHZlno1cypD6hv54pjHC62jqbucqOSd0tLyD8xWZs/GEGAyWG3S4VKKypSA2n4f/ammfxCDfRllpCwd/bOAfDlvSU13BmzYtCEY6WXJfx3O6D+yac5boDLalGKhZAJwU6ifgK589/ECSVoWlpKSPylw4PpQcnjqc/2kvdCTsQ2jfHxpdRLhAdDQqKprWuGGGxtqWxo+55euKCmSOiRqtK4juxK0yZBSPmnP7VzxfED0leX5LhCjuFZP714me2nOl0knkCrFR1J+Ao210t7U+GickuxcNlTgjylKSr4DUnJ58xVC+3DDWGpElC8YKgpXj4a6q0XVkakpbSoKVkEjJHrU7VwyMBpRyMZKcVDcnke0nSD1cI6zJV2jjUCCP8AGdqmLvRBtLbEnIGFLLmc+g5VB1knJWUjbAysDFSNz0PuqAlNOLHtBLhJSDT+bHt/R8Ivl8pmbMkApxqCh9/h8qI6IKUpOtobd7ylZ+1NV1DnIlpA8sD96eifZWhpy+74pCcA+uAKahMapEzLD4UkpWltI70uKyfvT0xCXDs4pWMbrJ28M1D+OW1CcMW3Ue7pndP3GqphxO/sGupR094S2Vn5kgfar2PuO0SptzGO3DcKhzIcODSr1PFDoG8wn+4j/SlVbP0P4cReuc1KwEyVjbu2p34hLEcudYcK9XMnNKlVIhgXW5Dp1OPKUc8ya8VIe1f1FUqVS+REqJDx/wCoqpWn3VKwVnFKlQMLSpX6j86kStQSTnlSpVSQHinF4Jz9qjZkO61drl4gUqVA2OVPlIB0vEfACozOlL9p9Z9a8pUmA9T7p5uE7d+9JEl5BGhwpz4bUqVNAP63I59Kql1uR71VKlTYIXXJHvVUjMk+9VXtKgBvXZPvlUqVKgD/2Q==",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wxii12.com/article/north-carolina-storms-hail-video/43743474",
+            "duration": "0:38",
+            "duration_sec": 38,
+            "title": "Video captures lots of hail coming down as storms move ...",
+            "source": "WXII 12",
+            "author": "WXII 12",
+            "date": "Apr 28, 2023",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 4
+        },
+        {
+            "link": "https://weather.com/storms/severe/video/north-carolina-tornado-tears-through-manufactured-home",
+            "duration": "0:33",
+            "duration_sec": 33,
+            "title": "North Carolina Tornado Tears Through Manufactured Home ...",
+            "source": "The Weather Channel",
+            "author": "The Weather Channel  The Weather Channel",
+            "date": "6 days ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 5
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storms+in+North+Carolina+today&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAgoEAE",
+            "text": "storms in north carolina today",
+            "rank": 1,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Weather+in+north+carolina+10+days&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAgnEAE",
+            "text": "weather in north carolina 10 days",
+            "rank": 2,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Why+is+it+raining+so+much+in+NC+2023&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAgmEAE",
+            "text": "why is it raining so much in nc 2023",
+            "rank": 3,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Why+has+it+been+raining+so+much+in+North+Carolina&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAglEAE",
+            "text": "why has it been raining so much in north carolina",
+            "rank": 4,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=North+Carolina+weather+today&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAgkEAE",
+            "text": "north carolina weather today",
+            "rank": 5,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Weather+in+North+Carolina+tomorrow&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAgjEAE",
+            "text": "weather in north carolina tomorrow",
+            "rank": 6,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=weather+in+raleigh,+north+carolina+10+days&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAggEAE",
+            "text": "weather in raleigh, north carolina 10 days",
+            "rank": 7,
+            "global_rank": 23
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=North+Carolina+rainfall+2023&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQ1QJ6BAghEAE",
+            "text": "north carolina rainfall 2023",
+            "rank": 8,
+            "global_rank": 24
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Is North Carolina having a tropical storm?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+North+Carolina+having+a+tropical+storm%3F&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQzmd6BAhAEAY",
+            "answer_source": "NWS Raleigh Tropical Page",
+            "answer_link": "https://www.weather.gov/rah/tropical",
+            "answer_display_link": "https://www.weather.gov \u203a rah \u203a tropicalhttps://www.weather.gov \u203a rah \u203a tropical",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEAQBQ\" data-ved=\"2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQu04oAHoECEAQBQ\"><div id=\"wpnBZLLIMNmYseMPtI-M2AQ__48\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>There are currently no active storms in the North Atlantic, Caribbean Sea, or Gulf of Mexico</b>. Click each image above to view the full-size image.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There are currently no active storms in the North Atlantic, Caribbean Sea, or Gulf of Mexico. Click each image above to view the full-size image."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 9
+        },
+        {
+            "question": "Is NC under a tropical storm warning?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+NC+under+a+tropical+storm+warning%3F&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQzmd6BAg3EAY",
+            "answer_source": "Piedmont Triad and North Carolina Weather Alerts - WXII 12 News",
+            "answer_link": "https://www.wxii12.com/alerts",
+            "answer_display_link": "https://www.wxii12.com \u203a alertshttps://www.wxii12.com \u203a alerts",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDcQBQ\" data-ved=\"2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQu04oAHoECDcQBQ\"><div id=\"wpnBZLLIMNmYseMPtI-M2AQ__51\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>There are currently no severe weather alerts</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There are currently no severe weather alerts."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 10
+        },
+        {
+            "question": "Does NC have a tornado warning?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Does+NC+have+a+tornado+warning%3F&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQzmd6BAg5EAY",
+            "answer_source": "Weather Alerts - Raleigh - ABC11",
+            "answer_link": "https://abc11.com/weather/alerts/",
+            "answer_display_link": "https://abc11.com \u203a weather \u203a alertshttps://abc11.com \u203a weather \u203a alerts",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDkQBQ\" data-ved=\"2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQu04oAHoECDkQBQ\"><div id=\"wpnBZLLIMNmYseMPtI-M2AQ__54\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CD0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>There are currently no active watches, warnings or advisories</b> for our area.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There are currently no active watches, warnings or advisories for our area."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "question": "What kind of storms happen in North Carolina?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+kind+of+storms+happen+in+North+Carolina%3F&sa=X&ved=2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQzmd6BAg-EAY",
+            "answer_source": "North Carolina Hazards - Ready NC",
+            "answer_link": "https://www.readync.gov/stay-informed/north-carolina-hazards",
+            "answer_display_link": "https://www.readync.gov \u203a stay-informed \u203a north-carolin...https://www.readync.gov \u203a stay-informed \u203a north-carolin...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CD4QBQ\" data-ved=\"2ahUKEwiysdLjsa2AAxVZTGwGHbQHA0sQu04oAHoECD4QBQ\"><div id=\"wpnBZLLIMNmYseMPtI-M2AQ__58\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDoQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">All parts of North Carolina have been hit by <b>tornadoes, floods, hurricanes, lightning strikes, snow and ice storms</b>. These natural disasters can cause power outages, property damage and disruption to food and water supplies.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "All parts of North Carolina have been hit by tornadoes, floods, hurricanes, lightning strikes, snow and ice storms. These natural disasters can cause power outages, property damage and disruption to food and water supplies."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 12
+        }
+    ]
+}

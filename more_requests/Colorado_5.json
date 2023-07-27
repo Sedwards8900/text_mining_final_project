@@ -1,0 +1,125 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 582000000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:21:26.205Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_id4p5ci2h3b"
+    },
+    "organic": [
+        {
+            "link": "https://gazette.com/weather/colorado-weather-updates-arctic-storm-massive-airport-delays-as-arctic-blast-hits-state/article_6af9e9ea-81fb-11ed-a8dd-ab6228725d7c.html",
+            "display_link": "https://gazette.com \u203a weather \u203a article_6af9e9ea-81fb-11...",
+            "title": "Arctic storm, massive airport delays as arctic blast hits state ...",
+            "description": "An arctic storm arrived in Colorado Springs overnight, delivering sub-zero temperatures, a dusting of snow and fierce wind chills that disrupted business ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://townofeaton.colorado.gov/news-article/winter-storm-warning",
+            "display_link": "https://townofeaton.colorado.gov \u203a news-article \u203a wint...",
+            "title": "Winter Storm Warning",
+            "description": "Contact the Eaton Police Department at 454-2212. Weld County and the northeast plains in Colorado are expecting a strong winter storm Wednesday afternoon ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH8PUWO_ARTXISTDRCR",
+            "display_link": "https://library.municode.com \u203a weld_county \u203a codes",
+            "title": "ARTICLE XI. - Storm Drainage Criteria | Weld County, CO",
+            "description": "The provisions of this Article shall be known as the \"Weld County Storm ... covered and approved by the Colorado Discharge Permit System (CDPS) regulations.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.durangoherald.com/articles/wave-of-storms-heading-toward-southwest-colorado/",
+            "display_link": "https://www.durangoherald.com \u203a articles \u203a wave-of-st...",
+            "title": "Wave of storms heading toward Southwest Colorado",
+            "description": "A parade of low-pressure systems is making its way into Southwest Colorado, with the first blast of moisture expected to arrive Saturday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.tripadvisor.com/Travel-g28927-s208/Colorado:United-States:Weather.And.When.To.Go.html",
+            "display_link": "https://www.tripadvisor.com \u203a ... \u203a Before You Go",
+            "title": "Inside Colorado : Weather &amp; When to Go",
+            "description": "It's not uncommon to have wide temperature swings from one day to the next (40 degrees F!) or even in a summer day (a thunderstorm can drop the temperature30 ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://theconversation.com/hurricane-force-wind-gusts-in-colorado-dust-storms-in-kansas-tornadoes-in-iowa-in-december-heres-what-fueled-a-day-of-extreme-storms-173904",
+            "display_link": "https://theconversation.com \u203a hurricane-force-wind-gu...",
+            "title": "Hurricane-force wind gusts in Colorado, dust storms ...",
+            "description": "This article was updated with a National Weather Service meteorologist describing the storm as a \u201cserial derecho.\u201d Weather \u00b7 Extreme weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.news4jax.com/weather/2023/07/06/colorado-state-university-forecasters-now-call-for-an-above-average-hurricane-season/",
+            "display_link": "https://www.news4jax.com \u203a weather \u203a 2023/07/06",
+            "title": "Colorado State University forecasters now call for an above ...",
+            "description": "forecasters are now calling for an above-average hurricane season. The average in the Atlantic basin is 14 named storms, seven hurricanes and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://forecast.weather.gov/MapClick.php?textField1=39.7392&textField2=-104.9903",
+            "display_link": "https://forecast.weather.gov \u203a MapClick",
+            "title": "7-Day Forecast 39.75N 104.99W",
+            "description": "Denver CO. Tonight. Tonight: A 40 percent chance of showers and thunderstorms, mainly before 7pm. Mostly. Chance T-storms then. Partly Cloudy. Low: 64 \u00b0F.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://tropical.colostate.edu/",
+            "display_link": "https://tropical.colostate.edu",
+            "title": "CSU Tropical Weather and Climate Research - Colorado ...",
+            "description": "Colorado State University ... An updated Extended Range Forecast of Atlantic Seasonal Hurricane ... Seasonal & Sub-Seasonal Tropical Cyclone Forecasts ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

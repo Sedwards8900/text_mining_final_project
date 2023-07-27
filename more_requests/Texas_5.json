@@ -1,0 +1,193 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93100000,
+        "search_time": 0.57,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Texas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:38.750Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Texas+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_0hqerp2hjkau"
+    },
+    "organic": [
+        {
+            "link": "https://www.nature.com/articles/s41599-022-01353-8",
+            "display_link": "https://www.nature.com \u203a ... \u203a articles",
+            "title": "Community-scale big data reveals disparate impacts of the ...",
+            "description": "From February 13 through 17, 2021, a severe and icy winter storm, Winter Storm Uri, affected most of North America and the entire state of Texas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by CC Lee",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2022",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 27",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kvue.com/article/weather/tuesday-storms-hail-damaging-winds/269-f820eccd-83fa-46ab-a110-4a4afdbb3234",
+            "display_link": "https://www.kvue.com \u203a article \u203a weather \u203a tuesday-st...",
+            "title": "Central Texas strong storms with potential for hail - Austin",
+            "description": "AUSTIN, Texas \u2014 Editor's note: This article will no longer be updated. Further information regarding upcoming weather can be found here.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-power-outage-death-toll",
+            "display_link": "https://www.buzzfeednews.com \u203a article \u203a peteraldhous",
+            "title": "Texas's Winter Storm Killed Hundreds More Than Reported",
+            "description": "The Texas Winter Storm And Power Outages Killed Hundreds More People Than ... On paper, Gonzales's death has nothing to do with the storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 26, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.forbes.com/sites/joshuarhodes/2022/02/15/one-year-later-the-storm-that-knocked-texas-out-cold/",
+            "display_link": "https://www.forbes.com \u203a joshuarhodes \u203a 2022/02/15",
+            "title": "One Year Later: The Storm That Knocked Texas Out Cold",
+            "description": "Listen to article ... On a high level, the winter storm that hit Texas a year ago began as a bad winter storm that snowballed into an energy ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/2021/02/21/weather/texas-winter-storm-timeline/index.html",
+            "display_link": "https://www.cnn.com \u203a 2021/02/21 \u203a texas-winter-storm-...",
+            "title": "Winter storm in Texas: Here's how a week of frigid weather ...",
+            "description": "Temperatures across the state are historically low: Dallas dips to 5 degrees Fahrenheit \u2013 the coldest temperature the city has seen since 1989, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2022/dec/21/texas-weather-winter-storm-freeze",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a dec \u203a texas-...",
+            "title": "Texans brace for freezing weather in hopes storm won't be ...",
+            "description": "Experts say temperatures won't get as cold as 2021 storm, with expected minimum around ... Texas. This article is more than 6 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://indianexpress.com/article/explained/texas-winter-storm-blackout-7192677/",
+            "display_link": "https://indianexpress.com \u203a Explained",
+            "title": "Texas winter storm explained",
+            "description": "Texas winter storm: Over a dozen deaths have been attributed to the unprecedented winter storm 'Uri' so far in the state, with local authorities ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/06/12/texas-extreme-heat-severe-storms/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/06/12 \u203a texas...",
+            "title": "Punishing heat, severe storms to slam Texas",
+            "description": "Extreme weather targets Texas with heat indexes near 115, severe storms ... The largest state in the Lower 48 is facing a slew of weather hazards ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnbc.com/2023/02/01/deadly-ice-storm-rages-in-texas-causing-travel-chaos-and-outages.html",
+            "display_link": "https://www.cnbc.com \u203a 2023/02/01 \u203a deadly-ice-storm-...",
+            "title": "At least 8 dead as ice storm rages in the South, causing ...",
+            "description": "The \u201clong-duration\u201d winter storm that has brought dangerous sleet and freezing rain from Texas to Tennessee is expected to continue through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.khou.com/article/weather/texas-winter-storm-2023/285-93a67ef4-7fcd-4422-b575-912cf8212ead",
+            "display_link": "https://www.khou.com \u203a article \u203a weather \u203a texas-wint...",
+            "title": "Winter Storm Texas: Ice event unfolding for millions of Texans",
+            "description": "Part of this winter storm was caused by a cold front that stalled off the Texas coast, allowing for cold air to filter through the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,323 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 127000000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "California storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:51.729Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=California+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/611.1.21.161.7 (KHTML, like Gecko) Version/14.1 Safari/611.1.21.161.7",
+        "request_id": "hl_c3a9eb28_xlq28hp19us"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2023/03/14/us/california-storm-flood-atmospheric-river-snow.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/03/14 \u203a california-stor...",
+            "title": "California Eyes Rising Rivers as the Latest Storm Departs",
+            "description": "LOS ANGELES \u2014 Millions of California residents awoke Wednesday to the continuing threat of flooding and other effects of extreme weather, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2023/03/13/us/california-storm-atmospheric-river.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/03/13 \u203a california-stor...",
+            "title": "Another 'Significant' Atmospheric River Is Drenching ...",
+            "description": "More heavy rain is soaking the state on Tuesday, with the ground still saturated from the storms and flooding last week. Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.redcross.org/about-us/news-and-events/news/2023/snow-buries-parts-of-california-red-cross-responds.html",
+            "display_link": "https://www.redcross.org \u203a news-and-events \u203a news",
+            "title": "California Storms Dwindle; Melting Snow Could Cause ...",
+            "description": "The fear now is that the record-setting snowpack left behind in the mountains may cause more dangerous flooding as the snow melts. RED CROSS ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.axios.com/2023/03/13/california-storm-atmospheric-river-more-rain-flooding",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "Latest atmospheric river brings \"catastrophic\" flood risk",
+            "description": "Officials warn the storm could cause \"locally catastrophic\" ... Editor's note: Follow the latest updates on this historic California storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.newyorker.com/news/annals-of-a-warming-planet/californias-devastating-storms-are-a-glimpse-of-the-future",
+            "display_link": "https://www.newyorker.com \u203a News \u203a California",
+            "title": "California's Devastating Storms Are a Glimpse of the Future",
+            "description": "As California's ongoing storms increasingly dominate headlines, leaders in Sacramento appear to now be acknowledging the threat.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.npr.org/2023/01/14/1149304548/california-storms-flooding-newsom",
+            "display_link": "https://www.npr.org \u203a 2023/01/14 \u203a california-storms-flo...",
+            "title": "California storms bring heavy rain, flooding, power outages",
+            "description": "Rounds of heavy rain, wind and snow are battering California once again, prompting flood alerts and power outages in several regions.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.latimes.com/california/story/2023-01-10/storm-northern-california",
+            "display_link": "https://www.latimes.com \u203a california \u203a story \u203a storm-nort...",
+            "title": "Northern California storm brings thunder, wind and heavy ...",
+            "description": "The latest in a series of intense winter storms continued to lash Northern California on Tuesday, bringing thunderstorms, heavy rain, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.cnn.com/2023/03/13/us/california-atmospheric-river-flood-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/03/13 \u203a california-atmosph...",
+            "title": "California weather: Treacherous flooding will get worse as ...",
+            "description": "Treacherous flooding is about to get worse in California as another atmospheric river closes in on storm-battered residents.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.npr.org/2023/01/09/1147798653/california-storms-forecast-continue-flooding-atmospheric-river",
+            "display_link": "https://www.npr.org \u203a 2023/01/09 \u203a california-storms-fo...",
+            "title": "California braces for flooding from intense storms rolling ...",
+            "description": "Another powerful winter storm system is causing flooding, snow and mudslides in areas of California, where intense downpours have already ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.sfchronicle.com/weather/article/california-winter-rain-storms-17731984.php",
+            "display_link": "https://www.sfchronicle.com \u203a Weather",
+            "title": "California's recent storms were historic. They could get ...",
+            "description": "Winter storms in the Western U.S. could get bigger and more intense as high greenhouse gas emissions warm the planet, a new study says.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "California flooding map",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4QKbVMv02e13l6YtVvWtwzEUFl_FSUKp9eaBoZSAiHW6y2iOxZoxi&s=0",
+            "image_alt": "Image of California flooding map",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4QKbVMv02e13l6YtVvWtwzEUFl_FSUKp9eaBoZSAiHW6y2iOxZoxi&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "text": "California flooding map 2023",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjhpm5bOjEygMONFqster5BKoFuy-RnYSy2jTI3R6f2qIV457ZWzFeQ&s=0",
+            "image_alt": "Image of California flooding map 2023",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjhpm5bOjEygMONFqster5BKoFuy-RnYSy2jTI3R6f2qIV457ZWzFeQ&s=0",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+storm+article+today&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAg0EAE",
+            "text": "California storm article today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+weather&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAhAEAE",
+            "text": "california weather",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Atmospheric+river+California&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAgzEAE",
+            "text": "atmospheric river california",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Atmospheric+river+California+map&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAgyEAE",
+            "text": "atmospheric river california map",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+weather+map&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAhDEAE",
+            "text": "california weather map",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+drought&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ1QJ6BAhCEAE",
+            "text": "california drought",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Why is it raining so much in California 2023?",
+            "question_link": "https://www.google.com/search?hl=en&q=Why+is+it+raining+so+much+in+California+2023%3F&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzmd6BAgsEAY",
+            "answer_source": "A Meteorologist Explains California's Extreme Rain in 2023 - InsideHook",
+            "answer_link": "https://www.insidehook.com/article/science/california-rain-snow-2023-meteorologist#:~:text=One%20of%20the%20main%20takeaways,more%20of%20his%20insights%20below.",
+            "answer_display_link": "https://www.insidehook.com \u203a article \u203a science \u203a californ...https://www.insidehook.com \u203a article \u203a science \u203a californ...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCwQBQ\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQu04oAHoECCwQBQ\"><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__6\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">One of the main takeaways? No, it's not all in your head \u2014 the amount of rainfall we've had so far this year is 200% higher than the average year. <b>Atmospheric rivers from the southwest and cold air from up by the Arctic Circle</b> have been convening in California since December. Check out some more of his insights below.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 11, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "One of the main takeaways? No, it's not all in your head \u2014 the amount of rainfall we've had so far this year is 200% higher than the average year. Atmospheric rivers from the southwest and cold air from up by the Arctic Circle have been convening in California since December. Check out some more of his insights below.Apr 11, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 2
+        },
+        {
+            "question": "Where is the bomb cyclone hitting California?",
+            "question_link": "https://www.google.com/search?hl=en&q=Where+is+the+bomb+cyclone+hitting+California%3F&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzmd6BAgjEAY",
+            "answer_source": "5 killed, train derailed as 'bomb cyclone' hits California - ABC News",
+            "answer_link": "https://abcnews.go.com/US/bomb-cyclone-wreaks-havoc-california-killing-2/story?id=98038157#:~:text=Gusts%20hit%20nearly%2090%20mph,recorded%20in%20the%20Bay%20Area.",
+            "answer_display_link": "https://abcnews.go.com \u203a storyhttps://abcnews.go.com \u203a story",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCMQBQ\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQu04oAHoECCMQBQ\"><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__9\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCcQAA\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ4dMGegQIJxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCcQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"LdB9sd\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AWa+5g\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;BYVOrAxTJOpikM;AWa+5o\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"BYVOrAxTJOpikM\" data-lpage=\"https://abcnews.go.com/US/bomb-cyclone-wreaks-havoc-california-killing-2/story?id=98038157\" data-ni=\"1\" data-ref-docid=\"-yjI_CUv8DfnzM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzkx6BAggEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-39px;width:285px\" alt=\"5 killed, train derailed as 'bomb cyclone' hits California ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjIj8qgAP8HpIigUGMMXPZw7UVIqPqL7Q35twPFaNJTg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__12\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Gusts hit nearly 90 mph between <b>San Francisco and Sacramento</b>. The \"bomb cyclone\" developed off the coast of San Francisco Tuesday when the atmospheric pressure dropped 24 millibars in 17 hours, producing the strongest March storm ever recorded in the Bay Area.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 22, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Gusts hit nearly 90 mph between San Francisco and Sacramento. The \"bomb cyclone\" developed off the coast of San Francisco Tuesday when the atmospheric pressure dropped 24 millibars in 17 hours, producing the strongest March storm ever recorded in the Bay Area.Mar 22, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "question": "What areas are affected by the California storm 2023?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+areas+are+affected+by+the+California+storm+2023%3F&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzmd6BAgqEAY",
+            "answer_source": "2022\u20132023 California floods - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/2022%E2%80%932023_California_floods#:~:text=Periods%20of%20heavy%20rainfall%20caused,Coast%2C%20Northern%20California%20and%20Nevada.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a 2022\u20132023_California_...https://en.wikipedia.org \u203a wiki \u203a 2022\u20132023_California_...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCoQBQ\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQu04oAHoECCoQBQ\"><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__15\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCYQAA\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQ4dMGegQIJhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCYQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBYQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"LdB9sd\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AWa+5c\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQyQ0oAHoECBYQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;SKPShuJW0ziqSM;AWa+5k\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"SKPShuJW0ziqSM\" data-lpage=\"https://en.wikipedia.org/wiki/2022%E2%80%932023_California_floods\" data-ni=\"1\" data-ref-docid=\"z6lqDMYzIVdDwM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CB4QAA\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzkx6BAgeEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-15px;width:237px\" alt=\"2022\u20132023 California floods - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4bDPPnuODUC8l_iEWt3ChSue1iSArHUkGVXTIbCdYZg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Periods of heavy rainfall caused by multiple atmospheric rivers in California between December 31, 2022 and March 25, 2023 resulted in floods that affected parts of <b>Southern California, the California Central Coast, Northern California and Nevada</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Periods of heavy rainfall caused by multiple atmospheric rivers in California between December 31, 2022 and March 25, 2023 resulted in floods that affected parts of Southern California, the California Central Coast, Northern California and Nevada."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "question": "What was the worst storm in California?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+was+the+worst+storm+in+California%3F&sa=X&ved=2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQzmd6BAgrEAY",
+            "answer_source": "See some of the most catastrophic atmospheric rivers and flooding in ...",
+            "answer_link": "https://www.foxweather.com/extreme-weather/most-catastrophic-atmospheric-rivers-flooding-california#:~:text=California's%20worst%20flood%20was%20the,rain%20between%20November%20and%20February.",
+            "answer_display_link": "https://www.foxweather.com \u203a extreme-weather \u203a most-c...https://www.foxweather.com \u203a extreme-weather \u203a most-c...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCsQBQ\" data-ved=\"2ahUKEwid3sugsa2AAxVOK1kFHfXZDgIQu04oAHoECCsQBQ\"><div id=\"NpnBZJ3rCs7W5NoP9bO7EA__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">California's worst flood was the compilation of <b>a series of storms over the winter of 1861 and 1862</b>, according to the NWS. No formal weather service existed at the time, but the NWS found reports that San Francisco received more than 41 inches of rain between November and February.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 12, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "California's worst flood was the compilation of a series of storms over the winter of 1861 and 1862, according to the NWS. No formal weather service existed at the time, but the NWS found reports that San Francisco received more than 41 inches of rain between November and February.Mar 12, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        }
+    ]
+}

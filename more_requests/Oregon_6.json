@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47700000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:31.591Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_6) AppleWebKit/610.4.3.1.7 (KHTML, like Gecko) Version/14.0.3 Safari/610.4.3.1.7",
+        "request_id": "hl_c3a9eb28_csw2mynqt9o"
+    },
+    "organic": [
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/oregon/coos-bay",
+            "display_link": "https://www.theweathernetwork.com \u203a coos-bay",
+            "title": "3-Day Severe Weather Outlook: Coos Bay, Oregon",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/5/1520-0493_1931_59_195_gdsiwa_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre \u203a 1...",
+            "title": "GREAT DUST STORM IN WASHINGTON AND OREGON ...",
+            "description": "Abstract SYNOPSIS A considerable part of Washington and Oregon experienced on April 21\u201324, 1931, an extraordinary dust storm borne on strong northeast winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DC CAMERON",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 8",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://katu.com/news/local/winter-storm-blankets-western-oregon-sw-wash-in-snow-cold-dry-pattern-ahead-forecast-portland-metro-road-conditions",
+            "display_link": "https://katu.com \u203a news \u203a local \u203a winter-storm-blanket...",
+            "title": "Winter storm blankets Western Oregon, SW. Wash. in snow ...",
+            "description": "KATU ABC 2 offers coverage of news, weather, sports and community events for Portland, Oregon and surrounding towns, including Beaverton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://backyardbend.com/winter-storm-warning-issued/",
+            "display_link": "https://backyardbend.com \u203a Trending",
+            "title": "heavy snow forecast in Oregon Cascades, some in Coast ...",
+            "description": "Winter storm warning issued: heavy snow forecast in Oregon Cascades, some in Coast Range ... SEE THE ORIGINAL ARTICLE BY THE OREGONIAN HERE.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://nypost.com/2021/02/14/hundreds-of-thousands-without-power-after-oregon-ice-storm/",
+            "display_link": "https://nypost.com \u203a 2021/02/14 \u203a hundreds-of-thousa...",
+            "title": "Hundreds of thousands without power after Oregon ice storm",
+            "description": "Freezing rain left roads, power lines and trees coated in ice in the Portland, Oregon, region, and by Saturday morning more than 270000 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.kezi.com/",
+            "display_link": "https://www.kezi.com",
+            "title": "KEZI 9 News | Eugene, Oregon News, Weather, Sports | Live ...",
+            "description": "Eugene breaking news, weather and live video. Covering local politics, crime, health, education and sports for Eugene and the Willamette Valley in Oregon.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.beachconnection.net/news/storm_stories_deaths122822.php",
+            "display_link": "https://www.beachconnection.net \u203a news \u203a storm_stori...",
+            "title": "Storm Stories, Damage Along Oregon Coast: Deaths ...",
+            "description": "Storm Stories, Damage Along Oregon Coast: Deaths, Closures, Misadventures, Images - Downed trees, flooded roads, power outages, damage to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.latimes.com/california/story/2023-02-23/la-me-snow-storms-california-unusual-science-explainer",
+            "display_link": "https://www.latimes.com \u203a california \u203a story \u203a la-me-sno...",
+            "title": "'Rare' weather conditions fuel California snowstorms",
+            "description": "The powerful winter storm moving through California is expected to ... storm warnings in areas ranging from the Oregon border to Mexico.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,355 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 37300000,
+        "search_time": 0.34,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Louisiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:36.287Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Louisiana+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_imieqc7sk5o"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2021/08/29/us/hurricane-ida-a-powerful-category-4-storm-batters-louisiana.html",
+            "display_link": "https://www.nytimes.com \u203a 2021/08/29 \u203a hurricane-ida-a...",
+            "title": "Hurricane Ida, a Powerful Category 4 Storm, Batters ...",
+            "description": "NEW ORLEANS \u2014 Hurricane Ida howled into Louisiana on Sunday with powerful winds and dangerously high storm surges, lashing coastal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 3, 2021",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/live/2021/08/30/us/hurricane-ida-updates",
+                    "display_link": "https://www.nytimes.com \u203a live \u203a 2021/08/30 \u203a hurrican...",
+                    "title": "Hurricane Ida updates: In Ida's Grip, Louisiana Struggles to ...",
+                    "description": "Give this article. Follow our live updates on the NYC flooding, subway and train ... Louisiana surveys the wreckage left by Hurricane Ida.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 23, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.npr.org/2022/12/14/1142710683/a-mammoth-winter-storm-brings-more-warnings-of-blizzards-and-tornadoes",
+            "display_link": "https://www.npr.org \u203a 2022/12/14 \u203a a-mammoth-winter-...",
+            "title": "3 are dead in Louisiana as a massive winter storm spawns ...",
+            "description": "\u2014 A volatile storm ripping across the U.S. spawned tornadoes blamed for killing at least three people in Louisiana, and the line of punishing ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.entergynewsroom.com/article/entergy-louisiana-storm-update-06-16-23-8-m/",
+            "display_link": "https://www.entergynewsroom.com \u203a article \u203a entergy...",
+            "title": "Entergy Louisiana storm update \u2013 6/16/23, 8 a.m.",
+            "description": "A destructive line of storms with high winds swept across North Louisiana this morning, knocking out power to thousands of customers from ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wdsu.com/article/louisiana-rapid-intensification-threat-hurricanes/43995248",
+            "display_link": "https://www.wdsu.com \u203a article \u203a louisiana-rapid-inten...",
+            "title": "Louisiana hurricane rapid intensification threat",
+            "description": "Major hurricanes are blowing up right on our doorstep more and more each year. Meteorologist Devon Lucie explains how rapid intensification ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-floods-mississippi-louisiana-storms-99e3105076405215b7461965c3472680",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-floods-mississ...",
+            "title": "Storms cause major tornadoes, flooding around the South",
+            "description": "Residents in several towns across Louisiana and Mississippi have taken cover amid the blare of tornado sirens amid a severe weather outbreak ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9149665/",
+            "display_link": "https://www.ncbi.nlm.nih.gov \u203a articles \u203a PMC9149665",
+            "title": "Hurricane Ida's impact on Louisiana and Mississippi during ...",
+            "description": "Hurricane Ida's impact on Louisiana and Mississippi during the COVID-19 Delta surge: Complex and compounding threats to population health.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by JM Shultz",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2022",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 3",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.nature.com/articles/d41586-021-02456-z",
+            "display_link": "https://www.nature.com \u203a news",
+            "title": "Hurricane Ida forces Louisiana researchers to rethink their ...",
+            "description": "Ida is the sixth tropical cyclone to make landfall in Louisiana since the start of 2020, and scientists are worried that the frequency of the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by M Kozlov",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 4",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.cbsnews.com/news/huge-storm-system-killer-tornadoes-south-blizzard-like-conditions-great-plains/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Huge storm system brings killer tornadoes to South ...",
+            "description": "A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, spinning up tornadoes that battered the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nola.com/news/weather/as-hurricane-season-starts-a-look-back-at-10-recent-louisiana-storms/article_d4097522-0891-56bd-9df1-50424748d6f6.html",
+            "display_link": "https://www.nola.com \u203a news \u203a weather \u203a article_d40975...",
+            "title": "As hurricane season starts, a look back at 10 recent ...",
+            "description": "The storm approached Louisiana with wind speeds of 65 mph and made landfall west of Grand Isle as a tropical storm. Most of the estimated $330 million in ...",
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Where did Hurricane Ida hit",
+            "list_group": true,
+            "expanded": true,
+            "more_link": "https://www.google.com/search?hl=en&q=Louisiana&stick=H4sIAAAAAAAAAOOQUeLQz9U3MMmpNDSSLs9ILUpVSMlMUcgoLSrKTE7MS1XITElUyMgsiRL3yS_NLM5MzEtUKC7JL8pVSCwqyUzOST3FCDcAyjQ2Kao4xcgJYqYYmFSZQdlG5kVZRVAluRbJMKZhTrERlGlemZMFMyO-yBimIK-kEsrMSi4o_8UoHQ53pgfcmZ4QZzawMC5i5YQ79RabJMOtFT0qC1zjGE7dm3L-92xeoYlNR3hCLxdNAADodzS8-wAAAA&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQs9oBKAB6BAg5EAI",
+            "more_text": "LouisianaGulf Coast of the United StatesCubaNortheastern United StatesEast Coast of the United StatesColombia",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYNKuDKxZbQtaT4RYb4K4hHpl558Buq-4d125x&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYNKuDKxZbQtaT4RYb4K4hHpl558Buq-4d125x&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "text": "Where was Hurricane Katrina",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTKsHjhaH2Nz3x8qQB6-w2QhBJZcj_606bNh4x1ZaL0rGzwc2dSON&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZTKsHjhaH2Nz3x8qQB6-w2QhBJZcj_606bNh4x1ZaL0rGzwc2dSON&s=0",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Winter+storm+Louisiana+2023&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhDEAE",
+            "text": "winter storm louisiana 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+in+Louisiana+today&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhAEAE",
+            "text": "storm in louisiana today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=When+did+Hurricane+Ida+hit+Louisiana&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhBEAE",
+            "text": "when did hurricane ida hit louisiana",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+damage+in+Louisiana+today&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhCEAE",
+            "text": "storm damage in louisiana today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Hurricane+Ida+damage+Louisiana&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAg_EAE",
+            "text": "hurricane ida damage louisiana",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Hurricane+season+2023+Louisiana&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhEEAE",
+            "text": "hurricane season 2023 louisiana",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storms+in+Louisiana&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAg8EAE",
+            "text": "storms in louisiana",
+            "rank": 9,
+            "global_rank": 23
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Hurricane+Ida+path&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQ1QJ6BAhFEAE",
+            "text": "hurricane ida path",
+            "rank": 10,
+            "global_rank": 24
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What storm went through Louisiana?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+storm+went+through+Louisiana%3F&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQzmd6BAgYEAY",
+            "answer_source": "Hurricanes in Louisiana - 64 Parishes",
+            "answer_link": "https://64parishes.org/entry/hurricanes-in-louisiana",
+            "answer_display_link": "https://64parishes.org \u203a entry \u203a hurricanes-in-louisianahttps://64parishes.org \u203a entry \u203a hurricanes-in-louisiana",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQu04oAHoECBgQBQ\"><div id=\"YpnBZPTPG5S0ptQPvaWwyAc__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">In 2021 another deadly storm impacted Louisiana, quickly becoming the second-most damaging and intense hurricane to land in Louisiana, ranking behind <b>Hurricane Katrina</b>. With winds of 150 mph at landfall, Ida tied Hurricane Laura and the 1856 Last Island Hurricane as the strongest to impact the state.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 28, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "In 2021 another deadly storm impacted Louisiana, quickly becoming the second-most damaging and intense hurricane to land in Louisiana, ranking behind Hurricane Katrina. With winds of 150 mph at landfall, Ida tied Hurricane Laura and the 1856 Last Island Hurricane as the strongest to impact the state.Feb 28, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Did the tornadoes hit Louisiana?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+the+tornadoes+hit+Louisiana%3F&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQzmd6BAgaEAY",
+            "answer_source": "Tornadoes touch down in Texas and Louisiana as storm that ... - CBS News",
+            "answer_link": "https://www.cbsnews.com/news/tornadoes-texas-louisiana-storm-california-heavy-snow/",
+            "answer_display_link": "https://www.cbsnews.com \u203a news \u203a tornadoes-texas-louis...https://www.cbsnews.com \u203a news \u203a tornadoes-texas-louis...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQu04oAHoECBoQBQ\"><div id=\"YpnBZPTPG5S0ptQPvaWwyAc__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Tornadoes touched down in Texas and Louisiana</b> as a powerful storm system that dumped heavy snow in California pushed through the Southern Plains and into the Deep South on Thursday, knocking out power to hundreds of thousands of people at one point and forcing the cancellation of hundreds of flights into and out of the ...</span></span><span class=\"kX21rb ZYHQ7e\">Mar 3, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tornadoes touched down in Texas and Louisiana as a powerful storm system that dumped heavy snow in California pushed through the Southern Plains and into the Deep South on Thursday, knocking out power to hundreds of thousands of people at one point and forcing the cancellation of hundreds of flights into and out of the ...Mar 3, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Will any hurricanes hit Louisiana this year?",
+            "question_link": "https://www.google.com/search?hl=en&q=Will+any+hurricanes+hit+Louisiana+this+year%3F&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQzmd6BAgZEAY",
+            "answer_source": "WATCH: Plan for Louisiana hurricane season 2023 with Baton Rouge ...",
+            "answer_link": "https://www.brproud.com/weather/watch-plan-for-louisiana-hurricane-season-2023-with-baton-rouge-weather-team/",
+            "answer_display_link": "https://www.brproud.com \u203a weather \u203a watch-plan-for-lo...https://www.brproud.com \u203a weather \u203a watch-plan-for-lo...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQu04oAHoECBkQBQ\"><div id=\"YpnBZPTPG5S0ptQPvaWwyAc__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">NOAA is predicting near-normal hurricane activity in the Atlantic this year. NOAA is also predicting 12 to 17 total named storms in 2023. At least five of those could become hurricanes, leading to at least one reaching category three or higher. <b>Louisiana was not impacted by any tropical systems in 2022</b>.</span></span><span class=\"kX21rb ZYHQ7e\">May 27, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "NOAA is predicting near-normal hurricane activity in the Atlantic this year. NOAA is also predicting 12 to 17 total named storms in 2023. At least five of those could become hurricanes, leading to at least one reaching category three or higher. Louisiana was not impacted by any tropical systems in 2022.May 27, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Where did Hurricane Ian hit?",
+            "question_link": "https://www.google.com/search?hl=en&q=Where+did+Hurricane+Ian+hit%3F&sa=X&ved=2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQzmd6BAgbEAY",
+            "answer_source": "HURRICANE IAN",
+            "answer_link": "https://www.nhc.noaa.gov/data/tcr/AL092022_Ian.pdf",
+            "answer_display_link": "https://www.nhc.noaa.gov \u203a data \u203a tcr \u203a AL092022_Ianhttps://www.nhc.noaa.gov \u203a data \u203a tcr \u203a AL092022_Ian",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwj0iNq1sa2AAxUUmokEHb0SDHkQu04oAHoECBsQBQ\"><div id=\"YpnBZPTPG5S0ptQPvaWwyAc__24\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>SOUTHWESTERN FLORIDA</b>.<br><br> Ian made landfall in southwestern Florida at category 4 intensity (on the Saffir-Simpson Hurricane Wind Scale), producing catastrophic storm surge, damaging winds, and historic freshwater flooding across much of central and northern Florida.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 3, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "SOUTHWESTERN FLORIDA. Ian made landfall in southwestern Florida at category 4 intensity (on the Saffir-Simpson Hurricane Wind Scale), producing catastrophic storm surge, damaging winds, and historic freshwater flooding across much of central and northern Florida.Apr 3, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

@@ -1,0 +1,2708 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/>
+<script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>var __ez=__ez||{};__ez.stms=Date.now();__ez.evt={};__ez.script={};__ez.ck=__ez.ck||{};__ez.template={};__ez.template.isOrig=true;__ez.queue=function(){var e=0,i=0,t=[],n=!1,o=[],s=[],r=!0,a=function(e,i,n,o,s,r,a){var l=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,c=this;this.name=e,this.funcName=i,this.parameters=null===n?null:p(n)?n:[n],this.isBlock=o,this.blockedBy=s,this.deleteWhenComplete=r,this.isError=!1,this.isComplete=!1,this.isInitialized=!1,this.proceedIfError=a,this.fWindow=l,this.isTimeDelay=!1,this.process=function(){f("... func = "+e),c.isInitialized=!0,c.isComplete=!0,f("... func.apply: "+e);var i=c.funcName.split("."),n=null,o=this.fWindow||window;i.length>3||(n=3===i.length?o[i[0]][i[1]][i[2]]:2===i.length?o[i[0]][i[1]]:o[c.funcName]),null!=n&&n.apply(null,this.parameters),!0===c.deleteWhenComplete&&delete t[e],!0===c.isBlock&&(f("----- F'D: "+c.name),u())}},l=function(e,i,t,n,o,s,r){var a=arguments.length>7&&void 0!==arguments[7]?arguments[7]:window,l=this;this.name=e,this.path=i,this.async=o,this.defer=s,this.isBlock=t,this.blockedBy=n,this.isInitialized=!1,this.isError=!1,this.isComplete=!1,this.proceedIfError=r,this.fWindow=a,this.isTimeDelay=!1,this.isPath=function(e){return"/"===e[0]&&"/"!==e[1]},this.getSrc=function(e){return void 0!==window.__ezScriptHost&&this.isPath(e)?window.__ezScriptHost+e:e},this.process=function(){l.isInitialized=!0,f("... file = "+e);var i=this.fWindow?this.fWindow.document:document,t=i.createElement("script");t.src=this.getSrc(this.path),!0===o?t.async=!0:!0===s&&(t.defer=!0),t.onerror=function(){f("----- ERR'D: "+l.name),l.isError=!0,!0===l.isBlock&&u()},t.onreadystatechange=t.onload=function(){var e=t.readyState;f("----- F'D: "+l.name),e&&!/loaded|complete/.test(e)||(l.isComplete=!0,!0===l.isBlock&&u())},i.getElementsByTagName("head")[0].appendChild(t)}},c=function(e,i){this.name=e,this.path="",this.async=!1,this.defer=!1,this.isBlock=!1,this.blockedBy=[],this.isInitialized=!0,this.isError=!1,this.isComplete=i,this.proceedIfError=!1,this.isTimeDelay=!1,this.process=function(){}};function d(e){!0!==h(e)&&0!=r&&e.process()}function h(e){if(!0===e.isTimeDelay&&!1===n)return f(e.name+" blocked = TIME DELAY!"),!0;if(p(e.blockedBy))for(var i=0;i<e.blockedBy.length;i++){var o=e.blockedBy[i];if(!1===t.hasOwnProperty(o))return f(e.name+" blocked = "+o),!0;if(!0===e.proceedIfError&&!0===t[o].isError)return!1;if(!1===t[o].isComplete)return f(e.name+" blocked = "+o),!0}return!1}function f(e){var i=window.location.href,t=new RegExp("[?&]ezq=([^&#]*)","i").exec(i);"1"===(t?t[1]:null)&&console.debug(e)}function u(){++e>200||(f("let's go"),m(o),m(s))}function m(e){for(var i in e)if(!1!==e.hasOwnProperty(i)){var t=e[i];!0===t.isComplete||h(t)||!0===t.isInitialized||!0===t.isError?!0===t.isError?f(t.name+": error"):!0===t.isComplete?f(t.name+": complete already"):!0===t.isInitialized&&f(t.name+": initialized already"):t.process()}}function p(e){return"[object Array]"==Object.prototype.toString.call(e)}return window.addEventListener("load",(function(){setTimeout((function(){n=!0,f("TDELAY -----"),u()}),5e3)}),!1),{addFile:function(e,i,n,r,a,c,h,f,u){var m=new l(e,i,n,r,a,c,h,u);!0===f?o[e]=m:s[e]=m,t[e]=m,d(m)},addDelayFile:function(e,i){var n=new l(e,i,!1,[],!1,!1,!0);n.isTimeDelay=!0,f(e+" ...  FILE! TDELAY"),s[e]=n,t[e]=n,d(n)},addFunc:function(e,n,r,l,c,h,f,u,m,p){!0===h&&(e=e+"_"+i++);var y=new a(e,n,r,l,c,f,u,p);!0===m?o[e]=y:s[e]=y,t[e]=y,d(y)},addDelayFunc:function(e,i,n){var o=new a(e,i,n,!1,[],!0,!0);o.isTimeDelay=!0,f(e+" ...  FUNCTION! TDELAY"),s[e]=o,t[e]=o,d(o)},items:t,processAll:u,setallowLoad:function(e){r=e},markLoaded:function(e){if(e&&0!==e.length){if(e in t){var i=t[e];!0===i.isComplete?f(i.name+" "+e+": error loaded duplicate"):(i.isComplete=!0,i.isInitialized=!0)}else t[e]=new c(e,!0);f("markLoaded dummyfile: "+t[e].name)}},logWhatsBlocked:function(){for(var e in t)!1!==t.hasOwnProperty(e)&&h(t[e])}}}();__ez.evt.add=function(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent?e.attachEvent("on"+t,n):e["on"+t]=n()},__ez.evt.remove=function(e,t,n){e.removeEventListener?e.removeEventListener(t,n,!1):e.detachEvent?e.detachEvent("on"+t,n):delete e["on"+t]};__ez.script.add=function(e){var t=document.createElement("script");t.src=e,t.async=!0,t.type="text/javascript",document.getElementsByTagName("head")[0].appendChild(t)};__ez.dot={};__ez.queue.addFile('/detroitchicago/boise.js', '/detroitchicago/boise.js?gcb=195-0&cb=2', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/memphis.js', '/detroitchicago/memphis.js?gcb=195-0&cb=23', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/minneapolis.js', '/detroitchicago/minneapolis.js?gcb=195-0&cb=4', true, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/rochester.js', '/detroitchicago/rochester.js?gcb=195-0&cb=13', false, ['/detroitchicago/memphis.js','/detroitchicago/minneapolis.js'], true, false, true, false);!function(){var e;__ez.vep=(e=[],{Add:function(i,t){__ez.dot.isDefined(i)&&__ez.dot.isValid(t)&&e.push({type:"video",video_impression_id:i,domain_id:__ez.dot.getDID(),t_epoch:__ez.dot.getEpoch(0),data:__ez.dot.dataToStr(t)})},Fire:function(){if(void 0===document.visibilityState||"prerender"!==document.visibilityState){if(__ez.dot.isDefined(e)&&e.length>0)for(;e.length>0;){var i=5;i>e.length&&(i=e.length);var t=e.splice(0,i),o=__ez.dot.getURL("/detroitchicago/grapefruit.gif")+"?orig="+(!0===__ez.template.isOrig?1:0)+"&v="+btoa(JSON.stringify(t));__ez.dot.Fire(o)}e=[]}}})}();</script><script data-ezscrex='false' data-cfasync='false' data-pagespeed-no-defer>!function(){function e(i){return e="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e(i)}__ez.pel=function(){var i=[];function t(t,o,d,_,n,r,a,s){if(__ez.dot.isDefined(t)&&0!=__ez.dot.isAnyDefined(t.getSlotElementId,t.ElementId)){void 0===s&&(s=!1);var p=parseInt(__ez.dot.getTargeting(t,"ap")),f=__ez.dot.getSlotIID(t),u=__ez.dot.getAdUnit(t,s),z=parseInt(__ez.dot.getTargeting(t,"compid")),g=0,c=0,l=function(i){if("undefined"==typeof _ezim_d)return!1;var t=__ez.dot.getAdUnitPath(i).split("/").pop();if("object"===("undefined"==typeof _ezim_d?"undefined":e(_ezim_d))&&_ezim_d.hasOwnProperty(t))return _ezim_d[t];for(var o in _ezim_d)if(o.split("/").pop()===t)return _ezim_d[o];return!1}(t);"object"==e(l)&&(void 0!==l.creative_id&&(c=l.creative_id),void 0!==l.line_item_id&&(g=l.line_item_id)),__ez.dot.isDefined(f,u)&&__ez.dot.isValid(o)&&("0"===f&&!0!==s||""===u||i.push({type:"impression",impression_id:f,domain_id:__ez.dot.getDID(),unit:u,t_epoch:__ez.dot.getEpoch(0),revenue:d,est_revenue:_,ad_position:p,ad_size:"",bid_floor_filled:n,bid_floor_prev:r,stat_source_id:a,country_code:__ez.dot.getCC(),pageview_id:__ez.dot.getPageviewId(),comp_id:z,line_item_id:g,creative_id:c,data:__ez.dot.dataToStr(o),is_orig:s||__ez.template.isOrig}))}}function o(){void 0!==document.visibilityState&&"prerender"===document.visibilityState||(__ez.dot.isDefined(i)&&i.length>0&&[i.filter((function(e){return e.is_orig})),i.filter((function(e){return!e.is_orig}))].forEach((function(e){for(;e.length>0;){var i=e[0].is_orig||!1,t=5;t>e.length&&(t=e.length);var o=e.splice(0,t),d=__ez.dot.getURL("/porpoiseant/army.gif")+"?orig="+(!0===i?1:0)+"&sts="+btoa(JSON.stringify(o));(void 0!==window.isAmp&&isAmp||void 0!==window.ezWp&&ezWp)&&void 0!==window._ezaq&&_ezaq.hasOwnProperty("domain_id")&&(d+="&visit_uuid="+_ezaq.visit_uuid),__ez.dot.Fire(d)}})),i=[])}return{Add:t,AddAndFire:function(e,i){t(e,i,0,0,0,0,0),o()},AddAndFireOrig:function(e,i){t(e,i,0,0,0,0,0,!0),o()},AddById:function(e,t,o,d){var _=e.split("/");if(__ez.dot.isDefined(e)&&3===_.length&&__ez.dot.isValid(t)){var n=_[0],r={type:"impression",impression_id:_[2],domain_id:__ez.dot.getDID(),unit:n,t_epoch:__ez.dot.getEpoch(0),pageview_id:__ez.dot.getPageviewId(),data:__ez.dot.dataToStr(t),is_orig:o||__ez.template.isOrig};void 0!==d&&(r.revenue=d),i.push(r)}},Fire:o,GetPixels:function(){return i}}}()}();__ez.queue.addFile('/detroitchicago/raleigh.js', '/detroitchicago/raleigh.js?gcb=195-0&cb=6', false, [], true, false, true, false);__ez.queue.addFile('/detroitchicago/tampa.js', '/detroitchicago/tampa.js?gcb=195-0&cb=5', false, [], true, false, true, false);</script>
+<script data-ezscrex="false" data-cfasync="false">(function(){if("function"===typeof window.CustomEvent)return!1;window.CustomEvent=function(c,a){a=a||{bubbles:!1,cancelable:!1,detail:null};var b=document.createEvent("CustomEvent");b.initCustomEvent(c,a.bubbles,a.cancelable,a.detail);return b}})();</script><script data-ezscrex="false" data-cfasync="false">__ez.queue.addFile('/detroitchicago/tulsa.js', '/detroitchicago/tulsa.js?gcb=195-0&cb=7', false, [], true, false, true, false);</script>
+    
+<script type="text/javascript">
+var gform;gform||(document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0}),gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),gform.hooks[o][n].push({tag:i,callable:r,priority:t=null==t?10:t})},doHook:function(n,o,r){var t;if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[n][o]&&((o=gform.hooks[n][o]).sort(function(o,n){return o.priority-n.priority}),o.forEach(function(o){"function"!=typeof(t=o.callable)&&(t=window[t]),"action"==n?t.apply(null,r):r[0]=t.apply(null,r)})),"filter"==n)return r[0]},removeHook:function(o,n,t,i){var r;null!=gform.hooks[o][n]&&(r=(r=gform.hooks[o][n]).filter(function(o,n,r){return!!(null!=i&&i!=o.tag||null!=t&&t!=o.priority)}),gform.hooks[o][n]=r)}});
+</script>
+
+
+    
+
+        <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	    <script type="text/javascript">window.gdSetMap = window.gdSetMap || 'google';</script>
+		<!-- All in One SEO 4.2.0 -->
+		<title>Will the 2023 Arizona Monsoon Bring Another Summer of Rain? - Signals AZ</title>
+		<meta name="description" content="Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more! Will the 2023 Arizona Monsoon Bring Another Summer of Rain?"/>
+		<meta name="robots" content="max-image-preview:large"/>
+		<link rel="canonical" href="https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/"/>
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:site_name" content="Signals AZ -"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:title" content="Will the 2023 Arizona Monsoon Bring Another Summer of Rain? - Signals AZ"/>
+		<meta property="og:description" content="Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more!"/>
+		<meta property="og:url" content="https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/"/>
+		<meta property="og:image" content="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg"/>
+		<meta property="og:image:secure_url" content="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg"/>
+		<meta property="og:image:width" content="800"/>
+		<meta property="og:image:height" content="532"/>
+		<meta property="article:published_time" content="2023-06-30T22:13:12+00:00"/>
+		<meta property="article:modified_time" content="2023-07-24T23:36:29+00:00"/>
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Will the 2023 Arizona Monsoon Bring Another Summer of Rain? - Signals AZ"/>
+		<meta name="twitter:description" content="Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more! Will the 2023 Arizona Monsoon Bring Another Summer of Rain?"/>
+		<meta name="twitter:image" content="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg"/>
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.signalsaz.com\/#website","url":"https:\/\/www.signalsaz.com\/","name":"Signals AZ","inLanguage":"en-US","publisher":{"@id":"https:\/\/www.signalsaz.com\/#organization"}},{"@type":"Organization","@id":"https:\/\/www.signalsaz.com\/#organization","name":"Signals AZ","url":"https:\/\/www.signalsaz.com\/"},{"@type":"BreadcrumbList","@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.signalsaz.com\/#listItem","position":1,"item":{"@type":"WebPage","@id":"https:\/\/www.signalsaz.com\/","name":"Home","description":"SignalsAZ - news and events for Prescott Valley Arizona and beyond. Northern AZ starts here!","url":"https:\/\/www.signalsaz.com\/"},"nextItem":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#listItem"},{"@type":"ListItem","@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#listItem","position":2,"item":{"@type":"WebPage","@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/","name":"Will the 2023 Arizona Monsoon Bring Another Summer of Rain?","description":"Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more! Will the 2023 Arizona Monsoon Bring Another Summer of Rain?","url":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/"},"previousItem":"https:\/\/www.signalsaz.com\/#listItem"}]},{"@type":"Person","@id":"https:\/\/www.signalsaz.com\/author\/mediafainsignaturegroup-com\/#author","url":"https:\/\/www.signalsaz.com\/author\/mediafainsignaturegroup-com\/","name":"Staff","image":{"@type":"ImageObject","@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#authorImage","url":"https:\/\/secure.gravatar.com\/avatar\/1020bf1eced4a694cca77f141de69700?s=96&d=mm&r=g","width":96,"height":96,"caption":"Staff"}},{"@type":"WebPage","@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#webpage","url":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/","name":"Will the 2023 Arizona Monsoon Bring Another Summer of Rain? - Signals AZ","description":"Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more! Will the 2023 Arizona Monsoon Bring Another Summer of Rain?","inLanguage":"en-US","isPartOf":{"@id":"https:\/\/www.signalsaz.com\/#website"},"breadcrumb":{"@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#breadcrumblist"},"author":"https:\/\/www.signalsaz.com\/author\/mediafainsignaturegroup-com\/#author","creator":"https:\/\/www.signalsaz.com\/author\/mediafainsignaturegroup-com\/#author","image":{"@type":"ImageObject","@id":"https:\/\/www.signalsaz.com\/#mainImage","url":"https:\/\/www.signalsaz.com\/wp-content\/uploads\/2021\/07\/56257_southwest-monsoon.jpg","width":800,"height":532},"primaryImageOfPage":{"@id":"https:\/\/www.signalsaz.com\/articles\/will-the-2023-arizona-monsoon-bring-another-summer-of-rain\/#mainImage"},"datePublished":"2023-06-30T22:13:12-07:00","dateModified":"2023-07-24T23:36:29-07:00"}]}
+		</script>
+		<!-- All in One SEO -->
+
+<link rel="dns-prefetch" href="//static.addtoany.com"/>
+<link rel="dns-prefetch" href="//d2y8psjfi06mva.cloudfront.net"/>
+<link rel="dns-prefetch" href="//maps.google.com"/>
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net"/>
+<link rel="dns-prefetch" href="//www.google.com"/>
+<link rel="dns-prefetch" href="//use.fontawesome.com"/>
+<link rel="alternate" type="application/rss+xml" title="Signals AZ » Will the 2023 Arizona Monsoon Bring Another Summer of Rain? Comments Feed" href="https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/feed/"/>
+<link rel="stylesheet" id="audio_articles_oht-css" href="https://d2y8psjfi06mva.cloudfront.net/oht_audio_articles/assets/css/audio_articles_oht.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="related-mobile-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/related-mobile.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="geodir-core-scss-css" href="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/css/gd_core_frontend.css?ver=1.6.38" type="text/css" media="all"/>
+<link rel="stylesheet" id="wp-block-library-css" href="https://www.signalsaz.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="amazonpolly-css" href="https://d2y8psjfi06mva.cloudfront.net/amazon-polly/public/css/amazonpolly-public.css?ver=1.0.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="gd_advance_search_styles-css" href="https://d2y8psjfi06mva.cloudfront.net/geodir_advance_search_filters/css/style.css?ver=1.4.9" type="text/css" media="all"/>
+<link rel="stylesheet" id="geodir-event-frontend-style-css" href="https://d2y8psjfi06mva.cloudfront.net/geodir_event_manager/gdevents-assets/css/style.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="location_manager_css-css" href="https://d2y8psjfi06mva.cloudfront.net/geodir_location_manager/css/geodir-location.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="ohtnav_styles-css" href="https://d2y8psjfi06mva.cloudfront.net/ohtnav/css/styles.css?ver=1.0.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="searchandfilter-css" href="//d2y8psjfi06mva.cloudfront.net/search-filter/style.css?ver=1" type="text/css" media="all"/>
+<link rel="stylesheet" id="theme-style-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/main.css?ver=0.3.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="child-style-css" href="https://www.signalsaz.com/wp-content/themes/clementine/assets/styles/main.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="theme-style-print-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/print.css?ver=0.3.0" type="text/css" media="print"/>
+<link rel="stylesheet" id="all-css" href="https://www.signalsaz.com/wp-content/themes/dolores/fontawesome/css/all.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="font-awesome-css" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css?wpfas=true" type="text/css" media="all"/>
+<link rel="stylesheet" id="widget-style-article-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/ajax-article-widget.css?ver=0.3.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="carousel-bootstrap-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/carousel-bootstrap.css?ver=5.8.4" type="text/css" media="all"/>
+<link rel="stylesheet" id="widget-style-slider-css" href="https://www.signalsaz.com/wp-content/themes/dolores/assets/styles/ajax-slider-widget.css?ver=0.3.0" type="text/css" media="all"/>
+<link rel="stylesheet" id="newsletter-css" href="https://d2y8psjfi06mva.cloudfront.net/newsletter/style.css?ver=7.4.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="slb_core-css" href="https://d2y8psjfi06mva.cloudfront.net/simple-lightbox/client/css/app.css?ver=2.8.1" type="text/css" media="all"/>
+<link rel="stylesheet" id="gform_basic-css" href="https://d2y8psjfi06mva.cloudfront.net/gravityforms/assets/css/dist/basic.min.css?ver=2.6.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="gform_theme_components-css" href="https://d2y8psjfi06mva.cloudfront.net/gravityforms/assets/css/dist/theme-components.min.css?ver=2.6.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="gform_theme_ie11-css" href="https://d2y8psjfi06mva.cloudfront.net/gravityforms/assets/css/dist/theme-ie11.min.css?ver=2.6.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="gform_theme-css" href="https://d2y8psjfi06mva.cloudfront.net/gravityforms/assets/css/dist/theme.min.css?ver=2.6.3" type="text/css" media="all"/>
+<link rel="stylesheet" id="oht-gform-rich-text-css" href="https://d2y8psjfi06mva.cloudfront.net/ohtnav/css/oht-gform-rich-text.css?ver=1.0.0" type="text/css" media=""/>
+<link rel="stylesheet" id="addtoany-css" href="https://d2y8psjfi06mva.cloudfront.net/add-to-any/addtoany.min.css?ver=1.16" type="text/css" media="all"/>
+<link rel="stylesheet" id="__EPYT__style-css" href="https://d2y8psjfi06mva.cloudfront.net/youtube-embed-plus/styles/ytprefs.min.css?ver=14.1" type="text/css" media="all"/>
+<style id="__EPYT__style-inline-css" type="text/css">
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+                         @media (min-width:0px) and (max-width: 767px) {
+                            .epyt-gallery-rowbreak {
+                                display: none;
+                            }
+                            .epyt-gallery-allthumbs[class*="epyt-cols"] .epyt-gallery-thumb {
+                                width: 100% !important;
+                            }
+                          }
+</style>
+<link rel="stylesheet" id="font-awesome-shims-css" href="https://use.fontawesome.com/releases/v5.6.0/css/v4-shims.css?wpfas=true" type="text/css" media="all"/>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-content/themes/dolores/assets/js/related-banner-mobile.js?ver=5.8.4" id="banner-test-js"></script>
+<script type="text/javascript" id="addtoany-core-js-before">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+</script>
+<script type="text/javascript" async="" src="https://static.addtoany.com/menu/page.js" id="addtoany-core-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
+<script type="text/javascript" async="" src="https://d2y8psjfi06mva.cloudfront.net/add-to-any/addtoany.min.js?ver=1.1" id="addtoany-jquery-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/amazon-polly/public/js/amazonpolly-public.js?ver=1.0.0" id="amazonpolly-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodir_advance_search_filters/js/frontend.min.js?ver=1.4.9" id="advanced-search-js-js"></script>
+<script type="text/javascript" id="geodirectory-script-js-extra">
+/* <![CDATA[ */
+var geodir_var = {"siteurl":"https:\/\/www.signalsaz.com","geodir_plugin_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodirectory","geodir_lazy_load":"1","geodir_ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php?action=geodir_ajax_action","geodir_gd_modal":"0","is_rtl":"0","lightBox_txtImage":"Image","lightBox_txtOf":"of","as_min_char":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/geodirectory.min.js?ver=1.6.38" id="geodirectory-script-js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?&amp;language=en&amp;key=AIzaSyAbnmUqyoF4v7gpaT3slxeWCAwedwp_BS4" id="google-maps-api-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/jawj/oms.min.js?ver=1.6.38" id="geodirectory-g-overlappingmarker-script-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/chosen.jquery.min.js?ver=1.6.38" id="chosen-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/ajax-chosen.min.js?ver=1.6.38" id="geodirectory-choose-ajax-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/oht_ads/js/oht_ad_heightCap.js?ver=5.8.4" id="oht_ad_heightCap-js-js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js?ver=5.0.0" id="bootstrap-js"></script>
+<script type="text/javascript" defer="defer" src="https://d2y8psjfi06mva.cloudfront.net/gravityforms/js/jquery.json.min.js?ver=2.6.3" id="gform_json-js"></script>
+<script type="text/javascript" id="gform_gravityforms-js-extra">
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2,"code":"USD"},"base_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/d2y8psjfi06mva.cloudfront.net\/gravityforms\/images\/spinner.svg","strings":{"newRowAdded":"New row added.","rowRemoved":"Row removed","formSaved":"The form has been saved.  The content contains the link to return and complete the form."}};
+var gform_i18n = {"datepicker":{"days":{"monday":"Mon","tuesday":"Tue","wednesday":"Wed","thursday":"Thu","friday":"Fri","saturday":"Sat","sunday":"Sun"},"months":{"january":"January","february":"February","march":"March","april":"April","may":"May","june":"June","july":"July","august":"August","september":"September","october":"October","november":"November","december":"December"},"firstDay":1,"iconText":"Select date"}};
+var gf_legacy_multi = {"98":""};
+var gform_gravityforms = {"strings":{"invalid_file_extension":"This type of file is not allowed. Must be one of the following:","delete_file":"Delete this file","in_progress":"in progress","file_exceeds_limit":"File exceeds size limit","illegal_extension":"This type of file is not allowed.","max_reached":"Maximum number of files reached","unknown_error":"There was a problem while saving the file on the server","currently_uploading":"Please wait for the uploading to complete","cancel":"Cancel","cancel_upload":"Cancel this upload","cancelled":"Cancelled"},"vars":{"images_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/gravityforms\/images"}};
+/* ]]> */
+</script>
+<script type="text/javascript" id="gform_gravityforms-js-before">
+
+</script>
+<script type="text/javascript" defer="defer" src="https://d2y8psjfi06mva.cloudfront.net/gravityforms/js/gravityforms.min.js?ver=2.6.3" id="gform_gravityforms-js"></script>
+<script type="text/javascript" defer="defer" src="https://www.google.com/recaptcha/api.js?hl=en&amp;ver=5.8.4#038;render=explicit" id="gform_recaptcha-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodir_marker_cluster/js/marker_cluster.js?ver=5.8.4" id="gdcluster-js-js"></script>
+<script type="text/javascript" id="__ytprefs__-js-extra">
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php","security":"ee10e96b01","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/d2y8psjfi06mva.cloudfront.net\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/d2y8psjfi06mva.cloudfront.net\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe.__youtube_prefs__\"]","epdovol":"1","version":"14.1","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","ytapi_load":"light","pause_others":"","stopMobileBuffer":"1","not_live_on_channel":"","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type="text/javascript" defer="" src="https://d2y8psjfi06mva.cloudfront.net/youtube-embed-plus/scripts/ytprefs.min.js?ver=14.1" id="__ytprefs__-js"></script>
+<link rel="https://api.w.org/" href="https://www.signalsaz.com/wp-json/"/><link rel="alternate" type="application/json" href="https://www.signalsaz.com/wp-json/wp/v2/oht_article/101815"/><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.signalsaz.com/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.signalsaz.com/wp-includes/wlwmanifest.xml"/> 
+<link rel="shortlink" href="https://www.signalsaz.com/?p=101815"/>
+<link rel="alternate" type="application/json+oembed" href="https://www.signalsaz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="https://www.signalsaz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;format=xml"/>
+
+<!-- This site is using AdRotate Professional v5.12 to display their advertisements - https://ajdg.solutions/ -->
+<!-- AdRotate CSS -->
+<style type="text/css" media="screen">
+	.g { margin:0px; padding:0px; overflow:hidden; line-height:1; zoom:1; }
+	.g img { height:auto; }
+	.g-col { position:relative; float:left; }
+	.g-col:first-child { margin-left: 0; }
+	.g-col:last-child { margin-right: 0; }
+	.woocommerce-page .g, .bbpress-wrapper .g { margin: 20px auto; clear:both; }
+	.g-14 { margin:5px; 5px 5px 5px; float:left; clear:left; }
+	.g-46 {  margin: 0 auto; }
+	.g-47 {  margin: 0 auto; }
+	.g-48 { width:auto; margin: 0 auto; }
+	.b-48 { margin:10px 0px 10px 0px; }
+	.g-49 {  margin: 0 auto; }
+	.g-50 { margin:10px; 0px 10px 0px; }
+	.g-51 { width:auto; margin: 0 auto; }
+	.b-51 { margin:10px 0px 10px 0px; }
+	.g-52 {  margin: 0 auto; }
+	.g-53 {  margin: 0 auto; }
+	.g-54 { width:auto; margin: 0 auto; }
+	.b-54 { margin:10px 0px 10px 0px; }
+	.g-55 {  margin: 0 auto; }
+	.g-56 {  margin: 0 auto; }
+	.g-57 { width:auto; margin: 0 auto; }
+	.b-57 { margin:10px 0px 10px 0px; }
+	.g-58 {  margin: 0 auto; }
+	.g-59 {  margin: 0 auto; }
+	.g-60 { width:auto; margin: 0 auto; }
+	.b-60 { margin:10px 0px 10px 0px; }
+	.g-61 {  margin: 0 auto; }
+	.g-62 {  margin: 0 auto; }
+	.g-63 { width:auto; margin: 0 auto; }
+	.b-63 { margin:10px 0px 10px 0px; }
+	.g-64 {  margin: 0 auto; }
+	.g-65 {  margin: 0 auto; }
+	.g-66 { width:auto; margin: 0 auto; }
+	.b-66 { margin:10px 0px 10px 0px; }
+	.g-67 {  margin: 0 auto; }
+	.g-68 {  margin: 0 auto; }
+	.g-69 { width:auto; margin: 0 auto; }
+	.b-69 { margin:10px 0px 10px 0px; }
+	.g-70 {  margin: 0 auto; }
+	.g-71 {  margin: 0 auto; }
+	.g-72 { width:auto; margin: 0 auto; }
+	.b-72 { margin:10px 0px 10px 0px; }
+	.g-73 {  margin: 0 auto; }
+	.g-74 {  margin: 0 auto; }
+	.g-75 { width:auto; margin: 0 auto; }
+	.b-75 { margin:10px 0px 10px 0px; }
+	.g-76 {  margin: 0 auto; }
+	.g-77 {  margin: 0 auto; }
+	.g-78 { width:auto; margin: 0 auto; }
+	.b-78 { margin:10px 0px 10px 0px; }
+	.g-79 {  margin: 0 auto; }
+	.g-80 { width:auto; margin: 0 auto; }
+	.b-80 { margin:10px 0px 10px 0px; }
+	.g-81 {  margin: 0 auto; }
+	.g-82 {  margin: 0 auto; }
+	.g-83 { width:auto; margin: 0 auto; }
+	.b-83 { margin:10px 0px 10px 0px; }
+	.g-84 {  margin: 0 auto; }
+	.g-85 {  margin: 0 auto; }
+	.g-86 { width:auto; margin: 0 auto; }
+	.b-86 { margin:10px 0px 10px 0px; }
+	.g-87 { margin:10px; 0px 10px 0px; }
+	.g-88 { margin:10px; 0px 10px 0px; }
+	.g-89 { width:auto; }
+	.b-89 { margin:10px 0px 10px 0px; }
+	.g-90 {  margin: 0 auto; }
+	.g-91 { margin:10px; 0px 10px 0px; float:right; clear:right; }
+	.g-92 { width:auto; margin: 0 auto; }
+	.b-92 { margin:10px 0px 10px 0px; }
+	.g-52 {  margin: 0 auto; }
+	.g-94 { margin:10px; 0px 10px 0px; float:right; clear:right; }
+	.g-95 { width:auto; margin: 0 auto; }
+	.b-95 { margin:10px 0px 10px 0px; }
+	.g-96 {  margin: 0 auto; }
+	.g-97 {  margin: 0 auto; }
+	.g-98 { min-width:0px; max-width:125px; margin: 0 auto; }
+	.b-98 { margin:10px 0px 10px 0px; }
+	.g-99 {  margin: 0 auto; }
+	.g-100 {  margin: 0 auto; }
+	.g-101 { width:auto; margin: 0 auto; }
+	.b-101 { margin:10px 0px 10px 0px; }
+	.g-102 {  margin: 0 auto; }
+	.g-103 {  margin: 0 auto; }
+	.g-104 { width:auto; margin: 0 auto; }
+	.b-104 { margin:10px 0px 10px 0px; }
+	.g-105 {  margin: 0 auto; }
+	.g-106 {  margin: 0 auto; }
+	.g-107 { width:auto; margin: 0 auto; }
+	.b-107 { margin:10px 0px 10px 0px; }
+	.g-108 {  margin: 0 auto; }
+	.g-109 { width:auto; margin: 0 auto; }
+	.b-109 { margin:10px 0px 10px 0px; }
+	.g-110 {  margin: 0 auto; }
+	.g-111 {  margin: 0 auto; }
+	.g-112 { width:auto; margin: 0 auto; }
+	.b-112 { margin:10px 0px 10px 0px; }
+	.g-113 {  margin: 0 auto; }
+	.g-114 {  margin: 0 auto; }
+	.g-115 { width:auto; margin: 0 auto; }
+	.b-115 { margin:10px 0px 10px 0px; }
+	.g-116 {  margin: 0 auto; }
+	.g-117 { width:auto; margin: 0 auto; }
+	.b-117 { margin:10px 0px 10px 0px; }
+	.g-118 {  margin: 0 auto; }
+	.g-119 { width:auto; margin: 0 auto; }
+	.b-119 { margin:10px 0px 10px 0px; }
+	.g-120 {  margin: 0 auto; }
+	.g-27 {  width:100%; max-width:300px;  height:100%; max-height:300px; margin: 0 auto; }
+	.g-2 {  margin: 0 auto; }
+	@media only screen and (max-width: 480px) {
+		.g-col, .g-dyn, .g-single { width:100%; margin-left:0; margin-right:0; }
+		.woocommerce-page .g, .bbpress-wrapper .g { margin: 10px auto; }
+	}
+</style>
+<!-- /AdRotate CSS -->
+
+<style></style>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+				<script>
+			document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );
+		</script>
+				<style>
+			.no-js img.lazyload { display: none; }
+			figure.wp-block-image img.lazyloading { min-width: 150px; }
+							.lazyload, .lazyloading { opacity: 0; }
+				.lazyloaded {
+					opacity: 1;
+					transition: opacity 0ms;
+					transition-delay: 0ms;
+				}
+					</style>
+				<style type="text/css">
+				.oht-menu--clem { background: #c08329; }
+				.oht-menu--utility-left a { color: #ffffff; }
+		</style>
+				<style type="text/css">
+		body { background:#ffffff}.wrapper { background-color:#ffffff}p { color:#000000}a { color:#c08329}.oht-menu-container--main li a, .current-item a, .oht-menu--mobile, body.oht-nav-fixed .oht-menu-container--main a { color:#000000}.oht-menu-container--main ul, .oht-menu--mobile, body.oht-nav-fixed .oht-menu-container--main { background:#f2f2f2}.oht-menu-container--main li a:hover, .oht-menu--mobile:hover { color:#404040}.oht-menu-container--main li:hover a { background:#efefef}.oht-menu--secondary li a { color:#404040}.oht-menu--secondary { background:#dd9933}.oht-menu--secondary li a:hover { color:}.oht-menu--secondary li:hover a { background:#c08329}h2.widget-title { background:#ffffff}.oht-article p.breaking-news, .breaking-news { background:}.footer-container { background:#c08329}h1 { color:#0a0a0a}h2 { color:#0a0a0a}h3 { color:#c08329}h4 { color:#c08329}.oht-free-access { background-color:#342f82}.oht-free-access { color:#0a0a0a}		</style>
+		    <style type="text/css">
+    body { font-family: sans-serif !important; } 
+h2.widget-title, .widget .widget-title { font-family: sans-serif !important; } 
+.oht-menu a, .oht-menu--mobile a, .utility-nav li a { font-family: sans-serif !important; } 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .oht-article h3 a, .oht-article p.oht-article-meta, .entry-title { font-family: sans-serif !important; } 
+    </style>
+  <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WQTJVNN');</script>
+<!-- End Google Tag Manager -->
+
+
+<script>
+
+jQuery(function injectmenu($) {
+		$('#menu-left-utility').before("<div id='menu_logo'><a href='https://www.signalsaz.com'><img src='https://www.signalsaz.com/wp-content/uploads/2018/02/signals-fb-profile-1.png' / alt='signals-az'></a></div>")
+}); 
+
+</script>  
+<meta name="google-site-verification" content="SU8J82ppRPhqfTSyCh-ve4LvzYjdhuhfMJxnIlkGlhM"/>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+ fbq('init', '381535285877206'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+ <img height="1" width="1" 
+src="https://www.facebook.com/tr?id=381535285877206&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Google Tracking for polly -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-114534667-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+
+//   gtag('config', 'UA-114534667-1');
+//  Disabld pageview recording as it's recorded in GTM ( Testing complete, comment out)
+  gtag('config', 'UA-114534667-1', { 'send_page_view': false });
+</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1"/>
+
+
+<link rel="icon" href="https://www.signalsaz.com/wp-content/uploads/2018/02/icon-1-100x100.jpg" sizes="32x32"/>
+<link rel="icon" href="https://www.signalsaz.com/wp-content/uploads/2018/02/icon-1.jpg" sizes="192x192"/>
+<link rel="apple-touch-icon" href="https://www.signalsaz.com/wp-content/uploads/2018/02/icon-1.jpg"/>
+<meta name="msapplication-TileImage" content="https://www.signalsaz.com/wp-content/uploads/2018/02/icon-1.jpg"/>
+		<style type="text/css" id="wp-custom-css">
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+.bold-link-footer{
+	font-weight: 700 !important;
+  font-size: 20px !important;
+}
+
+.header__logo{
+	height: auto !important;
+	width: 100% !important;
+}
+
+.sponsoredbyimg{
+	max-height: 30px;
+	vertical-align: middle;
+}
+
+.g{
+	margin-top: 10px;
+}
+.g.g-3{
+	margin-top: 0px !important;
+}
+
+.entry-content p span iframe{
+	width: 100% !important;
+	height: 450px;
+}
+#gform_wrapper_13{
+	border: 1px solid #EEE;
+	padding: 25px;
+	background-color: #FDFDFD;
+}
+
+.oht-menu--utility-left li a{
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+/*BLOCK QUOTE*/
+blockquote {
+max-width: 100%;
+text-align: center;
+margin: 0px;
+padding: 20px;
+padding-left: 50px;
+color: #428bca;
+border-left: 5px solid #c08329;
+
+}
+
+blockquote p{
+	font-size: 24px !important;
+}
+/*Newsletter Post Injection*/
+
+.g.g-14{
+
+}
+
+#newsletter_ad_inj_mobile{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	float: left;
+	padding: 15px;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+#newsletter_ad_inj{
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	margin-right: 20px;
+	float: left;
+	padding: 15px;
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	text-transform: uppercase;
+}
+
+#newsletter_ad_button{
+	text-align:center;
+	width: 80%;
+	padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	background-color: #c08329;
+}
+
+#newsletter_ad_button a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* Header */
+
+div#header-ads-left, a.geodir-viewall, ul#breadcrumbs {
+	display:none;
+}
+
+.g {
+		text-align:center;
+	  margin-bottom: 20px;
+}
+
+div#oht_slider_widget-3-outer {
+	margin-bottom:0;
+}
+
+div#header-ads-right{
+	width:100% !important;
+}
+
+p.header__date {
+	font-size:16px !important;
+}
+
+p {
+	/*font-weight:100;*/
+	line-height:1.666667 !important;
+	font-size:1.2rem !important;
+}
+
+/* Front Page */
+.oht-article h3, .oht-article .oht-title-link {
+		font-weight:300;
+}
+
+.headlines .oht-article {
+	border-bottom:.5px #F2F2F2 solid;
+	padding-bottom: 1em;
+	font-size: 14px;
+}
+
+.headlines .oht-article:last-child{
+	border-bottom: 0px;
+}
+
+.headlines .oht-article .oht-title-link{
+	font-weight: 600 !important;
+}
+
+
+
+h2.widget-title, .widget-title a, h3.widget-title {
+	font-size:16px;
+	font-weight:700;
+	background-color: #f2f2f2;
+	color:#404040;
+}
+
+.widget-title {
+	padding:7px;
+}
+
+.footer-container, .footer-container a {
+		color:white;
+}
+
+form.search-form {
+	float:right;
+}
+
+a, a:hover {
+	transition:all 300ms ease-in-out;
+}
+
+/*Hide Title on LOCAL JOBS Widget*/
+
+div#middle-full .geodir_list_heading{
+	display:none;
+}
+/* Menus*/
+
+.oht-menu--utility-left a, .oht-menu--utility-right a {
+	font-weight:300;
+}
+.oht-menu li ul ul{
+	left:100%;
+	background-color:black !important;
+}
+
+.oht-menu-container.oht-menu-container--main.desktop-only {
+	margin-bottom:.5em;
+}
+
+.oht-menu-container.oht-menu-container--main.desktop-only a {
+	font-size:18px;
+		border-right:dotted .5px lightgray;
+		font-weight:300;
+}
+
+.oht-menu-container.oht-menu-container--main.desktop-only li{
+		padding:5px 0;
+		background-color:#f2f2f2;
+}
+
+ .oht-menu-container.oht-menu-container--main.desktop-only .sub-menu {
+	border-left:white inset 2px;
+	border-right:white inset 2px;
+	border-bottom:white inset 2px;
+}
+
+.h6 {
+	font-size:22px;
+}
+
+#menu-footer-menu li {
+	font-size: 28px;
+}
+
+.footer-container form#searchform {
+	display:inline;
+}
+
+.footer-container input#s {
+	width:50%;
+}
+
+.footer-container ul li {
+	list-style:none;
+		font-size:16px;
+		font-weight:300;
+		text-transform:uppercase;
+
+}
+
+.footer-container ul li:hover{
+	text-shadow:gray 1px 1px 1px;
+}
+
+.footer-container ul.social-media {
+	margin:10px 0;
+}
+
+.footer-container ul.social-media a {
+		font-size:30px;
+		margin:1px 5px
+}
+.footer-container .sub-menu li {
+	text-transform:capitalize;
+		font-size:18px;
+		list-style:circle;
+}
+
+.sponsoredby a{
+	margin:0 !important;
+	padding:1px 5px !important;
+	background-color:inherit;
+	border:white solid 1px;
+	vertical-align:middle;
+}
+
+.sponsoredby img {
+	max-height:35px;
+		vertical-align:middle;
+}
+
+/* Newsletter */
+
+.newslettersignals {
+	padding:10px;
+	background-color:#c08329;
+}
+
+.newslettersignals .widget-title a{
+	color:white;
+	background-color:#c08329!Important;
+	font-size:18px
+}
+.newslettersignals .widget-title {
+	background-color:#c08329!Important;
+}
+
+.newslettersignals .tnp-subscription input.tnp-submit {
+		width:100%;
+}
+
+/*Slider CSS*/
+
+.h6 {
+		font-weight:bold;
+}
+
+
+/*event calendar styling */
+.event_highlight {
+		background-color:#404040 !important;
+		box-shadow:black 1px 1px 1px;
+		text-shadow:black 1px 1px 1px;
+		color:white	!important;
+}
+
+.event_highlight:hover {
+	box-shadow:black .5px 1px 1px;
+		text-shadow:black .5px 1px 1px;
+}
+
+table.calendar_widget { 
+	 background-color:#e8c189 !important;
+}
+
+td.days, table.gd_cal_nav, span#cal_title {
+	background-color:#ba8543 !important;
+		color:white !important;
+		text-shadow:black 1px 1px 1px;
+}
+
+h3.geodir-entry-title, header.geodir-entry-header {
+	font-size:20px !important;
+	padding:5px 0;	
+}
+
+.single-gd_event .geodir_more_info h3 {
+	display:none;
+}
+
+/*business directory*/
+ul.gd-cptcat-ul.gd-cptcat-parent.gd-cpt-flat {
+	list-style:none;
+}
+
+.geodir_thumbnail {
+		background-size:contain !important;
+}
+
+.Navi.gd-navi a, strong.on{
+	font-size:16px;
+	font-weight:700;
+	background-color: #f2f2f2;
+	color:#404040;
+	padding:10px 15px;
+	margin-right:10px;
+	line-height:2
+}
+
+h3.gd-cptcat-cat a{
+	font-size:20px;
+	font-weight:700;
+	background-color: #f2f2f2;
+	color:#404040;
+	padding:5px;
+}
+
+h2.gd-cptcat-title{
+	font-size:16px;
+	font-weight:700;
+	background-color: #f2f2f2;
+	color:#404040;
+	padding:5px;
+}
+
+.gd-cptcat-row .gd-cptcat-title {
+	border-bottom:darkgray 1px solid;
+}
+
+ul.gd-cptcat-ul.gd-cptcat-parent.gd-cpt-flat {
+	margin:5px 10px;
+}
+
+/*Category Page CSS*/
+
+.archive a.oht-title-link   {
+	font-weight:300;
+	font-size:2rem;
+	line-height:1.0645;
+	margin-bottom:1%;
+}
+
+/* Article CSS */
+
+h1.article__heading {
+	font-weight:300;
+	font-size:4.13rem;
+	line-height:1.0645;
+	margin-bottom:1%;
+}
+
+
+.type-oht_article span.article__subhead {
+	font-size:2rem;
+}
+
+p.byline.oht-article-meta {
+	font-weight:bold;
+		font-style:normal;
+}
+
+p.wp-caption-text {
+		font-size:14px !important;
+}
+
+/*sidebar*/
+.content__sidebar li.clearfix.geodir-gridview.gridview_onehalf.gd-post-pkg-2.gd-post-gd_event {
+	width:100%;
+}
+
+.ohtfooterinfo {
+	font-size:12px;
+	margin-top:5px;
+}
+
+p.oht-links {
+	display:none;
+}
+
+.login_form_l, .registration_form_r {
+	width:100% !important;
+	margin-left:0% !important;
+	float:none;
+	margin-bottom:1em;
+}
+
+.oht-menu--utility-right {
+	opacity:1 !important;
+}
+
+.home div.mg-pagination .mg-page-next {
+    display: none !important;
+}
+/*media queries*/
+
+@media (max-width:800px) {
+
+.big-left .oht-article:first-child {
+	width:100% !important;
+	float:none;
+}
+
+.big-left .oht-article {
+	width:100%;
+}
+}
+
+@media (min-width:800px) {
+	.grid .oht-article {
+		width:23%;
+}
+	
+	div#oht_articles_widget-11 .grid .oht-article, div#oht_articles_widget-14 .grid .oht-article {
+		width:48%;
+	}
+}
+
+@media (min-width: 601px) {
+
+.header__bucket>div {
+    width: 25% !important;
+	}
+
+}
+
+@media (max-width: 601px) {
+.header__logo {
+		display:none !important;
+	}
+
+	#maxgallery-5872.mg-video-tiles .mg-thumbs.mg-threecol ul li {
+    max-width: 100% !important;
+	  width: 100% !important;
+	  text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#maxgallery-5872.mg-video-tiles .mg-thumbs.mg-threecol ul li img{
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+}
+
+@media (min-width:1084px){
+	.oht-logo--clem {
+		display:none !important;
+	}
+	
+	.oht-menu--utility-left {
+	opacity:1 !important;
+}
+	
+}
+
+/* MOBILE ADS */
+
+@media (max-width: 599px){
+.single-oht_article .g.g-15,
+.single-oht_article .g.g-16,
+.single-oht_article .g.g-17,
+.single-oht_article .g.g-18,
+.single-oht_article .g.g-19,
+.single-oht_article .g.g-20,
+.single-oht_article .g.g-21,
+.single-oht_article .g.g-22,
+.single-oht_article .g.g-23,
+.single-oht_article .g.g-24,
+.single-oht_article .g.g-25,
+.single-oht_article .g.g-26,
+.single-oht_article .g.g-28,
+.single-oht_article .g.g-29{
+
+display: none;
+
+}
+}
+
+#menu_logo{
+	display: none;
+	width:70px;
+	height:70px;
+	position:absolute;
+}
+
+/*NEW HOMEPAGE */
+
+
+.home .geodir_list_heading{
+	display: none;
+}
+
+.geodir_category_list_view li.gridview_onehalf {
+    width: 100% !important;
+}
+
+.home .geodir_category_list_view li .geodir-post-img {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+}
+
+.home .geodir_category_list_view li .geodir-content {
+    width: 95%;
+    float: left;
+    margin-right: 3%;
+}
+
+.header__logo{
+	display: none;
+	width: 0%;
+}
+
+.page-id-11796 .oht-menu--clem {
+}
+@media (min-width: 1025px) {
+#menu_logo{
+	display: inline-block;
+	width:70px !important;
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	border: 3px solid #EAC181;
+	z-index: 9999;
+	background-color: #FFF;
+}
+	
+#menu-left-utility{
+	margin-left: 75px;
+}
+	
+.oht-hamburger {
+    float: left;
+    border: 0;
+    background: #000;
+    position: relative;
+    z-index: 1000;
+    background-color: #FFF;
+    border: 1px solid #555;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    padding: 6px 14px;
+    text-transform: none !important;
+    text-decoration: none;
+    line-height: 22px;
+    margin-left: 105px;
+	  display: none;
+}
+}
+
+.search-submit {
+    border-radius: 0 2px 2px 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 42px;
+	  background-color: #FFF;
+	  color: #000;
+	  border-left: 1px solid #DDD;
+}
+
+.sponsoredby{
+	background-color: #FFF;
+	border-radius: 4px;
+}
+
+.sponsoredby a{
+	color: #000;
+}
+
+/* #eventlist
+.geodir_category_list_view
+.geodir-post-img {
+	display: none;
+}*/
+
+#eventlist
+.geodir_category_list_view li:first-child
+.geodir-post-img {
+	display: block;
+}
+
+#eventlist .geodir-entry-title{
+	font-size: 14px !important;
+}
+
+#eventlist .geodir-event-meta{
+	font-size: 12px !important;
+}
+
+#eventlist .geodir-entry-content p{
+	font-size: 12px !important;
+}
+
+#videorow .widget-title{
+	font-size: 12px;
+}
+
+
+@media (min-width: 1085px){
+.oht-logo--clem {
+	  display: none !important;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: opacity 300ms ease;
+    transition: opacity 300ms ease;
+}
+}
+body{
+	   text-rendering: optimizeLegibility;
+   -webkit-font-smoothing: subpixel-antialiased;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   
+}
+
+@media (min-width: 800px){
+#oht_articles_widget-21 .grid .oht-article {
+    width: 20%;
+}
+}
+
+@media (min-width: 800px){
+#oht_articles_widget-27 .grid .oht-article {
+    width: 20%;
+}
+}
+
+/** AMAZON POLLY **/
+
+@media (max-width: 999px){
+#amazon-ai-player-label{
+	  margin-top: 5px;
+    margin-bottom: 15px;
+    width:50%;
+    float:left;
+	  font-size: 10px;
+	}
+	
+.audiosponsor{
+    width: 35%;
+    float:right;
+	  margin-right: 25px;
+    margin-top: 10px;
+    }
+}
+
+@media (min-width: 1000px){
+#amazon-ai-player-label{
+    margin-bottom: 15px;
+    width:65%;
+    float:left;
+}
+.audiosponsor{
+    width:25%;
+    float:right;
+	  margin-right: 25px;
+    margin-top:-35px;
+	  margin-bottom: 35px;
+    
+}
+}
+
+/* Left Utility Menu */
+
+.oht-menu--utility-left li ul a:link, 
+.oht-menu--utility-left li ul a:visited {
+  color: #4a4a4a;
+	background-color:#f3f3f3;
+}
+
+.oht-menu li ul a:hover, 
+.oht-menu li ul a:active,
+.oht-menu--utility-left li ul a:hover, 
+.oht-menu--utility-left li ul a:active {
+  color: #C08329;
+}
+
+#menu-mobile-menu a{
+    text-transform: uppercase;
+}
+
+
+/*GEODIRECCTORY ADS*/
+
+
+
+.g-79{
+	display: none;
+}
+
+.g-80{
+	display: none;
+}
+
+.geodir_custom_posts.geodir-page .g-79{
+	display: block;
+}
+
+.geodir_custom_posts.geodir-page .g-80{
+	display: block;
+}
+
+.home .g-79,
+.home .g-80{
+	display: none !important;
+}
+.hide-label{
+	display:none;
+}
+
+/** COUPONS **/
+
+/**COUPONS FOR SIGNALS */
+
+.geodir-addinfo {
+	display: none;
+}
+
+.geodir-i-text{
+
+	
+}
+.geodir_couponcode{
+	background-color: green;
+	padding: 15px !important;
+	border-radius: 12px;
+	color: #FFF;
+	font-size: 14px !important;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.gd-search-field-cpt:first-child{
+	display: none;
+}
+
+.geodir_list_heading {
+	display: none;
+}
+
+.privacy-button-color{
+	background-color: darkgreen !important;
+}
+
+.deal-city{
+	float: left;
+	text-align: center;
+	width: 200px;
+	height: 250px;
+	border: 1px solid #ddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+}
+
+.deal-city-logo{
+	width: 100%;
+}
+
+.deal-city-logo img{
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+}
+
+.deal-city-link p{
+	font-size: 18px !important;
+	font-weight: bold;
+
+}
+
+.deals-newsletter-form{
+	border: 1px solid #ddd;
+	padding: 10px;
+	background: #FEFEFE;
+	display: none;
+}
+
+a .deals-home-button{
+	width: 200px;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 6px;
+	background-color: #c08329;
+	padding: 10px;
+	display: none;
+}
+
+.single-gd_deal .deals-newsletter-form,
+.single-gd_deal .deals-home-button{
+	display: block;
+}
+
+/* updates */
+
+.oht-widget--trending .widget-title{
+	display: none;
+}
+
+.oht-trending .oht-trending__title{
+	color: #222;
+	font-weight: 600 !important;
+}
+.oht-trending li:hover{
+	color: #FFF;
+	background-color: #c08329;
+}
+
+.oht-trending li:hover .oht-trending__title{
+	color: #FFF;
+}
+
+.newsletter-box{
+	background-color: #c08329;
+	padding: 0px;
+	border: 1px solid #c08329;
+	border-radius: 5px;
+}
+
+.newsletter-box .widget-title{
+	text-align: center;
+	background-color: #c08329;
+	padding: 10px;
+	margin-top: 10px;
+	color: #FFF;
+}
+
+.newsletter-box div{
+	padding: 15px;
+	border-top: 1px solid #c08329;
+	border-bottom: 1px solid #c08329;
+	margin-bottom: 20px;
+	background-color: #FFF;
+}
+#eventblock {
+	background-color: #F2F2F2;
+	padding: 20px;
+	border: 1px solid #EEE;
+	border-radius: 8px;
+}
+
+#eventblock .widget-title{
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+	background-color: #c08329;
+	color: #FFF;
+	border-radius: 5px;
+}
+#eventblock .geodir_category_list_view li.geodir-gridview {
+    border: 1px #EEE solid !important;
+	  background-color: #FFF;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+	  border-radius: 5px;
+}
+
+#eventblock li .geodir-post-img {
+	border-radius: 5px;
+}
+
+
+.magazine-ad{
+	border-bottom: 1px solid #c08329;
+	padding-bottom: 20px;
+}
+
+.magazine-link{
+	background-color: #c08329;
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/* Mobile view puts sidabar above featured stories */
+.mobile-content-section {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 100% !important;
+}
+
+.mobile-content-sidebar {
+	width: 100% !important;
+}
+.oht-related-inner-mobile{
+	margin-top:-120px!important;
+}
+
+/* article banner changes 
+.oht-related-subhead-mobile{
+	line-height: 1 !important;
+}
+
+
+.oht-related-inner-mobile > a > button{
+	margin-top:-10px;
+}
+
+.oht-related-inner-mobile > a > button{
+	  border-radius: 8px 8px 0px 0px;
+    width: 100px;
+    color: white !important;
+    right: 140px;
+    position: absolute;
+    margin-top: -104px;
+    background-color: rgb(192, 131, 41)!important;
+    border-bottom: none;
+}
+*/
+/* recommended articles widget */
+#oht-related-content > div > button{
+
+	background-color:#c08329!important;
+}
+#oht-recommended-title > p {
+	line-height:1em!important;
+	color:#c08329!important;
+	font-size: medium!important;
+}
+.aa-cat-play-button{
+	display:none;
+}
+
+/* iDEALios Section */
+
+
+#idealiosblock {
+	background-color: #F2F2F2;
+	padding: 20px;
+	border: 1px solid #EEE;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+#idealiosblock .widget-title{
+	text-align: center;
+	border-bottom: 1px solid #DDD;
+	background-color: #c08329;
+	color: #FFF;
+	border-radius: 5px;
+}
+
+#idealiosblock .edit_order{
+	display: none;
+}
+
+@media (min-width: 800px){
+#idealiosblock .grid.oht-article-widget__content.oht-4-count{
+	width: 100%;
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+#idealiosblock .grid.oht-article-widget__content.oht-4-count .oht-article{
+	width: 24%;
+	margin: 2px;
+}
+}
+
+@media (max-width: 799){
+#idealiosblock .grid.oht-article-widget__content.oht-4-count{
+	width: 100%;
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+#idealiosblock .grid.oht-article-widget__content.oht-4-count .oht-article{
+	width: 100%;
+	margin: 0px;
+}
+}
+
+#idealiosblock .oht-article{
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #EEE;
+}
+
+#idealiosblock .oht-article p{
+	padding: 5px;
+	font-size: 16px !important;
+}
+@media only screen and (min-width: 600px) {
+.oht-related-mobile-banner{
+	display:none!important;
+	} 
+}
+
+.edit_order{
+  font-size: 10px;
+}
+
+
+/* Latest Editions Section */
+
+
+#tgmblock {
+	background-color: #F2F2F2;
+	padding: 20px;
+	border: 1px solid #EEE;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+#tgmblock .widget-title{
+	text-align: center;
+	background-color: #c08329;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+#tgmblock .widget-title-alt{
+	text-align: center;
+	background-color: #c08329;
+	color: #FFF;
+	border-radius: 5px;
+	font-size: 12px;
+	padding: 10px;
+}
+
+#tgmblock .edit_order{
+	display: none;
+}
+
+@media (min-width: 800px){
+#tgmblock .grid.oht-article-widget__content.oht-4-count{
+	width: 100%;
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+#tgmblock .grid.oht-article-widget__content.oht-4-count .oht-article{
+	width: 24%;
+	margin: 2px;
+}
+}
+
+@media (max-width: 799){
+#tgmblock .grid.oht-article-widget__content.oht-4-count{
+	width: 100%;
+	margin-left: 8px;
+	margin-right: auto;
+}
+
+#tgmblock .grid.oht-article-widget__content.oht-4-count .oht-article{
+	width: 100%;
+	margin: 0px;
+}
+}
+
+#tgmblock .oht-article{
+	background-color: #FFF;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #EEE;
+}
+
+#tgmblock .oht-article p{
+	padding: 5px;
+	font-size: 16px !important;
+}
+@media only screen and (min-width: 600px) {
+.oht-related-mobile-banner{
+	display:none!important;
+	} 
+}
+
+.edit_order{
+  font-size: 10px;
+}
+
+#tgmblock .magazine-ad{
+	border: 0px;
+	padding: 0px;
+}
+
+
+/* Youtube */
+
+.youtube-container{
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;	
+}
+
+.youtube-container h2{
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 4px solid #c08329;
+}
+
+/*
+.epyt-gallery{
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}*/
+
+.epyt-next,
+.epyt-prev{
+	color: #FFF;
+	background-color: #c08329;
+	padding: 10px !important;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.epyt-pagenumbers{
+	color: #FFF;
+	background-color: #c08329;
+	border-radius: 4px;
+	padding: 10px !important;
+}
+
+.epyt-gallery-subscribe a.epyt-gallery-subbutton, .epyt-gallery-subscribe a.epyt-gallery-subbutton:hover {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: #c08329!important;
+    color: #fff!important;
+    text-decoration: none!important;
+    border-radius: 3px;
+}
+
+.epyt-cols-3 {
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+@media (min-width:801px){
+	
+.epyt-gallery-thumb{
+	padding: 5px;
+	width: 32.2% !important;
+  margin: 5px;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+}
+
+@media (max-width:800px){
+	
+.epyt-gallery-thumb{
+	padding: 5px;
+	width: 32% !important;
+  margin-bottom: 10px;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+}
+
+.epyt-gallery-title{
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.a-160{
+	margin: 10px 0px;
+}
+
+/* HIDE IDEAL LIVING & JOBS */
+
+.ideal-living,
+.local-jobs{
+	display: none;
+}
+
+#oht_articles_widget-32{
+	display: none;
+}
+
+#end-full .geodir_locations.geodir_location_listing{
+	display: none;
+}
+
+.oht-show-logo .oht-menu--utility-left,.oht-show-logo .oht-menu--utility-right {
+	pointer-events: all!important;
+}
+
+/*Read More Text Fix */
+.oht-magazine-arrow-overlay {
+    background-color: rgb(230 148 28 / 80%);
+}
+
+.oht-magazine-arrow-overlay > span.arrow {
+    font-size: 26px;
+    top: 22px;
+    opacity: 0.95;
+    display: inline-flex;
+    background-color: #FFF;
+    border-radius: 60%;
+    padding: 20px;
+}
+
+.oht-magazine-arrow-overlay > span.arrow > svg {
+    fill: #c08329;
+}
+
+/* LOCAL NEWS */
+#oht_articles_widget-43 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 32px;
+}
+
+/* RECREATION */
+#oht_articles_widget-10 > div.wide-grid.oht-article-widget__content.oht-9-count > div:nth-child(9) > a > div > h3 {
+	font-size: 22px;
+	bottom: 15px;
+}
+
+/* DINING */
+#oht_articles_widget-45 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 24px;
+	bottom: 15px;
+}
+
+
+/* SPORTS */
+#oht_articles_widget-42 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 44px;
+	bottom: 20px;
+}
+
+/* BUSINESS */
+#oht_articles_widget-41 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 26px;
+}
+
+/* REAL ESTATE */
+#oht_articles_widget-9 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 32px;
+	bottom: 20px;
+}
+
+/* SENALES */
+#oht_articles_widget-34 > div.wide-grid.oht-article-widget__content.oht-5-count > div:nth-child(5) > a > div > h3 {
+	font-size: 38px;
+	bottom: 20px;
+}		</style>
+		
+<script type="text/javascript">var ezouid = "1";</script><base href="https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/"><script type='text/javascript'>
+var ezoTemplate = 'old_site_noads';
+if(typeof ezouid == 'undefined')
+{
+    var ezouid = 'none';
+}
+var ezoFormfactor = '1';
+var ezo_elements_to_check = Array();
+</script><!-- START EZHEAD -->
+<script data-ezscrex="false" type='text/javascript'>
+var soc_app_id = '0';
+var did = 280749;
+var ezdomain = 'signalsaz.com';
+var ezoicSearchable = 1;
+</script>
+<!--{jquery}-->
+<!-- END EZHEAD -->
+<script data-ezscrex="false" type="text/javascript" data-cfasync="false">var _ezaq = {"ab_test_id":"mod51","ad_cache_level":1,"ad_lazyload_version":0,"ad_load_version":0,"city":"Atlanta","country":"US","days_since_last_visit":-1,"domain_id":280749,"domain_test_group":20230802,"engaged_time_visit":0,"ezcache_level":2,"ezcache_skip_code":0,"form_factor_id":1,"framework_id":1,"is_return_visitor":false,"is_sitespeed":0,"last_page_load":"","last_pageview_id":"","lt_cache_level":0,"metro_code":524,"page_ad_positions":"","page_view_count":0,"page_view_id":"7a134e7a-b86e-4ad6-4ce6-c5278867ac56","position_selection_id":0,"postal_code":"30309","pv_event_count":0,"response_size_orig":147003,"response_time_orig":3,"serverid":"i-054c84a35538d2aad","state":"GA","t_epoch":1690424733,"template_id":120,"time_on_site_visit":0,"url":"https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/","user_id":0,"word_count":677,"worst_bad_word_level":0};var _ezExtraQueries = "&ez_orig=1";</script>
+<script data-ezscrex='false' data-pagespeed-no-defer data-cfasync='false'>
+function create_ezolpl(pvID, rv) {
+    var d = new Date();
+    d.setTime(d.getTime() + (365*24*60*60*1000));
+    var expires = "expires="+d.toUTCString();
+    __ez.ck.setByCat("ezux_lpl_280749=" + new Date().getTime() + "|" + pvID + "|" + rv + "; " + expires, 3);
+}
+function attach_ezolpl(pvID, rv) {
+    if (document.readyState === "complete") {
+        create_ezolpl(pvID, rv);
+    }
+    if(window.attachEvent) {
+        window.attachEvent("onload", create_ezolpl, pvID, rv);
+    } else {
+        if(window.onload) {
+            var curronload = window.onload;
+            var newonload = function(evt) {
+                curronload(evt);
+                create_ezolpl(pvID, rv);
+            };
+            window.onload = newonload;
+        } else {
+            window.onload = create_ezolpl.bind(null, pvID, rv);
+        }
+    }
+}
+
+__ez.queue.addFunc("attach_ezolpl", "attach_ezolpl", ["7a134e7a-b86e-4ad6-4ce6-c5278867ac56", "false"], false, ['/detroitchicago/boise.js'], true, false, false, false);
+</script></head>
+
+
+<body class="oht_article-template-default single single-oht_article postid-101815 wp-embed-responsive geodir_custom_posts oht-width-- oht-search-- oht-logo-left oht-nav-default category-23 category-news category-3142 category-newsletter category-13613 category-podcast-1 gd-map-google">
+<!-- Google Tag Manager (noscript)-->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WQTJVNN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<div class="oht-menu oht-menu--main oht-menu--clem">
+    <form role="search" method="get" class="search-form" action="https://www.signalsaz.com/">
+    <label>
+        <span class="screen-reader-text">Search for:</span>
+        <input type="search" class="search-field" placeholder="Search …" value="" name="s"/>
+    </label>
+    <button type="submit" class="search-submit"><span class="screen-reader-text">Search</span><i class="fa fa-search" aria-hidden="true"></i></button>
+    <button type="submit" class="mobile-search-submit">Submit</button>
+</form><button class="button button--toggle oht-hamburger" aria-label="Menu"> 
+    <div class="hamburger-text">Menu </div>
+    <i class="fa fa-bars hamburger-text-anch" aria-hidden="true"></i>
+</button>
+    <ul id="menu-left-utility" class="oht-menu oht-menu--utility-left gd-menu-z"><li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://www.signalsaz.com/advertise/">Advertise</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111"><a href="https://www.signalsaz.com/contact-us/">Contact Us</a>
+<ul class="sub-menu">
+	<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148"><a href="https://www.signalsaz.com/our-team/">Our Team</a></li>
+	<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-149"><a href="https://www.signalsaz.com/employment/">Employment</a></li>
+</ul>
+</li>
+<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="https://www.signalsaz.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-22489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22489"><a href="#">Submit Event &amp; News</a>
+<ul class="sub-menu">
+	<li id="menu-item-22490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22490"><a href="https://www.signalsaz.com/add-events/">Submit Event</a></li>
+	<li id="menu-item-22491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22491"><a href="https://www.signalsaz.com/news-tip/">Submit News</a></li>
+</ul>
+</li>
+<li id="menu-item-21809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21809"><a href="https://www.signalsaz.com/photos/">Photos</a></li>
+</ul>
+    <ul id="menu-right-utility" class="oht-menu oht-menu--utility-right gd-menu-z"><li id="menu-item-274" class="sponsoredby menu-item menu-item-type-custom menu-item-object-custom menu-item-274"><a target="_blank" rel="noopener" href="http://www.homesteadtg.com">Search Sponsored By: <img data-src="/wp-content/uploads/2018/02/homestead-logo.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="/wp-content/uploads/2018/02/homestead-logo.png"></noscript></a></li>
+</ul>    
+            <a class="oht-logo--clem oht-hide" href="https://www.signalsaz.com">
+            <img alt="Signals AZ" data-src="https://www.signalsaz.com/wp-content/uploads/2023/06/Signals_white.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="https://www.signalsaz.com/wp-content/uploads/2023/06/Signals_white.png" alt="Signals AZ"></noscript>
+        </a>
+        
+</div>
+
+<div class="oht-menu-container oht-menu-container--flyout">
+	<ul id="menu-mobile-menu" class="oht-menu oht-menu--flyout gd-menu-z"><li id="menu-item-108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-108"><a href="https://www.signalsaz.com/wp-login.php">Login</a></li>
+<li id="menu-item-1113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1113"><a href="/">Home</a></li>
+<li id="menu-item-1127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1127"><a href="https://www.signalsaz.com/advertise/">Advertise</a></li>
+<li id="menu-item-22500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22500"><a href="https://www.signalsaz.com/advertise/">Magazine</a></li>
+<li id="menu-item-50851" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50851"><a href="https://signalsaz.buzzsprout.com/">Podcast</a></li>
+<li id="menu-item-58108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58108"><a href="https://www.signalsaz.com/deals/">iDEALios</a></li>
+<li id="menu-item-1123" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1123"><a href="/events/events/">Events</a></li>
+<li id="menu-item-1118" class="menu-item menu-item-type-taxonomy menu-item-object-category current-oht_article-ancestor current-menu-parent current-oht_article-parent menu-item-1118"><a href="https://www.signalsaz.com/category/news/">Local News</a></li>
+<li id="menu-item-1114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1114"><a href="https://www.signalsaz.com/category/business/">Local Business</a></li>
+<li id="menu-item-44599" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-44599"><a href="https://www.signalsaz.com/category/business/technology-2/">Technology by NATA</a></li>
+<li id="menu-item-1122" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1122"><a href="https://www.signalsaz.com/category/sports/">Sports</a></li>
+<li id="menu-item-1132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1132"><a href="/places/places/">Local Places</a></li>
+<li id="menu-item-1120" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1120"><a href="https://www.signalsaz.com/category/real-estate/">Residential Real Estate</a></li>
+<li id="menu-item-23070" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23070"><a href="https://www.signalsaz.com/category/real-estate/commercial-real-estate/">Commercial Real Estate</a></li>
+<li id="menu-item-1115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1115"><a href="https://www.signalsaz.com/category/columns/">Columns</a></li>
+<li id="menu-item-32340" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-32340"><a href="https://www.signalsaz.com/category/ideal-living/">Ideal Living with Ability Remodeling</a></li>
+<li id="menu-item-30238" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30238"><a href="https://www.signalsaz.com/category/mountain-gardener/">Mountain Gardener</a></li>
+<li id="menu-item-30239" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30239"><a href="https://www.signalsaz.com/category/for-healthy-animals/">For Healthy Animals</a></li>
+<li id="menu-item-31919" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31919"><a href="https://www.signalsaz.com/category/community-connections/">Community Connections</a></li>
+<li id="menu-item-30241" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30241"><a href="https://www.signalsaz.com/category/recreation-travel/">Recreation &amp; Travel</a></li>
+<li id="menu-item-45496" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45496"><a href="https://www.signalsaz.com/category/retirement-done-right-in-prescott/">Retirement Done Right in Prescott</a></li>
+<li id="menu-item-30242" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30242"><a href="https://www.signalsaz.com/category/education-4/">Education</a></li>
+<li id="menu-item-30243" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30243"><a href="https://www.signalsaz.com/category/business/finances/">Finances</a></li>
+<li id="menu-item-30244" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-30244"><a href="https://www.signalsaz.com/category/mind-body-soul/">Mind Body Soul</a></li>
+<li id="menu-item-37873" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37873"><a href="https://www.signalsaz.com/category/senales-1/">Señales</a></li>
+<li id="menu-item-22499" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22499"><a href="https://www.signalsaz.com/photos/">Photos</a></li>
+<li id="menu-item-4356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4356"><a href="/classifieds/classifieds/">Jobs</a></li>
+<li id="menu-item-22498" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22498"><a href="https://www.signalsaz.com/news-tip/">Submit News</a></li>
+<li id="menu-item-22497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22497"><a href="https://www.signalsaz.com/add-events/">Submit Events</a></li>
+<li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="https://www.signalsaz.com/contact-us/">Contact Us</a></li>
+<li id="menu-item-23075" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23075"><a href="https://www.signalsaz.com/subscribe/">Subscribe</a></li>
+<li id="menu-item-1126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1126"><a href="https://www.signalsaz.com/about-us/">About Us</a></li>
+</ul></div>
+<div class="oht-overlay oht-overlay--takeover"></div>
+	<div id="takeover-ad-1" class="takeover-ad oht-widgets">
+		<div class="textwidget custom-html-widget"></div>	</div><!-- .sidebar .widget-area -->
+<div class="wrapper">
+    <div class="header-container">
+        <header class="header">
+
+            
+            <div class="header__bucket header__bucket--flex header__logo--">
+            <div id="header-ads-left" class="header__ads header__ads--left oht-widgets">
+ </div>
+<div class="header__logo">
+	<a href="https://www.signalsaz.com/"><img alt="Signals AZ" data-src="https://www.signalsaz.com/wp-content/uploads/2018/02/signals-fb-profile-1.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="https://www.signalsaz.com/wp-content/uploads/2018/02/signals-fb-profile-1.png"  alt="Signals AZ"></noscript></a>
+	
+	
+
+	</div><div id="header-ads-right" class="header__ads header__ads--right oht-widgets">
+            <div class="g g-46"><div class="g-single a-166"><a onclick="" class="gofollow" data-track="MTY2LDQ2LDEsMTIw" href="http://findlaytoyotacenter.com/events/chicago"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2023/02/Chicago-1200x450-Signals.jpeg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2023/02/Chicago-1200x450-Signals.jpeg" /></noscript></a></div></div><div class="g g-79"><div class="g-single a-172"><a href="https://PrescottValleyOutdoors.com" target="_blank"><img data-src="https://www.signalsaz.com/wp-content/uploads/2023/07/PVOS_SIgnalsAZ_Banner_1200x450-1.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="https://www.signalsaz.com/wp-content/uploads/2023/07/PVOS_SIgnalsAZ_Banner_1200x450-1.jpg" /></noscript></a></div></div>   
+    </div>            </div>
+
+                <div class="clearfix"></div>
+
+            
+                <div class="clearfix"></div>
+
+
+            <div class="breaking-news-container">
+</div>
+            <div class="oht-menu-container oht-menu-container--main desktop-only">
+	<ul id="menu-main-menu" class="oht-menu oht-menu--main gd-menu-z"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="/">Home</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-taxonomy menu-item-object-category current-oht_article-ancestor current-menu-parent current-oht_article-parent menu-item-has-children menu-item-173"><a href="https://www.signalsaz.com/category/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-102583" class="menu-item menu-item-type-taxonomy menu-item-object-category current-oht_article-ancestor current-menu-parent current-oht_article-parent menu-item-102583"><a href="https://www.signalsaz.com/category/news/">News</a></li>
+	<li id="menu-item-178" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-178"><a href="https://www.signalsaz.com/category/recreation-travel/">Recreation &amp; Travel</a></li>
+	<li id="menu-item-102586" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102586"><a href="https://www.signalsaz.com/category/dining-leisure-entertainment/">Dining Leisure Entertainment</a></li>
+	<li id="menu-item-196" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-196"><a href="https://www.signalsaz.com/category/real-estate/">Residential &amp; Commercial Real Estate</a></li>
+	<li id="menu-item-102588" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102588"><a href="https://www.signalsaz.com/category/community-connections/">Community Connections</a></li>
+	<li id="menu-item-171" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-171"><a href="https://www.signalsaz.com/category/business/">Business, Finance, Technology</a></li>
+	<li id="menu-item-102594" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102594"><a href="https://www.signalsaz.com/category/education-4/">Education</a></li>
+</ul>
+</li>
+<li id="menu-item-542" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-542"><a href="/events/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-828" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-828"><a href="/add-listing/?listing_type=gd_event">Submit Events</a></li>
+</ul>
+</li>
+<li id="menu-item-58106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-58106"><a href="https://www.signalsaz.com/deals/">iDEALios</a></li>
+<li id="menu-item-192" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-192"><a href="https://www.signalsaz.com/category/sports/">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-194" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-194"><a href="https://www.signalsaz.com/category/sports/high-school/">High School</a></li>
+	<li id="menu-item-193" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-193"><a href="https://www.signalsaz.com/category/sports/college/">College</a></li>
+	<li id="menu-item-829" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-829"><a href="https://www.signalsaz.com/category/sports/pro/">Pro</a></li>
+</ul>
+</li>
+<li id="menu-item-175" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-175"><a href="https://www.signalsaz.com/category/columns/">Columns</a>
+<ul class="sub-menu">
+	<li id="menu-item-831" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-831"><a href="https://www.signalsaz.com/category/mountain-gardener/">Mountain Gardener</a></li>
+	<li id="menu-item-830" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-830"><a href="https://www.signalsaz.com/category/columns/from-the-chief-1/">The Chief’s Desk</a></li>
+	<li id="menu-item-8147" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8147"><a href="https://www.signalsaz.com/category/columns/this-day-in-history-1/">A Week In History</a></li>
+	<li id="menu-item-102598" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102598"><a href="https://www.signalsaz.com/category/mind-body-soul/">Mind Body Soul</a></li>
+	<li id="menu-item-45492" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-45492"><a href="https://www.signalsaz.com/category/retirement-done-right-in-prescott/">Retirement Done Right in Prescott</a></li>
+</ul>
+</li>
+<li id="menu-item-102676" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-102676"><a href="https://www.signalsaz.com/category/statewide/">Statewide</a>
+<ul class="sub-menu">
+	<li id="menu-item-102685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102685"><a href="https://www.signalsaz.com/category/cottonwood-3/">Cottonwood</a></li>
+	<li id="menu-item-102678" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102678"><a href="https://www.signalsaz.com/category/phoenix-4/">Phoenix</a></li>
+	<li id="menu-item-102679" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102679"><a href="https://www.signalsaz.com/category/mountain-cities/">Mountain Cities</a></li>
+	<li id="menu-item-102682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102682"><a href="https://www.signalsaz.com/category/desert-cities/">Desert Cities</a></li>
+	<li id="menu-item-102683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102683"><a href="https://www.signalsaz.com/category/river-cities/">River Cities</a></li>
+</ul>
+</li>
+<li id="menu-item-37871" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37871"><a href="https://www.signalsaz.com/category/senales-1/">Señales</a></li>
+<li id="menu-item-50849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50849"><a target="_blank" rel="noopener" href="https://issuu.com/talkingglassmedia">Magazine</a></li>
+<li id="menu-item-50850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50850"><a target="_blank" rel="noopener" href="https://signalsaz.buzzsprout.com/">Podcast</a></li>
+<li id="menu-item-1077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1077"><a target="_blank" rel="noopener" href="https://www.facebook.com/Signals-1887207188236269/"><i class="fa fa-facebook"></i></a></li>
+<li id="menu-item-1078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1078"><a target="_blank" rel="noopener" href="https://twitter.com/SignalsAZ"><i class="fa fa-twitter"></i></a></li>
+<li id="menu-item-1079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1079"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCiSjGsadOIuS8WqB731l2uA"><i class="fa fa-youtube"></i></a></li>
+<li id="menu-item-1080" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1080"><a target="_blank" rel="noopener" href="https://www.instagram.com/signalsaz/"><i class="fa fa-instagram"></i></a></li>
+</ul>	</div>
+
+            
+
+        </header>
+    </div><!-- end header-container -->
+    <div class="content-wrapper"><div class="oht-single-article">
+
+  <main class="content content--single">
+    <div class="content__top">
+      			    </div>
+    
+      
+<script>
+	_paq = window._paq || [];
+	_paq.push(["trackVisibleContentImpressions"]);
+</script>
+
+<div id="post-101815" class="post-101815 oht_article type-oht_article status-publish has-post-thumbnail hentry category-news category-newsletter category-podcast-1 tag-arizona-1 tag-monsoon tag-national-weather-service-flagstaff tag-prescott-valley-1 tag-yavapai-county">
+
+		
+	<h1 class="article__heading">
+		Will the 2023 Arizona Monsoon Bring Another Summer of Rain? 
+	</h1>
+	 <div class="aa-articleView-play-button"><a href="/audio-articles/player/audio-article-101815" onclick="_paq.push([&#39;trackEvent&#39;, &#39;Article&#39;, &#39;Article Playlist&#39;, &#39;//audio-articles/player/audio-article-101815&#39;]);"><i class="far fa-play-circle"></i> Open Audio Article Player</a></div> 	
+	<p class="byline oht-article-meta">
+    <span class="byline__by">By </span>
+    <a class="byline__author" href="https://www.signalsaz.com/author/mediafainsignaturegroup-com/">
+        Staff    </a> 
+    <span class="byline__separator">| </span>
+    <span class="byline__time">        <span class="byline__on">on </span>
+        June 30, 2023    </span></p>		
+	
+	<div class="entry-content">
+		
+					<table id="amazon-polly-audio-table">
+						<tbody><tr>
+						<td id="amazon-polly-audio-tab">
+							<div id="amazon-ai-player-label">Article audio is made possible by CAST11 Prescott Podcast Network. A Talking Glass Media production.<div class="hide-label"><a href="https://www.signalsaz.com/advertise/"><img data-src="https://www.signalsaz.com/wp-content/uploads/2022/12/SignalsAZ_Cast11_Logo.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="https://www.signalsaz.com/wp-content/uploads/2022/12/SignalsAZ_Cast11_Logo.png" /></noscript></a></div></div>
+							<div id="amazon-ai-player-container">
+			<audio class="amazon-ai-player" id="amazon-ai-player" preload="none" controls="" title="will-the-2023-arizona-monsoon-bring-another-summer-of-rain">
+				<source type="audio/mpeg" src="https://s3.us-east-1.amazonaws.com/audio-for-wordpress-8906297293265eab924bc15706e61b8f9507de34/2023/06/audio_article_101815.mp3?version=1688163309"/>
+			</audio>
+		</div>
+							<div id="amazon-polly-subscribe-tab"></div>
+							<div id="amazon-polly-by-tab"></div>
+						</td>
+						</tr>
+					</tbody></table><div class="addtoany_share_save_container addtoany_content addtoany_content_top"><div class="a2a_kit a2a_kit_size_32 addtoany_list" data-a2a-url="https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/" data-a2a-title="Will the 2023 Arizona Monsoon Bring Another Summer of Rain?"><a class="a2a_button_facebook" href="https://www.addtoany.com/add_to/facebook?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="Facebook" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_twitter" href="https://www.addtoany.com/add_to/twitter?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="Twitter" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_email" href="https://www.addtoany.com/add_to/email?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="Email" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_facebook_messenger" href="https://www.addtoany.com/add_to/facebook_messenger?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="Messenger" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_copy_link" href="https://www.addtoany.com/add_to/copy_link?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="Copy Link" rel="nofollow noopener" target="_blank"></a><a class="a2a_button_sms" href="https://www.addtoany.com/add_to/sms?linkurl=https%3A%2F%2Fwww.signalsaz.com%2Farticles%2Fwill-the-2023-arizona-monsoon-bring-another-summer-of-rain%2F&amp;linkname=Will%20the%202023%20Arizona%20Monsoon%20Bring%20Another%20Summer%20of%20Rain%3F" title="SMS" rel="nofollow noopener" target="_blank"></a><a class="a2a_dd addtoany_share_save addtoany_share" href="https://www.addtoany.com/share"></a></div></div><!-- Either there are no banners, they are disabled or none qualified for this location! --><p>As we roll into July and conditions have become hot and drier, many are likely wondering if the 2023 Arizona Monsoon will bring another summer of rainfall. So what will 2023 bring?
+</p><p><img alt="monsoon, Prescott Valley, Arizona, Yavapai County, National Weather Service Flagstaff," width="800" height="532" data-srcset="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg 800w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-300x200.jpg 300w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-768x511.jpg 768w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-150x100.jpg 150w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-200x133.jpg 200w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-250x166.jpg 250w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-400x266.jpg 400w" data-src="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg" data-sizes="(max-width: 800px) 100vw, 800px" class="aligncenter wp-image-56258 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img class="aligncenter wp-image-56258 size-full" src="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg" alt="monsoon, Prescott Valley, Arizona, Yavapai County, National Weather Service Flagstaff," width="800" height="532" srcset="https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon.jpg 800w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-300x200.jpg 300w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-768x511.jpg 768w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-150x100.jpg 150w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-200x133.jpg 200w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-250x166.jpg 250w, https://www.signalsaz.com/wp-content/uploads/2021/07/56257_southwest-monsoon-400x266.jpg 400w" sizes="(max-width: 800px) 100vw, 800px" /></noscript>
+</p><p>As most already know, Arizona saw a winter with above-average levels of precipitation and well into the year. This is great news as it considerably reduced drought coverage across Arizona. However, with the above-normal winter precipitation and wet soil moisture over the Four Corners, Arizona may see a sluggish start to the Monsoon circulation.</p><div class="g g-2"><div class="g-single a-84"><a onclick="" class="gofollow" data-track="ODQsMiwxLDEyMA==" href="https://www.alliancehic.com/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2021/08/SignalsAZ_Alliance_ArticleInsertion728x90_Generic.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2021/08/SignalsAZ_Alliance_ArticleInsertion728x90_Generic.jpg" /></noscript></a></div></div>
+<h3>Some Arizona Monsoon Stats</h3>
+<ul>
+<li>Precipitation amounts range from approx 2″ in the low desert and around 16″ in higher elevations during Monsoon.</li>
+<li>Lower areas of Arizona see approximately 10 days of measurable rainfall while higher mountainous areas see closer to 40 days of rain during the Monsoon season.</li>
+<li>Arizona sees over half a million lightning strikes each Monsoon.</li>
+<li>Monsoon activity is usually seen in the early to mid-afternoon in higher elevations while lower elevations, usually the Phoenix area, will commonly see activity late afternoon into evening.</li>
+</ul>
+<h3>2023 Monsoon Outlook</h3>
+<p>The National Weather Service has predicted that the overall odds for most of Arizona lean toward below-normal precipitation. Western Arizona (Lake Havasu, Kingman, and Yuma) are predicted to have equal chances of a normal, dry, or wet monsoon season.
+</p><p>In addition, all of Arizona should expect to see above-normal temperatures throughout July, August, and September.
+</p><p>Even with lower-than-average odds for Monsoonal moisture this summer, everyone should still remain weather aware and be prepared for Monsoon storms.
+</p><p>Watch the full National Weather Service video on the 2023 Arizona Monsoon Outlook.
+</p><figure class="wp-block-embed wp-block-embed-youtube is-type-video is-provider-youtube"><div class="wp-block-embed__wrapper"><div class="epyt-video-wrapper"><div id="_ytid_69817" width="800" height="450" data-origwidth="800" data-origheight="450" data-relstop="1" data-facadesrc="https://www.youtube.com/embed/1eOHkL6lCuI?enablejsapi=1&amp;autoplay=0&amp;cc_load_policy=0&amp;iv_load_policy=1&amp;loop=0&amp;modestbranding=0&amp;fs=1&amp;playsinline=0&amp;controls=1&amp;color=red&amp;cc_lang_pref=&amp;rel=0&amp;autohide=2&amp;theme=dark&amp;" class="__youtube_prefs__ epyt-facade no-lazyload" data-epautoplay="1"><img loading="lazy" alt="YouTube player" data-src="https://i.ytimg.com/vi/1eOHkL6lCuI/maxresdefault.jpg" class="epyt-facade-poster lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img class="epyt-facade-poster" loading="lazy"  alt="YouTube player"  src="https://i.ytimg.com/vi/1eOHkL6lCuI/maxresdefault.jpg"  /></noscript><button class="epyt-facade-play" aria-label="Play"><svg data-no-lazy="1" height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="ytp-large-play-button-bg" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z" fill="#f00"></path><path d="M 45,24 27,14 27,34" fill="#fff"></path></svg></button></div></div></div></figure>
+<p>Learn more about <a href="https://www.signalsaz.com/articles/arizona-monsoon-and-common-weather-occurrences/" target="_blank" rel="noopener">Arizona Monsoon and Common Weather Occurences</a> to help you be ready for storms and tips to stay safe this summer.
+</p><hr/>
+<blockquote class="wp-embedded-content" data-secret="Erhfs00Toh"><p><a href="https://www.signalsaz.com/articles/best-hats-for-arizona-monsoon-season/">Best Hats for Arizona Monsoon Season</a></p></blockquote>
+<p><iframe sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="“Best Hats for Arizona Monsoon Season” — Signals AZ" data-secret="Erhfs00Toh" width="500" height="282" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" data-src="https://www.signalsaz.com/articles/best-hats-for-arizona-monsoon-season/embed/#?secret=Erhfs00Toh" class="wp-embedded-content lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></iframe>
+</p><hr/>
+<h3 data-ogsb="white"><a href="https://prescottvalleyoutdoors.com" target="_blank" rel="noopener"><img alt="" width="1667" height="583" data-srcset="https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2.jpg 1667w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-300x105.jpg 300w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-1024x358.jpg 1024w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-768x269.jpg 768w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-1536x537.jpg 1536w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-400x140.jpg 400w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-286x100.jpg 286w" data-src="https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2.jpg" data-sizes="(max-width: 1667px) 100vw, 1667px" class="aligncenter wp-image-98429 size-full lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img class="aligncenter wp-image-98429 size-full" src="https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2.jpg" alt="" width="1667" height="583" srcset="https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2.jpg 1667w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-300x105.jpg 300w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-1024x358.jpg 1024w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-768x269.jpg 768w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-1536x537.jpg 1536w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-400x140.jpg 400w, https://www.signalsaz.com/wp-content/uploads/2023/05/PVOS_SIgnalsAZ_Footer2023v2-286x100.jpg 286w" sizes="(max-width: 1667px) 100vw, 1667px" /></noscript></a></h3>
+<h3 style="text-align: center;" data-ogsb="white">Stay up to date on the Prescott Valley Outdoor Summit</h3>
+<h3 style="text-align: center;" data-ogsb="white">
+                <div class="gf_browser_unknown gform_wrapper gravity-theme" id="gform_wrapper_98">
+                        <div class="gform_heading">
+                            <h2 class="gform_title">Stay up to date on the 2023 Prescott Valley Outdoor Summit:</h2>
+                            <span class="gform_description">Sign up to receive text &amp; email updates on central Arizona&#39;s annual outdoor event!</span>
+                        </div><form method="post" enctype="multipart/form-data" id="gform_98" action="/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/">
+                        <div class="gform_body gform-body"><div id="gform_fields_98" class="gform_fields top_label form_sublabel_below description_below"><fieldset id="field_98_1" class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_98_1"><legend class="gfield_label gfield_label_before_complex">Name<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></legend><div class="ginput_complex ginput_container no_prefix has_first_name no_middle_name has_last_name no_suffix gf_name_has_2 ginput_container_name" id="input_98_1">
+                            
+                            <span id="input_98_1_3_container" class="name_first">
+                                                    <input type="text" name="input_1.3" id="input_98_1_3" value="" aria-required="true"/>
+                                                    <label for="input_98_1_3">First</label>
+                                                </span>
+                            
+                            <span id="input_98_1_6_container" class="name_last">
+                                                    <input type="text" name="input_1.6" id="input_98_1_6" value="" aria-required="true"/>
+                                                    <label for="input_98_1_6">Last</label>
+                                                </span>
+                            
+                        </div></fieldset><div id="field_98_3" class="gfield gfield--width-full gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_98_3"><label class="gfield_label" for="input_98_3">Cell Phone<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class="ginput_container ginput_container_phone"><input name="input_3" id="input_98_3" type="text" value="" class="large" aria-required="true" aria-invalid="false"/></div></div><div id="field_98_4" class="gfield gfield--width-full gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_98_4"><label class="gfield_label" for="input_98_4">Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class="ginput_container ginput_container_email">
+                            <input name="input_4" id="input_98_4" type="text" value="" class="large" aria-required="true" aria-invalid="false"/>
+                        </div></div><div id="field_98_5" class="gfield gfield--width-full field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_98_5"><label class="gfield_label" for="input_98_5">CAPTCHA</label><div id="input_98_5" class="ginput_container ginput_recaptcha" data-sitekey="6Lc270kUAAAAABFwTAeWoG1Z2TMt-i6RYWJcKgy2" data-theme="light" data-tabindex="0" data-badge=""></div></div><fieldset id="field_98_6" class="gfield field_sublabel_below field_description_below gfield_visibility_visible" data-js-reload="field_98_6"><legend class="gfield_label gfield_label_before_complex">SMS Messages</legend><div class="ginput_container ginput_container_checkbox"><div class="gfield_checkbox" id="input_98_6"><div class="gchoice gchoice_98_6_1">
+								<input class="gfield-choice-input" name="input_6.1" type="checkbox" value="I agree to receive text messages from Talking Glass Media." id="choice_98_6_1"/>
+								<label for="choice_98_6_1" id="label_98_6_1">I agree to receive text messages from Talking Glass Media.</label>
+							</div></div></div></fieldset></div></div>
+        <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_98" class="gform_button button" value="Submit" onclick="if(window[&#34;gf_submitting_98&#34;]){return false;}  window[&#34;gf_submitting_98&#34;]=true;  " onkeypress="if( event.keyCode == 13 ){ if(window[&#34;gf_submitting_98&#34;]){return false;} window[&#34;gf_submitting_98&#34;]=true;  jQuery(&#34;#gform_98&#34;).trigger(&#34;submit&#34;,[true]); }"/> 
+            <input type="hidden" class="gform_hidden" name="is_submit_98" value="1"/>
+            <input type="hidden" class="gform_hidden" name="gform_submit" value="98"/>
+            
+            <input type="hidden" class="gform_hidden" name="gform_unique_id" value=""/>
+            <input type="hidden" class="gform_hidden" name="state_98" value="WyJbXSIsImQ3MzEzNzYzODQwNjc5NGQyMzhmNzRkNTM1NmM2MzMzIl0="/>
+            <input type="hidden" class="gform_hidden" name="gform_target_page_number_98" id="gform_target_page_number_98" value="0"/>
+            <input type="hidden" class="gform_hidden" name="gform_source_page_number_98" id="gform_source_page_number_98" value="1"/>
+            <input type="hidden" name="gform_field_values" value=""/>
+            
+        </div>
+                        <p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="130"/><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></form></p>
+                        </div></h3>
+<div class="g g-14"><div class="g-single a-19"><div id="newsletter_ad_inj">
+If you like this story, consider subscribing to Signals Updates,
+Entertainment Events &amp; News!
+<div id="newsletter_ad_button"><a onclick="" class="gofollow" data-track="MTksMTQsMSwxMjA=" href="/subscribe">Show Me How</a></div>
+</div><img width="0" height="0" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" onload=""/></div></div><div data-test="false" data-number_articles="2" data-widget="react_widget" data-pubid="signalsaz" data-url="#404040" data-color="#ffffff" style="background-color: #c08329; max-height: 150px;" class="oht-related-mobile-banner"><div class="oht-related-outer-mobile"></div></div>		<div class="widget widget_recommended_articles"><div id="oht-related-content" class="oht-recommended-articles" data-endpoint="https://recapi.our-hometown.com/api/v1/related" data-postid="101815" data-category="News"></div></div>		
+
+	</div><!-- .entry-content -->
+
+</div><!-- #post-## -->
+
+      
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	
+	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><span class="gd-cancel-replaylink"><a rel="nofollow" id="cancel-comment-reply-link" href="/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/#respond" style="display:none;">Cancel reply</a></span></small></h3><form action="https://www.signalsaz.com/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"/></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" maxlength="200"/></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"/> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"/> <input type="hidden" name="comment_post_ID" value="101815" id="comment_post_ID"/>
+<input type="hidden" name="comment_parent" id="comment_parent" value="0"/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="17a9e26b3f"/></p><p style="display: none !important;"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="137"/><script>document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>	</div><!-- #respond -->
+	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>
+    
+      </main>
+
+  
+<div class="oht-sidebar content__sidebar">
+		<aside id="secondary" class="sidebar widget-area oht-sidebar" role="complementary">
+		<div class="g g-48"><div class="g-col b-48 a-118"><a onclick="" class="gofollow" data-track="MTE4LDQ4LDEsMTIw" href="https://granitemountainbhc.com/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2022/09/1236d211-d2ca-47a3-a587-f46e731dbcd6-1420920547._SX576_SY576_BL0_QL100__UXNaN_FMjpg_QL85_-copy.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2022/09/1236d211-d2ca-47a3-a587-f46e731dbcd6-1420920547._SX576_SY576_BL0_QL100__UXNaN_FMjpg_QL85_-copy.jpg" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-165"><a href="https://talkingglass.media/contact/" target="_blank"><img data-src="https://www.signalsaz.com/wp-content/uploads/2023/01/cougar300.jpeg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img src="https://www.signalsaz.com/wp-content/uploads/2023/01/cougar300.jpeg" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-53"><a onclick="" class="gofollow" data-track="NTMsNDgsMSwxMjA=" href="https://www.kbizsol.com/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2020/10/Kingston-Business-Solutions-Prescott-IT.png" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2020/10/Kingston-Business-Solutions-Prescott-IT.png" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-52"><a onclick="" class="gofollow" data-track="NTIsNDgsMSwxMjA=" href="https://spectrumhealthcare-group.com/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2022/06/thumbnail_Image.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2022/06/thumbnail_Image.jpg" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-28"><a onclick="" class="gofollow" data-track="MjgsNDgsMSwxMjA=" href="https://footework.com/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2021/01/Unknown-1-2.jpeg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2021/01/Unknown-1-2.jpeg" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-46"><a onclick="" class="gofollow" data-track="NDYsNDgsMSwxMjA=" href="https://eightfoldtech.services/" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2020/07/eight-fold-it-prescott.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2020/07/eight-fold-it-prescott.jpg" /></noscript></a></div></div><div class="g g-48"><div class="g-col b-48 a-33"><a onclick="" class="gofollow" data-track="MzMsNDgsMSwxMjA=" href="https://agents.farmers.com/az/prescott-valley/vince-moser?SourceID=AMPL001L002&amp;utm_source=GMB&amp;utm_medium=Local" target="_blank"><img onload="" data-src="https://www.signalsaz.com/wp-content/uploads/2020/02/Vince-Moser-Signals-Ad-Logo.jpg" class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="/><noscript><img onload="" src="https://www.signalsaz.com/wp-content/uploads/2020/02/Vince-Moser-Signals-Ad-Logo.jpg" /></noscript></a></div></div><div class="textwidget custom-html-widget"><!-- Ezoic - sidebar_bottom - sidebar_bottom -->
+<div id="ezoic-pub-ad-placeholder-161"> </div>
+<!-- End Ezoic - sidebar_bottom - sidebar_bottom --></div>	</aside><!-- .sidebar .widget-area -->
+</div>
+
+
+</div>
+</div>
+</div>
+
+  
+  <div class="footer-container">
+    <footer class="wrapper">
+      
+      
+      <div class="footer__widgets footer__widgets--3-col">
+        	<div id="footer-widget-left" class="footer-widget footer-widget--left">
+		<div class="menu-footer-advertise-container"><ul id="menu-footer-advertise" class="menu gd-menu-z"><li id="menu-item-23041" class="bold-link-footer menu-item menu-item-type-custom menu-item-object-custom menu-item-23041"><a href="https://www.signalsaz.com/advertise/">Advertise</a></li>
+<li id="menu-item-23042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23042"><a href="https://www.signalsaz.com/advertise/">Advertise Online</a></li>
+<li id="menu-item-23043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23043"><a href="https://www.signalsaz.com/advertise/">Advertise In Print</a></li>
+</ul></div><div class="menu-footer-submit-container"><ul id="menu-footer-submit" class="menu gd-menu-z"><li id="menu-item-210" class="bold-link-footer menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="https://www.signalsaz.com/submit/">Submit</a></li>
+<li id="menu-item-23044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23044"><a href="https://www.signalsaz.com/add-events/">Submit Event</a></li>
+<li id="menu-item-23045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23045"><a href="https://www.signalsaz.com/news-tip/">Submit News</a></li>
+</ul></div>	</div>
+        	<div id="footer-widget-left" class="footer-widget footer-widget--left">
+		<div class="menu-footer-services-container"><ul id="menu-footer-services" class="menu gd-menu-z"><li id="menu-item-23048" class="bold-link-footer menu-item menu-item-type-custom menu-item-object-custom menu-item-23048"><a href="#">Our Services</a></li>
+<li id="menu-item-23046" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23046"><a href="https://www.signalsaz.com/agency-services-talking-glass-media-llc/">Agency Services</a></li>
+<li id="menu-item-23047" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23047"><a href="https://www.signalsaz.com/publishing-services-talking-glass-media-llc/">Publishing Services</a></li>
+</ul></div>	</div>
+        	<div id="footer-widget-right" class="footer-widget footer-widget--right">
+		<div class="menu-footer-about-container"><ul id="menu-footer-about" class="menu gd-menu-z"><li id="menu-item-23055" class="bold-link-footer menu-item menu-item-type-custom menu-item-object-custom menu-item-23055"><a href="#">About</a></li>
+<li id="menu-item-23052" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23052"><a href="https://www.signalsaz.com/about-us/">About Us</a></li>
+<li id="menu-item-23053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23053"><a href="https://www.signalsaz.com/our-team/">Our Team</a></li>
+<li id="menu-item-23054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23054"><a href="https://www.signalsaz.com/privacy-policy/">Privacy Policy</a></li>
+</ul></div><div class="menu-footer-contact-container"><ul id="menu-footer-contact" class="menu gd-menu-z"><li id="menu-item-23051" class="bold-link-footer menu-item menu-item-type-custom menu-item-object-custom menu-item-23051"><a href="#">Contact</a></li>
+<li id="menu-item-23049" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23049"><a href="mailto:Stories@SignalsAZ.com">Contact Asst. Editor</a></li>
+<li id="menu-item-23050" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23050"><a href="mailto:Ads@SignalsAZ.com">Contact Advertising Rep</a></li>
+</ul></div>	</div>
+              </div>
+
+      
+      
+      
+      
+              <div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="oht-menu oht-menu--footer gd-menu-z"><li id="menu-item-14888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14888"><a href="https://www.facebook.com/Signals-1887207188236269/"><i class="fa fa-facebook"></i></a></li>
+<li id="menu-item-14889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14889"><a href="https://twitter.com/SignalsAZ"><i class="fa fa-twitter"></i></a></li>
+<li id="menu-item-14890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14890"><a href="https://www.youtube.com/channel/UCiSjGsadOIuS8WqB731l2uA"><i class="fa fa-youtube"></i></a></li>
+<li id="menu-item-14891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14891"><a href="https://www.instagram.com/signalsaz/"><i class="fa fa-instagram"></i></a></li>
+<li id="menu-item-14892" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14892"><a href="https://www.linkedin.com/company/signalsaz/"><i class="fa fa-linkedin"></i></a></li>
+<li id="menu-item-14893" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14893"><a href="mailto:editor@signalsaz.com"><i class="fa fa-envelope"></i></a></li>
+<li id="menu-item-14894" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14894"><a href="http://www.signalsaz.podbean.com/"><i class="fa fa-podcast"></i></a></li>
+</ul></div>      
+      <p class="oht-links">
+        <a href="http://our-hometown.com/" class="oht-logo">Our Hometown</a>
+        <a href="http://our-hometown.com/dmca/" class="oht-dmca">DMCA Notices</a><br/>Newspaper web site content management software and services
+      </p>
+      <div class="oht-custom-footer">
+        © 2018 Signals. Talking Glass Media LLC. All Rights Reserved.<div class="ohtfooterinfo">Powered by <a href="https://www.signalsaz.com/">Our Hometown, Inc.</a></div>      </div>
+
+    </footer>
+  </div>
+
+  <!-- all WordPress scripts set for the footer come through here -->
+  <script>var geodir_advanced_search_js_msg = {"geodir_advanced_search_plugin_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodir_advance_search_filters","geodir_plugin_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodirectory","geodir_admin_ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php","request_param":"{\"geo_url\":\"is_location\"}","msg_Near":"Near:","default_Near":"Near","msg_Me":"Me","unom_dist":"miles","autocomplete_field_name":"s","geodir_enable_autocompleter_near":"0","geodir_enable_autocompleter":"1","geodir_autocompleter_autosubmit_near":"0","geodir_autocompleter_autosubmit":"1","geodir_location_manager_active":"1","msg_User_defined":"User defined","ask_for_share_location":"","geodir_autolocate_ask":"","geodir_autolocate_ask_msg":"Do you wish to be geolocated to listings near you?","UNKNOWN_ERROR":"Unable to find your location.","PERMISSION_DENINED":"Permission denied in finding your location.","POSITION_UNAVAILABLE":"Your location is currently unknown.","BREAK":"Attempt to find location took too long.","GEOLOCATION_NOT_SUPPORTED":"Geolocation is not supported by this browser.","DEFAUTL_ERROR":"Browser unable to find your location.","text_more":"More","text_less":"Less","msg_In":"In:","txt_in_country":"(Country)","txt_in_region":"(Region)","txt_in_city":"(City)","txt_in_hood":"(Neighbourhood)","compass_active_color":"#087CC9","onload_redirect":"no","onload_askRedirect":"","onload_redirectLocation":"","search_new_style":"1"};</script><script type="text/javascript">
+map_id_arr = [];
+gdUmarker = '';
+my_location = '';
+lat = '';
+lon = '';
+gdUmarker = '';
+userMarkerActive = false;
+gdLocationOptions = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0
+};
+
+jQuery(document).ready(function(){
+	geodir_insert_compass();
+	gdSetupUserLoc();
+});
+jQuery(window).load(function() {
+	geodir_reposition_compass();// set compass position after images loaded so not to change position
+	});
+jQuery("body").on("map_show", function(event, map_id) {
+    map_id_arr.push(map_id);
+    if (lat && lon) {
+        setTimeout(function(map_id) {
+            setusermarker(lat, lon, map_id); //createUserMarker(lat,lon,true);//set marker on map<br />
+        }, 1, map_id);
+    }
+});
+</script>
+<script>var geodir_custom_post_type_all_js_msg = {"geodir_cp_post_type_char_validation":"Post Type can not be more than 17 characters.","geodir_cp_post_type_illegal_characters_validation":"Post Type contains illegal characters.","geodir_cp_post_type_blank_validation":"Post Type must not be blank.","geodir_cp_listing_slug_illegal_characters_validation":"Listing Slug contains illegal characters.","geodir_cp_listing_slug_blank_validation":"Listing Slug must not be blank.","geodir_cp_listing_order_value_validation":"Enter valid order value."};</script><script>var geodir_location_all_js_msg = {"geodir_location_admin_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin.php","geodir_location_plugin_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodir_location_manager","geodir_location_admin_ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php","select_merge_city_msg":"Please select merge city.","set_location_default_city_confirmation":"Are sure you want to make this city default?","LISTING_URL_PREFIX":"Please enter listing url prefix","LISTING_URL_PREFIX_INVALID_CHAR":"Invalid character in listing url prefix","LOCATION_URL_PREFIX":"Please enter location url prefix","LOCATOIN_PREFIX_INVALID_CHAR":"Invalid character in location url prefix","LOCATION_CAT_URL_SEP":"Please enter location and category url separator","LOCATION_CAT_URL_SEP_INVALID_CHAR":"Invalid character in location and category url separator","LISTING_DETAIL_URL_SEP":"Please enter listing detail url separator","LISTING_DETAIL_URL_SEP_INVALID_CHAR":"Invalid character in listing detail url separator","LOCATION_PLEASE_WAIT":"Please wait...","LOCATION_CHOSEN_NO_RESULT_TEXT":"Sorry, nothing found!","LOCATION_CHOSEN_KEEP_TYPE_TEXT":"Please wait...","LOCATION_CHOSEN_LOOKING_FOR_TEXT":"We are searching for","select_location_translate_msg":"Please select country to update translation.","select_location_translate_confirm_msg":"Are you sure?","gd_text_search_city":"Search City","gd_text_search_region":"Search Region","gd_text_search_country":"Search Country","gd_text_search_location":"Search location","gd_base_location":"https:\/\/www.signalsaz.com\/location\/","UNKNOWN_ERROR":"Unable to find your location.","PERMISSION_DENINED":"Permission denied in finding your location.","POSITION_UNAVAILABLE":"Your location is currently unknown.","BREAK":"Attempt to find location took too long.","DEFAUTL_ERROR":"Browser unable to find your location.","msg_Near":"Near:","msg_Me":"Me","msg_User_defined":"User defined","delete_location_msg":"Deleting location will also DELETE any LISTINGS in this location. Are you sure want to DELETE this location?","delete_bulk_location_select_msg":"Please select at least one location."};</script><script type="text/javascript">
+if (!(window.google && typeof google.maps !== 'undefined')) {
+    var css = document.createElement("link");css.setAttribute("rel","stylesheet");css.setAttribute("type","text/css");css.setAttribute("media","all");css.setAttribute("id","geodirectory-leaflet-style-css");css.setAttribute("href","https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/leaflet/leaflet.css?ver=1.6.38");
+    document.getElementsByTagName("head")[0].appendChild(css);
+    var css = document.createElement("link");css.setAttribute("rel","stylesheet");css.setAttribute("type","text/css");css.setAttribute("media","all");css.setAttribute("id","geodirectory-leaflet-routing-style");css.setAttribute("href","https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/leaflet/routing/leaflet-routing-machine.css?ver=1.6.38");
+    document.getElementsByTagName("head")[0].appendChild(css);
+    document.write('<' + 'script id="geodirectory-leaflet-script" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/leaflet/leaflet.min.js?ver=1.6.38" type="text/javascript"><' + '/script>');
+    document.write('<' + 'script id="geodirectory-leaflet-geo-script" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/leaflet/osm.geocode.min.js?ver=1.6.38" type="text/javascript"><' + '/script>');
+    document.write('<' + 'script id="geodirectory-leaflet-routing-script" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/leaflet/routing/leaflet-routing-machine.min.js?ver=1.6.38" type="text/javascript"><' + '/script>');
+    document.write('<' + 'script id="geodirectory-o-overlappingmarker-script" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/jawj/oms-leaflet.min.js?ver=1.6.38" type="text/javascript"><' + '/script>');
+}
+</script>
+<script>var geodir_all_js_msg = {"geodir_plugin_url":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodirectory","geodir_admin_ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php","custom_field_not_blank_var":"HTML Variable Name must not be blank","custom_field_not_special_char":"Please do not use special character and spaces in HTML Variable Name.","custom_field_unique_name":"HTML Variable Name should be a unique name.","custom_field_delete":"Are you wish to delete this field?","tax_meta_class_succ_del_msg":"File has been successfully deleted.","tax_meta_class_not_permission_to_del_msg":"You do NOT have permission to delete this file.","tax_meta_class_order_save_msg":"Order saved!","tax_meta_class_not_permission_record_img_msg":"You do not have permission to reorder images.","address_not_found_on_map_msg":"Address not found for:","my_place_listing_del":"Are you sure you wish to delete this listing?","my_main_listing_del":"Deleting the main listing of a franchise will turn all franchises in regular listings. Are you sure wish to delete this main listing?","rating_error_msg":"Error : please retry","listing_url_prefix_msg":"Please enter listing url prefix","invalid_listing_prefix_msg":"Invalid character in listing url prefix","location_url_prefix_msg":"Please enter location url prefix","invalid_location_prefix_msg":"Invalid character in location url prefix","location_and_cat_url_separator_msg":"Please enter location and category url separator","invalid_char_and_cat_url_separator_msg":"Invalid character in location and category url separator","listing_det_url_separator_msg":"Please enter listing detail url separator","invalid_char_listing_det_url_separator_msg":"Invalid character in listing detail url separator","loading_listing_error_favorite":"Error loading listing.","geodir_field_id_required":"This field is required.","geodir_valid_email_address_msg":"Please enter valid email address.","geodir_default_marker_icon":"http:\/\/live.plugins.our-hometown.com\/geodirectory\/geodirectory-functions\/map-functions\/icons\/pin.png","geodir_default_marker_w":"20","geodir_default_marker_h":"34","geodir_latitude_error_msg":"A numeric value is required. Please make sure you have either dragged the marker or clicked the button: Set Address On Map","geodir_longgitude_error_msg":"A numeric value is required. Please make sure you have either dragged the marker or clicked the button: Set Address On Map","geodir_default_rating_star_icon":"https:\/\/live.plugins.our-hometown.com\/geodirectory\/geodirectory-assets\/images\/stars.png","gd_cmt_btn_post_reply":"Post Reply","gd_cmt_btn_reply_text":"Reply text","gd_cmt_btn_post_review":"Post Review","gd_cmt_btn_review_text":"Review text","gd_cmt_err_no_rating":"Please select star rating, you can't leave a review without stars.","err_empty_review":"Please type a review.","err_empty_reply":"Please type a reply.","geodir_onoff_dragging":"","geodir_is_mobile":"","geodir_on_dragging_text":"Enable Dragging","geodir_off_dragging_text":"Disable Dragging","geodir_err_max_file_size":"File size error : You tried to upload a file over %s","geodir_err_file_upload_limit":"You have reached your upload limit of %s files.","geodir_err_pkg_upload_limit":"You may only upload %s files with this package, please try again.","geodir_action_remove":"Remove","geodir_txt_all_files":"Allowed files","geodir_err_file_type":"File type error. Allowed file types: %s","gd_allowed_img_types":"jpg,jpeg,jpe,gif,png","geodir_txt_form_wait":"Wait...","geodir_txt_form_searching":"Searching...","fa_rating":"","reviewrating":"","multirating":"","geodir_map_name":"google","osmStart":"Start","osmVia":"Via {viaNumber}","osmEnd":"Enter Your Location","ga_delete_check":"Do you wish to Deauthorize and break Analytics?","geoMyLocation":"My Location","geoErrUNKNOWN_ERROR":"Unable to find your location","geoErrPERMISSION_DENINED":"Permission denied in finding your location","geoErrPOSITION_UNAVAILABLE":"Your location is currently unknown","geoErrBREAK":"Attempt to find location took too long","geoErrDEFAULT":"Location detection not supported in browser","mapLanguage":"en","lightBox_txtImage":"Image","lightBox_txtOf":"of","geodir_marker_cluster_size":"60","geodir_marker_cluster_zoom":"15","imagePath":"https:\/\/d2y8psjfi06mva.cloudfront.net\/geodir_marker_cluster\/images\/m"};</script>    <script type="text/javascript">
+        var default_location = 'Prescott Valley';
+        var latlng;
+        var address;
+        var dist = 0;
+        var Sgeocoder = (typeof google!=='undefined' && typeof google.maps!=='undefined') ? new google.maps.Geocoder() : {};
+
+		function geodir_setup_submit_search() {
+            jQuery('.geodir_submit_search').unbind('click');// unbind any other click events
+			jQuery('.geodir_submit_search').click(function(e) {
+
+                e.preventDefault();
+
+				var s = ' ';
+				var $form = jQuery(this).closest('form');
+
+				if (jQuery("#sdist input[type='radio']:checked").length != 0) dist = jQuery("#sdist input[type='radio']:checked").val();
+				if (jQuery('.search_text', $form).val() == '' || jQuery('.search_text', $form).val() == 'Search for') jQuery('.search_text', $form).val(s);
+				
+				// Disable location based search for disabled location post type.
+				if (jQuery('.search_by_post', $form).val() != '' && typeof gd_cpt_no_location == 'function') {
+					if (gd_cpt_no_location(jQuery('.search_by_post', $form).val())) {
+						jQuery('.snear', $form).remove();
+						jQuery('.sgeo_lat', $form).remove();
+						jQuery('.sgeo_lon', $form).remove();
+						jQuery('select[name="sort_by"]', $form).remove();
+						jQuery($form).submit();
+						return;
+					}
+				}
+				
+				if (dist > 0 || (jQuery('select[name="sort_by"]').val() == 'nearest' || jQuery('select[name="sort_by"]', $form).val() == 'farthest') || (jQuery(".snear", $form).val() != '' && jQuery(".snear", $form).val() != 'Near')) {
+
+                    // OSM can't handel post code with no space so we test for it and add one if needed
+                    if(window.gdMaps === 'osm'){
+                        var $near_val = jQuery(".snear", $form).val();
+                        var $is_post_code = $near_val.match("^([A-Za-z][A-Ha-hJ-Yj-y]?[0-9][A-Za-z0-9]??[0-9][A-Za-z]{2}|[Gg][Ii][Rr] ?0[Aa]{2})$");
+                        if($is_post_code){
+                            $near_val = $near_val.replace(/.{3}$/,' $&');
+                            jQuery(".snear", $form).val($near_val);
+                        }
+                    }
+
+                    geodir_setsearch($form);
+				} else {
+					jQuery(".snear", $form).val('');
+					jQuery($form).submit();
+				}
+			});
+		}
+
+        jQuery(document).ready(function() {
+            geodir_setup_submit_search();
+            //setup advanced search form on form ajax load
+            jQuery("body").on("geodir_setup_search_form", function(){
+                geodir_setup_submit_search();
+            });
+        });
+        
+		function geodir_setsearch($form) {
+			if ((dist > 0 || (jQuery('select[name="sort_by"]', $form).val() == 'nearest' || jQuery('select[name="sort_by"]', $form).val() == 'farthest')) && (jQuery(".snear", $form).val() == '' || jQuery(".snear", $form).val() == 'Near')) jQuery(".snear", $form).val(default_location);
+			geocodeAddress($form);
+		}
+
+        function updateSearchPosition(latLng, $form) {
+            if (window.gdMaps === 'google') {
+                jQuery('.sgeo_lat').val(latLng.lat());
+                jQuery('.sgeo_lon').val(latLng.lng());
+            } else if (window.gdMaps === 'osm') {
+                jQuery('.sgeo_lat').val(latLng.lat);
+                jQuery('.sgeo_lon').val(latLng.lon);
+            }
+            jQuery($form).submit(); // submit form after insering the lat long positions
+        }
+
+        function geocodeAddress($form) {
+            // Call the geocode function
+            Sgeocoder = window.gdMaps == 'google' ? new google.maps.Geocoder() : null;
+
+            if (jQuery('.snear', $form).val() == '' || ( jQuery('.sgeo_lat').val() != '' && jQuery('.sgeo_lon').val() != ''  ) || jQuery('.snear', $form).val().match("^In:")) {
+                if (jQuery('.snear', $form).val().match("^In:")) {
+                    jQuery(".snear", $form).val('');
+                }
+                jQuery($form).submit();
+            } else {
+                var address = jQuery(".snear", $form).val();
+
+                if (jQuery('.snear', $form).val() == 'Near') {
+                    initialise2();
+                } else {
+                                        if (window.gdMaps === 'google') {
+                        Sgeocoder.geocode({'address': address+", United States"},
+                            function (results, status) {
+                                if (status == google.maps.GeocoderStatus.OK) {
+                                    updateSearchPosition(results[0].geometry.location, $form);
+                                } else {
+                                    alert("Search was not successful for the following reason :" + status);
+                                }
+                            });
+                    } else if (window.gdMaps === 'osm') {
+                        geocodePositionOSM(false, address+", United States", false, false,
+                            function(geo) {
+                                if (typeof geo !== 'undefined' && geo.lat && geo.lon) {
+                                    updateSearchPosition(geo, $form);
+                                } else {
+                                    alert("Search was not successful for the requested address.");
+                                }
+                            });
+                    } else {
+                        jQuery($form).submit();
+                    }
+                }
+            }
+        }
+
+        function initialise2() {
+            if (!window.gdMaps) {
+                return;
+            }
+            
+            if (window.gdMaps === 'google') {
+                var latlng = new google.maps.LatLng(56.494343, -4.205446);
+                var myOptions = {
+                    zoom: 4,
+                    mapTypeId: google.maps.MapTypeId.TERRAIN,
+                    disableDefaultUI: true
+                }
+            } else if (window.gdMaps === 'osm') {
+                var latlng = new L.LatLng(56.494343, -4.205446);
+                var myOptions = {
+                    zoom: 4,
+                    mapTypeId: 'TERRAIN',
+                    disableDefaultUI: true
+                }
+            }
+            try { prepareGeolocation(); } catch (e) {}
+            doGeolocation();
+        }
+
+        function doGeolocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(positionSuccess, positionError);
+            } else {
+                positionError(-1);
+            }
+        }
+
+        function positionError(err) {
+            var msg;
+            switch (err.code) {
+                case err.UNKNOWN_ERROR:
+                    msg = "Unable to find your location";
+                    break;
+                case err.PERMISSION_DENINED:
+                    msg = "Permission denied in finding your location";
+                    break;
+                case err.POSITION_UNAVAILABLE:
+                    msg = "Your location is currently unknown";
+                    break;
+                case err.BREAK:
+                    msg = "Attempt to find location took too long";
+                    break;
+                default:
+                    msg = "Location detection not supported in browser";
+            }
+            jQuery('#info').html(msg);
+        }
+
+        function positionSuccess(position) {
+            var coords = position.coords || position.coordinate || position;
+            jQuery('.sgeo_lat').val(coords.latitude);
+            jQuery('.sgeo_lon').val(coords.longitude);
+
+            jQuery('.geodir-listing-search').submit();
+        }
+
+        /**
+         * On unload page do some cleaning so back button cache does not store these values.
+         */
+        window.onunload = function(){
+            if(jQuery('.sgeo_lat').length ){
+                jQuery('.sgeo_lat').val('');
+                jQuery('.sgeo_lon').val('');
+            }
+        };
+
+    </script>
+<script>
+  /** Fix map bubbles 
+  jQuery(function fixmap($) {
+-
+		$( document ).ajaxComplete(function( event, request, settings ) {
+		 $('.geodir-bubble_desc').css('height','auto')
+		$('.gm-style-iw').css('padding','5')
+		$('.geodir-bubble-meta-fade').css('background','none')
+		$('.geodir-bubble-meta-side').css('margin-bottom', '10px')
+		$('.geodir_more_info  .post_address span').css('line-height', '15px')
+	});
+});**/
+</script>
+
+<script async="">
+   jQuery(function addLogo($) {
+		$(document).ready(function() {
+	$('#amazon-ai-player-label').after("<a href='https://www.signalsaz.com/advertise/' target='_blank'><img  data-src='https://www.signalsaz.com/wp-content/uploads/2022/12/SignalsAZ_Cast11_Logo.png' class='audiosponsor lazyload' src='data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==' /><noscript><img class='audiosponsor' src='https://www.signalsaz.com/wp-content/uploads/2022/12/SignalsAZ_Cast11_Logo.png' /></noscript></a>")
+		});
+});
+</script>
+
+
+<script async="" defer="">
+jQuery( document ).ready(function() {
+	if (window.location.href.indexOf("/deals/") != -1){
+		
+		if (jQuery('.geodir_more_info').length > 0  &&  jQuery('.geodir-listview').length <= 0) {
+			console.log('details page')
+			jQuery(' div.geodir_more_info.geodir_couponcode').hide()
+	    
+			
+			var img = jQuery('#geodir_slider img').attr('src');
+			var title = jQuery('.entry-title').text();
+			var coupon =  jQuery('.geodir_couponcode').text();
+			var descr = jQuery('#post_profileTab > p').text();
+			jQuery('.geodir_couponcode').after("<div id='print'><div style='border: thin black dotted; padding:15px; '><img style='float:left' src='"+img+"' width='100' /><div style='margin-left:20px;font-size: larger;float: left;font-weight: bold;width:70%'>"+title+"</div><br /><br /><div style='float:left;margin-left:20px; max-width: 70%;'>"+descr+"</div><div style='clear:both'></div><br /><div style='text-align: center;background-color: black; padding: 15px !important; border-radius: 12px;color: #FFF;font-size: 14px !important; font-weight: bold;'>"+coupon+"</div><div style='clear:both'></div></div></div>")
+			jQuery('#print').after("<input class='geodir_couponcode' style='margin-top: 5px' type='button' id='btn' value='Print Coupon' onclick='printDiv();'>");
+	
+		
+		}
+	
+	}
+
+	
+})
+function printDiv() 
+		{
+		
+		  var divToPrint=document.getElementById('print');
+		
+		  var newWin=window.open('','Print-Window');
+		
+		  newWin.document.open();
+		
+		  newWin.document.write('<html><body onload="window.print()">'+divToPrint.innerHTML+'</body></html>');
+		
+		  newWin.document.close();
+		
+		  setTimeout(function(){newWin.close();},10000);
+		
+		}
+</script>
+
+
+<script async="" defer="">
+/* Deals Javascript */
+jQuery( document ).ready(function() {
+	if ( jQuery('.b_sendtofriend').length){
+		
+	    console.log( "email link" );
+	    var email = jQuery('.a2a_button_email').attr('href');
+	    console.log(email)
+	    jQuery('.b_sendtofriend').attr('href', email);
+	    jQuery('.b_sendtofriend').attr('target','_blank');
+	}
+});
+	jQuery(document).ready(function() {
+    if (window.location.href.indexOf("/deals/") > -1) {
+      jQuery('#geodir_event_listing_calendar-5').hide();
+    }
+});
+</script>
+
+
+
+<script async="">
+// Mobile mover
+if(window.location.pathname.length <= 1){ 
+	 const newWindowWidth = jQuery(window).width();
+	 if (newWindowWidth < 1024) {
+		const oldSidebarMobileHome = document.querySelector('.content__sidebar');
+		const mainMobileContentSection = document.querySelector(".content__main");
+		const topMobileContent = document.querySelector(".content__top");
+ 		console.log('executing')
+		newSidebarMobileHome = topMobileContent.removeChild(oldSidebarMobileHome);
+		mainMobileContentSection.appendChild(newSidebarMobileHome);
+		mainMobileContentSection.classList.add("mobile-content-section");
+		newSidebarMobileHome.classList.add("mobile-content-sidebar");
+	}
+	//console.log("I'm home");
+}
+</script>
+<script defer="">
+// fix morenews button margins
+jQuery(function() {
+	var banHeight = jQuery('.oht-related-mobile-banner').outerHeight();
+	var banHeight = banHeight+5
+    console.log( banHeight );
+    jQuery('.oht-related-inner-mobile > a > button').css('margin-top','-'+banHeight+'px');
+	jQuery('.oht-related-inner-mobile > a > button').attr('data-track-content', '');
+    jQuery('.oht-related-inner-mobile > a > button').attr('data-content-name','banner-more-news-button');
+});
+</script>
+
+<script async="">
+//
+
+jQuery(function() {	
+	cookie_mover2();
+	jQuery( "#ezmobfooter > center >#ezmobfooter" ).change(function() {
+	  cookie_mover2();
+	});
+});
+
+function cookie_mover2(){
+	var $e_bot_ban = jQuery('#ezmobfooter > center >#ezmobfooter');
+	var $ck_notice = jQuery('#cookie-notice');
+	var $relatedBanner = jQuery('.oht-related-mobile-banner');
+
+	if ( $e_bot_ban.length && $ck_notice.length ){	 
+		$e_bot_ban.each(function( index ) {
+			$ck_space = $e_bot_ban.prop('offsetHeight');
+			
+			console.log("Space" + $ck_space)
+			if($ck_space > 0){
+				//add height to bottom margin ezoic
+				if($relatedBanner.length){
+					console.log($relatedBanner.length);
+					$meter_space = $relatedBanner.prop('offsetHeight');
+					jQuery('.oht-related-mobile-banner').css('bottom',$ck_space);
+					
+				}
+				jQuery('#cookie-notice').css('margin-bottom',$ck_space);
+				console.log('Cookie Mover2');
+			}
+		});
+	}
+}
+
+</script>
+
+<script async="">
+	//Change AA buttons to open in new window
+	jQuery(function() {
+		jQuery('a[href*="/audio-articles"]').attr('target','_blank');
+	});
+</script><script type="application/ld+json">
+        {
+        "@context": "http://schema.org/",
+        "@type": "NewsMediaOrganization",
+        "name": "Signals AZ",
+        "logo": {
+            "@context": "http://schema.org",
+            "@type": "ImageObject",
+            "url": "https://www.signalsaz.com/https://www.signalsaz.com/wp-content/uploads/2018/02/signals-fb-profile-1.png"
+            },
+            "sameAs": [ 
+                "https://www.facebook.com/Signals-1887207188236269/",
+                    "https://twitter.com/SignalsAZ",
+                    "https://www.instagram.com/signalsaz/",
+                    "https://www.linkedin.com/company/signalsaz/",
+                    "https://www.youtube.com/channel/UCiSjGsadOIuS8WqB731l2uA"
+                    ],
+            
+            
+            "url": "https://www.signalsaz.com/"
+        
+        }
+        </script>    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery('.geodir-bestof-cat-list a, #geodir_bestof_tab_dd').on("click change", function (e) {
+                var widgetBox = jQuery(this).closest('.geodir_bestof_widget');
+                var loading = jQuery(widgetBox).find("#geodir-bestof-loading");
+                var container = jQuery(widgetBox).find('#geodir-bestof-places');
+
+                jQuery(document).ajaxStart(function () {
+                    //container.hide(); // Not working when more then one widget on page
+                    //loading.show();
+                }).ajaxStop(function () {
+                    loading.hide();
+                    container.fadeIn('slow');
+                });
+
+                e.preventDefault();
+
+                var activeTab = jQuery(this).closest('dl').find('dd.geodir-tab-active');
+                activeTab.removeClass('geodir-tab-active');
+                jQuery(this).parent().addClass('geodir-tab-active');
+
+                var term_id = 0;
+                if (e.type === "change") {
+                    term_id = jQuery(this).val();
+                } else if (e.type === "click") {
+                    term_id = jQuery(this).attr('data-termid');
+                }
+
+                var post_type = jQuery(widgetBox).find('#bestof_widget_post_type').val();
+                var excerpt_type = jQuery(widgetBox).find('#bestof_widget_excerpt_type').val();
+                var post_limit = jQuery(widgetBox).find('#bestof_widget_post_limit').val();
+                var taxonomy = jQuery(widgetBox).find('#bestof_widget_taxonomy').val();
+                var char_count = jQuery(widgetBox).find('#bestof_widget_char_count').val();
+                var add_location_filter = jQuery(widgetBox).find('#bestof_widget_location_filter').val();
+
+                var data = {
+                    'action': 'geodir_bestof',
+                    'geodir_bestof_nonce': '6ee8f3aaaa',
+                    'post_type': post_type,
+                    'excerpt_type': excerpt_type,
+                    'post_limit': post_limit,
+                    'taxonomy': taxonomy,
+                    'geodir_ajax': true,
+                    'term_id': term_id,
+                    'char_count': char_count,
+                    'add_location_filter': add_location_filter
+                };
+
+                container.hide();
+                loading.show();
+
+                jQuery.post(geodir_var.geodir_ajax_url, data, function (response) {
+                    container.html(response);
+                    jQuery(widgetBox).find('.geodir_category_list_view li .geodir-post-img .geodir_thumbnail img').css('display', 'block');
+
+                    // start lazy load if it's turned on
+                    if(geodir_var.geodir_lazy_load==1){
+                        geodir_init_lazy_load();
+                    }
+
+                });
+            })
+        });
+        jQuery(document).ready(function () {
+            if (jQuery(window).width() < 660) {
+                if (jQuery('.bestof-widget-tab-layout').hasClass('bestof-tabs-on-left')) {
+                    jQuery('.bestof-widget-tab-layout').removeClass('bestof-tabs-on-left').addClass('bestof-tabs-as-dropdown');
+                } else if (jQuery('.bestof-widget-tab-layout').hasClass('bestof-tabs-on-top')) {
+                    jQuery('.bestof-widget-tab-layout').removeClass('bestof-tabs-on-top').addClass('bestof-tabs-as-dropdown');
+                }
+            }
+        });
+    </script>
+<!-- Matomo -->
+<script>
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.our-hometown.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '314']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+<script type="application/ld+json" async=""> 
+                    {
+                        "@context": "https://schema.org",
+                        "@type": "NewsArticle",
+                        "description": "Will the 2023 Arizona Monsoon be normal, wetter, or drier? Find out more!",
+                        "mainEntityOfPage":  "https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/",
+                        "inLanguage": "en_US",
+                        "headline": "Will the 2023 Arizona Monsoon Bring Another Summer of Rain?",
+                        "image": [
+                              {
+                        "@context": "http://schema.org",
+                        "@type": "ImageObject",
+                        "url": "https://www.signalsaz.com/wp-content/uploads/2018/02/signals-logo-background.jpg",
+                        "height": 501,
+                        "width":  745
+                    }
+                        ],
+                        "datePublished": "2023-06-30T15:13:12-07:00",
+                        "dateModified": "2023-07-12T09:06:50-07:00",
+                        "author": {
+                    "@type": "Person",
+                    "name": "Staff"
+                },
+                        
+                        
+                        "audio" : {
+                    "@context": "https://schema.org",
+                    "@type": "AudioObject",
+                    "contentUrl": "Array",
+                    "description": "Audio Article for Will the 2023 Arizona Monsoon Bring Another Summer of Rain?",
+                    "encodingFormat": "audio/mpeg"
+                },
+                        "publisher": {
+                            "@type": "Organization",
+                            "@id" : "https://www.signalsaz.com/#publisher",
+                            "name": "Signals AZ",
+                            "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://www.signalsaz.com/https://www.signalsaz.com/wp-content/uploads/2018/02/signals-fb-profile-1.png"
+                            }
+                        },
+                        "copyrightHolder": {
+                            "@id" : "https://www.signalsaz.com/#publisher"
+                        },
+                        "sourceOrganization": {
+                            "@id" : "https://www.signalsaz.com/#publisher"
+                        },
+                        "copyrightYear": 2023,
+                        "isPartOf": {
+                            "@type": [
+                            "CreativeWork"
+                            ],
+                            "name": "Signals AZ"
+                        }
+
+                    }
+                </script>
+                <link rel="stylesheet" id="main-recommend-style-css" href="https://d2y8psjfi06mva.cloudfront.net/oht-recommend-articles/css/style.css?ver=5.8.4" type="text/css" media="all"/>
+<script type="text/javascript" id="adrotate-dyngroup-js-extra">
+/* <![CDATA[ */
+var impression_object = {"ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/adrotate-pro/library/jquery.adrotate.dyngroup.js" id="adrotate-dyngroup-js"></script>
+<script type="text/javascript" id="adrotate-clicktracker-js-extra">
+/* <![CDATA[ */
+var click_object = {"ajax_url":"https:\/\/www.signalsaz.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/adrotate-pro/library/jquery.adrotate.clicktracker.js" id="adrotate-clicktracker-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodir_location_manager/js/location-front.min.js?ver=5.8.4" async="async" id="geodirectory-location-front-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/jquery.lightbox-0.5.min.js?ver=1.6.38" id="geodirectory-lightbox-jquery-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.12.1" id="jquery-ui-menu-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.7" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/dom-ready.min.js?ver=71883072590656bf22c74c7b887df3dd" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/hooks.min.js?ver=a7edae857aab69d69fa10d5aef23a5de" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/i18n.min.js?ver=5f1269854226b4dd90450db411a12b79" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script type="text/javascript" id="wp-a11y-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", { "locale_data": { "messages": { "": {} } } } );
+</script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/dist/a11y.min.js?ver=0ac8327cc1c40dcfdf29716affd7ac63" id="wp-a11y-js"></script>
+<script type="text/javascript" id="jquery-ui-autocomplete-js-extra">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.12.1" id="jquery-ui-autocomplete-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/goMap.min.js?ver=1.6.38" id="geodirectory-goMap-script-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.12.1" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.12.1" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/slider.min.js?ver=1.12.1" id="jquery-ui-slider-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/effect.min.js?ver=1.12.1" id="jquery-effects-core-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-includes/js/jquery/ui/effect-slide.min.js?ver=1.12.1" id="jquery-effects-slide-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/jquery.ui.timepicker.min.js?ver=5.8.4" id="geodirectory-jquery-ui-timepicker-js-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/jRating.jquery.min.js?ver=1.6.38" id="geodir-jRating-js-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/on_document_load.min.js?ver=1.6.38" async="async" id="geodir-on-document-load-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodirectory/geodirectory-assets/js/geometa.min.js?ver=1.6.38" async="async" id="google-geometa-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/ohtnav/js/scrolling-tables.js?ver=1.0.0" id="oht_scrolling_tables-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-content/themes/clementine/assets/js/main.js?ver=5.8.4" id="main-js"></script>
+<script type="text/javascript" defer="defer" src="https://d2y8psjfi06mva.cloudfront.net/gravityforms/js/jquery.maskedinput.min.js?ver=2.6.3" id="gform_masked_input-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/wp-smush-pro/app/assets/js/smush-lazy-load-native.min.js?ver=3.9.8" id="smush-lazy-load-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/geodir_marker_cluster/js/cluster_script.js?ver=1" id="gdcluster-script-js"></script>
+<script type="text/javascript" defer="" src="https://d2y8psjfi06mva.cloudfront.net/youtube-embed-plus/scripts/fitvids.min.js?ver=14.1" id="__ytprefsfitvids__-js"></script>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-content/themes/dolores/assets/js/related-banner.js?ver=5.8.4" id="related-banner-script-js"></script>
+<script type="text/javascript" src="https://unpkg.com/react@17/umd/react.production.min.js" id="react-recommend-js"></script>
+<script type="text/javascript" src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js" id="react-dom-recommend-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/oht-recommend-articles/js/Articles.js" id="main-recommend-script-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/oht_audio_articles/assets/js/polly_tracker_matomo.js" id="pollytrack-js"></script>
+<script type="text/javascript" src="https://d2y8psjfi06mva.cloudfront.net/ohtnav/js/rememberme.js?ver=5.0.7" id="rememberme-js"></script>
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+<!-- AdRotate JS -->
+<script type="text/javascript">
+jQuery(document).ready(function(){if(jQuery.fn.gslider) {
+	jQuery('.g-27').gslider({groupid:27,speed:4000,repeat_impressions:'Y'});
+}});
+</script>
+<!-- /AdRotate JS -->
+
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).on('gform_post_render', function(event, formId, currentPage){if(formId == 98) {jQuery('#input_98_3').mask('(999) 999-9999').bind('keypress', function(e){if(e.which == 13){jQuery(this).blur();} } );} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} ) } );
+</script>
+<script type="text/javascript">
+gform.initializeOnLoaded( function() { jQuery(document).trigger('gform_post_render', [98, 1]) } );
+</script>
+<div class="gd-near-me-dropdown gd-dropdown dropdown-tip dropdown-anchor-right" style="display: none;">
+	<div class="dropdown-panel">
+    	<div class="gd-advanced-s-menu-near">
+			<span class="gdas-menu-near-me-left gdas-menu-left">Near me</span>
+			<span class="gdas-menu-near-me-right gdas-menu-right"><input type="checkbox" class="gt_near_me_s" onclick="gdGetLocation(jQuery(this));"/></span>
+        </div>
+        <div class="gd-advanced-s-menu-range">
+			<span class="gdas-menu-left"><input type="range" name="gdas-range" class="gdas-range" min="1" max="200" oninput="gdasShowRange(jQuery(this));" onchange="gdasSetRange(jQuery(this));" value="40"/></span><span class="gdas-menu-right gdas-range-value-out">40 miles</span>
+		</div>
+    </div>
+</div>
+<script type="text/javascript" src="https://www.signalsaz.com/wp-content/themes/dolores/assets/js/lastload_injector.js" async=""></script>
+
+
+<script type='text/javascript' style='display:none;' async>
+__ez.queue.addFile('/detroitchicago/edmonton.webp', '/detroitchicago/edmonton.webp?a=a&cb=0&shcb=34', true, ['/detroitchicago/minneapolis.js'], true, false, false, false);
+__ez.queue.addFile('/porpoiseant/jellyfish.webp', '/porpoiseant/jellyfish.webp?a=a&cb=0&shcb=34', false, [], true, false, false, false);
+</script>
+
+<script>__ez.queue.addFile('/tardisrocinante/vitals.js', '/tardisrocinante/vitals.js?gcb=0&cb=3', false, ['/detroitchicago/minneapolis.js'], true, false, true, false);</script>
+<script type="text/javascript" data-cfasync="false"></script>
+<script>var _audins_dom="signalsaz_com",_audins_did=280749;__ez.queue.addDelayFunc("audins.js","__ez.script.add", "//go.ezodn.com/detroitchicago/audins.js?cb=195-0");</script><noscript><div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-31iz6hfFutd16.gif?labels=Domain.signalsaz_com,DomainId.280749" border="0" height="1" width="1" alt="Quantcast"/></div></noscript>
+<script>__ez.queue.addFile('/beardeddragon/drake.js', '/beardeddragon/drake.js?gcb=0&cb=4', false, [], true, false, true, false);</script></body></html><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 254/298 objects using redis
+Page Caching using redis 
+
+Served from: www.signalsaz.com @ 2023-07-26 19:12:04 by W3 Total Cache
+-->

@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 28300000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Louisiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:55.134Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Louisiana+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_c9y2q10cl"
+    },
+    "organic": [
+        {
+            "link": "https://www.cbsnews.com/news/huge-storm-system-killer-tornadoes-south-blizzard-like-conditions-great-plains/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Huge storm system brings killer tornadoes to South ...",
+            "description": "A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, spinning up tornadoes that battered the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornado-touches-louisiana-storm-watches-issued-south/story?id=96987452",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Tornado touches down in Louisiana, storm watches issued ...",
+            "description": "A tornado was spotted just outside of Tangipahoa, Louisiana, Wednesday evening, according to the National Weather Service New Orleans.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://nypost.com/2022/03/22/louisiana-mississippi-alabama-warned-as-storm-approaches/",
+            "display_link": "https://nypost.com \u203a 2022/03/22 \u203a louisiana-mississipp...",
+            "title": "Louisiana, Mississippi, Alabama warned as storm ...",
+            "description": "Debris litters the ground surrounding homes, damaged by a tornado in Round Rock, Texas. The same storm may cause severe weather in Louisiana ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usnews.com/news/us/articles/2022-12-14/winter-us-storm-brings-warnings-of-more-tornadoes-blizzards",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Louisiana News",
+            "title": "3 Dead in Louisiana as US Storm Spawns Southern ...",
+            "description": "KEITHVILLE, La. (AP) \u2014 A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2021/08/29/how-climate-change-helped-make-hurricane-ida-one-louisianas-worst/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/08/29 \u203a how...",
+            "title": "How climate change helped make Hurricane Ida one of ...",
+            "description": "Hurricane Ida slams into Louisiana with damaging winds ... In a 2017 paper published in the Bulletin of the American Meteorological Society, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://climate360news.lmu.edu/southern-louisiana-at-risk-of-more-severe-hurricanes-heavier-rainfall-as-planet-warms/",
+            "display_link": "https://climate360news.lmu.edu \u203a southern-louisiana-a...",
+            "title": "Southern Louisiana at risk of more severe hurricanes, heavier ...",
+            "description": "LAKE CHARLES, LA \u2013 The last year of extreme weather in Louisiana has been ... A paper in the Journal of Advancing Earth and Space Science found this event ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.news4jax.com/weather/2020/10/05/why-do-storms-keep-thrashing-louisiana/",
+            "display_link": "https://www.news4jax.com \u203a weather \u203a 2020/10/05",
+            "title": "Why do storms keep thrashing Louisiana?",
+            "description": "Hurricane Delta makes it's 2nd landfall in Louisiana in a season that has seen back-to-back attacks on the Pelican State.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 9, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://whyy.org/articles/us-storm-southern-tornadoes-3-dead-in-louisiana/",
+            "display_link": "https://whyy.org \u203a articles \u203a us-storm-southern-tornad...",
+            "title": "3 dead in Louisiana as US storm spawns Southern tornadoes",
+            "description": "Authorities say three people are dead in Louisiana and several others have been hurt as a destructive storm system has kicked up tornadoes ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wwltv.com/article/weather/hurricane/hurricane-fatigue-is-real-and-its-hitting-louisiana/289-ee559614-064d-45f1-9324-3c1378c8b036",
+            "display_link": "https://www.wwltv.com \u203a article \u203a weather \u203a hurricane...",
+            "title": "Hurricane fatigue is real and it's hitting Louisiana",
+            "description": "Based on the current forecast track, Tropical Storm Delta could hit Louisiana as a Category 2 hurricane by the end of the week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 5, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-10638273/Louisiana-Mississippi-Alabama-warned-storm-approaches.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-10638273",
+            "title": "Tornado strikes New Orleans as storms move into Deep ...",
+            "description": "Apocalyptic scenes in New Orleans as monster tornado devastates entire town and leaves upturned cars and flattened homes in its wake: Louisiana, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

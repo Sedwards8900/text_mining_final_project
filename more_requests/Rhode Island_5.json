@@ -1,0 +1,242 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 21900000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Rhode Island storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:45:55.191Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Rhode+Island+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_jxgzdyo8hp"
+    },
+    "organic": [
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/feart.2019.00133/full",
+            "display_link": "https://www.frontiersin.org \u203a feart.2019.00133 \u203a full",
+            "title": "Developing Consequence Thresholds for Storm Models ...",
+            "description": "This article is part of the Research Topic ... 1Department of Marine Affairs, University of Rhode Island, South Kingstown, RI, United States ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by R Witkop",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2019",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 5",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://ecori.org/superstorm-sandy-showed-ocean-state-what-future-storms-could-look-like/",
+            "display_link": "https://ecori.org \u203a superstorm-sandy-showed-ocean-sta...",
+            "title": "Superstorm Sandy Showed Ocean State What Future ...",
+            "description": "The storm reached Rhode Island on Oct. 29, 2012, causing significant damage to coastal homes and businesses. The National Flood Insurance ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.theguardian.com/world/2021/aug/22/flooding-in-new-york-as-hurricane-henri-approaches-north-east-coast",
+            "display_link": "https://www.theguardian.com \u203a world \u203a aug \u203a floodin...",
+            "title": "Henri makes landfall in Rhode Island, packing high winds ...",
+            "description": "Henri makes landfall in Rhode Island, packing high winds and heavy rain. This article is more than 1 year old. Biden says storm has 'potential ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2021/08/24/henri-heads-out-sea-leaving-behind-12-billion-damage-northeast/8253458002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2021/08/24 \u203a he...",
+            "title": "Henri leaves $12B in damage in Northeast. Some have lost ...",
+            "description": "The storm, downgraded to a post-tropical cyclone, was centered 50 miles east of Providence, Rhode Island, and headed east.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/tropical-storm-henri-hurricanes-35b9448730d64a02ca81da6cbbd6dc18",
+            "display_link": "https://apnews.com \u203a article \u203a tropical-storm-henri-hur...",
+            "title": "Slow-moving storm Henri drenches Northeast US",
+            "description": "Rhode Island has been hit by hurricanes and tropical storms periodically \u2014 including Superstorm Sandy in 2012, Irene in 2011 and Hurricane Bob ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/08/22/hurricane-henri-live-updates/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/08/22 \u203a hurri...",
+            "title": "Tropical Storm Henri hits Rhode Island",
+            "description": "Henri weakened from a hurricane to a strong tropical storm Sunday morning, making landfall at 12:15 p.m. near Westerly, R.I. Nevertheless, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://stories.usatodaynetwork.com/risingthreat/home/",
+            "display_link": "https://stories.usatodaynetwork.com \u203a risingthreat",
+            "title": "Can Providence's hurricane barrier withstand sea-level rise?",
+            "description": "PROVIDENCE \u2014 Crews from the U.S. Army Corps of Engineers arrived at the Fox Point Hurricane Barrier the night before Superstorm Sandy was due to hit the ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.thedartmouth.com/article/2021/08/tropical-storm-henri-makes-landfall-in-rhode-island-to-bring-high-winds-and-heavy-rain-to-upper-valley",
+            "display_link": "https://www.thedartmouth.com \u203a article \u203a 2021/08 \u203a tr...",
+            "title": "Tropical storm Henri makes landfall in Rhode Island, to ...",
+            "description": "The storm will weaken rapidly over land, but still poses a danger, the National Hurricane Center says.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nytimes.com/live/2021/08/22/us/hurricane-henri-updates",
+            "display_link": "https://www.nytimes.com \u203a live \u203a hurricane-henri-updates",
+            "title": "Tropical Storm Henri Weakens As It Moves Inland",
+            "description": "Here's why you need bottled water during a hurricane or tropical storm. Emergency declarations are issued for Rhode Island, Connecticut and New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 15, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ],
+    "images": [
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Tropical Storm Henri hits Rhode Island on US east coast",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1Hip_bOII3GLaaDpL6tvmL9z08zRnVNJ6EH_xo2_XWbe0apmYaPNgfxQVEi7&s",
+            "image_alt": "Henri Hits Northeast as a Tropical Storm",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1Hip_bOII3GLaaDpL6tvmL9z08zRnVNJ6EH_xo2_XWbe0apmYaPNgfxQVEi7&s",
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Hurricane Henri Takes Aim at Long Island and Parts of New ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArQMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAQIDBAUG/8QAOhAAAQQABAMGAgcHBQAAAAAAAQACAxEEEiExE0FRBSJhcYGRMtEUM0JScoKhFVOSweHw8QYjJENU/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABoRAQEBAQADAAAAAAAAAAAAAAABESESMUH/2gAMAwEAAhEDEQA/AO2QokK4RnVIsWmVFIUq1TpaQgT1SJUq03USERElJMpIBCEKhJpJoiQ2UwwlQaaV7Te6mtDgkC7SDK+L2VoI3Ki7ck6KaIGuijakDmNIc2lRDMpGTQeCjlKiQQqynxCNlMO03VFqQKDjt7UxlfXX+VvyW/s7GS4h0jZ3h2UAigAuK2IkudEQ6K9KOo8KWzsmSsW6PkWE/qFzbdlHJJC2hblB0QdNkiiEQoqSSoSE0IEmNioveyMXI4NHU6JCaKieKyq3zBTRa0WVYCAsZx2FZ8WJiB/GEm9o4R7wxkwe48mglFb7TIBXOd2nC0mg54F6s128N1Q7t7DN2ZK7S9APmpxXV0ZZvQJ8QPbbTYXDl7dbKxzIYnh7hoXVot3Zs/HwoOfM4E37ojXmpK9UigBaQItCKRHmc0cAbJPYjJ72h1GlLdgZcNJjYZ4JDw35mgP3/u6XOlbBiYjCSYTvTdQD5KWHw8mGwrWsc17o87gWa66UsNvVEJUub2LjJ8VC3jkEll7UbshdNaQqSpNCIVJUmmghShK4xsLg26Fq1VYoNOGlD3ZG5DbqutEqz24UmJxErzI1riNtCKVREfCxJc3hyNZRA2+ILpdn/QmRPz4h7xZP1VfZN8+ipDsHFNiX55n012YcNvUdSuLs5WHhOJeAx+1A0NVdinjDuGGhHCaQM5duT4ldbB4BkcMEkMuIytJfYDRnFjQ6+Cx4yGKTCyNbNM57skuaUjY6DbzV1mRjfgMTDG+VzmgR2dCbsdFQ/ENfETIy5b0cNLHO+q7LsRNjsLLEyJrATls2dbG2q5U+AdEwOkfVk0Gs3o11SUUsmLZgIaAB5/aXpcBAO8+Ilrc1nTc/Jecgg4j3MhdlcG3btyenguz2Xjw9scTQXyZbcBt0WvrLtISbdaprowAmo2naDywDG4nGEtzXkFHYWAm1oGgLmuzmiDysD+asLP8AfxXi1hVrW94kjUONe4+Sy0swMz2TRudLTXaOJbZr/K7onw5dlzO1+1yXCkgDWObZNCv0WzitigjEjnAEac9v8qUdFxaDWYdVBz2g0SsYjfqav+x/VKRznZnO7xbpfTX5J042hzSLBCMzTs4e6xN1B1De9QFa1r/RUYp7YomP1kLgdWt3TTI6tjwVMmGM8od9KdHFXejyAhw5rjyY1uwE+l1bEou0HAuJjcaBymttEvVje3ANdlfg8aQ2XvBjIg3RZjgMKzjtkxrjK6Mud3L0NG79FRgu0ZYpcPb3iKIAFgbvv4eSpmxHEkLo7bmw4aa/DqFzbeh7Pxcf7OYyFsksbAWZ6Av0VMP+n88TbxUoBaG0WDYHZY+x+1IMLgmwycRrhIT3YiR7rZhO3wXSiew0P7hDCSRfP0UNH7Fgsj6RNpqe50RH2Hh5DQnm06tpWYbtyG3iWR1ZzXcPwrGO338FmZ9OBdfcOorRMPKsr8LgMFjcVGcRKXtjcHZmWACBqtPY+ChhBnw8z5WSNrvNqgCuM/FOlxE2ImLS97C34QbOm/VdLsvHiLCxQnPQiNgRk65vLotxmu1aFxZMdieDFwjJnMlOuI7a+Hkt5fLf1jK8wurm1ItZc8n7xiXEk/etVxHJfIGyTULcImkj1TnxIiD9QXMzHKDqdiqsQ2ppMxAzQdN91hnYX9pzPa095tDTbuhc23UxGLkccsUYdxBea9G2upHh+NBEZAczRyK40bWMaDqKHI0u/hi12FY9pttc1QxC1uas3e3s2ggbBB62B6pcjZHuqiJaDyCQaeQCdhFjxVQUfBQc0ncKdjkgi+ZQZ+EB4KPAb921fSKUxdQZGGsoNHsoCPIDQAs3sFfelKNaqZDVAZV7dfhCgIso0Df4QtWVLKPJXIOd9EbmNDfTZbMNCIwNAfS1LLrur42qoKA5D2CdDo32Csy+ARw/BaRSQPuD2CKb939ArsiMiI81lMptz60paYsKHOsuJvoqmsvor4mG/iPoaXF1Xsw8QkyONnoQF0REcrQaLB9mtFjDxDEXu2aLNndacESYA5+rn94gcrWkWZA3ZjR7J5W9AVIjll9UEDoFUV8Nn3QEZGeHup0PuhLToPZEV8NnJxv8RS4ZGuY10pW2ouNjb9EGU946SyN8q+SM4F2+TTyTDS0pU4l17V1Wet8TjOdgcJH0drASzafWE/lCiwuAAOUdDajJE4t13vkVNpkTz0Cc508FXxgf+wD8TVTJnETqHtqsTnUAOLRvoVNq5G8TZnmnNJ8CPmtcLnkaFo8x/VcRscgeS7K5viuzgADGKGXwJW5WbGoGUj4mexTqXqz2KdJ60eq0yhllPNo90w2X7zUAvrvNAPS7RxK3Co4jGjpauaGgbFQaeQATkkEbC47BcnRWf+Ri44BeUG3rttFC8oHkvP4Cg90kpc1ztqXeiPcF37LUZqd+FIJUC83WVwHXROwf8qoCSkSkSByCWYdAiHfioPAKHOrkPZRznoPYIKzQSzKZc5LM/qfdFIHoL9FNtnTI72UO8eZ908h5oqZjJ+w72Vbob3afZDhQ7tE+KTpWNoOc1pPU0pgrOFb0pbIGhjaAA9Qs7XMce64HyUw5o3KuI2X4geqVjqPdZeM1o3tR+ks8VUa81IzlZRio6s5v4SpfSmUKJP5UHPaSDWmqw46Z8kjYYwDzK0yPEcZJPJYcO2SWUuaLLj0XJ0dfAxPZGC+mv5tu1rdLIaGrfDRUwNe0jMx2vgVc95a0lkbngbkcltlOOnDM4k3zJU6A2CqbnOpDfcKyzpZA9UAQo1SO/mOYxhvIh1/yUXEDZ49lUSpKwsxzumzHEER1o1rBp6qx0jB9469aQTJ8EiQqDLCHZslnreqicQ0bRt9SSg0GRo5qDpwBvoqDiDuGMB/Co/Sn5qsC96aEF5mvbW/C1nlhkmkY8cQZeQjBs+ZCTsVOT9aQ3moume4fG73RWnJiMtCJ9DqFExYivgr8wCyFxOxtCDVwZeZYPORvzSML/wB7CPzrMhBo4AvXERDyLj/JPhM/9Tf4T8lntO0FGL2b5qMcj45u45zd9jSELnGmrjS8K+I/cfaKCTlGp3QhbRez6tc0OI7YiAJALjYB30KEIO6q3bIQqyqPxKs7oQiqnbhIIQgTtlFug0QhBAE9eZUkIUEuSR3HkhCoEfJCEByR1QhB/9k=",
+            "image_alt": "Photos: The storm's impact along the Rhode Island coast ...",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArQMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAQIDBAUG/8QAOhAAAQQABAMGAgcHBQAAAAAAAQACAxEEEiExE0FRBSJhcYGRMtEUM0JScoKhFVOSweHw8QYjJENU/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABoRAQEBAQADAAAAAAAAAAAAAAABESESMUH/2gAMAwEAAhEDEQA/AO2QokK4RnVIsWmVFIUq1TpaQgT1SJUq03USERElJMpIBCEKhJpJoiQ2UwwlQaaV7Te6mtDgkC7SDK+L2VoI3Ki7ck6KaIGuijakDmNIc2lRDMpGTQeCjlKiQQqynxCNlMO03VFqQKDjt7UxlfXX+VvyW/s7GS4h0jZ3h2UAigAuK2IkudEQ6K9KOo8KWzsmSsW6PkWE/qFzbdlHJJC2hblB0QdNkiiEQoqSSoSE0IEmNioveyMXI4NHU6JCaKieKyq3zBTRa0WVYCAsZx2FZ8WJiB/GEm9o4R7wxkwe48mglFb7TIBXOd2nC0mg54F6s128N1Q7t7DN2ZK7S9APmpxXV0ZZvQJ8QPbbTYXDl7dbKxzIYnh7hoXVot3Zs/HwoOfM4E37ojXmpK9UigBaQItCKRHmc0cAbJPYjJ72h1GlLdgZcNJjYZ4JDw35mgP3/u6XOlbBiYjCSYTvTdQD5KWHw8mGwrWsc17o87gWa66UsNvVEJUub2LjJ8VC3jkEll7UbshdNaQqSpNCIVJUmmghShK4xsLg26Fq1VYoNOGlD3ZG5DbqutEqz24UmJxErzI1riNtCKVREfCxJc3hyNZRA2+ILpdn/QmRPz4h7xZP1VfZN8+ipDsHFNiX55n012YcNvUdSuLs5WHhOJeAx+1A0NVdinjDuGGhHCaQM5duT4ldbB4BkcMEkMuIytJfYDRnFjQ6+Cx4yGKTCyNbNM57skuaUjY6DbzV1mRjfgMTDG+VzmgR2dCbsdFQ/ENfETIy5b0cNLHO+q7LsRNjsLLEyJrATls2dbG2q5U+AdEwOkfVk0Gs3o11SUUsmLZgIaAB5/aXpcBAO8+Ilrc1nTc/Jecgg4j3MhdlcG3btyenguz2Xjw9scTQXyZbcBt0WvrLtISbdaprowAmo2naDywDG4nGEtzXkFHYWAm1oGgLmuzmiDysD+asLP8AfxXi1hVrW94kjUONe4+Sy0swMz2TRudLTXaOJbZr/K7onw5dlzO1+1yXCkgDWObZNCv0WzitigjEjnAEac9v8qUdFxaDWYdVBz2g0SsYjfqav+x/VKRznZnO7xbpfTX5J042hzSLBCMzTs4e6xN1B1De9QFa1r/RUYp7YomP1kLgdWt3TTI6tjwVMmGM8od9KdHFXejyAhw5rjyY1uwE+l1bEou0HAuJjcaBymttEvVje3ANdlfg8aQ2XvBjIg3RZjgMKzjtkxrjK6Mud3L0NG79FRgu0ZYpcPb3iKIAFgbvv4eSpmxHEkLo7bmw4aa/DqFzbeh7Pxcf7OYyFsksbAWZ6Av0VMP+n88TbxUoBaG0WDYHZY+x+1IMLgmwycRrhIT3YiR7rZhO3wXSiew0P7hDCSRfP0UNH7Fgsj6RNpqe50RH2Hh5DQnm06tpWYbtyG3iWR1ZzXcPwrGO338FmZ9OBdfcOorRMPKsr8LgMFjcVGcRKXtjcHZmWACBqtPY+ChhBnw8z5WSNrvNqgCuM/FOlxE2ImLS97C34QbOm/VdLsvHiLCxQnPQiNgRk65vLotxmu1aFxZMdieDFwjJnMlOuI7a+Hkt5fLf1jK8wurm1ItZc8n7xiXEk/etVxHJfIGyTULcImkj1TnxIiD9QXMzHKDqdiqsQ2ppMxAzQdN91hnYX9pzPa095tDTbuhc23UxGLkccsUYdxBea9G2upHh+NBEZAczRyK40bWMaDqKHI0u/hi12FY9pttc1QxC1uas3e3s2ggbBB62B6pcjZHuqiJaDyCQaeQCdhFjxVQUfBQc0ncKdjkgi+ZQZ+EB4KPAb921fSKUxdQZGGsoNHsoCPIDQAs3sFfelKNaqZDVAZV7dfhCgIso0Df4QtWVLKPJXIOd9EbmNDfTZbMNCIwNAfS1LLrur42qoKA5D2CdDo32Csy+ARw/BaRSQPuD2CKb939ArsiMiI81lMptz60paYsKHOsuJvoqmsvor4mG/iPoaXF1Xsw8QkyONnoQF0REcrQaLB9mtFjDxDEXu2aLNndacESYA5+rn94gcrWkWZA3ZjR7J5W9AVIjll9UEDoFUV8Nn3QEZGeHup0PuhLToPZEV8NnJxv8RS4ZGuY10pW2ouNjb9EGU946SyN8q+SM4F2+TTyTDS0pU4l17V1Wet8TjOdgcJH0drASzafWE/lCiwuAAOUdDajJE4t13vkVNpkTz0Cc508FXxgf+wD8TVTJnETqHtqsTnUAOLRvoVNq5G8TZnmnNJ8CPmtcLnkaFo8x/VcRscgeS7K5viuzgADGKGXwJW5WbGoGUj4mexTqXqz2KdJ60eq0yhllPNo90w2X7zUAvrvNAPS7RxK3Co4jGjpauaGgbFQaeQATkkEbC47BcnRWf+Ri44BeUG3rttFC8oHkvP4Cg90kpc1ztqXeiPcF37LUZqd+FIJUC83WVwHXROwf8qoCSkSkSByCWYdAiHfioPAKHOrkPZRznoPYIKzQSzKZc5LM/qfdFIHoL9FNtnTI72UO8eZ908h5oqZjJ+w72Vbob3afZDhQ7tE+KTpWNoOc1pPU0pgrOFb0pbIGhjaAA9Qs7XMce64HyUw5o3KuI2X4geqVjqPdZeM1o3tR+ks8VUa81IzlZRio6s5v4SpfSmUKJP5UHPaSDWmqw46Z8kjYYwDzK0yPEcZJPJYcO2SWUuaLLj0XJ0dfAxPZGC+mv5tu1rdLIaGrfDRUwNe0jMx2vgVc95a0lkbngbkcltlOOnDM4k3zJU6A2CqbnOpDfcKyzpZA9UAQo1SO/mOYxhvIh1/yUXEDZ49lUSpKwsxzumzHEER1o1rBp6qx0jB9469aQTJ8EiQqDLCHZslnreqicQ0bRt9SSg0GRo5qDpwBvoqDiDuGMB/Co/Sn5qsC96aEF5mvbW/C1nlhkmkY8cQZeQjBs+ZCTsVOT9aQ3moume4fG73RWnJiMtCJ9DqFExYivgr8wCyFxOxtCDVwZeZYPORvzSML/wB7CPzrMhBo4AvXERDyLj/JPhM/9Tf4T8lntO0FGL2b5qMcj45u45zd9jSELnGmrjS8K+I/cfaKCTlGp3QhbRez6tc0OI7YiAJALjYB30KEIO6q3bIQqyqPxKs7oQiqnbhIIQgTtlFug0QhBAE9eZUkIUEuSR3HkhCoEfJCEByR1QhB/9k=",
+            "rank": 4,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvX7r-wtpODtUyO96AexpH8eUvO83_06kNfUysU7U7A&s",
+            "image_alt": "Tropical Storm Henri makes landfall in Rhode Island - WHYY",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjvX7r-wtpODtUyO96AexpH8eUvO83_06kNfUysU7U7A&s",
+            "rank": 5,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlH3CbuIlBXIGMc9YHLagkVEHbGbEXT4giPLqzBbJDg&s",
+            "image_alt": "9) Tropical Storm Henri makes landfall",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvlH3CbuIlBXIGMc9YHLagkVEHbGbEXT4giPLqzBbJDg&s",
+            "rank": 6,
+            "global_rank": 15
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidbQ4-3kvpO1pQxUl1yn_UjpxVaeFRNjpLPCQPuPv_w&s",
+            "image_alt": "Maps: When will the storm start in Rhode Island? How much ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidbQ4-3kvpO1pQxUl1yn_UjpxVaeFRNjpLPCQPuPv_w&s",
+            "rank": 7,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqM0DcjqBQKlKAc5lc4CcVNKPiWmJhIKc_9nMbOp521Q&s",
+            "image_alt": "Storm Updates: Tropical Storm Henri Weakens As It Moves ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqM0DcjqBQKlKAc5lc4CcVNKPiWmJhIKc_9nMbOp521Q&s",
+            "rank": 8,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsVUUipSDGX_fRXxcTbL8F7VvWvdD_c6rBA5q0kGn6g&s",
+            "image_alt": "Tropical Storm Henri brings heavy rain, driving winds to RI",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNsVUUipSDGX_fRXxcTbL8F7VvWvdD_c6rBA5q0kGn6g&s",
+            "rank": 9,
+            "global_rank": 18
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxr-iTCCBbc0DgZkVlzlM_yBzf1zB5sYT3AwbWbp6Lxg&s",
+            "image_alt": "GoLocalProv | Henri Storm Surge Warning and Flood Watch ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxr-iTCCBbc0DgZkVlzlM_yBzf1zB5sYT3AwbWbp6Lxg&s",
+            "rank": 10,
+            "global_rank": 19
+        }
+    ]
+}

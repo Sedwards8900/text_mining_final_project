@@ -1,0 +1,168 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 65300000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Georgia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:24:04.612Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Georgia+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_rhm0uc79p48"
+    },
+    "organic": [
+        {
+            "link": "https://www.ajc.com/atlanta-weather/breaking-downed-trees-power-outages-due-to-severe-storms-in-north-georgia/NNGLNM7OWRCYJH3AC6KTZ5OZAU/",
+            "display_link": "https://www.ajc.com \u203a atlanta-weather \u203a breaking-dow...",
+            "title": "Storms pummel North Georgia, cause major damage ...",
+            "description": "Wind gusts reached up to 70 mph across metro Atlanta, according to the National Weather Service, causing trees and powerlines to overturn.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "5 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://accesswdun.com/article/2023/7/1195235/hall-county-sees-damage-from-severe-thunderstorm",
+            "display_link": "https://accesswdun.com \u203a article \u203a hall-county-sees-da...",
+            "title": "Northeast Georgia continuing to recover after severe th...",
+            "description": "Meteorologist Ryan Willis with the National Weather Service Peachtree City Office said the area experienced straight line winds with wind gusts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nydailynews.com/news/national/ny-georgia-storms-tornado-homes-destroyed-flash-flooding-threat-20230327-c3jbzz264jfuhbgmhfvgxum6yu-story.html",
+            "display_link": "https://www.nydailynews.com \u203a news \u203a national \u203a ny-ge...",
+            "title": "Fierce storms including tornado blast Georgia",
+            "description": "Loading your audio article. Georgia Gov. Brian Kemp on Sunday declared a state of emergency as severe storms, including a tornado, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.yahoo.com/lifestyle/photos-severe-storms-down-trees-090150226.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a photos-severe-sto...",
+            "title": "PHOTOS: Severe storms take down trees, powerlines in ...",
+            "description": "Local authorities reported that multiple trees and powerlines were down across north Georgia following Sunday's severe storms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.fox5atlanta.com/weather/georgia-severe-weather-outages",
+            "display_link": "https://www.fox5atlanta.com \u203a weather \u203a georgia-severe-...",
+            "title": "Severe storms topple trees, leave thousands without power ...",
+            "description": "Wild winds and downed trees have taken down power lines and left more than 86,000 customers without power across Georgia. Georgians are waking ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Georgia+storm+%22article%22&sa=X&ved=2ahUKEwiE686N3a2AAxXLEFkFHUiiAWg4DBDm3gJ6BAgXEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://hurricanesavannah.com/blog/powerful-storm-and-hurricanes-that-happened-in-georgia/",
+            "display_link": "https://hurricanesavannah.com \u203a Blog",
+            "title": "Powerful Storm and Hurricanes that happened in Georgia",
+            "description": "Powerful Storm and Hurricanes that happened in Georgia \u00b7 1) 2005 Hurricane Cindy tornado outbreak \u00b7 2) 2008 Atlanta tornado outbreak \u00b7 3) Hurricane Katrina tornado ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.todayingeorgiahistory.org/tih-georgia-day/georgia-hurricane-of-1893/",
+            "display_link": "https://www.todayingeorgiahistory.org \u203a tih-georgia-day",
+            "title": "Georgia Hurricane of 1893",
+            "description": "The hurricane first hit the coast, passing over Georgia's Sea Islands, ... The hurricane made. ... \u201cSavannah,\u201d reported one paper, \u201cis demolished.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/01/12/selma-tornado-alabama-georgia-damage/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/01/12 \u203a selm...",
+            "title": "Alabama tornado kills at least 6 as storm barrels into Georgia",
+            "description": "Gift Article. Share. Storms killed at least seven people in Alabama and Georgia on Thursday, sending a tornado that ripped through buildings ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.accuweather.com/en/severe-weather/georgia-tornado-leaves-several-injured-as-southern-storms-continue/1503136",
+            "display_link": "https://www.accuweather.com \u203a severe-weather \u203a geor...",
+            "title": "Georgia tornado leaves several injured as Southern storms ...",
+            "description": "More dangerous severe storms rumbled across the South on Sunday morning, with a likely tornado striking the western part of Georgia and causing significant ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/georgia/deadly-storm-in-ga/",
+            "display_link": "https://www.onlyinyourstate.com \u203a georgia \u203a deadly-st...",
+            "title": "A Terrifying, Deadly Storm Struck Georgia In 1898 ...",
+            "description": "The 1898 Georgia Hurricane (at this point hurricanes were not being named) was the strongest hurricane on record in the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 14, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

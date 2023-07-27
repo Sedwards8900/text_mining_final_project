@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 78600000,
+        "search_time": 0.56,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:22.243Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/611.2.7.1.4 (KHTML, like Gecko) Version/14.1.1 Safari/611.2.7.1.4",
+        "request_id": "hl_c3a9eb28_h5opksrdn2"
+    },
+    "organic": [
+        {
+            "link": "https://www.newsbreak.com/kansas-city-mo/2991832009968-tracking-weekend-rain-storm-chances-in-kansas-city",
+            "display_link": "https://www.newsbreak.com \u203a Kansas City, MO",
+            "title": "Tracking weekend rain, storm chances in Kansas City",
+            "description": "KANSAS CITY, Mo. ... Tracking weekend rain, storm chances in Kansas City. By Bryan Busby,. 2 days ago. article cover. By Bryan Busby,. 2 days ago.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/texas-storms-weather-kansas-city-climate-and-environment-b4542df736f408baee7e29759ffd5fc5",
+            "display_link": "https://apnews.com \u203a article \u203a texas-storms-weather-ka...",
+            "title": "US braces for dangerous blast of cold, wind and snow",
+            "description": "KANSAS CITY, Mo. (AP) \u2014 A large swath of the U.S. braced for a dangerous mix of sub-zero temperatures, howling winds and blizzard conditions ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://theconversation.com/hurricane-force-wind-gusts-in-colorado-dust-storms-in-kansas-tornadoes-in-iowa-in-december-heres-what-fueled-a-day-of-extreme-storms-173904",
+            "display_link": "https://theconversation.com \u203a hurricane-force-wind-gu...",
+            "title": "Hurricane-force wind gusts in Colorado, dust storms ...",
+            "description": "This article was updated with a National Weather Service meteorologist describing the storm as a \u201cserial derecho.\u201d Weather \u00b7 Extreme weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://klcjournal.com/kansas-tornadoes-and-flooding/",
+            "display_link": "https://klcjournal.com \u203a kansas-tornadoes-and-flooding",
+            "title": "Don't let the Kansas tornado decline fool you. Flooding kills ...",
+            "description": "Is Tornado Ally still a thing? A recent decline in Kansas twisters may only be temporary. But flooding is far deadlier.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://finance.yahoo.com/news/storm-producing-strong-winds-damaging-130342403.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a storm-producing-s...",
+            "title": "Storm producing strong winds, damaging hail could hit ...",
+            "description": "Kansas City Star McClatchy Articles. Kansas City Star McClatchy Articles. Car plunges off I-435 overpass during Kansas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/07/02/unpredicted-tornado-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/07/02 \u203a unpr...",
+            "title": "Southwestern Kansas sees tornado after forecast for no ...",
+            "description": "There was a zero percent chance of rain or severe storms. Then a tornado touched down. Meteorologists say the Kansas storm was completely ' ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://fox4kc.com/weather/kansas-city-area-upgraded-to-winter-storm-warning-for-thursday/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a kansas-city-area-upgra...",
+            "title": "Kansas City weather: Winter Storm Warning issued Thursday",
+            "description": "This is an archived article and the information in the article may be outdated. Please look at the time stamp on the story to see when it was ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.ksn.com/weather/weather-stories/storm-report-hail-rain-and-wind-covering-parts-of-kansas/",
+            "display_link": "https://www.ksn.com \u203a weather \u203a weather-stories \u203a sto...",
+            "title": "Storm report: Hail, rain and wind impact parts of Kansas",
+            "description": "The KSN Storm Track 3 Team is tracking storms covering parts of Kansas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://kids.nationalgeographic.com/science/article/tornado",
+            "display_link": "https://kids.nationalgeographic.com \u203a article \u203a tornado",
+            "title": "Tornadoes",
+            "description": "Though the storms can happen at any time of the year, tornado season in Texas, Oklahoma, and Kansas occurs in May through early June.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/twisters-return-kansas-oklahoma-more-severe-weather-tap",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a twisters-retur...",
+            "title": "Twisters Return to Kansas, Oklahoma; More Severe ...",
+            "description": "Twisters Return to Kansas, Oklahoma; More Severe Weather on Tap. Bob Henson \u00b7 May 2, 2018, 10:13 AM EDT. article image ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

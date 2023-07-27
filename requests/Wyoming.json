@@ -1,0 +1,292 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 22900000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:11:14.884Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_p6x1yuo5549"
+    },
+    "organic": [
+        {
+            "link": "https://www.weather.gov/riw/spring_snow_04_26",
+            "display_link": "https://www.weather.gov \u203a riw \u203a spring_snow_04_26",
+            "title": "Spring Storm Impacting Wyoming Today",
+            "description": "SYNOPSIS: A large storm will slowly move through the region depositing as much as a foot of very wet snow in the western and central mountains. Significant snow ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Wyoming+storm+%22article%22&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ5t4CegQIKBAB",
+                    "rank": 2
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.weather.gov/riw/April3-52023Snowstorm",
+                    "display_link": "https://www.weather.gov \u203a riw \u203a April3-52023Snowstorm",
+                    "title": "April 3-5, 2023 Snowstorm",
+                    "description": "A major snowstorm crippled much of Wyoming from April 3-5, 2023. The combination of significant to record snowfall and strong winds led to blizzard ...",
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.sweetwaternow.com/wyoming-continues-to-dig-out-of-recent-snow-storm/",
+            "display_link": "https://www.sweetwaternow.com \u203a wyoming-continue...",
+            "title": "Wyoming Continues to Dig Out of Recent Snow Storm",
+            "description": "SWEEWATER COUNTY \u2014 Most of the highways and interstates remain closed today as crews from the Wyoming Department of Transportation (WYDOT), ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://cowboystatedaily.com/2023/04/01/don-day-wyoming-is-in-bullseye-of-new-winter-like-storm-big-snow-below-zero-temps/",
+            "display_link": "https://cowboystatedaily.com \u203a 2023/04/01 \u203a don-day...",
+            "title": "Don Day: Wyoming Is In \u201cBullseye\u201d Of New Winter-Like Storm",
+            "description": "Don Day: Wyoming Is In \u201cBullseye\u201d Of New Winter-Like Storm; Big Snow, Below Zero Temps. Although Don Day said it's ... Share this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://jalopnik.com/what-it-looks-like-to-drive-through-the-worst-of-this-m-1849922792",
+            "display_link": "https://jalopnik.com \u203a what-it-looks-like-to-drive-thro...",
+            "title": "Winter Storm Causes Blinding Whiteout Conditions in ...",
+            "description": "In Wyoming, police are urging folks to stay home as whiteout conditions affect the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wyomingnews.com/news/local_news/cheyenne-to-see-snow-sub-zero-temperatures-in-winter-storm/article_ed3e670e-b15e-11ed-aeba-4b2101565deb.html",
+            "display_link": "https://www.wyomingnews.com \u203a news \u203a local_news \u203a a...",
+            "title": "Cheyenne to see snow, sub-zero temperatures in winter ...",
+            "description": "Cheyenne to see snow, sub-zero temperatures in winter storm. Will Carpenter Wyoming Tribune Eagle.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://oilcity.news/community/weather/2023/02/21/central-wyoming-braces-as-winter-storm-with-possibly-18-inches-of-snow-high-winds-approaches/",
+            "display_link": "https://oilcity.news \u203a Latest News",
+            "title": "Central Wyoming braces as winter storm with possibly 18 ...",
+            "description": "Central Wyoming braces as winter storm with possibly 18 inches of snow, high winds approaches. CASPER, Wyo. \u2013 Nearly all of Wyoming will be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.wyomingnewsnow.tv/weather/forecast/",
+            "display_link": "https://www.wyomingnewsnow.tv \u203a weather \u203a forecast",
+            "title": "Forecast",
+            "description": "We can expect storms in the northeast corner of Wyoming today with heavy rain ... An article going over why you may not have gotten a warning with our ...",
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://weather.com/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://weather.com \u203a storms \u203a winter \u203a news \u203a 2023-0...",
+            "title": "Blizzard Sets Snowstorm Record In Casper, Wyoming",
+            "description": "A potent winter storm hammered areas from the Rockies to the Northern Plains in early April 2023. Some snowfall totals topped 30 inches in parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 13
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Wyoming+Storm+today&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAg3EAE",
+            "text": "wyoming storm today",
+            "rank": 1,
+            "global_rank": 14
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snow+storm+in+Wyoming+today&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAg2EAE",
+            "text": "snow storm in wyoming today",
+            "rank": 2,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Wyoming+Storm+Basketball&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAg1EAE",
+            "text": "wyoming storm basketball",
+            "rank": 3,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Wyoming+snow+storm&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAg0EAE",
+            "text": "wyoming snow storm",
+            "rank": 4,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Wyoming+road+conditions&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAgzEAE",
+            "text": "wyoming road conditions",
+            "rank": 5,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=i-80+wyoming+road+conditions&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAgyEAE",
+            "text": "i-80 wyoming road conditions",
+            "rank": 6,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=How+much+snow+did+Wyoming+get+yesterday&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAgwEAE",
+            "text": "how much snow did wyoming get yesterday",
+            "rank": 7,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snow+storm+March+2023&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQ1QJ6BAgxEAE",
+            "text": "snow storm march 2023",
+            "rank": 8,
+            "global_rank": 21
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What kind of storms does Wyoming have?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+kind+of+storms+does+Wyoming+have%3F&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQzmd6BAghEAY",
+            "answer_source": "Why Is SE Wyoming Seeing So Much Severe Weather This Year?",
+            "answer_link": "https://kgab.com/why-is-se-wyoming-seeing-so-much-severe-weather-this-year/",
+            "answer_display_link": "https://kgab.com \u203a why-is-se-wyoming-seeing-so-much-s...https://kgab.com \u203a why-is-se-wyoming-seeing-so-much-s...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCEQBQ\" data-ved=\"2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQu04oAHoECCEQBQ\"><div id=\"AZrBZIbYHZCmkdUPxbejyA0__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Wyoming residents are no strangers to severe spring and summer weather. <b>Tornadoes, damaging winds, large hail, flash floods</b>, we see them all on a fairly regular basis. Certainly, a twister or two or a hailstorm that dents some cars isn't something that raises too many eyebrows in the Cowboy State.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 30, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Wyoming residents are no strangers to severe spring and summer weather. Tornadoes, damaging winds, large hail, flash floods, we see them all on a fairly regular basis. Certainly, a twister or two or a hailstorm that dents some cars isn't something that raises too many eyebrows in the Cowboy State.Jun 30, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Why is it raining so much in Wyoming?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Why+is+it+raining+so+much+in+Wyoming%3F&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQzmd6BAgaEAY",
+            "answer_source": "Wyoming above 30-year average rainfall for June - The Sheridan Press",
+            "answer_link": "https://www.thesheridanpress.com/news/local/wyoming-above-30-year-average-rainfall-for-june/article_3db27f56-0c5c-11ee-902b-3f46eed7ef80.html",
+            "answer_display_link": "https://www.thesheridanpress.com \u203a news \u203a local \u203a article...https://www.thesheridanpress.com \u203a news \u203a local \u203a article...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQu04oAHoECBoQBQ\"><div id=\"AZrBZIbYHZCmkdUPxbejyA0__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">\u201cUsually, we have Gulf of Mexico moisture come up here and it stays for a day or two. Then it gets pushed out by westerly winds. But what we've had this spring and early summer is these <b>south and southeast winds pulling that moisture in the air, allowing for heavier, slower-moving thunderstorms</b>,\u201d Chambers explained.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 17, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "\u201cUsually, we have Gulf of Mexico moisture come up here and it stays for a day or two. Then it gets pushed out by westerly winds. But what we've had this spring and early summer is these south and southeast winds pulling that moisture in the air, allowing for heavier, slower-moving thunderstorms,\u201d Chambers explained.Jun 17, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What part of Wyoming has tornadoes?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+part+of+Wyoming+has+tornadoes%3F&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQzmd6BAgiEAY",
+            "answer_source": "Cheyenne NWS: Greatest Tornado Risk Area Includes Cheyenne - KGAB",
+            "answer_link": "https://kgab.com/cheyenne-nws-greatest-tornado-risk-area-includes-cheyenne/",
+            "answer_display_link": "https://kgab.com \u203a cheyenne-nws-greatest-tornado-risk-a...https://kgab.com \u203a cheyenne-nws-greatest-tornado-risk-a...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQu04oAHoECCIQBQ\"><div id=\"AZrBZIbYHZCmkdUPxbejyA0__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The greatest tornado risk will be maximized over far <b>southeast Wyoming from Wheatland to Cheyenne, eastward toward Pine Bluffs and Torrington</b>; however, isolated tornadoes will be possible for all areas highlighted.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 21, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The greatest tornado risk will be maximized over far southeast Wyoming from Wheatland to Cheyenne, eastward toward Pine Bluffs and Torrington; however, isolated tornadoes will be possible for all areas highlighted.Jun 21, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "How much snow has Casper gotten 2023?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=How+much+snow+has+Casper+gotten+2023%3F&sa=X&ved=2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQzmd6BAgfEAY",
+            "answer_source": "April 3-5, 2023 Snowstorm - National Weather Service",
+            "answer_link": "https://www.weather.gov/riw/April3-52023Snowstorm",
+            "answer_display_link": "https://www.weather.gov \u203a riw \u203a April3-52023Snowstormhttps://www.weather.gov \u203a riw \u203a April3-52023Snowstorm",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB8QBQ\" data-ved=\"2ahUKEwjG3MSBsq2AAxUQU6QEHcXbCNkQu04oAHoECB8QBQ\"><div id=\"AZrBZIbYHZCmkdUPxbejyA0__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Snowfall Totals | Reporting Snowfall<br><br> The combination of significant to record snowfall and strong winds led to blizzard conditions across eastern Sweetwater County, Natrona County, and Johnson County. The official snowfall total for Casper was <b>37.4\"</b> and is now the all-time record snowfall for one single event.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Snowfall Totals | Reporting Snowfall The combination of significant to record snowfall and strong winds led to blizzard conditions across eastern Sweetwater County, Natrona County, and Johnson County. The official snowfall total for Casper was 37.4\" and is now the all-time record snowfall for one single event."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

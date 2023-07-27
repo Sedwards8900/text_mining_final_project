@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 146000000,
+        "search_time": 0.49,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "California storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:21:01.701Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=California+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_xj85jhbhftp"
+    },
+    "organic": [
+        {
+            "link": "https://www.bloomberg.com/news/articles/2023-03-23/california-storms-state-faces-billions-in-damage-to-crops-homes-roads",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a califor...",
+            "title": "California Storms: State Faces Billions in Damage to Crops ...",
+            "description": "Battered California Faces Billions in Storm Damage to Crops, Homes and Roads ... Gift this article. Flooding in the Central Valley&nbsp;near ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/03/21/california-storm-flooding-avalanches-wind/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/03/21 \u203a calif...",
+            "title": "More than 200000 without power as deadly storm slams ...",
+            "description": "Gift Article. Share. An intense and deadly winter storm is barreling into California, unleashing damaging winds, heavy rain and flooding, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/01/11/california-storms-live-updates-damage-death-toll/11030769002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/01/11 \u203a cal...",
+            "title": "more flooding possible: California storm updates",
+            "description": "\"The atmospheric river has refocused over northern and central California,'' the National Weather Service said. \"Heavy rain on saturated soils ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-64959807",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-64959807",
+            "title": "California battles heavy floods, high winds and rain",
+            "description": "At least two people have died after California was hit with another storm that brought high force winds, heavy rain, and more flooding.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.factcheck.org/2023/01/its-too-soon-to-attribute-the-california-storms-to-climate-change-experts-say/",
+            "display_link": "https://www.factcheck.org \u203a 2023/01 \u203a its-too-soon-to...",
+            "title": "It's Too Soon to Attribute the California Storms to Climate ...",
+            "description": "The relentless storms that hit California from Dec. 27 to Jan. 16 caused extreme flooding and extensive damage in most of the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://weather.com/forecast/regional/news/2023-03-07-california-atmospheric-river-flood-threat",
+            "display_link": "https://weather.com \u203a forecast \u203a regional \u203a news \u203a 2023-...",
+            "title": "Atmospheric River-Fed Storm Pummels California",
+            "description": "Here's the latest forecast for a storm impacting California through Friday night. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/article/forecast/regional/news/2023-03-16-california-forecast-rainfall-snow-next-wet-pattern",
+            "display_link": "https://www.wunderground.com \u203a regional \u203a news \u203a 2...",
+            "title": "California Storm Brought Damaging Winds, Flooding & ...",
+            "description": "A strong storm system pushed into California with damaging winds, soaking rain and more Sierra snow early this week. This storm rapidly intensified and s\u200bea ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://calmatters.org/environment/2023/03/california-storm-reservoirs-flooding/",
+            "display_link": "https://calmatters.org \u203a environment \u203a 2023/03 \u203a calif...",
+            "title": "California storm paradox: Too much water, too soon",
+            "description": "Loading your audio article. In summary. As storms melt snowpack, managers released water to prevent reservoirs from overflowing and flooding ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.usnews.com/news/top-news/articles/2023-01-08/storm-in-california-leaves-over-330-000-without-power-more-rough-weather-ahead",
+            "display_link": "https://www.usnews.com \u203a News \u203a Top News",
+            "title": "California Braces for 'Parade of Cyclones' After Storms Kill 12",
+            "description": "SACRAMENTO, Calif. (Reuters) -California on Sunday braced for more severe weather after a week of torrential downpours and damaging winds killed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.scientificamerican.com/article/megastorms-could-down-massive-portions-of-california/",
+            "display_link": "https://www.scientificamerican.com \u203a article \u203a megasto...",
+            "title": "Megastorms Could Drown Massive Portions of California",
+            "description": "Such floods were most likely caused by atmospheric rivers: narrow ... the start of this article: a megastorm that rivaled the 1861\u201362 storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2013",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

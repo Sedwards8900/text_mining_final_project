@@ -1,0 +1,168 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 17100000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Hampshire storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:38:47.437Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Hampshire+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_f1hdj6bm2oo"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/new-hampshire-disaster-declaration-storm-december-4e64b6faea89d4b157c0e08573fab10e",
+            "display_link": "https://apnews.com \u203a article \u203a new-hampshire-disaster-...",
+            "title": "NH gets disaster declaration following December storm",
+            "description": "CONCORD, N.H. (AP) \u2014 President Joe Biden approved a federal disaster declaration for New Hampshire following damage caused by a severe storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.unh.edu/upd/about/office-emergency-management/severe-winter-weather-preparedness",
+            "display_link": "https://www.unh.edu \u203a office-emergency-management",
+            "title": "Severe Winter Weather Preparedness | Police Department",
+            "description": "Storm effects, in New Hampshire, include large snow accumulation, extremely cold temperatures, heavy, wet snow or icing on trees and power lines, closed ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://hollisbrooklinenewsonline.com/recordbreaking-storm-hits-new-hampshire-but-snow-days-no-longer-a-given-p1189-187.htm",
+            "display_link": "https://hollisbrooklinenewsonline.com \u203a recordbreakin...",
+            "title": "'Record-Breaking' Storm Hits New Hampshire, But Snow ...",
+            "description": "That storm, however, could be more rain than snow, Tubbs said. Original article is here.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.newscentermaine.com/article/news/regional/new-hampshire/major-damage-reported-in-new-hampshire-as-severe-storms-move-through-weather/97-5e1e5afd-5852-4c07-a369-32009de6b62e",
+            "display_link": "https://www.newscentermaine.com \u203a new-hampshire",
+            "title": "Major damage reported in NH as severe storms move through",
+            "description": "HOLLIS, N.H. \u2014 A fast-moving storm moved through Hollis, New Hampshire, around 2:30 p.m. on Friday, causing extensive damage across town, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://news.rochesternh.gov/storm-knocks-out-power-to-thousands-in-new-hampshire/",
+            "display_link": "https://news.rochesternh.gov \u203a State of NH",
+            "title": "Storm knocks out power to thousands in New Hampshire",
+            "description": "As of 8 am, more than 22,000 customers are without power across New Hampshire as a winter storm brings heavy snow and rain to the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://whdh.com/news/strong-storms-wreak-havoc-on-new-hampshire/",
+            "display_link": "https://whdh.com \u203a news \u203a strong-storms-wreak-havoc...",
+            "title": "Strong storms wreak havoc on New Hampshire - Boston",
+            "description": "MANCHESTER, N.H. (WHDH) - A severe series of storms that pushed across southern New Hampshire Friday evening prompted multiple tornado ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 3, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cbsnews.com/boston/news/severe-storms-pass-through-massachusetts-new-hampshire-sending-trees-and-wires-into-roadways/",
+            "display_link": "https://www.cbsnews.com \u203a CBS Boston \u203a Local News",
+            "title": "Man nearly crushed by trees as strong storms move ...",
+            "description": "BOSTON -- Some severe thunderstorms moved across Massachusetts and New Hampshire on Friday afternoon. In Hollis, New Hampshire a storm sent ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/01/20/winter-weather-nh-maine-snow-storm/11092238002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/01/20",
+            "title": "Winter weather: NH, Maine see snow, slick roads in 2023 ...",
+            "description": "A winter storm that has crossed the country from Colorado reached New England and blanketed parts of New Hampshire and southern Maine with ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=Vr9VGuOOFw0",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Video: Strong storms expected in New Hampshire on Friday",
+            "description": "Kevin Skarupa has the latest forecast update.Subscribe to WMUR on YouTube now for more: http://bit.ly/1lOjX9CGet more Manchester news: ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "WMUR-TV",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Aug 26, 2022",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "2:35",
+            "duration_sec": 155,
+            "author": "WMUR-TV",
+            "date": "Aug 26, 2022",
+            "source": "YouTube",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.accuweather.com/en/us/manchester/03104/weather-forecast/334459",
+            "display_link": "https://www.accuweather.com \u203a manchester \u203a weather-...",
+            "title": "Manchester, NH Weather Forecast",
+            "description": "Manchester, NH Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

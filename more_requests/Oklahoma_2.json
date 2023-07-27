@@ -1,0 +1,235 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 20100000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oklahoma storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:42:59.646Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oklahoma+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_3pauo4g4vlu"
+    },
+    "organic": [
+        {
+            "link": "https://www.axios.com/2023/04/20/storms-strike-central-us-oklahoma-tornadoes-dead",
+            "display_link": "https://www.axios.com \u203a Science",
+            "title": "Oklahoma tornado kills 3 as storms strike Central U.S.",
+            "description": "The big picture: The National Weather Service issued severe thunderstorm warnings across the region on Wednesday night, along with tornado ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.army.mil/article/168739/weather_101_understanding_oklahomas_severe_storm_tornado_threats",
+            "display_link": "https://www.army.mil \u203a article \u203a weather_101_underst...",
+            "title": "Weather 101: Understanding Oklahoma's severe storm, ...",
+            "description": "Weather 101: Understanding Oklahoma's severe storm, tornado threats ... FORT SILL, Okla., May 26, 2016 -- Editor's note: This is the third in a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 26, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.denverpost.com/2023/04/20/the-damage-is-unbelievable-tornadoes-kill-3-in-oklahoma/",
+            "display_link": "https://www.denverpost.com \u203a 2023/04/20 \u203a the-dama...",
+            "title": "'The damage is unbelievable:' Tornadoes kill 3 in Oklahoma",
+            "description": "Subscribers are entitled to 10 gift sharing articles each month. ... Strong storms, including tornadoes, winds and hail moved through parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.news9.com/story/648dd54fcaafdd0730f83bf5/recap:-severe-storms-tornado-warnings-in-oklahoma",
+            "display_link": "https://www.news9.com \u203a story \u203a recap:-severe-storms...",
+            "title": "Recap: Severe Storms, Tornado Warnings In Oklahoma",
+            "description": "Severe weather was again a possibility across Oklahoma Saturday with ... Always Place a Toilet Paper Roll Under the Toilet Seat at Night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/02/27/tornado-warning-wind-oklahoma-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/02/27 \u203a torn...",
+            "title": "Tornadoes, severe winds hit Oklahoma, Texas, Kansas ...",
+            "description": "Violent windstorm, tornado swarm tear through Oklahoma, Texas Panhandle. A significant tornado touched down next to the National Weather Center ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nssl.noaa.gov/",
+            "display_link": "https://www.nssl.noaa.gov",
+            "title": "NOAA National Severe Storms Laboratory",
+            "description": "The NOAA National Severe Storms Laboratory serves the nation by working to improve the leadtime and accuracy of severe weather warnings and forecasts in ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://timesofindia.indiatimes.com/world/us/tornadoes-strike-texas-oklahoma-more-storms-in-forecast/articleshow/91359307.cms",
+            "display_link": "https://timesofindia.indiatimes.com \u203a ... \u203a US News",
+            "title": "Tornadoes strike Texas, Oklahoma; more storms in forecast",
+            "description": "US News: SEMINOLE: A storm system spawned several tornadoes that whipped through areas of Texas and Oklahoma, causing damage to a school, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://yaleclimateconnections.org/2023/02/tornado-studded-thunderstorms-rake-west-texas-and-oklahoma/",
+            "display_link": "https://yaleclimateconnections.org \u203a 2023/02 \u203a tornad...",
+            "title": "Tornado-studded thunderstorms rake West Texas and ...",
+            "description": "A thunderstorm squall line moving at freight-train speeds ripped through the eastern Texas Panhandle and across Oklahoma on Sunday night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxweather.com/weather-news/tornado-norman-oklahoma-city-gust-114-memphis-texas-severe-thunderstorms-midwest",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a tornad...",
+            "title": "1 dead, 15 hurt as tornadoes tear through Oklahoma City ...",
+            "description": "FOX Weather's Brandy Campbell is in Norman, Oklahoma checking on residents and tornado damage after Sunday's severe weather. \"The windows ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 19
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Deadly Weather Strikes Oklahoma",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 9
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAwEAACAgEDAwEGBQUBAAAAAAAAAQIRAxIhMQRBUWETFCJScYEFMkKR8DNDcqGxI//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQEiIf/aAAwDAQACEQMRAD8A8LFajT4QsvBMYPuEo6UGmTQmimJhEiGxAAmigAzoKNKJoCAKaCgiQHQUAhhQwCikhDLg2xYfaKVOKpd36hLpsyk4+yyWu2lmcZNcOjb3vqPi/wDafxc7m7jM1K6XO1thyV/ixTwTx/1IOO9fFtuOfUZslqeSTUrv73f/AFg8+WUdMp2vDSf85HJ66EKcbjZolQSVxObo45EsuS3IAliKZIQDEMBodCRSANAnGjQTVhWVCo20kuIRkFF6RUAqCiqCihDodDSASRSiVGFs6cXT2rYAgk9iLpl8oiuaXJDRrOPxEMCKJaNCZICBgARSLiiUXEKdDoaRcYgZ6RqFm2gpQ2AyjhTM54tL2OnS0MDi0BpN8kd9iVFsqMlE1hjcnsjbHgcn6HTjxKHHIWMsWCt2b0kUIK85jixARFPcylE0EBjQNGyih6U+wHI0FGuWGlmdBDRaJRSCtImsTGJtCwKRaCMSlHcKdESibKIUBh7NyNceJR5LSKAEgAAAQAB5SkUmZJloI0AlMdgUi0ZpjsCpJSjRzyjpZujaShLCk6sDgRSLliae3AQg5MC8cHJpJWdccagq5YsKWK/oVYU0h0JMYDQyUyrABglYsmTH08HPJKkBpFWhNHPi/EcGWcYxbTfk6WwJoTKbJbCPGRQknXA0mA0UCiwoBoYkUq8oCoq+CiO68CeXHH800gNrBNLhJHO+qxKqlq+nYl9biTdJvcDs1A5UrexzLq405QxZJLzpdGHU9YskFBRaveV9yK9NPZPsycWaGWTjGVtHke3vHGFt1xZ0dI1i6XJnc0pWoKN7u+4SvU2W9k4s0Z3p5XJ4mTqJyk2pvfyyIZ5wVJsFdWXrMj6tzjNqHFD/ABHqo9RpUbpb/U4HbHKcp1qk3SpWVDhk0STS3R35vxFZcUYx1Rf6jzR3tx9wj0+g6uWrRkladKKO9yPAhnyY/wAkqfmin1ed/wB1hauPUpJWmV73X6f9nIAK6n1knxBfuZz6jJNVdL0MQAfcd1w6JAIqM2pJ8tedxWIAK1DlllLl2QAGvvGXRo9pLRVVexnYgALHYgAdiAAAAAAAAAAAQG1R8Bpj8oqHpCjTH5QqHgKFTAemHyhph4FTCgHUPAVDwKvUACoeCqh4IGBSjj8DrH4IV3yVb8gPTj+UWnH6BcvIW/KAejH6fuGiHlC3/jGnJrZbAJ44dnEFij5Q9Tq9O30DU6vT96AXs0NYU+Gg1Pmtg1egB7Beg/dxal8o9S8IDMpAADEAALuNgAEiYAADQABS4GgAB9hsAAEDStbAACF6AACvt2Hbqr2GABfwNFYe4AB//9k=",
+            "image_alt": "EF3 tornado in Oklahoma kills three people",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAwEAACAgEDAwEGBQUBAAAAAAAAAQIRAxIhMQRBUWETFCJScYEFMkKR8DNDcqGxI//EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQEiIf/aAAwDAQACEQMRAD8A8LFajT4QsvBMYPuEo6UGmTQmimJhEiGxAAmigAzoKNKJoCAKaCgiQHQUAhhQwCikhDLg2xYfaKVOKpd36hLpsyk4+yyWu2lmcZNcOjb3vqPi/wDafxc7m7jM1K6XO1thyV/ixTwTx/1IOO9fFtuOfUZslqeSTUrv73f/AFg8+WUdMp2vDSf85HJ66EKcbjZolQSVxObo45EsuS3IAliKZIQDEMBodCRSANAnGjQTVhWVCo20kuIRkFF6RUAqCiqCihDodDSASRSiVGFs6cXT2rYAgk9iLpl8oiuaXJDRrOPxEMCKJaNCZICBgARSLiiUXEKdDoaRcYgZ6RqFm2gpQ2AyjhTM54tL2OnS0MDi0BpN8kd9iVFsqMlE1hjcnsjbHgcn6HTjxKHHIWMsWCt2b0kUIK85jixARFPcylE0EBjQNGyih6U+wHI0FGuWGlmdBDRaJRSCtImsTGJtCwKRaCMSlHcKdESibKIUBh7NyNceJR5LSKAEgAAAQAB5SkUmZJloI0AlMdgUi0ZpjsCpJSjRzyjpZujaShLCk6sDgRSLliae3AQg5MC8cHJpJWdccagq5YsKWK/oVYU0h0JMYDQyUyrABglYsmTH08HPJKkBpFWhNHPi/EcGWcYxbTfk6WwJoTKbJbCPGRQknXA0mA0UCiwoBoYkUq8oCoq+CiO68CeXHH800gNrBNLhJHO+qxKqlq+nYl9biTdJvcDs1A5UrexzLq405QxZJLzpdGHU9YskFBRaveV9yK9NPZPsycWaGWTjGVtHke3vHGFt1xZ0dI1i6XJnc0pWoKN7u+4SvU2W9k4s0Z3p5XJ4mTqJyk2pvfyyIZ5wVJsFdWXrMj6tzjNqHFD/ABHqo9RpUbpb/U4HbHKcp1qk3SpWVDhk0STS3R35vxFZcUYx1Rf6jzR3tx9wj0+g6uWrRkladKKO9yPAhnyY/wAkqfmin1ed/wB1hauPUpJWmV73X6f9nIAK6n1knxBfuZz6jJNVdL0MQAfcd1w6JAIqM2pJ8tedxWIAK1DlllLl2QAGvvGXRo9pLRVVexnYgALHYgAdiAAAAAAAAAAAQG1R8Bpj8oqHpCjTH5QqHgKFTAemHyhph4FTCgHUPAVDwKvUACoeCqh4IGBSjj8DrH4IV3yVb8gPTj+UWnH6BcvIW/KAejH6fuGiHlC3/jGnJrZbAJ44dnEFij5Q9Tq9O30DU6vT96AXs0NYU+Gg1Pmtg1egB7Beg/dxal8o9S8IDMpAADEAALuNgAEiYAADQABS4GgAB9hsAAEDStbAACF6AACvt2Hbqr2GABfwNFYe4AB//9k=",
+            "rank": 2,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAOhAAAgIBAwIEAwQIBQUAAAAAAQIAEQMEEiExUQUTQXEiYZEUMoGhQkNTYnOCseEzUnLB0QYVI2OS/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAgEQEBAQEAAQUAAwAAAAAAAAAAARECMQMSE0FRITKB/9oADAMBAAIRAxEAPwDoq8MmxMS5x3jEyg9DMNHkRYAuXvBgFueJIGoxbltRyJhYVOoDM2oxggn6RlVjCRKIjSsrbFnCSsoiO2wSsUVKjCIBEtCpLkkil3LDQJckYHhDIYm5dxB4c947G/MyXCD1JOvhzBa5j/tCn1nDGZh0Mvz27yRq49+MMDAGYI225WXU7UpDzMhJJs9Zzxt0vONXB843MQycdYauZYdb11FdZMmQOOJk3dLl7uYI9VELYIGPkWJfmU1SItg7QGx/KOUipQ+IyWMbrtNRZE2ZltohscdZwgiVGlYBHyigyoRgkRCXLuDJECMkq5YBMksSQ1xsegj00eRh90x0YwSVLAhATJwIEsWIVSwIEQYEc9ZYIlBYYx/KDRqOCtXRg38Ugx/KEMcCvcV6RyHiAFhBYER5kGOxDRe8eEFcSTBlwkCxMbNzOrlIDUZzNQoTIQBx6GajNLJlXKuWBcWVQgtxuPGp69I9RjXoly04Tjw7jwJuw6IesbhrilAmgEj0hqUmFVFBY1UuCAx59Jakj1Mg84BLqWIxVuTWF1LAjNkIJDTilE0Y1ilXmOTg1AnDFYlHFR6RgJA4EK7F1M6WfZCCx4QNL2jtFFoB6zQqRdRmNu8E4+uzf+dlHpMuRy4AvpOh4tiVMqOBW8c+8wCp0jF8hVLjk09+ssEAQ1PcyBmPTKDy81JjxqOOZmVlB7x6uvpAnjsIxRxzM4ygdIXmg+sQ1BlA459pV2YgOAOstcguCcYRimokQw0mobcbiTdv/dW/zmUtNOlcFc1/sz/tCkGVwhkGX17QMu1xweYkXJN/2pRj68wsOpXpOdCThpYtdlGVuY4i5zMOUr1M34cgcdZkwW2ATtPMazAGIzUyGjzIl+JYxm04cdVnJCidNM1LtJ695kYLuO3pN8ufRQxqfUxgxg+pliEJplQxdmhjGB+kZBLEkgQdz9YxUX5/WDDWSGqDtf4xwVR6RIJhWYJyb4qDLuSTQh0jtN+v/gvM9x+k65/4L/0mb4MLC3xDDBVqLDVzBZrkVc3xDFQbkuIOXjqZoxZdjcGZUYesJjR4gW7UailHPMzNqHJ+URclxkGiu5BKkEWRCEIMISQhCEoQhJYJRGKIKxggsWBCAlCGJFwrkuDteX5eZqCY2ezR2jp7zM7l8LF3HaY/Fk/hP/SP8K0WqTzm1ioCTtxIApoep6Gb08NyZh52Bk5tSrooHb0E1TJ9uHclzp5vBdU5D40RARyt1R+V+nScphtJDZF4NTN6zysFJcAEftB9JfF/eh8kWDuFcWV/el8BfvCz0PMPkiwy5N0UaH6cnf4ie0vkiw4GXuA6mYs+oXAoZ2YbuAK611nPbWebqAuTI66ZiNw+X4Trztmi/wAOlm8UwYhYDuLqwOIGHxYZ8ox48Bs92nHz5BkegfgH3faHpdSdM5dFtiKvtzc6c8/rG16Iaoit+NlHqaJ/IRv2gFCUB7AsCBOEfF8/ZfxmrRa3VZyWbIiJfN2IXnPLfMvXh2xkUdWH1hDNj/zr9ZyWWjavhb2yf8iJXKGFqpf2KzN9PufTM75rvDUYR+sWENVg/arOECWv4WWu/EHcq9WH/wBTj137bljbTRB5QKPmZePWDSsxLL5bLW2+rX39pvOhw9fK+kXk8N0mT/EwX7kznzMu1v20k+Jjz8GYuUxY73KpJDXwPpN+i/6i8P8AsqquTFgcfoMCRV9/zqZP+2aLYE8n4R6bjLHhulUfAHT/AEt/adfdFea6q+O6LIcl6nB5fRNrHc3HPFcczzD5kLsyYztLGrY3U6DeHYyQfOymul7TX5SHQD9twP8A1/3nPq2jK5wzULCGU2peuEN/NjOg+hP6vIn8yH/aB9iy1W/E38xH9ZjKsrnnK5+8mP8AFblDMyn7qn+UcTcdFlAoY1I/dcRZ0uoHTTZK77hLb+DKzjU5T0UcDtL+05Sa2BfYRj4nHXBlHyq4pnC8EOPdZf4HO1xyPlti1Kv4CY7m/VsGJ2km1rn3mfFplyLbZkQ9jPXz1nLNhEuyQB85p+wki1zYyPeLwoUzLvBAvrNe7RhZFcH853PAUXU6HW6YFDmK78SlVLMRXAJnIdTlzsqUbPBvgwn0OZaoK19j0hev0+GvLoNSmZceXTZkyufhWgN3sInUaTPgYDMmVCeQGH95HyazSNiyHOxKn4DuvafxjW8Q1HiOXH9q1Duy8KdosD8KnSet1mj2xejTzNPqB8W7Gobg8de0WFUD1v2nRyarO2LyzlbyxwBtA4HtEhmP6Y+k8vfqe7rW/rHeBhqzX1P1kkmHc9QCOeYtgLPAkkhESZD0kkmgu5JJJJCBA6DiSSJVuPcwgSa5kkkzWhMOJk+LGh91E5esw4vNYeWlf6RJJLpgk4cdf4adP8onLzgLk4Fe0kkORV4+p940gEdJJJnoGFFZaZQRXQiJTGi5QQig/ISSTXP9Wa1YuV57Rm0UOBJJPPWo/9k=",
+            "image_alt": "How to stay safe during a power outage",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAvEAACAgAFAgQFAwUAAAAAAAAAAQIRAxIhMUETUQQicYEyQmGRoRTB8DRTYoLR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A3odFUFG2CSKChgIQ2IgQAxAOxWIAHYrAQDEIAKAkZQwEBAwAAGOyRga0AwCkIYASyWxyRLABAxAMBAAxAACENggBDAQDAQAOwEADAQwOqhUatCoKzEaOImgIoiUTViasDCiTaUSMoEAU0KgATGSwEUIAhiGIBAMQAAAAWFiAD0RiAikyWUS2BLATCwKJaGDAzqyGjVmcmBLJ3BlJUgJoY2IoAYAwJAACAQAFAAID0QChECbJbKZDATYgACkMlDAUvhMWazehiwFHVmtEQXJbAlklMTAQgsQAACKAAAAEAgj07E2Q2JsiqbM2x2SwEMQwAdkibAUnoZsqTJW4FrYYkMBElgBnQjQlgQBVCoBCKoEiiRF0GUDbr4b+ZC62H/cj9zizw5iwzQ3pGKsd3UhxJfcMy7o4LhfBTUfp6CkduZBd7HClDiNg8vFoUjtbJbOXM1tKRSxJvm/YtI3bEYueJwvwLPi7pafUXCOhMdnOp4vbT6orNiPT9hSN7FZg54kd17UJYk+cqYpHRYjHqSfMRdSXMq9kKRuIhSk/mT+w80tdv57ikUBm8Snuv57i6yfKFI2BGKxbrVJD69cCkLJBRtyUf2FJNJVSpbdzaacItpK61SdUZOU07ql6nJs8qjHNPJT7LVCzQm1UIXtWX8iWadOKk0/8glGcJNTWva2yjVYUUk/JbXKE8JXmm/JfymMX5q1r6McpPVZXS3IOnFj4d4V4LX+15jJ4UnFOUFGU15UqVkYmNJ6tPTTyxpE580883NyYRt+kmk6vtuOXhZxdZntu9DGMqbSlOObR1dj62LhRllnN2qtuwLlgY0d5b85hywceOaOkl6hh+OxHUsyebiSqvwP9ZSbclLTagIccWKd2tVwTkxcRKaSfqgljyk05ytehWH42eHNuGEnGX1KJeDJK5VVXZSwJVaca9RvxTTnF4VXWqk65FDp15pR1etWqASwHfxJruXLCnNRt1T7VZcY+HhFKbbdt3FumYSjKNOCbX1f7AXHBUdajJrlsTlTrLH72Zx6UrzNRkvpuNPztRkvWqpAaJy0pRV9mietlSuvdomWZO21W+vP5Kzpx8+JOOvy0UdHhVWIq7GsfNjNS1Vc+4AYaEUrRpHWU77gAQ44cE41COu+m5y4yUcWSSSXZAAF0smy+FnO0nGF8xACohN9PE15RGDripPaloADFPxH9dJcdi57L1/4AFGeDrOd67Dx1UopbPgACEJcAAERbz7mtvXUAGjCW3uXL4q4rYAAyUnljq/iNLfXkr0oAJg//2Q==",
+            "image_alt": "Oklahoma, Texas hit hard by tornadoes overnight",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAvEAACAgAFAgQFAwUAAAAAAAAAAQIRAxIhMUETUQQicYEyQmGRoRTB8DRTYoLR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A3odFUFG2CSKChgIQ2IgQAxAOxWIAHYrAQDEIAKAkZQwEBAwAAGOyRga0AwCkIYASyWxyRLABAxAMBAAxAACENggBDAQDAQAOwEADAQwOqhUatCoKzEaOImgIoiUTViasDCiTaUSMoEAU0KgATGSwEUIAhiGIBAMQAAAAWFiAD0RiAikyWUS2BLATCwKJaGDAzqyGjVmcmBLJ3BlJUgJoY2IoAYAwJAACAQAFAAID0QChECbJbKZDATYgACkMlDAUvhMWazehiwFHVmtEQXJbAlklMTAQgsQAACKAAAAEAgj07E2Q2JsiqbM2x2SwEMQwAdkibAUnoZsqTJW4FrYYkMBElgBnQjQlgQBVCoBCKoEiiRF0GUDbr4b+ZC62H/cj9zizw5iwzQ3pGKsd3UhxJfcMy7o4LhfBTUfp6CkduZBd7HClDiNg8vFoUjtbJbOXM1tKRSxJvm/YtI3bEYueJwvwLPi7pafUXCOhMdnOp4vbT6orNiPT9hSN7FZg54kd17UJYk+cqYpHRYjHqSfMRdSXMq9kKRuIhSk/mT+w80tdv57ikUBm8Snuv57i6yfKFI2BGKxbrVJD69cCkLJBRtyUf2FJNJVSpbdzaacItpK61SdUZOU07ql6nJs8qjHNPJT7LVCzQm1UIXtWX8iWadOKk0/8glGcJNTWva2yjVYUUk/JbXKE8JXmm/JfymMX5q1r6McpPVZXS3IOnFj4d4V4LX+15jJ4UnFOUFGU15UqVkYmNJ6tPTTyxpE580883NyYRt+kmk6vtuOXhZxdZntu9DGMqbSlOObR1dj62LhRllnN2qtuwLlgY0d5b85hywceOaOkl6hh+OxHUsyebiSqvwP9ZSbclLTagIccWKd2tVwTkxcRKaSfqgljyk05ytehWH42eHNuGEnGX1KJeDJK5VVXZSwJVaca9RvxTTnF4VXWqk65FDp15pR1etWqASwHfxJruXLCnNRt1T7VZcY+HhFKbbdt3FumYSjKNOCbX1f7AXHBUdajJrlsTlTrLH72Zx6UrzNRkvpuNPztRkvWqpAaJy0pRV9mietlSuvdomWZO21W+vP5Kzpx8+JOOvy0UdHhVWIq7GsfNjNS1Vc+4AYaEUrRpHWU77gAQ44cE41COu+m5y4yUcWSSSXZAAF0smy+FnO0nGF8xACohN9PE15RGDripPaloADFPxH9dJcdi57L1/4AFGeDrOd67Dx1UopbPgACEJcAAERbz7mtvXUAGjCW3uXL4q4rYAAyUnljq/iNLfXkr0oAJg//2Q==",
+            "rank": 4,
+            "global_rank": 12
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IcG9XzOL4VmjCsNWLl9c3g-8DrliWYhxvbjajxfCAA&s",
+            "image_alt": "Tornadoes Touch Down in Northeast Texas",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IcG9XzOL4VmjCsNWLl9c3g-8DrliWYhxvbjajxfCAA&s",
+            "rank": 5,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKM2hAHsxVw6cPHXsdgZjaz5YpmSuPIRPZdW1xIGovA&s",
+            "image_alt": "Twisters Return to Kansas, Oklahoma; More Severe Weather on ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIKM2hAHsxVw6cPHXsdgZjaz5YpmSuPIRPZdW1xIGovA&s",
+            "rank": 6,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yR6QfTL7VDMd4bf_WfLmiYxBHqbu0ggP8Wg6gTrrjQ&s",
+            "image_alt": "Tornado touches down in Oklahoma, Thursday storms cause damage",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1yR6QfTL7VDMd4bf_WfLmiYxBHqbu0ggP8Wg6gTrrjQ&s",
+            "rank": 7,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rN2fX3ug2IDl3PjtU-7ThTloj4KtMK4w94FwFBVP2Q&s",
+            "image_alt": "Severe Thunderstorms and Strong Winds Slam Several States",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rN2fX3ug2IDl3PjtU-7ThTloj4KtMK4w94FwFBVP2Q&s",
+            "rank": 8,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKQmAIgbpkcRfgDfP0HNuy1eDz6ufV3Bj8dPGUrgAxA&s",
+            "image_alt": "Oklahoma Mom Fights Through Tornado To Get To Her Kids ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEKQmAIgbpkcRfgDfP0HNuy1eDz6ufV3Bj8dPGUrgAxA&s",
+            "rank": 9,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw4o6HHSR6smisTieWV03rQNWfhoHR3Gdqse9v9_iS6w&s",
+            "image_alt": "3 dead in Oklahoma as tornadoes hit the state",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw4o6HHSR6smisTieWV03rQNWfhoHR3Gdqse9v9_iS6w&s",
+            "rank": 10,
+            "global_rank": 18
+        }
+    ]
+}

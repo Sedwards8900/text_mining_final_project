@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 54400000,
+        "search_time": 0.65,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Montana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:36:19.392Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Montana+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_oafi7ar6pao"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnn.com/2022/12/21/weather/christmas-arctic-winter-storm-wednesday-wxn/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/21 \u203a weather \u203a christma...",
+            "title": "A 'once in a generation' winter storm will impact nearly ...",
+            "description": "Snowfall early Wednesday in Glasgow, Montana. Angel Enriquez. Additionally, strong winds may knock out power lines in the Midwest, especially in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.smithsonianmag.com/smart-news/record-breaking-storm-dumps-4-feet-snow-parts-montana-180973248/",
+            "display_link": "https://www.smithsonianmag.com \u203a smart-news \u203a reco...",
+            "title": "Record-Breaking Storm Dumps Four Feet of Snow on Parts ...",
+            "description": "But in many parts of Montana, people had to skip over the rakes and go straight for their snow shovels. Over the weekend, the northern Rockies ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 1, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsj.com/articles/surprise-september-snow-storm-hits-montana-11569789158",
+            "display_link": "https://www.wsj.com \u203a articles \u203a surprise-september-sno...",
+            "title": "Surprise September Snow Storm Hits Montana",
+            "description": "An early winter storm in Montana brought high winds and 3 feet of snow in some areas, downing trees and power lines and making for ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.montanarightnow.com/great-falls/severe-driving-conditions-reported-blizzard-winter-storm-warnings-in-effect-for-ne-montana/article_7d0a6546-bf87-11ed-be3a-97dd6d738e56.html",
+            "display_link": "https://www.montanarightnow.com \u203a great-falls \u203a article...",
+            "title": "Severe driving conditions reported, blizzard & winter storm ...",
+            "description": "McDonald's: MT-13 @ MM 25.5 \u00b7 Facebook \u00b7 Twitter \u00b7 WhatsApp \u00b7 SMS \u00b7 Email \u00b7 Print \u00b7 Copy article link \u00b7 Save.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/01/28/weekend-forecast-winter-weather/11135353002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/01/28",
+            "title": "Weekend winter weather forecast: Snow, cold from ...",
+            "description": "Some areas are expecting up to two feet of snow, and parts of Montana, North Dakota and Minnesota are under a wind chill advisory this ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2019/09/30/record-september-snowstorm-drops-feet-snow-montana-rockies/",
+            "display_link": "https://www.washingtonpost.com \u203a 2019/09/30 \u203a reco...",
+            "title": "Record September snowstorm drops 4 feet of snow on ...",
+            "description": "Up to four feet of snow fell in a historic September snowstorm, which prompted Montana governor Steve Bullock to declare a winter storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.ktvh.com/weather/montana-spring-storm-produces-heavy-snow-severe-storms",
+            "display_link": "https://www.ktvh.com \u203a weather \u203a montana-spring-sto...",
+            "title": "Montana Spring Storm Produces Heavy Snow & Severe ...",
+            "description": "A WINTER WEATHER ADVISORY has been issued for areas of central and western Montana. This does not include the Helena Valley at this time.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 19, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.montanaangler.com/information/weather",
+            "display_link": "https://www.montanaangler.com \u203a information \u203a weat...",
+            "title": "Montana Weather Information",
+            "description": "Montana weather can be highly variable with a wide range of temperatures and climatic conditions. In general the state has a drier climate and enjoys a lot ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.fox2detroit.com/news/montana-hit-by-unprecedented-september-winter-storm-piling-over-4-feet-of-snow-in-some-areas",
+            "display_link": "https://www.fox2detroit.com \u203a news \u203a montana-hit-by-u...",
+            "title": "Montana hit by 'unprecedented' September winter storm ...",
+            "description": "Montana hit by 'unprecedented' September winter storm, piling over 4 feet of snow in some areas ... Temperatures dipped across the Rocky Mountains ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.krtv.com/news/montana-and-regional-news/winter-storm-causes-school-closures-in-parts-of-montana",
+            "display_link": "https://www.krtv.com \u203a montana-and-regional-news",
+            "title": "Snow storm causes school closures in parts of Montana",
+            "description": "The snow begins to lessen on Wednesday, but a good amount of wrap-around snow could still fall in portions of eastern Montana. TRENDING ARTICLES.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

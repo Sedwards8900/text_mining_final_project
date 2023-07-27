@@ -1,0 +1,171 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 42900000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Ohio storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:42:28.238Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Ohio+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_zcao04el12"
+    },
+    "organic": [
+        {
+            "link": "https://fox8.com/news/how-ohio-emergency-and-roads-officials-are-preparing-for-winter-storm-elliott/",
+            "display_link": "https://fox8.com \u203a news \u203a how-ohio-emergency-and-r...",
+            "title": "Ohio Winter Storm Warning: Preparations for emergency ...",
+            "description": "How Ohio emergency and roads officials are preparing for winter storm ... This is an archived article and the information in the article may ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wlwt.com/article/ohio-governor-state-preparation-winter-storm-warning-weather/42321140",
+            "display_link": "https://www.wlwt.com \u203a article \u203a ohio-governor-state-...",
+            "title": "Ohio officials urge caution, preparation as winter storm nears",
+            "description": "Ohio Gov. Mike DeWine is giving an update on state preparations ahead of the dangerous winter storm making its way toward the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.richlandsource.com/weather/ohio-issues-fifth-and-final-winter-storm-status-update/article_7ce361b2-8558-11ed-bf8b-2339f1759d10.html",
+            "display_link": "https://www.richlandsource.com \u203a weather \u203a article_7ce3...",
+            "title": "Ohio issues fifth and final winter storm status update",
+            "description": "COLUMBUS -- The Ohio Emergency Management Agency continues to monitor for winter weather systems that may impact Ohio and coordinate with ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 26, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://thecourier.com/news/465386/storms-cause-destruction-in-nw-ohio/",
+            "display_link": "https://thecourier.com \u203a news \u203a storms-cause-destructi...",
+            "title": "Storms cause destruction in NW Ohio",
+            "description": "The weather service conducted surveys Friday in Ohio to assess storm damage and confirm tornado reports. As of Friday evening, there were no ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.news5cleveland.com/weather/weather-news/tracking-the-tropics-will-tropical-storm-nicole-impact-northeast-ohio",
+            "display_link": "https://www.news5cleveland.com \u203a weather-news \u203a tra...",
+            "title": "The Remnants of Hurricane Nicole will bring tropical ...",
+            "description": "Tracking the tropics: Tropical Storm Nicole is moving inland. News 5's Katie McGraw discusses potential impacts for Northeast Ohio.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.daytondailynews.com/news/the-most-destructive-storms-ohio-history-here-are-their-stories/1DF4WmGmPMWfnEshl5yZBI/",
+            "display_link": "https://www.daytondailynews.com \u203a news \u203a the-most-...",
+            "title": "5 of the most destructive storms in Ohio history",
+            "description": "More than 1000 tornadoes have touched down in Ohio since 1950, ... An F5 tornado in Xenia, with winds estimated between 261 and 318 mph, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 16, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/6/1520-0493_1931_59_241b_tcosj_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre",
+            "title": "THE CLEVELAND, OHIO, STORM, JUNE 26, 1931 in",
+            "description": "Previous Article \u00b7 Next Article. Editorial Type: Article. Article Type: Research Article. THE CLEVELAND, OHIO, STORM, JUNE 26, 1931. G. HAROLD NOYES.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by GH NOYES",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kulr8.com/news/national/us-severe-storms-hit-northeast-ohio-tornado-warning-issued/video_bd377566-4323-5d81-aa11-d5dae0d47ad6.html",
+            "display_link": "https://www.kulr8.com \u203a news \u203a national \u203a us-severe-stor...",
+            "title": "US: Severe Storms Hit Northeast Ohio, Tornado Warning ...",
+            "description": "Strong storms hit Northeast Ohio on Thursday, July 20. Tornado Warning and Severe Thunderstorm Warning were issued across the are.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://case.edu/ech/articles/b/blizzards",
+            "display_link": "https://case.edu \u203a ech \u203a articles \u203a blizzards",
+            "title": "BLIZZARDS | Encyclopedia of Cleveland History",
+            "description": "In Cleveland, the worst blizzards listed in the National Weather Service ... low pressure from Virginia moved into Ohio, causing a blizzard with high winds ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://ohiomemory.ohiohistory.org/timeline/severeweather.html",
+            "display_link": "https://ohiomemory.ohiohistory.org \u203a timeline \u203a sever...",
+            "title": "Severe Weather in Ohio - Ohio Memory",
+            "description": "Severe Weather in Ohio.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29100000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Idaho storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:26:06.324Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Idaho+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_0rsv7l6a98rc"
+    },
+    "organic": [
+        {
+            "link": "https://www.weather.gov/boi/",
+            "display_link": "https://www.weather.gov \u203a boi",
+            "title": "Boise, ID",
+            "description": "Click a location below for detailed forecast. Last Map Update: Wed, Jul. 26, 2023 at 6:40:05 pm MDT.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Idaho+storm+%22article%22&sa=X&ved=2ahUKEwj8zcjI3a2AAxVvMlkFHVNGAc84DhDm3gJ6BAgYEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.idahomagazine.com/article/storm-on-the-salmon/",
+            "display_link": "https://www.idahomagazine.com \u203a Articles",
+            "title": "Storm on the Salmon",
+            "description": "And Flood on the Snake. By Ray Brooks. After a winter of drought, the Salmon River was running unusually low in late June 1994.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://finance.yahoo.com/news/idaho-agency-asks-residents-consider-000215825.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a idaho-agency-asks...",
+            "title": "Idaho agency asks Boise residents to consider buying ...",
+            "description": "One storm dumped 1.47 inches of rain in parts of downtown Boise and 1.77 in the North End in less than 90 minutes.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://idahonews.com/",
+            "display_link": "https://idahonews.com",
+            "title": "KBOI: Boise News, Weather, Sports, Breaking News",
+            "description": "KBOI-TV CBS 2 covers news, sports, traffic, and weather in the Treasure Valley and Boise, Idaho and nearby communities, including Meridian, Nampa, ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.kpvi.com/news/local_news/severe-weather-strikes-east-idaho/article_7a001ef4-fa06-11ed-9ee5-c799008fe832.html",
+            "display_link": "https://www.kpvi.com \u203a severe-weather-strikes-east-idaho",
+            "title": "Severe weather strikes East Idaho | Local News",
+            "description": "Tuesday was a wild weather day across East Idaho. Thunderstorms produced flash flooding in Idaho Falls, Blackfoot, and Rexburg.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.newsbreak.com/ada-county-id/3051135246253-storm-on-tuesday-likely-cause-of-several-crashes",
+            "display_link": "https://www.newsbreak.com \u203a Boise, ID",
+            "title": "Storm on Tuesday likely cause of several crashes",
+            "description": "BOISE, Idaho (CBS2) \u2014 Ada County Sheriff's Office reports 24 non-injury crashes on...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://liteonline.com/major-winter-storm-approaching-idaho-6-experts-weigh-in-on-snowfall-in-boise/",
+            "display_link": "https://liteonline.com \u203a major-winter-storm-approachi...",
+            "title": "Winter Storm Approaching Idaho; Expert Boise Snowfall ...",
+            "description": "Major Winter Storm Approaching Idaho; 6 Experts Weigh In on Snowfall in ... the harder the winter is what inspired us to write this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.krem.com/article/news/local/idaho/windstorm-north-idaho-residents-weather/293-3215d84e-4691-433d-8910-a0729e2dce2c",
+            "display_link": "https://www.krem.com \u203a article \u203a news \u203a local \u203a winds...",
+            "title": "How Friday's windstorm impacted North Idaho residents",
+            "description": "Related Articles \u00b7 Long lines form into Spokane waste facility as people recover from storm \u00b7 Spokane gets first snowfall of the season, few ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://apnews.com/article/483e857818524900aa5d090ff3823adf",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Much of Idaho facing 'widespread destruction' in storm's ...",
+            "description": "The National Weather Service said the water level of the Portneuf River will begin to recede Monday morning, but flooding is still expected ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 12, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.pressherald.com/2022/12/12/millions-in-central-u-s-brace-for-snow-rain-and-floods/",
+            "display_link": "https://www.pressherald.com \u203a 2022/12/12 \u203a millions-in-...",
+            "title": "Millions in central U.S. brace for snow, rain and floods",
+            "description": "The National Weather Service warned that there would be 'numerous, ... 6, roll the largest snowball at Camel's Back Park in Boise, Idaho, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

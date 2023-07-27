@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 28300000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Louisiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:27.459Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Louisiana+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_yiuyioiqe9q"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/storms/hurricane/news/2020-08-26-hurricane-laura-forecast-rapid-intensification-texas-louisiana",
+            "display_link": "https://www.wunderground.com \u203a hurricane \u203a news",
+            "title": "Hurricane Laura Moving Inland as an Extremely ...",
+            "description": "Tropical storm warnings extend into the rest of the Houston metro area, parts of northeast Texas, northern Louisiana and southern Arkansas. Article image ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2021/aug/29/hurricane-ida-could-be-among-strongest-to-hit-louisiana-since-1850s-governor-warns",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a aug \u203a hurric...",
+            "title": "Hurricane Ida: New Orleans loses power as category 4 ...",
+            "description": "Storm hits land on 16th anniversary of Katrina, with Louisiana governor confident levees will hold. ... This article is more than 1 year old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 28, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-58378788",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-58378788",
+            "title": "Hurricane Ida: One million people in Louisiana without power",
+            "description": "Louisiana is assessing the damage after the storm knocked out power ... Watch: Wind gusts of up to 172mph and heavy rain pummelled Louisiana.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnbc.com/2020/08/28/hurricane-laura-leaves-damage-in-louisiana-weakens-to-tropical-depression.html",
+            "display_link": "https://www.cnbc.com \u203a 2020/08/28 \u203a hurricane-laura-le...",
+            "title": "Hurricane Laura leaves damage in Louisiana, weakens to ...",
+            "description": "Hurricane Laura leaves damage in Louisiana and weakens into tropical depression \u00b7 Hurricane Laura left a path extensive property damage, a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 28, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Katrina",
+            "title": "Hurricane Katrina",
+            "description": "Due to uncertain causes of death with 454 evacuees, an upper-bound of 1,440 is noted in the paper. A follow-up study by the Louisiana Department of Health & ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/fenvs.2019.00068/full",
+            "display_link": "https://www.frontiersin.org \u203a fenvs.2019.00068 \u203a full",
+            "title": "Impact of Hurricane Katrina on the Coastal Systems ...",
+            "description": "This paper discusses community resilience to natural hazards and ... human and natural systems in Louisiana responded to Hurricane Katrina, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by WC Chuang",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2019",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 13",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnn.com/2022/12/14/us/nationwide-massive-storm-tornadoes-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/14 \u203a nationwide-massiv...",
+            "title": "At least 3 dead and multiple injured as tornadoes wreak ...",
+            "description": "At least three people have died and more than a dozen were left injured across Louisiana over the past 24 hours as severe weather moves ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.weather.gov/mob/katrina",
+            "display_link": "https://www.weather.gov \u203a mob \u203a katrina",
+            "title": "Hurricane Katrina - August 2005",
+            "description": "Katrina weakened to a Category 3 before making landfall along the northern Gulf Coast, first in southeast Louisiana (sustained winds: 125mph) and then made ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cbsnews.com/news/huge-storm-system-killer-tornadoes-south-blizzard-like-conditions-great-plains/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Huge storm system brings killer tornadoes to South ...",
+            "description": "A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, spinning up tornadoes that battered the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornado-touches-louisiana-storm-watches-issued-south/story?id=96987452",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Tornado touches down in Louisiana, storm watches issued ...",
+            "description": "A tornado was spotted just outside of Tangipahoa, Louisiana, Wednesday evening, according to the National Weather Service New Orleans.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

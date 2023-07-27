@@ -1,0 +1,190 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 153000000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Pennsylvania storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:58.244Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Pennsylvania+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_k13uswltcq"
+    },
+    "organic": [
+        {
+            "link": "https://patch.com/pennsylvania/norristown/powerful-storm-hit-eastern-pa-christmas-new-details",
+            "display_link": "https://patch.com \u203a pennsylvania \u203a norristown \u203a powe...",
+            "title": "'Powerful' Storm To Hit Eastern PA Before Christmas",
+            "description": "'Powerful' Storm To Hit Eastern PA Before Christmas: New Details - Norristown, PA - Another strong winter storm front is on its way, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://patch.com/pennsylvania/across-pa/pa-weather-severe-thunderstorms-way-forecasters-say",
+                    "display_link": "https://patch.com \u203a pennsylvania \u203a across-pa \u203a pa-wea...",
+                    "title": "PA Weather: Severe Thunderstorms On The Way, ...",
+                    "description": "PA Weather: Severe Thunderstorms On The Way, Forecasters Say - Across Pennsylvania, PA - Minor flooding and fierce storms are possible ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 15, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nbcphiladelphia.com/weather/stories-weather/storm-snow-wintry-mix-rain-philadelphia-region/3449694/",
+            "display_link": "https://www.nbcphiladelphia.com \u203a stories-weather \u203a stor...",
+            "title": "Storm Brings Snow, Wintry Mix, Heavy Rain to Philly Region",
+            "description": "But we're getting off easy compared to those other places. The timing was everything as the large storm system arrived in Pennsylvania, New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.fox43.com/article/news/local/central-pa-cleans-up-after-severe-weather-and-braces-for-more-storms-this-weekend-york-county-lancaster-county/521-69d89a4e-87b8-490c-8a0c-8064d2e36c3d",
+            "display_link": "https://www.fox43.com \u203a article \u203a news \u203a local \u203a centr...",
+            "title": "Central Pa. cleans up after severe weather, braces for more",
+            "description": "\u201cEverything could've gone a lot worse, but it didn't so I'm happy for that,\" said Hertzberger. Related Articles. Yes, there is a difference ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.post-gazette.com/news/weather-news/2023/04/01/pittsburgh-weather-high-winds-thunderstorm-power-outages/stories/202304010081",
+            "display_link": "https://www.post-gazette.com \u203a 2023/04/01 \u203a stories",
+            "title": "Wind storm, thunderstorm batter southwest Pennsylvania",
+            "description": "Thank you for reading the Post-Gazette! This article requires a subscription. Get 8 weeks for only 99\u00a2! ... Click here for terms and conditions.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.statecollege.com/articles/local-news/national-weather-service-confirms-centre-county-tornado/",
+            "display_link": "https://www.statecollege.com \u203a News \u203a Local News",
+            "title": "National Weather Service Confirms Centre County Tornado",
+            "description": "NWS confirmed six tornadoes in central and eastern Pennsylvania on Sunday, including two in nearby Union County. StateCollege.com Breaking News.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "site_link",
+                    "text": "Friday in the \u2018Fonte in ...",
+                    "details": "Fri, Jul 28",
+                    "link": "https://www.statecollege.com/event/friday-in-the-fonte-in-downtown-bellefonte/2023-07-28/",
+                    "rank": 2
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.pahomepage.com/top-stories/winter-storm-to-impact-northeastern-and-central-pennsylvania/",
+            "display_link": "https://www.pahomepage.com \u203a top-stories \u203a winter-st...",
+            "title": "Winter Storm Hits Pennsylvania",
+            "description": "EYEWITNESS WEATHER (WBRE/WYOU-TV) \u2014 The worst of our winter storm may be winding down, but we're not completely done with the snow just yet!",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/pennsylvania/winter-storms-in-pa/",
+            "display_link": "https://www.onlyinyourstate.com \u203a winter-storms-in-pa",
+            "title": "These Are The Worst Snowstorms In Pennsylvania History",
+            "description": "Do you remember these epic winter storms in PA? ... people flock to the stores to purchase their obligatory bread, milk, and toilet paper.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnn.com/2023/07/16/weather/northeast-storms-sunday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a northeast-storms-sunday",
+            "title": "5 people were killed by raging floodwaters in southeastern ...",
+            "description": "Authorities in southeastern Pennsylvania are searching for a ... who vanished in raging floodwaters as a violent storm slammed the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.abc27.com/pennsylvania/first-pennsylvania-tornado-of-2023-hits-bucks-county/",
+            "display_link": "https://www.abc27.com \u203a pennsylvania \u203a first-pennsyl...",
+            "title": "First Pennsylvania tornado of 2023 hits Bucks County",
+            "description": "(WHTM) \u2014 A tornado has been confirmed to have touched down in eastern Bucks County on Saturday, April 1. According to the National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

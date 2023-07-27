@@ -1,0 +1,168 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 15400000,
+        "search_time": 0.53,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:39.923Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Dakota+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_lygawr0hn9"
+    },
+    "organic": [
+        {
+            "link": "https://www.foxweather.com/weather-news/north-dakota-winter-storm-near-white-out-conditions",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a north-...",
+            "title": "Near white-out conditions reported in North Dakota during ...",
+            "description": "The northern Plains' first major winter storm of the season started Wednesday night with freezing rain, or rain that freezes on contact. It ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2019/10/11/us/north-dakota-weather-blizzard.html",
+            "display_link": "https://www.nytimes.com \u203a north-dakota-weather-blizzard",
+            "title": "Storm Bringing 'Historic' Snowfall to Northern Plains",
+            "description": "Blizzard conditions closed roads and schools in parts of North Dakota on Friday, as temperatures plummeted across the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 11, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-10715789/Montana-North-Dakota-hit-one-century-blizzard.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-10715789",
+            "title": "Montana and North Dakota are hit by 'one-in-a-century' ...",
+            "description": "Wicked weather has struck across the U.S. leaving behind mountains of snow and freezing temperatures. Areas saw tornadoes, thunderstorms, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://globalnews.ca/tag/north-dakota-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a north-dakota-storm",
+            "title": "North Dakota storm | News, Videos & Articles",
+            "description": "North Dakota storm videos and latest news articles; GlobalNews.ca your source for the latest news on North Dakota storm .",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.agweek.com/news/north-dakota-remembers-a-perfect-storm",
+            "display_link": "https://www.agweek.com \u203a news \u203a north-dakota-reme...",
+            "title": "North Dakota remembers a 'perfect' storm",
+            "description": "JAMESTOWN, N.D. -- Fifty one years ago this week, most of North Dakota took ... An Associated Press article on Saturday, March 5, 1966, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=ukMg-2cLrQ4",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Storm brings heavy snow, winds to North Dakota - YouTube",
+            "description": "Nearly a foot of snow is being dropped in parts of North Dakota.People in the Fargo-Moorhead area are digging out after nearly a fit of snow ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "WKYC Channel 3",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Mar 1, 2023",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "duration": "1:10",
+            "duration_sec": 70,
+            "author": "WKYC Channel 3",
+            "date": "Mar 1, 2023",
+            "source": "YouTube",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.ndstudies.gov/gr8/content/unit-iii-waves-development-1861-1920/lesson-1-changing-landscapes/topic-5-blizzards-floods-and-drought/section-1-blizzards",
+            "display_link": "https://www.ndstudies.gov \u203a content \u203a section-1-blizza...",
+            "title": "Section 1: Blizzards | 8th Grade North Dakota Studies",
+            "description": "This article is posted courtesy of the Theodore Roosevelt Center at Dickinson State University. The Story of Hazel Miner. On March 15, 1920, a blizzard blew ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.thedickinsonpress.com/news/blizzard-conditions-projected-as-southwest-north-dakota-enters-winter-storm-watch",
+            "display_link": "https://www.thedickinsonpress.com \u203a news \u203a blizzard-...",
+            "title": "Blizzard conditions projected as southwest North Dakota ...",
+            "description": "DICKINSON \u2014 Nearly all of southwest North Dakota is under a winter storm watch ... As a result of NWS weather projections, Dickinson State ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://ndresponse.gov/severe-winter-weather",
+            "display_link": "https://ndresponse.gov \u203a severe-winter-weather",
+            "title": "Severe Winter Weather",
+            "description": "That could mean snow or subfreezing temperatures, as well as strong winds or even ice or heavy rain storms. One of the primary concerns is the winter weather's ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://news.sky.com/story/snow-in-the-us-winter-storm-hits-states-from-arizona-to-north-dakota-12767068",
+            "display_link": "https://news.sky.com \u203a story \u203a snow-in-the-us-winter-s...",
+            "title": "Snow in the US: Winter storm hits states from Arizona to ...",
+            "description": "As much as 2ft (60cm) of snow and gusty winds of 60mph are forecast. A winter storm warning is also in place in North Dakota.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

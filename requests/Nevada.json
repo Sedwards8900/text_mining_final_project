@@ -1,0 +1,261 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 37600000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Nevada storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-26T22:09:49.632Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Nevada+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_aptrfxc5cyg"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/california-nevada-storm-snow-ee6a838f0e498ece221d90b5d9bafc07",
+            "display_link": "https://apnews.com \u203a article \u203a california-nevada-storm...",
+            "title": "Late-season storm brings more snow to the Sierra Nevada",
+            "description": "TRUCKEE, Calif. (AP) \u2014 The winter that wouldn't quit showed up again in the Sierra Nevada region of California and Nevada on Tuesday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/nevada-storms-biden-fema-aid-8054b92ad14207afd9c2b690fb9a905e",
+                    "display_link": "https://apnews.com \u203a article \u203a nevada-storms-biden-fe...",
+                    "title": "Nevada puts winter storm costs at $10.6M; FEMA help ...",
+                    "description": "LAS VEGAS (AP) \u2014 State emergency managers are projecting clean-up and repair costs of at least $10.6 million following severe winter storms ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 29, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.foxnews.com/us/nevada-winter-storm-repair-costs-estimated-10-6-million",
+            "display_link": "https://www.foxnews.com \u203a nevada-winter-storm-repa...",
+            "title": "Nevada winter storm repair costs estimated at $10.6 million",
+            "description": "Repairing the damage caused by a winter storm that hit rural parts of Nevada in March may cost at least $10.6 million.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://thenevadaindependent.com/article/expected-rain-arrived-as-snow-and-damaged-the-grid-now-more-storms-are-on-the-way",
+            "display_link": "https://thenevadaindependent.com \u203a Articles",
+            "title": "Expected rain arrived as snow and damaged the grid. Now, ...",
+            "description": "The storm that hit western Nevada over New Year's Eve was the first of several that are forecast to blanket the West with precipitation during ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cbsnews.com/sanfrancisco/news/mountain-roads-shut-down-as-latest-winter-storm-hits-sierra/",
+            "display_link": "https://www.cbsnews.com \u203a ... \u203a Weather",
+            "title": "Mountain roads shut down as latest winter storm hits Sierra",
+            "description": "... Northern California as yet another cold storm moved through the state on Sunday, dumping snow in the Sierra Nevada and rain in valleys.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.sfchronicle.com/weather/article/sierra-nevada-snow-blizzard-17806832.php",
+            "display_link": "https://www.sfchronicle.com \u203a Weather",
+            "title": "Blizzard to hit Sierra Nevada as winter storms sweep over ...",
+            "description": "The Sierra Nevada is hunkering down as snow again pelts the region, bracing for a dangerous blizzard that weather officials expect to close ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.abc10.com/article/news/local/grass-valley-nevada-city/nevada-city-potential-flooding/103-c2f82ba0-c9d7-45bd-b16c-9b8f790e86da",
+            "display_link": "https://www.abc10.com \u203a grass-valley-nevada-city \u203a n...",
+            "title": "Flooding concerns swell in Nevada City",
+            "description": "\u2014 Nevada City residents are anxiously awaiting the brunt of the upcoming Northern California storm expected to dump rain over the feet of snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.abc10.com/article/weather/severe-weather/nevada-city-storm/103-1aae8f9b-2ee9-481f-bb60-f06e45cb288e",
+                    "display_link": "https://www.abc10.com \u203a weather \u203a nevada-city-storm",
+                    "title": "Some call for El Dorado County state of emergency",
+                    "description": "Nevada City struggles with storm aftermath as some call for emergency declaration in El Dorado Co. \"Mom was definitely scared.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 5, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 9
+        },
+        {
+            "link": "https://extension.unr.edu/publication.aspx?PubID=2701",
+            "display_link": "https://extension.unr.edu \u203a publication",
+            "title": "Nevada's Weather and Climate",
+            "description": "Much of Nevada gets winter rain or snow when large storms that form over the Pacific head eastward. Weather and climate are influenced and defined by a number ...",
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://fox40.com/weather/sacramento-area-and-sierra-nevada-storm-updates-newsom-expands-state-of-emergency/",
+            "display_link": "https://fox40.com \u203a weather \u203a sacramento-area-and-sie...",
+            "title": "Sacramento, Sierra Nevada atmospheric river storm updates",
+            "description": "Sacramento area and Sierra Nevada storm updates: Chain controls on all major mountain highways ... This article will no longer be updated.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+in+Nevada&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgqEAE",
+            "text": "snow storm in nevada",
+            "rank": 1,
+            "global_rank": 13
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Sierra+Nevada+snow+storm&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgrEAE",
+            "text": "sierra nevada snow storm",
+            "rank": 2,
+            "global_rank": 14
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Hurricane&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgsEAE",
+            "text": "hurricane",
+            "rank": 3,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Nevada+snow+storm+may+2023&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgpEAE",
+            "text": "nevada snow storm may 2023",
+            "rank": 4,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Sierra+snowmelt+2023&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgoEAE",
+            "text": "sierra snowmelt 2023",
+            "rank": 5,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+snowpack+satellite&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQ1QJ6BAgnEAE",
+            "text": "california snowpack satellite",
+            "rank": 6,
+            "global_rank": 18
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What storms does Nevada have?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+storms+does+Nevada+have%3F&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQzmd6BAgVEAY",
+            "answer_source": "Severe Storms - Washoe County",
+            "answer_link": "https://www.washoecounty.gov/em/Hazards/Severe%20storms.php#:~:text=There%20are%20three%20types%20of,amounts%20of%20snow%20and%20ice.",
+            "answer_display_link": "https://www.washoecounty.gov \u203a Hazards \u203a Severe stormshttps://www.washoecounty.gov \u203a Hazards \u203a Severe storms",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBUQBQ\" data-ved=\"2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQu04oAHoECBUQBQ\"><div id=\"rJnBZJ2BCaauiLMP54-FyAc__16\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">There are three types of severe storms in Northern Nevada: <b>winter storms, windstorms and extreme heat</b>. Winter storms can bring heavy rain or snow, high winds, extreme cold, and ice storms. Winter storms plunge southward from arctic regions and drop heavy amounts of snow and ice.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There are three types of severe storms in Northern Nevada: winter storms, windstorms and extreme heat. Winter storms can bring heavy rain or snow, high winds, extreme cold, and ice storms. Winter storms plunge southward from arctic regions and drop heavy amounts of snow and ice."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Does Nevada get thunderstorms?",
+            "question_link": "https://www.google.com/search?hl=en&q=Does+Nevada+get+thunderstorms%3F&sa=X&ved=2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQzmd6BAgUEAY",
+            "answer_source": "WRCC: Nevada Climate",
+            "answer_link": "https://wrcc.dri.edu/Climate/narrative_nv.php#:~:text=Thunderstorms%20in%20most%20areas%20are,months%20from%20April%20through%20September.",
+            "answer_display_link": "https://wrcc.dri.edu \u203a Climate \u203a narrative_nvhttps://wrcc.dri.edu \u203a Climate \u203a narrative_nv",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBQQBQ\" data-ved=\"2ahUKEwidh-zYsa2AAxUmF2IAHedHAXkQu04oAHoECBQQBQ\"><div id=\"rJnBZJ2BCaauiLMP54-FyAc__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Thunderstorms in most areas are infrequent</b>, the average annual number of days being 13 at Reno, 15 at Las Vegas and Winnemucca, 21 at Elko, and 33 at Ely. Tornadoes are rare, but have occurred in all months from April through September.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Thunderstorms in most areas are infrequent, the average annual number of days being 13 at Reno, 15 at Las Vegas and Winnemucca, 21 at Elko, and 33 at Ely. Tornadoes are rare, but have occurred in all months from April through September."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        }
+    ]
+}

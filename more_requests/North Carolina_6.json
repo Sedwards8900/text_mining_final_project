@@ -1,0 +1,151 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 37200000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:15.832Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_bykjwac4j5q"
+    },
+    "organic": [
+        {
+            "link": "https://spectrumlocalnews.com/nc/charlotte/news/2023/07/19/photos--these-images-show-n-c--tornado-damage",
+            "display_link": "https://spectrumlocalnews.com \u203a news \u203a 2023/07/19",
+            "title": "Photos: These images show N.C. tornado damage",
+            "description": "According to the NWS storm survey, 16 people were hurt. Related article: EF3 tornado hits eastern N.C., leaving 16 injured and damaging ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://spectrumlocalnews.com/nc/charlotte/weather/2023/01/06/north-carolina-s-weather-in-review-for-2022",
+                    "display_link": "https://spectrumlocalnews.com \u203a weather \u203a 2023/01/06",
+                    "title": "North Carolina's weather in review for 2022",
+                    "description": "Severe weather and an active hurricane season for North Carolina made weather in 2022 anything but mediocre.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jan 7, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://abcnews.go.com/US/ef3-tornado-north-carolina-extreme-weather-nationwide/story?id=101510966",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "EF3 tornado rips through North Carolina amid extreme ...",
+            "description": "A powerful tornado ripped through central North Carolina for more than a dozen miles on Wednesday, destroying homes and injuring residents, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.charlotteobserver.com/news/weather-news/",
+            "display_link": "https://www.charlotteobserver.com \u203a news \u203a weather-news",
+            "title": "Charlotte North Carolina Weather News & Reports",
+            "description": "Follow the latest Charlotte, NC and the Piedmont North Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://myfox8.com/weather/blog/what-you-should-know-about-tornadoes-and-storms-in-north-carolina/",
+            "display_link": "https://myfox8.com \u203a weather \u203a blog \u203a what-you-shou...",
+            "title": "What you should know about tornadoes and storms in ...",
+            "description": "NOTE: This article includes information and text from the National ... North Carolina experiences about 40 to 50 thunderstorm days per year.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/maria-pulling-away-north-carolina-lee-major-hurricane",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a maria-pullin...",
+            "title": "Maria Pulling Away From North Carolina; Lee a Major ...",
+            "description": "Tropical Storm Warnings and Storm Surge Warnings continued for much of North Carolina's Outer Banks on Wednesday as Hurricane Maria began to slowly pull ...",
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://weather.com/news/weather/news/2023-07-19-north-carolina-tornado-dortches",
+            "display_link": "https://weather.com \u203a news \u203a weather \u203a news \u203a 2023-07-...",
+            "title": "North Carolina Pfizer Factory Heavily Damaged By Tornado",
+            "description": "The twister was the first EF-3 tornado ever observed in central North Carolina in the month of July. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Florence",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Florence",
+            "title": "Hurricane Florence",
+            "description": "The hurricane's sluggish movement resulted in widespread, catastrophic rainfall throughout North and South Carolina. After making landfall, the tropical cyclone ...",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.13newsnow.com/article/traffic/storm-could-cause-driving-challenges-on-outer-banks-this-weekend/291-728edd9a-62f9-4b4f-bcc9-6da0b8a260b7",
+            "display_link": "https://www.13newsnow.com \u203a article \u203a traffic \u203a storm...",
+            "title": "Storm could create driving challenges on Outer Banks of NC",
+            "description": "HATTERAS, N.C. \u2014 A huge storm system bearing down on the East Coast is expected to have significant impacts on North Carolina Highway 12 on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/north-carolina/raleigh",
+            "display_link": "https://www.theweathernetwork.com \u203a raleigh",
+            "title": "3-Day Severe Weather Outlook: Raleigh, North Carolina",
+            "description": "Raleigh, NC. The Severe Weather Outlook helps you prepare for significant weather, such as an upcoming storm, that could result in weather warnings or ...",
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

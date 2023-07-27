@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 105000000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "California storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:52.433Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=California+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/611.2.7.1.4 (KHTML, like Gecko) Version/14.1.1 Safari/611.2.7.1.4",
+        "request_id": "hl_c3a9eb28_ku0x2pk0j8a"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/weather-natural-disasters-california-storms-f3ae833d1f1aec40554353bcd6f10e50",
+            "display_link": "https://apnews.com \u203a article \u203a weather-natural-disasters...",
+            "title": "Winter storms sow more chaos, shut down much of Portland",
+            "description": "In Southern California, the weather service office in San Diego issued its first-ever blizzard warning, covering the mountains of San ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-64959807",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-64959807",
+            "title": "California battles heavy floods, high winds and rain",
+            "description": "At least two people have died after California was hit with another storm that brought high force winds, heavy rain, and more flooding.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.pbs.org/newshour/show/climate-change-increasing-chance-of-mega-storm-in-california-scientists-say",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a show \u203a climate-cha...",
+            "title": "Climate change increasing chance of 'mega storm' in ...",
+            "description": "California is no stranger to extreme weather. It typically comes in the form of severe drought and wildfires, but a new study suggests the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cbsnews.com/news/california-storms-record-rain-snow-evacuations/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "California storms: Record rainfall and more snow, but end ...",
+            "description": "More rain and snow fell during the weekend in storm-battered California, making travel dangerous and prompting new evacuation orders near ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/01/11/california-storms-atmospheric-rivers-end/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/01/11 \u203a calif...",
+            "title": "California's onslaught of storms is far from over. Will it ever ...",
+            "description": "Storminess targets areas of Northern California through Friday. The National Weather Service's forecast for how much liquid-equivalent ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.factcheck.org/2023/01/its-too-soon-to-attribute-the-california-storms-to-climate-change-experts-say/",
+            "display_link": "https://www.factcheck.org \u203a 2023/01 \u203a its-too-soon-to...",
+            "title": "It's Too Soon to Attribute the California Storms to Climate ...",
+            "description": "The relentless storms that hit California from Dec. 27 to Jan. 16 caused extreme flooding and extensive damage in most of the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/article/forecast/regional/news/2023-03-24-california-storm-sierra-snow-rain-wind-outlook",
+            "display_link": "https://www.wunderground.com \u203a regional \u203a news \u203a 2...",
+            "title": "Powerful California Storm Is Bringing Another Round Of ...",
+            "description": "From April through June, that amounts to about 2.5 inches of rain in an average spring. Article image. I\u200bn the Sierra, just under 10% of Tahoe City's snowfall ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://weather.com/forecast/regional/news/2023-03-07-california-atmospheric-river-flood-threat",
+            "display_link": "https://weather.com \u203a forecast \u203a regional \u203a news \u203a 2023-...",
+            "title": "Atmospheric River-Fed Storm Pummels California",
+            "description": "Here's the latest forecast for a storm impacting California through Friday night. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://calmatters.org/environment/2023/03/california-storm-reservoirs-flooding/",
+            "display_link": "https://calmatters.org \u203a environment \u203a 2023/03 \u203a calif...",
+            "title": "California storm paradox: Too much water, too soon",
+            "description": "Loading your audio article. In summary. As storms melt snowpack, managers released water to prevent reservoirs from overflowing and flooding ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.usnews.com/news/top-news/articles/2023-01-08/storm-in-california-leaves-over-330-000-without-power-more-rough-weather-ahead",
+            "display_link": "https://www.usnews.com \u203a News \u203a Top News",
+            "title": "California Braces for 'Parade of Cyclones' After Storms Kill 12",
+            "description": "SACRAMENTO, Calif. (Reuters) -California on Sunday braced for more severe weather after a week of torrential downpours and damaging winds killed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

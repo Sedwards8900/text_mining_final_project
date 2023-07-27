@@ -1,0 +1,328 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 21100000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Iowa storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:27.014Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Iowa+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_alnwgjsrzio"
+    },
+    "organic": [
+        {
+            "link": "https://www.kcci.com/article/hazy-conditions-and-bad-air-quality-with-more-storm-chances-on-the-way/44368768",
+            "display_link": "https://www.kcci.com \u203a article \u203a hazy-conditions-and-...",
+            "title": "Heat and storms continue throughout Iowa amid air quality ...",
+            "description": "Iowa weather forecast: Wednesday Night: Scattered showers and thunderstorms. Low near 69F. Winds E at 10 to 15 mph. Thursday: Mostly sunny. Hot ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.kcci.com/article/weather-severe-thunderstorm-watch-in-effect-for-southern-iowa-thursday/44384261",
+                    "display_link": "https://www.kcci.com \u203a article \u203a weather-severe-thund...",
+                    "title": "Damaging winds possible as thunderstorms move across ...",
+                    "description": "Strong storms with wind gusts exceeding 60 mph have damaged trees and crops in southern Iowa Thursday. Power outages have also been reported ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 29, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.desmoinesregister.com/story/weather/2023/03/31/iowa-tornado-warning-watch-storm-updates-severe-weather-storms-friday/70069094007/",
+            "display_link": "https://www.desmoinesregister.com \u203a 2023/03/31 \u203a io...",
+            "title": "Tornadoes wreak extensive damage in eastern Iowa",
+            "description": "At least eight tornadoes were spotted across Iowa Friday as large swaths of the southeastern portion of the state reported extensive damage ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Iowa+storm+%22article%22&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q5t4CegQIHRAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://pubs.lib.uiowa.edu/annals-of-iowa/article/8518/galley/117197/view/",
+            "display_link": "https://pubs.lib.uiowa.edu \u203a galley \u203a view",
+            "title": "OUTSTANDING IOWA STORMS",
+            "description": "This account is primarily concerned with the 16 famous blizzards and 25 outstanding tornadoes in Iowa. Winter Storms. Iowa's winter storms are sometimes rain, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by PJ Waite",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 4",
+                    "rank": 2
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-06-29-derecho-storms-iowa-illinois-indiana-power-outages",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Derecho Leaves Trail Of Damage Across Illinois, Iowa, ...",
+            "description": "Article image Large trees were downed in Centerville, Iowa, as storms and high winds moved through the region on Thursday, June 29, 2023.",
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/10/17/iowa-derecho-damage-cost/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/10/17 \u203a iowa...",
+            "title": "Iowa derecho in August was most costly U.S. thunderstorm ...",
+            "description": "The storm complex, blamed for four deaths, hit Cedar Rapids, Iowa, ... This phenomenon was analyzed in a 2019 paper in the Proceedings of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 17, 2020",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.washingtonpost.com/outlook/2020/08/14/iowa-derecho-attention-aid/",
+                    "display_link": "https://www.washingtonpost.com \u203a 2020/08/14 \u203a iowa...",
+                    "title": "An inland hurricane tore through Iowa. You probably didn't ...",
+                    "description": "The storm was called a derecho, a term for sustained straight-lined winds. As local TV news anchor Beth Malicki tweeted Wednesday, \u201cThis isn't a ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Aug 14, 2020",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 11,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.weareiowa.com/article/weather/severe-weather/iowa-severe-weather-march-31-tornado-hail-storm-damage-hedrick-poweshiek-county-iowa-city-coralville/524-5b0002cc-a94c-4e34-be10-87388cb835bd",
+            "display_link": "https://www.weareiowa.com \u203a weather \u203a severe-weather",
+            "title": "Severe weather in Iowa: Tornadoes, storms cause damage",
+            "description": "Tornadoes and strong storms impacted Hedrick, Malcom in Poweshiek County, Coralville, Iowa City and more on March 31, 2023.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://history.iowa.gov/history/education/educator-resources/primary-source-sets/iowa-weather-and-its-impact",
+            "display_link": "https://history.iowa.gov \u203a history \u203a primary-source-sets",
+            "title": "Iowa Weather and Its Impact | State Historical Society of Iowa",
+            "description": "Iowa experiences its share of extreme weather conditions. Tornadoes are rapidly whirling columns of air than may or may not touch ground. When they do, they can ...",
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nytimes.com/2020/08/22/us/iowa-derecho-storm.html",
+            "display_link": "https://www.nytimes.com \u203a iowa-derecho-storm",
+            "title": "Swift Storm Left Iowa in Tatters",
+            "description": "Nearly two weeks after a destructive derecho storm swept through the Midwest, residents of eastern Iowa are still digging themselves out.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Iowa tornado map 2023",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSew8zHQcFkWBzBNHwsoROpK07cyuN1cfrKd2lOLNYNTVmc1P7PnIY&s=0",
+            "image_alt": "Image of Iowa tornado map 2023",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSew8zHQcFkWBzBNHwsoROpK07cyuN1cfrKd2lOLNYNTVmc1P7PnIY&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "text": "Coralville tornado path",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF2Z08TDeNzA81PR1sd9EVx-tKa4KuuCZeUeOh9ifu49XVP2VyDLj_&s=0",
+            "image_alt": "Image of Coralville tornado path",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF2Z08TDeNzA81PR1sd9EVx-tKa4KuuCZeUeOh9ifu49XVP2VyDLj_&s=0",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Iowa+tornado+today&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAg3EAE",
+            "text": "iowa tornado today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornadoes+in+Iowa+2023&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAgzEAE",
+            "text": "tornadoes in iowa 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+damage+in+Iowa+TODAY&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAgxEAE",
+            "text": "storm damage in iowa today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Derecho+Iowa+today&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAguEAE",
+            "text": "derecho iowa today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Derecho+Iowa+2023&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAg4EAE",
+            "text": "derecho iowa 2023",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=How+many+tornadoes+in+Iowa+today&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Q1QJ6BAgyEAE",
+            "text": "how many tornadoes in iowa today",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What part of Iowa did the tornado hit?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Iowa+did+the+tornado+hit%3F&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qzmd6BAgaEAY",
+            "answer_source": "16 Iowa tornadoes hit Friday. Here are the ratings, injuries and path",
+            "answer_link": "https://www.desmoinesregister.com/story/weather/2023/04/05/iowa-tornado-damage-ratings-injuries-path-16-formed-coralville-keokuk-friday/70073933007/#:~:text=The%20tornado%20developed%20into%20a,and%20caused%20EF4%20level%20damage.",
+            "answer_display_link": "https://www.desmoinesregister.com \u203a story \u203a 2023/04/05https://www.desmoinesregister.com \u203a story \u203a 2023/04/05",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qu04oAHoECBoQBQ\"><div id=\"WZnBZJvQE4aE0PEPmKKN-AE__16\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The tornado developed into a large storm in <b>southern Keokuk County across mostly farmland, where it then traveled into Washington and Johnson counties</b>. With a max width of 600 yards, it severely damaged several homes near Keota, and caused EF4 level damage.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The tornado developed into a large storm in southern Keokuk County across mostly farmland, where it then traveled into Washington and Johnson counties. With a max width of 600 yards, it severely damaged several homes near Keota, and caused EF4 level damage.Apr 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Was there a derecho in Iowa?",
+            "question_link": "https://www.google.com/search?hl=en&q=Was+there+a+derecho+in+Iowa%3F&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qzmd6BAgYEAY",
+            "answer_source": "Derecho leaves path of destruction from Nebraska to Indiana - KGAN",
+            "answer_link": "https://cbs2iowa.com/news/local/derecho-leaves-path-of-destruction-from-nebraska-to-indiana#:~:text=The%20costliest%20thunderstorm%20disaster%20in,for%20more%20than%20two%20weeks.",
+            "answer_display_link": "https://cbs2iowa.com \u203a news \u203a local \u203a derecho-leaves-pat...https://cbs2iowa.com \u203a news \u203a local \u203a derecho-leaves-pat...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qu04oAHoECBgQBQ\"><div id=\"WZnBZJvQE4aE0PEPmKKN-AE__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>The costliest thunderstorm disaster in US history was a derecho affecting the Midwest on Aug.</b> <b>10, 2020</b> - often called the Iowa Derecho due to its significant impact to the state. The storm caused more than $12 billion in damage and left parts of the state without power for more than two weeks.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 29, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The costliest thunderstorm disaster in US history was a derecho affecting the Midwest on Aug. 10, 2020 - often called the Iowa Derecho due to its significant impact to the state. The storm caused more than $12 billion in damage and left parts of the state without power for more than two weeks.Jun 29, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Is Iowa in Tornado Alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Iowa+in+Tornado+Alley%3F&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qzmd6BAgZEAY",
+            "answer_source": "Beyond Tornado Alley: Which states have the most tornadoes? - USAFacts",
+            "answer_link": "https://usafacts.org/articles/beyond-tornado-alley-which-states-have-the-most-tornadoes/#:~:text=Tornado%20Alley%20is%20a%20region,%2C%20Oklahoma%2C%20and%20northern%20Texas.",
+            "answer_display_link": "https://usafacts.org \u203a articles \u203a beyond-tornado-alley-whi...https://usafacts.org \u203a articles \u203a beyond-tornado-alley-whi...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qu04oAHoECBkQBQ\"><div id=\"WZnBZJvQE4aE0PEPmKKN-AE__22\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Tornado Alley is a region covering the Great Plains known for its tornado activity. While its exact boundaries are debated, <b>it generally encompasses parts of Kansas, Nebraska, Iowa, Oklahoma, and northern Texas</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 25, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tornado Alley is a region covering the Great Plains known for its tornado activity. While its exact boundaries are debated, it generally encompasses parts of Kansas, Nebraska, Iowa, Oklahoma, and northern Texas.Apr 25, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "What does Deratio mean?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+does+Deratio+mean%3F&sa=X&ved=2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qzmd6BAgbEAY",
+            "answer_source": "What Is A Derecho? Is It Worse Than A Tornado? - Southern Living",
+            "answer_link": "https://www.southernliving.com/what-is-a-derecho-7546883#:~:text=A%20derecho%20is%20a%20damaging,long%20and%2060%20miles%20wide.",
+            "answer_display_link": "https://www.southernliving.com \u203a what-is-a-derecho-754...https://www.southernliving.com \u203a what-is-a-derecho-754...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwjb4Kyxsa2AAxUGAjQIHRhRAx8Qu04oAHoECBsQBQ\"><div id=\"WZnBZJvQE4aE0PEPmKKN-AE__25\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A derecho is <b>a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher</b>. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A derecho is a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.Jul 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}
