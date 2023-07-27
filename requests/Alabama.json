@@ -1,0 +1,326 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 26600000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Alabama storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:32.499Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Alabama+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_alo6xdjxg2s"
+    },
+    "organic": [
+        {
+            "link": "https://www.wvtm13.com/article/alabama-storms-weather-damages/44201627",
+            "display_link": "https://www.wvtm13.com \u203a article \u203a alabama-storms-...",
+            "title": "Alabama storm damages",
+            "description": "The main threats include high wind gusts over 70 mph, hail to the size of baseballs and tornadoes in central and south Alabama.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wvtm13.com/article/severe-storm-causes-damage-power-outages-east-alabama-gadsden-flooding/44410580",
+                    "display_link": "https://www.wvtm13.com \u203a article \u203a severe-storm-caus...",
+                    "title": "Severe storm causes damage, flooding and power outages ...",
+                    "description": "A severe thunderstorm in central Alabama caused power outages, trees down and apparent wind damage to at least one business.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 2, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/storms-tornadoes-damage-texas-georgia-alabama-7db6ee2cb28cca3794a7f074d3129071",
+            "display_link": "https://apnews.com \u203a article \u203a storms-tornadoes-damag...",
+            "title": "Punishing winds, possible tornadoes inflict damage as ...",
+            "description": "ALBANY, Ga. (AP) \u2014 Damaging winds and possible tornadoes toppled trees, damaged buildings and blew cars off a highway Wednesday as powerful ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.npr.org/2023/03/26/1166124889/mississippi-and-alabama-face-a-painful-recovery-after-storms-and-a-tornado-kille",
+            "display_link": "https://www.npr.org \u203a 2023/03/26 \u203a mississippi-and-alab...",
+            "title": "Mississippi and Alabama face a painful recovery after ...",
+            "description": "President Biden approved a federal disaster declaration for Mississippi. Officials said dozens were injured, while hundreds were displaced.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nytimes.com/2023/01/12/us/tornadoes-severe-storms-weather-south.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/01/12 \u203a tornadoes-seve...",
+            "title": "At Least 8 Are Killed as Severe Weather Sweeps the South",
+            "description": "More than 6.8 million people across Alabama and Georgia had been under a tornado watch on Thursday, and the governors of both states declared ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/live/2023/03/26/us/tornado-mississippi",
+                    "display_link": "https://www.nytimes.com \u203a live \u203a tornado-mississippi",
+                    "title": "Tornadoes in Mississippi and Alabama: Storm Updates",
+                    "description": "Give this article ... The storm system that ripped through Mississippi and Alabama last weekend, causing at least 26 deaths, left residents ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 26, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cbsnews.com/news/at-least-26-dead-after-tornadoes-in-mississippi/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "At least 26 dead after tornado causes destruction across ...",
+            "description": "At least 25 people are dead in Mississippi, and one person in Alabama, after a tornado touched down just after sundown Friday in a storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.cbsnews.com/news/tornado-alabama-georgia-south-power-outages-damage-several-dead/",
+                    "display_link": "https://www.cbsnews.com \u203a U.S.",
+                    "title": "7 dead after powerful storm front, tornadoes slammed ...",
+                    "description": "Tornado damage Selma Alabama Debris litters a local business that was destroyed by a tornado that passed through downtown Selma, Alabama, on Jan ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jan 14, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 12,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.cnn.com/2023/01/12/us/tornado-storm-damage-alabama/index.html",
+            "display_link": "https://www.cnn.com \u203a tornado-storm-damage-alabama",
+            "title": "Alabama governor says there are 6 storm-related deaths in ...",
+            "description": "Governor says 6 people are dead in Alabama after severe storms and more than 2 dozen tornadoes hit Southeast. Joe Sutton Melissa Alonso.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/tornado-causes-significant-damage-selma-alabama-mayor-says-rcna65580",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a tornado-c...",
+            "title": "At least 7 dead after destructive tornadoes hit Alabama",
+            "description": "At least seven people are dead in Alabama after tornadoes struck the state Thursday, destroying homes and causing what Selma's mayor called ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Pictures of storm damage in Alabama today",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe14jbgTNOWB_AwX3cih_WqfU8_U9PVHzGU5ccJKZoULVifHt4nEVjFw&s=0",
+            "image_alt": "Image of Pictures of storm damage in Alabama today",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe14jbgTNOWB_AwX3cih_WqfU8_U9PVHzGU5ccJKZoULVifHt4nEVjFw&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+in+Alabama+today&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg7EAE",
+            "text": "storm damage in alabama today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alabama+tornado+today&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg5EAE",
+            "text": "alabama tornado today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+in+Birmingham,+Alabama+today&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg3EAE",
+            "text": "storm damage in birmingham, alabama today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alabama+storm+damage&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg4EAE",
+            "text": "alabama storm damage",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Georgia+tornado+today&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAgzEAE",
+            "text": "georgia tornado today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alabama+severe+weather&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg0EAE",
+            "text": "alabama severe weather",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Warrior+Alabama+tornado&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ1QJ6BAg6EAE",
+            "text": "warrior alabama tornado",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "How long did the 2011 Super Outbreak last?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=How+long+did+the+2011+Super+Outbreak+last%3F&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQzmd6BAgcEAY",
+            "answer_source": "2011 Super Outbreak - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/2011_Super_Outbreak",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a 2011_Super_Outbreakhttps://en.wikipedia.org \u203a wiki \u203a 2011_Super_Outbreak",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBwQBQ\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQu04oAHoECBwQBQ\"><div id=\"I5nBZOjXDd2Pxc8PpvCfiAM__14\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCIQAA\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQ4dMGegQIIhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCEQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AVhGyY\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQyQ0oAHoECCEQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;V62TuCFpQymnVM;AVhGyU\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"V62TuCFpQymnVM\" data-lpage=\"https://en.wikipedia.org/wiki/2011_Super_Outbreak\" data-ni=\"1\" data-ref-docid=\"MMsenRDo7iXRmM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CB8QAA\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQzkx6BAgfEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-6px;width:212px\" alt=\"2011 Super Outbreak - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9ssiqBwz669Mj8v9VKkBHdlE6wVsw0IpSrv4vo2dFA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"I5nBZOjXDd2Pxc8PpvCfiAM__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBoQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The 2011 Super Outbreak was the largest, costliest, and one of the deadliest tornado outbreaks ever recorded, taking place in the Southern, Midwestern, and Northeastern United States from <b>April 25 to 28, 2011</b>, leaving catastrophic destruction in its wake.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The 2011 Super Outbreak was the largest, costliest, and one of the deadliest tornado outbreaks ever recorded, taking place in the Southern, Midwestern, and Northeastern United States from April 25 to 28, 2011, leaving catastrophic destruction in its wake."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Is Alabama called Tornado Alley?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+Alabama+called+Tornado+Alley%3F&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQzmd6BAgeEAY",
+            "answer_source": "Understanding Dixie Alley, Southeast America's Tornado-Prone Region",
+            "answer_link": "https://www.alabamaheritage.com/alabama-heritage-blog/understanding-dixie-alley-southeast-americas-tornado-prone-region",
+            "answer_display_link": "https://www.alabamaheritage.com \u203a alabama-heritage-bloghttps://www.alabamaheritage.com \u203a alabama-heritage-blog",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB4QBQ\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQu04oAHoECB4QBQ\"><div id=\"I5nBZOjXDd2Pxc8PpvCfiAM__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">While most associate tornadoes with the infamous Tornado Alley that stretches across the Great Plains, there is a little lesser known tornado prone region called <b>Dixie Alley, which includes Tennessee, Arkansas, Louisiana, Georgia, Mississippi, and Alabama</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 18, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "While most associate tornadoes with the infamous Tornado Alley that stretches across the Great Plains, there is a little lesser known tornado prone region called Dixie Alley, which includes Tennessee, Arkansas, Louisiana, Georgia, Mississippi, and Alabama.Apr 18, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Where did tornados hit in MS?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+did+tornados+hit+in+MS%3F&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQzmd6BAgZEAY",
+            "answer_source": "'Multiple confirmed tornadoes in Mississippi' governor says damage ...",
+            "answer_link": "https://www.wapt.com/article/multiple-confirmed-tornadoes-in-mississippi-june192023/44253313",
+            "answer_display_link": "https://www.wapt.com \u203a article \u203a multiple-confirmed-tor...https://www.wapt.com \u203a article \u203a multiple-confirmed-tor...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQu04oAHoECBkQBQ\"><div id=\"I5nBZOjXDd2Pxc8PpvCfiAM__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The governor said there were \"multiple confirmed tornadoes in Mississippi,\" including one that struck <b>Rankin County, southeast of Florence, and in Jasper County from Louin to Bay Springs to Turnerville</b>. More than 30 homes were damaged in Jasper County alone.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 19, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The governor said there were \"multiple confirmed tornadoes in Mississippi,\" including one that struck Rankin County, southeast of Florence, and in Jasper County from Louin to Bay Springs to Turnerville. More than 30 homes were damaged in Jasper County alone.Jun 19, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Has Alabama ever had a tornado?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+Alabama+ever+had+a+tornado%3F&sa=X&ved=2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQzmd6BAgYEAY",
+            "answer_source": "List of Alabama tornado events - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/List_of_Alabama_tornado_events",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_Alabama_torna...https://en.wikipedia.org \u203a wiki \u203a List_of_Alabama_torna...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwio9caXsa2AAxXdR_EDHSb4BzEQu04oAHoECBgQBQ\"><div id=\"I5nBZOjXDd2Pxc8PpvCfiAM__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">March 1994: 1994 Palm Sunday tornado outbreak (8 counties) May 1995: May 1995 Tornado Outbreak Sequence (Huntsville) April 1998: April 1998 Birmingham tornado. December 2000: December 2000 Tuscaloosa tornado.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "March 1994: 1994 Palm Sunday tornado outbreak (8 counties) May 1995: May 1995 Tornado Outbreak Sequence (Huntsville) April 1998: April 1998 Birmingham tornado. December 2000: December 2000 Tuscaloosa tornado."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

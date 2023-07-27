@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 250000000,
+        "search_time": 0.58,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Mississippi storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:34:01.992Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Mississippi+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.5 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_31mrksrvod3"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-03-24-tornado-texas-missouri-louisiana-arkansas-mississippi-storms",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "25 Killed In Mississippi Tornadoes",
+            "description": "T\u200bhe mayor said he and his wife took shelter in their bathtub as the storm hit. Article image A tornado caused major damage in Rolling Fork, Mississippi, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/03/26/tornadoes-severe-weather-live-updates/11542636002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/03/26 \u203a tor...",
+            "title": "Tornadoes severe weather updates: 26 dead in Mississippi ...",
+            "description": "\u2013 Severe storms rumbled across parts of the South on Sunday, two days after violent tornadoes smashed through the Mississippi Delta region \u2014 one ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.entergynewsroom.com/article/entergy-mississippi-storm-update-6-17-23-10-p-m/",
+            "display_link": "https://www.entergynewsroom.com \u203a article \u203a entergy...",
+            "title": "Entergy Mississippi storm update \u2013 6/17/23, 10 p.m.",
+            "description": "In the last week, Entergy Mississippi has restored nearly 138000 customers after back-to-back storms afflicted our service area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.dor.ms.gov/news/mississippi-storm-and-flooding-relief",
+            "display_link": "https://www.dor.ms.gov \u203a news \u203a mississippi-storm-an...",
+            "title": "Mississippi Storm and Flooding Relief | DOR",
+            "description": "\u200bMississippi will follow federal extensions granted to victims of severe storms, straight-line winds, tornadoes and flooding that took place between ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wapt.com/article/jackson-mississippi-weather-storms-tornado/42095537",
+            "display_link": "https://www.wapt.com \u203a article \u203a jackson-mississippi-...",
+            "title": "Mississippi storms spawn tornadoes",
+            "description": "The National Weather Service reported at least 21 tornadoes reported across the state during the severe weather event. Damage will be assessed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbs58.com/news/1-killed-and-almost-2-dozen-injured-in-overnight-storms-in-mississippi-officials-say",
+            "display_link": "https://www.cbs58.com \u203a news \u203a 1-killed-and-almost-2-d...",
+            "title": "1 killed and almost 2 dozen injured in overnight storms ...",
+            "description": "A storm system spawned a reported tornado late Sunday in Mississippi, leaving injuries and structural damage around Bay Springs and Louin in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-65072195",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-65072195",
+            "title": "Mississippi tornado: Why was it so destructive?",
+            "description": "Preliminary findings have registered the tornado a four on the Enhanced Fujita (EF) scale, meaning it had a three-second gust of 166 to 200 mph, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wjtv.com/weather/severe-weather/nearly-200-mississippi-structures-damaged-by-recent-storms/",
+            "display_link": "https://www.wjtv.com \u203a weather \u203a severe-weather \u203a ne...",
+            "title": "Nearly 200 Mississippi structures damaged by recent storms",
+            "description": "JASPER COUNTY, Miss. (WHLT) \u2013 Nearly 200 homes and businesses have been damaged from this week's deadly storms in Mississippi.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnn.com/2023/06/19/weather/severe-storm-threat-southern-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/06/19 \u203a weather \u203a severe-st...",
+            "title": "1 killed and almost 2 dozen injured in overnight storms in ...",
+            "description": "A storm system spawned a reported tornado late Sunday in Mississippi, leaving injuries and structural damage around Bay Springs and Louin in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.abc.net.au/news/2023-03-26/us-deadly-tornado-and-storms-in-mississipi/102146074",
+            "display_link": "https://www.abc.net.au \u203a news \u203a us-deadly-tornado-an...",
+            "title": "US tornado and storms kill at least 25 people in state of ...",
+            "description": "Mississippi, Alabama receive 24 reports of tornadoes ... At least 24 reports of tornadoes were issued to the National Weather Service on Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

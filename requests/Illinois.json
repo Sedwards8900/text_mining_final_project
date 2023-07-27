@@ -1,0 +1,333 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 180000000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Illinois storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-26T22:08:19.995Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Illinois+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_d1nkyhockmg"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/chicago-tornado-ohare-airport-11187a1f8fb170f851382f1a09837674",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Illinois surveys storm damage after tornadoes hit Chicago ...",
+            "description": "National Weather Service teams are surveying storm damage in northeast Illinois, where fierce winds from tornadoes ripped roofs from ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.ksdk.com/article/news/local/storm-damage-central-illinois-power-outages/63-7c928e5f-e1f8-4cba-a65f-31966be02308",
+            "display_link": "https://www.ksdk.com \u203a article \u203a news \u203a local \u203a storm-...",
+            "title": "Thousands without power after storm tears across central ...",
+            "description": "\u2014 Thousands of Ameren Illinois customers are still without power after a massive storm produced what are believed to be straight-line winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.ksdk.com/article/news/local/washington-county-weekend-storms/63-f75c0588-0de9-4df2-9e32-49ea4a0066de",
+                    "display_link": "https://www.ksdk.com \u203a article \u203a news \u203a local \u203a washi...",
+                    "title": "Washington County, Illinois, devastated by weekend storms",
+                    "description": "They hope to have power restored to the county by Tuesday night but it has been difficult to get exact estimates. Related Articles. Emergency ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 3, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.centralillinoisproud.com/news/local-news/storm-and-weather-damage-throughout-central-illinois/",
+            "display_link": "https://www.centralillinoisproud.com \u203a news \u203a local-news",
+            "title": "Storm and weather damage throughout Central Illinois",
+            "description": "(WMBD) \u2014 Severe weather was expected to hit central Illinois on Thursday with the chance for strong straight line winds and baseball-sized hail ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://wgntv.com/weather/weather-blog/severe-weather-updates/gallery-severe-weather-leaves-damage-around-northern-illinois-northwest-indiana/",
+            "display_link": "https://wgntv.com \u203a weather \u203a severe-weather-updates",
+            "title": "Severe weather leaves damage around Chicago area",
+            "description": "Severe weather rolled through Northern Illinois for a few hours Wednesday. According to the National Weather Service, Tornado Warnings were ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.farmweeknow.com/general/central-illinois-storms-were-result-of-perfect-set-up/article_9db227a2-19b9-11ee-9fb3-43679f0eb210.html",
+            "display_link": "https://www.farmweeknow.com \u203a general \u203a article_9db2...",
+            "title": "Central Illinois storms were result of 'perfect set up' | General",
+            "description": "The storms caused over 225000 power outages, according to Ameren Illinois.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.nbcchicago.com/news/local/intense-storms-damage-buildings-topple-trees-across-illinois/3109508/",
+            "display_link": "https://www.nbcchicago.com \u203a news \u203a local \u203a intense-...",
+            "title": "Illinois Storms Damage Buildings, Down Trees Across State",
+            "description": "Fierce storms with wind gusts exceeding 60 miles per hour ripped across Illinois late Friday, leading to a partial building collapse at a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-06-29-derecho-storms-iowa-illinois-indiana-power-outages",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Derecho Leaves Trail Of Damage Across Illinois, Iowa, ...",
+            "description": "Article image Large trees were downed in Centerville, Iowa, as storms and high winds moved through the region on Thursday, June 29, 2023.",
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=AiLqRjDjOTM",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Thousands without power after storm tears across central Illinois",
+            "description": "FULL STORY: https://www.ksdk.com/article/news/local/storm-damage-central-illinois-power-outages/63-7c928e5f-e1f8-4cba-a65f-31966be02308 ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "KSDK News",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "3 weeks ago",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "1:40",
+            "duration_sec": 100,
+            "author": "KSDK News",
+            "date": "3 weeks ago",
+            "source": "YouTube",
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://abc7chicago.com/chicago-weather-forecast-radar-hourly-10-day/13439778/",
+            "display_link": "https://abc7chicago.com \u203a chicago-weather-forecast-ra...",
+            "title": "Chicago Weather: Rain and storms help clear out ...",
+            "description": "Chicago weather today includes rounds of thunderstorms and downpours, but severe storm ... Major storm damage reported in Central Illinois.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Illinois+storm+%22article%22&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ5t4CegQIQxAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Illinois+storm+damage+today&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAg3EAE",
+            "text": "illinois storm damage today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Illinois+Storm+today&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAg2EAE",
+            "text": "illinois storm today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+central+Illinois+today&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAg1EAE",
+            "text": "storm damage central illinois today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+Illinois&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAg0EAE",
+            "text": "storm damage illinois",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+in+Illinois+yesterday&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAgyEAE",
+            "text": "storm in illinois yesterday",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Tornado+in+Springfield,+IL+today&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAgzEAE",
+            "text": "tornado in springfield, il today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Central+IL+Storm&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAgxEAE",
+            "text": "central il storm",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Sherman,+IL+storm+damage&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ1QJ6BAgwEAE",
+            "text": "sherman, il storm damage",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Where did tornado hit in Illinois?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+did+tornado+hit+in+Illinois%3F&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQzmd6BAgkEAY",
+            "answer_source": "Chicago tornado: 11 touchdowns confirmed, including at O'Hare, with ...",
+            "answer_link": "https://abc7chicago.com/illinois-tornado-damage-today-touchdown-chicago-countryside/13497135/",
+            "answer_display_link": "https://abc7chicago.com \u203a illinois-tornado-damage-today...https://abc7chicago.com \u203a illinois-tornado-damage-today...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQu04oAHoECCQQBQ\"><div id=\"UZnBZOqtLZGY2roP3PCJ4As__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The National Weather Service has confirmed tornadoes touched down in <b>Cicero, Huntley, Elgin, Barrington, Long Grove, Des Plaines, Glendale Heights, Streamwood and at O'Hare International Airport</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 13, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The National Weather Service has confirmed tornadoes touched down in Cicero, Huntley, Elgin, Barrington, Long Grove, Des Plaines, Glendale Heights, Streamwood and at O'Hare International Airport.Jul 13, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 6
+        },
+        {
+            "question": "What does Deratio mean?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+does+Deratio+mean%3F&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQzmd6BAglEAY",
+            "answer_source": "What Is A Derecho? Is It Worse Than A Tornado? - Southern Living",
+            "answer_link": "https://www.southernliving.com/what-is-a-derecho-7546883",
+            "answer_display_link": "https://www.southernliving.com \u203a what-is-a-derecho-754...https://www.southernliving.com \u203a what-is-a-derecho-754...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQu04oAHoECCUQBQ\"><div id=\"UZnBZOqtLZGY2roP3PCJ4As__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A derecho is <b>a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher</b>. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A derecho is a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.Jul 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 7
+        },
+        {
+            "question": "Has a tornado ever hit Chicago?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+a+tornado+ever+hit+Chicago%3F&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQzmd6BAgiEAY",
+            "answer_source": "13 confirmed tornadoes in Chicago suburbs: National Weather Service",
+            "answer_link": "https://wgntv.com/news/chicago-news/storm-damage-surveyed-after-multiple-suspected-tornadoes-hit-chicago-area/",
+            "answer_display_link": "https://wgntv.com \u203a news \u203a chicago-news \u203a storm-damag...https://wgntv.com \u203a news \u203a chicago-news \u203a storm-damag...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQu04oAHoECCIQBQ\"><div id=\"UZnBZOqtLZGY2roP3PCJ4As__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Over the years many tornadoes have struck in the Chicago metropolitan area</b>, and several have hit within the city limits of Chicago, according to the National Weather Service. Between 1855 and 2021, the weather service recorded 97 significant tornadoes in the Chicago metro area.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 13, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Over the years many tornadoes have struck in the Chicago metropolitan area, and several have hit within the city limits of Chicago, according to the National Weather Service. Between 1855 and 2021, the weather service recorded 97 significant tornadoes in the Chicago metro area.Jul 13, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 8
+        },
+        {
+            "question": "What was the worst storm in Illinois?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+storm+in+Illinois%3F&sa=X&ved=2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQzmd6BAgZEAY",
+            "answer_source": "Tornadoes in Illinois - Illinois State Climatologist",
+            "answer_link": "https://stateclimatologist.web.illinois.edu/climate-of-illinois/tornadoes-in-illinois/",
+            "answer_display_link": "https://stateclimatologist.web.illinois.edu \u203a tornadoes-in-il...https://stateclimatologist.web.illinois.edu \u203a tornadoes-in-il...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQu04oAHoECBkQBQ\"><div id=\"UZnBZOqtLZGY2roP3PCJ4As__23\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCcQAA\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQ4dMGegQIJxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCcQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AXvEVY\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;V4acCtY8fnRixM;AXvEVc\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"V4acCtY8fnRixM\" data-lpage=\"https://stateclimatologist.web.illinois.edu/climate-of-illinois/tornadoes-in-illinois/\" data-ni=\"1\" data-ref-docid=\"vMAgAFKh1yMYQM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCEQAA\" data-ved=\"2ahUKEwiqmt6tsa2AAxURjFYBHVx4ArwQzkx6BAghEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:121px;width:204px\"><img style=\"margin-left:-6px;width:216px\" alt=\"Tornadoes in Illinois \u2013 Illinois State Climatologist\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8c5LAa4mWUvkNg17lrLCryz_K0mpidVQ9zYORaFKQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"UZnBZOqtLZGY2roP3PCJ4As__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Illinois has experienced two of the worst tornadoes in the nation's history: the infamous <b>Tri-State tornado of March 18, 1925</b>, which resulted in 695 deaths, 2000 injuries, and $130 million in property damage; and the Mattoon tornado of May 26, 1917, which resulted in 101 deaths, 638 injuries, and $55 million in ...</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Illinois has experienced two of the worst tornadoes in the nation's history: the infamous Tri-State tornado of March 18, 1925, which resulted in 695 deaths, 2000 injuries, and $130 million in property damage; and the Mattoon tornado of May 26, 1917, which resulted in 101 deaths, 638 injuries, and $55 million in ..."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        }
+    ]
+}

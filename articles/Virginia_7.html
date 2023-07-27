@@ -1,0 +1,571 @@
+	
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /><title>Flooding in Virginia</title><meta name="DC.title" content="Flooding in Virginia" /><meta name="DC.description" content="Flooding in Virginia" /><meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" /><meta name="DC.date.created" scheme="ISO8601" content="March 12th 2018 7:23 PM" /><meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" /><meta name="DC.keywords" content="Flooding in Virginia" /><meta name="DC.publisher" content="NOAA's National Weather Service" /><meta name="DC.contributor" content="National Weather Service" /><meta name="DC.rights" content="http://www.weather.gov/disclaimer.php" /><meta name="rating" content="General" /><meta name="robots" content="index,follow" />
+
+        <link href="/css/weatherstyle.css" rel="stylesheet" type="text/css" />
+        <link href="/css/template.css" rel="stylesheet" type="text/css" />
+        <link href="/css/myfcst.css" rel="stylesheet" type="text/css" />
+        <link href="/css/ForecastSearch.css" rel="stylesheet" type="text/css" />
+        <link href="/css/pointforecast.css" rel="stylesheet" type="text/css" />
+        <link href="/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/widgets.css" rel="stylesheet" type="text/css" />
+        <link href="/css/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
+        <script type="text/javascript" src="/js/ForecastSearch.js"></script>
+        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&sub-agency=NOAA&pua=G-736JJ6NL0V"></script>	
+        <script type="text/javascript" src="/js/topNavMenu.js"></script>
+        <script type="text/javascript" src="/js/NidsESRI.js"></script>
+        <script type="text/javascript" src="/js/widgets.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="/js/nwsexit.js"></script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-736JJ6NL0V"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+gtag('config', 'G-736JJ6NL0V');
+gtag('config', ' UA-40768555-2');
+</script>
+    </head>
+
+    <body>
+        		<div class="header">
+			<div class="header-content">
+			<a href="http://www.weather.gov" class="header-nws"><img src="/css/images/header.png"  alt="National Weather Service"/></a>
+			<a href="http://www.commerce.gov" class="header-doc"><img src="/css/images/header_doc.png" alt="United States Department of Commerce"/></a>
+            <a href="http://www.noaa.gov" class="header-noaa" title="National Oceanic and Atmospheric Administration"></a>
+            </div>
+                    <div style="clear:both"></div>
+		</div>
+
+		<div class="header-shadow">
+			<div class="header-shadow-content"></div>
+		</div>
+	
+
+        <div class="center">
+
+                    <div class="content">
+            <div class="topnav">
+                <ul id="topnav">
+                    <li>
+                        <script type="text/javascript">
+                            function goBack()
+                            {
+                                if (document.referrer.toLowerCase().indexOf("weather.gov") != -1)
+                                {
+                                    history.back();
+                                }
+                                else
+                                {
+                                    document.location.href = "http://www.weather.gov";
+                                }
+                            }
+                        </script>
+                        <div class="topMenuNavList home">
+                            <a href="#" onclick="goBack();">HOME</a>
+                        </div>
+                    </li>
+                    <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/forecastmaps">FORECAST</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov">Local</a>                        </li>                        <li>                            <a href="http://digital.weather.gov">Graphical</a>                        </li>                        <li>                            <a href="http://www.aviationweather.gov/">Aviation</a>                        </li>                        <li>                            <a href="http://www.weather.gov/marine">Marine</a>                        </li>                        <li>                            <a href="http://water.weather.gov/ahps/">Rivers and Lakes</a>                        </li>                        <li>                            <a href="http://www.nhc.noaa.gov/">Hurricanes</a>                        </li>                        <li>                            <a href="http://www.spc.noaa.gov/">Severe Weather</a>                        </li>                        <li>                            <a href="http://www.weather.gov/fire/">Fire Weather</a>                        </li>                        <li>                            <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Long Range Forecasts</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov">Climate Prediction</a>                        </li>                        <li>                            <a href="https://www.swpc.noaa.gov/">Space Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="https://www.weather.gov/wrh/climate/">PAST WEATHER</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Past Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Heating/Cooling Days</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Monthly Temperatures</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Records</a>                        </li>                        <li>                            <a href="http://aa.usno.navy.mil/">Astronomical Data</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/safety">SAFETY</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/flood">Floods</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/cold">Cold</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/airquality">Air Quality</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/fog">Fog</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat">Heat</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/lightning">Lightning</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/space">Space Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>                        </li>                        <li>                            <a href="http://www.weather.gov/safetycampaign">Safety Campaigns</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wind">Wind</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/drought">Drought</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/winter">Winter Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/informationcenter">INFORMATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>                        </li>                        <li>                            <a href="http://www.weather.gov/wrn/">Weather-Ready Nation</a>                        </li>                        <li>                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/briefing/">Daily Briefing</a>                        </li>                        <li>                            <a href="http://www.nws.noaa.gov/om/hazstats.shtml">Damage/Fatality/Injury Statistics</a>                        </li>                        <li>                            <a href="http://mag.ncep.noaa.gov/">Forecast Models</a>                        </li>                        <li>                            <a href="https://www.weather.gov/gis">GIS Data Portal</a>                        </li>                        <li>                            <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a>                        </li>                        <li>                            <a href="http://weather.gov/publications">Publications</a>                        </li>                        <li>                            <a href="http://www.weather.gov/SKYWARN">SKYWARN Storm Spotters</a>                        </li>                        <li>                            <a href="http://www.weather.gov/StormReady">StormReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/TsunamiReady/">TsunamiReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/education">EDUCATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>                        </li>                        <li>                            <a href="http://www.weather.gov/owlie">NWS Education Home</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/news/">NEWS</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/news">NWS News</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrn/calendar">Events</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>                        </li>                        <li>                            <a href="http://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/search">SEARCH</a>                        </div>
+                             
+                            <div style="opacity: 0;" class="sub">     
+                                <ul class="no-links">
+                                <li><!-- Begin search code -->
+                                    <div id="site-search">
+                                        <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov" /> 
+                                            <label for="query">Search For</label> 
+                                            <input type="text" name="query" id="query" size="12" /> 
+                                            <input type="submit" value="Go" />
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" /> 
+                                                <label for="nws" class="search-scope">NWS</label> 
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa" /> 
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
+                                                        </li>
+            <li class="last">	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/about">ABOUT</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/about">About NWS</a>                        </li>                        <li>                            <a href="http://www.weather.gov/organization">Organization</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/#diversity">Commitment to Diversity</a>                        </li>                        <li>                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>                        </li>                        <li>                            <a href="http://www.weather.gov/insider">International</a>                        </li>                        <li>                            <a href="http://www.weather.gov/ncep">National Centers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/">Careers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/contact">Contact Us</a>                        </li>                        <li>                            <a href="https://w1.weather.gov/glossary">Glossary</a>                        </li>                        <li>                            <a href="https://weather.gov/socialmedia">Social Media</a>                        </li></ul></div>                        </li>
+                            </ul>
+            </div>
+        </div>
+
+        
+
+            <div class="center-content">
+
+                
+                
+
+                <div class="full-width-border">
+                    <div class="partial-width-borderbottom">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+
+                        <div class="div-full">    
+                        <div class="div-full breadcrumb">    <div class="sitename">        <p class="sitename-name">Safety</p>        <p class="sitename-class">National Program</p>    </div>    <div class="location">        <h1 class='location-pagetitle'>Flooding in Virginia</h1>        <div class='location-breadcrumb'>            <a href="https://www.weather.gov">Weather.gov</a> &gt; <a href="https://www.weather.gov/safety">Safety</a> &gt; Flooding in Virginia        </div>    </div></div>
+                        
+                        
+                        
+                                    <div class="div-full">
+                <div class="cms-content"><div class="two-third-first">
+<div id="hmenu">&nbsp;</div>
+<img alt="Flooding in Indiana" src="/images/safety/va-lg.jpg" style="border-width: 0px; border-style: solid; width: 600px; margin-top: 15px; " /></div>
+
+<div align="right" class="one-third-last"><a href="https://www.weather.gov/wrn/"><img alt="" src="/images/wrn/Icons/161022_wrn.png" style="width: 115px; margin-top: 8px; margin-bottom: 8px;" /></a>
+
+<div style=" border-top-left-radius:10px; width: 250px; background: #1a2757; padding-bottom: 6px;
+    padding-top: 6px; text-align: center; border-bottom: 1px solid white;"><span style="font-size:16px;"><strong><span style="color:#FFFFFF;">Flooding Resources</span></strong></span></div>
+
+<div id="id01">&nbsp;</div>
+</div>
+
+<div class="div-full">
+<div class="div-full">
+<p>On this page you learn what types of flooding are typical in Virginia and how do you protect yourself, your family and your home. You will also find out more about significant Virginia floods. Finally, you&#39;ll find links to NWS offices that provide forecast and safety information for Virginia as well as links to our partners who play a significant role in keeping you safe.</p>
+
+<h1 style="background: #1a2757; border: 1px solid rgb(204, 204, 204); padding: 0px 5px;"><span style="color:#FFFFFF;"><span style="font-size:16px;"><strong>Significant Virginia Floods</strong></span></span></h1>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#fld"><span class="control">+</span>Election Day Flood November 4&ndash;5, 1985</a></h3>
+
+<div class="div-full toggle" id="fld" style="display:none;">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">In Virginia, Election Day 1985 will not be remembered for who won which office or which political party made a statement, but for record flooding that occurred across much of central and southwestern Virginia. This event had a slow build up to the final dramatic conclusion on Election Day. On October 31, Hurricane Juan made landfall along the Gulf Coast and slowly began a track to the north through Alabama, eventually weakening over the Smokey Mountains of Tennessee and western North Carolina. Finally Juan was absorbed by a slow moving cold front. In advance of Juan, tropical moisture had pushed up through the Carolinas into Virginia, enhancing rainfall across the state on the 1st thru the 3rd of November. This produced 1 to 4 inches of rain across the state; however, the system that followed Juan provided the knockout punch.
+<p>&nbsp;</p>
+
+<p>By the morning of the 4th, a developing system over the central US plains was strengthening and caused the front to the east to stall over Appalachian Mountains, while a new low pressure area developed in the Gulf of Mexico. This situation allowed the tropical moisture to continue to feed into the region. As this low lifted northward through the Carolinas, the rain intensified with embedded thunderstorms. Rainfall amounts of 6 to 10 inches occurred on the 4th and 5th. Overall for the 6 day period rain amounts of 6 to 14 inches were common with a high of 19.70 inches reported in Montebello, VA in Nelson County.&nbsp;</p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<p><img alt="Virginia 85 Floods" src="/images/safety/va-85-1.jpg" style="width: 403px; margin-left: 5px; margin-right: 5px; height: 447px;" /><br />
+			<em>Mid Atlantic Rainfall Nov 1&ndash;6, 1985</em><br />
+			<br />
+			With the soil already saturated by the rains from Juan, the rain immediately began to run off into area creeks and rivers. The rivers began to rise, quickly reaching bankfull and continuing to rise. The hardest hit areas were parts of the Roanoke River Basin and also the James River Basin. The city of Roanoke saw water levels rise nearly 19 feet in 12 hours, cresting at a record height of 23.35 feet.</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><a href="/images/safety/UT1983.jpg"><img alt="Montana Floods" src="/images/safety/va-85-2.jpg" style="width: 400px; margin-left: 5px; margin-right: 5px;" /></a><br />
+			<em>Hydrograph of the Roanoke River at Roanoke gage starting Mid-Morning November 4, 1985, courtesy NWS Roanoke</em></p>
+
+			<p>These rapid water level rises left many people stranded. Many people had to be rescued with boats, helicopters, tow trucks, and virtually any vehicle that could make it through the flood waters.</p>
+
+			<p>The death toll from the flooding was 22 people in Virginia with the monetary damage estimated at near $800 million (1985 U.S. dollars). The river flooding impacted four river basins with major flooding (Shenandoah, Roanoke, James and Chowan basins), with 23 points reaching or exceeding major flood stage and 5 points set all time record water levels.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="/images/safety/UT1983.jpg"><img alt="Montana Floods" src="/images/safety/va-85-3.jpg" style="width: 624px; margin-left: 5px; margin-right: 5px; height: 312px;" /></a><br />
+			<em>View of Downtown Richmond Nov 1985 facing south, courtesy VDEM</em></td>
+		</tr>
+		<tr>
+			<td>
+			<p><a href="/images/safety/UT1983.jpg"><img alt="Montana Floods" src="/images/safety/va-85-4.jpg" style="width: 624px; margin-left: 5px; margin-right: 5px; height: 443px;" /></a><br />
+			<em>Corner of US 60 and N17 St in Shockoe Bottom, Richmond VA, courtesy VDEM</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="Virginia 85 Floods" src="/images/safety/va-85-5.jpg" style="width: 450px; margin-left: 5px; margin-right: 5px; height: 360px;" /><br />
+			<em>Photo of Roanoke Virginia taken by Tommy Firebaugh</em></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Links:</strong></p>
+
+<div>
+<ul>
+	<li><a href="http://md.water.usgs.gov/publications/wsp-2375/va/index.html">USGS page showing areal coverage of the flooding</a>.</li>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.flickr.com/photos/vaemergency/sets/72157625298914190/detail/">Flood Photos</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#drs"><span class="control">+</span>Hurricane Agnes, June 21 -24, 1972</a></h3>
+
+<div class="div-full toggle" id="drs">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">Hurricane Agnes made landfall as a Category 1 storm on Monday, June 19 along the Florida Panhandle. As the storm, now a tropical depression, moved northeastward into the Carolinas on the 20th, rain began to spread across Virginia and intensified. The heavy rain continued into the 21st as Agnes re-intensified and became a tropical storm again. The rain continued into the 22nd as Agnes continued its slow northward progression along the Mid-Atlantic coast before making its second landfall along the New York/New Jersey boarder. The rainfall finally began to taper off on the 23rd, but not before dumping rainfall amounts of 5 to nearly 15 inches of rain across much of central and western Virginia.<br />
+<img alt="1948 Flood" src="/images/safety/va-72-1.jpg" style="width: 321px; margin-left: 5px; margin-right: 5px; height: 352px;" /><br />
+<em>Total Rainfall for Hurricane Agnes (NWS/NCEP/WPC)</em>
+
+<p>&nbsp;</p>
+
+<p>This rainfall triggered historic flooding across the Potomac River basin, the James River basin and portions of the Roanoke River Basin. At least 11 river gage locations measured water levels that were all-time record high levels and 30 locations in these basins measured crest there were in the top 10 all time. At the peak of the flooding, over 600 miles of highways were under water. Nearly 4,400 homes were damaged, with 95 being destroyed.</p>
+
+<p>Historic flooding occurred on the James River in Richmond, where nearly a sixth of the town was under water. Four of the five bridges that cross the James River into Richmond were destroyed and the water supply, sewage treatment, electric and gas plants in town were all flooded.</p>
+
+<p>In Scottsville, just 3 years after flooding from Camille, the city was again inundated with flood waters from the James River. The Scottsville Museum web site wrote &ldquo;Bruce&rsquo;s Drugstore on Valley and West Main Streets went under more than 12 feet of water!&rdquo;</p>
+
+<p>Devastating flooding also occurred on the Potomac River basin. A crest of 22 feet was reached at Little Falls, 10 feet above flood stage but about 3 feet below the record flood of March 1936. Numerous homes in the Seneca area were badly damaged, as were recreational facilities along the river.</p>
+
+<p>Overall, Agnes caused damage in the neighborhood of $222 million dollars (1972 dollars) along with 13 fatalities.</p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<p><em><img alt="1948 Flood" src="/images/safety/va-72-2.jpg" style="width: 321px; margin-left: 5px; margin-right: 5px; height: 352px;" /></em><br />
+			<em>Flooding of Shockoe Bottom from the I-95 overpass</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="1948 Flood" src="/images/safety/va-72-3.jpg" style="width: 477px; margin-left: 5px; margin-right: 5px; height: 373px;" /><br />
+			<em>Flood damage along Rt. 501, showing the James River about five miles west of Big Island. The building is the historic Snowden Dam and hydroelectric power station on the James River.</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="1948 Flood" src="/images/safety/va-72-4.jpg" style="width: 477px; margin-left: 5px; margin-right: 5px; height: 373px;" /></p>
+
+			<p><em>The bridge over the Appomattox River on Rt. 15 near Farmville</em></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p><img alt="1948 Flood" src="/images/safety/va-72-5.jpg" style="width: 478px; margin-left: 5px; margin-right: 5px; height: 326px;" /></p>
+
+			<p><em>The Rt. 1 Bridge over the Occoquan River sways under the pressure of flood waters</em></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p><strong>Learn More:</strong></p>
+
+<div>
+<ul>
+	<li>Washington Post:&nbsp;<a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.washingtonpost.com/blogs/capital-weather-gang/post/hurricane-agnes-a-look-back-after-40-years/2012/06/21/gJQAnDS0sV_blog.html">Hurricane Agnes: A look back after 40 years</a></li>
+	<li>USGS:&nbsp;<a href="http://md.water.usgs.gov/publications/wsp-2375/va/index.html">VIRGINIA Floods and Droughts</a></li>
+	<li>Wikipedia:<a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://en.wikipedia.org/wiki/Hurricane_Agnes">&nbsp;Hurricane Agnes</a></li>
+	<li>NWS Sterling, VA:&nbsp;<a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.accuweather.com/en/weather-news/40th-anniversary-of-agnes/66707">Hurricane Agnes 40th Anniversary</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#nov"><span class="control">+</span>Hurricane Camille Aug 19&ndash;20, 1969</a></h3>
+
+<div class="div-full toggle" id="nov">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">While Hurricane Camille will long be remembered for the catastrophic damage it produced along the Gulf coast, the inland flooding will long be remembered in Virginia. Two days after making landfall, Camille had been downgraded to a tropical depression and turned east from the Ohio Valley into the Central Appalachians. During the evening of the 19th, Tropical Depression Camille began to interact with a very humid late summer air mass over central and western Virginia along with a stalled east to west oriented frontal boundary. This combination of factors, along with the higher terrain in the Blue Ridge Mountains, produced continuous thunderstorms from late in evening on the 19th through the morning hours on the 20th. The heaviest rain fell across Rockbridge, Amherst and Nelson counties, where rainfall totals of 10 to 30 inches were reported.
+<p>&nbsp;</p>
+
+<p><img alt="" src="/images/safety/va-cam-1.jpg" style="width: 600px;" /><br />
+<em>Rain swath created during Camille&#39;s transit across the Mid Atlantic; rain contours in inches: Tom Rabenhorst, UMBC, adapted from F. Schwartz, 1970, Monthly Weather Review</em></p>
+
+<p>As a result of this rain, rivers and streams exploded with rapid water rises. Top soil in the higher terrain gave way, leading to massive mudslides, taking a large numbers of large trees. The trees and mud served to create temporary dams, which, when they broke, led to massive walls of water moving downstream with rapid water level rises that trapped people in their homes, destroyed buildings and bridges and often separated family and friends.</p>
+
+<p>When the rain ended during the morning hours of the 20th, the state had whole towns under water or swept away. In Nelson County alone, the death toll was 123. As the flood waters moved into the James River, from the Tye and Rockfish rivers, the water level rises pushed the James River into the major flood category. All gaging stations east of Holcomb Rock near Lynchburg recorded either the 2nd or 3rd highest water level in recorded history. In Richmond, the James crested at height of 28.60 ft., which was surpassed only during Hurricane Agnes (1972) and the Election Day floods in 1985. At Palmyra, on the Rivanna River, the river reached a record height of 39.85 ft. (flood stage 17 ft.), and at Buena Vista, the Maury River reached a record height of 31.23 ft. (flood stage 17 ft.). As a result of the damage and flooding, all communication between Richmond, the capital of Virginia, and the Shenandoah Valley was cut off, slowing any assistance. Overall, 153 deaths were attributed to the flooding from Camille with damage estimated between $113&ndash;$140 million dollars.<br />
+<br />
+<img alt="" src="/images/safety/va-cam-2.jpg" style="height: 434px; width: 520px;" /><br />
+<em>Aerial shot of massive mudflows in the mountains of Nelson County, VA, created by Hurricane Camille&acirc;&euro;&trade;s remnants, Dick Whitehead Collection</em><br />
+<br />
+<em><img alt="" src="/images/safety/va-cam-3.jpg" style="height: 345px; width: 440px;" /><br />
+The Schuyler bridge and hydroelectric dam on the Rockfish River were washed out by the hurricane forces. The bridge and power house have washed down river, but the smoke stack remains in place. Located at the intersection of Rt. 617 and Rt. 693 in Nelson County. 8/25/1969. No. 69-2080, Virginia Governor&#39;s Negative Collection, Library of Virginia</em><br />
+&nbsp;</p>
+
+<p><em><img alt="" src="/images/safety/va-cam-4.jpg" style="height: 345px; width: 440px;" /></em><br />
+<em>This Nelson County home has been literally turned on its side by the hurricane forces. Located on Rt. 655 at Roseland. 8/26/1969. No. 69-2201, Virginia Governor&#39;s Negative Collection, Library of Virginia.</em></p>
+
+<div><strong>Learn More:</strong>
+
+<ul type="disc">
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.vaemergency.gov/news/history/hurricane">Virginia Dept of Emergency Management: Hurricane History</a></li>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://hamptonroads.com/2009/08/hurricane-camille-part-1-when-rains-came">Pilotonline.com: Hurricane Camille, Part 1: When the rain came</a></li>
+	<li>Scottsville Museum:&nbsp;<a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://scottsvillemuseum.com/floods/home.html">Hurricane Camille</a></li>
+	<li>Pinterest:&nbsp;<a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.pinterest.com/libraryofva/hurricane-seasons-past/">Hurricane Seasons Past</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#fedi"><span class="control">+</span>Hurricane Fran September 5&ndash;8, 1996</a></h3>
+
+<div class="div-full toggle" id="fedi">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">Hurricane Fran is remembered more for the damage it caused in North Carolina, where it made landfall on the night of September 5, 1996, near Cape Fear, NC, but it also produced flooding rains across much of Virginia, including record flooding for portions of the Shenandoah River Basin. Although the rain began on the 5th, the center of Tropical Storm Fran moved into southern Virginia, near Danville, on the morning of the 6th and quickly raced north northwest across the Blue Ridge and into the Central Appalachians near Morgantown WV by the evening of the 6th. Despite the rapid movement of the system, the rain was heavy and with the southeasterly flow that developed ahead of the center of Fran. The terrain helped to enhance that rainfall. Overall, along the track of the storm, the rainfall amounts were between 3 to 7 inches, with amounts of 7 to 15 inches across the Shenandoah Basin.
+<p>&nbsp;</p>
+
+<p><img alt="" src="/images/safety/va-fran-1.jpg" style="width: 427px; height: 447px;" /><br />
+<em>Total rainfall from Hurricane Fran</em></p>
+
+<p>As a result of this rain, major flooding occurred from the Roanoke River basin northward through the James, Shenandoah and Potomac River basins, including 4 locations in the Shenandoah Basin which recorded all time record river levels.</p>
+
+<p>The hardest hit areas were in Page and Rockingham counties. In Page County, The Virginia Department of Emergency Management reported hundreds of people were rescued with 78 homes destroyed and 417 damaged. In the town of Luray, one home was pushed off its foundation by flood waters from Hawksbill Creek and deposited on the high school football field. Water level rose as high as 2 feet from the top of the field goal upright. In Rockingham County, 40 homes were destroyed and 105 suffered major damage. The state incurred nearly $350 Million in damage with a death toll of 6.<br />
+<br />
+<img alt="" src="/images/safety/va-fran-2.jpg" style="width: 468px; height: 310px;" /><br />
+<em>Potomac River at Great Falls State Park (Courtesy National Park Service)</em><br />
+<br />
+<img alt="" src="/images/safety/va-fran-3.jpg" style="width: 236px; height: 310px;" /><br />
+<em>Another view of the Potomac from Great Falls Overlook 3 (Courtesy National Park Service)</em></p>
+
+<table border="0" width="100%">
+	<tbody>
+		<tr>
+			<td><img alt="" src="/images/safety/va-fran-4a.jpg" style="width: 280px; height: 180px;" /></td>
+			<td><img alt="" src="/images/safety/va-fran-4b.jpg" style="width: 280px; height: 180px;" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>Potomac River at Chain Bridge near Washington, D.C. Looking upstream during flood of September 8, 1996 and during low flow. Images from United States Geological Survey</p>
+
+<p><strong>Learn More:</strong></p>
+
+<div>
+<ul>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://articles.latimes.com/1996-09-22/sports/sp-46662_1_football-field">Flood article on Page County</a></li>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://www.vaemergency.gov/news/history/hurricane">VDEM account of Hurricane Fran</a></li>
+	<li><a href="http://md.water.usgs.gov/floods/fran/flood_0996.html">USGS report for flooding on the Potomac Basin</a></li>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://en.wikipedia.org/wiki/Hurricane_Fran">Wikipedia: Hurricane Fran</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#dfsa"><span class="control">+</span>SE Hurricane August 1940</a></h3>
+
+<div class="div-full toggle" id="dfsa">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">The 3rd hurricane of 1940 struck the Georgia/south Carolina coast on August 11, 1940, and slowly moved northwest into Eastern Tennessee by the 13th as it weakened. But across Southern Virginia, the rain began to fall on the 13th and as the remnants of the hurricane turned back to the east on the 14th, drifting through southwest Virginia into northern North Carolina on the 15th, the widespread rain intensified. This rain reached as far north as the Shenandoah Valley and produced rainfall amounts of 5 to nearly 15 inches of rain fell across these basins.<br />
+<br />
+<img alt="" src="/images/safety/va-se-1.jpg" style="width: 378px; height: 323px;" /><br />
+<em>Rainfall Summary for SE US Hurricane 1940, NWS/NCEP/WPC</em>
+
+<p>&nbsp;</p>
+
+<p>As a result of these rains, the river levels rose dramatically, with record crest in parts of the New, Roanoke, Chowan and Appomattox River basins. Twelve different gaging locations saw record water levels from this rain. There were 5 deaths reported along with hundreds of thousands of dollars in property damage. Highway damage alone produced damage of nearly $750,000 according to a report from the USGS. The tobacco crop in southern Virginia was largely destroyed by the flood waters.</p>
+
+<p>Further to the north in the James River basin, the&nbsp;<em>Scottsville News</em>&nbsp;and&nbsp;<em>Albemarle Current</em>&nbsp;wrote &ldquo;Flood Warnings out in Scottsville and all along the James from Lynchburg to Richmond. Reports coming in during Thursday as we go to press say the river is rising a foot an hour with a 22 ft. depth expected here in the morning. Merchants in town on Main Street already are under 3 inches of water.&rdquo; The James River at Scottsville crested at 25.84 ft. on the 16th of August. That water level is currently the 8th highest value seen in Scottsville.</p>
+
+<p><strong>Learn More:</strong></p>
+
+<div>
+<ul>
+	<li><a href="http://www.weather.gov/nwsexit.php?site=nws&amp;url=http://scottsvillemuseum.com/floods/home.html">Scottsville Museum Records</a></li>
+	<li>USGS:&nbsp;<a href="http://md.water.usgs.gov/publications/wsp-2375/va/index.html">Virginia Floods and Droughts</a></li>
+	<li>NWS:&nbsp;<a href="http://www.wpc.ncep.noaa.gov/research/roth/vaerly20hur.htm">Early 10th Century summary</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="div-full">
+<h1 style="background: #1a2757; border: 1px solid rgb(204, 204, 204); padding: 0px 5px;"><span style="color:#FFFFFF;"><span style="font-size:16px;"><strong>Flood Hazard Information</strong></span></span></h1>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#fl"><span class="control">+</span>Flash Flooding</a></h3>
+
+<div class="div-full toggle" id="fl">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">Flash flooding is a rapid and extreme flow of high water into a normally dry area, or a rapid water level rise in a stream or creek above a predetermined flood level, beginning within six hours of the causative event (i.e., intense rainfall, dam failure, ice jam).&nbsp;<a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#rf"><span class="control">+</span>River Flooding</a></h3>
+
+<div class="div-full toggle" id="rf">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">River flooding occurs when river levels rise and overflow their banks or the edges of their main channel and inundate areas that are normally dry.&nbsp;<a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#dbp"><span class="control">+</span>Tropical Systems and Coastal Flooding</a></h3>
+
+<div class="div-full toggle" id="dbp">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">At any time of year, a storm from over the ocean can bring heavy precipitation to the U.S. coasts. Whether such a storm is tropical or not, prolonged periods of heavy precipitation can cause flooding in coastal areas, as well as further inland as the storm moves on shore. <a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#co"><span class="control">+</span>Ice/Debris Jams</a></h3>
+
+<div class="div-full toggle" id="co">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">A back-up of water into surrounding areas can occur when a river or stream is blocked by a build-up of ice or other debris. Debris Jam: A back-up of water into surrounding areas can occur when a river or stream is blocked by a build-up of debris.&nbsp;<a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#colk"><span class="control">+</span>Snowmelt</a></h3>
+
+<div class="div-full toggle" id="colk">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">Flooding due to snowmelt most often occurs in the spring when rapidly warming temperatures quickly melt the snow. The water runs off the already saturated ground into nearby streams and rivers, causing them to rapidly rise and, in some cases, overflow their banks. <a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<h3 class="rsc" style="padding-left: 30px;"><a class="toggle" href="#" id="#dbl"><span class="control">+</span>Dam Breaks/Levee Failure</a></h3>
+
+<div class="div-full toggle" id="dbl">
+<div style=" width:890px; margin-left: 40px; margin-right:5px;">A break or failure can occur with little to no warning. Most often they are caused by water overtopping the structure, excessive seepage through the surrounding ground, or a structural failure.&nbsp;<a href="https://www.weather.gov/safety/flood-hazards">More information</a>...</div>
+</div>
+
+<table align="center" border="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<table align="left" border="0" width="100%">
+				<tbody>
+					<tr>
+						<td colspan="3" style="background: #1a2757; border: 1px solid rgb(204, 204, 204); padding: 4px 4px;"><span style="color:#FFFFFF;"><span style="font-size:16px;"><strong>Protect Life and Property&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NWS Forecast Offices and River Forecast Centers (RFC) Covering Virginia</strong></span></span></td>
+					</tr>
+					<tr>
+						<td align="left" height="97" valign="top">
+						<ul>
+							<li><a href="https://www.weather.gov/safety/flood/">Flood Safety Info</a></li>
+							<li><a href="https://www.weather.gov/wrn/">Weather-Ready Nation</a></li>
+							<li><a href="https://www.ready.gov/">Ready.gov</a></li>
+							<li><a href="https://www.fema.gov/national-flood-insurance-program">FloodSmart Flood Insurance</a></li>
+						</ul>
+						</td>
+						<td align="left" valign="top" width="36%">
+						<ul>
+							<li><a href="https://www.weather.gov/lwx/">WFO Baltimore, MD/Washington, DC</a></li>
+							<li><a href="https://www.weather.gov/rnk/">WFO Roanoke, VA</a></li>
+							<li><a href="https://www.weather.gov/akq/">WFO Wakefield, VA</a></li>
+							<li><a href="https://www.weather.gov/mrx/">WFO Knoxville/Tri-Cities, TN</a><a href="https://www.weather.gov/chs/"> </a></li>
+							<li><a href="https://www.weather.gov/chs/">WFO Charleston, WV</a></li>
+						</ul>
+						</td>
+						<td align="left" valign="top" width="35%">
+						<ul>
+							<li><a href="https://www.weather.gov/lmrfc/">Lower Mississippi RFC, Slidell LA</a></li>
+							<li><a href="https://www.weather.gov/marfc/">Middle Atlantic RFC, State College PA</a></li>
+							<li><a href="https://www.weather.gov/ohrfc/">Ohio RFC, Wilmington OH</a></li>
+						</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div>&nbsp;</div>
+<script type="text/javascript">
+					$(document).ready(function() {
+						function toggleBlock() {
+							$($(this).attr("id")).toggle();
+							if ($($(this).attr("id")).css("display") == "none" ) {
+								$(this).children(".control").html("&#43;");
+							}
+							else {
+								$(this).children(".control").html("&ndash;");
+							};
+							return false;
+						}						
+
+						$("div.toggle:gt(0)").css({'display':'none'});
+						$("a.toggle").attr("title","Click to expand and contract");
+						$("a.toggle").click(toggleBlock);
+						$(".atoggle").keypress(toggleBlock);						
+
+					});
+			</script></div>
+</div>
+<link href="/source/safety/css/menuFd.css" rel="stylesheet" type="text/css" /><script src="/source/safety/js/menu.js">
+</script><script src="/source/safety/js/floodMenu.js">
+</script><script src="/source/safety/js/floodMenuRs.js"></script><script src="/source/safety/js/menuWrap.js"></script></div>
+            </div>
+            <div style="clear:both"></div>
+            
+                        </div>
+  
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+                </div><!-- <div class="full-width-border"> -->
+
+                <div class="partial-width-borderbottom feature-block">
+                    <!-- area for features, frontpage thumbs, and custom page -->
+                    
+                    
+                </div><!-- end of <div class="partial-width-borderbottom feature-block"> -->
+
+                <div class="full-width-first">
+                    
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+                    <div class="footer-legal">
+            <div class="footer-legal-content">
+
+                <div class="one-sixth-first" id="footer_legal_gov">
+                    <a href="http://www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+                </div>
+
+                <div class="one-half-first" id="footer_legal_info">
+                    <p> 
+                        <a href="http://www.commerce.gov">US Dept of Commerce</a><br />
+                        <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
+                        <a href="https://www.weather.gov" >National Weather Service</a><br />
+                        Safety<br>1325 East West Highway<br />Silver Spring, MD 20910<br /><br /><br /><a href="mailto:wrn.feedback@noaa.gov">Comments? Questions? Please Contact Us.</a>                    </p>
+                </div><!-- end of <div class="one-half-first" id="footer_legal_info"> -->
+
+                <div class="one-third-last" id="footer_required_links">
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br />
+                        <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br />
+                        <a href="https://www.weather.gov/help">Help</a><br />
+                        <a href="http://www.weather.gov/glossary">Glossary</a>
+                    </div>
+
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/privacy">Privacy Policy</a><br />
+                        <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br />
+                        <a href="https://www.weather.gov/about">About Us</a><br />
+                        <a href="https://www.weather.gov/careers">Career Opportunities</a>
+                    </div>
+                </div><!-- end of <div class="one-third-last" id="footer_required_links"> -->
+
+            </div><!-- end of <div class="footer-legal-content"> -->
+        </div><!-- end of <div class="footer-legal"> -->
+        
+        </div><!-- end of <div class="footer-legal"> -->
+
+        <script type="text/javascript" src="//www.weather.gov/js/govshutdown.js"></script>
+    </body>
+</html>

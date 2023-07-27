@@ -1,0 +1,1773 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+    prefix="fb: http://ogp.me/ns/fb# og: http://ogp.me/ns# article: http://ogp.me/ns/article# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product#"
+    class="is-route-forecasts"
+    data-ng-controller="WB.AppController as app"
+    data-ng-strict-di
+    ng-class="app.bodyClasses()"
+>
+<head>
+    <!--  TODO: should we/can we preload our webpack bundle? -->
+    <link href="/dist/styles.css?v=vL4mU0SNLiNoCf44Uc6sNDhG3m-OUdS0bdCcAkUR-1M" rel="stylesheet">
+
+    <!-- Google Tag Manager -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+        </script>
+        <script>
+            var containerId = "GTM-PZG22JQ";
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != "dataLayer" ? "&l=" + l : "";
+                j.async = true;
+                j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, "script", "dataLayer", containerId);
+        </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- PreLoad Fonts -->
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nhLwFvNxpkIoVzlXSkPSYkA.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nk4GofcKVZz6wtzX_QUIqsI.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4ED0LW-43aMEzIO6XUTLjad8.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/RFda8w1V0eDZheqfcyQ4EOgdm0LZdjqr5-oayXSOefg.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/So5lHxHT37p2SS4-t60SlMAbIeegqMtwkwn2ZHUR4Nk.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/merriweather/v8/So5lHxHT37p2SS4-t60SlBMBlNeli-0RcAdOFWWLdxQ.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGD_j0nMiB9fPhg_k1wdK2h0.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGDRVvBvQIc1z78c__uoBcyI.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNOAHFN6BivSraYkjhveRHY.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlC2Q8seG17bfDXYR_jUsrzg.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGClYwVOhDRq2vbpGRTZ7bbs.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFKFh1TDTPrUZWzVp6FtpG8.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGCOFnW3Jk0f09zW_Yln67Ac.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGDovqjS_dXPZszO_XltPdNg.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGFxe-GPfKKFmiXaJ_Q0GFr8.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/toadOcfmlt9b38dHJxOBGEo0As1BFRXtCDhS66znb_k.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM7YHq4FgHI02B8rPccK0FJQ.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoM40tgx99jmYGv_xzYuwd1rU.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="preload" href="//fonts.gstatic.com/s/sourcesanspro/v9/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- End PreLoad Fonts -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+    <base href="/">
+        <meta name="google-play-app" content="app-id=com.aws.android">
+        <meta name="apple-itunes-app" content="app-id=281940292">
+
+    <!-- WeatherBug logo -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#logo",
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "https://www.weatherbug.com",
+        "logo": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png"
+    }
+    </script>
+
+    <!-- Android Mobile App (Free) -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#mobileapplication-androidfree",
+        "@context": "http://schema.org",
+        "@type": "MobileApplication",
+        "operatingSystem": "Android",
+        "screenshot": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "bestRating" : "5",
+            "ratingCount": "976228"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        },
+        "isFamilyFriendly": "true",
+        "thumbnailUrl": "https://www.weatherbug.com/images/logos/weatherbug_free_230x230.jpg",
+        "alternateName": "WeatherBug",
+        "description": "Ad-free version of the highly rated WeatherBug app. WeatherBug is powered by the world's largest network of professional weather stations, providing the fastest weather alerts, real-time weather conditions, accurate hourly forecasts & 10-day forecasts, over a dozen weather maps including Doppler radar, satellite, lightning alerts, precipitation, local temperature, local pressure, local radar, wind chill, heat index, humid, wind, pollen, UV and much more!",
+        "image": "https://www.weatherbug.com/images/logos/weatherbug_free_230x230.jpg",
+        "name": "Weather by WeatherBug: Forecast, Radar & Alerts",
+        "url": "https://play.google.com/store/apps/details?id=com.aws.android"
+    }
+    </script>
+
+    <!-- Android Mobile App (Elite) -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#mobileapplication-androidelite",
+        "@context": "http://schema.org",
+        "@type": "MobileApplication",
+        "operatingSystem": "Android 4.4 or later",
+        "screenshot": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "bestRating" : "5",
+            "ratingCount": "63760"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "USD"
+        },
+        "isFamilyFriendly": "true",
+        "thumbnailUrl": "https://www.weatherbug.com/images/logos/weatherbug_elite_230x230.jpg",
+        "alternateName": "WeatherBug",
+        "description": "Ad-free version of the highly rated WeatherBug app. WeatherBug is powered by the world's largest network of professional weather stations, providing the fastest weather alerts, real-time weather conditions, accurate hourly forecasts & 10-day forecasts, over a dozen weather maps including Doppler radar, satellite, lightning alerts, precipitation, local temperature, local pressure, local radar, wind chill, heat index, humid, wind, pollen, UV and much more!",
+        "image": "https://www.weatherbug.com/images/logos/weatherbug_elite_230x230.jpg",
+        "name": "Weather Elite by WeatherBug",
+        "url": "https://play.google.com/store/apps/details?id=com.aws.android.elite"
+    }
+    </script>
+
+    <!-- iOS Mobile App (Free) -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#mobileapplication-iosfree",
+        "@context": "http://schema.org",
+        "@type": "MobileApplication",
+        "operatingSystem": "iOS 9.0 or later",
+        "screenshot": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "bestRating" : "5",
+            "ratingCount": "338303"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        },
+        "isFamilyFriendly": "true",
+        "thumbnailUrl": "https://www.weatherbug.com/images/logos/weatherbug_free_230x230.jpg",
+        "alternateName": "WeatherBug",
+        "description": "The most popular weather app powered by the largest professional weather network in the world! Our weather network delivers the fastest alerts and the best real-time forecasts (current, hourly and 10-day).",
+        "image": "https://www.weatherbug.com/images/logos/weatherbug_free_230x230.jpg",
+        "name": "WeatherBug - Radar, Forecast",
+        "url": "https://itunes.apple.com/us/app/weatherbug-elite/id281940292?mt=8"
+    }
+    </script>
+
+    <!-- iOS Mobile App (Elite) -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#mobileapplication-ioselite",
+        "@context": "http://schema.org",
+        "@type": "MobileApplication",
+        "operatingSystem": "iOS 9.0 or later",
+        "screenshot": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "bestRating" : "5",
+            "ratingCount": "12768"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "9.99",
+            "priceCurrency": "USD"
+        },
+        "isFamilyFriendly": "true",
+        "thumbnailUrl": "https://www.weatherbug.com/images/logos/weatherbug_elite_230x230.jpg",
+        "alternateName": "WeatherBug",
+        "description": "Ad-free version of WeatherBug, the most popular weather app powered by the largest professional weather network in the world! Our weather network delivers the fastest alerts and the best real-time forecasts (current, hourly and 10-day).",
+        "image": "https://www.weatherbug.com/images/logos/weatherbug_elite_230x230.jpg",
+        "name": "WeatherBug Elite",
+        "url": "https://itunes.apple.com/us/app/weatherbug-elite/id310647896?mt=8"
+    }
+    </script>
+
+    <!-- MacOS App (Free) -->
+    <script type="application/ld+json">
+    {
+        "@id":"https://www.weatherbug.com/#softwareapplication-macosfree",
+        "@context": "http://schema.org",
+        "@type": "SoftwareApplication",
+        "operatingSystem": "Mac OS X 10.11 or later, 64-bit processor",
+        "screenshot": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "2.5",
+            "bestRating" : "5",
+            "ratingCount": "73"
+        },
+        "offers": {
+            "@type": "Offer",
+            "price": "0.00",
+            "priceCurrency": "USD"
+        },
+        "isFamilyFriendly": "true",
+        "thumbnailUrl": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "alternateName": "WeatherBug",
+        "description": "Get all the weather information you need straight from your menu bar with WeatherBug! See real-time weather conditions, get severe weather alerts, check the hourly forecast, and see a live radar view for all your favorite locations. Download the weather app powered by the largest professional weather network in the world! Our weather network delivers the fastest alerts and the best real-time forecasts.",
+        "image": "https://www.weatherbug.com/images/logos/weatherbug_logo_620x447.png",
+        "name": "WeatherBug - Weather Forecasts and Alerts",
+        "url": "https://itunes.apple.com/us/app/weatherbug-weather-forecasts-and-alerts/id1059074180?mt=12"
+    }
+    </script>
+
+    <!-- Google Sitelinks Searchbox -->
+    <script type='application/ld+json'>
+    {
+        "@id":"https://www.weatherbug.com/#website",
+        "@context" : "https://schema.org",
+        "@type" : "website",
+        "name" : "WeatherBug",
+        "url":"https://www.weatherbug.com/",
+        "potentialAction": {
+            "@type":"SearchAction",
+            "target":"https://www.weatherbug.com/?utm_source=google&utm_medium=sitelinksearchbox&utm_term={weather_location}&utm_medium=sitelinksearchbox&lq={weather_location}",
+            "query-input": "required name=weather_location"
+        }
+    }
+    </script>
+
+    <!-- Social Network Profiles -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@id": "https://www.weatherbug.com/#organization",
+        "@type": "Organization",
+        "name": "WeatherBug",
+        "url": "https://www.weatherbug.com",
+        "logo": "https://www.weatherbug.com/images/sharing/f1ff28ba-6f06-4745-a782-011a20397e16.png",
+        "sameAs": [
+            "https://www.facebook.com/WeatherBug/",
+            "https://instagram.com/WeatherBug/",
+            "https://www.linkedin.com/company/weatherbug",
+            "https://www.pinterest.com/weatherbug/",
+            "https://twitter.com/WeatherBug",
+            "https://www.youtube.com/user/WeatherBugVideo",
+            "https://plus.google.com/104149887451329183664"
+        ]
+    }
+    </script>
+
+     <!-- DNS Prefetch -->
+        <link rel="dns-prefetch" href="//web-maps.api.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-maps.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-mood.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-plln.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-snwski.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-story.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-trffc.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-uv.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-loc.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-aqi.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-cam.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-photo.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-cm.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-obs.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-life.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-alm.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-for.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-alert.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-lx.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-bcast.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-legal.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-con.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-clog.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//oasc18.247realmedia.com">
+        <link rel="dns-prefetch" href="//d2erwcr27wae6d.cloudfront.net">
+        <link rel="dns-prefetch" href="//d3op7nfti4wt5l.cloudfront.net">
+        <link rel="dns-prefetch" href="//photos-photo.cdn.weatherbug.net">
+        <link rel="dns-prefetch" href="//photos.weatherbug.com">
+        <link rel="dns-prefetch" href="//aweb-maps.api.weatherbug.net">
+        <link rel="dns-prefetch" href="//bweb-maps.api.weatherbug.net">
+        <link rel="dns-prefetch" href="//cweb-maps.api.weatherbug.net">
+        <link rel="dns-prefetch" href="//dweb-maps.api.weatherbug.net">
+        <link rel="dns-prefetch" href="//business.weatherbug.com">
+        <link rel="dns-prefetch" href="//cameras-cam.cdn.weatherbug.net">
+        <link rel="dns-prefetch" href="//community.weatherbug.com">
+        <link rel="dns-prefetch" href="//https-video.weatherbug.com">
+        <link rel="dns-prefetch" href="//ie.trafficland.com">
+        <link rel="dns-prefetch" href="//knowbefore.weatherbug.com">
+        <link rel="dns-prefetch" href="//login.weatherbug.com">
+        <link rel="dns-prefetch" href="//ajax.googleapis.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+        <link rel="dns-prefetch" href="//www.googletagservices.com">
+        <link rel="dns-prefetch" href="//sb.scorecardresearch.com">
+        <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+        <link rel="dns-prefetch" href="//cdn.adnxs.com">
+        <link rel="dns-prefetch" href="//cdn.oas-c18.adnxs.com">
+        <link rel="dns-prefetch" href="//ib.adnxs.com">
+        <link rel="dns-prefetch" href="//api.mapbox.com">
+        <link rel="dns-prefetch" href="//api.tiles.mapbox.com">
+        <link rel="dns-prefetch" href="//a.tiles.mapbox.com">
+        <link rel="dns-prefetch" href="//b.tiles.mapbox.com">
+        <link rel="dns-prefetch" href="//c.tiles.mapbox.com">
+        <link rel="dns-prefetch" href="//d.tiles.mapbox.com">
+        <link rel="dns-prefetch" href="//privacy-policy.truste.com">
+        <link rel="dns-prefetch" href="//ad.crwdcntrl.net">
+        <link rel="dns-prefetch" href="//tags.crwdcntrl.net">
+        <link rel="dns-prefetch" href="//ads.rubiconproject.com">
+        <link rel="dns-prefetch" href="//beacon-us-iad3.rubiconproject.com">
+        <link rel="dns-prefetch" href="//eus.rubiconproject.com">
+        <link rel="dns-prefetch" href="//optimized-by.rubiconproject.com">
+        <link rel="dns-prefetch" href="//geo.moatads.com">
+        <link rel="dns-prefetch" href="//px.moatads.com">
+        <link rel="dns-prefetch" href="//quantcast584928381.s.moatpixel.com">
+        <link rel="dns-prefetch" href="//z.moatads.com">
+        <link rel="dns-prefetch" href="//adserver-us.adtech.advertising.com">
+        <link rel="dns-prefetch" href="//web-em.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//www.groundtruth.com">
+        <link rel="dns-prefetch" href="//assets.kochava.com">
+        <link rel="dns-prefetch" href="//rhetoricalloss.com">
+        <link rel="dns-prefetch" href="//content.jwplatform.com">
+        <link rel="dns-prefetch" href="//cdn.taboola.com">
+        <link rel="dns-prefetch" href="//web-sdk.control.kochava.com">
+        <link rel="dns-prefetch" href="//ad.doubleclick.net">
+        <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+        <link rel="dns-prefetch" href="//web-maps.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//web-fire.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//aboardamusement.com">
+        <link rel="dns-prefetch" href="//acdn.adnxs.com">
+        <link rel="dns-prefetch" href="//web-ads.pulse.weatherbug.net">
+        <link rel="dns-prefetch" href="//as-sec.casalemedia.com">
+        <link rel="dns-prefetch" href="//tlx.3lift.com">
+        <link rel="dns-prefetch" href="//fastlane.rubiconproject.com">
+        <link rel="dns-prefetch" href="//pre.ads.justpremium.com">
+        <link rel="dns-prefetch" href="//trc.taboola.com">
+        <link rel="dns-prefetch" href="//15.taboola.com">
+        <link rel="dns-prefetch" href="//images.taboola.com">
+        <link rel="dns-prefetch" href="//vidstat.taboola.com">
+        <link rel="dns-prefetch" href="//nym1-ib.adnxs.com">
+        <link rel="dns-prefetch" href="//saambaa.com">
+        <link rel="dns-prefetch" href="//imprnjmp.taboola.com">
+        <link rel="dns-prefetch" href="//wf.taboola.com">
+        <link rel="dns-prefetch" href="//us-vid-events.taboola.com">
+        <link rel="dns-prefetch" href="//us-match.taboola.com">
+        <link rel="dns-prefetch" href="//biddr.brealtime.com">
+        <link rel="dns-prefetch" href="//js-sec.indexww.com">
+        <link rel="dns-prefetch" href="//ads.pubmatic.com">
+        <link rel="dns-prefetch" href="//eb2.3lift.com">
+        <link rel="dns-prefetch" href="//adservice.google.com">
+        <link rel="dns-prefetch" href="//securepubads.g.doubleclick.net">
+        <link rel="dns-prefetch" href="//saambaa.azureedge.net">
+        <link rel="dns-prefetch" href="//rules.quantcount.com">
+        <link rel="dns-prefetch" href="//search.spotxchange.com">
+        <link rel="dns-prefetch" href="//pixel.quantserve.com">
+        <link rel="dns-prefetch" href="//ads.stickyadstv.com">
+        <link rel="dns-prefetch" href="//polyfill.io">
+        <link rel="dns-prefetch" href="//lax1-ib.adnxs.com">
+        <link rel="dns-prefetch" href="//ads.stickyadstv.com">
+        <link rel="dns-prefetch" href="//cdn.stickyadstv.com">
+        <link rel="dns-prefetch" href="//www.lightboxcdn.com">
+        <link rel="dns-prefetch" href="//bidder.criteo.com">
+    <!-- End DNS Prefetch -->
+
+    <!-- PreConnects -->
+        <link rel="preconnect" href="//polyfill.io" crossorigin>
+        <link rel="preconnect" href="//api.mapbox.com" crossorigin>
+        <link rel="preconnect" href="//web-clog.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-maps.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-maps.api.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//ib.adnxs.com" crossorigin>
+        <link rel="preconnect" href="//assets.kochava.com" crossorigin>
+        <link rel="preconnect" href="//web-push.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-con.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-ads.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-story.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-loc.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-cm.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-obs.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-for.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-alert.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//web-legal.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//cdn.adnxs.com" crossorigin>
+        <link rel="preconnect" href="//rhetoricalloss.com" crossorigin>
+        <link rel="preconnect" href="//content.jwplatform.com" crossorigin>
+        <link rel="preconnect" href="//cdn.taboola.com" crossorigin>
+        <link rel="preconnect" href="//web-fire.pulse.weatherbug.net" crossorigin>
+        <link rel="preconnect" href="//aboardamusement.com" crossorigin>
+    <!-- End PreConnects -->
+
+
+    <!-- Setup app -->
+    <script>
+        window.WB = Window.WB || {};
+        window.locale = "en-us";
+    </script>
+
+    <!-- Preloads -->
+    <link rel="preload" as="script" href="//ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js">
+    <link rel="preload" as="script" href="//cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.5.11/angular-locale_en-us.min.js">
+    <!-- End preloads -->
+
+    <title>Manchester, New Hampshire | Current Weather Forecasts, Live Radar Maps &amp; News | WeatherBug</title>
+
+    
+    <meta name="description" content="Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day">
+    <meta name="keywords" content="weather, weather forecast, local weather, national weather, temperature, radar, lightning, hurricane, camera">
+    <meta property="og:title" content="Manchester, New Hampshire | Current Weather Forecasts, Live Radar Maps &amp; News | WeatherBug"><meta property="og:type" content="website"><meta property="og:image" content="https://www.weatherbug.com/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png"><meta property="og:url" content="https://www.weatherbug.com/weather-forecast/now/manchester-nh-03103"><meta property="og:description" content="Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day"><meta property="og:site_name" content="WeatherBug"><meta property="og:image:secure_url" content="https://www.weatherbug.com/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png"><meta property="og:image:alt" content="Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day"><meta name="twitter:title" content="Manchester, New Hampshire | Current Weather Forecasts, Live Radar Maps &amp; News | WeatherBug"><meta name="twitter:description" content="Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day"><meta name="twitter:image" content="https://www.weatherbug.com/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png"><meta name="twitter:card" content="summary"><meta name="twitter:url" content="https://www.weatherbug.com/weather-forecast/now/manchester-nh-03103">
+
+    <!-- Start Facebook -->
+    <!-- Start general attributes -->
+    <meta property="fb:app_id"               content="1704148569805123">
+    <meta property="fb:profile_id"           content="WeatherBug">
+    <meta property="fb:pages"                content="117417386738">
+
+    <!-- End general attributes -->
+
+    <!-- Start app links -->
+    <!-- https://developers.facebook.com/docs/applinks/metadata-reference -->
+    <!--
+    <meta property="al:ios:url"              content="example://applinks" />
+    <meta property="al:ios:app_store_id"     content="12345" />
+    <meta property="al:ios:app_name"         content="Example App" />
+    <meta property="al:android:url"          content="sharesample://story/1234">
+    <meta property="al:android:package"      content="com.facebook.samples.sharesample">
+    <meta property="al:android:app_name"     content="ShareSample">
+    <meta property="al:web:url"              content="http://applinks.org/documentation" />
+    -->
+    <!-- End app links -->
+    <!-- End Facebook -->
+
+    <!-- Start Twitter -->
+    <!-- Start general attributes -->
+    <meta name="twitter:site"                content="@WeatherBug">
+    <meta name="twitter:creator"             content="@WeatherBug">
+    <!-- End general attributes -->
+
+    <!-- Start app card attributes -->
+    <meta name="twitter:app:name:iphone"     content="WeatherBug - Radar, Forecast">
+    <meta name="twitter:app:id:iphone"       content="281940292">
+    <meta name="twitter:app:url:iphone"      content="https://itunes.apple.com/us/app/weatherbug-radar-forecast/id281940292?mt=8">
+
+    <meta name="twitter:app:name:ipad"       content="WeatherBug - Radar, Forecast">
+    <meta name="twitter:app:id:ipad"         content="281940292">
+    <meta name="twitter:app:url:ipad"        content="https://itunes.apple.com/us/app/weatherbug-radar-forecast/id281940292?mt=8">
+
+    <meta name="twitter:app:name:googleplay" content="Weather by WeatherBug">
+    <meta name="twitter:app:id:googleplay"   content="com.aws.android">
+    <meta name="twitter:app:url:googleplay"  content="https://play.google.com/store/apps/details?id=com.aws.android">
+
+    <!-- End app card attributes -->
+    <!-- End Twitter -->
+
+    <link rel="canonical" href="https://www.weatherbug.com/weather-forecast/now/manchester-nh-03103">
+    <link rel="shortcut icon" href="/images/favicon-32x32.png?v=qslFNtVRrEWUm4bY4MzQoZB8hsn08ZJMOnaS9cAHCrU" type="image/png" />
+    <link rel="shortcut icon" href="favicon.ico?v=GbCOIntqjbG2NuUhjniK493hbF8BXvyIauHQCIb4vlE" type="image/x-icon" />
+
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png?v=bFlLmIVOVSAtj7p71ZjjcfeTy2-f3maQa5fiJs_4SJg" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png?v=qslFNtVRrEWUm4bY4MzQoZB8hsn08ZJMOnaS9cAHCrU" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon-96x96.png?v=1r1chZbPj9UlyEKfkgonJ0Vz63qk1M_PGG1l5kGhAa4" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/favicon-160x160.png?v=oztmJmRVG-KMRGfpZhPpRUa_e6k8-PzlIcK936fueuQ" sizes="160x160" />
+    <link rel="icon" type="image/png" href="/images/favicon-196x196.png?v=sCB8WAF7bTDjrhMyoccxMAY_CeWL3mEUDeJTg22IYDs" sizes="196x196" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png?v=hU1rBJtQ4F6-kt_lmILAU-PnmNifBOQqGmIGv60l8m0" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-touch-icon-114x114.png?v=aMhwoB_vI5KoBubvPNgVAD87NKuYmGy01QZzU4-XHOE" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png?v=4L86L5o8XEeXg2Btrh54z5Y4b_0P3cwI2Pvl0nKHT2Y" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-touch-icon-144x144.png?v=ZqcQi6fgWJngMK7ajUqNdr8wmAQdFTL7ZgD5KLFjCPo" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-touch-icon-60x60.png?v=sHrUM9JEpiBqwDtsQ-mg30TnlxG_bJgkYibSsYq6oc0" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-touch-icon-120x120.png?v=wYvisnE_PyBfuZ2auE4l6PZuTVNQIt_rz3bKTTlB5Bg" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-touch-icon-76x76.png?v=9nt2xpY3-VPvWZN7UizafHDdwmLE1wLNmcZyWRQ39tw" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-touch-icon-152x152.png?v=t68AmTNS5Ak44-BnLxxUOoqXC0HmNInaocMqWG75aF4" />
+
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=2">
+    <meta name="shortcut icon" content="favicon.ico" type="image/vnd.microsoft.icon" asp-append-version="true"  />
+
+    <meta name="rating" content="general">
+    <meta name="theme-color" content="#95B55B">
+    <link rel="manifest" href="wb_manifest.json?v=6NzqhSCFyKNdPWktL6a-JXmRoXEumyhzMyA7BMAUu4U">
+
+    <style>
+        html {
+            font-size: 0;
+        }
+
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+
+        .is-route-forecasts\.10-day-weather .forecast-card-tray {
+            top: 277px;
+        }
+    </style>
+
+     <!-- Kochava -->
+
+    <!-- adBlock detection -->
+            <script type="text/javascript">
+                !(function(o, n, t)
+                {
+                    t = o.createElement(n)
+                    , o = o.getElementsByTagName(n)[0]
+                    , t.async = 1
+                    , t.src = "//rhetoricalloss.com/v2/0/lpvJm3_RkcS-vr_qgSHMbYB-jcbRkH2oNRB2URpg6t2W3jP_TPy9Na4D7qHs5MdytwG"
+                    , o.parentNode.insertBefore(t, o);
+                })
+                (document, "script"), (function(o, n)
+                {
+                    o[n] = o[n] || function()
+                    {
+                        (o[n].q = o[n].q || []).push(arguments);
+                    };
+                })
+                (window, "admiral");
+                !(function(n, e, r, t)
+                {
+                    function o()
+                    {
+                        if ((function o(t)
+                        {
+                            try
+                            {
+                                return (t = localStorage.getItem("v4ac1eiZr0")) && 0 < t.split(",")[4];
+                            }
+                            catch (n)
+                            {}
+                            return !1;
+                        })())
+                        {
+                            var t = n[e].pubads();
+                            typeof t.setTargeting === r && t.setTargeting("admiral-engaged", "true");
+                        }
+                    }
+                    (t = n[e] = n[e] || {}).cmd = t.cmd || []
+                    , typeof t.pubads === r ? o() : typeof t.cmd.unshift === r ? t.cmd.unshift(o) : t.cmd.push(o);
+                })
+                (window, "googletag", "function");
+            </script>
+    <!-- End adBlock detection -->
+
+    <!-- Taboola -->
+        <script type="text/javascript">
+            window._taboola = window._taboola || [];
+            !(function (e, f, u, i) {
+                if (!document.getElementById(i)) {
+                    e.async = 1;
+                    e.src = u;
+                    e.id = i;
+                    f.parentNode.insertBefore(e, f);
+                }
+            })(document.createElement("script"), document.getElementsByTagName("script")[0], "//cdn.taboola.com/libtrc/weatherbug-weatherbug/loader.js", "tb_loader_script");
+            if (window.performance && typeof window.performance.mark == "function") {
+                window.performance.mark("tbl_ic");
+            }
+        </script>
+    <!-- End Taboola -->
+
+    <!-- Resonate -->
+    <script>
+        !function () {
+            var resonateAnalytics = window.resonateAnalytics = window.resonateAnalytics || [];
+            if (!resonateAnalytics.initialize) if (resonateAnalytics.invoked) window.console && console.error && console.error("Resonate snippet included twice.");
+            else {
+                resonateAnalytics.invoked = !0;
+                resonateAnalytics.methods = [
+                    "trackSubmit",
+                    "trackClick",
+                    "trackLink",
+                    "trackForm",
+                    "pageview",
+                    "identify",
+                    "reset",
+                    "group",
+                    "track",
+                    "ready",
+                    "alias",
+                    "debug",
+                    "page",
+                    "once",
+                    "off",
+                    "on",
+                    "profile"];
+
+                resonateAnalytics.factory = function (t) {
+                    return function () {
+                        var e = Array.prototype.slice.call(arguments);
+                        e.unshift(t);
+                        resonateAnalytics.push(e);
+                        return resonateAnalytics
+                    }
+                }
+
+                for (var t = 0;
+                    t < resonateAnalytics.methods.length;
+                    t++) {
+                    var e = resonateAnalytics.methods[t];
+                    resonateAnalytics[e] = resonateAnalytics.factory(e)
+                }
+
+                resonateAnalytics.load = function (t) {
+                    var e = document.createElement("script");
+                    e.type = "text/javascript";
+                    e.async = !0;
+                    e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.resonate.com/analytics.js/v1/" + t + "/analytics.min.js";
+                    var n = document.getElementsByTagName("script")[0];
+                    n.parentNode.insertBefore(e, n)
+                }
+
+                resonateAnalytics.SNIPPET_VERSION = "1.0.0";
+                resonateAnalytics.load("101140319");
+                resonateAnalytics.page();
+            }
+        }();
+    </script>
+    <!-- End Resonate -->
+
+</head>
+<body>
+        <smart-app-banner></smart-app-banner>
+    <app-state-manager
+        active-route="ActiveRoute.locals.name"
+        page-id="ActiveRoute.locals.pageId"
+        page-meta-data="ActiveRoute.locals.metadata.Meta"
+        page-setup="ActiveRoute.locals.metadata.PageSetup"
+        popup-id="ActiveRoute.locals.popup"
+        route-params="ActiveRoute.params"
+        locality="$root.App.User.ActiveLocation.Locality"
+        platform-code="$root.App.PlatformCode"
+        page-name="ActiveRoute.locals.analytics.pageName"
+        bus-domain="ActiveRoute.locals.analytics.busDomain"
+        route-path="$root.App.$route.current.originalPath"
+    ></app-state-manager>
+    <taboola-state-manager page-id="ActiveRoute.locals.pageId"></taboola-state-manager>
+    <favorite-location-bridge favorites="$root.App.User.FavoriteLocations"></favorite-location-bridge>
+    <react-logging-bridge></react-logging-bridge>
+    <display-ad-manager></display-ad-manager>
+    <div style="position: absolute; top: 10px; left: 10px; width: 1px; height: 1px;">
+        <display-ad-widget width="1" height="1" slotId="'x03'" displayDefaultAd="false" refreshAdEnabled="false" />
+    </div>
+    <settings-popup open="showSettingsDialogue"></settings-popup>
+    <page-visibility-monitor></page-visibility-monitor>
+    <update-dynamic-bg-image></update-dynamic-bg-image>
+    <div class="location-switcher-shade"></div>
+    <div class="page-loader block-loader"
+         wb-preloader color="white"
+         ng-if="$root.RouteLoader === 'Page'"
+         ng-cloak>
+    </div>
+
+    <notification-footer></notification-footer>
+
+
+        <navbar >
+            
+<div class="context-bar" ng-class="{'increaseZIndex': $root.App.displaySignoutMenu}">
+    <div class="container--full-width">
+        <div class="context-bar__site-switcher">
+            <ul class="context-bar__site-switcher__list block-list">
+                <li class="context-bar__site-switcher__item has-icon context-bar__site-switcher__item--dropdown">
+                    <a href="https://www.groundtruth.com/" class="context-bar__site-switcher__link">
+                        <span class="label" style="text-transform: none;">GroundTruth</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="context-bar__site-switcher pull-right">
+            <ul class="context-bar__site-switcher__list block-list">
+                    <li class="context-bar__site-switcher__item">
+                        <a ng-click="$root.App.loginModal= { Type: 'LoginModal', loginurl : '', appkey : '' }" class="context-bar__site-switcher__link">Sign In</a>
+                    </li>
+                    <li class="context-bar__site-switcher__item">
+                        <a href="/press" class="context-bar__site-switcher__link">Press</a>
+                    </li>
+                    <li class="context-bar__site-switcher__item">
+                        <a href="./education" class="context-bar__site-switcher__link">Education</a>
+                    </li>
+                <li class="context-bar__site-switcher__item">
+                    <a href="mailto:customerfeedback@weatherbug.com" class="context-bar__site-switcher__link">Feedback</a>
+                </li>
+                <li class="context-bar__site-switcher__item">
+                    <a href="https://www.groundtruth.com/jobs/?job-company=4780" class="context-bar__site-switcher__link" target="_blank" rel='noopener noreferrer' >Careers</a>
+                </li>
+                <li class="context-bar__site-switcher__item">
+                    <a href="#" ng-click="$root.showSettingsDialogue = true;" class="context-bar__site-switcher__link">
+                        Settings&nbsp;&nbsp;
+                    </a>
+                    <span class="gearicon-settings" ng-click="$root.showSettingsDialogue = true;">
+                        <svg>
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/dist/img/ui.svg#gear"></use>
+                        </svg>
+                    </span>
+                </li>
+                <li class="context-bar__site-switcher__item">
+                    <a href="#" ng-cloak ng-click="$root.App.modal= { Type: 'LocaleSettingModal'}" class="context-bar__site-switcher__link">
+                        Locale ({{ $root.SelectedLocaleLanguage | uppercase }})&nbsp;
+                        <span class="icon locale">
+                            <svg>
+                                <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+            <div class="corporate-menu">
+
+    <div class="container--full-width">
+
+        <div class="wrap">
+
+            <a href="/" class="corporate-menu--mobile__main"
+                ng-click="
+                    app.isCorporateMenuOpen = !app.isCorporateMenuOpen;
+                    app.GlobalClassUtility.toggleClass('is-corporate-menu-open', app.isCorporateMenuOpen);
+                    $event.preventDefault();
+                ">
+                <span class="label">Main Menu</span>
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+                    </svg>
+                </span>
+            </a>
+
+            <a href="/" class="corporate-menu__close"
+                ng-click="
+                    app.isCorporateMenuOpen = false;
+                    app.GlobalClassUtility.removeClass('is-corporate-menu-open');
+                    $event.preventDefault();
+                ">
+                <span class="icon">
+                    <svg>
+                        <use xlink:href="/dist/img/ui.svg#close"></use>
+                    </svg>
+                </span>
+            </a>
+
+            <ul class="corporate-menu__col-list block-list">
+                <li class="corporate-menu__col one">
+
+                    <ul class="corporate-menu__col-row-list block-list">
+                        <li class="corporate-menu__col-row">
+                            <div class="corporate-menu__row-heading">
+                                <a href="//www.groundtruth.com" class="corporate-menu__row-heading__link">GroundTruth</a>
+                            </div>
+                            <div class="corporate-menu__text trim">
+                                <p>
+                                    For more than 20 years Earth Networks has operated the world’s largest and most comprehensive weather observation, lightning detection, and climate networks.
+                                </p>
+                                <p>
+                                    We are now leveraging our big data smarts to deliver on the promise of IoT. By integrating our hyper-local weather data with Smart Home connected devices we are delievering predictive energy efficiency insight to homeowners and Utility companies.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
+                </li>
+
+                <li class="corporate-menu__col two">
+
+                    <ul class="corporate-menu__col-row-list block-list">
+
+                        <li class="corporate-menu__col-row">
+                            <div class="corporate-menu__row-heading">
+                                <a href="//www.groundtruth.com" class="corporate-menu__row-heading__link">GroundTruth</a>
+                            </div>
+                            <ul class="corporate-menu__link-list block-list">
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/company/" class="corporate-menu__link">Company</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/company/management/" class="corporate-menu__link">Management</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/company/board-directors/" class="corporate-menu__link">Board of Directors</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/press-releases/" class="corporate-menu__link">Press Releases</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/careers/" class="corporate-menu__link">Careers</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/solutions/" class="corporate-menu__link">Solutions</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </li>
+                <li class="corporate-menu__col three">
+
+                    <ul class="corporate-menu__col-row-list block-list">
+
+                        <li class="corporate-menu__col-row">
+                            <div class="corporate-menu__row-heading">
+                                <a href="//www.weatherbug.com" class="corporate-menu__row-heading__link">WeatherBug</a>
+                            </div>
+                            <ul class="corporate-menu__link-list block-list">
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.weatherbug.com" class="corporate-menu__link">Consumer</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="https://www.groundtruth.com" class="corporate-menu__link">Corporate</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="corporate-menu__col-row">
+                            <div class="corporate-menu__row-heading">
+                                <a href="//www.weatherbug.com" class="corporate-menu__row-heading__link">WeatherBug</a>
+                            </div>
+                            <ul class="corporate-menu__link-list block-list">
+                                <li class="corporate-menu__link-item">
+                                    <a href="//weatherbug.com" class="corporate-menu__link">Consumer</a>
+                                </li>
+                                <li class="corporate-menu__link-item">
+                                    <a href="//www.groundtruth.com/" class="corporate-menu__link">Corporate</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+            
+<header class="header">
+    <div class="container--full-width group">
+
+        <div class="header__wrap">
+
+            <a class="header__logo" href="/weather-forecast/now/manchester-nh-03103"
+                ng-href="{{ app.PathHelper.pathForName('forecasts') }}">
+                <img alt="" class="large-desktop" src="/images/logo.new.color.svg" width="185" height="40">
+                <img alt="" class="small-desktop" src="/images/wb_logo_single.svg" width="40" height="40">
+            </a>
+
+            <a class="header__responsive-menu-icon" href=""
+                ng-click="$root.App.ResponsiveMenu.toggleResponsiveMenu()">
+                <span class="mobile">
+                    <img alt="Responsive menu icon" alt="responsive menu icon" src="/images/responsive-menu-icon.svg" width="54" height="37">
+                </span>
+                <span class="tablet">
+                    <svg>
+                        <use xlink:href="/dist/img/ui.svg#logotype"></use>
+                    </svg>
+                </span>
+            </a>
+
+            
+<nav class="nav">
+    <div class="nav__close">
+        <a class="nav__close__icon-link" href="">
+            <svg>
+                <use xlink:href="/dist/img/ui.svg#close"></use>
+            </svg>
+        </a>
+    </div>
+    <a href="https://www.groundtruth.com/" class="nav__mobile-corporate">
+        <span class="label" style="text-transform: none;">GroundTruth</span>
+    </a>
+
+    <ul class="nav__list block-list">
+            <li class="nav__item signin_menu" ng-class="{'displaySignIn' : $root.isBreakpointSmall}" data-color="green">
+                <a href="#" class="nav__link js-nav-link">
+                    Sign In
+                </a>
+            </li>
+        <li class="nav__item signin_menu" data-color="green"
+            ng-class="{'displaySignIn' : $root.isBreakpointSmall}">
+            <a href="/press" class="nav__link js-nav-link">
+                Press
+            </a>
+        </li>
+        <li class="nav__item signin_menu" data-color="green"
+            ng-class="{'displaySignIn' : $root.isBreakpointSmall}">
+            <a href="/education/manchester-nh-03103" class="nav__link js-nav-link">
+                Education
+            </a>
+        </li>
+
+        <li class="nav__item is-active" data-color="green"
+            ng-class="{ 'is-active':$root.ActiveRoute.locals.controller == 'forecasts' }">
+            <a href="/weather-forecast/now/manchester-nh-03103" class="nav__link js-nav-link">
+                Forecasts
+            </a>
+        </li>
+        <li class="nav__item" data-color="yellow"
+            ng-class="{ 'is-active':$root.ActiveRoute.locals.controller == 'maps' }">
+            <a href="/maps/manchester-nh-03103" class="nav__link js-nav-link">
+                Maps
+            </a>
+        </li>
+        <li class="nav__item " data-color="red"
+            ng-class="{ 'is-active': $root.ActiveRoute.locals.controller == 'alerts' && $root.ActiveRoute.locals.name !== 'alerts.hurricane' }">
+            <a href="/alerts/manchester-nh-03103" class="nav__link js-nav-link">
+                Alerts
+            </a>
+        </li>
+        <li class="nav__item" data-color="red"
+            ng-class="{ 'is-active':$root.ActiveRoute.locals.controller == 'life' }">
+            <a href="/life/pollen/manchester-nh-03103" class="nav__link js-nav-link">
+                Life
+            </a>
+        </li>
+
+        <li class="nav__item" data-color="red"
+            ng-class="{ 'is-active':($root.ActiveRoute.locals.controller == 'news' || $root.ActiveRoute.locals.controller == 'videolanding') }">
+            <a href="/news/manchester-nh-03103" class="nav__link js-nav-link">
+                News &amp; Videos
+            </a>
+        </li>
+
+        <li class="nav__item" data-color="red"
+            ng-class="{ 'is-active':($root.ActiveRoute.locals.controller == 'weatherlandingcamera' || $root.ActiveRoute.locals.controller == 'trafficlandingcamera') || ($root.ActiveRoute.locals.controller == 'weathercategory')}">
+            <a href="/weather-camera/manchester-nh-03103" class="nav__link js-nav-link">
+                Cameras
+            </a>
+        </li>
+
+        <li class="nav__item" data-color="red"
+            ng-class="{ 'is-active':($root.ActiveRoute.locals.controller == 'air-quality') }">
+            <a href="/air-quality/manchester-nh-03103" class="nav__link js-nav-link">
+                Air Quality
+            </a>
+        </li>
+            <li class="nav__item" data-color="red"
+                ng-class="{ 'is-active':($root.ActiveRoute.locals.name == 'hurricane') }">
+                <a href="/hurricane/manchester-nh-03103" class="nav__link js-nav-link">
+                    Hurricane
+                </a>
+            </li>
+        <li class="nav__settings">
+            <div class="location-switcher__box__list-footer">
+                <span class="gearicon">
+                    <svg>
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/dist/img/ui.svg#gear"></use>
+                    </svg>
+                </span>
+                <span class="location-switcher__box__list-lbl" style="font-size: 22px; font-weight: 600;">
+                    <a class="location-switcher__manage-favorites" href="#">
+                        Settings
+                    </a>
+                </span>
+                <span class="location-switcher__box__list-lbl" style="font-size: 22px; font-weight: 600;">
+                    <a class="location-switcher__manage-favorites" href="#">
+                    </a>
+                </span>
+            </div>
+        </li>
+
+    </ul>
+</nav>
+
+
+            <div class="header__location-management js-header-location-management">
+                
+            </div>
+
+        </div>
+
+    </div>
+</header>
+
+        </navbar>
+
+        <section class="popup-container" wb-popup-base>
+        </section>
+
+            <!-- end dx Ad -->
+<main class="main">
+                                <section class="module js-module is-colored"
+                     wb-module-routes
+                     ng-style="{
+                            'background-image': $root.isBreakpointMedium || $root.isBreakpointSmall ? 'none' : 'url(' + $root.App.BackgroundUrl + ')',
+                            'background-size': 'cover',
+                            'background-repeat': 'no-repeat',
+                            'background-attachment': 'fixed',
+                            'position': 'relative'}" >
+                
+
+<div class="forecasts">
+    
+<div class="page-subnav-container">
+    <div class="container">
+        <div class="wrap">
+
+            <ul class="page-subnav block-list" data-items="3">
+                <li class="page-subnav__item is-active">
+                    <a class="page-subnav__link" href="/weather-forecast/now/manchester-nh-03103">Now</a>
+                </li>
+                <li class="page-subnav__item">
+                    <a class="page-subnav__link" href="/weather-forecast/hourly/manchester-nh-03103">Hourly</a>
+                </li>
+                <li class="page-subnav__item">
+                    <a class="page-subnav__link" href="/weather-forecast/10-day-weather/manchester-nh-03103">10 Day</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+    
+
+<div class="forecasts-tab">
+    <div class="forecasts__ad">
+        <display-ad-widget
+        slotId="'wb_banner'"
+        width="728"
+        height="90"
+        showOnPhone="false"
+        showOnTablet="false"
+        ></display-ad-widget>
+    </div>
+    <div class="forecasts-subtab forecasts-subtab--current">
+        <div class="container forecasts-container">
+            <div class="forecasts-subtab-wrap">
+                <ul class="forecasts__widget-grid-list widget-grid-list block-list js-item-container">
+                    <li class="forecasts__widget-grid-list__item widget-grid-list__item js-widget-grid-list-item" data-widget-index="0">
+                        <div class="widget-grid-wrapper">
+                            
+
+<ul class="widget-grid" data-layout-id="3">
+    
+<li class="widget-grid__widget" data-widget-position="1">
+    <div class="widget widget--CurrentConditions" data-widget-type="CurrentConditions">
+        
+<div class="widget__body no-title-bar">
+    
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(255,255,255,.5);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="2">
+    <div class="widget widget--Map" data-widget-type="Map">
+        
+<a href="/maps/Radar.Global/manchester-nh-03103" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Live Radar</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget--Map__body widget__body static-height"></div>
+</a>
+
+    </div>
+</li>
+
+    <li class="widget-grid__widget-container" data-container-position="3">
+        <ul class="widget-grid__widget-container__rows block-list" data-rows="2">
+            
+<li class="widget-grid__widget" data-widget-position="3">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+            
+<li class="widget-grid__widget" data-widget-position="4">
+    <div class="widget widget--WeatherDetails" data-widget-type="WeatherDetails">
+        
+
+<div class="widget__bar widget__bar--bare">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Weather Details</span>
+    </span>
+</div>
+<div class="widget__body widget--WeatherDetails__body">
+    
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    </div>
+</li>
+
+        </ul>
+    </li>
+    
+<li class="widget-grid__widget" data-widget-position="5">
+    <div class="widget widget--DailyForecastSummary" data-widget-type="DailyForecastSummary">
+        
+<a href="/forecasts/hourly/manchester-nh-03103" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Forecast</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+}
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="6">
+    <div class="widget widget--FeaturedVideos" data-widget-type="FeaturedVideos">
+        
+
+<div class="widget__bar widget__bar--bare">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Featured Videos</span>
+    </span>
+</div>
+<div class="widget__body widget--index__body">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="7">
+    <div class="widget widget--AirQuality" data-widget-type="AirQuality">
+        
+
+<div class="widget__bar widget__bar--bare">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Air Quality</span>
+    </span>
+</div>
+<div class="widget__body widget--index__body">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    </div>
+</li>
+
+</ul>
+
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+            </section>
+
+                <section wb-page-layout
+                         page-layout-alias="app.Metadata.Data.CMSPageConfig.PageLayoutAlias">
+                    
+
+    <ul class="widget-grid-list block-list">
+        <li class="widget-grid-list__item">
+            <section class="section widget-grid-section">
+                <div class="container">
+                    <div class="widget-grid-wrapper">
+                        
+
+
+<ul class="widget-grid" data-layout-id="2">
+
+<li class="widget-grid__widget" data-widget-position="1">
+    <div class="widget widget--StorySection" data-widget-type="StorySection">
+        
+<div class="story-container">
+    <a href="/news/?page=top" class="story-title-link">
+        <div class="story-title-container">
+            <span class="story-title-content">Top Stories</span>
+        </div>
+    </a>
+    <div class="story-content-container">
+        <a href="/news/Today-s-Weather-Outlook" class="story-main-content"></a>
+        <div class="story-list-content"></div>
+    </div>
+    <a href="/news/?page=top" class="story-footer-link">
+        <div class="story-footer-container">
+            <div class="story-footer-content story-footer-content-text">More News</div>
+        </div>
+    </a>
+</div>
+    </div>
+</li>
+
+<li class="widget-grid__widget" data-widget-position="2">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+<li class="widget-grid__widget" data-widget-position="3">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+</ul>
+
+
+
+                    </div>
+                </div>
+            </section>
+        </li>
+        <li class="widget-grid-list__item">
+            <section class="section widget-grid-section">
+                <div class="container">
+                    <div class="widget-grid-wrapper">
+                        
+
+<ul class="widget-grid" data-layout-id="1">
+    
+<li class="widget-grid__widget" data-widget-position="1">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+    <li class="widget-grid__widget-container" data-container-position="2">
+        <ul class="widget-grid__widget-container__rows block-list" data-rows="2">
+            
+<li class="widget-grid__widget" data-widget-position="2">
+    <div class="widget widget--Video" data-widget-type="Video">
+        
+<a href="/videos/1656" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Today&#x27;s National Outlook</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget--Video__body widget__body static-height">
+        <div class="widget--Video__wrap">
+            
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</a>
+
+    </div>
+</li>
+
+            
+<li class="widget-grid__widget" data-widget-position="3">
+    <div class="widget widget--Link" data-widget-type="Link">
+        
+<a href="alerts/hurricane/" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Hurricane Tracker</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body static-height">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+
+    </div>
+</li>
+
+            
+<li class="widget-grid__widget" data-widget-position="4">
+    <div class="widget widget--LifestyleIndex" data-widget-type="LifestyleIndex">
+        
+<a href="/life/pollen/manchester-nh-03103" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Allergy Forecast</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget--LifestyleIndex__body widget__body static-height">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+
+    </div>
+</li>
+
+            <li class="widget-grid__widget-container" data-container-position="6">
+                <ul class="widget-grid__widget-container__rows block-list" data-rows="2">
+                    
+<li class="widget-grid__widget" data-widget-position="5">
+    <div class="widget widget--LifestyleIndex" data-widget-type="LifestyleIndex">
+        
+<a href="/life/cold-flu/manchester-nh-03103" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Cold &amp; Flu</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget--LifestyleIndex__body widget__body static-height">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+
+    </div>
+</li>
+
+                    
+<li class="widget-grid__widget" data-widget-position="6">
+    <div class="widget widget--LifestyleIndex" data-widget-type="LifestyleIndex">
+        
+<a href="/life/snow-ski/manchester-nh-03103" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Snow &amp; Ski Forecast</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget--LifestyleIndex__body widget__body static-height">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+
+    </div>
+</li>
+
+                </ul>
+            </li>
+        </ul>
+    </li>
+    
+<li class="widget-grid__widget" data-widget-position="7">
+    <div class="widget widget--Fire" data-widget-type="Fire">
+        
+<a href="alerts/fire" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Fire Updates</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body static-height">
+        <div class="widget--Photo__image"></div>
+    </div>
+</a>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="8">
+    <div class="widget widget--Camera" data-widget-type="Camera">
+        
+
+<a class="widget__as-link">
+	
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Traffic Cameras</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body static-height">
+    </div>
+</a>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="9">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="10">
+    <div class="widget widget--WeatherCamera" data-widget-type="WeatherCamera">
+        
+<a class="widget__as-link">
+	
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Weather Cameras</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body static-height">
+    </div>
+</a>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="11">
+    <div class="widget widget--Link" data-widget-type="Link">
+        
+<a href="/life/outdoor-sports/" class="widget__as-link">
+    
+<div class="widget__bar">
+    <span class="widget__bar__title">
+        <span class="widget__bar__title__label">Outdoor Sports Guide</span>
+    </span>
+    <span class="widget__bar__arrow">
+        <svg>
+            <use xlink:href="/dist/img/ui.svg#down-arrow"></use>
+        </svg>
+    </span>
+</div>
+    <div class="widget__body static-height">
+
+<div class="widget-loader block-loader is-clear">
+    <div class="preloader-wrapper active small">
+        <div class="spinner-layer spinner-white-only" style="border-color: rgba(0,0,0,.2);">
+            <div class="circle-clipper left">
+                <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+                <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>    </div>
+</a>
+
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="12">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+    
+<li class="widget-grid__widget" data-widget-position="13">
+    <div class="widget widget--Ad" data-widget-type="Ad">
+        
+<div class="widget__body widget--Ad__body no-title-bar">
+    <div>
+        <!-- only rendered on client side by displayAdWidget -->
+    </div>
+</div>
+    </div>
+</li>
+
+</ul>
+
+
+                    </div>
+                </div>
+            </section>
+        </li>
+    </ul>
+
+                </section>
+            <locations-manager-dialog />
+        </main>
+        <div class="taboola-container"
+            ng-if="!$root.App.config.Taboola.Disabled
+                && $root.App.config.TaboolaPages
+                && $root.App.config.TaboolaPages.includes($root.ActiveRoute.locals.pageId)
+                && $root.ActiveRoute.locals.popup !== 'Story'"
+        >
+            <taboola-feed-widget
+                height="250"
+                width="300"
+                position="'below_content'"
+            />
+        </div>
+
+            <footer />
+
+        <!-- GT Media Campaing -->
+            <g-t-media-campaign />
+        <!-- End GT Media Campaing -->
+
+        <!-- EmailOptInDialog -->
+        <!-- End EmailOptInDialog -->
+
+        <!-- Bootstrapping -->
+        <script>
+            window._config = {"WB_AppKey":"wxweb","AppVersion":"5.14.13","ApplicationName":"wbweb","Environment":"Production","IntercomAppId":null,"DisableAds":false,"DefaultAdRefeshIntervalSeconds":180,"KochavaAppId":"kowb-free-web-weatherbug-v8itef54c","KochavaClickURL":"https://smart.link/n2vblcsk2irez","WebBackendBaseURL":"https://www.weatherbug.com","IosSmartAppBannerURL":"https://stor.re/9hBL/CT2n","AndroidSmartAppBannerURL":"https://play.google.com/store/apps/details?id=com.aws.android&hl=en","Pulse":{"ID":"WBWebV3","Secret":"48f00e3e43804ffd98a112f45fc299a5"},"VideoPreRollUrls":{"nationalOutlook":"https://ib.adnxs.com/ptv?id=21017625&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=960&vheight=3540&vcontext=1&vframeworks=5&vv=3&referrer=weatherbug.com","stories":"https://ib.adnxs.com/ptv?id=21017574&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=960&vheight=540&vcontext=1&vframeworks=5&vv=3&referrer=weatherbug.com","videos":"https://ib.adnxs.com/ptv?id=21017573&vmaxduration=30&vskippable=1&vplaybackmethod=3&vwidth=960&vheight=540&vcontext=1&vframeworks=5&vv=3&referrer=weatherbug.com"},"VideoPrerollAdClient":"vast","VideoPrerollOffset":"pre","VideoPrerollSkipOffset":"5","VideoPrerollVPaidControls":"True","VideoPrerollAutoplayAdsMuted":"True","FeaturedVideoPrerollPlacementId":"21017573","NationalOutlookVideoPrerollPlacementId":"21017625","StoriesVideoPrerollPlacementId":"21017574","BaseURLs":{"Pulse":null,"Giv":"https://web-maps.api.weatherbug.net","Stories":{"Prod":"https://web-story.pulse.weatherbug.net","Stage":"https://web-story.pulse.weatherbug.net","QA":"https://web-story.pulse.weatherbug.net"},"SGiv":"https://{s}web-maps.api.weatherbug.net","GivDomains":["a","b","c","d"],"GivPresentation":"https://web-maps.pulse.weatherbug.net/giv/presentation","GivMetadata":"https://web-maps.pulse.weatherbug.net","Traffic":{"Prod":"https://web-trffc.pulse.weatherbug.net","Stage":"https://web-trffc.pulse.weatherbug.net","QA":"https://web-trffc.pulse.weatherbug.net"},"Pollen":{"Prod":"https://web-plln.pulse.weatherbug.net","Stage":"https://web-plln.pulse.weatherbug.net","QA":"https://web-plln.pulse.weatherbug.net"},"SnowSki":{"Prod":"https://web-snwski.pulse.weatherbug.net","Stage":"https://web-snwski.pulse.weatherbug.net","QA":"https://web-snwski.pulse.weatherbug.net"},"UV":{"Prod":"https://web-uv.pulse.weatherbug.net","Stage":"https://web-uv.pulse.weatherbug.net","QA":"https://web-uv.pulse.weatherbug.net"},"Locations":{"Prod":"https://web-loc.pulse.weatherbug.net","Stage":"https://web-loc.pulse.weatherbug.net","QA":"https://web-loc.pulse.weatherbug.net"},"AQI":{"Prod":"https://web-aqi.pulse.weatherbug.net","Stage":"https://web-aqi.pulse.weatherbug.net","QA":"https://web-aqi.pulse.weatherbug.net"},"Cameras":{"Prod":"https://web-cam.pulse.weatherbug.net","Stage":"https://web-cam.pulse.weatherbug.net","QA":"https://web-cam.pulse.weatherbug.net"},"ContentMgmt":{"Prod":"https://web-cm.pulse.weatherbug.net","Stage":"https://web-cm.pulse.weatherbug.net","QA":"https://web-cm.pulse.weatherbug.net"},"Observations":{"Prod":"https://web-obs.pulse.weatherbug.net","Stage":"https://web-obs.pulse.weatherbug.net","QA":"https://web-obs.pulse.weatherbug.net"},"LifeStyles":{"Prod":"https://web-life.pulse.weatherbug.net","Stage":"https://web-life.pulse.weatherbug.net","QA":"https://web-life.pulse.weatherbug.net"},"Almanac":{"Prod":"https://web-alm.pulse.weatherbug.net","Stage":"https://web-alm.pulse.weatherbug.net","QA":"https://web-alm.pulse.weatherbug.net"},"Forecast":{"Prod":"https://web-for.pulse.weatherbug.net","Stage":"https://web-for.pulse.weatherbug.net","QA":"https://web-for.pulse.weatherbug.net"},"Alerts":{"Prod":"https://web-alert.pulse.weatherbug.net","Stage":"https://web-alert.pulse.weatherbug.net","QA":"https://web-alert.pulse.weatherbug.net"},"OutdoorSports":{"Prod":"https://web-otdr.pulse.weatherbug.net","Stage":"https://web-otdr.pulse.weatherbug.net","QA":"https://web-otdr.pulse.weatherbug.net"},"FAQ":null,"Notifications":{"Prod":"https://web-push.pulse.weatherbug.net","Stage":"https://web-push.pulse.weatherbug.net","QA":"https://pulsedevapi.pulse.weatherbugsc.com"},"Lightning":{"Prod":"https://web-lx.pulse.weatherbug.net","Stage":"https://web-lx.pulse.weatherbug.net","QA":"https://web-lx.pulse.weatherbug.net"},"Legal":{"Prod":"https://web-legal.pulse.weatherbug.net","Stage":"https://web-legal.pulse.weatherbug.net","QA":"https://web-legal.pulse.weatherbug.net"},"Video":{"Prod":"https://web-con.pulse.weatherbug.net","Stage":"https://web-con.pulse.weatherbug.net","QA":"https://web-con.pulse.weatherbug.net"},"Logging":{"Prod":"https://web-clog.pulse.weatherbug.net","Stage":"https://web-clog.pulse.weatherbug.net","QA":"https://web-clog.pulse.weatherbug.net"},"Hurricane":{"Prod":"https://web-hur.pulse.weatherbug.net","Stage":"https://web-hur.pulse.weatherbug.net","QA":"https://web-hur.pulse.weatherbug.net"},"HurricaneOutlook":{"Prod":"https://web-hur.pulse.weatherbug.net","Stage":"https://web-hur.pulse.weatherbug.net","QA":"https://web-hur.pulse.weatherbug.net"},"Fire":{"Prod":"https://web-fire.pulse.weatherbug.net","Stage":"https://web-fire.pulse.weatherbug.net","QA":"https://web-fire.pulse.weatherbug.net"},"AdTargeting":{"Prod":"https://web-ads.pulse.weatherbug.net","Stage":"https://web-ads.pulse.weatherbug.net","QA":"https://web-ads.pulse.weatherbug.net"},"Feedback":{"Prod":"https://desk-obs.pulse.weatherbug.net","Stage":"https://desk-obs.pulse.weatherbug.net","QA":"https://desk-obs.pulse.weatherbug.net"},"Content":{"Prod":"https://web-con.pulse.weatherbug.net","Stage":"https://web-con.pulse.weatherbug.net","QA":"https://web-con.pulse.weatherbug.net"},"EmLogin":"https://login.weatherbug.com"},"ForecastIconContent":{"ForecastIconSet":"forecast","ForecastIconSize":"svglarge","IconContentResourceList":"IconByCodeV1"},"HurricaneOutlookDetailsImages":{"at":"https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_at.png","cp":"https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_cp.png","ep":"https://twoutlook-maps-hur.cdn.weatherbug.net/wb_nhc_twoutlook_map/v2/data/twoutlookmap_ep.png"},"Mapbox":{"Maps":{"Main":"mapbox.streets","Alerts":"mapbox.streets","Spark":"mapbox.satellite"},"PublicKey":"pk.eyJ1IjoiZWFydGhuZXR3b3JrcyIsImEiOiJjaWs4ZnBiZmMwMmZhdjVrbjNhN3pkd2l4In0.vBvBKxKCr4Amrr9cVDlQ8A"},"PollingTimes":{"Alerts":60,"Notifications":60,"Almanac":3600,"DailyForecast":3600,"DailyForecasts":300,"Energy":3600,"GIV":30,"HourlyForecast":900,"HourlyForecastPeriods":300,"Life":3600,"Lightning":90,"LocalWeatherCameras":1800,"Metadata":36000,"Observation":300,"PageLayouts":36000,"Pollen":3600,"Popups":900,"Sitemap":36000,"SitemapCities":36000,"SitemapContinents":36000,"SitemapCountries":36000,"SitemapStateCities":36000,"SitemapStateTop200Cities":36000,"SitemapStates":36000,"Stories":30,"TrafficCameras":1800,"UV":3600,"UvPeriods":3600,"WeatherCameras":1800},"SupportEmailAddress":"customerfeedback@weatherbug.com","CareersLink":"https://www.groundtruth.com/jobs/?job-company=4780","EducationVideoPageURL":"https://www.youtube.com/embed/4i8pRgpSukE?controls=0","PressLinkActive":true,"IOSAppDownloadLink":"https://apps.apple.com/us/app/weatherbug-radar-forecast/id281940292?ls=1","MacosAppDownloadLink":"https://apps.apple.com/us/app/weatherbug-weather-forecasts/id1059074180?mt=12","AndroidAppDownloadLink":"https://play.google.com/store/apps/details?id=com.aws.android","DesktopAppDownloadLink":"https://pc.va.app.ext.weatherbug.com/weatherbug-desktop/installer/v10/WeatherBugSetup.exe","EnableDesktopAppDownloadLink":false,"TaboolaPages":["forecasts/current","forecasts/hourly","forecasts/daily","news","alerts","alerts/weather","alerts/spark","alerts/hurricane","alerts/fire","alerts/pollen","alerts/airquality","alerts/severestormrisk","weather-camera","traffic-camera","life/pollen","life/coldflu","life/outdoor-sports","life/snow-ski","life/snow-ski-detail","life/travel","air-quality","hurricane"],"BotAppInstanceId":"SEARCH00-BOT0-0000-0000-000000000000","MinimumAppInstanceRegistrationDateUtc":"2019-10-28T17:00:00","StoryCacheTimeout":15,"VideoEnabled":true,"LargeVideoExt":"720p","SmallVideoExt":"480p","Platform":{"mi":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"ma":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"mi1":{"Header":false,"Ads":true,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"ma1":{"Header":false,"Ads":true,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"wd":{"Header":true,"Ads":true,"Footer":true,"SmartBanner":true,"Navigation":true,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"md1":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"md2":{"Header":true,"Ads":true,"Footer":true,"SmartBanner":false,"Navigation":true,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"aw":{"Header":true,"Ads":true,"Footer":true,"SmartBanner":false,"Navigation":true,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"ach":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"dt":{"Header":false,"Ads":true,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"lh":{"Header":true,"Ads":false,"Footer":true,"SmartBanner":true,"Navigation":true,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":true,"EnableKochavaSdk":false},"eow":{"Header":true,"Ads":true,"Footer":true,"SmartBanner":true,"Navigation":true,"ShowMapOverlays":true,"Notifications":true,"UseOfCookiesNotification":true,"TermsAndConditionsNotification":true,"ShowEmailOptInWidget":false,"EnableKochavaSdk":true},"wbw":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":false,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false},"ki":{"Header":false,"Ads":false,"Footer":false,"SmartBanner":false,"Navigation":false,"ShowMapOverlays":true,"Notifications":false,"UseOfCookiesNotification":false,"TermsAndConditionsNotification":false,"ShowEmailOptInWidget":false,"EnableKochavaSdk":false}},"Locales":[{"language":"Arabic","cultureName":"ar"},{"language":"Bulgarian","cultureName":"bg"},{"language":"Chinese (China)","cultureName":"zh-cn"},{"language":"Czech","cultureName":"cs"},{"language":"Danish","cultureName":"da"},{"language":"Dutch","cultureName":"nl"},{"language":"English","cultureName":"en"},{"language":"English (UK)","cultureName":"en-gb"},{"language":"English (US)","cultureName":"en-us"},{"language":"Finnish","cultureName":"fi"},{"language":"French","cultureName":"fr"},{"language":"French (Canada)","cultureName":"fr-ca"},{"language":"German","cultureName":"de"},{"language":"Hebrew","cultureName":"he"},{"language":"Hindi","cultureName":"hi"},{"language":"Hungarian","cultureName":"hu"},{"language":"Indonesian","cultureName":"id"},{"language":"Italian","cultureName":"it"},{"language":"Japanese","cultureName":"ja"},{"language":"Korean","cultureName":"ko"},{"language":"Lithuanian","cultureName":"lt"},{"language":"Greek","cultureName":"el"},{"language":"Norwegian","cultureName":"no"},{"language":"Persian","cultureName":"fa"},{"language":"Polish","cultureName":"pl"},{"language":"Portuguese","cultureName":"pt"},{"language":"Portuguese (Brazil)","cultureName":"pt-br"},{"language":"Romanian","cultureName":"ro"},{"language":"Russian","cultureName":"ru"},{"language":"Serbian","cultureName":"sr"},{"language":"Slovak","cultureName":"sk"},{"language":"Slovenian","cultureName":"sl"},{"language":"Spanish","cultureName":"es"},{"language":"Spanish (Spain)","cultureName":"es-es"},{"language":"Spanish (Latin America)","cultureName":"es_419"},{"language":"Swedish","cultureName":"sv"},{"language":"Thai","cultureName":"th"},{"language":"Turkish","cultureName":"tr"},{"language":"Ukrainian","cultureName":"uk"},{"language":"Vietnamese","cultureName":"vi"}],"Taboola":{"Disabled":false,"NowScreenDisabled":false,"DailyScreenDisabled":false,"HourlyScreenDisabled":false,"StoryPopupDisabled":false,"LightHouseQueryParamDisableValue":"lh"},"TaboolaInfo":[{"PageId":"forecasts/current","ContainerId":"taboola-mid-article-thumbnails---now-forecast","PlacementId":"Mid Article Thumbarticles - Now Forecast","Feed":"category","Position":"mid_article","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"forecasts/hourly","ContainerId":"taboola-mid-article-thumbnails---now-forecast","PlacementId":"Mid Article Thumbarticles - Hourly Forecast","Feed":"category","Position":"mid_article","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"forecasts/daily","ContainerId":"taboola-mid-article-thumbnails---now-forecast","PlacementId":"Mid Article Thumbarticles - 10Day Forecast","Feed":"category","Position":"mid_article","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"forecasts/current","ContainerId":"taboola-below-content-now-thumbnails","PlacementId":"Below Content Thumbnails - Now Forecast","Feed":"category","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"forecasts/hourly","ContainerId":"taboola-below-content-hourly-thumbnails","PlacementId":"Below Content Thumbnails - Hourly Forecast","Feed":"category","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"forecasts/daily","ContainerId":"taboola-below-content-10day-thumbnails","PlacementId":"Below Content Thumbnails - 10Day Forecast","Feed":"category","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"news","ContainerId":"taboola-below-article-news-thumbnails","PlacementId":"Below Article Thumbnails - News","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"story","ContainerId":"taboola-below-article-thumbnails","PlacementId":"Below Article Thumbnails","Feed":"article","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/weather","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/spark","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/hurricane","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/fire","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/pollen","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/airquality","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"alerts/severestormrisk","ContainerId":"taboola-below-content-alerts-thumbnails","PlacementId":"Below Content Thumbnails - Alerts","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"weather-camera","ContainerId":"taboola-below-content-weather-cams-thumbnails","PlacementId":"Below Content Thumbnails - Weather Cameras","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"traffic-camera","ContainerId":"taboola-below-content-traffic-cams-thumbnails","PlacementId":"Below Content Thumbnails - Traffic Cameras","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/pollen","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/coldflu","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/outdoor-sports","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/snow-ski","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/snow-ski-detail","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"life/travel","ContainerId":"taboola-below-content-thumbnails-life","PlacementId":"Below Content Thumbnails - Life","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"air-quality","ContainerId":"taboola-below-content-thumbnails-air-quality","PlacementId":"Below Content Thumbnails - Air Quality","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"},{"PageId":"hurricane","ContainerId":"taboola-below-content-thumbnails-hurricane","PlacementId":"Below Content Thumbnails - Hurricane","Feed":"other","Position":"below_content","Mode":"thumbnails-a","TargetType":"mix"}],"VideoAdRules":[{"frequency":3}],"AdBlockDetectionEnabled":true,"EmailOptInDialog":{"Enabled":false,"ScriptSourceUrl":"//www.lightboxcdn.com/vendor/aa253eb4-9c2a-421b-9b07-4e8800b10db7/lightbox_inline.js"},"GTMediaCampaign":{"IsEnabled":true,"HomePagePixelImgSourceUrl":"https://bidagent.xad.com/conv/244905","AppDownloadPagePixelImgSourceUrl":"https://bidagent.xad.com/conv/244910"},"GoogleTagManager":{"IsEnabled":true,"GTMContainerId":"GTM-PZG22JQ","PagesWithGTMTitleTags":["/weather-forecast/now/"]},"NewPrivacyPolicyMockData":{"IsEnabled":false,"DataPrivacyEnabled":false,"SensitiveDataRestrictionEnabled":false},"SparkMap":{"Prod":"https://lxapp.weatherbug.net/v2/lxapp_impl.html?","Stage":"https://lxapp.weatherbugsc.com/v2/lxapp_impl.html?","QA":"https://lxapp.weatherbugsc.com/v2/lxapp_impl.html?"},"BookingDotComURL":"https://www.booking.com/searchresults.html?order=popularity&aid=","BookingDotComBrandedAID":"2061124","BookingDotComEnabled":true,"AirQualityAttributionUrl":"https://dynamic-link.breezometer.com/?partner=Weatherbug","EnableCommuterPage":true,"DisclosureRequestEmail":"disclosurerequest.ccpa@weatherbug.com","DeletionRequestEmail":"deletionrequest.ccpa@weatherbug.com","PrivacyRightsEmail":"privacyrights@weatherbug.com","CcpaInfoEmail":"ccpainfo@weatherbug.com","PrivacyRightsLink":"https://www.PrivacyRights.info","PrivacyStatement":"https://www.weatherbug.com/legal/privacy","MyIdfaLink":"https://apps.apple.com/us/app/get-my-idfa/id1580368827","EnableBreakingNewsTest":false,"BookingDotComActiveCountries":["United States","Canada"],"UseAdBlockerTestScript":false,"PageContentDoesNotRequireActiveLocationData":["news","videos","photos","sitemap","press","faq","faq/ios","faq/general","faq/android","faq/ios","faq/website","faq/others","education","partners","privacy","life/snow-ski-detail"],"AuthClientSettings":{"Authority":"https://auth.weatherbug.com/","Scope":"openid profile email offline_access","ResponseType":"code","ClientId":"wbweb_oidc","PopupRedirectBaseURL":"weatherbug.com","SilentRedirectBaseURL":"weatherbug.com","RevokeAccessTokenOnSignout":true,"EnableLogging":false},"IsAuthV2Enabled":true,"IsAqiV2Enabled":true,"IsOutdoorSportsEnabled":true,"IsComplianceApiV3Enabled":true,"IsHurricaneSectionEnabled":true};
+            window._CMSPageConfig = {"DocumentID":1189,"NodeID":1635,"Title":"Current Weather Forecasts, Live Radar Maps & News","NationalPageTitle":null,"LocalizedPageTitle":null,"Description":"Want to know what the weather is now? Check out our current live radar and weather forecasts [[Location]] to help plan your day","NationalMetaDescription":null,"LocalizedMetaDescription":null,"ShareImage":"/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png","PageLayoutAlias":"Forecasts-Pages","SponsorLogo":null,"SponsorUrl":null,"Keywords":"weather, weather forecast, local weather, national weather, temperature, radar, lightning, hurricane, camera","Header":"Current Weather for [[Location]]","BackgroundImage":null,"CanonicalDefault":"[[Server]]/weather-forecast/now/[[SlugName]]","CanonicalGlobalPage":"[[Server]]/weather-forecast/now/[[SlugName:GlobalPage]]","CanonicalLocalPage":"[[Server]]/weather-forecast/now/[[SlugName:LocalPage]]"};
+            window._User = {"Language":"en-us","Id":"54b77a8b-d588-455c-9031-2ccb9a2fd31e","ActiveLocation":{"Id":"4d113301-36c0-49d7-9b6e-2e168400a675","Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"Station":{"StationId":"MNSOS","ProviderId":"3","ProviderName":"Earth Networks Inc","StationName":"Southside MS","Latitude":42.9708333333333,"Longitude":-71.4380555555556,"Distance":0.65,"ElevationAboveSeaLevelMeters":"82.9056","RouteString":"3:MNSOS"},"DefaultStationRouteString":"3:MNSOS"},"FavoriteLocations":[],"LastSearchedLocations":[],"Units":1,"TempUnit":1,"WindUnit":1,"PressureUnit":1,"Gender":"UNKNOWN","BirthDate":null,"DeviceId":"SEARCH00-BOT0-0000-0000-000000000000","AppInstanceIdRegistrationDateUtc":null,"Os":"unknown","OsVersion":"unknown","IsBot":true,"Age":0,"GenderValue":0,"AgeValue":0};
+            window._AppData = {"PageLayouts":[{"PageLayoutAlias":"Forecasts-Current","WidgetGrids":[{"Headline":"N/A","Subline":"N/A","Widgets":[{"ObservationAggregate":null,"Hour":null,"Day":null,"Id":"afb07a4f-1887-4b5a-ade2-4cd38598f44d","IsPreparedForRender":false,"IsServerRendered":false,"Position":1,"Type":"CurrentConditions","Title":"Now","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"GIVLayerId":"Radar.Global","Id":"344b6f8b-4ddf-42bb-b46a-b37b4cbf3ffa","IsPreparedForRender":false,"IsServerRendered":false,"Position":2,"Type":"Map","Title":"Live Radar","Url":"/maps/Radar.Global/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_x13","Width":300,"Height":250,"ShowOnPhone":true,"ShowOnTablet":true,"ShowOnDesktop":true,"Id":"5a1a0694-273f-4a7e-bdc1-81e4eeec6be1","IsPreparedForRender":false,"IsServerRendered":false,"Position":3,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"ObservationAggregate":null,"AlmanacSolar":null,"AlmanacLunar":null,"UvPeriod":null,"Pollen":null,"Id":"cecafe6c-8637-4f71-996d-ad3c82e57e20","IsPreparedForRender":false,"IsServerRendered":false,"Position":4,"Type":"WeatherDetails","Title":"Weather Details","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"AlmanacSolar":null,"DailyForecast":null,"NightlyForecast":null,"IsNight":false,"Id":"4445db2f-f59a-48d9-8ed4-849d765450ab","IsPreparedForRender":false,"IsServerRendered":false,"Position":5,"Type":"DailyForecastSummary","Title":"Forecast","Url":"/forecasts/hourly/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Id":"1ba14912-3c03-43af-a413-f8031386374a","IsPreparedForRender":false,"IsServerRendered":false,"Position":6,"Type":"FeaturedVideos","Title":"Featured Videos","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Id":"9d78ddec-109c-4638-b64d-c75cae552540","IsPreparedForRender":false,"IsServerRendered":false,"Position":7,"Type":"AirQuality","Title":"Air Quality","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Pollen":null,"Id":"f22e19a1-1ece-453c-8fd9-183bdcc18ca3","IsPreparedForRender":false,"IsServerRendered":false,"Position":8,"Type":"Pollen","Title":"Pollen","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"SparkAlert":null,"Id":"ba01776f-e656-45cd-9ff0-3836b0d3439c","IsPreparedForRender":false,"IsServerRendered":false,"Position":9,"Type":"Spark","Title":"Spark Lightning","Url":"/alerts/spark/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true}],"LayoutId":"3"}]},{"PageLayoutAlias":"Forecasts-Pages","WidgetGrids":[{"Headline":null,"Subline":null,"Widgets":[{"Layout":0,"Category":"Featured","Tags":[],"Stories":[{"Source":null,"ContentTags":["\"Great Lakes\"","hail","map","maps","Plains","severe","thunderstorms","tornadoes","wind"],"NodeAlias":"Storms-Erupt-In-The-Mid-Atlantic-and-North-Central","ByLine":"By Weatherbug Meteorologist, Mark Ellinwood","Summary":"A disturbance will bring organized storms to the Great Lakes today, while more sporadic storms pop up in the Plains.","Title":"Great Lakes, Plains Hit By More Severe Storms","Text":"A disturbance will bring organized storms to the Great Lakes today, while more sporadic storms pop up in the Plains.<br />\r\n<br />\r\nThe tightly-packed upper-level storm system in the Midwest will glide eastward through the Great Lakes today and tonight, which will likely produce scattered severe storms from northeastern Illinois to the southern Great Lakes this afternoon and evening. Some severe activity may make it into western New York and western Pennsylvania late this evening into early Thursday morning.<br />\r\n<br />\r\nA&nbsp;<em><strong>Severe Thunderstorm Watch</strong></em>&nbsp;has been issued for southern Michigan, extreme northern Indiana, and northern Ohio.&nbsp;<br />\r\n<br />\r\nStorms developing in the northern and central Plains will not be as organized this afternoon and evening, but with ample heat and humidity in the region, pockets of severe storms will still be possible. A small <strong><em>Slight Risk</em></strong> has been issued for parts of southwest Nebraska, northwest Kansas, and northeast Colorado, as this activity could produce localized areas of gusty winds and large hail.&nbsp;<br />\r\n<br />\r\nThe disturbance passing through the Great Lakes today will continue to provide chances for severe weather as it pushes into the Northeast and Mid-Atlantic on Thursday.<br />\r\n<br />\r\nThe best way to remain safe is to stay prepared and informed about your local weather. Have a severe weather kit packed with a battery-operated radio, water and non-perishable food items should you be without power for long periods of time. Also, check the WeatherBug app frequently for any updates on today&rsquo;s severe weather. Remember, &ldquo;When Thunder Roars, Go Indoors!&rdquo;","ImageLink":"https://media.weatherbug.com/commoncontent/files/65/65543ed0-e8e6-4a69-aae0-4e93028a96cb.jpg?Expires=1690602397&Signature=NxOyspfxbpMCqia6quzTFxyi7AN3OZE31Y-y79CSgWBeuZdrV7mAFxnpW-fbNiTe1c9I~iSck~lpbz-fxVHMA5cgU2jWdDNNRuVactZqAuchYu-nidZZXBrf~ZLKGxzT1PtLqb4mMv3xL9wLjf-mljORvYryJ35at1T5HWrmwC4YaA5zUBC8Sh6-CKR1vrt~s05ND8RrwSh63yWYhstqNeXrPjjr0KOE0b4QhbqRytZeIUM3Ddk5sVgmQTXieYEw8tUouvQwlxqte4gbPbM4ypuCUac7gjMT7JZQ7h-vQEl74gzp-Gwo55T8KvN40amWGy0gpgGhHSvSmy2uOaZW3g__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/37/373a117f-d686-4653-8a88-02d9fa0f4f14.jpg?Expires=1690602397&Signature=jED4cyi2OVqzfMdbfYDhOfaMGVUzQyy0htddvxyBbs0--lFsRXot7qDZkLI1W9ORN~PBMRyud1SmA982OkkaatuOW0jKlQI8S0X-zmOrjJOrdigJtvRn2jQ-vPJ05kXvClnRbdLdFEsjtJbUyUIEom~oGTc0RbYC2TOoFvusY3ZTZM1NCJ1ygw7CTmL~IsY~G~yGJEIix761vmG38K56mkuFFei0QV5W5tWWXUTP-brc8DCKciGJqTkhYGwgJsQaWGXU0V7XcVVT44~GEVF9MYQy~pnTxZvK2WkehFC3HVHBs1LuqZyNznEX6s61hWSapR5fihzbr6PBaOXN3f0bhQ__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":"/news/Major-Heatwave-Set-To-Bake-The-Western-U-S","prevStoryUrl":null,"Id":11670,"Guid":"09c6faee-d541-438b-af8d-980103d77c3f","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2023-07-25T10:57:33Z","ModifiedWhen":"2023-07-27T00:48:18Z","PublishWhen":"2023-07-27T00:48:17Z","Url":"/news/Storms-Erupt-In-The-Mid-Atlantic-and-North-Central","CreatedDate":"2023-07-25T10:57:33+00:00","ModifiedDate":"2023-07-27T00:48:18+00:00","PublishDate":"2023-07-27T00:48:17+00:00","ImageCaption":"Today's Severe Weather Outlook"},{"Source":null,"ContentTags":["heat","heatwave","hot","map","maps"],"NodeAlias":"Major-Heatwave-Set-To-Bake-The-Western-U-S","ByLine":"UPDATED By Weatherbug Meteorologist, Mark Ellinwood","Summary":"Sweltering heat continues in parts of the Southwest as the mercury rises across much of the central and eastern U.S.","Title":"Excessive Heat Expands Across The Central And Eastern U.S.","Text":"Sweltering heat continues in parts of the Southwest as the mercury rises across much of the central and eastern U.S.<br />\r\n<br />\r\nA ridge of high pressure originating from the Four Corners region will expand into the southeastern U.S. today through Thursday. This will make the warmest stretch of the year even warmer for a large portion of the U.S.<br />\r\n<br />\r\nThe hottest temperatures will be found from southern California into the Mojave and Sonoran deserts today, with highs reaching the 110 to 120 degree range. Temperatures will top out in the mid-90s to mid-100s across the Plains, with widespread 90s in the Southeast, Ohio Valley, and southern Mid-Atlantic.<br />\r\n<br />\r\nThe humidity will make it feel a few degrees warmer in some places east of the Rockies today, but it should not have a huge effect until later in the week as the humidity levels increase.<br />\r\n<br />\r\n<strong>Excessive Heat Warnings and Heat Advisories </strong>have been posted across southern California into the Desert Southwest. Although the Northeast and Mid-Atlantic have enjoyed mild weather for most of the summer, they are poised to get into the action this week.&nbsp;<strong>Heat Advisories</strong> covering a large portion of the Plains, Midwest, and the I-95 corridor from Richmond, Va., to Boston, and&nbsp;<strong>Excessive Heat Watches</strong>&nbsp;stretch across much of the Interstate 95 corridor for Friday.<br />\r\n<br />\r\nAs this high pressure system slowly shifts into the central and eastern U.S. through the back half of the work week, temperatures will trend closer to normal values for the western U.S. while a warming trend arrives east of the Rockies.<br />\r\n<br />\r\nWith the heat building over the central and eastern U.S., widespread highs in the 90s to lower 100s are expected on Thursday, with heat indices making temperatures feel several degrees warmer.<br />\r\n<br />\r\nIf you cannot avoid being outdoors, drink plenty of water to stay hydrated, take frequent breaks in an air-conditioned room, and wear lightweight and loose-fitting clothing. Know the signs and symptoms of heat exhaustion and heat stroke. Make sure to check frequently on the elderly, young children, and NEVER, EVER leave children or pets unattended in a vehicle!","ImageLink":"https://media.weatherbug.com/commoncontent/files/fb/fbc6abb7-dc10-4b83-8d43-20c57c639c56.jpg?Expires=1690602397&Signature=Ew08NWMqQG1QE3pwHFdt3xPr9-cbp6Xy50uyNslIXicdtL1Gnm94GYCs8K~tM8Kii42AmjgjXW0kgD22RNE2iudA2IVgjmCiabHPaxjZr54e91ccdsv1V3HL8-DfvXfMYeqXlk6sBJu9Ab6B1VYcggRbQzY5IJxrKwjsMxh9znOeWEWLLlkgw5-wB34J1KHIrYmtiyJzUmLeH4Xckq-H727rSg-akpREQ~FV7YrckGD1UpuqIjIclqSZRR82zne5ImsRmgZRhO8EM1ohhOpPcipSwwXeubZnuZpDe0LMChVGRL1p~NsTytk3bro5rm3eFXN~Oyn9rQRLlIww2ZIOnA__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/0b/0bd789d6-83d6-482a-be63-7702729a986c.jpg?Expires=1690602397&Signature=XIi0hzhqRZRrSxD8MwG6~VTX5~fz3SP5PzQ-U9ZtoEWkwu72uGDPFqtT~fLJ57ysYsnq1I~2qggBVQwdNZ0pmikPauyjhsLZiseJYLP3ebimVfJ0y1cezI4nuqLeS7QQ6tiC0s7PNCE3hYWxdfouyTr3gSVi7sjjNoCd~cN1ikEuxSIe2ecC-kXcOv6Xf0JlQomqhu-BZXj2ATBTW5yepx-PlgOCvq1BgpdKTbPx3g54z-CItGrSs~elaFIafws9JMWfqt9ApN0vRtwlZrmpF8yLkOqKUpjThBRn1W75MpwCO9AyysrXexIB842sfOm9M82Bj37xAF4McXq0gSrB2g__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":"/news/Sunscreen-Tips-To-Wear-It-Well","prevStoryUrl":"/news/Storms-Erupt-In-The-Mid-Atlantic-and-North-Central","Id":11660,"Guid":"d5c4e53d-7418-4d99-91be-48816b7d1f7c","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2023-07-23T10:34:39Z","ModifiedWhen":"2023-07-27T00:45:57Z","PublishWhen":"2023-07-27T00:45:57Z","Url":"/news/Major-Heatwave-Set-To-Bake-The-Western-U-S","CreatedDate":"2023-07-23T10:34:39+00:00","ModifiedDate":"2023-07-27T00:45:57+00:00","PublishDate":"2023-07-27T00:45:57+00:00","ImageCaption":"Today's Forecast High Temperatures"},{"Source":null,"ContentTags":["map","maps","summer","sun","sunscreen"],"NodeAlias":"Sunscreen-Tips-To-Wear-It-Well","ByLine":"By WeatherBug Meteorologist, Alyssa Robinette","Summary":"Before you head outdoors, follow some of these tips to maximize your sunscreen’s protection.","Title":"Sunscreen: Tips To Wear It Well","Text":"There are so many options to choose from when it comes to sunscreen, including lotions, sprays and gels. The type of sunscreen you choose is just as important as how you use it. So, before you head outdoors, follow some of these tips to maximize your sunscreen&rsquo;s protection.<br />\r\n<br />\r\n<strong>Get UV-A and UV-B protection.</strong> Always opt for sunscreen that provides both UV-A and UV-B protection. UV-B rays cause sunburns and skin damage, while UV-A rays increase your risk for skin cancer. Sunscreen that also contains zinc oxide or titanium oxide will help to block both UV-A and UV-B rays.<br />\r\n<br />\r\n<strong>Choose SPF 30 or higher. </strong>Always make sure you use sunscreen with SPF, or Sun Protection Factor, 30 or higher. The SPF in your sunscreen absorbs and reflects the sun&rsquo;s rays so they do not burn or damage your skin. No sunscreen provides 100 percent protection from the Sun, but a sunscreen with SPF 30 provides around 97 percent protection.<br />\r\n<br />\r\n<strong>Apply sunscreen early and liberally. </strong>Your skin can take up to 30 minutes to absorb sunscreen. So, make sure you plan ahead and apply sunscreen 30 minutes before going outside. You should also not hold back on sunscreen. For sunscreen to do its job effectively, you should apply 1 ounce of sunscreen, or the size of a golf ball, to every part of your body exposed to the sun, including your ears, feet and back of the neck.<br />\r\n<br />\r\n<strong>Reapply sunscreen every two hours. </strong>Forget all-day protection as sunscreen wears off after just a couple of hours. Make sure you lather on another golf-ball sized amount every two hours. However, you should reapply sunscreen every 60 to 90 minutes if:\r\n\r\n<ul>\r\n\t<li>You use spray sunscreen as it washes off more easily.</li>\r\n\t<li>You are swimming or sweating. Water, snow and sand can intensify the sun&rsquo;s rays and cause a greater burn.</li>\r\n</ul>\r\n<strong>Check your sunscreen expiration date. </strong>Sunscreen expires after 3 years and will become less effective. If you buy sunscreen that does not have an expiration date, write the date of purchase on the bottle.<br />\r\n<br />\r\n<strong>Wear sunscreen even on cloudy days. </strong>UV rays can pass through clouds up to 80 percent of the time, so it is still possible to get sunburned or have skin damage when there is significant cloud cover.<br />\r\n<br />\r\n<strong>Two times the SPF does not mean two times the protection. </strong>If you choose a sunscreen with a SPF higher than 30, all of the same rules still apply. You must apply sunscreen early, liberally and frequently. A sunscreen with a SPF 50 protects against 98 percent of the sun&rsquo;s rays, while sunscreen with a SPF of 100 covers 99 percent.<br />\r\n<br />\r\n<strong>Don&rsquo;t rely on sunscreen alone. </strong>Unfortunately, sunscreen cannot completely prevent sunburns, blisters and skin cancer. You can give your skin some added protection by wearing:\r\n\r\n<ul>\r\n\t<li>Lip balm with SPF 30 or higher</li>\r\n\t<li>A tightly woven hat with a wide brim.</li>\r\n\t<li>Wrap-around sunglasses with UV protection.</li>\r\n\t<li>A tightly woven, dark long-sleeved shirt or special sun-protective clothing.</li>\r\n</ul>\r\nYou can also protect your skin by seeking shade from the sun from 10 a.m. to 4 p.m. That is usually when the sun&rsquo;s harmful UV rays are strongest.<br />\r\n&nbsp;<br />\r\nSource: MD Anderson Cancer Center, Advantage Dermatology, Mayo Clinic<br />\r\n<strong>------</strong><br />\r\n<em>Image: Female hands with sun protection cream on sky background. (Africa Studio via Shutterstock)</em>","ImageLink":"https://media.weatherbug.com/commoncontent/files/c0/c0cf218f-ebc6-40df-bd19-9d8941cdbc17.jpg?Expires=1690602397&Signature=kC31dVKU6am5JxF8~k4QWWRhNRiPmlJm8qEWj0ItpTpp~c194917oRH2G7Qh-FInweheO50pySE8XAwpq2nWe0aR-q1aQ9Raiq3~Diwe6asW2ewbMkFT7OYNqagr2MuPsWByJs3YEK0kWIYUYy1aHwpeYYnCnZ8zyJeQWYTIDX8JST0AKMa9ZDZbCQ9MBtuBMJjWoCXshV1rNIo3AAfnLjxGQfAmedWat1aGuteq9vgRJivKhB2K4lu50VlzQPqv8w6NPCYY1DVQGlMV0SxVeilXvsKvZXC9c9bNyawYiNShJ1jOx4r-Pku6qGue00esrG7-KUIdN~C7o7OHFBwI6Q__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/e7/e718e18b-b49f-414a-8baa-38158460466f.jpg?Expires=1690602397&Signature=RsjYvo1sBEFVOhxu5iqsoBQUsPvgBLjXdbV1~g8AF4Uw6R40-co1q4An1Tr9U48M6nHr1EB1IR6Te21Q12hel~mlu14RqdOnZOw3WvbdkZiI0Tp9cLaFlQDb~BnhZrgxx7QbcZ~PWbsFjOLDdfGRdD1j1rJdXGY7xpjChw6aztJRjBZOUDG-DkFSvr7X3Wc84XRZl-EGa2KaqWF~oIfgGdirAhDEYVNAuNfGQT5WxEs-ESwN86rV~cQKS23Pc8cKJHlYrMOn1olopshS5FZR1qWbeqhz8spTXCzmSxgKEkSHvG8jSW6gwGjvPzYDwdf1aV~4o-c8OLijcVKzEZp86Q__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":"/news/Today-s-Weather-Outlook","prevStoryUrl":"/news/Major-Heatwave-Set-To-Bake-The-Western-U-S","Id":11671,"Guid":"1a393757-d6a4-41ee-8225-aabe4c9842eb","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2023-07-25T15:25:43Z","ModifiedWhen":"2023-07-25T15:25:45Z","PublishWhen":"2023-07-25T15:25:45Z","Url":"/news/Sunscreen-Tips-To-Wear-It-Well","CreatedDate":"2023-07-25T15:25:43+00:00","ModifiedDate":"2023-07-25T15:25:45+00:00","PublishDate":"2023-07-25T15:25:45+00:00","ImageCaption":"Female hands with sun protection cream on sky background. (Africa Studio via Shutterstock)"},{"Source":null,"ContentTags":["flooding","hail","heat","July","map","maps","rain","severe","summer","thunderstorms","wind"],"NodeAlias":"Today-s-Weather-Outlook","ByLine":"By WeatherBug's Domenic Brooks","Summary":"Severe thunderstorms will advance across the Northeast while the nation’s heartland continues to melt.  ","Title":"Thursday's Weather Outlook","Text":"Severe thunderstorms will advance across the Northeast while the nation&rsquo;s heartland continues to melt.&nbsp; &nbsp;<br />\r\n<br />\r\nPeace and quiet can only last so long before it is disrupted, and after a quiet Wednesday in the Northeast and Mid-Atlantic, storms will return to the regions Thursday. Light, scattered morning showers are possible, followed by an afternoon line of thunderstorms stretching from Maine to North Carolina. These storms could bring a severe threat along with them, especially in New England.&nbsp;&nbsp;<br />\r\n<br />\r\nAlong much of the I-95 corridor south of New England, it will feel like a sauna as high temperatures climb into the mid 90s, while heat indices in some spots may reach 100. Interior parts of the region should remain much cooler with highs only in the 70s and 80s.&nbsp;&nbsp;<br />\r\n<br />\r\nThe Southeast is again expected to remain mostly dry Thursday, aside from a couple of pop-up afternoon thunderstorms across the Deep South and typical thunderstorm activity in Florida. Widespread high temperatures in the low to mid 90s are anticipated, with humidity causing it to feel like it is in the upper 90s to low 100s.&nbsp;&nbsp;<br />\r\n<br />\r\nScattered showers and thunderstorms are expected in parts of Minnesota, Wisconsin, and the Upper Peninsula of Michigan throughout the afternoon and evening Thursday. For everywhere else, a pop-up afternoon shower or thunderstorm is possible, but mostly dry weather will take place.&nbsp;&nbsp;<br />\r\n<br />\r\nThursday will likely be the hottest day of the week so far for the Midwest. Widespread high temperatures in the 80s and 90s are expected, while heat indices reach the upper 90s and 100s, especially in the Mid-Mississippi River Valley.&nbsp;&nbsp;<br />\r\n<br />\r\nThe Central U.S. will stay steaming hot Thursday, as high temperatures in the upper 90s and low 100s will cover an area from Texas to South Dakota. Afternoon scattered thunderstorms are likely to spring up along the foothills of the Rockies and spread eastward across the Central and Northern High Plains.&nbsp;&nbsp;<br />\r\n<br />\r\nThe Southwest will be similar to the past few days, as high temperatures reach into the upper 90s and 100s, with several spots in Arizona and southern California destined to get above 110 degrees. Monsoon moisture continues to spring up afternoon thunderstorms across the Central Rockies and Desert Soutwest. Temperatures will be slightly cooler at higher elevations.&nbsp;<br />\r\n<br />\r\nThe Pacific Northwest will remain quite mild, as high temperatures climb into the low 90s in some spots east of the Cascades, but most areas can expect highs in the 80s. Dry weather is anticipated, but precipitation chances increase across Montana and Idaho.&nbsp;","ImageLink":"https://media.weatherbug.com/commoncontent/files/f6/f6ce2e64-5703-4072-bc76-3b700c25c64a.jpg?Expires=1690602397&Signature=U6u9ni~3JZUS4BVbs0V3aC75rcbs8wp3VkkXemepfVa2vAGCzHSzoLO9epMjfwGWWBZ5PdPMwzYQStwEFiybgPSkI2rn1T16eLidw9Xhtp~Ktwjk1Qq-PJhDCcY0DmhgVB5EYR63eT-qcYH8qXqnWlJ6Denlz0Mj-tDrCJQ7~u~AqINBT2NG-8oi7KwUT~g2clgEieshtu18CJ4gHKz8o7vbnnK6bc6IrD6NgQIKBGQgpBb4YaYI9uQFpjhcIKTxGQAAdM~f8DswtxrtO-nL2zmHkI18SpYg90frTYuwxM8GqIb1603Me3ypWxeUw1Zfl7jIoHZrfuX7Eryo0JKz6g__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/d4/d4bb0699-c58b-4bc5-81d8-443d383715c0.jpg?Expires=1690602397&Signature=TiI-8k4TdGGFoIokzvg0xfIDAhVmLvpaooF9TrXH2HzuGCUw5-jqw4VPoUXRqrBkyDxZA5XhYvOE4t-eviHLQLXvuNjuH5EbuBiEGyxcTjf3jj4FOCdXVyasaa0TH7LcN0of9wmShQiTJKODRo5kknYDhv2mn~uZ-aiDPyJjZoHwobWI3gzkyshitCt9rieGljR1g7h~MFnYdxkUcHbly8L4PMwPq8saIsLK5Bikyh8uJ0gG4AQmgOk9J7M75KY0VguSHvndncKhtRm27mg4XKdPmCXzlna0eoyh-ejYXF8yrbYu4NUHNaR3Caj2WCl1d00RemLNdN61AR3pV2e1xw__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":"/news/Typhoon-Doksuri-Leaves-At-Least-6-Dead-and-Displac","prevStoryUrl":"/news/Sunscreen-Tips-To-Wear-It-Well","Id":7166,"Guid":"a557fb79-b334-46e2-bd39-8df603670e48","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2020-10-25T21:13:22Z","ModifiedWhen":"2023-07-26T19:32:08Z","PublishWhen":"2023-07-26T19:32:07Z","Url":"/news/Today-s-Weather-Outlook","CreatedDate":"2020-10-25T21:13:22+00:00","ModifiedDate":"2023-07-26T19:32:08+00:00","PublishDate":"2023-07-26T19:32:07+00:00","ImageCaption":"Wednesday's Weather Outlook"},{"Source":null,"ContentTags":["Doksuri","landslide","map","maps","Philippines","typhoon"],"NodeAlias":"Typhoon-Doksuri-Leaves-At-Least-6-Dead-and-Displac","ByLine":"By Jim Gomez, Associated Press","Summary":"Typhoon Doksuri lashed northern Philippine provinces with ferocious wind and rain Wednesday, leaving at least six people dead and displacing thousands of others.","Title":"Typhoon Doksuri Leaves At Least 6 Dead and Displaces Thousands in The Northern Philippines","Text":"MANILA, Philippines (AP) &mdash; Typhoon Doksuri lashed northern Philippine provinces with ferocious wind and rain Wednesday, leaving at least six people dead and displacing thousands of others as it blew roofs off houses, flooded low-lying villages and triggered dozens of landslides, officials said.<br />\r\n<br />\r\nOne landslide buried a house in Buguias town in Benguet province, killing a mother, her child and two other children and injuring two other people. In the nearby resort city of Baguio, a 17-year-old person died when soil loosened by heavy rains buried his house, officials said.<br />\r\n<br />\r\nIn Isabela province, also in the north, a woman selling bread on a bicycle cart died when she was hit in the head by a falling coconut tree, a police report said.<br />\r\n<br />\r\nThe typhoon slammed into Fuga Island before dawn and later smashed into another island in Cagayan province, where nearly 16,000 people were evacuated from high-risk coastal villages, and schools and workplaces were shut as a precaution as the storm approached Tuesday.<br />\r\n<br />\r\nTens of thousands of people were affected by flooding and other problems caused by the typhoon, which has a 700-kilometer (435-mile) -wide band of wind and rain, disaster response officials said.<br />\r\n<br />\r\nDoksuri weakened slightly but remained dangerous with sustained winds of 175 kph (109 mph) and gusts of up to 215 kph (133 mph). It was blowing 95 kilometers (59 miles) west of the island town of Calayan off Cagayan on Wednesday night, forecasters said.<br />\r\n<br />\r\n&ldquo;Our northern coastal towns are being battered,&rdquo; Cagayan Gov. Manuel Mamba said Wednesday morning by telephone. &ldquo;I&rsquo;m receiving reports of tin roofs being blown away and flooding that could not drain out probably because of tidal surges coming in from the sea.&rdquo;<br />\r\n<br />\r\nMamba expressed fear of extensive damage to Cagayan valley&rsquo;s corn and rice farms, which had already been battered by a monthslong dry spell before Doksuri hit. At least four towns lost power and six bridges were flooded, Cagayan officials said in a damage report.<br />\r\n<br />\r\n&ldquo;Violent, life-threatening conditions are expected to continue&rdquo; on Wednesday over northwestern Cagayan and the outlying Babuyan Islands as well as the northern mountainous regions of Apayao and Ilocos Norte provinces, the country&rsquo;s weather bureau said.<br />\r\n<br />\r\nCoast guard personnel used rubber boats and ropes to evacuate villagers who were trapped by brownish, waist-level floodwaters in their houses in Bacarra town in Ilocos Norte, the coast guard said.<br />\r\n<br />\r\nThousands of inter-island ferry passengers and cargo truck drivers, along with nearly 100 passenger and cargo vessels, were stranded in ports where a no-sail order was imposed. Most were able to proceed with their trips as the weather improved, the coast guard said.<br />\r\n<br />\r\nThe typhoon swelled seasonal monsoon rains in central and northern provinces, including in the densely populated Manila capital region. It was forecast to move away from the northern Philippines on Thursday and barrel northwestward to graze Taiwan&rsquo;s southwestern coast before hitting southeastern China on Friday.<br />\r\n<br />\r\nU.S. officials advised Americans in China not to travel to southern regions and asked those in vulnerable areas to stay in secure shelters and check their emergency kits.<br />\r\n<br />\r\nAlthough it was not poised for a direct hit, Doksuri&#39;s outer bands brought heavy rain and strong winds to Taiwan&rsquo;s eastern coast Wednesday. Trains were canceled between Kaohsiung and Taitung cities in the south, while ferries to outlying islands were also halted.<br />\r\n<br />\r\nTaiwan&rsquo;s Central Weather Bureau reported gusts of up to 198 kph (123 mph).<br />\r\n<br />\r\nMeanwhile, Taiwan continued to hold its annual Han Kuang military exercises. The military carried out its first-ever drill at the civilian Taoyuan International Airport on Wednesday morning, according to local media. The drill stopped air traffic for an hour while the military simulated stopping an invasion targeting the airport.<br />\r\n<br />\r\n___<br />\r\n<br />\r\n<em>Image:&nbsp;A police officer checks a landslide caused by Typhoon Doksuri at a residential area in Baguio City, northern Philippines on Wednesday, July 26, 2023. (AP Photo)</em><br />\r\n<br />\r\nAssociated Press writers Huizhong Wu in Taipei, Taiwan, and Joe McDonald in Beijing contributed to this report.<br />\r\n<br />\r\nCopyright 2023 The Associated Press. All rights reserved.","ImageLink":"https://media.weatherbug.com/commoncontent/files/8a/8a002f52-e11a-4a5d-8f5a-3196d5046cd9.jpg?Expires=1690602397&Signature=FUksXnOOvKbQB~lBgjphmcVs8iiVoCzmtsQEpxMcgpCxobprM9Oy-9xaxF-FeglNYtjtv~s-zr2QVXFJC2YPFt3HO91S5MPTsIsO9Vpx70Vj6GPee04n~odchMEK-~swi4DS3rjxaSdNzh84NlVMNp~OVbb1Ztst0ZsJhIZrT-Eonvk1AqtL43GXlPfDa72sGF77o29Rxf-Qp0zCTQ-owpcld3ErzAO29SVI9WL6Q5ebREU9hrPThc-GUFIUV3ZSH2m9xVDB7SEAnxftGWYi2hFmgMfoURN1IKBoa4cc36uw2O8yeg8MYkC7D3ICRdYwawzi1nAcKLLJfZJaqU1MaA__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/05/0584ecc8-81ab-44eb-aacc-37fe38da43a2.jpg?Expires=1690602397&Signature=IlPjt3SwvHoUx9eBlvbaT8tYKp9YygDo3qupgFs9EHZfENX4hwS4quHh~UkY3SAkJcfyBrkYn25IYLYB7o-2oLJC74-s8H1Ut86OolKFL991vIyEbj8~VTjCsnGtn5bE-DFlxFrLyejNZ5R0H15KsRitbV6EqxqWVzWuONBxXmF12ikrlQ8yfwPEzzHHN-FNForWn8Kse-F8-kRr9e6rGyBeSVVkQBZx06XyJDLp454qsswa7MRhsQ~c9MyfqK6SwBtrUJ3fzlwGAysse68vjCnD~YDFoa9VWwGbkr-6c1YUo4KB9xUnJt9FK1m8vxkRu~LaXvX7mCur9NawDc1hdw__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":"/news/One-Year-Old,-U-S-Climate-Law-is-Already-Turbocha","prevStoryUrl":"/news/Today-s-Weather-Outlook","Id":11673,"Guid":"411268e0-5c2f-49d6-bae0-ee8093554090","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2023-07-26T15:43:20Z","ModifiedWhen":"2023-07-26T15:46:34Z","PublishWhen":"2023-07-26T15:46:33Z","Url":"/news/Typhoon-Doksuri-Leaves-At-Least-6-Dead-and-Displac","CreatedDate":"2023-07-26T15:43:20+00:00","ModifiedDate":"2023-07-26T15:46:34+00:00","PublishDate":"2023-07-26T15:46:33+00:00","ImageCaption":"A police officer checks a landslide caused by Typhoon Doksuri at a residential area in Baguio City, northern Philippines on Wednesday, July 26, 2023. (AP Photo)"},{"Source":null,"ContentTags":["climate","heat","map","maps","solar"],"NodeAlias":"One-Year-Old,-U-S-Climate-Law-is-Already-Turbocha","ByLine":"By Isabella O’Malley and Michael Phillis, Associated Press","Summary":"The U.S. climate law that passed one year ago offers a 30% discount off this installation via a tax credit, and that's helping push clean energy even into places where coal still provides cheap electricity.","Title":"One Year Old, U.S. Climate Law is Already Turbocharging Clean Energy Technology","Text":"FRANKFORT, Ky. (AP) &mdash; On a recent day under the July sun, three men heaved solar panels onto the roof of a roomy, two-story house near the banks of the Kentucky River, a few miles upstream from the state capitol where lawmakers have promoted coal for more than a century.<br />\r\n<br />\r\nThe U.S. climate law that passed one year ago offers a 30% discount off this installation via a tax credit, and that&#39;s helping push clean energy even into places where coal still provides cheap electricity. For Heather Baggett&rsquo;s family in Frankfort, it was a good deal.<br />\r\n<br />\r\n&ldquo;For us, it&#39;s not politically motivated,&rdquo; said Baggett. &ldquo;It really came down to financially, it made sense.&rdquo;<br />\r\n<br />\r\nOn August 16, after the hottest June ever recorded and a scorching July, America&#39;s long-sought response to climate change, the Inflation Reduction Act, turns one year old. In less than a year it has prompted investment in a massive buildout of battery and EV manufacturing across the states. Nearly 80 major clean energy manufacturing facilities have been announced, an investment equal to the previous seven years combined, according to the American Clean Power Association.<br />\r\n<br />\r\n&ldquo;It seems like every week there&rsquo;s a new factory facility somewhere&rdquo; being announced, said Jesse Jenkins, a professor at Princeton and leader of the REPEAT Project which has been deeply involved in analysis of the law.<br />\r\n<br />\r\n&ldquo;We&rsquo;ve been talking about bringing manufacturing jobs back to America for my entire life. We&rsquo;re finally doing it, right? That&rsquo;s pretty exciting,&quot; he said.<br />\r\n<br />\r\nThe IRA is America&rsquo;s most significant response to climate change, after decades of lobbying by oil, gas and coal interests stalled action, while carbon emissions climbed, creating a hotter, more dangerous world. It is designed to spur clean energy buildout on a scale that will bend the arc of U.S. greenhouse gas emissions. It also aims to build domestic supply chains to reverse China&#39;s and other nations&#39; early domination of this vital sector.<br />\r\n<br />\r\nOne target of the law is cleaner transportation, the largest source of climate pollution for the U.S. Siemens, one of the biggest tech companies in the world, produces charging stations for EVs. Executives say this alignment of U.S. policy on climate is driving higher demand for batteries.<br />\r\n<br />\r\n&ldquo;When the federal government makes an investment, we get to the tipping point faster,&rdquo; said Barbara Humpton, CEO of Siemens USA, adding that the company has invested $260 million in battery or battery storage projects in recent years.<br />\r\n<br />\r\nThe law also encourages more of the type of batteries that feed electricity to the grid when the wind is slack, or at night when the sun isn&#39;t hitting solar panels. It could put the storage business on the same upward trajectory that solar blazed a decade ago, said Michael McGowan, head of North American infrastructure private markets for Mercer Alternatives, a consulting firm.<br />\r\n<br />\r\nDerrick Flakoll, North America policy associate at Bloomberg NEF, pointed out that sales at the largest manufacturer of solar panels in the U.S., First Solar, skyrocketed after the law passed, creating a big backlog of orders.<br />\r\n<br />\r\n&ldquo;This is years and years of manufacturing capacity that is already booked out because people are bullish about the U.S.-produced solar market,&rdquo; he said.<br />\r\n<br />\r\nThe IRA is also helping technologies that are expensive, but promising for near-term decarbonization.<br />\r\n<br />\r\nJason Mortimer is senior vice president of global sales at EH2, which makes large, low-cost electrolyzers &mdash; machines that split hydrogen from water. Hydrogen as clean energy is still in its infancy. &quot;The IRA accelerates the implementation of hydrogen at scale by about four to five years,&rdquo; making the U.S. competitive with Europe, he said.<br />\r\n<br />\r\nBut these changes, significant as they are, may just be the beginning, experts say.<br />\r\n<br />\r\n&ldquo;I think we&rsquo;re about to see a quite a flood of investment in wind and solar-related manufacturing in the U.S.,&rdquo; Jenkins said, adding that 2026 to 2028 is when the country will see the law&#39;s full impact.<br />\r\n<br />\r\nOther countries, some of them ahead of the U.S. in addressing climate change, have enacted their own further efforts to speed the changeover to clean energy. Canada has announced a matching policy and Europe has its own measures to attract manufacturing, similar to the IRA.<br />\r\n<br />\r\n&quot;European and Japanese automakers are trying to think about how to change supply chains in order to try and compete,&rdquo; said Neil Mehrotra, assistant vice president and policy advisor at the Federal Reserve Bank of Minneapolis and contributor to a report about the U.S. law published by the Brookings Institution.<br />\r\n<br />\r\nThe Congressional Budget Office initially estimated the IRA&rsquo;s tax credits would cost about $270 billion over a decade, but Brookings says businesses might take advantage of the credits far more aggressively and the federal government could pay out three or four times more.<br />\r\n<br />\r\nThe law is supposed to reduce the emissions of the U.S. &mdash; the country most responsible for greenhouse gases historically &mdash; by as much as 41% by 2030, according to a new analysis by Princeton researchers. That&#39;s not enough to hit U.S. goals, but is a significant improvement.<br />\r\n<br />\r\nBut those crucial greenhouse gas cuts are partially at risk if the U.S. electric grid cannot grow enough to connect new wind and solar farms and handle new demands, like mass vehicle charging.<br />\r\n<br />\r\nDespite the new investment in red states, not everyone likes it. Republicans recently proposed repealing major elements of the law. And Frankfort resident Jessie Decker, whose neighbor has solar panels, said he wouldn&rsquo;t consider them, and doesn&rsquo;t think the federal government should be &ldquo;wasting money&rdquo; on dubious climate programs.<br />\r\n<br />\r\nNor does the law mean climate-warming oil and gas are going away.<br />\r\n<br />\r\n&ldquo;Frankly, we are going to be using fossil fuels for many decades to come,&rdquo; said Fred Eames, a regulatory attorney with the law firm Hunton Andrews Kurth.<br />\r\n<br />\r\nUp on Baggett&rsquo;s roof, Nicholas Hartnett, owner of Pure Power Solar, is pleased that business is up and homeowners are opening up to solar once they see how they can financially benefit.<br />\r\n<br />\r\n&ldquo;You have the environmental side, which handles the left, and then you have the option to use your own tax money that the government would have otherwise taken, which gets the right checked off,&rdquo; he said.<br />\r\n<br />\r\n___<br />\r\n<br />\r\n<em>Image:&nbsp;Nicholas Hartnett, owner of Pure Power Solar, carries a panel as he and Brian Hoeppner, right, install a solar array on the roof of a home in Frankfort, Ky., Monday, July 17, 2023. (AP Photo/Michael Conroy)</em><br />\r\n<br />\r\nThe Associated Press receives support from the Walton Family Foundation for coverage of water and environmental policy. The AP is solely responsible for all content.&nbsp;<br />\r\n<br />\r\nCopyright 2023 The Associated Press. All rights reserved.","ImageLink":"https://media.weatherbug.com/commoncontent/files/d0/d058dffc-8584-4e75-aff2-2854ef200b0e.jpg?Expires=1690602397&Signature=YxJwDZOsDPuYgNXYJGocczs-8zn4vy9DRqmu67f5NAMJfc1OOUcroLCePuRB~LTllpQsOihd5o2CO5ZCCTZSvXgXKm4SrS3KaiZ4VSkXMCjIplTk5J2nVM13PnfLp4iusekZRdcYXBBnUA8uJZlD6nqUi70n-7V3lUgoq-qkMpxYyP60nPbhKkHVo4dVyOWhIZIqGtVkP1cHbIS8ELDb2gWcmDKMynzTkJHdGr3atWcWKLsKAORE8Ulfo-XyGe6ES6KV-fFmqpb5NxQtk-v6gHrsCNvKe0MNqNv9vc0ogro2O~DzudfgwuF0Vf17YisvE1uu0DarB0Zt5bJ-H4QYhg__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","ThumbnailImageLink":"https://media.weatherbug.com/commoncontent/files/c4/c4fc6fea-73fb-4009-a41f-a9d20484b25e.jpg?Expires=1690602397&Signature=H1kzjceyW4-wkugeLlxPVTKPO-Wru2jg7rkCO~voE~tIfFCNa~ylrBqlwcNbjmGdtfrHrhEmku7NM4-6gRhYnpt~DEhIIKz5jDPXwe1L6cGcCSmeUi8aQUvKxdMQNpojGsN-Nh1rZccaLonr8I9A9IBHvOu-zaFToJ1s5xqI3eeVqpLX29I-dvrpd2fQP9YaJMGXkK6GCLMsuLf1a3H17TPLbXATPdRVzW~ksHMxAAKHk~0EM~1gbcoiFlAWisPHTkF-pXkC1StqsCjFUfNkhAn5BbbVziMk8lZ2B3JIPw5YgiaUzncbxSeepddBxtDjFAMciShq7wnD5qKHFUXZMw__&Key-Pair-Id=APKAIP6FQQ2BATJKEVCA","nextStoryUrl":null,"prevStoryUrl":"/news/Typhoon-Doksuri-Leaves-At-Least-6-Dead-and-Displac","Id":11668,"Guid":"5935c820-098f-4423-ab7b-50685da16e79","ClassName":"WB.story","VideoLinks":null,"CreatedWhen":"2023-07-24T14:37:56Z","ModifiedWhen":"2023-07-24T14:45:14Z","PublishWhen":"2023-07-24T14:45:12Z","Url":"/news/One-Year-Old,-U-S-Climate-Law-is-Already-Turbocha","CreatedDate":"2023-07-24T14:37:56+00:00","ModifiedDate":"2023-07-24T14:45:14+00:00","PublishDate":"2023-07-24T14:45:12+00:00","ImageCaption":"Nicholas Hartnett, owner of Pure Power Solar, carries a panel as he and Brian Hoeppner, right, install a solar array on the roof of a home in Frankfort, Ky., Monday, July 17, 2023. (AP Photo/Michael Conroy)"}],"Id":"0f4ec0c2-ba21-457c-b83b-1da2c574d001","IsPreparedForRender":true,"IsServerRendered":true,"Position":1,"Type":"StorySection","Title":null,"Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_stories_x16","Width":300,"Height":600,"ShowOnPhone":false,"ShowOnTablet":true,"ShowOnDesktop":true,"Id":"a873c280-c10f-46d3-9ea9-f068a665eef4","IsPreparedForRender":false,"IsServerRendered":false,"Position":2,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_stories_x83","Width":320,"Height":50,"ShowOnPhone":true,"ShowOnTablet":false,"ShowOnDesktop":false,"Id":"2b96d786-0fa5-4a45-83b2-d1d4a0d222b0","IsPreparedForRender":false,"IsServerRendered":false,"Position":3,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true}],"LayoutId":"2"},{"Headline":null,"Subline":null,"Widgets":[{"PageId":"forecasts/current","PositionId":"forecasts/current_widgets_x16","Width":300,"Height":600,"ShowOnPhone":false,"ShowOnTablet":true,"ShowOnDesktop":true,"Id":"0b5d67ff-4c0d-4eb1-99ca-5a0feffe2a73","IsPreparedForRender":false,"IsServerRendered":false,"Position":1,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"VideoId":"1656","VideoUrl":"https://http.video.weatherbug.com/video/wxnation/nationaloutlook/latest.mp4","Poster":"/images/posters/national-outlook-widget-thumbnail-large.jpg","PosterMobile":"/images/posters/national-outlook-widget-thumbnail-small.jpg","Id":"5f4722b0-b4ff-49bc-9b92-9cf13d1c0874","IsPreparedForRender":true,"IsServerRendered":true,"Position":2,"Type":"Video","Title":"Today's National Outlook","Url":"/videos/1656","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Thumbnail":"/images/thumbnails/hurricane-widget-thumbnail-large.jpg","ThumbnailMobile":"/images/thumbnails/hurricane-widget-thumbnail-small.jpg","Id":"842c02c2-3cde-41da-bd81-9f91d5986765","IsPreparedForRender":false,"IsServerRendered":false,"Position":3,"Type":"Link","Title":"Hurricane Tracker","Url":"alerts/hurricane/","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Background":"/images/backgrounds/pollen-widget-thumbnail-large.jpg","BackgroundMobile":"/images/backgrounds/pollen-widget-thumbnail-small.jpg","URLAlias":"pollen","LifestyleIndexName":null,"LifestyleIcon":"/images/icons/9d506b31-8120-45c7-8a6b-9a302e866c3b.png","LifestyleForecast":null,"Id":"be7724a6-b5b7-40b6-8598-d9970d39699d","IsPreparedForRender":false,"IsServerRendered":false,"Position":4,"Type":"LifestyleIndex","Title":"Allergy Forecast","Url":"/life/pollen/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Background":"/images/backgrounds/cold-and-flu-widget-thumbnail-large.png","BackgroundMobile":"/images/backgrounds/cold-and-flu-widget-thumbnail-small.png","URLAlias":"cold-flu","LifestyleIndexName":null,"LifestyleIcon":"/images/icons/644002cb-07b6-4186-9519-c7e2a7ec6923.png","LifestyleForecast":null,"Id":"8b581440-03db-4900-a1ac-e19bc4ea9501","IsPreparedForRender":false,"IsServerRendered":false,"Position":5,"Type":"LifestyleIndex","Title":"Cold & Flu","Url":"/life/cold-flu/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Background":"/images/backgrounds/snow-ski-widget-thumbnail-large.png","BackgroundMobile":"/images/backgrounds/snow-ski-widget-thumbnail-small.png","URLAlias":"snow-ski","LifestyleIndexName":null,"LifestyleIcon":"/images/icons/1c3929c1-54ea-42b3-b614-905a2372ca98.png","LifestyleForecast":null,"Id":"b1bd628a-9a87-49a7-b651-ee2ef4aa7f91","IsPreparedForRender":false,"IsServerRendered":false,"Position":6,"Type":"LifestyleIndex","Title":"Snow & Ski Forecast","Url":"/life/snow-ski/manchester-nh-03103","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Id":"a75e1ac8-deab-4d79-bbd0-26bad72783fa","IsPreparedForRender":false,"IsServerRendered":false,"Position":7,"Type":"Fire","Title":"Fire Updates","Url":"alerts/fire","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"FeaturedCamera":null,"Id":"0c841352-92f0-40ad-a504-df6c7eedb73f","IsPreparedForRender":true,"IsServerRendered":true,"Position":8,"Type":"Camera","Title":"Traffic Cameras","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_x11_1","Width":300,"Height":250,"ShowOnPhone":false,"ShowOnTablet":true,"ShowOnDesktop":true,"Id":"e9fc3a8a-c201-43f2-a436-70ccb37fb1bd","IsPreparedForRender":false,"IsServerRendered":false,"Position":9,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"FeaturedWeatherCamera":null,"Id":"1078211b-634e-4803-a0e2-6b2ed10e78ae","IsPreparedForRender":true,"IsServerRendered":true,"Position":10,"Type":"WeatherCamera","Title":"Weather Cameras","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"Thumbnail":"/images/thumbnails/outdoor-sports-widget-thumbnail-large.jpg","ThumbnailMobile":"/images/thumbnails/outdoor-sports-widget-thumbnail-small.jpg","Id":"f7e8de8c-3597-4f4f-8303-4e2d5ec4f1c8","IsPreparedForRender":false,"IsServerRendered":false,"Position":11,"Type":"Link","Title":"Outdoor Sports Guide","Url":"/life/outdoor-sports/","LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_x11","Width":300,"Height":250,"ShowOnPhone":true,"ShowOnTablet":true,"ShowOnDesktop":true,"Id":"b5ca6e05-b1af-4128-8aa4-9b857953cccf","IsPreparedForRender":false,"IsServerRendered":false,"Position":12,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true},{"PageId":"forecasts/current","PositionId":"forecasts/current_widgets_x83","Width":320,"Height":50,"ShowOnPhone":true,"ShowOnTablet":false,"ShowOnDesktop":false,"Id":"0e616e57-db9e-4499-acd5-4d4c48cb8802","IsPreparedForRender":false,"IsServerRendered":false,"Position":13,"Type":"Ad","Title":"Advertisement","Url":null,"LocationOverride":null,"Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"IsActiveLocality":true}],"LayoutId":"1"}]}]};
+            window._Metadata = {"Meta":{"Title":"Manchester, New Hampshire | Current Weather Forecasts, Live Radar Maps & News","NationalPageTitle":null,"LocalizedPageTitle":null,"Description":"Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day","NationalMetaDescription":null,"LocalizedMetaDescription":null,"Keywords":"weather, weather forecast, local weather, national weather, temperature, radar, lightning, hurricane, camera","AndroidFreeAppID":"com.aws.android","AndroidEliteAppID":"com.aws.android.elite","IOSFreeAppID":"281940292","IOSEliteAppID":"310647896","MacOSFreeAppID":"1059074180","WindowsFreeAppID":"9MZ41X17H36L","FacebookAppID":"1704148569805123","FacebookPageID":"117417386738","Social":{"Title":"Manchester, New Hampshire | Current Weather Forecasts, Live Radar Maps & News","Description":"Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day","Image":"/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png","CardType":"summary","PageType":"website","Url":null,"LastModifiedDate":null,"PublishedDate":null},"Canonical":"https://www.weatherbug.com/weather-forecast/now/manchester-nh-03103","Robots":null,"HasNewSeoMetaInConfig":false,"HasPageConfigCanonical":true},"PageSetup":{"Header":"Normal","Footer":"Normal","BackgroundUrl":""},"CMSPageConfig":{"DocumentID":1189,"NodeID":1635,"Title":"Current Weather Forecasts, Live Radar Maps & News","NationalPageTitle":null,"LocalizedPageTitle":null,"Description":"Want to know what the weather is now? Check out our current live radar and weather forecasts [[Location]] to help plan your day","NationalMetaDescription":null,"LocalizedMetaDescription":null,"ShareImage":"/images/sharing/93642f9b-cfe3-45d9-87d4-44f98a4918a1.png","PageLayoutAlias":"Forecasts-Pages","SponsorLogo":null,"SponsorUrl":null,"Keywords":"weather, weather forecast, local weather, national weather, temperature, radar, lightning, hurricane, camera","Header":"Current Weather for [[Location]]","BackgroundImage":null,"CanonicalDefault":"[[Server]]/weather-forecast/now/[[SlugName]]","CanonicalGlobalPage":"[[Server]]/weather-forecast/now/[[SlugName:GlobalPage]]","CanonicalLocalPage":"[[Server]]/weather-forecast/now/[[SlugName:LocalPage]]"},"ActiveLocation":{"Id":"4d113301-36c0-49d7-9b6e-2e168400a675","Locality":{"Latitude":42.9748,"Longitude":-71.4498,"SlugName":"manchester-nh-03103","CityId":"US33M0003","CityName":"Manchester","DisplayCompositeName":"Manchester, New Hampshire","GeographicCompositeName":"Manchester, New Hampshire","TerritoryName":"New Hampshire","TerritoryAbbr":"NH","CountryShortName":"United States","CountryIso2Code":"US","CountryIso3Code":"USA","PostalCode":"03103","Dma":"506","RouteString":"manchester-nh-03103","Label":"Manchester, New Hampshire"},"Station":{"StationId":"MNSOS","ProviderId":"3","ProviderName":"Earth Networks Inc","StationName":"Southside MS","Latitude":42.9708333333333,"Longitude":-71.4380555555556,"Distance":0.65,"ElevationAboveSeaLevelMeters":"82.9056","RouteString":"3:MNSOS"},"DefaultStationRouteString":"3:MNSOS"}};
+
+            var liveRampCookiePrefix = 'LR_';
+            var liveRampCookieKey = liveRampCookiePrefix + window._User.DeviceId;
+            var cookies = document.cookie.split(';');
+
+            // Delete any old live ramp cookies because appInstanceId changed for some reason.
+            cookies.filter(function(x) {
+                return x.includes(liveRampCookiePrefix)
+            }).forEach(function(y) {
+                var currentCookieKey = y.split('=')[0];
+                if (currentCookieKey !== liveRampCookieKey) {
+                    document.cookie = currentCookieKey + '= ; expires=Thu, 01 Jan 1970 00:00:00 GMT;Path=/;'
+                }
+            });
+            document.cookie = liveRampCookieKey + '=' + window.encodeURIComponent(JSON.stringify({ appInstanceId: window._User.DeviceId})) + '; expires=01 Jan 2050 00:00:00 GMT;Path=/;';
+            var liveRampIframe = '<iframe name="_rlcdn" width=0 height=0 frameborder=0 src="//idsync.rlcdn.com/709625.html?partner_uid=' + liveRampCookieKey + '"></iframe>';
+            var footer = document.getElementsByClassName('footer')[0];
+            if (footer) {
+                footer.insertAdjacentHTML('beforeend', liveRampIframe);
+            }
+        </script>
+
+        <script type="text/javascript">
+
+            function getAngularScope() {
+                if (angular) {
+                    var $e = angular.element(document.body);
+                    if ($e) return $e.scope();
+                }
+                return null;
+            }
+
+        </script>
+
+        <!-- Add JWPlayer -->
+        <script src="//content.jwplatform.com/libraries/2K0cYisN.js" defer></script>
+        
+        <!-- Website JS assets from Webpack -->
+            <script src="dist/main.8d2c192020ad87b32b60.js?v=-sliCzhbQsLn0PPtbO6hfQJJUI1ZRYJS25_V2-snftg"></script> 
+    </body>
+</html>

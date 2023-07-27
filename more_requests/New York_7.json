@@ -1,0 +1,167 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 854000000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New York storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:40:34.350Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+York+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_dxe3zxuhmxi"
+    },
+    "organic": [
+        {
+            "link": "https://www.dailymail.co.uk/news/article-12281657/New-York-deadly-storm-kills-woman-mid-30s-shes-swept-away-house.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12281657",
+            "title": "New York deadly storm kills woman in her mid-30s as she's ...",
+            "description": "Hudson Valley in upstate New York was drowned by eight inches of rain yesterday, with more on the way; Flash flood and severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.dailymail.co.uk/news/article-12283465/Deadly-storm-heads-Vermont-flash-floods-upstate-New-York.html",
+                    "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12283465",
+                    "title": "Deadly storm heads for Vermont after flash floods in ...",
+                    "description": "The lashing rains of the storm soaked New York on Sunday, causing flash flooding near West Point, where the military academy is based, ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 10, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/biggest-snowstorm-season-likely-new-york-city-new-england-rcna72600",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a biggest-sn...",
+            "title": "Coast-to-coast storm set to follow early week snowstorm in ...",
+            "description": "The final snow total in New York City was 1.8 inches, according to the National Weather Service.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.axios.com/2023/07/10/northeast-storms-flash-flooding-new-york-vermont",
+            "display_link": "https://www.axios.com \u203a Science",
+            "title": "Historic flooding hits Vermont as storm slams Northeast",
+            "description": "More than 6 inches of rain had fallen in parts of New York and nearly 7 inches in Connecticut as of Monday lunchtime, per the NWS.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.weather.gov/safety/flood-states-ny",
+            "display_link": "https://www.weather.gov \u203a safety \u203a flood-states-ny",
+            "title": "Flooding in New York",
+            "description": "Significant New York Floods \u00b7 +March 1913 \u00b7 +August 1995, Hurricanes Connie and Diane \u00b7 +June 1972, Hurricane/Tropical Storm Agnes \u00b7 +January 1996 \u00b7 +June 2006.",
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbsnews.com/news/can-us-roads-withstand-increasingly-extreme-weather/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Torrential rain destroyed a cliffside road in New York. Can ...",
+            "description": "One expert told CBS News that roads and highways \"are not built\" to handle extreme weather events.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wgrz.com/article/weather/severe-weather/storm-of-the-ages-ny-governor-issues-state-of-emergency-winter-new-york-blizzard-buffalo-wny/71-1f043c44-bb02-4085-8a8a-eb5fda2709a6",
+            "display_link": "https://www.wgrz.com \u203a weather \u203a severe-weather \u203a st...",
+            "title": "'Storm for the ages': Gov. Hochul issues a State of Emergency",
+            "description": "NIAGARA FALLS, N.Y. \u2014 Calling it a \"storm for the ages,\" New York Governor Kathy Hochul has issued a statewide state of emergency as a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://news.sky.com/story/us-winter-storm-life-on-the-road-as-deep-freeze-conditions-hit-new-york-state-12774384",
+            "display_link": "https://news.sky.com \u203a story \u203a us-winter-storm-life-on...",
+            "title": "US winter storm: Stranded in the town Christmas (almost) ...",
+            "description": "Sky News reporter Claire Bates was forced to find refuge in a roadside motel in New York State after being caught in the deadly winter ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.aljazeera.com/news/2023/7/10/heavy-new-york-flooding-kills-one-person-forces-road-closures",
+            "display_link": "https://www.aljazeera.com \u203a news \u203a heavy-new-york-f...",
+            "title": "Heavy New York flooding kills one, causes widespread ...",
+            "description": "Extreme weather batters the northeast US, causing flash flooding and the death of at least one person overnight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-03-24-new-york-city-record-least-snow-season-outlook",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "This May Be New York City's Least Snowy Season Since ...",
+            "description": "Only 2.8 inches of snow fell 50 years ago during the 1972-73 season. Article image Season-to-date snowfall through March 23, 2023 (first bar), compared to the ...",
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

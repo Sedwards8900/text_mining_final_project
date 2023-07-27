@@ -1,0 +1,109 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 117000000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Mexico storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:40:14.283Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Mexico+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_lpigpjon42e"
+    },
+    "organic": [
+        {
+            "link": "https://geoinfo.nmt.edu/publications/periodicals/earthmatters/4/n2/em_v4_n2.pdf",
+            "display_link": "https://geoinfo.nmt.edu \u203a periodicals \u203a em_v4_n2",
+            "title": "New Mexico's changing climate",
+            "description": "Although weather varies a great deal from ... the storm occurs in New Mexico, ... invited article on a subject of interest to. New Mexicans.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.timeanddate.com/weather/usa/new-mexico",
+            "display_link": "https://www.timeanddate.com \u203a Weather \u203a USA",
+            "title": "Weather in New Mexico, United States",
+            "description": "Weather in New Mexico (12 Locations). Alamogordo *, Wed 12:02 am, Sunny. Extremely hot. 97 \u00b0F. Albuquerque *, Wed 12:02 am, Passing clouds. Hot. 92 \u00b0F.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/new-mexico/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "New Mexico \u2014 Weather",
+            "description": "Most of the precipitation falls in the late summer, but overall northern New Mexico is known for its amazing weather. Spring is the only season that is less ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/arizona/articles/2023-02-22/storm-brings-high-winds-snow-to-arizona-and-new-mexico",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Arizona News",
+            "title": "Storm With High Winds, Heavy Snow, Keeps Grip on ...",
+            "description": "PHOENIX (AP) \u2014 A winter storm knocked out power to thousands of customers and shut down major roadways in northern Arizona and New Mexico on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm.html",
+            "display_link": "https://www.redcross.org \u203a types-of-emergencies \u203a wi...",
+            "title": "Winter Storm Preparedness & Blizzard Safety",
+            "description": "Each winter, hundreds are injured or killed by exposure to cold, vehicle accidents, and fires. Learn what to do stay safe during blizzards and other winter ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://350newmexico.org/confronting-climate-change-in-new-mexico/",
+            "display_link": "https://350newmexico.org \u203a confronting-climate-chan...",
+            "title": "Climate Change in New Mexico",
+            "description": "... a greater proportion of precipitation falling as rain rather than snow. ... In a 2018 paper from University of New Mexico graduate Shaleene Chavarria ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.britannica.com/place/New-Mexico/Climate",
+            "display_link": "https://www.britannica.com \u203a New-Mexico \u203a Climate",
+            "title": "New Mexico - Desert, Semi-Arid, Arid",
+            "description": "New Mexico - New Mexico - Desert, Semi-Arid, Arid: New Mexico's pleasant climate has long been one of its greatest attractions, especially for those seeking ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.senewmexicowx.org/",
+            "display_link": "https://www.senewmexicowx.org",
+            "title": "Welcome To Southeast New Mexico Weather.",
+            "description": "Public Information Statement National Weather Service Albuquerque NM 957 AM MDT Sun Jul 23 ... Click On The Photos & Newspaper Articles To Enlarge Them.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://innofthegovernors.com/eat-drink-explore/santa-fe-weather-tips",
+            "display_link": "https://innofthegovernors.com \u203a eat-drink-explore \u203a sa...",
+            "title": "Santa Fe Weather & Tips",
+            "description": "Santa Fe averages only 14 inches of rain annually. Snow season occurs from November through ... New Mexico State Highway & Transportation Dept, 800-432-4269.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

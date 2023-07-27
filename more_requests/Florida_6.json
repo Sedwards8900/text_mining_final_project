@@ -1,0 +1,200 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93500000,
+        "search_time": 0.48,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Florida storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:23:43.956Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Florida+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_0r7ohb1gxwzo"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2022/09/23/gulf-storm-florida-faq-ian/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/09/23 \u203a gulf-...",
+            "title": "What to know about Hurricane Ian, the storm threat to Florida",
+            "description": "Ian has intensified into a major hurricane bound to hit Florida's Gulf Coast on Wednesday. ... Hurricane Ian struck western Cuba early Tuesday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433414/",
+            "display_link": "https://www.ncbi.nlm.nih.gov \u203a articles \u203a PMC6433414",
+            "title": "Eyeing the storm: How residents of coastal Florida see ...",
+            "description": "This paper examines the societal dimensions of warning decisions during extreme weather events in one of the most hurricane-prone areas in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by A Bostrom",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2018",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 51",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.news4jax.com/weather/2023/06/15/dangerous-paradise-meteorologists-worry-about-storm-season-complacency-among-longtime-florida-residents/",
+            "display_link": "https://www.news4jax.com \u203a weather \u203a 2023/06/15",
+            "title": "Dangerous paradise? Complacency among longtime ...",
+            "description": "JACKSONVILLE, Fla. \u2013 Florida living includes beautiful views and beaches, but meteorologists who track the storms that come our way worry ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 15, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Florida+storm+%22article%22&sa=X&ved=2ahUKEwjSj96E3a2AAxWek4kEHXHVBhE4ERDm3gJ6BAgZEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.weather.gov/mfl/hurricaneirma",
+            "display_link": "https://www.weather.gov \u203a mfl \u203a hurricaneirma",
+            "title": "Hurricane Irma Local Report/Summary",
+            "description": "From about 5 days before landfall onward, the NHC forecast was consistent on a threat to South Florida. Residents and visitors swarmed grocery stores, gas ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2022/nov/10/hurricane-nicole-rain-wind-florida-tropical-storm",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a nov \u203a hurri...",
+            "title": "At least four dead as Tropical Storm Nicole's wind and rain ...",
+            "description": "Storm, which has weakened from hurricane force, is forecast to head into Georgia and the ... Florida. This article is more than 8 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nature.com/articles/s41467-021-24253-y",
+            "display_link": "https://www.nature.com \u203a nature communications \u203a articles",
+            "title": "Storm surge and ponding explain mangrove dieback in ...",
+            "description": "Article; Open Access; Published: 28 June 2021 ... In September 2017, Hurricane Irma made landfall in south Florida with winds in excess of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by D Lagomasino",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 48",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nhc.noaa.gov/surge/",
+            "display_link": "https://www.nhc.noaa.gov \u203a surge",
+            "title": "Storm Surge Overview - National Hurricane Center",
+            "description": "Storm surge flooding of 7-9 ft produced considerable storm surge-related damage near St. Marks, Florida, well to the east of the landfall location.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2022/11/10/hurricane-nicole-florida-landfall-live-updates/8315426001/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2022/11/10 \u203a hu...",
+            "title": "Florida homes topple into Atlantic Ocean after Nicole's ...",
+            "description": "Nicole quickly weakened into a tropical storm after making landfall south of Vero Beach \u2014 about 81 miles north of West Palm Beach \u2014 at 3 a.m. ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcmiami.com/news/local/ian-is-costliest-hurricane-in-florida-history-caused-112b-in-damage-in-us-noaa/3007223/",
+            "display_link": "https://www.nbcmiami.com \u203a news \u203a local \u203a ian-is-cos...",
+            "title": "Ian is Costliest Hurricane in Florida History, Caused $112B ...",
+            "description": "Hurricane Ian briefly reached maximum Category 5 status before weakening ... 4 storm as it blasted ashore last September in southwest Florida,.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.sun-sentinel.com/2023/04/16/caught-off-guard-how-south-floridas-rare-storm-compares-to-others-and-where-it-sits-in-history/",
+            "display_link": "https://www.sun-sentinel.com \u203a 2023/04/16 \u203a caught-...",
+            "title": "Caught off guard: How South Florida's rare storm compares ...",
+            "description": "Parts of South Florida are under both tornado and flash flood warnings as heavy rain and wind continues to ... Loading your audio article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

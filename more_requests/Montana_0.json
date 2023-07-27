@@ -1,0 +1,176 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 48800000,
+        "search_time": 0.44,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Montana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:36:16.879Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Montana+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/610.3.7.1.9 (KHTML, like Gecko) Version/14.0.2 Safari/610.3.7.1.9",
+        "request_id": "hl_c3a9eb28_o06n8zlith"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/news/weather/news/2018-02-16-2017-montana-extreme-winter",
+            "display_link": "https://www.wunderground.com \u203a weather \u203a news \u203a 2...",
+            "title": "Active Storm Track Makes Montana This Winter's Epicenter ...",
+            "description": "Article image Accumulated snowfall from Sept. 30, 2017 through Feb. 16, 2018. Billings, Helena and Havre, Montana, have all had an extreme winter, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://nbcmontana.com/weather/forecasts/widespread-travel-impacts-as-a-winter-storm-brings-heavy-snow-to-western-montana",
+            "display_link": "https://nbcmontana.com \u203a weather \u203a forecasts \u203a wides...",
+            "title": "Widespread travel impacts as a winter storm brings heavy ...",
+            "description": "NBC Montana, operating as KECI in Missoula, KCFW in Kalispell, ... WINTER STORM WARNING for the Clearwater Mountains through 5AM Friday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+storm+%22article%22&sa=X&ved=2ahUKEwiPtcvr362AAxWaV6QEHT0TDd44CxDm3gJ6BAgTEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cnn.com/2022/12/21/weather/christmas-arctic-winter-storm-wednesday-wxn/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/21 \u203a weather \u203a christma...",
+            "title": "A 'once in a generation' winter storm will impact nearly ...",
+            "description": "Snowfall early Wednesday in Glasgow, Montana. Angel Enriquez. Additionally, strong winds may knock out power lines in the Midwest, especially in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.smithsonianmag.com/smart-news/record-breaking-storm-dumps-4-feet-snow-parts-montana-180973248/",
+            "display_link": "https://www.smithsonianmag.com \u203a smart-news \u203a reco...",
+            "title": "Record-Breaking Storm Dumps Four Feet of Snow on Parts ...",
+            "description": "But in many parts of Montana, people had to skip over the rakes and go straight for their snow shovels. Over the weekend, the northern Rockies ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 1, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wsj.com/articles/surprise-september-snow-storm-hits-montana-11569789158",
+            "display_link": "https://www.wsj.com \u203a articles \u203a surprise-september-sno...",
+            "title": "Surprise September Snow Storm Hits Montana",
+            "description": "An early winter storm in Montana brought high winds and 3 feet of snow in some areas, downing trees and power lines and making for ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.montanarightnow.com/great-falls/severe-driving-conditions-reported-blizzard-winter-storm-warnings-in-effect-for-ne-montana/article_7d0a6546-bf87-11ed-be3a-97dd6d738e56.html",
+            "display_link": "https://www.montanarightnow.com \u203a great-falls \u203a article...",
+            "title": "Severe driving conditions reported, blizzard & winter storm ...",
+            "description": "McDonald's: MT-13 @ MM 25.5 \u00b7 Facebook \u00b7 Twitter \u00b7 WhatsApp \u00b7 SMS \u00b7 Email \u00b7 Print \u00b7 Copy article link \u00b7 Save.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.ktvh.com/weather/montana-spring-storm-produces-heavy-snow-severe-storms",
+            "display_link": "https://www.ktvh.com \u203a weather \u203a montana-spring-sto...",
+            "title": "Montana Spring Storm Produces Heavy Snow & Severe ...",
+            "description": "A WINTER WEATHER ADVISORY has been issued for areas of central and western Montana. This does not include the Helena Valley at this time.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 19, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/01/28/weekend-forecast-winter-weather/11135353002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/01/28",
+            "title": "Weekend winter weather forecast: Snow, cold from ...",
+            "description": "Some areas are expecting up to two feet of snow, and parts of Montana, North Dakota and Minnesota are under a wind chill advisory this ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.montanaangler.com/information/weather",
+            "display_link": "https://www.montanaangler.com \u203a information \u203a weat...",
+            "title": "Montana Weather Information",
+            "description": "Montana weather can be highly variable with a wide range of temperatures and climatic conditions. In general the state has a drier climate and enjoys a lot ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2019/09/30/record-september-snowstorm-drops-feet-snow-montana-rockies/",
+            "display_link": "https://www.washingtonpost.com \u203a 2019/09/30 \u203a reco...",
+            "title": "Record September snowstorm drops 4 feet of snow on ...",
+            "description": "Up to four feet of snow fell in a historic September snowstorm, which prompted Montana governor Steve Bullock to declare a winter storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

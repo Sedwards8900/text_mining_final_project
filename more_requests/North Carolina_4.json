@@ -1,0 +1,261 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 30400000,
+        "search_time": 0.55,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:40:52.961Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_ew4t7zm1grl"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/07/19/north-carolina-tornado-i95-rockymount-dortches/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/19 \u203a nort...",
+            "title": "North Carolina sees strongest July tornado on record ...",
+            "description": "The article has been corrected. A large and destructive tornado tore a path across Interstate 95 in North Carolina during the early ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/heat-wave-arizona-flooding-climate-change-b7377765a8a0c2b1fd46107261e79e9d",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Tornado damages Pfizer plant in North Carolina as ...",
+            "description": "A tornado has heavily damaged a major Pfizer pharmaceutical plant in North Carolina \u2014 the latest in a string of extreme weather events ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://spectrumlocalnews.com/nc/charlotte/news/2023/07/19/photos--these-images-show-n-c--tornado-damage",
+            "display_link": "https://spectrumlocalnews.com \u203a news \u203a 2023/07/19",
+            "title": "Photos: These images show N.C. tornado damage",
+            "description": "According to the NWS storm survey, 16 people were hurt. Related article: EF3 tornado hits eastern N.C., leaving 16 injured and damaging ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.deq.nc.gov/about/divisions/coastal-management/coastal-management-oceanfront-shorelines/coastal-storms/storm-tracking",
+            "display_link": "https://www.deq.nc.gov \u203a divisions \u203a coastal-storms",
+            "title": "Storm Tracking | NC DEQ",
+            "description": "National Weather Service's Newport, N.C., station -- Forecasts, radar, ... radar, storm watches and other weather information for North Carolina's central ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=North+Carolina+storm+%22article%22&sa=X&ved=2ahUKEwilypHv4K2AAxUII7kGHf3GCB84DxDm3gJ6BAgYEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://abcnews.go.com/US/ef3-tornado-north-carolina-extreme-weather-nationwide/story?id=101510966",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "EF3 tornado rips through North Carolina amid extreme ...",
+            "description": "A powerful tornado ripped through central North Carolina for more than a dozen miles on Wednesday, destroying homes and injuring residents, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.charlotteobserver.com/news/weather-news/",
+            "display_link": "https://www.charlotteobserver.com \u203a news \u203a weather-news",
+            "title": "Charlotte North Carolina Weather News & Reports",
+            "description": "Follow the latest Charlotte, NC and the Piedmont North Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://data.citizen-times.com/rolling-storm-damage-report/",
+            "display_link": "https://data.citizen-times.com \u203a rolling-storm-damage-...",
+            "title": "Rolling storm damage reports in North Carolina",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Date/Time",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Scale*",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Location",
+                                "rank": 3
+                            },
+                            {
+                                "text": "County, State",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 3:56 p.m. EDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "100",
+                                "rank": 2
+                            },
+                            {
+                                "text": "2 E Genoa",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Ottawa County, OH",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 3:56 p.m. EDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "UNK",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Farmington Hills",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Oakland County, MI",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 3:56 p.m. EDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "UNK",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Sterling Heights",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Macomb County, MI",
+                                "rank": 4
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/pii/S1877050912003067",
+            "display_link": "https://www.sciencedirect.com \u203a science \u203a article \u203a pii",
+            "title": "Urgent Computing of Storm Surge for North Carolina's Coast",
+            "description": "In this paper, we outline the North Carolina Forecasting System (NCFS) for storm surge and waves for coastal North Carolina, which is threatened by tropical ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by B Blanton",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2012",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 62",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/north-carolina-agricultural-town-threatened-tropical-storm-florence-s-relentless-n909881",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a north-caro...",
+            "title": "North Carolina agricultural town threatened by Tropical ...",
+            "description": "Florence was downgraded to a tropical depression early Sunday, but the National Hurricane Center said \"flash flooding and major river flooding ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 16, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cbsnews.com/live-news/hurricane-florence-aftermath-weather-flooding-power-outage-death-toll-fema-latest-forecast-live/",
+            "display_link": "https://www.cbsnews.com \u203a live-news \u203a hurricane-flor...",
+            "title": "Hurricane Florence aftermath: Flooding crisis in North and ...",
+            "description": "CBS News has confirmed 35 deaths are being attributed to the storm as of Monday evening: Twenty-seven in North Carolina, six in South Carolina ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 19, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 96500000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Minnesota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:30.190Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Minnesota+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/610.3.7.1.9 (KHTML, like Gecko) Version/14.0.2 Safari/610.3.7.1.9",
+        "request_id": "hl_c3a9eb28_sjs8e4r15qh"
+    },
+    "organic": [
+        {
+            "link": "https://patch.com/minnesota/minneapolis/another-6-inches-snow-possible-upcoming-storm-mn-weather",
+            "display_link": "https://patch.com \u203a minnesota \u203a minneapolis \u203a another...",
+            "title": "Another 6 Inches Of Snow Possible In Upcoming Winter ...",
+            "description": "Another 6 Inches Of Snow Possible In Upcoming Winter Storm: MN Weather - Minneapolis, MN - Yet another winter storm is headed for the Twin ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.mercurynews.com/2021/12/16/storm-expected-to-pack-thunderstorms-damaging-winds-and-possibly-tornadoes-in-december/",
+            "display_link": "https://www.mercurynews.com \u203a 2021/12/16 \u203a storm-...",
+            "title": "'Unprecedented' storm brings Minnesota's first reported ...",
+            "description": "Loading your audio article. A late-season severe weather system blew through the Twin Cities on Wednesday night, bringing with it thunder, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/second-major-winter-storm-bring-snow-danger-large-parts-us-rcna71912",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a second-ma...",
+            "title": "Second round of major winter storm to bring snow and ...",
+            "description": "Minnesota Gov. Tim Walz said in a statement Wednesday that while \"Minnesotans are no strangers to extreme weather,\" this storm \"could break ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.voiceofalexandria.com/news/local/another-late-season-winter-storm-set-to-hit-minnesota-tuesday-and-wednesday/article_00976a3a-d20c-11ed-8b74-138bfec55534.html",
+            "display_link": "https://www.voiceofalexandria.com \u203a news \u203a local \u203a artic...",
+            "title": "Another late season winter storm set to hit Minnesota ...",
+            "description": "This email arrives only when there are cancellations or delays in the area. Manage your lists. Trending Articles.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.voiceofalexandria.com/news/local/parts-of-minnesota-to-be-impacted-by-late-season-winter-storm/article_87026c70-c25b-11ed-82c7-376b1b876d0d.html",
+                    "display_link": "https://www.voiceofalexandria.com \u203a news \u203a local \u203a artic...",
+                    "title": "Parts of Minnesota to be impacted by late season winter ...",
+                    "description": "(Undated)--The National Weather Service in Chanhassen says they are continuing to monitor a late-week winter storm that will provide ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 14, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.fox9.com/weather/minnesota-weather-rain-snow-possible-tuesday-night",
+            "display_link": "https://www.fox9.com \u203a weather \u203a minnesota-weather-rai...",
+            "title": "Minnesota weather: Rain, snow possible Tuesday night - FOX 9",
+            "description": "The slow melt continues during the day Tuesday as temperatures climb. But precipitation is in the forecast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/12/15/wind-storm-tornado-minnesota-iowa/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/12/15 \u203a wind...",
+            "title": "Derecho, rare tornadoes strike Upper Midwest amid wind ...",
+            "description": "As the derecho tore through the Upper Midwest, western and central Iowa and, possibly, Minnesota saw their first December tornadoes on record, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Blizzard Dumps Over A Foot Of Snow From Utah to ...",
+            "description": "Article image Estimated snowfall from April 2 through April 5 at 8 a.m. EDT from Winter Storm Vanessa from the West to the Northern Plains.",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.yahoo.com/entertainment/minnesota-weather-winter-storm-watch-221900231.html",
+            "display_link": "https://www.yahoo.com \u203a entertainment \u203a minnesota-wea...",
+            "title": "Minnesota weather: Winter storm watch in effect for metro",
+            "description": "A winter storm watch has been issued for much of central Minnesota, stretching into the Twin Cities metro on Friday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=XJjUoqMk-h8",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Storm leaves trail of damage in New London, Minnesota",
+            "description": "Overnight storms downed trees and damaged the roofs of multiple ... July 26. https://www.kare11.com/article/news/local/overnight-storms-out- ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "KARE 11",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "6 hours ago",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "1:00",
+            "duration_sec": 60,
+            "author": "KARE 11",
+            "date": "6 hours ago",
+            "source": "YouTube",
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 18500000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:24.750Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0.1 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_h4laanheto"
+    },
+    "organic": [
+        {
+            "link": "https://starexponent.com/news/national/tornadoes-and-severe-storms-tear-through-kansas-and-oklahoma/video_433205b2-c4f0-5050-af3d-c6a928cd959f.html",
+            "display_link": "https://starexponent.com \u203a news \u203a national \u203a tornadoes-a...",
+            "title": "Tornadoes and severe storms tear through Kansas ...",
+            "description": "Severe thunderstorms erupted across Kansas, Oklahoma and ... Always Place a Toilet Paper Roll Under the Toilet Seat at Night, Here's Why ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts ... Two tornadoes were reported in Kansas and Missouri, and one in Texas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://kids.nationalgeographic.com/science/article/tornado",
+            "display_link": "https://kids.nationalgeographic.com \u203a article \u203a tornado",
+            "title": "Tornadoes",
+            "description": "Though the storms can happen at any time of the year, tornado season in Texas, Oklahoma, and Kansas occurs in May through early June.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/kansas/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "Kansas \u2014 Weather",
+            "description": "It suffers from extreme weather conditions in both summer and winter, with yearly temperatures ranging from 17\u00b0F in January to 90\u00b0F in July. Heavy rains, ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.jstor.org/stable/3626989",
+            "display_link": "https://www.jstor.org \u203a stable",
+            "title": "Bibliography of Kansas Meteorology: Severe Local Storms",
+            "description": "This type of search brings to light articles that would other- ... Electrical storms in Kansas: Monthly Weather Review, v. 26, p. 216.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DH Lokke",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1961",
+                    "rank": 2
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.facebook.com/KansasCityWeather/",
+            "display_link": "https://www.facebook.com \u203a KansasCityWeather",
+            "title": "Kansas City Weather Updates",
+            "description": "Fire crews have been evacuated from the building as KCFD fights a massive fire at a warehouse in the northeast industrial districthttps://www.kmbc.com/article/ ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.kshs.org/p/dust-storms-part-two-1861-1880/13031",
+            "display_link": "https://www.kshs.org \u203a ... \u203a Kansas Historical Quarterly",
+            "title": "Dust Storms: Part Two, 1861-1880",
+            "description": "It was contended by the same paper that there could never be another year like 1860, unless the fall and winter previous were without rain,-a position which ...",
+            "subresults": [
+                {
+                    "link": "https://www.kshs.org/p/dust-storms-part-one-1850-1860/13024",
+                    "display_link": "https://www.kshs.org \u203a ... \u203a Kansas Historical Quarterly",
+                    "title": "Dust Storms: Part One, 1850-1860",
+                    "description": "It is not the purpose of this article to discuss these theories or to pass judgment upon their validity, only to describe historically something of the ...",
+                    "global_rank": 8,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.newsbreak.com/kansas-city-mo/3090461552842-storm-resources-where-to-take-storm-damage-yard-waste-and-keep-track-of-power-outages-across-kansas-city",
+            "display_link": "https://www.newsbreak.com \u203a Kansas City, MO",
+            "title": "Where to take storm damage, yard waste and keep track of ...",
+            "description": "A powerful storm system left tens of thousands of Kansas Citians without power and storm damage across much of the metro area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://klcjournal.com/kansas-tornadoes-and-flooding/",
+            "display_link": "https://klcjournal.com \u203a kansas-tornadoes-and-flooding",
+            "title": "Don't let the Kansas tornado decline fool you. Flooding kills ...",
+            "description": "Is Tornado Ally still a thing? A recent decline in Kansas twisters may only be temporary. But flooding is far deadlier.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

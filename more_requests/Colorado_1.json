@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 565000000,
+        "search_time": 0.56,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:21:08.156Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_gkgsqyglw97"
+    },
+    "organic": [
+        {
+            "link": "https://www.nbcmiami.com/news/local/colorado-state-increases-hurricane-season-forecast-to-above-average/3066868/",
+            "display_link": "https://www.nbcmiami.com \u203a news \u203a local \u203a colorado-...",
+            "title": "Hurricane season 2023: Colorado State increases forecast ...",
+            "description": "Researchers from Colorado State have increased their forecast and are now predicting an \"above-average\" 2023 Atlantic hurricane season, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://coloradoencyclopedia.org/article/colorado-climate",
+            "display_link": "https://coloradoencyclopedia.org \u203a article \u203a colorado-c...",
+            "title": "Colorado Climate | Articles",
+            "description": "Colorado's combination of high elevation, midlatitude, and continental interior geography results in a cool, dry, and invigorating climate.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.newsweek.com/colorado-blizzard-chaos-snow-storm-causes-multiple-car-crashes-1770095",
+            "display_link": "https://www.newsweek.com \u203a ... \u203a Weather \u203a Travel",
+            "title": "Colorado 'Blizzard' Chaos as Snow Storm Causes Multiple ...",
+            "description": "However, the inclement weather continued across Colorado, ... The paper said \"at least a dozen vehicles had reportedly veered into a ditch,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.summitdaily.com/news/monsoon-like-storms-to-stick-around-as-current-weather-pattern-grips-colorado-but-its-not-monsoon-season-yet/",
+            "display_link": "https://www.summitdaily.com \u203a news \u203a monsoon-like-...",
+            "title": "Monsoon-like storms to stick around as current weather ...",
+            "description": "But instead of the white stuff, Colorado is filling with rainy precipitation at near-historic rates. Meteorologists have issued three flash ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://patch.com/colorado/denver/colorado-weather-winter-storm-watch-front-range-palmer-divide",
+            "display_link": "https://patch.com \u203a colorado \u203a colorado-weather-winte...",
+            "title": "Winter Storm Watch Front Range/Palmer Divide - Denver",
+            "description": "Colorado Weather: Winter Storm Watch Front Range/Palmer Divide - Denver, CO - The storm should deliver both a shot of heavy rain and wet, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://gazette.com/weather/colorado-weather-updates-arctic-storm-massive-airport-delays-as-arctic-blast-hits-state/article_6af9e9ea-81fb-11ed-a8dd-ab6228725d7c.html",
+            "display_link": "https://gazette.com \u203a weather \u203a article_6af9e9ea-81fb-11...",
+            "title": "Arctic storm, massive airport delays as arctic blast hits state ...",
+            "description": "An arctic storm arrived in Colorado Springs overnight, delivering sub-zero temperatures, a dusting of snow and fierce wind chills that disrupted business ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://townofeaton.colorado.gov/news-article/winter-storm-warning",
+            "display_link": "https://townofeaton.colorado.gov \u203a news-article \u203a wint...",
+            "title": "Winter Storm Warning",
+            "description": "Contact the Eaton Police Department at 454-2212. Weld County and the northeast plains in Colorado are expecting a strong winter storm Wednesday afternoon ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH8PUWO_ARTXISTDRCR",
+            "display_link": "https://library.municode.com \u203a weld_county \u203a codes",
+            "title": "ARTICLE XI. - Storm Drainage Criteria | Weld County, CO",
+            "description": "The provisions of this Article shall be known as the \"Weld County Storm ... covered and approved by the Colorado Discharge Permit System (CDPS) regulations.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.durangoherald.com/articles/wave-of-storms-heading-toward-southwest-colorado/",
+            "display_link": "https://www.durangoherald.com \u203a articles \u203a wave-of-st...",
+            "title": "Wave of storms heading toward Southwest Colorado",
+            "description": "A parade of low-pressure systems is making its way into Southwest Colorado, with the first blast of moisture expected to arrive Saturday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

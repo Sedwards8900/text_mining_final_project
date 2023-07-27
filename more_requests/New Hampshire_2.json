@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 17100000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Hampshire storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:38:50.465Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Hampshire+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_5csjvjawg1k"
+    },
+    "organic": [
+        {
+            "link": "https://www.unh.edu/upd/about/office-emergency-management/severe-winter-weather-preparedness",
+            "display_link": "https://www.unh.edu \u203a office-emergency-management",
+            "title": "Severe Winter Weather Preparedness | Police Department",
+            "description": "Storm effects, in New Hampshire, include large snow accumulation, extremely cold temperatures, heavy, wet snow or icing on trees and power lines, closed ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://hollisbrooklinenewsonline.com/recordbreaking-storm-hits-new-hampshire-but-snow-days-no-longer-a-given-p1189-187.htm",
+            "display_link": "https://hollisbrooklinenewsonline.com \u203a recordbreakin...",
+            "title": "'Record-Breaking' Storm Hits New Hampshire, But Snow ...",
+            "description": "That storm, however, could be more rain than snow, Tubbs said. Original article is here.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.newscentermaine.com/article/news/regional/new-hampshire/major-damage-reported-in-new-hampshire-as-severe-storms-move-through-weather/97-5e1e5afd-5852-4c07-a369-32009de6b62e",
+            "display_link": "https://www.newscentermaine.com \u203a new-hampshire",
+            "title": "Major damage reported in NH as severe storms move through",
+            "description": "HOLLIS, N.H. \u2014 A fast-moving storm moved through Hollis, New Hampshire, around 2:30 p.m. on Friday, causing extensive damage across town, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://news.rochesternh.gov/storm-knocks-out-power-to-thousands-in-new-hampshire/",
+            "display_link": "https://news.rochesternh.gov \u203a State of NH",
+            "title": "Storm knocks out power to thousands in New Hampshire",
+            "description": "As of 8 am, more than 22,000 customers are without power across New Hampshire as a winter storm brings heavy snow and rain to the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://whdh.com/news/strong-storms-wreak-havoc-on-new-hampshire/",
+            "display_link": "https://whdh.com \u203a news \u203a strong-storms-wreak-havoc...",
+            "title": "Strong storms wreak havoc on New Hampshire - Boston",
+            "description": "MANCHESTER, N.H. (WHDH) - A severe series of storms that pushed across southern New Hampshire Friday evening prompted multiple tornado ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 3, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbsnews.com/boston/news/severe-storms-pass-through-massachusetts-new-hampshire-sending-trees-and-wires-into-roadways/",
+            "display_link": "https://www.cbsnews.com \u203a CBS Boston \u203a Local News",
+            "title": "Man nearly crushed by trees as strong storms move ...",
+            "description": "BOSTON -- Some severe thunderstorms moved across Massachusetts and New Hampshire on Friday afternoon. In Hollis, New Hampshire a storm sent ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/01/20/winter-weather-nh-maine-snow-storm/11092238002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/01/20",
+            "title": "Winter weather: NH, Maine see snow, slick roads in 2023 ...",
+            "description": "A winter storm that has crossed the country from Colorado reached New England and blanketed parts of New Hampshire and southern Maine with ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.accuweather.com/en/us/manchester/03104/weather-forecast/334459",
+            "display_link": "https://www.accuweather.com \u203a manchester \u203a weather-...",
+            "title": "Manchester, NH Weather Forecast",
+            "description": "Manchester, NH Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://weather.com/news/news/2023-03-14-winter-storm-sage-live-updates",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-03-14-wint...",
+            "title": "Winter Storm Sage: Difficult Commutes Ahead",
+            "description": "Here's the latest on how this nor'easter is affecting millions. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-03-15-winter-storm-sage-noreaster-impacts",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Winter Storm Sage: Northeast, New England Begin To Dig ...",
+            "description": "P\u200beterborough received as much as 35 inches of snow, according to the National Weather Service. Article image Meghan Hall clears snow from her driveway ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

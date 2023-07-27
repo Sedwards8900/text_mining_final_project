@@ -1,0 +1,159 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 94600000,
+        "search_time": 0.57,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Michigan storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:32:49.532Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Michigan+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_wn6sgujguch"
+    },
+    "organic": [
+        {
+            "link": "https://www.weather.gov/dtx/dtxcane",
+            "display_link": "https://www.weather.gov \u203a dtx \u203a dtxcane",
+            "title": "Hurricanes in Michigan???",
+            "description": "Hurricanes here in the Great Lakes?? No way!\" Of course you'd be right, no actual hurricane has ever been observed in Michigan under the true definition of a ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.ourmidland.com/news/article/ice-snow-storm-coming-to-michigan-17796627.php",
+            "display_link": "https://www.ourmidland.com \u203a News",
+            "title": "Winter roars back with 'impactful' snow storm to hit ...",
+            "description": "Snow and freezing rain are expected across Michigan depending on temperatures, causing a potential travel nightmare, per National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wzzm13.com/article/weather/ice-storm-hits-west-michigan/69-4a9188a1-bdc1-4b87-aad6-d7dfdbc7acc8",
+            "display_link": "https://www.wzzm13.com \u203a article \u203a weather \u203a ice-stor...",
+            "title": "Significant ice storm hits Michigan Wednesday",
+            "description": "\u2014 A major winter storm is on West Michigan's doorstep, with significant ice and snow expected Wednesday into early Thursday. The combination of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wzzm13.com/article/weather/another-winter-storm-on-the-way-for-michigan/69-132c4599-701b-4632-8035-2e41ea5a038d",
+                    "display_link": "https://www.wzzm13.com \u203a article \u203a weather \u203a anothe...",
+                    "title": "Winter Storm heads toward Lower Michigan",
+                    "description": "GRAND RAPIDS, Mich. \u2014. 10 pm Update. Winter storm warnings and winter weather advisories are in effect from 2 pm Friday to 4 am Saturday.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 2, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.npr.org/2023/02/23/1158998369/winter-storm-update-power-outages-michigan-california-snow",
+            "display_link": "https://www.npr.org \u203a 2023/02/23 \u203a winter-storm-update...",
+            "title": "Winter storm update: Hundreds of thousands are without ...",
+            "description": "A major winter storm continued to bring heavy snow, blizzard ... are in Michigan, where residents have been hit with freezing rain and ice.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbsnews.com/news/storm-system-snow-indiana-michigan-tornado-damage-texas/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Storm system dumps heavy snow on Indiana and Michigan ...",
+            "description": "The storm Wednesday was also expected to bring damaging winds to parts of ... on Indiana and Michigan after bringing tornado damage to Texas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-02-22-winter-storm-olive-minneapolis-dakota-chicago-snow-blizzard",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Winter Storm Olive: 'Extreme Amount Of Damage' To Power ...",
+            "description": "This article is no longer being updated. ... The majority of those were in Michigan, where an ice storm has knocked down power lines and tree branches.",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.michigan.gov/-/media/Project/Websites/msp/EMHSD/documents/FEMA_MSP_Winter_Weather_Hazards_Packet.pdf?rev=4d239eb4e53e46e8a05462b577355784",
+            "display_link": "https://www.michigan.gov \u203a msp \u203a documents",
+            "title": "HOW TO PREPARE FOR A WINTER STORM",
+            "description": "Winter Storm Checklist. Helplines. Introduction. Winter storms can bring extreme cold, freezing rain, ice, snow, high winds, or a combination of all of ...",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.abc12.com/weather/winter-storm-warning-issued-for-ice-snow-storm-coming-to-mid-michigan/article_7fe2642a-b227-11ed-a6f2-0377e3d67fc1.html",
+            "display_link": "https://www.abc12.com \u203a weather \u203a article_7fe2642a-...",
+            "title": "Winter Storm Warning issued for ice, snow storm coming to ...",
+            "description": "The warning will be in effect from noon Wednesday through 4 a.m. Thursday covering all of Mid-Michigan. A separate Ice Storm Warning covers ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://patch.com/michigan/detroit/what-expect-winter-storms-hits-michigan-midwest",
+            "display_link": "https://patch.com \u203a michigan \u203a detroit \u203a what-expect-...",
+            "title": "What To Expect As Winter Storms Hits Michigan, Midwest",
+            "description": "What To Expect As Winter Storms Hits Michigan, Midwest - Detroit, MI - Winter has returned for a couple days and Southeastern Michigan is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 10, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

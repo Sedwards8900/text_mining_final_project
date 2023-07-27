@@ -1,0 +1,174 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 20300000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Delaware storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:44.590Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Delaware+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_0h8941s9mtjg"
+    },
+    "organic": [
+        {
+            "link": "https://www.yahoo.com/lifestyle/tropical-storm-bret-becomes-hurricane-141754335.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a tropical-storm-bre...",
+            "title": "As Tropical Storm Bret becomes hurricane, Delaware will ...",
+            "description": "Krys'tal Griffin, Delaware News Journal. June 20, 2023 \u00b72 min read. Tropical Storm Bret continues to strengthen, but the rainy weather headed for Delaware ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wdel.com/hurricane-force-wind-gusts-reported-as-thunderstorms-slam-into-delaware/article_0bc52b20-0243-11ed-a539-1bbd99f80854.html",
+            "display_link": "https://www.wdel.com \u203a article_0bc52b20-0243-11ed-a5...",
+            "title": "Hurricane-force wind gusts reported as thunderstorms slam ...",
+            "description": "Hurricane-force wind gusts caused damage as a line of thunderstorms slammed through Delaware Tuesday evening. The National Weather Service ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.capegazette.com/article/storm-%E2%80%9862-devastated-coastline-three-days/235404",
+            "display_link": "https://www.capegazette.com \u203a article \u203a storm-\u201862-dev...",
+            "title": "Storm of '62 devastated coastline for three days",
+            "description": "In this iconic photo from the Storm of '62, the front section of the Henlopen Hotel along the Rehoboth Beach Boardwalk is in ruins. DELAWARE ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/fclim.2021.610062/full",
+            "display_link": "https://www.frontiersin.org \u203a fclim.2021.610062 \u203a full",
+            "title": "Skew Surge and Storm Tides of Tropical Cyclones in the ...",
+            "description": "The Delaware and Chesapeake Bays, two of the largest and most densely populated estuaries in the U.S. located in the Mid-Atlantic coastal region ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by JA Callahan",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 6",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.foxnews.com/us/severe-weather-delaware-sends-beach-umbrellas-flying-ocean-downright-apocalyptic-looking",
+            "display_link": "https://www.foxnews.com \u203a severe-weather-delaware-s...",
+            "title": "Severe weather in Delaware sends beach umbrellas flying ...",
+            "description": "Visitors at Bethany Beach in Delaware were sent scattering for cover as severe weather brought gusting winds that blew dozens of beach ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 7, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_Delaware",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane...",
+            "title": "Effects of Hurricane Isabel in Delaware",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The effects of Hurricane Isabel in Delaware resulted in one of only thirteen presidential ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nytimes.com/1909/07/18/archives/storm-sweeps-delaware-two-persons-are-killed-and-many-buildings.html",
+            "display_link": "https://www.nytimes.com \u203a 1909/07/18 \u203a archives \u203a stor...",
+            "title": "Two Persons Are Killed and Many Buildings Blown Down.",
+            "description": "STORM SWEEPS DELAWARE.; Two Persons Are Killed and Many Buildings Blown Down. Give this article.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://townsquaredelaware.com/how-to-stay-safe-this-hurricane-season/",
+            "display_link": "https://townsquaredelaware.com \u203a how-to-stay-safe-thi...",
+            "title": "How To Stay Safe In Delaware This Hurricane Season",
+            "description": "In the midst of the grimy haze of smoke covering the NE from Canadian wildfires, Del has its next battle with Mother Nature: hurricane ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/delaware/wilmington",
+            "display_link": "https://www.theweathernetwork.com \u203a wilmington",
+            "title": "3-Day Severe Weather Outlook: Wilmington, Delaware",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Delaware+storm+%22article%22&sa=X&ved=2ahUKEwiip4_o3K2AAxXtMTQIHZjxCwM4DBDm3gJ6BAgkEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://delawaretoday.com/life-style/the-perfect-storm/",
+            "display_link": "https://delawaretoday.com \u203a life-style \u203a the-perfect-sto...",
+            "title": "The Perfect Storm",
+            "description": "Like a feral animal pouncing on its unsuspecting prey, the March 1962 storm eviscerated coastal Delaware, ripping apart the Rehoboth Beach ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 23, 2008",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

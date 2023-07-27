@@ -1,0 +1,738 @@
+
+
+<!DOCTYPE html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" lang="en">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Start SAS Google Tag Manager --> 
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TVTCHDP');</script>
+        <!-- End SAS Google Tag Manager -->
+    
+        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" content="USGS Publications Warehouse">
+    <meta name="keywords" content>
+    <meta name="format-detection" content="telephone=no">
+    
+    <title>Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska</title>
+    <meta NAME="title" content="Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska" />
+    <meta name="description" content="Coastal regions of Alaska are regularly affected by intense storms of ocean origin, the frequency and intensity of which are expected to increase as a result of global climate change. The Yukon-Kuskokwim Delta (YKD), situated in western Alaska on the eastern edge of the Bering Sea, is one of the largest deltaic systems in North America. Its low relief makes it especially susceptible to storm-driven flood tides and increases in sea level. Little information exists on the extent of flooding caused by storm surges in western Alaska and its effects on salinization, shoreline erosion, permafrost thaw, vegetation, wildlife, and the subsistence-based economy. In this paper, we summarize storm flooding events in the Bering Sea region of western Alaska during 1913 – 2011 and map both the extent of inland flooding caused by autumn storms on the central YKD, using Radarsat-1 and MODIS satellite imagery, and the drift lines, using high-resolution..." />
+    <META NAME="abstract" CONTENT="Coastal regions of Alaska are regularly affected by intense storms of ocean origin, the frequency and intensity of which are expected to increase as a result of global climate change. The Yukon-Kuskokwim Delta (YKD), situated in western Alaska on the eastern edge of the Bering Sea, is one of the largest deltaic systems in North America. Its low relief makes it especially susceptible to storm-driven flood tides and increases in sea level. Little information exists on the extent of flooding caused by storm surges in western Alaska and its effects on salinization, shoreline erosion, permafrost thaw, vegetation, wildlife, and the subsistence-based economy. In this paper, we summarize storm flooding events in the Bering Sea region of western Alaska during 1913 – 2011 and map both the extent of inland flooding caused by autumn storms on the central YKD, using Radarsat-1 and MODIS satellite imagery, and the drift lines, using high-resolution IKONOS satellite imagery and field surveys. The largest storm surges occurred in autumn and were associated with high tides and strong (&gt; 65 km hr-1) southwest winds. Maximum inland extent of flooding from storm surges was 30.3 km in 2005, 27.4 km in 2006, and 32.3 km in 2011, with total flood area covering 47.1%, 32.5%, and 39.4% of the 6730 km2 study area, respectively. Peak stages for the 2005 and 2011 storms were 3.1 m and 3.3 m above mean sea level, respectively—almost as high as the 3.5 m amsl elevation estimated for the largest storm observed (in November 1974). Several historically abandoned village sites lie within the area of inundation of the largest flood events. With projected sea level rise, large storms are expected to become more frequent and cover larger areas, with deleterious effects on freshwater ponds, non-saline habitats, permafrost, and landscapes used by nesting birds and local people." />
+    <meta NAME="author" content="John Terenzi"/><meta NAME="author" content="Craig R. Ely"/><meta NAME="author" content="M. Torre Jorgenson"/>
+    <meta name = "revised" content="2014-12-04T09:22:45"/>
+    <meta name = "created" content="2014-12-03T13:00:00"/>
+    <meta name = "date" content="2014"/>
+  <!-- meta tags for google scholar indexing and zotero/mendeley parsing -->
+    <meta name="citation_title" content="Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska" />
+    <meta name="citation_publication_date" content="2014" />
+    <meta name="citation_date" content="2014" />
+    <meta name="citation_online_date" content="2014-12-03T13:00:00" />
+    <meta NAME="citation_author" content="John Terenzi"/><meta NAME="citation_author" content="Craig R. Ely"/><meta NAME="citation_author" content="M. Torre Jorgenson"/>
+    
+    
+    
+    <meta name="citation_journal_title" content="Arctic" />
+    <meta name="citation_volume" content="67" />
+    <meta name="citation_issue" content="3" />
+    <meta name="citation_issn" content="" />
+    
+    <meta name="citation_firstpage" content="360" />
+    <meta name="citation_lastpage" content="374" />
+    
+        
+        
+        
+    
+    <meta name="citation_doi" content="10.14430/arctic4403" />
+    
+
+    
+        
+    
+        
+<link rel="stylesheet" href="https://pubs.er.usgs.gov/static/vendor/leaflet/leaflet.css ">
+       
+       <link rel="stylesheet" href="https://pubs.er.usgs.gov/static/vendor/academicons/css/academicons.css ">
+    
+    
+    
+        
+
+
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['^','^'], ["\\(","\\)"] ],
+    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+    processEscapes: true
+  },
+  options: {
+    ignoreHtmlClass: 'tex2jax_ignore',
+    processHtmlClass: 'tex2jax_process',
+    menuOptions: {
+      settings: {
+        zoom: 'Click',
+        zscale: '200%'
+      }
+  }
+  }
+};
+</script>
+
+
+<script id="MathJax-script" async
+src="https://pubs.er.usgs.gov/static/vendor/MathJax/es5/tex-mml-svg.js"></script>
+    
+
+
+
+
+        <title>USGS Publications Warehouse</title>
+
+        
+        
+    
+        
+<link rel="stylesheet" href="https://pubs.er.usgs.gov/static/vendor/leaflet/leaflet.css ">
+       
+       <link rel="stylesheet" href="https://pubs.er.usgs.gov/static/vendor/academicons/css/academicons.css ">
+    
+
+        <!--[if gt IE 8]><!-->
+        <script src="https://pubs.er.usgs.gov/static/vendor/polyfill.js"></script>
+        <script>
+            if (!String.prototype.startsWith) {
+                String.prototype.startsWith = function(search, pos) {
+                    return this.substr(!pos || pos < 0 ? 0 : +pos, search.length) === search;
+                };
+            }
+        </script>
+        <!--<![endif]-->
+        <script src="https://pubs.er.usgs.gov/static/vendor/system.js"></script>
+        <script>
+        SystemJS.import('https://pubs.er.usgs.gov/static/scripts/common.53dc4b9a.js');
+    </script>
+
+        
+    <link rel="stylesheet" href="https://pubs.er.usgs.gov/static/pubs_base.2452e1ec.css" type="text/css" />
+    <link rel="shortcut icon" href="https://pubs.er.usgs.gov/static/images/pubswh/favicon.72b5542e.ico"/>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="USGS Pubs"/>
+    <link rel="unapi-server" type="application/xml" title="unAPI" href="/unapi" />
+    <link rel="alternate" type="application/rss+xml" title="USGS Publications Warehouse RSS Feed" href="https://pubs.er.usgs.gov/pubs-services/publication/rss"/>
+    <script>
+        var CONFIG = {
+            lookupUrl: 'https://pubs.er.usgs.gov/pubs-services/lookup/',
+            requestArgs: JSON.parse('{}') <!-- set to True if only one value per key is desired -->
+        }
+    </script>
+
+    </head>
+    <body>
+        <!-- Start SAS Google Tag Manager (noscript) --> 
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TVTCHDP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End SAS Google Tag Manager (noscript) -->
+    
+        
+        
+    <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+    <section class="usa-banner maxw-full" aria-label="Official government website">
+        <div class="usa-accordion">
+            <header class="usa-banner__header">
+                <div class="usa-banner__inner content-container">
+                    <div class="grid-col-auto">
+                        <img class="usa-banner__header-flag" src="https://pubs.er.usgs.gov/static/img/us_flag_small.be327dc2.png" alt="U.S. flag">
+                    </div>
+                    <div class="grid-col-fill tablet:grid-col-auto">
+                        <p class="usa-banner__header-text">An official website of the United States government</p>
+                        <p class="usa-banner__header-action" aria-hidden="true">Here’s how you know</p>
+                    </div>
+                    <button class="usa-accordion__button usa-banner__button"
+                            aria-expanded="false" aria-controls="gov-banner">
+                        <span class="usa-banner__button-text">Here’s how you know</span>
+                    </button>
+                </div>
+            </header>
+            <div class="usa-banner__content usa-accordion__content" id="gov-banner">
+                <div class="grid-row grid-gap-lg">
+                    <div class="usa-banner__guidance tablet:grid-col-6">
+                        <img class="usa-banner__icon usa-media-block__img" src="https://pubs.er.usgs.gov/static/img/icon-dot-gov.42b4ac46.svg"
+                             alt="Dot gov">
+                        <div class="usa-media-block__body">
+                            <p>
+                                <strong>Official websites use .gov</strong>
+                                <br/>
+                                A <strong>.gov</strong> website belongs to an official government organization in the
+                                United States.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="usa-banner__guidance tablet:grid-col-6">
+                        <img class="usa-banner__icon usa-media-block__img" src="https://pubs.er.usgs.gov/static/img/icon-https.73abd866.svg"
+                             alt="Https">
+                        <div class="usa-media-block__body">
+                            <p>
+                                <strong>Secure .gov websites use HTTPS</strong>
+                                <br/>
+                                A <strong>lock</strong> (
+                                <span class="icon-lock">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="52" height="64" viewBox="0 0 52 64" class="usa-banner__lock-image" role="img" aria-labelledby="banner-lock-title banner-lock-description"><title id="banner-lock-title">Lock</title><desc id="banner-lock-description">A locked padlock</desc><path fill="#000000" fill-rule="evenodd" d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z"/></svg>
+                                </span>
+                                ) or <strong>https://</strong> means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="usa-overlay"></div>
+
+    <header class="usa-header usa-header--extended usgs-header site-header" role="banner">
+        <div class="usgs-header-container">
+            <div class="usa-navbar">
+                <div class="usa-logo" id="extended-logo">
+                    <img alt="USGS Home" src="https://pubs.er.usgs.gov/static/img/USGS_logo.356d51b9.svg"/>
+                </div>
+                <button class="usa-menu-btn">Menu</button>
+            </div>
+        </div>
+
+        
+            <nav role="navigation" class="usa-nav">
+                <div>
+                    <button class="usa-nav__close"><img src="https://pubs.er.usgs.gov/static/img/close.fe3f13f6.svg" alt="close"></button>
+                    <ul class="usa-nav__primary usa-accordion">
+                        <li class="usa-nav__primary-item">
+                            <a class="usa-nav__link" href="/">USGS Publications Warehouse</a>
+                        </li>
+                        <li class="usa-nav__primary-item">
+                            <button class="usa-accordion__button usa-nav__link"
+                                    aria-expanded="false"
+                                    aria-controls="explore-section">
+                                <span>Explore</span>
+                            </button>
+                            <ul id="explore-section" class="usa-nav__submenu">
+                                <li class="usa-nav__submenu-item">
+                                 <a href="/newpubs">Explore recent publications by USGS authors</a>
+                                </li>
+                                <li class="usa-nav__submenu-item">
+                                    <a href="/browse/">
+                                        Browse all of Pubs Warehouse by publication type and year
+                                    </a>
+                                </li>
+                           </ul>
+                        </li>
+                        <li class="usa-nav__primary-item">
+                            <button class="usa-accordion__button usa-nav__link"
+                                    aria-expanded="false"
+                                    aria-controls="documentation-section">
+                                <span>Documentation</span>
+                            </button>
+                            <ul id="documentation-section" class="usa-nav__submenu">
+                                <li class="usa-nav__submenu-item">
+                                    <a href="/documentation/about">About</a>
+                                </li>
+                                <li class="usa-nav__submenu-item">
+                                    <a href="/documentation/faq">FAQs</a>
+                                </li>
+                                <li class="usa-nav__submenu-item">
+                                  <a href="/documentation/web_service_documentation">Web service documentation</a>
+                                </li>
+                                <li class="usa-nav__submenu-item">
+                                  <a href="/documentation/other_resources">Other resources</a>
+                                </li>
+                                <li class="usa-nav__submenu-item">
+                                    <a href="/documentation/usgs_series">
+                                        Descriptions of US Geological Survey Report Series
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="usa-nav__primary-item">
+                            <a class="usa-nav__link" href="/contact">Contact</a>
+                        </li>
+                        
+                    </ul>
+                    <div class="usa-nav__secondary">
+                        <form class="usa-search usa-search--small" action="/search" method="get">
+                            <div role="search">
+                                <label class="usa-sr-only" for="extended-search-field-small">Search</label>
+                                <input class="usa-input" id="extended-search-field-small" type="search" name="q">
+                                <button class="usa-button" type="submit">
+                                    <span class="usa-sr-only">Search</span>
+                                </button>
+                            </div>
+                        <input type="hidden" name="__ncforminfo" value="wEN7OB7esPlZgPs1OAXjg5jvWMBbB8Y-Fx5RGIPZjwJZxKmDbLwiSAUO8JrjX5DuEB-4VbGTja4DRPFl5QF8hlZP6dE2rcPw"/></form>
+                    </div>
+                </div>
+            </nav>
+        
+    </header>
+
+
+
+        <main id="main-content">
+            
+    
+
+    <div class="usa-prose">
+        
+    <main role ="main" id="publication-container" >
+        <script type="text/javascript">console.log('PUBSWH-369');</script>
+        <article itemscope itemtype="http://schema.org/ScholarlyArticle">
+            
+                <abbr class="unapi-id" title="http://pubs.er.usgs.gov/publication/70134556">
+                    <!-- avoid empty --></abbr>
+            
+
+            
+
+            <div class="publication-header-container">
+                <div class="pubs-thumbnail">
+                    
+                        <a class="usa-link"
+                           title="Go to Publisher Index Page (via DOI) for more information"
+                           href="https://doi.org/10.14430/arctic4403">
+                
+                
+                    <img id="thumbnail"
+                         src="/imgsizer/_?f=PNG&amp;u=https%3A%2F%2Fpubs.er.usgs.gov%2Fthumbnails%2Foutside_thumb.jpg&amp;w=200&amp;s=b&#39;SzlxUlXPfvJa7wgU1rZmEx25FAE&#39;"
+                         alt="thumbnail"/>
+                
+            </a>
+                    
+                </div>
+                <div class="publication-header-info-container">
+                    
+                    <div class="publication-header-titles">
+                        <h3 class="publication-title" itemprop="name" style="margin-block-end: unset;">Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska</h3>
+
+                        
+                            <div class="series-title" style="margin-block-end: unset;">Arctic
+                                </div>
+                        
+
+                        
+
+                        
+
+                        
+                    </div>
+
+                    
+                    
+
+                    <section id="contributors"><div>
+                                <span class="list-title">By: </span><span class="contributor" itemprop="author"
+                              itemtype="http://schema.org/Person">John Terenzi</span>,&nbsp;<span class="contributor" itemprop="author"
+                              itemtype="http://schema.org/Person">Craig R. Ely</span><a href="https://orcid.org/0000-0003-4262-0892" aria-label="ORC Id"><i class="ai ai-orcid"></i></a>,&nbsp;and&nbsp;<span class="contributor" itemprop="author"
+                              itemtype="http://schema.org/Person">M. Torre Jorgenson</span>
+                            </div>
+                        </section>
+                    <section>
+                        <!-- <div id="doi-twitter-container">
+                            
+                                <div class="doi-container"><a itemprop="sameAs"
+                                                              class="usa-link"
+                                                              href="https://doi.org/10.14430/arctic4403"
+                                                              onclick="GA.trackGAEvent('Downloads', 'DOI', 'http://dx.doi.org/10.14430/arctic4403')">
+                                    https://doi.org/10.14430/arctic4403</a>
+                                </div>
+                            
+                            <a href="https://twitter.com/share"
+                               class="twitter-share-button"
+                               data-text="USGS Pub"
+                               data-via="USGS_Pubs"
+                               data-dnt="true">Tweet</a>
+                            <script>!function(d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0],
+                                    p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, 'script', 'twitter-wjs');</script>
+                        </div> -->
+                        
+                    </section>
+                </div>
+            </div>
+            
+            <script type="application/javascript">
+
+                // returns true if the element or one of its parents has the class classname
+                function hasSomeParentTheClass(element, classname) {
+                    if (element.className.split(' ').indexOf(classname)>=0) return true;
+                    return element.parentElement && hasSomeParentTheClass(element.parentElement, classname);
+                }
+
+                window.addEventListener('load', (event) => {
+                    // For each table on the page,...
+                    //      - Create Fixed Header
+                    //      - Top and bottom scroll
+                    
+                    var table_panels = document.getElementsByClassName("table-wrap");
+
+                    for (var i = 0; i < table_panels.length; i++){
+                        // tables to skip 
+                        var x = hasSomeParentTheClass(table_panels[i], 'conversion-factors');
+                        if (!x){
+                            // assuming the first child element of the table is the anchor with id.
+                            var id = table_panels[i].firstChild.id;
+                            try{
+                                var table_scroll_container = table_panels[i].querySelector('.table-scroll-container');
+
+                                // this should filter out tables used for formatting
+                                var table_pdf = table_panels[i].querySelector('.table-pdf');
+                                if (table_pdf != null){
+                                    var original_thead = table_scroll_container.getElementsByClassName('table-pdf')[0].getElementsByTagName('thead')[0];
+                                    // filter out tables without thead
+                                    if (original_thead != null){
+                                        // if width of table is less than the width of the container, expand 
+                                        if (table_pdf.offsetWidth < table_scroll_container.offsetWidth){
+                                            table_pdf.width = table_scroll_container.offsetWidth;
+                                        }
+
+                                        // container for cloned header which will stick to the top
+                                        var fixed_header_wrapper = table_panels[i].querySelector('.fixed-header-wrapper');
+                                        var fixed_header_div = fixed_header_wrapper.querySelector('.fixed-header');
+                                        
+                                        // create cloned header
+                                        var table_cloned = table_pdf.cloneNode(true);
+                                        table_cloned.removeChild(table_cloned.getElementsByTagName('tbody')[0]);
+                                        table_cloned.style['margin-bottom'] = '0rem';
+
+                                        // attach cloned header to container
+                                        fixed_header_div.appendChild(table_cloned);
+                                        // set width of container to width of table (will match scrollbars)
+                                        fixed_header_div.style.width = table_pdf.offsetWidth + 'px';
+
+                                        // hide original header
+                                        original_thead.style['visibility'] = 'collapse';
+
+                                        // set width of cloned header to match width of table
+                                        table_cloned.style.width = 'inherit';
+
+                                        // prevents vertical scrollbar from appearing when header is collapsed
+                                        table_scroll_container.style['overflow-y'] = 'hidden';
+
+                                        original_thead.style.display = 'none;';
+
+                                        // set event listeners to synchronize scrolling from top and bottom
+                                        if (fixed_header_wrapper != null && table_scroll_container != null){
+                                            // sync top scroll bar to bottom
+                                            fixed_header_wrapper.onscroll = function(e) {
+                                                e.target.parentElement.querySelector('.table-scroll-container').scrollLeft = e.target.scrollLeft;
+                                            };
+                                            // sync bottom scroll bar to top
+                                            table_scroll_container.onscroll = function(e) {
+                                                e.target.parentElement.querySelector('.fixed-header-wrapper').scrollLeft = e.target.scrollLeft;
+                                            };
+                                        }
+                                    }
+                                }
+                            }catch(error){
+                                console.log("problem with table id: " + id);
+                                console.log(error);
+                            }
+                        }
+                    }
+                });
+
+
+
+    
+            </script>
+
+            <section>
+                
+            </section>
+
+            
+            <section id="suggested">
+
+                
+                
+
+                
+                
+
+                
+                
+                <h4>Links</h4>
+                <ul class="usa-list">
+                        <li style="max-width: 100%;">More information: <a class="usa-link Index_Page" href="https://doi.org/10.14430/arctic4403" target="_blank"
+                       onclick="GA.trackGAEvent('Downloads', 'Index Page', 'https://doi.org/10.14430/arctic4403')"
+                       title=" Index Page">
+                        <strong>Publisher Index Page (via DOI)</strong></a></li>
+                    
+                    
+                    
+
+
+                    
+                    
+                        
+                        
+                        
+                    
+                        
+                        
+                        
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+                    
+
+                    
+                    
+                    
+                        
+                        
+
+                        
+                        
+                            
+                            
+                        
+
+                        
+                        
+                            
+                            
+                            
+                        
+
+                        
+                        
+                            
+                            
+                        
+                    
+                    
+                    
+                
+
+                    
+                    
+                    
+                        
+                        <li>Open Access Version:  
+                            
+                                <a class="OPEN_ACCESS_PUBLISHER" href="https://doi.org/10.14430/arctic4403">Publisher Index Page <i class="ai ai-open-access"></i></a>
+                            
+                        </li>
+                    
+                    
+                    <li>Download citation as: <a class="RIS"
+                            href="/publication/70134556?mimetype=ris">RIS</a>
+                        |
+                        <a class="usa-link DUBLIN_CORE" href="/publication/70134556?mimetype=dublincore">Dublin
+                            Core</a></li>
+                </ul>
+            </section>
+            
+                <section itemprop="description" id="abstract">
+                    <h4 id="abstract_head">Abstract</h4>
+                    <div>
+                        <div class="abstract-contents">
+                            
+                            <p>Coastal regions of Alaska are regularly affected by intense storms of ocean origin, the frequency and intensity of which are expected to increase as a result of global climate change. The Yukon-Kuskokwim Delta (YKD), situated in western Alaska on the eastern edge of the Bering Sea, is one of the largest deltaic systems in North America. Its low relief makes it especially susceptible to storm-driven flood tides and increases in sea level. Little information exists on the extent of flooding caused by storm surges in western Alaska and its effects on salinization, shoreline erosion, permafrost thaw, vegetation, wildlife, and the subsistence-based economy. In this paper, we summarize storm flooding events in the Bering Sea region of western Alaska during 1913 &ndash; 2011 and map both the extent of inland flooding caused by autumn storms on the central YKD, using Radarsat-1 and MODIS satellite imagery, and the drift lines, using high-resolution IKONOS satellite imagery and field surveys. The largest storm surges occurred in autumn and were associated with high tides and strong (&gt; 65 km hr-1) southwest winds. Maximum inland extent of flooding from storm surges was 30.3 km in 2005, 27.4 km in 2006, and 32.3 km in 2011, with total flood area covering 47.1%, 32.5%, and 39.4% of the 6730 km<sup>2</sup> study area, respectively. Peak stages for the 2005 and 2011 storms were 3.1 m and 3.3 m above mean sea level, respectively&mdash;almost as high as the 3.5 m amsl elevation estimated for the largest storm observed (in November 1974). Several historically abandoned village sites lie within the area of inundation of the largest flood events. With projected sea level rise, large storms are expected to become more frequent and cover larger areas, with deleterious effects on freshwater ponds, non-saline habitats, permafrost, and landscapes used by nesting birds and local people.</p>
+                        </div>
+                    </div>
+                </section>
+            
+            
+            
+            
+                <section>
+                    <h4>Study Area</h4>
+                    <div id="mymap" style="width:90%;height:450px;"></div>
+
+                </section>
+
+            <section id="details">
+                <table class="usa-table usa-table--borderless">
+                    <tbody>
+                    
+                        <tr>
+                            <th scope="row">Publication type</th>
+                            <td>Article</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Publication Subtype</th>
+                            <td>Journal Article</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Title</th>
+                            <td>Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Series title</th>
+                            <td>Arctic</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">DOI</th>
+                            <td>10.14430/arctic4403</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Volume</th>
+                            <td>67</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Issue</th>
+                            <td>3</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Year Published</th>
+                            <td>2014</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Language</th>
+                            <td>English</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Publisher</th>
+                            <td>Arctic Institute of North America</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Contributing office(s)</th>
+                            <td>Alaska Science Center Biology WTEB</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Description</th>
+                            <td>15 p.</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">First page</th>
+                            <td>360</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Last page</th>
+                            <td>374</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Country</th>
+                            <td>United States</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">State</th>
+                            <td>Alaska</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Online Only (Y/N)</th>
+                            <td>N</td>
+                        </tr>
+                    
+                        <tr>
+                            <th scope="row">Additional Online Files (Y/N)</th>
+                            <td>N</td>
+                        </tr>
+                    
+                    <tr>
+                        <th scope="row">Google Analytic Metrics</th>
+                        <td><a href="/metrics/publication/70134556/">Metrics page</a></td>
+                    </tr>
+                    </tbody>
+                    <caption>Additional publication details</caption>
+                </table>
+            </section>
+            
+            
+        </article>
+    </main>
+
+    </div>
+
+
+        </main>
+        <footer class="usa-footer" role="contentinfo">
+    <nav class="usa-footer-primary-section" aria-label="Footer Navigation">
+        <div class="usgs-footer-nav">
+            <a class="usgs-footer-link" href="https://www.doi.gov/privacy">DOI Privacy Policy</a> |
+            <a class="usgs-footer-link" href="https://www.usgs.gov/laws/policies_notices.html">Legal</a> |
+            <a class="usgs-footer-link" href="https://www2.usgs.gov/laws/accessibility.html">Accessibility</a> |
+            <a class="usgs-footer-link" href="https://www.usgs.gov/sitemap.html">Site Map</a> |
+            <a class="usgs-footer-link" href="https://answers.usgs.gov/">Contact USGS</a>
+        </div>
+        <div class="usgs-footer-nav">
+            <a class="usgs-footer-link" href="https://www.doi.gov/">U.S. Department of the Interior</a> |
+            <a class="usgs-footer-link" href="https://www.doioig.gov/">DOI Inspector General</a> |
+            <a class="usgs-footer-link" href="https://www.whitehouse.gov/">White House</a> |
+            <a class="usgs-footer-link" href="https://www.whitehouse.gov/omb/management/egov/">E-gov</a> |
+            <a class="usgs-footer-link" href="https://www.doi.gov/pmb/eeo/no-fear-act">No Fear Act</a> |
+            <a class="usgs-footer-link" href="https://www2.usgs.gov/foia">FOIA</a>
+        </div>
+    </nav>
+</footer>
+        
+    <script>
+        SystemJS.import('https://pubs.er.usgs.gov/static/scripts/pubswh_plugins.a733880e.js');
+    </script>
+    <script async type="application/javascript"
+            src="https://www2.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+   <script type="text/javascript" src="https://pubs.er.usgs.gov/static/vendor/leaflet/leaflet.js"></script>
+        <script type="text/javascript" src="https://pubs.er.usgs.gov/static/vendor/esri-leaflet/esri-leaflet.js"></script>
+        <script type="application/javascript">
+            SystemJS.import('https://pubs.er.usgs.gov/static/scripts/resultsMap.a9af0914.js').then(function (resultsMap) {
+                resultsMap.createResultsMap({
+                    mapDivId: 'mymap',
+                    publications: [{"abstractHeader": "Abstract", "additionalOnlineFiles": "N", "authorsList": ["John Terenzi", "Craig R. Ely", "M. Torre Jorgenson"], "authorsListTyped": [{"email": "jterenzi@usgs.gov", "text": "John Terenzi", "type": "person"}, {"email": "cely@usgs.gov", "orcid": "https://orcid.org/0000-0003-4262-0892", "text": "Craig R. Ely", "type": "person"}, {"text": "M. Torre Jorgenson", "type": "person"}], "context_item": "70134556", "contributors": {"authors": [{"affiliations": [{"active": true, "id": 117, "text": "Alaska Science Center Biology WTEB", "usgs": true}], "contributorId": 5085, "contributorType": {"id": 1, "text": "Authors"}, "corporation": false, "email": "jterenzi@usgs.gov", "family": "Terenzi", "given": "John", "id": 526165, "preferred": true, "rank": 1, "text": "Terenzi, John jterenzi@usgs.gov", "usgs": true}, {"affiliations": [{"active": true, "id": 117, "text": "Alaska Science Center Biology WTEB", "usgs": true}, {"active": true, "id": 651, "text": "Western Ecological Research Center", "usgs": true}], "contributorId": 3214, "contributorType": {"id": 1, "text": "Authors"}, "corporation": false, "email": "cely@usgs.gov", "family": "Ely", "given": "Craig R.", "id": 526164, "orcid": "https://orcid.org/0000-0003-4262-0892", "preferred": true, "rank": 2, "text": "Ely, Craig R. cely@usgs.gov", "usgs": true}, {"affiliations": [], "contributorId": 34848, "contributorType": {"id": 1, "text": "Authors"}, "corporation": false, "family": "Jorgenson", "given": "M. Torre", "id": 526270, "preferred": false, "rank": 3, "text": "Jorgenson, M. Torre", "usgs": true}]}, "costCenters": [{"active": true, "id": 117, "text": "Alaska Science Center Biology WTEB", "usgs": true}], "country": "United States", "crossref": {"message": {"DOI": "10.14430/arctic4403", "ISSN": ["1923-1245", "0004-0843"], "URL": "http://dx.doi.org/10.14430/arctic4403", "author": [{"affiliation": [], "family": "Terenzi", "given": "John", "sequence": "first"}, {"affiliation": [], "family": "Jorgenson", "given": "M. Torre", "sequence": "additional"}, {"affiliation": [], "family": "Ely", "given": "Craig R.", "sequence": "additional"}], "container-title": ["ARCTIC"], "content-domain": {"crossmark-restriction": false, "domain": []}, "created": {"date-parts": [[2014, 9, 9]], "date-time": "2014-09-09T18:45:39Z", "timestamp": 1410288339000}, "deposited": {"date-parts": [[2019, 3, 5]], "date-time": "2019-03-05T12:38:15Z", "timestamp": 1551789495000}, "indexed": {"date-parts": [[2023, 7, 5]], "date-time": "2023-07-05T06:13:00Z", "timestamp": 1688537580263}, "is-referenced-by-count": 30, "issn-type": [{"type": "electronic", "value": "1923-1245"}, {"type": "print", "value": "0004-0843"}], "issue": "3", "issued": {"date-parts": [[2014, 9, 9]]}, "journal-issue": {"issue": "3", "published-online": {"date-parts": [[2014, 9, 9]]}}, "member": "5550", "original-title": [], "page": "360", "prefix": "10.14430", "published": {"date-parts": [[2014, 9, 9]]}, "published-online": {"date-parts": [[2014, 9, 9]]}, "publisher": "The Arctic Institute of North America", "reference-count": 0, "references-count": 0, "relation": {}, "resource": {"primary": {"URL": "https://journalhosting.ucalgary.ca/index.php/arctic/article/view/67448"}}, "score": 1, "short-container-title": ["ARCTIC"], "short-title": [], "source": "Crossref", "subject": ["Ecology, Evolution, Behavior and Systematics"], "subtitle": [], "title": ["Storm-Surge Flooding on the Yukon-Kuskokwim Delta, Alaska"], "type": "journal-article", "volume": "67"}, "message-type": "work", "message-version": "1.0.0", "status": "ok"}, "details": [{"Publication type": "Article"}, {"Publication Subtype": "Journal Article"}, {"Title": "Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska"}, {"Series title": "Arctic"}, {"DOI": "10.14430/arctic4403"}, {"Volume": "67"}, {"Issue": "3"}, {"Year Published": "2014"}, {"Language": "English"}, {"Publisher": "Arctic Institute of North America"}, {"Contributing office(s)": "Alaska Science Center Biology WTEB"}, {"Description": "15 p."}, {"First page": "360"}, {"Last page": "374"}, {"Country": "United States"}, {"State": "Alaska"}, {"Online Only (Y/N)": "N"}, {"Additional Online Files (Y/N)": "N"}], "displayLinks": {"Abstract": [], "Additional Report Piece": [], "Appendix": [], "Application Site": [], "Authors Website": [], "Chapter": [], "Companion Files": [], "Cover": [], "Data Release": [], "Database": [], "Dataset": [], "Digital Object Identifier": [], "Document": [], "Errata": [], "Figure": [], "HTML Document": [], "Illustration": [], "Image": [], "Image Folder": [], "Index Page": [{"rank": 4, "text": "Publisher Index Page (via DOI)", "type": {"id": 15, "text": "Index Page"}, "url": "https://doi.org/10.14430/arctic4403"}], "Metadata": [], "NGMDB Index Page": [], "Plate": [], "Project Site": [], "Publication XML": [], "Raw Data": [], "Read Me": [], "Referenced Work": [], "Related Work": [], "Sheet": [], "Software Release": [], "Spatial Data": [], "Table": [], "Thumbnail": [{"id": 296415, "rank": 1, "type": {"id": 24, "text": "Thumbnail"}, "url": "https://pubs.er.usgs.gov/thumbnails/outside_thumb.jpg"}], "USGS Store Link": [], "Version History": []}, "displayToPublicDate": "2014-12-03T13:00:00", "docAbstract": "\u003cp\u003eCoastal regions of Alaska are regularly affected by intense storms of ocean origin, the frequency and intensity of which are expected to increase as a result of global climate change. The Yukon-Kuskokwim Delta (YKD), situated in western Alaska on the eastern edge of the Bering Sea, is one of the largest deltaic systems in North America. Its low relief makes it especially susceptible to storm-driven flood tides and increases in sea level. Little information exists on the extent of flooding caused by storm surges in western Alaska and its effects on salinization, shoreline erosion, permafrost thaw, vegetation, wildlife, and the subsistence-based economy. In this paper, we summarize storm flooding events in the Bering Sea region of western Alaska during 1913 \u0026ndash; 2011 and map both the extent of inland flooding caused by autumn storms on the central YKD, using Radarsat-1 and MODIS satellite imagery, and the drift lines, using high-resolution IKONOS satellite imagery and field surveys. The largest storm surges occurred in autumn and were associated with high tides and strong (\u0026gt; 65 km hr-1) southwest winds. Maximum inland extent of flooding from storm surges was 30.3 km in 2005, 27.4 km in 2006, and 32.3 km in 2011, with total flood area covering 47.1%, 32.5%, and 39.4% of the 6730 km\u003csup\u003e2\u003c/sup\u003e study area, respectively. Peak stages for the 2005 and 2011 storms were 3.1 m and 3.3 m above mean sea level, respectively\u0026mdash;almost as high as the 3.5 m amsl elevation estimated for the largest storm observed (in November 1974). Several historically abandoned village sites lie within the area of inundation of the largest flood events. With projected sea level rise, large storms are expected to become more frequent and cover larger areas, with deleterious effects on freshwater ponds, non-saline habitats, permafrost, and landscapes used by nesting birds and local people.\u003c/p\u003e", "doi": "10.14430/arctic4403", "endPage": "374", "formattedModifiedDateTime": "December 04, 2014 09:22:45", "geographicExtents": {"features": [{"geometry": {"coordinates": [[[-141.328125, 71.63599288330606], [-141.6796875, 58.81374171570782], [-178.2421875, 50.62507306341435], [-165.76171875, 71.69129271863999], [-141.328125, 71.63599288330606]]], "type": "Polygon"}, "id": "70134556.base_id", "properties": {"id": "70134556", "info": "2014, Arctic (67) 360-374", "title": "Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska", "url": "https://pubs.er.usgs.gov/publication/70134556", "year": "2014"}, "type": "Feature"}], "properties": {"title": "Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska"}, "type": "FeatureCollection"}, "hasExcel": false, "id": 70134556, "indexId": "70134556", "interactions": [], "ipdsId": "IP-049144", "isOA": {"best_oa_location": {"endpoint_id": null, "evidence": "open (via free pdf)", "host_type": "publisher", "is_best": true, "license": null, "oa_date": null, "pmh_id": null, "repository_institution": null, "updated": "2023-05-10T21:31:01.924522", "url": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "url_for_landing_page": "https://doi.org/10.14430/arctic4403", "url_for_pdf": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "version": "publishedVersion"}, "data_standard": 2, "doi": "10.14430/arctic4403", "doi_url": "https://doi.org/10.14430/arctic4403", "first_oa_location": {"endpoint_id": null, "evidence": "open (via free pdf)", "host_type": "publisher", "is_best": true, "license": null, "oa_date": null, "pmh_id": null, "repository_institution": null, "updated": "2023-05-10T21:31:01.924522", "url": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "url_for_landing_page": "https://doi.org/10.14430/arctic4403", "url_for_pdf": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "version": "publishedVersion"}, "genre": "journal-article", "has_repository_copy": false, "is_oa": true, "is_paratext": false, "journal_is_in_doaj": false, "journal_is_oa": false, "journal_issn_l": "0004-0843", "journal_issns": "1923-1245,0004-0843", "journal_name": "ARCTIC", "oa_locations": [{"endpoint_id": null, "evidence": "open (via free pdf)", "host_type": "publisher", "is_best": true, "license": null, "oa_date": null, "pmh_id": null, "repository_institution": null, "updated": "2023-05-10T21:31:01.924522", "url": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "url_for_landing_page": "https://doi.org/10.14430/arctic4403", "url_for_pdf": "https://journalhosting.ucalgary.ca/index.php/arctic/article/download/67448/51355", "version": "publishedVersion"}], "oa_locations_embargoed": [], "oa_status": "bronze", "published_date": "2014-09-09", "publisher": "The Arctic Institute of North America", "title": "Storm-Surge Flooding on the Yukon-Kuskokwim Delta, Alaska", "updated": "2023-05-10T21:31:27.281823", "year": 2014, "z_authors": [{"family": "Terenzi", "given": "John", "sequence": "first"}, {"family": "Jorgenson", "given": "M. Torre", "sequence": "additional"}, {"family": "Ely", "given": "Craig R.", "sequence": "additional"}]}, "issue": "3", "language": "English", "lastModifiedDate": "2014-12-04T09:22:45", "links": [{"id": 296415, "type": {"id": 24, "text": "Thumbnail"}, "url": "https://pubs.er.usgs.gov/thumbnails/outside_thumb.jpg"}, {"rank": null, "text": "Publisher Index Page (via DOI)", "type": {"id": 15, "text": "Index Page"}, "url": "https://doi.org/10.14430/arctic4403"}], "noYear": false, "offers": null, "onlineOnly": "N", "openAccessHostType": "publisher", "openAccessLink": "https://doi.org/10.14430/arctic4403", "productDescription": "15 p.", "pubHasNoLinks": false, "publicAccess": false, "publicationSubtype": {"id": 10, "text": "Journal Article"}, "publicationType": {"id": 2, "text": "Article"}, "publicationYear": "2014", "publisher": "Arctic Institute of North America", "relationships": {"@context": {"dc": "http://purl.org/dc/elements/1.1/", "rdac": "http://rdaregistry.info/Elements/c/", "rdaw": "http://rdaregistry.info/Elements/w/", "rdaw:replacedByWork": {"@type": "@id"}, "rdaw:replacementOfWork": {"@type": "@id"}, "xsd": "http://www.w3.org/2001/XMLSchema#"}, "@graph": [{"@id": "https://pubs.er.usgs.gov/publication/70134556", "@type": "rdac:Work", "dc:date": "2014", "dc:title": "Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska"}]}, "scienceBaseUri": "5480261ce4b0ac64d148dce0", "seriesTitle": {"active": true, "id": 894, "publicationSubtype": {"id": 10}, "text": "Arctic"}, "startPage": "360", "state": "Alaska", "text": "70134556 - 2014 - Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska", "title": "Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska", "usgsCitation": "Terenzi, J., M. T. Jorgenson, and C. R. Ely. 2014. Storm-surge flooding on the Yukon-Kuskokwim Delta, Alaska. Arctic 67(3). doi:dx.doi.org/10.14430/arctic4403", "volume": "67"}],
+                    enablePopup: false
+                });
+            });
+        </script>
+    
+
+
+   <script>
+       var GA = {};
+       (function (i, s, o, g, r, a, m) {
+           i['GoogleAnalyticsObject'] = r;
+           i[r] = i[r] || function () {
+                   (i[r].q = i[r].q || []).push(arguments)
+               }, i[r].l = 1 * new Date();
+           a = s.createElement(o),
+               m = s.getElementsByTagName(o)[0];
+           a.async = 1;
+           a.src = g;
+           m.parentNode.insertBefore(a, m)
+       })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+       ga('create', 'UA-10113280-1', 'auto');
+       ga('send', 'pageview');
+
+       GA.trackGAEvent = function (category, actions, labels, values) {
+           ga('send', 'event', category, actions, labels, values);
+       };
+   </script>
+
+    </body>
+</html>

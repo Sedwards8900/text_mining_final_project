@@ -1,0 +1,249 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31100000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Rhode Island storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:39.353Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Rhode+Island+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/610.3.7.1.9 (KHTML, like Gecko) Version/14.0.2 Safari/610.3.7.1.9",
+        "request_id": "hl_c3a9eb28_u9ukyah3j0l"
+    },
+    "organic": [
+        {
+            "link": "https://www.bostonglobe.com/2022/12/23/metro/thousands-without-power-ri-some-local-roads-flooding-winter-storm-hits-blows/",
+            "display_link": "https://www.bostonglobe.com \u203a 2022/12/23 \u203a metro \u203a th...",
+            "title": "Photos: The storm's impact along the Rhode Island coast",
+            "description": "The storm brought strong wind gusts, knocking out power for thousands, as well as significant rainfall and coastal flooding.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.providencejournal.com/story/news/2022/12/23/storm-moves-into-ri-with-rain-powerful-wind-temperatures-to-drop/69753082007/",
+            "display_link": "https://www.providencejournal.com \u203a 2022/12/23 \u203a st...",
+            "title": "Pre-Christmas storm brings rain, powerful wind to region",
+            "description": "A \"high-impact storm\" has moved into Southern New England with rain and powerful wind, causing some to lose power ... The Providence Journal.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.providencejournal.com/story/news/2022/12/22/ri-weather-forecast-storm-heavy-rain-high-winds-flooding-extreme-cold-icy-roads/69747247007/",
+                    "display_link": "https://www.providencejournal.com \u203a 2022/12/22 \u203a ri...",
+                    "title": "Storm will bring rain and possible flooding before ...",
+                    "description": "Expect 2 to 3 inches of rain in Rhode Island and Connecticut. Southeastern Massachusetts, Cape Cod and the islands should see up to 2 inches.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 22, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.abc6.com/outages-in-the-ocean-state-drop-below-1000-after-brief-storm/",
+            "display_link": "https://www.abc6.com \u203a outages-in-the-ocean-state-dr...",
+            "title": "Outages in the Ocean State drop below 1000 after brief storm",
+            "description": "PROVIDENCE, R.I. (WLNE) \u2014 Rhode Island Energy announced there are more than 5000 customers without power after a brief storm on Tuesday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://turnto10.com/news/local/street-flooding-storm-rain-wind-high-tide-narragansett-westerly-rhode-island-hurricane-barrier-providence-new-bedford-december-23-2022",
+            "display_link": "https://turnto10.com \u203a news \u203a local \u203a street-flooding-st...",
+            "title": "Streets flood as heavy rain, high winds lash Narragansett",
+            "description": "NARRAGANSETT, R.I. (WJAR) \u2014 Narragansett coped with strong winds, massive waves and significant flooding as a storm moved in early Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.pbs.org/newshour/nation/tropical-storm-henri-makes-landfall-in-rhode-island",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a nation \u203a tropical-st...",
+            "title": "Tropical Storm Henri makes landfall in Rhode Island",
+            "description": "Tropical Storm Henri hit the coast of Rhode Island Sunday, packing high winds that knocked out power to tens of thousands of homes and bands ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnn.com/2021/08/22/weather/hurricane-henri-sunday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a hurricane-henri-sunday",
+            "title": "Rhode Island coast hit by Tropical Storm Henri's landfall",
+            "description": "Tropical Storm Henri made landfall along the coast of Rhode Island near Westerly on Sunday as the slow-moving storm drenched the Northeast ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://phys.org/news/2021-08-tropical-storm-henri-rhode-island.html",
+            "display_link": "https://phys.org \u203a Earth \u203a Environment",
+            "title": "Tropical Storm Henri hits Rhode Island on US east coast",
+            "description": "Tropical Storm Henri slammed into Rhode Island on the US east coast Sunday, knocking out power to thousands of Americans, canceling scores ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://patch.com/rhode-island/cranston/ri-winter-storm-rain-turning-snow-flooding-possible-near-cranston",
+            "display_link": "https://patch.com \u203a rhode-island \u203a cranston \u203a ri-winter...",
+            "title": "RI Winter Storm: Rain Turning To Snow, Flooding Possible ...",
+            "description": "Up to 5 inches of snow now is possible in Rhode Island, but the worst impacts may come from flooding in Cranston and Warwick.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://whyy.org/articles/henri-heads-northeast-as-millions-gird-for-winds-flooding/",
+            "display_link": "https://whyy.org \u203a articles \u203a henri-heads-northeast-as-...",
+            "title": "Tropical Storm Henri makes landfall in Rhode Island",
+            "description": "Tropical Storm Henri hit the coast of Rhode Island Sunday afternoon, packing high winds that knocked out power to tens of thousands of homes ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What is the natural disaster in Rhode Island?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+natural+disaster+in+Rhode+Island%3F&sa=X&ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qzmd6BAghEAY",
+            "answer_source": "Natural Disasters in Rhode Island: What Is the Risk? - Primal Survivor",
+            "answer_link": "https://www.primalsurvivor.net/natural-disasters-rhode-island/#:~:text=Flooding,What%20is%20this%3F",
+            "answer_display_link": "https://www.primalsurvivor.net \u203a natural-disasters-rhode-...https://www.primalsurvivor.net \u203a natural-disasters-rhode-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCEQBQ\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qu04oAHoECCEQBQ\"><div id=\"3JnBZIDoB7GB9u8P0JeH6Ak__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCMQAA\"><span class=\"ILfuVd c3biWd\" lang=\"en\"><span class=\"hgKElc\"><b>Flooding</b><br><br> As a coastal state, Rhode Island is at very high risk for flooding, especially storm surges and tidal flooding from sea level rise and tropical cyclones. Snowmelt and heavy rainfall can also cause widespread flooding and deadly flash floods in Rhode Island. What is this?</span></span><span class=\"kX21rb ZYHQ7e\">Mar 15, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Flooding As a coastal state, Rhode Island is at very high risk for flooding, especially storm surges and tidal flooding from sea level rise and tropical cyclones. Snowmelt and heavy rainfall can also cause widespread flooding and deadly flash floods in Rhode Island. What is this?Mar 15, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "Did the hurricane hit Rhode Island?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Did+the+hurricane+hit+Rhode+Island%3F&sa=X&ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qzmd6BAgiEAY",
+            "answer_source": "List of New England hurricanes - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/List_of_New_England_hurricanes#:~:text=August%2022%2C%202021%20%E2%80%93%20Tropical%20Storm,widespread%20flooding%20and%20severe%20weather.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_New_England_...https://en.wikipedia.org \u203a wiki \u203a List_of_New_England_...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qu04oAHoECCIQBQ\"><div id=\"3JnBZIDoB7GB9u8P0JeH6Ak__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCQQAA\"><span class=\"ILfuVd c3biWd\" lang=\"en\"><span class=\"hgKElc\">August 22, 2021 \u2013 <b>Tropical Storm Henri made landfall near Westerly, Rhode Island</b>, bringing strong winds and heavy rainfall to southern New England, which caused widespread flooding and severe weather.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "August 22, 2021 \u2013 Tropical Storm Henri made landfall near Westerly, Rhode Island, bringing strong winds and heavy rainfall to southern New England, which caused widespread flooding and severe weather."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Does Rhode Island get flooded?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Does+Rhode+Island+get+flooded%3F&sa=X&ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qzmd6BAggEAY",
+            "answer_source": "Heavy rain Monday brings flooding in Rhode Island",
+            "answer_link": "https://www.providencejournal.com/story/news/local/2023/07/10/heavy-rain-could-bring-flash-flooding-in-ri-what-to-know/70396712007/#:~:text=Heavy%20rain%20caused%20flooding%20in,flood%20deaths%20occur%20in%20vehicles.%22",
+            "answer_display_link": "https://www.providencejournal.com \u203a local \u203a 2023/07/10https://www.providencejournal.com \u203a local \u203a 2023/07/10",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCAQBQ\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qu04oAHoECCAQBQ\"><div id=\"3JnBZIDoB7GB9u8P0JeH6Ak__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB8QAA\"><span class=\"ILfuVd c3biWd\" lang=\"en\"><span class=\"hgKElc\"><b>Heavy rain caused flooding in parts of Rhode Island on Monday</b>, and the National Weather Service upgraded its flood watch to a flood warning. \"Turn around, don't drown when encountering flooded roads,\" the weather service said in its warning. \"Most flood deaths occur in vehicles.\"</span></span><span class=\"kX21rb ZYHQ7e\">Jul 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Heavy rain caused flooding in parts of Rhode Island on Monday, and the National Weather Service upgraded its flood watch to a flood warning. \"Turn around, don't drown when encountering flooded roads,\" the weather service said in its warning. \"Most flood deaths occur in vehicles.\"Jul 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "Where did the hurricane of 1938 hit?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+did+the+hurricane+of+1938+hit%3F&sa=X&ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qzmd6BAgeEAY",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB4QBQ\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qu04oAHoECB4QBQ\"><div id=\"3JnBZIDoB7GB9u8P0JeH6Ak__23\"><div data-hveid=\"CBcQAA\"><div class=\"s2TyX ueVdTc\"><div jsname=\"dfTZvb\" class=\"e3sOrb\" jscontroller=\"Q59Rjf\" jsaction=\"rcuQ6b:npT2md;OtC8Ef:eUd0We\"><div jsname=\"hY0KLd\" id=\"tsuid_30\" data-hveid=\"CBcQAQ\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0QuNoBegQIFxAB\"><div class=\"M7lz2c XC18Gb diAzE\"><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"Rhode Island\" href=\"/search?gl=us&amp;hl=en&amp;q=Rhode+Island&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhX4gAxzZJKCrX0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2LlCcrIT0lV8CzOScxLucUmyXBrRY9K0OQ80w-eP-fVpmWny8cYqRm7XKsFALt8bvmZAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAB6BAgXEAI\" title=\"Rhode Island\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAB6BAgXEAI\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWP_OgXGW7euENJahsVixElmoU_iekKvF7bPz&amp;s=0\" style=\"margin-top:6px;height:81px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">Rhode Island</div></div></a><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"Connecticut\" href=\"/search?gl=us&amp;hl=en&amp;q=Connecticut&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhX4gAxDSvMjbX0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2Llds7PywPqy0wuLbnFJslwa0WPStDkPNMPnj_n1aZlp8vHGKkZu1yrBQBSztuBmAAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAF6BAgXEAM\" title=\"Connecticut\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAF6BAgXEAM\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8C60A1GGnhAG44n-Kw1lHrfHQJ0a2GDELYYG3&amp;s=0\" style=\"margin-top:11px;height:71px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">Connecticut</div></div></a><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"Massachusetts\" href=\"/search?gl=us&amp;hl=en&amp;q=Massachusetts&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhXAjNNs82Lk7T0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2Ll9U0sLk5MzigtTi0pKb7FJslwa0WPStDkPNMPnj_n1aZlp8vHGKkZu1yrBQCEQz-RmwAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAJ6BAgXEAQ\" title=\"Massachusetts\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAJ6BAgXEAQ\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGt1EZpZ-nWCYxboN0OQVH6B_lCsfvh_QB39sD&amp;s=0\" style=\"margin-top:19px;height:55px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">Massachus...</div></div></a><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"New York\" href=\"/search?gl=us&amp;hl=en&amp;q=New+York+State&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhXAjNNLYuSKrX0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2Ll80stV4jML8pWCC5JLEm9xSbJcGtFj0rQ5DzTD54_59WmZafLxxipGbtcqwUAWOX45JwAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAN6BAgXEAU\" title=\"New York\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAN6BAgXEAU\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScK--rGNc3qZxXHsrJB7XEy97EGq3MwXdinH9x&amp;s=0\" style=\"margin-top:23px;height:46px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">New York</div></div></a><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"New Hampshire\" href=\"/search?gl=us&amp;hl=en&amp;q=New+Hampshire&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhX4gAxTS3TTLT0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2Ll9UstV_BIzC0ozsgsSr3FJslwa0WPStDkPNMPnj_n1aZlp8vHGKkZu1yrBQAZ5E83mgAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAR6BAgXEAY\" title=\"New Hampshire\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAR6BAgXEAY\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMS0Dl2Ov_vA63195NPBuCbaLqfINxMEJkWBPU&amp;s=0\" style=\"margin-top:16px;height:61px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">New Hampshire</div></div></a><a jsname=\"ZWuC2\" class=\"EASEnb PZPZlf Bb1JKe\" aria-label=\"New Jersey\" href=\"/search?gl=us&amp;hl=en&amp;q=New+Jersey&amp;stick=H4sIAAAAAAAAAONgFuLUz9U3MLIsNyhX4gAxTdOy0rT0spOt9HNTS1Lzi_Jz8tMr9UuK8gsykxNz4pMrk3Py81KtEtPSUpNLUlMUEotSE38xqoRnpBalKqRkpiiUZKQqZJQWFQGV56Uq5KcpGFoaWyhkZJbYL2Ll8kstV_BKLSpOrbzFJslwa0WPStDkPNMPnj_n1aZlp8vHGKkZu1yrBQAU4Q1klwAAAA&amp;sa=X&amp;ved=2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAV6BAgXEAc\" title=\"New Jersey\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Qs9oBKAV6BAgXEAc\"><div class=\"JAC8bd GWRUbe Yyyymd\"><div class=\"vlVVv\"></div><img jsname=\"lt6Uyb\" class=\"LV5Kte Z8r1Ce\" data-src=\"//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp-4K5zXpjwFLn4eZt-EST-Jr3JmbhXUV3VXh&amp;s=0\" style=\"margin-top:19px;height:55px\" alt=\"\" aria-hidden=\"true\"></div><div class=\"r2fjmd VCOFK WyGS9c\"><div jsname=\"cuqikc\" class=\"f3LoEf OSrXXb\">New Jersey</div></div></a></div><div jsname=\"DTW3Le\" class=\"O6Hgpc\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Q36YDegQIFxAI\"></div></div><div jsname=\"kr5Euf\" class=\"O6Hgpc\" data-ved=\"2ahUKEwiAxtzvsa2AAxWxgP0HHdDLAZ0Q3aYDegQIFxAJ\"></div></div></div></div></div></div></div>",
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

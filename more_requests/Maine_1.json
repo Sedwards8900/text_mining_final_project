@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31700000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:31:01.060Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_fgjcwxyhc"
+    },
+    "organic": [
+        {
+            "link": "https://wgme.com/news/local/powerful-storm-set-to-pack-a-punch-in-maine-thursday-friday-rain-strong-winds-flooding-storms-scattered-power-outages-warning-new-england-mpactful-weather-storms-cloudy-skies-winds-wind-gusts-storm-system-showers-10-13-2022",
+            "display_link": "https://wgme.com \u203a news \u203a local \u203a powerful-storm-set...",
+            "title": "Powerful Storm Set to Pack a Punch in Maine",
+            "description": "PORTLAND (WGME)--- A powerful storm system will bring a long stretch of heavy rain and strong winds to Maine, which will lead to flooding in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/21/weather/winter-storm-us-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-tuesday",
+            "title": "Winter storm set to impact millions stretching from the West ...",
+            "description": "A massive winter storm bringing a mix of heavy snow, rain and gusty winds ... stretching from the West Coast all the way to Maine this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.sunjournal.com/2022/01/17/winter-storm-sweeps-through-maine-leaving-snow-icy-roads-and-power-outages-in-its-wake/",
+            "display_link": "https://www.sunjournal.com \u203a 2022/01/17 \u203a winter-stor...",
+            "title": "Winter storm sweeps through Maine, bringing snow, icy ...",
+            "description": "Tractor-trailer crashes into house in Woodstock, causing significant damage. ... Loading.... ... You can share 5 more gift articles this month.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.bangordailynews.com/2023/05/01/weather/maine-spring-storm-flooding-winds/",
+            "display_link": "https://www.bangordailynews.com \u203a News",
+            "title": "Spring storm hits Maine island with 70 mph gusts",
+            "description": "A storm with heavy rain and gusts knocked out power for tens of thousands of homes and businesses in Maine and washed out some roads there ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.mainebiz.biz/article/pre-christmas-storm-wreaks-havoc-on-travel-and-business-in-maine",
+            "display_link": "https://www.mainebiz.biz \u203a article \u203a pre-christmas-stor...",
+            "title": "Pre-Christmas storm wreaks havoc on travel and business ...",
+            "description": "Flooded roads, high winds and rain caused disruptions throughout Maine, as winter storm Elliott barreled up the East Coast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://patch.com/maine/across-me/bomb-cyclone-bring-heavy-snow-rain-maine-weekend",
+            "display_link": "https://patch.com \u203a maine \u203a across-me \u203a bomb-cyclon...",
+            "title": "'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow",
+            "description": "Maine Weather: 'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow - Across Maine, ME - A winter storm warning is in effect from 5 a.m. ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://92moose.fm/heres-how-much-snow-central-maine-is-going-to-get-from-this-noreaster/",
+            "display_link": "https://92moose.fm \u203a heres-how-much-snow-central-...",
+            "title": "Here's How Much Snow Central Maine is Going to Get ...",
+            "description": "As far as the winter storm warning goes, Central Maine will remain ... Sorry for saying 'bitch' in an article about snow accumulations.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://pubs.usgs.gov/pp/1087/report.pdf",
+            "display_link": "https://pubs.usgs.gov \u203a report",
+            "title": "MAINE COASTAL STORM AND FLOOD OF FEBRUARY 2, ...",
+            "description": "(Geological Survey professional paper ; 1087). Bibliography: p. 1. Bangor, Me. Flood, 1976. 2. Bangor, Me. Storm, 1976. 3. Storm surges Maine Bangor.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wsj.com/articles/major-winter-storm-brings-outages-canceled-flights-and-heavy-snow-c2ae1747",
+            "display_link": "https://www.wsj.com \u203a articles \u203a major-winter-storm-brin...",
+            "title": "Winter Storm Brings Heavy Snow, Ice From California ...",
+            "description": "Winter Storm Brings Heavy Snow, Ice From California to Maine, Grounding More ... \u2014Alison Sider and Talal Ansari contributed to this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.newsbreak.com/sebago-me/3071032038307-storms-take-down-wires-wash-out-roads-in-parts-of-maine",
+            "display_link": "https://www.newsbreak.com \u203a Sebago, ME",
+            "title": "Storms take down wires, wash out roads in parts of Maine",
+            "description": "Local Maine State. First responders prepare for more potential flooding in western Maine \u00b7 Fryeburg, ME2 hours ago. article cover.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

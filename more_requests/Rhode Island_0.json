@@ -1,0 +1,180 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 40300000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Rhode Island storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:45:34.266Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Rhode+Island+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.3 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_0mgoan9s4v3n"
+    },
+    "organic": [
+        {
+            "link": "http://www.crmc.ri.gov/coastalstorms.html",
+            "display_link": "http://www.crmc.ri.gov \u203a coastalstorms",
+            "title": "RI CRMC Hurricanes and Coastal Storms",
+            "description": "STORMTOOLS. Illustrates and displays storm inundation, with and without sea level rise, for different types of storms that could occur along Rhode Island's ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/08/22/hurricane-henri-live-updates/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/08/22 \u203a hurri...",
+            "title": "Tropical Storm Henri hits Rhode Island",
+            "description": "Henri weakened from a hurricane to a strong tropical storm Sunday morning, making landfall at 12:15 p.m. near Westerly, R.I. Nevertheless, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://whyy.org/articles/henri-heads-northeast-as-millions-gird-for-winds-flooding/",
+            "display_link": "https://whyy.org \u203a articles \u203a henri-heads-northeast-as-...",
+            "title": "Tropical Storm Henri makes landfall in Rhode Island",
+            "description": "Tropical Storm Henri made landfall in Rhode Island early Sunday, packing heavy winds and drenching rains as it began lashing the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.ri.gov/hurricane/",
+            "display_link": "https://www.ri.gov \u203a hurricane",
+            "title": "Hurricane Preparedness",
+            "description": "Hurricane Preparedness. Prepare Now! We cannot predict when disasters or emergencies will strike. But we can work to make sure that all households, ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.usatoday.com/videos/news/weather/2022/09/06/drenching-storms-lead-flash-flooding-rhode-island/7998794001/",
+            "display_link": "https://www.usatoday.com \u203a news \u203a weather \u203a 2022/09/06",
+            "title": "Drenching storms lead to flash flooding in Rhode Island",
+            "description": "USA Today",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "5, bringing welcome",
+                    "rank": 1
+                },
+                {
+                    "type": "fact",
+                    "key": "rain",
+                    "value": [
+                        {
+                            "text": "to many but causing severe flash floods in places like"
+                        }
+                    ],
+                    "rank": 2
+                },
+                {
+                    "type": "fact",
+                    "key": "Providence",
+                    "rank": 3
+                },
+                {
+                    "type": "fact",
+                    "key": "Rhode Island",
+                    "value": [
+                        {
+                            "text": "."
+                        }
+                    ],
+                    "rank": 4
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.providenceri.gov/pema/hurricanes/",
+            "display_link": "https://www.providenceri.gov \u203a pema \u203a hurricanes",
+            "title": "Hurricanes and Tropical Storms",
+            "description": "Although the Fox Point Hurricane Barrier has significantly reduced the risk of flooding within Providence, a powerful hurricane is the natural hazard that ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Rhode+Island+storm+%22article%22&sa=X&ved=2ahUKEwj23Pr04a2AAxVRm4kEHeyyCwc4CxDm3gJ6BAgYEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://floodlist.com/tag/rhode-island",
+            "display_link": "https://floodlist.com \u203a tag \u203a rhode-island",
+            "title": "Rhode Island",
+            "description": "The storm brought heavy rainfall to the region before landfall. A record 1.94 inches (49.28 mm)\u2026 Read Full Article ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Rhode_Island_Storm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Rhode_Island_Storm",
+            "title": "Rhode Island Storm",
+            "description": "The Rhode Island Storm were a professional ice hockey team in the North East Professional Hockey League that played in the 2009\u201310 season.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.thedartmouth.com/article/2021/08/tropical-storm-henri-makes-landfall-in-rhode-island-to-bring-high-winds-and-heavy-rain-to-upper-valley",
+            "display_link": "https://www.thedartmouth.com \u203a article \u203a 2021/08 \u203a tr...",
+            "title": "Tropical storm Henri makes landfall in Rhode Island, to ...",
+            "description": "The storm will weaken rapidly over land, but still poses a danger, the National Hurricane Center says.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://apnews.com/article/tropical-storm-henri-hurricanes-35b9448730d64a02ca81da6cbbd6dc18",
+            "display_link": "https://apnews.com \u203a article \u203a tropical-storm-henri-hur...",
+            "title": "Slow-moving storm Henri drenches Northeast US",
+            "description": "Rhode Island has been hit by hurricanes and tropical storms periodically \u2014 including Superstorm Sandy in 2012, Irene in 2011 and Hurricane Bob ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

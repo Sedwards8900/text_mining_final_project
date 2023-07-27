@@ -1,0 +1,146 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 50300000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:07.984Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Virginia+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_csk2f52e5ub"
+    },
+    "organic": [
+        {
+            "link": "http://www.virginiaplaces.org/climate/4storms.html",
+            "display_link": "http://www.virginiaplaces.org \u203a climate \u203a 4storms",
+            "title": "Storms in Virginia",
+            "description": "However, a few frontal cyclones, such as Hurricane Camille, can migrate all the way north from the Gulf of Mexico before drenching Virginia. Such storms can ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwiVsLaU462AAxVkTWwGHd9LB-g4FBDm3gJ6BAgZEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "http://www.virginiaplaces.org/climate/hurricanes.html",
+            "display_link": "http://www.virginiaplaces.org \u203a climate \u203a hurricanes",
+            "title": "Hurricanes in Virginia",
+            "description": "if a Class 3 hurricane pushed a storm surge into Chesapeake Bay at high tide, flooding in Hampton Roads would be massive. Source: Virginia Department of ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.insidenova.com/headlines/nearly-30-000-without-power-as-strong-storms-roll-through-northern-virginia/article_9e1a5f24-f27e-11ec-96a0-9f88e587085b.html",
+            "display_link": "https://www.insidenova.com \u203a headlines \u203a article_9e1a5f...",
+            "title": "Nearly 30000 without power as strong storms roll through ...",
+            "description": "Storm damage in Loudoun County, June 22, 2022. ... Northern Virginia Electric Cooperative reported 2,100 customers without power as of 7:15 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.novec.com/About_NOVEC/Virginias-Historic-Snowstorms.cfm",
+            "display_link": "https://www.novec.com \u203a About_NOVEC \u203a Virginias-...",
+            "title": "Virginia's Historic Snowstorms",
+            "description": "In the Mid-Atlantic, weather stations recorded their lowest pressure ever when the storm's center passed. Blizzard conditions in portions of Northern Virginia ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.virginia.org/plan-your-trip/seasons-and-climate/",
+            "display_link": "https://www.virginia.org \u203a plan-your-trip \u203a seasons-an...",
+            "title": "Seasons & Climate - Virginia Weather",
+            "description": "Virginia's weather has been described as a \"Goldilocks Climate\" \u2013 not too hot and not too cold \u2013 and is officially considered a humid, subtropical region ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/List_of_storms_named_Virginia",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_storms_name...",
+            "title": "List of storms named Virginia",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The name Virginia has been used for eight tropical cyclones in the Western Pacific Ocean.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/tornado-strikes-virginia-coast-damaging-homes-leaving-power-rcna82184",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a tornado-st...",
+            "title": "Tornado strikes Virginia Beach, damaging homes and ...",
+            "description": "Dozens of homes were damaged, trees were downed, and more than 2,000 utility customers were briefly without power Sunday evening after a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/01/04/storm-strands-hundreds-overnight-on-virginia-highway/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/01/04 \u203a storm-...",
+            "title": "Storm strands hundreds overnight on Virginia highway",
+            "description": "What is article sharing? Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 4, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://earthobservatory.nasa.gov/images/14395/winter-storm-slams-north-carolina-and-virginia",
+            "display_link": "https://earthobservatory.nasa.gov \u203a images \u203a winter-st...",
+            "title": "Winter Storm Slams North Carolina and Virginia",
+            "description": "A post-Christmas winter storm brought ice and snow to South Carolina, North Carolina and Virginia, closing Interstate 95, stranding motorists and airline ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://abcnews.go.com/US/40-people-missing-flooding-severe-storm-hits-virginia/story?id=86758342",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Everyone accounted for in wake of Virginia flooding - ABC News",
+            "description": "A severe storm struck Buchanan County, Virginia, bringing heavy rain and flooding and knocking out power.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

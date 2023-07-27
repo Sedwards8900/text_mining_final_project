@@ -1,0 +1,265 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 41500000,
+        "search_time": 0.32,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Hawaii storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:10.841Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Hawaii+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_lans4mhcfuf"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/article/hurricane-calvin-tropical-storm-hawaii.html",
+            "display_link": "https://www.nytimes.com \u203a article \u203a hurricane-calvin-tro...",
+            "title": "Tropical Storm Calvin Passes South of Hawaii",
+            "description": "Tropical Storm Calvin passed just south of Hawaii on Wednesday, bringing high winds, dangerous surf and heavy rainfall even as it moved away ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.sfgate.com/hawaii/article/tropical-storm-calvin-passes-south-hawaii-18208568.php",
+            "display_link": "https://www.sfgate.com \u203a Travel \u203a Hawaii",
+            "title": "Tropical Storm Calvin begins dumping rain on Big Island of ...",
+            "description": "Tropical Storm Calvin passed just south of the Big Island of Hawaii overnight, bringing heavy rain, powerful winds and high surf.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-66248104",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-66248104",
+            "title": "Tropical Storm Calvin leaves minor flooding in Hawaii",
+            "description": "Calvin mainly caused localised flooding - over 5in (13cm) of rain in some areas - and minor wind damage after making contact on Tuesday night.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Hawaii+storm+%22article%22&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQ5t4CegQIFxAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/07/18/tropical-storm-calvin-hawaii-big-island/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/18 \u203a tropi...",
+            "title": "Tropical Storm Calvin to bring heavy rain, strong winds ...",
+            "description": "Calvin, a tropical storm sweeping across the central Pacific Ocean, is expected to scrape to the south of Hawaii's Big Island and Maui on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/2023/07/18/weather/tropical-storm-calvin-hawaii-big-island/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/07/18 \u203a weather \u203a tropical-...",
+            "title": "Tropical Storm Calvin threatens to bring heavy rainfall and ...",
+            "description": "Hawaii's Big Island is under a tropical storm warning as Tropical Storm Calvin is forecast to pass over or just south of the island, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Hawaii+storm+%22article%22&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQ5t4CegQIGhAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.bloomberg.com/news/articles/2023-07-17/tropical-storm-calvin-is-churning-toward-hawaii-s-big-island",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a tropic...",
+            "title": "Tropical Storm Calvin Is Churning Toward Hawaii's Big Island",
+            "description": "Tropical Storm Calvin has sparked watches on Hawaii's Big Island as it churns closer to the archipelago. Calvin is about 920 miles (1,481 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.vosslawfirm.com/blog/the-recent-storms-were-the-largest-weather-event-in-hawaii-s-history.cfm",
+            "display_link": "https://www.vosslawfirm.com \u203a blog \u203a the-recent-stor...",
+            "title": "The Recent Storms Were The Largest Weather Event in ...",
+            "description": "Nearly one foot of rain has already fallen in Kula on Maui, according to the National Weather Service in Hawaii. The (NWS) report also states that,\u201dRainfall ...",
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.hawaiinewsnow.com/news/weather/",
+            "display_link": "https://www.hawaiinewsnow.com \u203a news \u203a weather",
+            "title": "Weather",
+            "description": "Get the latest forecasts, surf reports and severe weather updates from the First Alert Weather team at Hawaii News Now.",
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/hawaii/articles/2022-12-20/hawaii-winter-storm-thunder-hail-and-power-outages",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Hawaii News",
+            "title": "Hawaii Winter Storm: Thunder, Hail and Power Outages",
+            "description": "A strong winter storm is downing trees, knocking out power and flooding soccer fields as it moves across the Hawaiian Islands.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/state-emergency-declared-hawaii-storm-leaves-hundreds-power-rcna7836",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a state-emer...",
+            "title": "State of emergency declared in Hawaii as storm leaves ...",
+            "description": "Hawaii's governor declared a state of emergency as a major storm left hundreds of customers without power and threatened \"catastrophic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Did Tropical Storm Calvin hit Hawaii?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Did+Tropical+Storm+Calvin+hit+Hawaii%3F&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQzmd6BAgrEAY",
+            "answer_source": "Tropical Storm Calvin leaves minor flooding in Hawaii - BBC",
+            "answer_link": "https://www.bbc.com/news/world-us-canada-66248104#:~:text=Tropical%20Storm%20Calvin%20has%20passed,afternoon%20the%20storm%20had%20passed.",
+            "answer_display_link": "https://www.bbc.com \u203a world-us-canada-66248104https://www.bbc.com \u203a world-us-canada-66248104",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCsQBQ\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQu04oAHoECCsQBQ\"><div id=\"SZnBZKH4AZehkdUPsryyOA__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Tropical Storm Calvin has passed Hawaii without inflicting significant damage or injuries</b>. Calvin mainly caused localised flooding - over 5in (13cm) of rain in some areas - and minor wind damage after making contact on Tuesday night. By Wednesday afternoon the storm had passed.</span></span><span class=\"kX21rb ZYHQ7e\">6 days ago</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tropical Storm Calvin has passed Hawaii without inflicting significant damage or injuries. Calvin mainly caused localised flooding - over 5in (13cm) of rain in some areas - and minor wind damage after making contact on Tuesday night. By Wednesday afternoon the storm had passed.6 days ago"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Will Tropical Storm Calvin hit Maui?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Will+Tropical+Storm+Calvin+hit+Maui%3F&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQzmd6BAgjEAY",
+            "answer_source": "First Alert Forecast: Tropical Storm Calvin swamping the state, drier ...",
+            "answer_link": "https://www.hawaiinewsnow.com/2023/07/19/first-alert-forecast-tropical-storm-calvin-swamping-state-drier-conditions-due-back-thursday/#:~:text=Tropical%20Storm%20impacts%20will%20occur,of%20Hawaii%20and%20Maui%20County.",
+            "answer_display_link": "https://www.hawaiinewsnow.com \u203a 2023/07/19 \u203a first-al...https://www.hawaiinewsnow.com \u203a 2023/07/19 \u203a first-al...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCMQBQ\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQu04oAHoECCMQBQ\"><div id=\"SZnBZKH4AZehkdUPsryyOA__31\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Tropical Storm impacts will occur far north of the storm center with wind, rain and water impacts affecting all islands in the state. <b>Strong damaging winds are expected for portions of Hawaii and Maui County.</b></span></span><span class=\"kX21rb ZYHQ7e\">Jul 19, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tropical Storm impacts will occur far north of the storm center with wind, rain and water impacts affecting all islands in the state. Strong damaging winds are expected for portions of Hawaii and Maui County.Jul 19, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What was the worst storm in Hawaii history?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+storm+in+Hawaii+history%3F&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQzmd6BAgqEAY",
+            "answer_source": "Hurricane Iniki - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Hurricane_Iniki#:~:text=Hurricane%20Iniki%20(%2Fi%CB%90%CB%88n,tropical%20cyclones%20during%20that%20season.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Inikihttps://en.wikipedia.org \u203a wiki \u203a Hurricane_Iniki",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCoQBQ\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQu04oAHoECCoQBQ\"><div id=\"SZnBZKH4AZehkdUPsryyOA__38\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CC0QAA\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQ4dMGegQILRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CC0QAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AXUf8w\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQyQ0oAHoECCgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;cn43uNrJsyEtLM;AXUf8s\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"cn43uNrJsyEtLM\" data-lpage=\"https://en.wikipedia.org/wiki/Hurricane_Iniki\" data-ni=\"1\" data-ref-docid=\"xxm5wXWCveG3uM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCQQAA\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQzkx6BAgkEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-6px;width:160px\" alt=\"Hurricane Iniki - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsVv0uv8nrE0JR5m7ZQzZ__sW_JIeZWARduRAH1l4IGA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"SZnBZKH4AZehkdUPsryyOA__45\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Hurricane Iniki</b> (/i\u02d0\u02c8ni\u02d0ki\u02d0/ ee-NEE-kee; Hawaiian: \u02bbiniki meaning \"strong and piercing wind\") was the most powerful hurricane to strike Hawai\u02bbi in recorded history. Forming on September 5, 1992, during the strong 1990\u20131995 El Ni\u00f1o, Iniki was one of eleven Central Pacific tropical cyclones during that season.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Hurricane Iniki (/i\u02d0\u02c8ni\u02d0ki\u02d0/ ee-NEE-kee; Hawaiian: \u02bbiniki meaning \"strong and piercing wind\") was the most powerful hurricane to strike Hawai\u02bbi in recorded history. Forming on September 5, 1992, during the strong 1990\u20131995 El Ni\u00f1o, Iniki was one of eleven Central Pacific tropical cyclones during that season."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "How many people died during Hurricane Iniki?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=How+many+people+died+during+Hurricane+Iniki%3F&sa=X&ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQzmd6BAgpEAY",
+            "answer_source": "Hurricane Iniki September 6 - National Weather Service",
+            "answer_link": "https://www.weather.gov/media/publications/assessments/iniki1.pdf",
+            "answer_display_link": "https://www.weather.gov \u203a media \u203a assessments \u203a iniki1https://www.weather.gov \u203a media \u203a assessments \u203a iniki1",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCkQBQ\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQu04oAHoECCkQBQ\"><div id=\"SZnBZKH4AZehkdUPsryyOA__48\"><div class=\"UlIbl\" data-hveid=\"CC4QAA\"><div jsname=\"PBWx0c\" class=\"MPccaf\" data-hveid=\"CC4QAQ\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQ-5gEegQILhAB\"><div jsname=\"rIHOuf\" class=\"IvgBje v0rrvd zVq10e bSXBBf\"><div jsname=\"ANj3Z\"></div><div jsname=\"IhyuZd\" class=\"UkqIHc diAzE TSdv3\" style=\"border-bottom-width:0;margin-bottom:0\"><a class=\"W4LuJe\" href=\"/search?gl=us&amp;hl=en&amp;q=How+many+people+died+during+Hurricane+Iniki%3F&amp;sa=X&amp;ved=2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQsZYEegQILhAC\"><div class=\"mQDzgb OZ5bRd TBC9ub CJHX3e Wt5Tfe\"><div class=\"XrtUhc\"><span>6</span></div><div class=\"DYpClb\"><span class=\"dmLP3b\">Hurricane Iniki</span><span> / </span><span>Total fatalities</span></div></div></a></div><div jsname=\"qMoLuc\" class=\"E8CMCc gEWjK\"><div jsname=\"qJKY4d\" class=\"dd82uf\"><div><a href=\"/search?gl=us&amp;hl=en&amp;q=How+many+people+died+during+Hurricane+Iniki?&amp;tbm=isch&amp;source=iu&amp;ictx=1&amp;vet=1#imgrc=cn43uNrJsyEtLM\" role=\"button\" tabindex=\"0\" data-jsarwt=\"1\" data-usg=\"AOvVaw2t4NvzRxGlZ7VHbs6K_bwL\" data-ved=\"2ahUKEwjhwMqpsa2AAxWXUKQEHTKeDAcQ4KYDegQILhAD\"><g-img style=\"margin-right:calc(100% - 58px - 0px);position:relative\" class=\"ZGomKf\"><img data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO2qzDTp0OCcoaYjIvi7kErWLqRSmVxZzKG60xg7v0mS_SkmgD-A&amp;s=0\" jscontroller=\"TSZEqd\" jsaction=\"load:K1e2pe;BUYwVb:eNYuKb;LsLGHf:KpWyKc;rcuQ6b:npT2md\" class=\"YQ4gaf zr758c\" height=\"58\" width=\"58\" alt=\"Image of How many people died during Hurricane Iniki?\"><div class=\"LLO8yd\"></div></g-img></a></div></div></div></div></div></div></div><div id=\"SZnBZKH4AZehkdUPsryyOA__49\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">On the afternoon of September 11, 1992, a small but intense Hurricane Iniki struck Hawaii across the island of Kauai. With damage estimates of $1.8 billion, this was one of the most destructive hurricanes on record anywhere in the United States. <b>Seven persons died</b> and about 100 were injured because of Iniki.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "On the afternoon of September 11, 1992, a small but intense Hurricane Iniki struck Hawaii across the island of Kauai. With damage estimates of $1.8 billion, this was one of the most destructive hurricanes on record anywhere in the United States. Seven persons died and about 100 were injured because of Iniki."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

@@ -1,0 +1,153 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 42500000,
+        "search_time": 0.45,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Delaware storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:41.543Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Delaware+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_k36lhdc6ls"
+    },
+    "organic": [
+        {
+            "link": "https://www.delaware-surf-fishing.com/newly-released-photos-for-the-anniversary-of-the-storm-of-62/",
+            "display_link": "https://www.delaware-surf-fishing.com \u203a DSF News",
+            "title": "Newly released Photos For the Anniversary Of the Storm of 62",
+            "description": "march storm of 62, delaware, delmarva, delaware public archives Unknown area washed out by the ocean. Related Articles. DNREC Bans Gaffs for Handling ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.dgs.udel.edu/projects/storm-surge-and-high-tide-relationships-delaware-inland-bays",
+            "display_link": "https://www.dgs.udel.edu \u203a projects \u203a storm-surge-and...",
+            "title": "Storm Surge and High Tide Relationships in the Delaware ...",
+            "description": "It has been widely documented that Delaware is highly vulnerable to the impacts of coastal flooding along its Delaware Bay, Atlantic Ocean, and Delaware ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://lithub.com/when-a-hurricane-hits-a-story-of-americas-urban-rise-and-fall/",
+            "display_link": "https://lithub.com \u203a when-a-hurricane-hits-a-story-of-a...",
+            "title": "When a Hurricane Hits the Delaware Bay",
+            "description": "Andrew S. Lewis on the Impact of Super Storm Sandy ... Robert Juet, recounted in his journal the morning's drama: \u201cAnd hee that will ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 9, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.capegazette.com/article/storm-%E2%80%9862-devastated-coastline-three-days/235404",
+            "display_link": "https://www.capegazette.com \u203a article \u203a storm-\u201862-dev...",
+            "title": "Storm of '62 devastated coastline for three days",
+            "description": "In this iconic photo from the Storm of '62, the front section of the Henlopen Hotel along the Rehoboth Beach Boardwalk is in ruins. DELAWARE ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/fclim.2021.610062/full",
+            "display_link": "https://www.frontiersin.org \u203a fclim.2021.610062 \u203a full",
+            "title": "Skew Surge and Storm Tides of Tropical Cyclones in the ...",
+            "description": "The Delaware and Chesapeake Bays, two of the largest and most densely populated estuaries in the U.S. located in the Mid-Atlantic coastal region ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by JA Callahan",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 6",
+                    "rank": 3
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_Delaware",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane...",
+            "title": "Effects of Hurricane Isabel in Delaware",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The effects of Hurricane Isabel in Delaware resulted in one of only thirteen presidential ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://townsquaredelaware.com/how-to-stay-safe-this-hurricane-season/",
+            "display_link": "https://townsquaredelaware.com \u203a how-to-stay-safe-thi...",
+            "title": "How To Stay Safe In Delaware This Hurricane Season",
+            "description": "In the midst of the grimy haze of smoke covering the NE from Canadian wildfires, Del has its next battle with Mother Nature: hurricane ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.nytimes.com/1909/07/18/archives/storm-sweeps-delaware-two-persons-are-killed-and-many-buildings.html",
+            "display_link": "https://www.nytimes.com \u203a 1909/07/18 \u203a archives \u203a stor...",
+            "title": "Two Persons Are Killed and Many Buildings Blown Down.",
+            "description": "STORM SWEEPS DELAWARE.; Two Persons Are Killed and Many Buildings Blown Down. Give this article.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/delaware/wilmington",
+            "display_link": "https://www.theweathernetwork.com \u203a wilmington",
+            "title": "3-Day Severe Weather Outlook: Wilmington, Delaware",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.fox29.com/news/tornado-kills-1-in-sussex-county-del-as-storm-carves-a-14-mile-path-of-destruction",
+            "display_link": "https://www.fox29.com \u203a news \u203a tornado-kills-1-in-susse...",
+            "title": "Tornado kills 1 in Sussex County as storm carves a 14-mile ...",
+            "description": "One man is dead after Saturday evening's severe storms take aim in southern Delaware. The National Weather Service says one tornado touched ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 112000000,
+        "search_time": 0.44,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Texas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:49.715Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Texas+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.2 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_o8g55xwedwq"
+    },
+    "organic": [
+        {
+            "link": "https://www.texastribune.org/series/winter-storm-power-outage/",
+            "display_link": "https://www.texastribune.org \u203a series \u203a winter-storm-p...",
+            "title": "Winter Storm 2021 - Texas power outage",
+            "description": "As Texas faced record-low temperatures in February 2021 and snow and ice made roads impassable, the state's electric grid operator lost control of the power ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2023/01/31/us/ice-storm-winter-weather-texas.html",
+            "display_link": "https://www.nytimes.com \u203a ice-storm-winter-weather-texas",
+            "title": "Power Outages Linger in Texas After Deadly Ice Storm",
+            "description": "The storm pushing across parts of the Southern Plains and Southeast disrupted travel and caused widespread power outages in Texas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cbsnews.com/news/texas-storms-heavy-rain-tornadoes-power-outages/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "More than 150000 without power after storm hits Texas ...",
+            "description": "Tornadoes touched down in Texas and Louisiana as a powerful storm system that dumped heavy snow in California moved eastward Thursday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.npr.org/2023/02/02/1153905244/texas-ice-storm-power-outage",
+            "display_link": "https://www.npr.org \u203a 2023/02/02 \u203a texas-ice-storm-pow...",
+            "title": "Texas ice storm leaves hundreds of thousands without power",
+            "description": "Texas ice storm causes statewide power outages About 262,000 people across the state are without power as of early Friday morning.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "link": "https://apnews.com/article/weather-disaster-planning-and-response-arkansas-climate-environment-texas-43eac24afe75fa5b0420959b0408b43d",
+            "display_link": "https://apnews.com \u203a article \u203a weather-disaster-plannin...",
+            "title": "Power Outages Linger in Texas After Deadly Ice Storm",
+            "description": "AUSTIN, Texas (AP) \u2014 Thousands of frustrated Texans shivered in homes without power for a second day Thursday, most of them around booming ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.weather.gov/hgx/2021ValentineStorm",
+            "display_link": "https://www.weather.gov \u203a hgx \u203a 2021ValentineStorm",
+            "title": "Valentine's Week Winter Outbreak 2021: Snow, Ice, & ...",
+            "description": "On Sunday, every square inch of Texas was in a Winter Storm Warning. Snow, sleet, and freezing rain began to encroach into Southeast Texas Sunday afternoon, and ...",
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://apnews.com/article/winter-storm-texas-updates-bfb243c2820836796d5dc5b339cf5756",
+            "display_link": "https://apnews.com \u203a article \u203a winter-storm-texas-upda...",
+            "title": "Winter storm updates: Flights canceled, deaths in Texas",
+            "description": "AUSTIN, Texas (AP) \u2014 Winter weather brought ice to a wide swath of the United States on Tuesday, canceling more than 1,700 flights ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.worldscientific.com/doi/10.1142/S2345737621500226",
+            "display_link": "https://www.worldscientific.com \u203a doi",
+            "title": "Winter Storm Uri: A Test of Texas' Water Infrastructure and ...",
+            "description": "We synthesize the interconnected impacts of Texas' water and energy resources and infrastructure including the cascading effects due to Winter Storm Uri.",
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.pbs.org/wgbh/nova/article/texas-winter-storm-uri/",
+            "display_link": "https://www.pbs.org \u203a wgbh \u203a nova \u203a article \u203a texas-w...",
+            "title": "Why Texas was not prepared for Winter Storm Uri | NOVA",
+            "description": "The February storm left dozens of Texans dead and millions without power\u2014and exposed an aging energy grid unprepared for a changing climate.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://abcnews.go.com/US/live-updates/texas-ice-storm/?id=96813963",
+            "display_link": "https://abcnews.go.com \u203a live-updates \u203a texas-ice-storm",
+            "title": "Texas ice storm updates: Over 350000 customers without power",
+            "description": "Texas ice storm updates: Over 350,000 customers without power. Millions of people are on alert for dangerously cold weather, ice and flooding.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Texas ice storm 2023 map",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ156WLkntSxHfC160zQggSgbB3BVwlFbGkHjBulR8m2Xp_XPv3uRlkpA&s=0",
+            "image_alt": "Image of Texas ice storm 2023 map",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ156WLkntSxHfC160zQggSgbB3BVwlFbGkHjBulR8m2Xp_XPv3uRlkpA&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+ice+storm+2023&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg9EAE",
+            "text": "texas ice storm 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+winter+storm+2022&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg8EAE",
+            "text": "texas winter storm 2022",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+freeze+2023&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg7EAE",
+            "text": "texas freeze 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+winter+storm+2021&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg6EAE",
+            "text": "texas winter storm 2021",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+power+outage+2023&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg5EAE",
+            "text": "texas power outage 2023",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+snow+storm+2021+power+outage&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg_EAE",
+            "text": "texas snow storm 2021 power outage",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Texas+power+outage+today&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQ1QJ6BAg-EAE",
+            "text": "texas power outage today",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "How long did the Texas freeze last?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+long+did+the+Texas+freeze+last%3F&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQzmd6BAgaEAY",
+            "answer_source": "The Great Texas Freeze: February 11-20, 2021 | News",
+            "answer_link": "https://www.ncei.noaa.gov/news/great-texas-freeze-february-2021#:~:text=On%20February%2011%2D20%2C%202021,the%20entire%20state%20of%20Texas.",
+            "answer_display_link": "https://www.ncei.noaa.gov \u203a news \u203a great-texas-freeze-fe...https://www.ncei.noaa.gov \u203a news \u203a great-texas-freeze-fe...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQu04oAHoECBoQBQ\"><div id=\"6JnBZJueM-KlptQPjrCEsAM__3\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">On February 11-20, 2021, a historical winter event occurred that set many records, including being the first billion-dollar weather disaster of that year. A deep freeze impacted parts of the continental United States (CONUS), remarkably engulfing the entire state of Texas.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 24, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "On February 11-20, 2021, a historical winter event occurred that set many records, including being the first billion-dollar weather disaster of that year. A deep freeze impacted parts of the continental United States (CONUS), remarkably engulfing the entire state of Texas.Feb 24, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 2
+        },
+        {
+            "question": "When was the Texas freeze 2023?",
+            "question_link": "https://www.google.com/search?hl=en&q=When+was+the+Texas+freeze+2023%3F&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQzmd6BAgcEAY",
+            "answer_source": "2023 South Central Texas Ice Storm - ArcGIS StoryMaps",
+            "answer_link": "https://storymaps.arcgis.com/stories/ce2d63e1e1c843c3a5ee2b6545bb1499#:~:text=A%20significant%20icing%20event%20unfolded,morning%20of%20February%202%2C%202023.",
+            "answer_display_link": "https://storymaps.arcgis.com \u203a storieshttps://storymaps.arcgis.com \u203a stories",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBwQBQ\" data-ved=\"2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQu04oAHoECBwQBQ\"><div id=\"6JnBZJueM-KlptQPjrCEsAM__6\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A significant icing event unfolded across portions of the NWS Austin-San Antonio area of responsibility between the late afternoon hours on <b>January 30 and mid-morning of February 2, 2023</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 19, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A significant icing event unfolded across portions of the NWS Austin-San Antonio area of responsibility between the late afternoon hours on January 30 and mid-morning of February 2, 2023.Feb 19, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "question": "What caused the Texas storm?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+caused+the+Texas+storm%3F&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQzmd6BAgXEAY",
+            "answer_source": "2021 Texas power crisis - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/2021_Texas_power_crisis#:~:text=This%20outbreak%20was%20due%20to,stream%20track%20as%20a%20result.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a 2021_Texas_power_crisishttps://en.wikipedia.org \u203a wiki \u203a 2021_Texas_power_crisis",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQu04oAHoECBcQBQ\"><div id=\"6JnBZJueM-KlptQPjrCEsAM__9\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">This outbreak was due to the <b>polar jet stream dipping particularly far south into the U.S.</b>, stretching from Washington to Texas, and running back north along the East Coast, allowing a polar vortex to bring very cold air across the country, and spawning multiple storms along the jet stream track as a result.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "This outbreak was due to the polar jet stream dipping particularly far south into the U.S., stretching from Washington to Texas, and running back north along the East Coast, allowing a polar vortex to bring very cold air across the country, and spawning multiple storms along the jet stream track as a result."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "question": "Is Texas having rolling blackouts?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Texas+having+rolling+blackouts%3F&sa=X&ved=2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQzmd6BAgYEAY",
+            "answer_source": "Texas Electric Power Grid Status 2023",
+            "answer_link": "https://quickelectricity.com/texas-electric-power-grid-status-2023/#:~:text=Does%20ERCOT%20Have%20a%20Rolling,have%20a%20rolling%20blackout%20schedule.&text=The%20grid%20is%20operating%20normally,of%20more%20than%203%2C000%20MW.",
+            "answer_display_link": "https://quickelectricity.com \u203a texas-electric-power-grid-st...https://quickelectricity.com \u203a texas-electric-power-grid-st...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwibsuT1sa2AAxXikokEHQ4YATYQu04oAHoECBgQBQ\"><div id=\"6JnBZJueM-KlptQPjrCEsAM__12\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Does ERCOT Have a Rolling Blackout Schedule? Power grids use rolling blackouts as an emergency measure when they can no longer meet electricity demand. Since these emergencies are unpredictable, <b>ERCOT does not have a rolling blackout schedule</b>. The grid is operating normally with a reserve margin of more than 3,000 MW.</span></span><span class=\"kX21rb ZYHQ7e\">May 18, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Does ERCOT Have a Rolling Blackout Schedule? Power grids use rolling blackouts as an emergency measure when they can no longer meet electricity demand. Since these emergencies are unpredictable, ERCOT does not have a rolling blackout schedule. The grid is operating normally with a reserve margin of more than 3,000 MW.May 18, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        }
+    ]
+}

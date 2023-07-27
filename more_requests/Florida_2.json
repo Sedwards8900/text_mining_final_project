@@ -1,0 +1,163 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 82800000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Florida storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:23:16.905Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Florida+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_t5yf0ciia7t"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnbc.com/2022/09/28/hurricane-ian-making-landfall-near-sanibel-captiva-islands-florida.html",
+            "display_link": "https://www.cnbc.com \u203a 2022/09/28 \u203a hurricane-ian-ma...",
+            "title": "Ian now tropical storm after hitting Florida as a category 4 ...",
+            "description": "The storm made landfall over the west coast of Florida as a category 4 storm on Wednesday afternoon, according to the National Hurricane ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.cnbc.com/2022/09/29/hurricane-ian-downgraded-to-tropical-storm-as-it-continues-to-batter-florida.html",
+                    "display_link": "https://www.cnbc.com \u203a 2022/09/29 \u203a hurricane-ian-do...",
+                    "title": "Florida confronts scenes of havoc as Hurricane Ian batters ...",
+                    "description": "Ian was a Category 4 storm with winds of 150 mph when it struck Florida's western coast Wednesday. Though weaker, it still posed a threat ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 29, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/hurricane/news/2022-09-30-hurricane-ian-forecast-landfall-south-north-carolina-virginia",
+            "display_link": "https://www.wunderground.com \u203a hurricane \u203a news",
+            "title": "Hurricane Ian Brought Devastation To Florida, Flooding To ...",
+            "description": "30. Article image. Ian's Landfalls. I\u200ban made its first landfall as a Category 3 in western Cuba on Sept. 27. Damage ...",
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cbsnews.com/live-updates/hurricane-ian-florida-forecast-path-landfall-2022-09-28/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Ian moves across Florida as a tropical storm after slamming ...",
+            "description": "Hurricane Ian swamped a Florida hospital from both above and below, the storm surge flooding its lower level emergency room while fierce winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-63499056",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-63499056",
+            "title": "Hurricane Nicole: Power outages as rare November storm ...",
+            "description": "More than 300,000 homes and businesses in Florida have been left without power as storm Nicole batters the US state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Ian",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Ian",
+            "title": "Hurricane Ian",
+            "description": "Ian at peak intensity while approaching southwest Florida on September 28. Meteorological history. Formed, September 23, 2022. Extratropical, September 30, 2022.",
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.sun-sentinel.com/news/weather/hurricanes/",
+            "display_link": "https://www.sun-sentinel.com \u203a weather \u203a hurricanes",
+            "title": "Florida Hurricane News",
+            "description": "The latest coverage of hurricane season including tropical storm news, current hurricane forecast tracks, path cones and models, hurricane threats to ...",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2022/11/09/nicole-storm-hurricane-florida-updates/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/11/09 \u203a nicol...",
+            "title": "Hurricane Nicole downgraded to tropical storm after ...",
+            "description": "Gift Article. Share. Nicole was downgraded to a tropical storm after making landfall as a Category 1 hurricane on the east coast of Florida ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6433414/",
+            "display_link": "https://www.ncbi.nlm.nih.gov \u203a articles \u203a PMC6433414",
+            "title": "Eyeing the storm: How residents of coastal Florida see ...",
+            "description": "This paper examines the societal dimensions of warning decisions during extreme weather events in one of the most hurricane-prone areas in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by A Bostrom",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2018",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 51",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.weather.gov/mfl/hurricaneirma",
+            "display_link": "https://www.weather.gov \u203a mfl \u203a hurricaneirma",
+            "title": "Hurricane Irma Local Report/Summary",
+            "description": "From about 5 days before landfall onward, the NHC forecast was consistent on a threat to South Florida. Residents and visitors swarmed grocery stores, gas ...",
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

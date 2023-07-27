@@ -1,0 +1,170 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39400000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Indiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:27:40.607Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Indiana+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_p9n380tz1bb"
+    },
+    "organic": [
+        {
+            "link": "https://www.wdrb.com/news/3-people-killed-during-damaging-severe-storms-in-indiana-friday-night/article_13a5e768-d0c8-11ed-b1f6-43a86ea8c6cf.html",
+            "display_link": "https://www.wdrb.com \u203a news \u203a article_13a5e768-d0c8-...",
+            "title": "3 people killed during damaging severe storms in Indiana ...",
+            "description": "3 people killed during damaging severe storms in Indiana Friday night ... Always Place a Toilet Paper Roll Under the Toilet Seat at Night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wfyi.org/news/articles/indiana-may-see-more-tornado-outbreaks-variability-in-the-future",
+            "display_link": "https://www.wfyi.org \u203a news \u203a articles \u203a indiana-may-...",
+            "title": "Indiana may see more tornado outbreaks, variability in the ...",
+            "description": "Article origination IPB News. Homes in Sullivan County damaged from the March 31 tornado outbreak. Indiana will likely see more tornado ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wlfi.com/news/insurance-claims-piling-up-after-storm-damage-in-indiana/article_97569464-15f5-11ee-8909-f31614516915.html",
+            "display_link": "https://www.wlfi.com \u203a news \u203a article_97569464-15f5-1...",
+            "title": "Insurance claims piling up after storm damage in Indiana",
+            "description": "Ind. - Several communities are still cleaning up from this week's severe weather here in Indiana. Those who suffered extensive damage are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wlky.com/article/video-tornado-indiana-johnson-county-bargersville/44346250",
+            "display_link": "https://www.wlky.com \u203a article \u203a video-tornado-indiana-...",
+            "title": "VIDEO: Tornado rips through buildings in small Indiana town",
+            "description": "A suspected tornado touches down in Bargersville, Indiana near Indianapolis, leaving dozens of buildings damaged.",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "1 month ago",
+                    "rank": 1
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "1:03",
+            "duration_sec": 63,
+            "date": "1 month ago",
+            "source": "WLKY",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.whas11.com/article/news/local/indiana/new-albany-severe-storms-weather-damage-ius/417-bdbd299e-cb66-4a47-b587-4a5ea2b0f0d1",
+            "display_link": "https://www.whas11.com \u203a news \u203a local \u203a indiana \u203a ne...",
+            "title": "Storm damage at Indiana University Southeast in New ...",
+            "description": "NEW ALBANY, Ind \u2014 The National Weather Service confirmed an EF-1 tornado with estimated peak winds of 105 mph caused the storm damage in New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://abc7chicago.com/tornado-watch-near-me-indiana-weather-radar-chicago/13425566/",
+            "display_link": "https://abc7chicago.com \u203a tornado-watch-near-me-ind...",
+            "title": "Strong storms move through parts of northwest Indiana ...",
+            "description": "A Tornado Watch and a Severe Thunderstorm Warning were issued for parts of NW Indiana as the Chicago weather forecast could include some ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-06-29-derecho-storms-iowa-illinois-indiana-power-outages",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Derecho Leaves Trail Of Damage Across Illinois, Iowa, ...",
+            "description": "Article image Large trees were downed in Centerville, Iowa, as storms and high winds moved through the region on Thursday, June 29, 2023.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.weather.gov/ind/blizzardof78",
+            "display_link": "https://www.weather.gov \u203a ind \u203a blizzardof78",
+            "title": "Blizzard of 1978 - Indianapolis, IN",
+            "description": "Beginning Wednesday January 25, 1978, Indiana was paralyzed by a snow storm that came to be known as the Blizzard of '78, the worst blizzard on record for ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcchicago.com/weather/tornado-watch-issued-for-most-of-indiana-sunday/3170308/",
+            "display_link": "https://www.nbcchicago.com \u203a weather \u203a tornado-wat...",
+            "title": "Tornado watch issued for most of Indiana Sunday",
+            "description": "As of now, no warnings have been issued, but stay tuned to the NBC 5 Storm Team for the latest information. This article tagged under: Chiacgo ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.fox10phoenix.com/weather/tornado-damage-seen-in-indiana-as-severe-storms-threaten-millions-from-ohio-valley-to-south-on-sunday",
+            "display_link": "https://www.fox10phoenix.com \u203a weather \u203a tornado-da...",
+            "title": "Tornadoes terrorize Indiana Sunday as severe storms ...",
+            "description": "article. Tornado spotted in Whiteland, Indiana, on Sunday afternoon. (Heather Holeman / FOX Weather). Tornadoes ripped across parts of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,320 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 543000000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New York storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:06.595Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+York+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_wc03ymhju0j"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2023/07/09/nyregion/flooding-west-point-orange-county.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/07/09 \u203a nyregion \u203a flo...",
+            "title": "At Least 1 Dead as Heavy Rains Set Off Flash Flooding in ...",
+            "description": "A slow-moving storm system brought heavy rain across a wide section of New York State on Sunday evening, flooding streets, prompting dozens ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2023/02/26/us/snow-storm-weather-ny-northeast.html",
+                    "display_link": "https://www.nytimes.com \u203a 2023/02/26 \u203a snow-storm-we...",
+                    "title": "Snow Is Falling in New York After a Winter Lull",
+                    "description": "Five to 10 inches of snow are expected Monday into Tuesday in mountain areas, including the southern Adirondacks in New York, southern Green ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Feb 28, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.npr.org/2023/03/13/1163249975/winter-storm-snow-new-england-new-york",
+            "display_link": "https://www.npr.org \u203a 2023/03/13 \u203a winter-storm-snow-...",
+            "title": "New England and upstate New York brace for a winter storm",
+            "description": "Parts of the Northeast were bracing for a powerful winter storm that could dump heavy, wet snow and unleash strong winds, making travel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcnewyork.com/weather/nasty-winter-storm-could-drop-a-foot-of-snow-in-parts-of-ny-what-to-know/4148647/",
+            "display_link": "https://www.nbcnewyork.com \u203a weather \u203a nasty-winte...",
+            "title": "Nasty Winter Storm Could Drop a Foot of Snow in Parts of NY",
+            "description": "NYC weather today is calm and sunny, a brief break before a significant storm blasts the tri-state. How much snow and rain will we get?",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nbcnewyork.com/weather/8-inches-of-snow-possible-for-some-while-nyc-gets-rainy-slushy-mess-what-to-expect/4144913/",
+                    "display_link": "https://www.nbcnewyork.com \u203a weather \u203a 8-inches-of...",
+                    "title": "8 Inches of Snow Possible for Some in NY",
+                    "description": "The high-end range for snow potential is up to 8 inches for the northernmost parts of NJ, as well as NY's Orange, Sullivan and Ulster ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 10, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://nypost.com/2023/02/21/new-york-area-spared-by-severe-winter-front/",
+            "display_link": "https://nypost.com \u203a 2023/02/21 \u203a new-york-area-spar...",
+            "title": "NY braces for cold snap as severe winter storm moves ...",
+            "description": "New York will face a cold snap Friday night into Saturday morning with gusty winds and temperatures in the 20s, Fox Weather meteorologist ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://nypost.com/2023/03/11/nyc-to-bear-the-brunt-of-worsening-storms-study/",
+                    "display_link": "https://nypost.com \u203a 2023/03/11 \u203a nyc-to-bear-the-br...",
+                    "title": "NYC to bear the brunt of worsening storms, study finds",
+                    "description": "A severe 2053 hurricane would inundate Manhattan's historic South Street Seaport with a 5-foot-high storm surge and buffet it with 86-mph winds, ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 11, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 7,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2022/dec/27/new-york-snowstorm-death-toll-us-winter-storm-buffalo",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a dec \u203a new-y...",
+            "title": "New York winter storm death toll at 34 with more snow on ...",
+            "description": "Drone footage shows city in New York state buried in snow \u2013 video. US weather. This article is more than 6 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 8
+        },
+        {
+            "link": "https://abc7ny.com/weather-accuweather-forecast-lee-goldberg/3835223/",
+            "display_link": "https://abc7ny.com \u203a weather-accuweather-forecast-lee...",
+            "title": "Severe storms cause damage across New York area",
+            "description": "NEW YORK (WABC) -- Severe thunderstorms and flash flooding caused damage throughout the New York Area on Friday afternoon into Friday evening.",
+            "rank": 6,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.bloomberg.com/news/articles/2023-07-09/slow-moving-storm-puts-nyc-east-coast-under-threat-of-flooding",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a slow-...",
+            "title": "Slow-Moving Storm Puts NYC, East Coast Under Flood ...",
+            "description": "The New York City Emergency Management Department urged New Yorkers to prepare for heavy rain through Sunday night that could flood basement ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=New+York+storm+warning+today&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgzEAE",
+            "text": "new york storm warning today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=New+York+snow+storm+2023&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgyEAE",
+            "text": "new york snow storm 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=New+York+weather&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgxEAE",
+            "text": "new york weather",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+in+New+York+today&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgwEAE",
+            "text": "storm in new york today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+New+York&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAguEAE",
+            "text": "snow storm new york",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Did+it+snow+in+New+York+yesterday&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgvEAE",
+            "text": "did it snow in new york yesterday",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+NYC+today&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgsEAE",
+            "text": "snow storm nyc today",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+Long+Island&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ1QJ6BAgtEAE",
+            "text": "snow long island",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Can a hurricane hit New York?",
+            "question_link": "https://www.google.com/search?hl=en&q=Can+a+hurricane+hit+New+York%3F&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQzmd6BAhDEAY",
+            "answer_source": "9 Hurricanes Could Hit New York City This Season: Experts - Patch",
+            "answer_link": "https://patch.com/new-york/new-york-city/nyc-faces-4-major-hurricanes-near-normal-season-experts",
+            "answer_display_link": "https://patch.com \u203a new-york \u203a new-york-city \u203a nyc-face...https://patch.com \u203a new-york \u203a new-york-city \u203a nyc-face...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEMQBQ\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQu04oAHoECEMQBQ\"><div id=\"vJnBZIO9HNiIptQPmvSfiAk__62\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Find out what's happening in New York Citywith free, real-time updates from Patch. <b>The city has been hit, directly or indirectly, by several tropical storms and hurricanes in recent years.</b></span></span><span class=\"kX21rb ZYHQ7e\">Jun 1, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Find out what's happening in New York Citywith free, real-time updates from Patch. The city has been hit, directly or indirectly, by several tropical storms and hurricanes in recent years.Jun 1, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "question": "What was the worst storm in New York?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+was+the+worst+storm+in+New+York%3F&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQzmd6BAhHEAY",
+            "answer_source": "List of New York hurricanes - Simple Wikipedia",
+            "answer_link": "https://simple.wikipedia.org/wiki/List_of_New_York_hurricanes",
+            "answer_display_link": "https://simple.wikipedia.org \u203a wiki \u203a List_of_New_York...https://simple.wikipedia.org \u203a wiki \u203a List_of_New_York...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEcQBQ\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQu04oAHoECEcQBQ\"><div id=\"vJnBZIO9HNiIptQPmvSfiAk__65\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEYQAA\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQtwcoAHoECEYQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"1938 New England hurricane\"><div class=\"IZ6rdc\">1938 New England hurricane</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"vJnBZIO9HNiIptQPmvSfiAk__66\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEkQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">The strongest storm of all to hit the state was the <b>1938 New England hurricane</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "1938 New England hurricane",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The strongest storm of all to hit the state was the 1938 New England hurricane."
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "question": "Will NYC get the storm?",
+            "question_link": "https://www.google.com/search?hl=en&q=Will+NYC+get+the+storm%3F&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQzmd6BAhEEAY",
+            "answer_source": "NYC Severe Weather - NYC.gov",
+            "answer_link": "https://www.nyc.gov/site/severeweather/index.page",
+            "answer_display_link": "https://www.nyc.gov \u203a site \u203a severeweatherhttps://www.nyc.gov \u203a site \u203a severeweather",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEQQBQ\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQu04oAHoECEQQBQ\"><div id=\"vJnBZIO9HNiIptQPmvSfiAk__69\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CEoQAA\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQ4dMGegQIShAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CEoQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CEIQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;Ac0x3E\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQyQ0oAHoECEIQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;bwntt0p4C4DCRM;Ac0x3A\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"bwntt0p4C4DCRM\" data-lpage=\"https://www.nyc.gov/site/severeweather/index.page\" data-ni=\"1\" data-ref-docid=\"59uYLyI592OrrM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CD4QAA\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQzkx6BAg-EAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-3px;width:207px\" alt=\"NYC Severe Weather\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6j2j5Vi_2wgotSRrcN03ee8x-ySC111sSBCRnG72hHg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"vJnBZIO9HNiIptQPmvSfiAk__72\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>No severe weather is expected in NYC at this time</b>. Get forecast updates from the National Weather Service. Sign up for Notify NYC to receive free emergency alerts and updates.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "No severe weather is expected in NYC at this time. Get forecast updates from the National Weather Service. Sign up for Notify NYC to receive free emergency alerts and updates."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "question": "What is the meaning of Nor Easter?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+is+the+meaning+of+Nor+Easter%3F&sa=X&ved=2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQzmd6BAhBEAY",
+            "answer_source": "What is a Nor'easter? - National Weather Service",
+            "answer_link": "https://www.weather.gov/safety/winter-noreaster",
+            "answer_display_link": "https://www.weather.gov \u203a safety \u203a winter-noreasterhttps://www.weather.gov \u203a safety \u203a winter-noreaster",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEEQBQ\" data-ved=\"2ahUKEwiDi9Dgsa2AAxVYhIkEHRr6B5EQu04oAHoECEEQBQ\"><div id=\"vJnBZIO9HNiIptQPmvSfiAk__75\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A Nor'easter is <b>a storm along the East Coast of North America</b>, so called because the winds over the coastal area are typically from the northeast. These storms may occur at any time of year but are most frequent and most violent between September and April.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A Nor'easter is a storm along the East Coast of North America, so called because the winds over the coastal area are typically from the northeast. These storms may occur at any time of year but are most frequent and most violent between September and April."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 13
+        }
+    ]
+}

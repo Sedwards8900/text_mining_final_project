@@ -1,0 +1,177 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 25400000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Louisiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:41.328Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Louisiana+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_7bxw21bj0k7"
+    },
+    "organic": [
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Katrina",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Katrina",
+            "title": "Hurricane Katrina",
+            "description": "Due to uncertain causes of death with 454 evacuees, an upper-bound of 1,440 is noted in the paper. A follow-up study by the Louisiana Department of Health & ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cbsnews.com/news/huge-storm-system-killer-tornadoes-south-blizzard-like-conditions-great-plains/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Huge storm system brings killer tornadoes to South ...",
+            "description": "A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, spinning up tornadoes that battered the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cnn.com/2022/12/14/us/nationwide-massive-storm-tornadoes-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/14 \u203a nationwide-massiv...",
+            "title": "At least 3 dead and multiple injured as tornadoes wreak ...",
+            "description": "At least three people have died and more than a dozen were left injured across Louisiana over the past 24 hours as severe weather moves ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/fenvs.2019.00068/full",
+            "display_link": "https://www.frontiersin.org \u203a fenvs.2019.00068 \u203a full",
+            "title": "Impact of Hurricane Katrina on the Coastal Systems ...",
+            "description": "This paper discusses community resilience to natural hazards and ... human and natural systems in Louisiana responded to Hurricane Katrina, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by WC Chuang",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2019",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 13",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornado-touches-louisiana-storm-watches-issued-south/story?id=96987452",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Tornado touches down in Louisiana, storm watches issued ...",
+            "description": "A tornado was spotted just outside of Tangipahoa, Louisiana, Wednesday evening, according to the National Weather Service New Orleans.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.weather.gov/mob/katrina",
+            "display_link": "https://www.weather.gov \u203a mob \u203a katrina",
+            "title": "Hurricane Katrina - August 2005",
+            "description": "Katrina weakened to a Category 3 before making landfall along the northern Gulf Coast, first in southeast Louisiana (sustained winds: 125mph) and then made ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.usnews.com/news/us/articles/2022-12-14/winter-us-storm-brings-warnings-of-more-tornadoes-blizzards",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Louisiana News",
+            "title": "3 Dead in Louisiana as US Storm Spawns Southern ...",
+            "description": "KEITHVILLE, La. (AP) \u2014 A vast and volatile storm system ripping across the U.S. killed at least three people in Louisiana, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2021/08/29/how-climate-change-helped-make-hurricane-ida-one-louisianas-worst/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/08/29 \u203a how...",
+            "title": "How climate change helped make Hurricane Ida one of ...",
+            "description": "Hurricane Ida slams into Louisiana with damaging winds ... In a 2017 paper published in the Bulletin of the American Meteorological Society, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://nypost.com/2022/03/22/louisiana-mississippi-alabama-warned-as-storm-approaches/",
+            "display_link": "https://nypost.com \u203a 2022/03/22 \u203a louisiana-mississipp...",
+            "title": "Louisiana, Mississippi, Alabama warned as storm ...",
+            "description": "Debris litters the ground surrounding homes, damaged by a tornado in Round Rock, Texas. The same storm may cause severe weather in Louisiana ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://whyy.org/articles/us-storm-southern-tornadoes-3-dead-in-louisiana/",
+            "display_link": "https://whyy.org \u203a articles \u203a us-storm-southern-tornad...",
+            "title": "3 dead in Louisiana as US storm spawns Southern tornadoes",
+            "description": "Authorities say three people are dead in Louisiana and several others have been hurt as a destructive storm system has kicked up tornadoes ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

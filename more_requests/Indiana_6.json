@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39400000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Indiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:28:00.020Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Indiana+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_jmjth7bbdug"
+    },
+    "organic": [
+        {
+            "link": "https://www.whas11.com/article/news/local/indiana/new-albany-severe-storms-weather-damage-ius/417-bdbd299e-cb66-4a47-b587-4a5ea2b0f0d1",
+            "display_link": "https://www.whas11.com \u203a news \u203a local \u203a indiana \u203a ne...",
+            "title": "Storm damage at Indiana University Southeast in New ...",
+            "description": "NEW ALBANY, Ind \u2014 The National Weather Service confirmed an EF-1 tornado with estimated peak winds of 105 mph caused the storm damage in New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://abc7chicago.com/tornado-watch-near-me-indiana-weather-radar-chicago/13425566/",
+            "display_link": "https://abc7chicago.com \u203a tornado-watch-near-me-ind...",
+            "title": "Strong storms move through parts of northwest Indiana ...",
+            "description": "A Tornado Watch and a Severe Thunderstorm Warning were issued for parts of NW Indiana as the Chicago weather forecast could include some ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-06-29-derecho-storms-iowa-illinois-indiana-power-outages",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Derecho Leaves Trail Of Damage Across Illinois, Iowa, ...",
+            "description": "Article image Large trees were downed in Centerville, Iowa, as storms and high winds moved through the region on Thursday, June 29, 2023.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.weather.gov/ind/blizzardof78",
+            "display_link": "https://www.weather.gov \u203a ind \u203a blizzardof78",
+            "title": "Blizzard of 1978 - Indianapolis, IN",
+            "description": "Beginning Wednesday January 25, 1978, Indiana was paralyzed by a snow storm that came to be known as the Blizzard of '78, the worst blizzard on record for ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcchicago.com/weather/tornado-watch-issued-for-most-of-indiana-sunday/3170308/",
+            "display_link": "https://www.nbcchicago.com \u203a weather \u203a tornado-wat...",
+            "title": "Tornado watch issued for most of Indiana Sunday",
+            "description": "As of now, no warnings have been issued, but stay tuned to the NBC 5 Storm Team for the latest information. This article tagged under: Chiacgo ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.fox10phoenix.com/weather/tornado-damage-seen-in-indiana-as-severe-storms-threaten-millions-from-ohio-valley-to-south-on-sunday",
+            "display_link": "https://www.fox10phoenix.com \u203a weather \u203a tornado-da...",
+            "title": "Tornadoes terrorize Indiana Sunday as severe storms ...",
+            "description": "article. Tornado spotted in Whiteland, Indiana, on Sunday afternoon. (Heather Holeman / FOX Weather). Tornadoes ripped across parts of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://bloomingtonian.com/2023/06/29/thunderstorm-produces-ominous-clouds-wind-and-damage-in-bloomington-indiana-area/",
+            "display_link": "https://bloomingtonian.com \u203a 2023 \u203a June \u203a 29",
+            "title": "Thunderstorm produces ominous clouds, wind and ...",
+            "description": "BLOOMINGTON, INDIANA, UNITED STATES \u2013 2023/05/29: A storm produces ominous clouds on Thursday, June 29, 2023 in Bloomington, Indiana.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://nypost.com/2023/06/26/tornadoes-terrorize-indiana-sunday-as-severe-storms-knock-out-power-to-over-700k-from-ohio-valley-to-south/",
+            "display_link": "https://nypost.com \u203a 2023/06/26 \u203a tornadoes-terrorize...",
+            "title": "Tornadoes terrorize Indiana Sunday as severe storms ...",
+            "description": "Where are the storms now? Advertisement. A Tornado Watch has been issued for parts of Indiana, Michigan, Kentucky ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.idsnews.com/article/2023/07/indiana-76000-without-power-severe-storms-thursday-duke-energy",
+            "display_link": "https://www.idsnews.com \u203a article \u203a 2023/07 \u203a indiana...",
+            "title": "76000 without power following severe storms Thursday",
+            "description": "First responders set up restoration efforts in the \ufeffIU Memorial Stadium parking lot June 30, 2023. More than 76,000 people in Indiana are still ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.ctinsider.com/news/article/indiana-tornado-kills-one-as-severe-weather-18170536.php",
+            "display_link": "https://www.ctinsider.com \u203a News",
+            "title": "Tornado and other severe weather kill 3, damage homes ...",
+            "description": "SHOALS, Ind. (AP) \u2014 A tornado struck an Indiana home, killing a man and injuring his wife, while two people died in Arkansas after a tree ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

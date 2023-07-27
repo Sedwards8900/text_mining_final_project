@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.3",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(e=>{if(e.hasAttribute("src")){let r=new URL(e.src).origin;r!==location.origin&&t.push({src:r,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(this),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){return new Promise((await this._littleBreath(),navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:async e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");t.text,i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(t){let e={};function r(t,r){!function t(r){!e[r]&&(e[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),e[r].originalFunctions.remove.apply(r,arguments)});function i(t){return e[r].eventsToRewrite.indexOf(t)>=0?"rocket-"+t:t}}(t),e[t].eventsToRewrite.push(r)}function i(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}r(document,"DOMContentLoaded"),r(window,"DOMContentLoaded"),r(window,"load"),r(window,"pageshow"),r(document,"readystatechange"),i(document,"onreadystatechange"),i(window,"onload"),i(window,"onpageshow")}_delayJQueryReady(t){let e;function r(r){if(r&&r.fn&&!t.allJQueries.includes(r)){r.fn.ready=r.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(r):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(r)),r([])};let i=r.fn.on;r.fn.on=r.fn.init.prototype.on=function(){if(this[0]===window){function t(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=t(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(e=>{let r=arguments[0][e];delete arguments[0][e],arguments[0][t(e)]=r})}return i.apply(this,arguments),this},t.allJQueries.push(r)}e=r}r(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){r(t)}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://insideclimatenews.org/xmlrpc.php">
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=UA-2208526-3"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-2208526-3');
+</script>
+
+	
+	<!-- This site is optimized with the Yoast SEO plugin v20.12 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Five Years After Hurricane Irene, Vermont Still Striving for Resilience - Inside Climate News</title><link rel="preload" as="font" href="https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/doyle/Doyle-Regular.woff2" crossorigin><link rel="preload" as="font" href="https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Regular.woff2" crossorigin><link rel="preload" as="font" href="https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Medium.woff2" crossorigin><link rel="preload" as="font" href="https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Semibold.woff2" crossorigin><link rel="preload" as="font" href="https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/tiempos/tiempos-text-web-regular.woff2" crossorigin><style id="wpr-usedcss">img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-.1em!important;background:0 0!important;padding:0!important}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}:where(.wp-block-calendar table:not(.has-background) th){background:#ddd}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}:where(.wp-block-post-comments input[type=submit]){border:none}:where(.wp-block-file__button){border-radius:2em;padding:.5em 1em}:where(.wp-block-file__button):is(a):active,:where(.wp-block-file__button):is(a):focus,:where(.wp-block-file__button):is(a):hover,:where(.wp-block-file__button):is(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}ul{box-sizing:border-box}:where(.wp-block-navigation.has-background .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation.has-background .wp-block-navigation-submenu a:not(.wp-element-button)){padding:.5em 1em}:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content){padding:.5em 1em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}:where(.wp-block-search__button){border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 0 0 .25em}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:.125em .5em}:where(pre.wp-block-verse){font-family:inherit}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.screen-reader-text{clip:rect(1px,1px,1px,1px);word-wrap:normal!important;border:0;-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{clip:auto!important;background-color:#ddd;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}figure{margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}body{--wp--preset--color--black:#000000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#ffffff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6, 147, 227, 1) 0%,rgb(155, 81, 224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122, 220, 180) 0%,rgb(0, 208, 130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252, 185, 0, 1) 0%,rgba(255, 105, 0, 1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255, 105, 0, 1) 0%,rgb(207, 46, 46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238, 238, 238) 0%,rgb(169, 184, 195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74, 234, 220) 0%,rgb(151, 120, 209) 20%,rgb(207, 42, 186) 40%,rgb(238, 44, 130) 60%,rgb(251, 105, 98) 80%,rgb(254, 248, 76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255, 206, 236) 0%,rgb(152, 150, 240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254, 205, 165) 0%,rgb(254, 45, 45) 50%,rgb(107, 0, 62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255, 203, 112) 0%,rgb(199, 81, 192) 50%,rgb(65, 88, 208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255, 245, 203) 0%,rgb(182, 227, 212) 50%,rgb(51, 167, 181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202, 248, 128) 0%,rgb(113, 206, 126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2, 3, 129) 0%,rgb(40, 116, 252) 100%);--wp--preset--duotone--dark-grayscale:url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale:url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow:url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red:url('#wp-duotone-blue-red');--wp--preset--duotone--midnight:url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow:url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green:url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange:url('#wp-duotone-blue-orange');--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, .2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, .4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, .2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1),6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:.5em}:where(.wp-block-columns.is-layout-flex){gap:2em}@font-face{font-display:swap;font-family:Doyle;font-weight:400;src:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/doyle/Doyle-Regular.woff2) format("woff2"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/doyle/Doyle-Regular.woff) format("woff"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/doyle/Doyle-Regular.eot) format("embedded-opentype")}@font-face{font-display:swap;font-family:Garnett;font-weight:400;src:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Regular.woff2) format("woff2"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Regular.woff) format("woff"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Regular.eot) format("embedded-opentype")}@font-face{font-display:swap;font-family:Garnett;font-weight:500;src:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Medium.woff2) format("woff2"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Medium.woff) format("woff"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Medium.eot) format("embedded-opentype")}@font-face{font-display:swap;font-family:Garnett;font-weight:700;src:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Semibold.woff2) format("woff2"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Semibold.woff) format("woff"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/garnett/Garnett-Semibold.eot) format("embedded-opentype")}@font-face{font-display:swap;font-family:Tiempos;font-weight:400;font-style:normal;src:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/tiempos/tiempos-text-web-regular.woff2) format("woff2"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/tiempos/tiempos-text-web-regular.woff) format("woff"),url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/fonts/tiempos/tiempos-text-web-regular.eot) format("embedded-opentype")}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,nav,section,summary{display:block}canvas{display:inline-block;vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}strong{font-weight:700}h1{font-size:2em;margin:.67em 0}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}button,input{color:inherit;font:inherit;margin:0}button{overflow:visible}button{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}body,button,input{color:#000;font-family:Garnett,sans-serif;font-size:1rem;line-height:1.5}h1,h2,h3,h4{clear:both}h2{margin:48px 0 24px;font-family:Tiempos,serif;font-weight:400;font-size:1.75rem;line-height:1.28}h3{margin-bottom:24px;font-family:Tiempos,serif;font-weight:400;font-size:1.5rem;line-height:1.33}@media (max-width:1200px){h2{font-size:1.5rem;line-height:1.333}h3{font-size:1.25rem;line-height:1.4}}h4{font-size:1.125rem;line-height:1.33}h4{margin-bottom:24px;font-family:Tiempos,serif;font-weight:400}p{margin-bottom:1.5em}em{font-style:italic}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{background:#f7f7f7;-webkit-font-feature-settings:"ss01";font-feature-settings:"ss01"}hr{background-color:#ccc;border:0;height:1px;margin-bottom:1.5em}ul{margin:0 0 1.5em}ul{list-style:disc}li>ul{margin-bottom:0;margin-left:1.5em}img{height:auto;max-width:100%}.button,button,input[type=button],input[type=submit]{display:inline-block;padding:12px 16px;background-color:#000;color:#fff;border-radius:4px;font-size:1rem;line-height:1.5;font-weight:500;font-family:Garnett,sans-serif;text-align:center;border:none;box-shadow:none;transition:background .15s ease;-webkit-appearance:none;-moz-appearance:none;appearance:none}.button:active,.button:focus,.button:hover,button:active,button:focus,button:hover,input[type=button]:active,input[type=button]:focus,input[type=button]:hover,input[type=submit]:active,input[type=submit]:focus,input[type=submit]:hover{background-color:#06a950;color:#fff}.button .icon *,button .icon *,input[type=button] .icon *,input[type=submit] .icon *{fill:currentColor}.button.button-red,button.button-red,input[type=button].button-red,input[type=submit].button-red{background-color:#df3e34}.button.button-red:hover,button.button-red:hover,input[type=button].button-red:hover,input[type=submit].button-red:hover{background-color:#000}.button.button-transparent,button.button-transparent,input[type=button].button-transparent,input[type=submit].button-transparent{padding:0;background-color:transparent;color:#000}.button.button-icon-circle,button.button-icon-circle,input[type=button].button-icon-circle,input[type=submit].button-icon-circle{display:flex;justify-content:center;align-items:center;width:46px;height:46px;padding:0;border-radius:50%}input[type=date],input[type=email],input[type=number],input[type=range],input[type=search],input[type=text],input[type=url],input[type=week]{width:16em;max-width:100%;padding:12px 16px;background-color:#fff;color:#000;font-family:Garnett,sans-serif;font-size:1rem;line-height:1.5;border:1px solid #ccc;border-radius:4px;outline:0;box-sizing:border-box;-webkit-appearance:none}input[type=date]:focus,input[type=email]:focus,input[type=number]:focus,input[type=range]:focus,input[type=search]:focus,input[type=text]:focus,input[type=url]:focus,input[type=week]:focus{border-color:#000}.icn-checkbox-holder input[type=checkbox]{display:none}.icn-checkbox{display:inline-block;width:1.5rem;height:1.5rem;border:1px solid #666;border-radius:4px}input[type=checkbox]:checked~label .icn-checkbox{background-color:#000;border-color:#000;background-image:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/icons/check-white.svg);background-repeat:no-repeat;background-position:50%;background-size:100%}a{color:#058740;text-decoration:none}a:active,a:focus,a:hover{color:#024420}ul.menu{list-style:none;margin:0;padding:0}ul.menu li{display:inline-block;margin:0 16px 0 0;padding:0}ul.menu a{color:inherit}.slide-menu{display:none;position:fixed;right:0;top:0;bottom:0;padding:24px 128px 24px 24px;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,.1);overflow:scroll;z-index:1000}.slide-menu.is-open{display:block}.slide-menu .widget{border-top:1px solid #666;padding-top:12px;margin-bottom:48px}.slide-menu .widget-title{margin:0 0 12px;padding:0;color:#666;font-family:Garnett,sans-serif;font-size:1rem;line-height:2}.slide-menu .menu{list-style:none;margin:0;padding:0;line-height:2}.slide-menu .menu li{display:block}.slide-menu .button-close-slide-menu{position:fixed;right:24px;top:24px}.slide-menu .search-form{display:flex}.slide-menu .search-form label{flex:1;margin-right:12px}.slide-menu .search-field{width:100%}.slide-menu section:nth-of-type(2){color:#06a950;font-weight:700}.slide-menu section:nth-of-type(3){font-weight:700}@media (max-width:720px){.slide-menu{width:100%}.slide-menu .button-close-slide-menu{right:8px;top:8px}}@media (max-width:500px){.slide-menu{padding-right:32px}}.screen-reader-text{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.screen-reader-text:focus{background-color:#fff;border-radius:3px;box-shadow:0 0 2px 2px rgba(0,0,0,.6);clip:auto!important;color:#000;display:block;font-size:.875rem;font-weight:700;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}#content[tabindex="-1"]:focus{outline:0}.entry-content>.alignwide{grid-column:4/span 9}@media (max-width:970px){.entry-content>.alignwide{grid-column:2/span 11}}.clear:after,.clear:before,.entry-content:after,.entry-content:before,.site-content:after,.site-content:before,.site-footer:after,.site-footer:before,.site-header:after,.site-header:before{clear:both;content:"";display:table;table-layout:fixed}.tns-outer{padding:0!important}.tns-outer [hidden]{display:none!important}.tns-outer [aria-controls],.tns-outer [data-action]{cursor:pointer}.tns-slider{transition:all 0s}.tns-slider>.tns-item{box-sizing:border-box}.tns-horizontal.tns-subpixel{white-space:nowrap}.tns-horizontal.tns-subpixel>.tns-item{display:inline-block;vertical-align:top;white-space:normal}.tns-horizontal.tns-no-subpixel:after{content:"";display:table;clear:both}.tns-horizontal.tns-no-subpixel>.tns-item{float:left}.tns-horizontal.tns-carousel.tns-no-subpixel>.tns-item{margin-right:-100%}.tns-gallery,.tns-no-calc{position:relative;left:0}.tns-gallery{min-height:1px}.tns-gallery>.tns-item{position:absolute;left:-100%;transition:opacity 0s,-webkit-transform 0s;transition:transform 0s,opacity 0s;transition:transform 0s,opacity 0s,-webkit-transform 0s}.tns-gallery>.tns-slide-active{position:relative;left:auto!important}.tns-gallery>.tns-moving{transition:all .25s}.tns-autowidth{display:inline-block}.tns-lazy-img{transition:opacity .6s;opacity:.6}.tns-lazy-img.tns-complete{opacity:1}.tns-ah{transition:height 0s}.tns-ovh{overflow:hidden}.tns-visually-hidden{position:absolute;left:-10000em}.tns-transparent{opacity:0;visibility:hidden}.tns-fadeIn{opacity:1;z-index:0}.tns-fadeOut,.tns-normal{opacity:0;z-index:-1}.tns-vpfix{white-space:nowrap}.tns-vpfix>div,.tns-vpfix>li{display:inline-block}.tns-t-subp2{margin:0 auto;width:310px;position:relative;height:10px;overflow:hidden}.tns-t-ct{width:2333.3333333%;width:2333.33333%;width:2333.3333333333%;position:absolute;right:0}.tns-t-ct:after{content:"";display:table;clear:both}.tns-t-ct>div{width:1.4285714%;width:1.42857%;width:1.4285714286%;height:10px;float:left}.icn-slideshow{position:relative;margin-bottom:32px}.icn-slideshow figure{display:block;margin:0;padding:0}.icn-slideshow figure img{display:block;width:100%}.icn-slideshow.is-style-slider{background-color:#000}.icn-slideshow.is-style-slider .open-button{display:none}.icn-slideshow.is-style-slider figcaption{padding:16px 24px;color:#fff}.icn-slideshow.is-style-slider .slide-count{padding:0 32px;color:#fff;font-family:Garnett,sans-serif;font-size:.875rem;font-weight:500}.icn-slideshow.is-style-slider .slider-controls{list-style:none;display:flex;justify-content:flex-end;margin:0 -15px;padding:0}.icn-slideshow.is-style-slider .slider-controls li{margin:0 15px;padding:0}.site-container{max-width:1488px;margin:0 auto;padding:24px}.site-container:after,.site-container:before{clear:both;content:"";display:table;table-layout:fixed}@media (max-width:720px){.entry-content>.alignwide{grid-column:1/span 12}.site-container{padding-top:0}}.site-header{margin-bottom:24px}.site-header .menus-holder,.site-header .site-branding{display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:24px;border-top:1px solid #666;padding-top:12px;padding-bottom:32px}.site-header .primary-menu{grid-column:1/span 6;font-weight:500;color:#06a950}.site-header .secondary-menu{grid-column:7/span 5;font-weight:500}.site-header .buttons-holder{grid-column:12/span 1;display:flex;justify-content:flex-end}.site-header .button-open-slide-menu,.site-header .button-open-slide-menu .icon{display:block}.site-header .site-logo-holder{grid-column:1/span 6}.site-header .site-logo img{display:block;width:100%;max-width:480px}.site-header .site-tagline{grid-column:7/span 4;font-family:Doyle,serif}.site-header .donate-holder{grid-column:11/span 2;text-align:right}.site-header .donate-holder .button{padding:6px 16px}@media (max-width:1200px){.site-header .primary-menu{grid-column:1/span 10}.site-header .secondary-menu{display:none}}@media (max-width:970px){.site-header .site-tagline{display:none}.site-header .site-logo-holder{grid-column:1/span 10}}@media (max-width:720px){.site-header{position:-webkit-sticky;position:sticky;top:0;width:100vw;margin-left:calc(-50vw - -50%);margin-bottom:-1px;padding:0 24px;background-color:#fff;border-bottom:1px solid #666;z-index:500}.site-header .primary-menu{display:none}.site-header .menus-holder{padding:0;border:none}.site-header .button-open-slide-menu{position:absolute;right:24px;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.site-header .site-branding{display:flex;align-items:center;border-top:none;padding-bottom:12px;padding-right:36px}.site-header .site-logo-holder{flex:1}.site-header .site-logo img{max-width:300px}.site-header .donate-holder .button{padding:3px 12px;font-size:.875rem}.site-content{margin-top:-1px}}.site-footer{border-top:1px solid #666;display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:24px;padding-top:12px;padding-bottom:32px}.site-footer .site-branding{grid-column:1/span 6;display:flex;flex-direction:column;justify-content:space-between}.site-footer .social-menu li{margin-right:24px}.site-footer .footer-primary-menu,.site-footer .footer-secondary-menu{font-family:Garnett,sans-serif;grid-column:span 3}.site-footer .footer-primary-menu li,.site-footer .footer-secondary-menu li{display:block}.site-footer .footer-primary-menu{font-weight:500}@media (max-width:720px){.site-footer{grid-row-gap:48px}.site-footer .site-branding{grid-column:1/span 12}.site-footer .site-logo{display:inline-block;margin-bottom:48px}.site-footer .footer-primary-menu,.site-footer .footer-secondary-menu{grid-column:span 6}}.donate-cta{display:grid;grid-template-columns:repeat(12,1fr);margin-bottom:32px;grid-column-gap:24px}.donate-cta .content{border-top:1px solid #666;padding-top:12px;grid-column:1/span 3}.donate-cta .content *{margin:0 0 16px}.donate-cta .image{grid-column:4/span 9;padding-top:35%;background-image:url(https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/donate-bg.jpg);background-repeat:none;background-size:cover;background-position:50%}.donate-cta .section-title{margin:0 0 16px;font-size:1.75rem;line-height:1.28;font-family:Garnett,sans-serif;font-weight:700}@media (max-width:1200px){.donate-cta .section-title{font-size:1.5rem;line-height:1.333}}@media (max-width:970px){.donate-cta .content{grid-column:1/span 4}.donate-cta .image{grid-column:5/span 8}}@media (max-width:720px){.donate-cta .content{grid-column:1/span 12}.donate-cta .image{display:none}}.icn-sticky-footer{position:fixed;left:0;bottom:0;width:100%;z-index:99999}.icn-cookie-notice{display:none;gap:12px;align-items:center;width:100%;padding:12px 24px;background-color:#000;color:#fff}.icn-cookie-notice.show{display:flex}.icn-cookie-notice a{color:#fff}.icn-cookie-notice .content{flex-grow:1;font-weight:400}.hentry{margin:0 0 1.5em}.single .byline{display:inline}.entry-content{margin:1.5em 0 0}.posts-list,body.page .posts-list{display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:24px;grid-row-gap:32px}.posts-list .hentry,body.page .posts-list .hentry{grid-column:span 4}.posts-list a,body.page .posts-list a{display:block;color:#000;transition:color .15s ease}.posts-list a:hover,body.page .posts-list a:hover{color:#06a950}.posts-list .wp-post-image,body.page .posts-list .wp-post-image{display:block;width:100%;margin:0 0 12px}.posts-list .entry-title,body.page .posts-list .entry-title{font-size:1.125rem;line-height:1.33;margin:0 0 12px;font-family:Doyle,serif}.posts-list .entry-subtitle,body.page .posts-list .entry-subtitle{margin:0 0 16px;font-family:Garnett,sans-serif;font-size:1rem;line-height:1.5}.posts-list .post-author,body.page .posts-list .post-author{margin:0;padding:0;font-family:Garnett,sans-serif;font-size:1rem}.entry-content{display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:24px;font-family:Tiempos,serif;font-size:1.25rem;line-height:1.4;margin-bottom:64px}.entry-content>*{grid-column:4/span 6;word-break:break-word;z-index:1}@media (max-width:1200px){.entry-content>*{grid-column:4/span 8}}@media (max-width:970px){.posts-list .hentry,body.page .posts-list .hentry{grid-column:span 12}.entry-content>*{grid-column:2/span 10}}.entry-content>p{margin-top:0;margin-bottom:.75rem}@media (max-width:500px){.entry-content{font-size:1.125rem;line-height:1.333}}.entry-header{display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:48px;margin-bottom:24px}.entry-header .header-content{border-top:1px solid #666;padding-top:12px;grid-column:1/span 9}.entry-header .post-category{margin:0 0 12px;font-size:1.125rem;line-height:1.33;font-family:Garnett,sans-serif;font-weight:500;color:#06a950}.entry-header .post-category a{color:currentColor}.entry-header .entry-title{max-width:24em;margin:0 0 16px;font-family:Doyle,serif;font-size:2.625rem;line-height:1.14;font-weight:400}@media (max-width:720px){.entry-content>*{grid-column:1/span 12}.entry-header .entry-title{font-size:1.75rem;line-height:1.285714286}body.page .entry-header{margin-top:0}}.entry-header .entry-subtitle{max-width:33em;margin:0 0 24px;font-family:Garnett,sans-serif;font-size:1.5rem;line-height:1.33;font-weight:400}@media (max-width:1200px){.entry-header{grid-column-gap:12px}.entry-header .header-content{grid-column:1/span 12}.entry-header .entry-subtitle{font-size:1.25rem;line-height:1.4}}.entry-header .entry-featured-image{margin:0}.entry-header .entry-featured-image img{display:block;width:100%}.entry-header .entry-featured-image iframe{width:100%}.entry-header .caption{margin:8px 0 0;font-size:1rem;line-height:1.5;color:#666}.entry-header .entry-meta{display:flex;margin-bottom:32px}.entry-header .entry-meta img{display:block;width:48px;height:48px;margin-right:16px;border-radius:50%}.entry-header .entry-meta a{color:currentColor}.entry-header .entry-meta .byline{font-weight:500}.entry-header .post-header-sidebar{grid-column:10/span 3}.entry-header .icn-block{position:relative;z-index:999}.entry-header .related-posts .post-list{list-style:none;margin:0;padding:0}.entry-header .related-posts .post-list li{margin:0;padding:12px 0}.entry-header .related-posts .post-list a{display:flex;color:#000}.entry-header .related-posts .post-list a:hover{color:#06a950}.entry-header .related-posts .post-list .post-title{flex-grow:1;margin:0;padding:0 16px 0 0;font-family:Doyle,serif;font-size:1rem;line-height:1.5}.entry-header .related-posts .post-list .featured-image-holder{flex-grow:0;flex-shrink:0;width:64px;height:64px}.entry-header .icn-share-links{list-style:none;margin:0;padding:0 0 64px}.entry-header .icn-share-links li{display:inline-block;margin:0;padding:0 12px 12px 0;vertical-align:middle}.entry-header .icn-share-links .icon{display:inline-block;width:28px;height:auto}body.page .entry-header{display:block}body.page .header-content{display:block;grid-column:4/span 9;border-top:1px solid #666;padding-top:12px}body.page .entry-title{font-family:Garnett,sans-serif;font-weight:500}body.page .entry-content{margin-top:0}body.page .entry-content>*{grid-column-start:1}.post-footer{display:grid;grid-template-columns:repeat(12,1fr);grid-column-gap:24px}.post-footer .post-footer-sidebar{grid-column:1/span 3;padding-right:24px}.post-footer .post-footer-content{grid-column:4/span 9}@media (max-width:1200px){.entry-header .post-header-sidebar{display:none}.post-footer .post-footer-sidebar{grid-column:1/span 4}.post-footer .post-footer-content{grid-column:5/span 8}}.icn-share-holder-mobile-wrapper{display:none;position:relative}@media (max-width:1200px){.icn-share-holder-mobile-wrapper{display:block}}.icn-share-holder-mobile{position:absolute;right:0;bottom:0;display:flex;gap:12px;margin:0 0 12px;padding:12px;background-color:#fff;border-radius:10px 0 0 10px;box-shadow:0 0 10px rgba(0,0,0,.1);transition:all .25s ease-in-out;z-index:999}.icn-share-holder-mobile .button-share-menu-toggle{width:28px;height:28px}.icn-share-holder-mobile .button-share-menu-toggle .icon-share{display:none}.icn-share-holder-mobile .button-share-menu-toggle .icon-close{display:inline-block}.icn-share-holder-mobile.is-closed{right:-160px}.icn-share-holder-mobile.is-closed .button-share-menu-toggle .icon-share{display:inline-block}.icn-share-holder-mobile.is-closed .button-share-menu-toggle .icon-close{display:none}.icn-share-holder-mobile .icn-share-holder{margin:0;padding:0;border:none}.icn-share-holder-mobile .block-title{display:none}.icn-share-holder-mobile .icn-share-links{display:flex;align-items:center;gap:12px;list-style:none;margin:0;padding:0}.icn-share-holder-mobile .icn-share-links li{display:block;margin:0;padding:0}.icn-share-holder-mobile .icn-share-links .icon{display:block;width:28px;height:auto}.icn-block{border-top:1px solid #666;margin-bottom:64px;padding-top:12px}.icn-block.is-sticky{position:-webkit-sticky;position:sticky;top:24px}.icn-block .block-title{margin:0 0 12px;padding:0;font-family:Garnett,sans-serif;font-size:1.125rem;font-weight:500}.icn-block .block-title a{color:inherit}.icn-block .block-title a:focus,.icn-block .block-title a:hover{color:#06a950}.icn-newsletter-block{font-family:Garnett,sans-serif;font-size:1rem}.icn-newsletter-block ul{list-style:none;margin:0;padding:0}.icn-newsletter-block ul li{margin:0 0 16px;padding:0}.icn-newsletter-block .icn-checkbox-holder{margin-bottom:16px}.icn-newsletter-block .icn-checkbox-holder label{display:flex}.icn-newsletter-block .icn-checkbox{flex-grow:0;flex-shrink:0;margin-right:16px}.icn-newsletter-block .label-text{flex-grow:1;font-weight:500}.icn-newsletter-block input.email{margin-bottom:16px}.icn-newsletter-block .terms-of-service-field-holder .label-text{font-weight:400}.icn-newsletter-block .description{font-size:1rem}.icn-newsletter-block.alignwide .description{max-width:35em}.icn-newsletter-block.hide-email-field .icn-extra-fields.hidden{display:none}.icn-donate-block{margin:48px 0;padding-top:12px;font-family:Garnett,sans-serif;font-size:1rem;line-height:1.5;border-top:1px solid #666}.icn-donate-block .block-title{margin:0 0 12px;font-family:Garnett,sans-serif;font-weight:500;font-size:1.125rem}.icn-donate-block p{max-width:35em;margin:0 0 16px}.icn-donate-block .button{margin-bottom:16px}.icn-donate-block.meter-message{border-top:3px solid #06a950}.icn-category-block .block-title a{color:#06a950}.icn-category-block .block-title a:focus,.icn-category-block .block-title a:hover{color:#000}.icn-category-block .icn-category-posts-container{display:grid;grid-template-columns:repeat(9,1fr);grid-column-gap:24px}.icn-category-block .icn-category-posts-container .icn-category-posts-list{grid-column:1/span 4}.icn-category-block .icn-category-posts-container .icn-category-featured-image{grid-column:5/span 5}@media (max-width:970px){.post-footer .post-footer-content,.post-footer .post-footer-sidebar{grid-column:1/span 12;padding-right:0}.icn-category-block .icn-category-posts-container{grid-template-columns:repeat(8,1fr);grid-row-gap:12px}.icn-category-block .icn-category-posts-container .icn-category-posts-list{order:2;grid-column:1/span 8}.icn-category-block .icn-category-posts-container .icn-category-featured-image{order:1;grid-column:1/span 8}}.icn-category-block .post{margin-bottom:12px}.icn-category-block .post a{color:#000}.icn-category-block .post a:focus,.icn-category-block .post a:hover{color:#06a950}.icn-category-block .post p{margin:0;font-family:Garnett,sans-serif;font-size:1rem;font-weight:400}.icn-category-block .post .post-title{margin:0;font-family:Doyle,serif;font-size:1rem;line-height:1.5}.icn-category-block .post .subtitle{margin-bottom:16px}.icn-category-block .post:first-child{padding-bottom:24px;border-bottom:1px solid #666}.icn-category-block .post:first-child .post-title{margin:0 0 4px;font-size:1.5rem;line-height:1.33}@media (max-width:1200px){.icn-category-block .post:first-child .post-title{font-size:1.25rem;line-height:1.4}}.icn-project-carousel-block .tns-ovh{margin-left:-12px;margin-right:-12px;padding:12px}.icn-climate-101-insert{margin:32px 0;padding-top:16px;border-top:1px solid #666}.icn-climate-101-insert .block-title{margin:0;font-family:Garnett,sans-serif;font-size:1.125rem}.icn-climate-101-insert .post-title{margin:16px 0;font-size:1.5rem}.icn-climate-101-insert .content{position:relative;max-height:80px;margin-bottom:16px;font-family:Garnett,sans-serif;font-size:1rem;overflow:hidden}.icn-climate-101-insert .content:after{content:"";position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(180deg,hsla(0,0%,96.9%,0),#f7f7f7)}.icn-climate-101-insert.is-open .content{max-height:none}.icn-climate-101-insert.is-open .content:after{display:none}.icn-climate-101-question{display:block;margin:0 0 24px;padding:0;background:0 0;color:#000;font-family:Tiempos,serif;font-size:2.25rem;font-weight:400;text-align:left;line-height:1.333;border-radius:0}.icn-climate-101-question:focus,.icn-climate-101-question:hover{background:0 0;color:#000}@media (max-width:720px){.icn-climate-101-question{font-size:1.75rem}}iframe,object{max-width:100%}figure{margin:24px 0;padding:0}.fc-embed img{width:100%}</style>
+	<link rel="canonical" href="https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Five Years After Hurricane Irene, Vermont Still Striving for Resilience - Inside Climate News" />
+	<meta property="og:description" content="Vermont is a shim of a state, the size and shape of a scanty slice of pie, or a narrow wedge of its finest cheddar. With no ocean coastline, Vermont might have seemed an unlikely candidate to be devastated by a hurricane five years ago, and to most, Irene was an entirely forgettable storm. Its [&hellip;]" />
+	<meta property="og:url" content="https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" />
+	<meta property="og:site_name" content="Inside Climate News" />
+	<meta property="article:published_time" content="2016-09-01T07:00:58+00:00" />
+	<meta property="article:modified_time" content="2022-06-17T12:09:43+00:00" />
+	<meta property="og:image" content="https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg" />
+	<meta property="og:image:width" content="1600" />
+	<meta property="og:image:height" content="1067" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="climate-admin" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/","url":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/","name":"Five Years After Hurricane Irene, Vermont Still Striving for Resilience - Inside Climate News","isPartOf":{"@id":"https://insideclimatenews.org/#website"},"primaryImageOfPage":{"@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/#primaryimage"},"image":{"@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/#primaryimage"},"thumbnailUrl":"https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg","datePublished":"2016-09-01T07:00:58+00:00","dateModified":"2022-06-17T12:09:43+00:00","author":{"@id":"https://insideclimatenews.org/#/schema/person/db4c34a140ff56f4a6280d69c010d77e"},"breadcrumb":{"@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/#primaryimage","url":"https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg","contentUrl":"https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg","width":1600,"height":1067,"caption":"Rushing floodwaters during Irene took down even ski lodges in Killington, Vermont in 2011. Credit: Getty Images"},{"@type":"BreadcrumbList","@id":"https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://insideclimatenews.org/"},{"@type":"ListItem","position":2,"name":"News","item":"https://insideclimatenews.org/news/"},{"@type":"ListItem","position":3,"name":"Five Years After Hurricane Irene, Vermont Still Striving for Resilience"}]},{"@type":"WebSite","@id":"https://insideclimatenews.org/#website","url":"https://insideclimatenews.org/","name":"Inside Climate News","description":"Pulitzer Prize-winning, nonpartisan reporting on the biggest crisis facing our planet.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://insideclimatenews.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Person","@id":"https://insideclimatenews.org/#/schema/person/db4c34a140ff56f4a6280d69c010d77e","name":"climate-admin","image":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://insideclimatenews.org/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/bf8058753c9401705976a5617553df8d?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/bf8058753c9401705976a5617553df8d?s=96&d=mm&r=g","caption":"climate-admin"},"url":"https://insideclimatenews.org/news/author/climate-admin/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+
+<link rel="alternate" type="application/rss+xml" title="Inside Climate News &raquo; Feed" href="https://insideclimatenews.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Inside Climate News &raquo; Comments Feed" href="https://insideclimatenews.org/comments/feed/" />
+<style type="text/css"></style>
+	
+
+<style id='global-styles-inline-css' type='text/css'></style>
+
+<script type='text/javascript' src='https://insideclimatenews.org/wp-content/plugins/four-corners-wp-plugin/assets/fourcorners.min.js?ver=0.2.9' id='fourcorners_js-js' defer></script>
+<script data-minify="1" type='text/javascript' src='https://insideclimatenews.org/wp-content/cache/min/1/wp-content/plugins/four-corners-wp-plugin/build/plugin.js?ver=1688062671' id='fourcorners_block_js-js' defer></script>
+<link rel="https://api.w.org/" href="https://insideclimatenews.org/wp-json/" /><link rel="alternate" type="application/json" href="https://insideclimatenews.org/wp-json/wp/v2/posts/5727" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://insideclimatenews.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://insideclimatenews.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 6.2.2" />
+<link rel='shortlink' href='https://insideclimatenews.org/?p=5727' />
+<link rel="alternate" type="application/json+oembed" href="https://insideclimatenews.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsideclimatenews.org%2Fnews%2F01092016%2Ffive-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://insideclimatenews.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finsideclimatenews.org%2Fnews%2F01092016%2Ffive-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change%2F&#038;format=xml" />
+<style></style><meta name="generator" content="Site Kit by Google 1.105.0" /><link rel="icon" href="https://insideclimatenews.org/wp-content/uploads/2020/09/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://insideclimatenews.org/wp-content/uploads/2020/09/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://insideclimatenews.org/wp-content/uploads/2020/09/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://insideclimatenews.org/wp-content/uploads/2020/09/cropped-favicon-270x270.png" />
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="post-template-default single single-post postid-5727 single-format-standard wp-embed-responsive">
+<div id="page" class="site-container">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="menus-holder">
+
+			<nav class="primary-menu"><ul id="menu-main" class="menu"><li id="menu-item-17999" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-17999"><a href="https://insideclimatenews.org/category/science/">Science</a></li>
+<li id="menu-item-18000" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18000"><a href="https://insideclimatenews.org/category/politics-policy/">Politics &amp; Policy</a></li>
+<li id="menu-item-18002" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18002"><a href="https://insideclimatenews.org/category/justice/">Justice</a></li>
+<li id="menu-item-18003" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18003"><a href="https://insideclimatenews.org/category/fossil-fuels/">Fossil Fuels</a></li>
+<li id="menu-item-17965" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17965"><a href="https://insideclimatenews.org/category/clean-energy/">Clean Energy</a></li>
+</ul></nav>
+			<nav class="secondary-menu"><ul id="menu-secondary" class="menu"><li id="menu-item-70029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-70029"><a href="https://insideclimatenews.org/category/todays-climate/">Today&#8217;s Climate</a></li>
+<li id="menu-item-51170" class="menu-item menu-item-type-post_type_archive menu-item-object-project menu-item-51170"><a href="https://insideclimatenews.org/projects/">Projects</a></li>
+<li id="menu-item-49900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49900"><a href="https://insideclimatenews.org/about/">About Us</a></li>
+</ul></nav>
+			<div class="buttons-holder">
+				<button class="button-transparent button-open-slide-menu" id="button-open-slide-menu">
+					<span class="screen-reader-text">Open Menu</span>
+					<svg width="22" height="22" class="icon icon-menu" fill="none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path fill="#000" d="M0 3.558h22v2H0zm0 6h22v2H0zm0 6h22v2H0z"/></svg>				</button>
+			</div> <!-- /.buttons-holder -->
+
+		</div> <!-- /.menus-holder -->
+
+		<div class="site-branding">
+
+			<div class="site-logo-holder">
+				<a href="https://insideclimatenews.org/" class="site-logo">
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%2042'%3E%3C/svg%3E" width="480" height="42.15" alt="Inside Climate News" data-lazy-src="https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/icn-logo.svg"><noscript><img src="https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/icn-logo.svg" width="480" height="42.15" alt="Inside Climate News"></noscript>
+				</a>
+			</div> <!-- /.site-logo-holder -->
+
+			
+			
+				<div class="site-tagline">
+					Pulitzer Prize-winning, nonpartisan reporting on the biggest crisis facing our planet.				</div> <!-- /.site-tagline -->
+
+			
+			<div class="donate-holder">
+								<a href="https://checkout.fundjournalism.org/memberform?org_id=insideclimate&#038;amount=15&#038;installmentPeriod=monthly&#038;campaign=7013a000002puOpAAI" class="button button-red" target="_blank">
+					Donate				</a>
+			</div> <!-- /.donate-holder -->
+
+		</div> <!-- /.site-branding -->
+
+	</header><!-- #masthead -->
+
+	
+<aside id="slide-menu" class="slide-menu" role="complementary">
+
+	<button class="button-icon-circle button-close-slide-menu" id="button-close-slide-menu">
+		<span class="screen-reader-text">Close Menu</span>
+		<svg width="22" height="22" class="icon icon-close" fill="none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path fill="#000" d="M2.515 17.556L18.07 2l1.414 1.414L3.93 18.97z"/><path fill="#000" d="M3.929 2.073L19.485 17.63l-1.414 1.415L2.514 3.487z"/></svg>	</button>
+
+	<section id="search-4" class="widget widget_search"><h3 class="widget-title">Search</h3><form role="search" method="get" class="search-form" action="https://insideclimatenews.org/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></section><section id="nav_menu-3" class="widget widget_nav_menu"><div class="menu-main-container"><ul id="menu-main-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-17999"><a href="https://insideclimatenews.org/category/science/">Science</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18000"><a href="https://insideclimatenews.org/category/politics-policy/">Politics &amp; Policy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18002"><a href="https://insideclimatenews.org/category/justice/">Justice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18003"><a href="https://insideclimatenews.org/category/fossil-fuels/">Fossil Fuels</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17965"><a href="https://insideclimatenews.org/category/clean-energy/">Clean Energy</a></li>
+</ul></div></section><section id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-secondary-toggle-menu-container"><ul id="menu-secondary-toggle-menu" class="menu"><li id="menu-item-70031" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-70031"><a href="https://insideclimatenews.org/category/todays-climate/">Today&#8217;s Climate</a></li>
+<li id="menu-item-51174" class="menu-item menu-item-type-post_type_archive menu-item-object-project menu-item-51174"><a href="https://insideclimatenews.org/projects/">Projects</a></li>
+<li id="menu-item-51175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51175"><a href="https://insideclimatenews.org/about/">About Us</a></li>
+<li id="menu-item-51176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51176"><a href="https://insideclimatenews.org/newsletter/">Newsletters</a></li>
+</ul></div></section><section id="nav_menu-6" class="widget widget_nav_menu"><h3 class="widget-title">Topics</h3><div class="menu-topics-container"><ul id="menu-topics" class="menu"><li id="menu-item-24164" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24164"><a href="https://insideclimatenews.org/topic/activism/">Activism</a></li>
+<li id="menu-item-24165" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24165"><a href="https://insideclimatenews.org/topic/arctic/">Arctic</a></li>
+<li id="menu-item-49898" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-49898"><a href="https://insideclimatenews.org/topic/business-finance/">Business &amp; Finance</a></li>
+<li id="menu-item-24171" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24171"><a href="https://insideclimatenews.org/topic/climate-law-liability/">Climate Law &amp; Liability</a></li>
+<li id="menu-item-24170" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24170"><a href="https://insideclimatenews.org/topic/climate-treaties/">Climate Treaties</a></li>
+<li id="menu-item-51196" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-51196"><a href="https://insideclimatenews.org/topic/denial-misinformation/">Denial &amp; Misinformation</a></li>
+<li id="menu-item-49868" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-49868"><a href="https://insideclimatenews.org/topic/environment-health/">Environment &amp; Health</a></li>
+<li id="menu-item-24168" class="menu-item menu-item-type-taxonomy menu-item-object-topic current-post-ancestor current-menu-parent current-post-parent menu-item-24168"><a href="https://insideclimatenews.org/topic/extreme-weather/">Extreme Weather</a></li>
+<li id="menu-item-24169" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24169"><a href="https://insideclimatenews.org/topic/food-agriculture/">Food &amp; Agriculture</a></li>
+<li id="menu-item-51203" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-51203"><a href="https://insideclimatenews.org/topic/fracking/">Fracking</a></li>
+<li id="menu-item-54727" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-54727"><a href="https://insideclimatenews.org/topic/nuclear/">Nuclear</a></li>
+<li id="menu-item-51186" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-51186"><a href="https://insideclimatenews.org/topic/pipelines/">Pipelines</a></li>
+<li id="menu-item-51194" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-51194"><a href="https://insideclimatenews.org/topic/regulation/">Regulation</a></li>
+<li id="menu-item-24175" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-24175"><a href="https://insideclimatenews.org/topic/super-climate-pollutants/">Super-Pollutants</a></li>
+<li id="menu-item-66223" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-66223"><a href="https://insideclimatenews.org/topic/water-drought/">Water/Drought</a></li>
+<li id="menu-item-51204" class="menu-item menu-item-type-taxonomy menu-item-object-topic menu-item-51204"><a href="https://insideclimatenews.org/topic/wildfires/">Wildfires</a></li>
+</ul></div></section><section id="nav_menu-7" class="widget widget_nav_menu"><h3 class="widget-title">Information</h3><div class="menu-information-container"><ul id="menu-information" class="menu"><li id="menu-item-18046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18046"><a href="https://insideclimatenews.org/about/">About</a></li>
+<li id="menu-item-39200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39200"><a href="https://insideclimatenews.org/about/jobs/">Jobs &#038; Freelance</a></li>
+<li id="menu-item-39222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39222"><a href="https://insideclimatenews.org/national-reporting-network/">Reporting Network</a></li>
+<li id="menu-item-39201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39201"><a href="https://insideclimatenews.org/impact/">Impact Statement</a></li>
+<li id="menu-item-39202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39202"><a href="https://insideclimatenews.org/contact/">Contact</a></li>
+<li id="menu-item-39211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39211"><a href="https://insideclimatenews.org/whistleblowers/">Whistleblowers</a></li>
+<li id="menu-item-39217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39217"><a href="https://insideclimatenews.org/about/membership/">Memberships</a></li>
+<li id="menu-item-55220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-55220"><a href="https://insideclimatenews.org/ways-to-give/">Ways to Give</a></li>
+<li id="menu-item-56336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56336"><a href="https://insideclimatenews.org/about/fellows/">Fellows &#038; Fellowships</a></li>
+</ul></div></section><section id="nav_menu-8" class="widget widget_nav_menu"><h3 class="widget-title">Publications</h3><div class="menu-publications-container"><ul id="menu-publications" class="menu"><li id="menu-item-18054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18054"><a href="https://insideclimatenews.org/ebooks/">E-Books</a></li>
+<li id="menu-item-18055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18055"><a href="https://insideclimatenews.org/documents/">Documents</a></li>
+</ul></div></section>
+</aside><!-- #secondary -->
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			
+				<article id="post-5727" class="post-5727 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-climate-change topic-extreme-weather">
+
+					
+						
+<header class="entry-header">
+
+	<div class="header-content">
+
+		<h3 class="post-category"><a href="https://insideclimatenews.org/category/science/">Science</a></h3>
+
+		<h1 class="entry-title">Five Years After Hurricane Irene, Vermont Still Striving for Resilience</h1>
+
+		
+		
+			<h2 class="entry-subtitle">After the devastating flooding that came with an otherwise unremarkable Category 1 storm, measures to prevent future flooding have taken hold.</h2>
+
+		
+		<div class="entry-meta">
+			<div class="post-meta-details"><div class="byline">By Kendra Pierre-Louis</div><div class="date"><time class="entry-date published" datetime="2016-09-01T07:00:58-04:00">September 1, 2016</time></div></div>		</div><!-- .entry-meta -->
+
+		
+		<figure class="entry-featured-image">
+
+			<img width="1600" height="1067" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201600%201067'%3E%3C/svg%3E" class="attachment-full size-full wp-post-image" alt="Massive flooding from Tropical Storm Irene left Vermont reeling" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg 1600w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-330x220.jpg 330w" data-lazy-sizes="(max-width: 1600px) 100vw, 1600px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg" /><noscript><img width="1600" height="1067" src="https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg" class="attachment-full size-full wp-post-image" alt="Massive flooding from Tropical Storm Irene left Vermont reeling" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537.jpg 1600w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2016/09/GettyImages-123272537-330x220.jpg 330w" sizes="(max-width: 1600px) 100vw, 1600px" /></noscript>
+										<figcaption class="caption">Rushing floodwaters during Irene took down even ski lodges in Killington, Vermont in 2011. Credit: Getty Images</figcaption>
+			
+		</figure> <!-- /.entry-featured-image -->
+
+		
+	</div> <!-- /.header-content -->
+
+	<div class="post-header-sidebar">
+
+		
+	<div class="related-posts icn-block">
+
+		<h3 class="block-title">Related</h3>
+
+		
+			<ul class="post-list">
+
+				
+					
+					<li>
+						<a href="https://insideclimatenews.org/news/03082016/extreme-weather-event-noaa-tool-climate-change-link-global-warming-wildfires-heatwaves-floods/">
+
+							<h3 class="post-title">Got an Extreme Weather Event? NOAA Tool Searches for Climate Link</h3>
+
+							<div class="featured-image-holder">
+								<img width="64" height="64" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--300x300.jpg 300w" data-lazy-sizes="(max-width: 64px) 100vw, 64px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--64x64.jpg" /><noscript><img width="64" height="64" src="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--64x64.jpg" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--300x300.jpg 300w" sizes="(max-width: 64px) 100vw, 64px" /></noscript>							</div> <!-- /.featured-image-holder -->
+
+						</a>
+					</li>
+
+				
+					
+					<li>
+						<a href="https://insideclimatenews.org/news/23062015/most-extreme-weather-has-climate-change-link-study-says-global-warming-trenberth-ncar-sea-levels/">
+
+							<h3 class="post-title">Most Extreme Weather Has Climate Change Link, Study Says</h3>
+
+							<div class="featured-image-holder">
+								<img width="64" height="64" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-300x300.jpg 300w" data-lazy-sizes="(max-width: 64px) 100vw, 64px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-64x64.jpg" /><noscript><img width="64" height="64" src="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-64x64.jpg" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-300x300.jpg 300w" sizes="(max-width: 64px) 100vw, 64px" /></noscript>							</div> <!-- /.featured-image-holder -->
+
+						</a>
+					</li>
+
+				
+					
+					<li>
+						<a href="https://insideclimatenews.org/news/27012015/why-bigger-snowstorms-come-global-warming/">
+
+							<h3 class="post-title">Why Bigger Snowstorms Come With Global Warming</h3>
+
+							<div class="featured-image-holder">
+								<img width="64" height="64" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3C/svg%3E" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-300x300.jpg 300w" data-lazy-sizes="(max-width: 64px) 100vw, 64px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-64x64.jpg" /><noscript><img width="64" height="64" src="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-64x64.jpg" class="attachment-thumbnail-small-square size-thumbnail-small-square wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-64x64.jpg 64w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-150x150.jpg 150w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-300x300.jpg 300w" sizes="(max-width: 64px) 100vw, 64px" /></noscript>							</div> <!-- /.featured-image-holder -->
+
+						</a>
+					</li>
+
+				
+				
+			</ul> <!-- /.post-list -->
+
+		
+	</div> <!-- /.related-posts -->
+
+	
+		
+<div class="icn-block icn-share-holder">
+
+	<h3 class="block-title">Share this article</h3>
+
+	<ul class="icn-share-links">
+		<li><a href="http://twitter.com/share?text=Five%20Years%20After%20Hurricane%20Irene%2C%20Vermont%20Still%20Striving%20for%20Resilience&url=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" target="_blank" data-option="twitter"><svg width="24" height="24" fill="none" class="icon icon-twitter" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.745 24c6.486 0 11.744-5.373 11.744-12S18.231 0 11.745 0C5.258 0 0 5.373 0 12s5.258 12 11.745 12z" fill="#000"/><path d="M9.595 18.33c5.21 0 8.057-4.41 8.057-8.232 0-.126 0-.252-.006-.372a5.873 5.873 0 001.416-1.5 5.652 5.652 0 01-1.627.456A2.882 2.882 0 0018.68 7.08a5.66 5.66 0 01-1.797.702 2.79 2.79 0 00-2.067-.912c-1.562 0-2.83 1.296-2.83 2.892 0 .228.023.45.076.66-2.355-.12-4.44-1.272-5.837-3.024a2.95 2.95 0 00-.382 1.452c0 1.002.5 1.89 1.263 2.406a2.737 2.737 0 01-1.28-.36v.036c0 1.404.974 2.568 2.272 2.838a2.767 2.767 0 01-1.28.048c.358 1.152 1.403 1.986 2.642 2.01a5.616 5.616 0 01-4.192 1.194 7.769 7.769 0 004.327 1.308z" fill="#F7F7F7"/></svg></a></li>
+		<li><a href="mailto:?subject=Five Years After Hurricane Irene, Vermont Still Striving for Resilience&body=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" data-option="email"><svg width="40" height="28" fill="none" class="icon icon-email" viewBox="0 0 40 28" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="2" width="38" height="24" rx="1" fill="#000"/><path d="M3.88 27h32.24c1.897 0 2.728-2.394 1.239-3.57l-16.12-12.726a2 2 0 00-2.478 0L2.64 23.43C1.152 24.606 1.983 27 3.881 27z" fill="#000" stroke="#F7F7F7" stroke-width="2"/><path d="M35.957 1H4.043c-1.93 0-2.74 2.465-1.186 3.61l15.957 11.758a2 2 0 002.372 0L37.144 4.61C38.698 3.465 37.888 1 35.957 1z" fill="#000" stroke="#F7F7F7" stroke-width="2"/></svg></a></li>
+		<li><a href="http://www.facebook.com/sharer.php?u=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/&p[title]=Five+Years+After+Hurricane+Irene%2C+Vermont+Still+Striving+for+Resilience" target="_blank" data-option="facebook"><svg width="25" height="24" class="icon icon-facebook" fill="none" viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg"><path d="M24.49 12c0-6.627-5.373-12-12-12-6.628 0-12 5.373-12 12 0 5.99 4.387 10.954 10.124 11.854V15.47H7.567V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.313 0 2.686.234 2.686.234v2.953H16.32c-1.49 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385C20.101 22.954 24.49 17.99 24.49 12z" fill="#000"/><path d="M17.16 15.469L17.692 12h-3.328V9.75c0-.95.465-1.875 1.956-1.875h1.513V4.922s-1.373-.234-2.686-.234c-2.741 0-4.533 1.66-4.533 4.668V12H7.567v3.469h3.047v8.385a12.084 12.084 0 003.75 0V15.47h2.796z" fill="#F7F7F7"/></svg></a></li>
+		<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" target="_blank" data-option="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon icon-linkedin" viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248 h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"></path></svg></a></li>
+	</ul>
+
+</div> <!-- /.icn-share-holder -->
+
+	</div> <!-- /.post-sidebar -->
+
+</header><!-- .entry-header -->
+
+					
+					<div class="entry-content">
+
+						<p>Vermont is a shim of a state, the size and shape of a scanty slice of pie, or a narrow wedge of its finest cheddar.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">With no ocean coastline, Vermont might have seemed an unlikely candidate to be devastated by a hurricane five years ago, and to most, Irene was an entirely forgettable storm. Its memory is eclipsed for many by Sandy, which followed a year later.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Irene was actually only a hurricane for a brief stretch over distant North Carolina. Its winds dwindled once it made landfall. But while winds and storm surge make hurricanes so telegenic, what made this one so destructive was rain. Irene dumped </span><a href="http://abcnews.go.com/US/hurricanes/hurricane-irene-flooding-cuts-off-towns-vermont-york/story?id=14402696">as much as 11 inches of rain</a> on parts of Vermont, and caused $733 million in damage. In all, it checked in at <a href="http://www.ncdc.noaa.gov/billions/events">$14.3 billion, the sixth-costliest</a> hurricane in American history.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">It turns out, Vermont wasn’t that unlikely a candidate for all that damage. And residents of the Green Mountain State, crisscrossed by rivers and streams, have a lot to worry about in the future.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Even inland states like Vermont are never out of reach of Atlantic &nbsp;storms, and hurricanes and Nor’easters of the future will be even wetter because warmer air in the atmosphere holds more water, climate scientists say.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Vermont’s vulnerability to flooding was the harsh reality Irene drove home in 2011. More than 2,400 roads, 800 homes and businesses, 300 bridges (including historic covered bridges) and a half dozen railroad lines were destroyed or damaged, according to the </span><a href="http://www.nws.noaa.gov/om/assessments/pdfs/Irene2012.pdf">National Oceanic Administration Agency (NOAA)</a>.</p>
+<p>“The sound of heavy rain is still a little nervous-making,” said Liz Kenton, a Brattleboro, resident who survived the storm.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">After Irene swept through, Vermont set about understanding the devastation and working toward resilience. The state passed legislation increasing government’s role in flood response, and launched a series of websites, including</span><a href="http://floodready.vermont.gov/"> Flood Ready Vermont</a> and<a href="http://vtclimate.org/"> Vermont Climate Assessment</a>, to make residents aware of its programs. Some municipalities have bought out homeowners in the worst devastation zones, in order to prevent future damage. Roads and bridges have been rebuilt to withstand future floods. The state’s largest utility, Green Mountain Power, said it is working toward decentralizing its grid to make power outages easier to contain and easier to recover from.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Most importantly, said Ned Swanberg, the state’s flood hazard mapping coordinator: “The science has been integrated into policy. There&#8217;s been this alignment of incentives for municipalities to be responsible for this larger purpose. It’s in the statute now that state plans and municipal plans need to address flood resilience and river corridor protection.”</span></p>
+<h2 dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Restoring Rivers</span></h2>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">One of the main takeaways from Irene was that development had changed the landscape around rivers. By making them straighter and easier to build around, it meant that heavy rains turned them from placid waterways into chutes of destruction.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“It’s clear to us that flooding is not just the water rising,” said Swanberg, “It’s the power of water that is causing the damage to roads and bridges and culverts.”</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">When the water breached river channels during Irene, it behaved like water from a firehose, not just flooding homes but sweeping them away. It created damage along corridors never identified by the Federal Emergency Management Agency (FEMA) as </span><a href="http://stjvt.com/index.php/town-documents/town-initiatives/544-regional-plan-flood-resilience/file.html">Special Flood Hazard Areas</a>. In some areas of the state, such as the northeast corner known as the Northeast Kingdom, many of the FEMA maps are 30 years old and exist only on paper.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“FEMA’s stalled in Vermont,” said Swanberg. “Because we&#8217;re not on a coastline or behind a levee, we’re not a priority update area.”</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“We get floods all the time,” said Kenneth Jones, an Economic Research Analyst with the Vermont Agency of Commerce and Community Development. In fact, Vermont has experienced flooding in </span><a href="http://accd.vermont.gov/sites/accd/files/Documents/strongcommunities/cpr/VERI_Report_Chapter5_Final_150930.pdf">every year since 2007</a>, which is still not reflected in many of FEMA’s maps.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Instead of waiting for FEMA to update its maps, Vermont made its own that focused on its specific kind of river flooding. They mapped the river and tributary systems statewide and identified the channel or the space that rivers will need, helping the state&#8217;s municipalities manage development near those rivers to give them the wiggle room they need.</span></p>
+<h2 dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Paying Now, Instead of Later</span></h2>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Vermont has provided incentives to municipalities to do this work, in part, through funding &nbsp;by Vermont’s Emergency Relief and Assistance Fund (ERAF). It matches federal assistance after a disaster is declared. While the federal government covers 75 percent of eligible public costs, Vermont contributes an additional 7.5 percent. But in communities that have undertaken steps to reduce flood damage that number jumps to 12.5 percent. The majority of municipalities now qualify for this supplement.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Northfield, a town in the central Green Mountains with a population of about 6,200, sustained more than $2 million in property damage during Irene and has taken advantage of the extra funding. It bought out the owners of the homes that were hardest hit and within the River Corridor. It is in the process of building a park that can withstand flooding.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Officials say 91 percent of roads and bridges across the state meet current standards, and 80 percent of communities have an updated local emergency operations plan.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">But they also say that only a quarter of the state’s municipalities have adopted updated river corridor and or floodplain standards, and a third of municipalities haven’t yet adopted a local hazard mitigation plan. Businesses are still shuttering, finding that after five years after Irene they</span><a href="https://www.facebook.com/FlatStreetPub/"> weren’t able to fully recover</a>.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“We have other stories of flooding events,” said Jones. “It’s it is the cumulative effect, every time there&#8217;s a short term shock, you can only do that [rebuild] so many times. There’s only so many times a business can take that.”</span></p>
+<h2 dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">A Wetter Future Looms</span></h2>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“Irene should be a reminder that a lot of mortality from tropical storms comes from rain,” said Kerry Emanuel, professor of atmospheric science at the Massachusetts Institute of Technology.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Emanuel said Irene was a 1-in-1,000-year event based on the standards of the 20th century. “At the end of this century, if we do nothing to curb emissions, that 1,000-year event in rain would be a 100-year event,” he said.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">But even before Irene, Vermont was dealing with more floods. Between 1895 and 2011, the </span><a href="http://nca2014.globalchange.gov/report/regions/northeast#intro-section-2">Northeast’s annual precipitation</a> increased by more than 10 percent, greater than any other region in the U.S.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Those forecasts have the attention of Green Mountain Power, Vermont’s largest utility, which supplies power to three-quarters of the state. &nbsp;Irene caused more than 117,000 power outages, </span><a href="http://www.nydailynews.com/new-york/hurricane-irene-year-storm-cost-15-8-damage-florida-new-york-caribbean-article-1.1145302">affecting a third of the state</a>.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“The model we have now where you pipe power from far away into people&#8217;s homes is inefficient, with the increased concerns about the environment and the reality on the ground of increased storms from <a href="https://insideclimatenews.org/topic/climate-change">climate change</a>,” said Kristin Carlson, chief of communications at Green Mountain Power. “It&#8217;s a system that isn&#8217;t going to serve customers well from a reliability and resiliency perspective. We want to transform away from that.”</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">The utility, for example, is partnering with Tesla to bring the Powerwall, a whole house battery that can power the house during an outage, to its customers.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">In Rutland, a city that was walloped by Irene and continues to deal with flooding, Green Mountain power erected a solar project paired with battery storage. “When the grid goes down,” said Carlson, “solar project can still power the high school as an emergency shelter.” When it was built in 2014, it was the first exclusively solar-powered microgrid in the country.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">At the same time, in recognition of the fact that climate change isn’t making their job any easier, Green Mountain Power has promoted conserving energy. In a state where many homes are still mainly heated by oil—which Green Mountain Power doesn’t sell—the company is encouraging homeowners to heat their homes with air-source heat pumps, which use electricity.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Customers who sign up can pay for the retrofit in installments based on cost savings over time. Green Mountain Power is encouraging customers to switch from an energy source it doesn&#8217;t sell to one it does, which serves its interests, the company is also encouraging customers to invest in solar panels.</span></p>
+<h2 dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Pulling Together</span></h2>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">What also was revealed during Irene was Vermonters’ determination to work together in the worst of circumstances.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">The storm left </span><a href="http://www.vpr.net/news_detail/91809/thirteen-vt-towns-isolated-after-storm/">at least 13 towns as veritable islands</a>, cut off by rising waters or collapsed bridges. When one of those blocked crossings left residents of Royalton isolated, local fire and rescue workers teamed up to clear a path through a field of sunflowers, uproot a tree and cut through a fence. That allowed residents to drive onto Interstate 89 on what some locals dubbed ‘the <a href="http://www.nytimes.com/2011/09/03/us/03infrastructure.html">hillbilly highway</a>,’ and others jokingly called Exit 2 ½.</p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Peggy Shinn, a Vermonter who weathered the storm, chronicled one story in her book, “Deluge.” &nbsp;In it, Mark Bourassa, who worked for a local excavation crew, drove 37 miles on ravaged roads and walked an additional six to reach his job after the storm. As Bourassa and his boss, Craig Bosher, manned a bulldozer and an excavator to begin reconstructing U.S. Route 4, a crucial east-west highway in the southern part of the state, Mosher called the state transportation agency to tell them of their plans.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">When he gave his name to the person who answered, Shinn writes, Mosher was told he was not an approved state contractor.</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">“I&#8217;m not asking for permission,” Mosher said. “I&#8217;m telling you what I&#8217;m doing.”</span></p>
+<p dir="ltr"><span id="docs-internal-guid-710528fe-e1d7-540e-48f4-207f230e2399">Then he hung up and began rebuilding Route 4.</span></p>
+
+						
+					</div><!-- .entry-content -->
+
+				</article><!-- #post-## -->
+
+				<div class="post-footer">
+
+					<div class="post-footer-sidebar">
+
+						
+<div id="mc_embed_signup_64c1a0488b141" class="icn-newsletter-block icn-block alignwide is-sticky">
+	<form action="https://insideclimatenews.us2.list-manage.com/subscribe/post?u=7c733794100bcc7e083a163f0&amp;id=29c928ffb5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		<div id="mc_embed_signup_scroll_64c1a0488b141">
+
+							<h3 class="block-title"><a href="https://insideclimatenews.org/newsletter">Newsletters</a></h3>
+			
+							<p class="description">We deliver climate news to your inbox like nobody else. Every day or once a week, our original stories and digest of the web's top headlines deliver the full story, for free.</p>
+			
+			<div class="mc-field-group input-group newsletter-options-holder">
+
+				<ul class="newsletter-options">
+
+					
+					
+						
+						<li class="icn-checkbox-holder">
+
+							<input type="checkbox" value="4" name="group[13101][4]" id="mce-group[13101]-13101-2_64c1a0488b141"  >
+
+							<label for="mce-group[13101]-13101-2_64c1a0488b141">
+
+								
+									<span class="icn-checkbox"></span>
+									<span class="label-text">ICN Weekly</span>
+
+								
+							</label>
+
+						</li>
+
+					
+						
+						<li class="icn-checkbox-holder">
+
+							<input type="checkbox" value="1024" name="group[13101][1024]" id="mce-group[13101]-13101-3_64c1a0488b141"  >
+
+							<label for="mce-group[13101]-13101-3_64c1a0488b141">
+
+								
+									<span class="icn-checkbox"></span>
+									<span class="label-text">Inside Clean Energy</span>
+
+								
+							</label>
+
+						</li>
+
+					
+						
+						<li class="icn-checkbox-holder">
+
+							<input type="checkbox" value="1" name="group[13101][1]" id="mce-group[13101]-13101-0_64c1a0488b141"  >
+
+							<label for="mce-group[13101]-13101-0_64c1a0488b141">
+
+								
+									<span class="icn-checkbox"></span>
+									<span class="label-text">Today's Climate</span>
+
+								
+							</label>
+
+						</li>
+
+					
+						
+						<li class="icn-checkbox-holder">
+
+							<input type="checkbox" value="2" name="group[13101][2]" id="mce-group[13101]-13101-1_64c1a0488b141"  >
+
+							<label for="mce-group[13101]-13101-1_64c1a0488b141">
+
+								
+									<span class="icn-checkbox"></span>
+									<span class="label-text">Breaking News</span>
+
+								
+							</label>
+
+						</li>
+
+					
+				</ul>
+
+			</div>
+
+			<div class="icn-extra-fields">
+
+				<div class="mc-field-group">
+					<label for="mce-EMAIL_64c1a0488b141" class="screen-reader-text">Email Address</label>
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL_64c1a0488b141" placeholder="Email Address">
+				</div>
+
+				<div class="mc-field-group input-group">
+					<ul>
+						<li class="icn-checkbox-holder terms-of-service-field-holder">
+							<input type="checkbox" value="524288" name="group[13117][524288]" id="mce-group[13117]-13117-0_64c1a0488b141">
+							<label for="mce-group[13117]-13117-0_64c1a0488b141">
+								<span class="icn-checkbox"></span>
+
+								
+								<span class="label-text">
+									I agree to the <a href="https://insideclimatenews.org/about/privacy-policy/">terms of service and privacy policy</a>.
+								</span>
+
+							</label>
+						</li>
+					</ul>
+				</div>
+
+				<div id="mce-responses_64c1a0488b141" class="clear">
+					<div class="response" id="mce-error-response_64c1a0488b141" style="display:none"></div>
+					<div class="response" id="mce-success-response_64c1a0488b141" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7c733794100bcc7e083a163f0_29c928ffb5" tabindex="-1" value=""></div>
+
+				<div class="clear"><input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe_64c1a0488b141" class="button"></div>
+
+			</div> <!-- /.icn-extra-fields -->
+
+		</div>
+	</form>
+</div>
+
+					</div> <!-- /.post-footer-sidebar -->
+
+					<div class="post-footer-content">
+
+						
+	<div class="related-posts icn-block">
+
+		<h3 class="block-title">Related</h3>
+
+		
+			<div class="posts-list">
+
+				
+					
+					
+<article id="post-5696" class="post-5696 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-undefined topic-extreme-weather">
+
+	<a href="https://insideclimatenews.org/news/03082016/extreme-weather-event-noaa-tool-climate-change-link-global-warming-wildfires-heatwaves-floods/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages-.jpg 1600w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages--900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2016/08/SandFireGettyImages-.jpg 1600w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			Got an Extreme Weather Event? NOAA Tool Searches for Climate Link		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Lisa Song</h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+				
+					
+					
+<article id="post-5248" class="post-5248 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-climate-change topic-extreme-weather">
+
+	<a href="https://insideclimatenews.org/news/23062015/most-extreme-weather-has-climate-change-link-study-says-global-warming-trenberth-ncar-sea-levels/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-900x600.jpg 900w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2015/06/supertyphoonhaiyan4-900x600.jpg 900w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			Most Extreme Weather Has Climate Link		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Lisa Song </h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+				
+					
+					
+<article id="post-5105" class="post-5105 post type-post status-publish format-standard has-post-thumbnail hentry category-politics-policy category-science tag-climate-change topic-denial-misinformation topic-extreme-weather">
+
+	<a href="https://insideclimatenews.org/news/27012015/why-bigger-snowstorms-come-global-warming/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm.jpg 640w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2015/01/Junosnowstorm.jpg 640w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			Why Bigger Snowstorms Come With Global Warming		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Katherine Bagley</h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+				
+				
+			</div> <!-- /.posts-list -->
+
+		
+	</div> <!-- /.related-posts -->
+
+	
+						
+	<div class="icn-block">
+
+		<h3 class="block-title">Most Popular</h3>
+
+		<div class="posts-list">
+
+			
+				
+				
+<article id="post-72494" class="post-72494 post type-post status-publish format-standard has-post-thumbnail hentry category-fossil-fuels category-justice category-politics-policy category-uncategorized tag-climate-change tag-environmental-justice tag-florida tag-lng tag-port-st-joe topic-activism topic-environment-health topic-fracking topic-regulation profile-amy-green">
+
+	<a href="https://insideclimatenews.org/news/21072023/port-st-joe-florida-lng/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="Residents in North Port St. Joe, Florida, had long been concerned that an export facility for liquified natural gas (LNG), like this one in Sabine Pass, Texas, would be built on the Gulf Coast in their community on the Florida Panhandle. But now Nopetro Energy says it had decided &quot;many months ago&quot; not to build the facility there. Credit: Getty Images." decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-768x513.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-1536x1025.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-2048x1367.jpg 2048w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-900x600.jpg 900w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="Residents in North Port St. Joe, Florida, had long been concerned that an export facility for liquified natural gas (LNG), like this one in Sabine Pass, Texas, would be built on the Gulf Coast in their community on the Florida Panhandle. But now Nopetro Energy says it had decided &quot;many months ago&quot; not to build the facility there. Credit: Getty Images." decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-768x513.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-1536x1025.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-2048x1367.jpg 2048w, https://insideclimatenews.org/wp-content/uploads/2023/07/LNGTanks-900x600.jpg 900w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			After Litigation and Local Outcry, Energy Company Says It Will Not Move Forward with LNG Plant in Florida Panhandle		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Amy Green</h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-72514" class="post-72514 post type-post status-publish format-standard has-post-thumbnail hentry category-todays-climate profile-kristoffer-tigue">
+
+	<a href="https://insideclimatenews.org/news/21072023/tucker-carlson-jesse-watters-fox-news-climate-misinformation/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-2048x1365.jpg 2048w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-900x600.jpg 900w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-300x200.jpg 300w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-1024x683.jpg 1024w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-768x512.jpg 768w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-1536x1024.jpg 1536w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-2048x1365.jpg 2048w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1552264944-900x600.jpg 900w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			Tucker Carlson Spread Lots of Climate Misinformation. His Replacement Isn’t Much Better		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Kristoffer Tigue</h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+			
+				
+				
+<article id="post-72471" class="post-72471 post type-post status-publish format-standard has-post-thumbnail hentry category-todays-climate profile-kristoffer-tigue">
+
+	<a href="https://insideclimatenews.org/news/18072023/todays-climate-world-record-heat-and-flooding-climate-inaction/">
+
+		
+			<img width="330" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20330%20220'%3E%3C/svg%3E" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-900x600.jpg 900w" data-lazy-sizes="(max-width: 330px) 100vw, 330px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-330x220.jpg" /><noscript><img width="330" height="220" src="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-330x220.jpg" class="attachment-thumbnail-medium size-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-330x220.jpg 330w, https://insideclimatenews.org/wp-content/uploads/2023/07/GettyImages-1547520506-900x600.jpg 900w" sizes="(max-width: 330px) 100vw, 330px" /></noscript>
+		
+		<h2 class="entry-title">
+			The World Is Reeling From Record Heat and Flooding. Scientists Say It&#8217;s the Cost of Climate Inaction		</h2>
+
+		
+		
+		
+			<h3 class="post-author">By Kristoffer Tigue</h3>
+
+		
+	</a>
+
+</article><!-- #post-## -->
+
+			
+			
+		</div> <!-- /.posts-list -->
+
+	</div> <!-- /.icn-block -->
+
+	
+						
+	<div class="icn-category-block icn-block">
+
+		<h3 class="block-title"><a href="https://insideclimatenews.org/category/science/">Science</a></h3>
+
+		<div class="icn-category-posts-container">
+
+			<div class="icn-category-posts-list">
+
+				
+				
+					
+					
+					<div class="post">
+
+						
+							<a href="https://insideclimatenews.org/news/26072023/greenland-arctic-seasons-climate-change/">
+
+								<h4 class="post-title">On the Coast of Greenland, Early Arctic Spring Has Been Replaced by Seasonal Extremes, New Research Shows</h4>
+
+								
+								
+									<p class="subtitle">In assembling data over 25 years, scientists found plants and animals reaching the limits of their ability to respond to climate variability.</p>
+
+								
+								
+								
+									<p class="author">By Lydia Larsen</p>
+
+								
+							</a>
+
+							
+						
+					</div> <!-- /.post -->
+
+					
+				
+					
+					
+					<div class="post">
+
+						
+							<h4 class="post-title">
+								<a href="https://insideclimatenews.org/news/21072023/new-federal-report-on-research-into-sun-dimming-technologies-delivers-more-questions-than-answers/">New Federal Report on Research Into Sun-Dimming Technologies Delivers More Questions Than Answers</a>
+							</h4>
+
+						
+					</div> <!-- /.post -->
+
+					
+				
+					
+					
+					<div class="post">
+
+						
+							<h4 class="post-title">
+								<a href="https://insideclimatenews.org/news/18072023/experts-study-waste-plastic-in-roads-but-find-practice-isnt-ready/">Experts Study Using Waste Plastic in Roads and More, but Find the Practice Isn’t Ready for Prime Time</a>
+							</h4>
+
+						
+					</div> <!-- /.post -->
+
+					
+				
+					
+					
+				
+			</div> <!-- /.icn-category-posts-list -->
+
+			
+				<div class="icn-category-featured-image">
+					<img width="900" height="600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20900%20600'%3E%3C/svg%3E" class="attachment-thumbnail-large size-thumbnail-large wp-post-image" alt="The high arctic ecosystem at Zackenberg Research Station in remote Northeast Greenland has been monitored since 1996 as part of the Greenland Ecosystem Monitoring program. The station is owned by the Greenland Government and run by Aarhus University, Denmark. Credit: Piotr Łukasik." decoding="async" data-lazy-srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-330x220.jpg 330w" data-lazy-sizes="(max-width: 900px) 100vw, 900px" data-lazy-src="https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-900x600.jpg" /><noscript><img width="900" height="600" src="https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-900x600.jpg" class="attachment-thumbnail-large size-thumbnail-large wp-post-image" alt="The high arctic ecosystem at Zackenberg Research Station in remote Northeast Greenland has been monitored since 1996 as part of the Greenland Ecosystem Monitoring program. The station is owned by the Greenland Government and run by Aarhus University, Denmark. Credit: Piotr Łukasik." decoding="async" srcset="https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-900x600.jpg 900w, https://insideclimatenews.org/wp-content/uploads/2023/07/Greenland-330x220.jpg 330w" sizes="(max-width: 900px) 100vw, 900px" /></noscript>				</div> <!-- /.icn-category-featured-image -->
+
+			
+		</div> <!-- /.icn-category-posts-container -->
+
+	</div> <!-- /.icn-category-block -->
+
+	
+					</div> <!-- /.post-footer-content -->
+
+				</div> <!-- /.post-footer -->
+
+			
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+
+	
+<div class="donate-cta">
+
+	<div class="content">
+
+		<h2 class="section-title">
+			Keep Environmental Journalism Alive		</h2>
+
+		<p>ICN provides award-winning climate coverage free of charge and advertising. We rely on donations from readers like you to keep going.</p>
+
+		<a href="https://checkout.fundjournalism.org/memberform?org_id=insideclimate&amount=15&installmentPeriod=monthly&campaign=7013a000002DbIPAA0" class="button button-red" target="_blank">
+			Donate Now		</a>
+
+	</div> <!-- /.content -->
+
+	<div class="image"></div>
+
+</div> <!-- /.donate-cta -->
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+		<div class="site-branding">
+
+			<div class="site-logo-holder">
+				<a href="https://insideclimatenews.org/" class="site-logo">
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20480%2042'%3E%3C/svg%3E" width="480" height="42.15" alt="Inside Climate News" data-lazy-src="https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/icn-logo.svg"><noscript><img src="https://insideclimatenews.org/wp-content/themes/insideclimatenews/images/icn-logo.svg" width="480" height="42.15" alt="Inside Climate News"></noscript>
+				</a>
+			</div> <!-- /.site-logo-holder -->
+
+			
+<ul class="menu social-menu">
+	<li><a href="https://twitter.com/insideclimate"><svg width="24" height="24" fill="none" class="icon icon-twitter" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.745 24c6.486 0 11.744-5.373 11.744-12S18.231 0 11.745 0C5.258 0 0 5.373 0 12s5.258 12 11.745 12z" fill="#000"/><path d="M9.595 18.33c5.21 0 8.057-4.41 8.057-8.232 0-.126 0-.252-.006-.372a5.873 5.873 0 001.416-1.5 5.652 5.652 0 01-1.627.456A2.882 2.882 0 0018.68 7.08a5.66 5.66 0 01-1.797.702 2.79 2.79 0 00-2.067-.912c-1.562 0-2.83 1.296-2.83 2.892 0 .228.023.45.076.66-2.355-.12-4.44-1.272-5.837-3.024a2.95 2.95 0 00-.382 1.452c0 1.002.5 1.89 1.263 2.406a2.737 2.737 0 01-1.28-.36v.036c0 1.404.974 2.568 2.272 2.838a2.767 2.767 0 01-1.28.048c.358 1.152 1.403 1.986 2.642 2.01a5.616 5.616 0 01-4.192 1.194 7.769 7.769 0 004.327 1.308z" fill="#F7F7F7"/></svg></a></li>
+	<li><a href="https://www.youtube.com/insideclimatenews"><svg width="35" height="24" fill="none" class="icon icon-youtube" viewBox="0 0 35 24" xmlns="http://www.w3.org/2000/svg"><path d="M33.828 3.748A4.282 4.282 0 0030.814.717C28.153 0 17.489 0 17.489 0S6.826 0 4.168.717a4.282 4.282 0 00-3.015 3.03C.44 6.422.44 12 .44 12s0 5.58.713 8.252a4.282 4.282 0 003.015 3.031C6.826 24 17.489 24 17.489 24s10.664 0 13.322-.717a4.282 4.282 0 003.014-3.03c.713-2.674.713-8.253.713-8.253s0-5.58-.71-8.252z" fill="#000"/><path d="M14.079 17.142V6.858L22.94 12l-8.861 5.142z" fill="#F7F7F7"/></svg></a></li>
+	<li><a href="https://www.facebook.com/insideclimatenews/"><svg width="25" height="24" class="icon icon-facebook" fill="none" viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg"><path d="M24.49 12c0-6.627-5.373-12-12-12-6.628 0-12 5.373-12 12 0 5.99 4.387 10.954 10.124 11.854V15.47H7.567V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.313 0 2.686.234 2.686.234v2.953H16.32c-1.49 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385C20.101 22.954 24.49 17.99 24.49 12z" fill="#000"/><path d="M17.16 15.469L17.692 12h-3.328V9.75c0-.95.465-1.875 1.956-1.875h1.513V4.922s-1.373-.234-2.686-.234c-2.741 0-4.533 1.66-4.533 4.668V12H7.567v3.469h3.047v8.385a12.084 12.084 0 003.75 0V15.47h2.796z" fill="#F7F7F7"/></svg></a></li>
+	<li><a href="https://www.instagram.com/insideclimatenews/"><svg width="24" height="24" class="icon icon-instagram" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="#000"><path d="M12.234 2.162c3.136 0 3.507.013 4.746.07 1.145.053 1.767.249 2.18.413.55.218.94.478 1.351.898.412.42.666.82.879 1.38.16.423.352 1.058.404 2.228.056 1.265.069 1.645.069 4.849s-.013 3.584-.069 4.85c-.052 1.17-.243 1.804-.404 2.227-.213.56-.468.96-.879 1.38-.41.42-.802.68-1.35.898-.414.164-1.036.36-2.181.413-1.238.058-1.61.07-4.746.07s-3.508-.012-4.746-.07c-1.145-.053-1.767-.249-2.181-.413a3.638 3.638 0 01-1.35-.898 3.72 3.72 0 01-.879-1.38c-.16-.423-.352-1.058-.404-2.228-.057-1.265-.069-1.645-.069-4.849s.012-3.584.069-4.85c.052-1.17.243-1.804.404-2.227.213-.56.468-.96.878-1.38.412-.42.803-.68 1.351-.898.414-.164 1.036-.36 2.18-.413 1.24-.058 1.61-.07 4.747-.07zm0-2.162c-3.19 0-3.59.014-4.843.072-1.25.059-2.103.261-2.85.558a5.741 5.741 0 00-2.08 1.384A5.893 5.893 0 001.105 4.14C.816 4.903.617 5.775.56 7.052.503 8.332.49 8.741.49 12c0 3.26.013 3.668.07 4.948.057 1.277.256 2.149.546 2.913.3.789.702 1.458 1.355 2.125a5.745 5.745 0 002.08 1.384c.747.297 1.601.5 2.85.558 1.254.059 1.654.072 4.843.072 3.19 0 3.59-.013 4.843-.072 1.25-.058 2.104-.261 2.85-.558a5.741 5.741 0 002.081-1.384 5.897 5.897 0 001.355-2.125c.29-.764.489-1.636.546-2.913.057-1.28.07-1.689.07-4.948 0-3.26-.013-3.668-.07-4.948-.057-1.277-.256-2.15-.546-2.913a5.893 5.893 0 00-1.355-2.125A5.745 5.745 0 0019.928.63c-.748-.297-1.602-.5-2.852-.558C15.824.014 15.424 0 12.234 0z"/><path d="M12.234 5.838c-3.331 0-6.03 2.759-6.03 6.162s2.7 6.162 6.03 6.162 6.03-2.759 6.03-6.162-2.699-6.162-6.03-6.162zm0 10.162c-2.162 0-3.915-1.791-3.915-4 0-2.21 1.753-4 3.915-4s3.915 1.791 3.915 4c0 2.21-1.753 4-3.915 4zM18.504 7.034c.778 0 1.409-.645 1.409-1.44 0-.795-.631-1.44-1.41-1.44-.778 0-1.409.645-1.409 1.44 0 .795.631 1.44 1.41 1.44z"/></g></svg></a></li>
+</ul>
+
+		</div> <!-- /.site-branding -->
+
+		<nav class="footer-primary-menu"><ul id="menu-main-2" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-17999"><a href="https://insideclimatenews.org/category/science/">Science</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18000"><a href="https://insideclimatenews.org/category/politics-policy/">Politics &amp; Policy</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18002"><a href="https://insideclimatenews.org/category/justice/">Justice</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18003"><a href="https://insideclimatenews.org/category/fossil-fuels/">Fossil Fuels</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-17965"><a href="https://insideclimatenews.org/category/clean-energy/">Clean Energy</a></li>
+</ul></nav>
+		<nav class="footer-secondary-menu"><ul id="menu-footer-secondary" class="menu"><li id="menu-item-18041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18041"><a href="https://insideclimatenews.org">Home</a></li>
+<li id="menu-item-18042" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18042"><a href="https://insideclimatenews.org/about/">About</a></li>
+<li id="menu-item-39195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39195"><a href="https://insideclimatenews.org/contact/">Contact</a></li>
+<li id="menu-item-39215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39215"><a href="https://insideclimatenews.org/whistleblowers/">Whistleblowers</a></li>
+<li id="menu-item-51179" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-51179"><a rel="privacy-policy" href="https://insideclimatenews.org/about/privacy-policy/">Privacy Policy</a></li>
+</ul></nav>
+	</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+
+	<script type="rocketlazyloadscript" data-cfasync="false">
+	(function(W,i,s,e,P,o,p){W['WisePopsObject']=P;W[P]=W[P]||function(){(W[P].q=W[P].q||[]).push(arguments)},W[P].l=1*new Date();o=i.createElement(s),p=i.getElementsByTagName(s)[0];o.defer=1;o.src=e;p.parentNode.insertBefore(o,p)})(window,document,'script','//loader.wisepops.com/get-loader.js?v=1&site=2ihQZY6Y4V','wisepops');
+	</script>
+
+	
+	<div class="icn-sticky-footer">
+
+		
+	<div class="icn-share-holder-mobile-wrapper">
+		<div id="icn-share-holder-mobile" class="icn-share-holder-mobile">
+			<button id="button-share-menu-toggle" class="button-icon-circle button-transparent button-share-menu-toggle">
+				<span class="screen-reader-text">Toggle Menu</span>
+				<svg width="22" height="22" class="icon icon-close" fill="none" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path fill="#000" d="M2.515 17.556L18.07 2l1.414 1.414L3.93 18.97z"/><path fill="#000" d="M3.929 2.073L19.485 17.63l-1.414 1.415L2.514 3.487z"/></svg>				<svg width="22" height="22" class="icon icon-share" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16 5l-1.42 1.42 -1.59-1.59V16h-1.98V4.83L9.42 6.42 8 5l4-4 4 4Zm4 5v11c0 1.1-.9 2-2 2H6c-1.11 0-2-.9-2-2V10c0-1.11.89-2 2-2h3v2H6v11h12V10h-3V8h3c1.1 0 2 .89 2 2Z"/></svg>			</button>
+			
+<div class="icn-block icn-share-holder">
+
+	<h3 class="block-title">Share this article</h3>
+
+	<ul class="icn-share-links">
+		<li><a href="http://twitter.com/share?text=Five%20Years%20After%20Hurricane%20Irene%2C%20Vermont%20Still%20Striving%20for%20Resilience&url=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" target="_blank" data-option="twitter"><svg width="24" height="24" fill="none" class="icon icon-twitter" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M11.745 24c6.486 0 11.744-5.373 11.744-12S18.231 0 11.745 0C5.258 0 0 5.373 0 12s5.258 12 11.745 12z" fill="#000"/><path d="M9.595 18.33c5.21 0 8.057-4.41 8.057-8.232 0-.126 0-.252-.006-.372a5.873 5.873 0 001.416-1.5 5.652 5.652 0 01-1.627.456A2.882 2.882 0 0018.68 7.08a5.66 5.66 0 01-1.797.702 2.79 2.79 0 00-2.067-.912c-1.562 0-2.83 1.296-2.83 2.892 0 .228.023.45.076.66-2.355-.12-4.44-1.272-5.837-3.024a2.95 2.95 0 00-.382 1.452c0 1.002.5 1.89 1.263 2.406a2.737 2.737 0 01-1.28-.36v.036c0 1.404.974 2.568 2.272 2.838a2.767 2.767 0 01-1.28.048c.358 1.152 1.403 1.986 2.642 2.01a5.616 5.616 0 01-4.192 1.194 7.769 7.769 0 004.327 1.308z" fill="#F7F7F7"/></svg></a></li>
+		<li><a href="mailto:?subject=Five Years After Hurricane Irene, Vermont Still Striving for Resilience&body=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" data-option="email"><svg width="40" height="28" fill="none" class="icon icon-email" viewBox="0 0 40 28" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="2" width="38" height="24" rx="1" fill="#000"/><path d="M3.88 27h32.24c1.897 0 2.728-2.394 1.239-3.57l-16.12-12.726a2 2 0 00-2.478 0L2.64 23.43C1.152 24.606 1.983 27 3.881 27z" fill="#000" stroke="#F7F7F7" stroke-width="2"/><path d="M35.957 1H4.043c-1.93 0-2.74 2.465-1.186 3.61l15.957 11.758a2 2 0 002.372 0L37.144 4.61C38.698 3.465 37.888 1 35.957 1z" fill="#000" stroke="#F7F7F7" stroke-width="2"/></svg></a></li>
+		<li><a href="http://www.facebook.com/sharer.php?u=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/&p[title]=Five+Years+After+Hurricane+Irene%2C+Vermont+Still+Striving+for+Resilience" target="_blank" data-option="facebook"><svg width="25" height="24" class="icon icon-facebook" fill="none" viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg"><path d="M24.49 12c0-6.627-5.373-12-12-12-6.628 0-12 5.373-12 12 0 5.99 4.387 10.954 10.124 11.854V15.47H7.567V12h3.047V9.356c0-3.007 1.792-4.668 4.533-4.668 1.313 0 2.686.234 2.686.234v2.953H16.32c-1.49 0-1.956.925-1.956 1.874V12h3.328l-.532 3.469h-2.796v8.385C20.101 22.954 24.49 17.99 24.49 12z" fill="#000"/><path d="M17.16 15.469L17.692 12h-3.328V9.75c0-.95.465-1.875 1.956-1.875h1.513V4.922s-1.373-.234-2.686-.234c-2.741 0-4.533 1.66-4.533 4.668V12H7.567v3.469h3.047v8.385a12.084 12.084 0 003.75 0V15.47h2.796z" fill="#F7F7F7"/></svg></a></li>
+		<li><a href="https://www.linkedin.com/sharing/share-offsite/?url=https://insideclimatenews.org/news/01092016/five-years-after-hurricane-irene-2011-effects-flooding-vermont-damage-resilience-climate-change/" target="_blank" data-option="linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="icon icon-linkedin" viewBox="0 0 24 24"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h16c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z M8.339,18.337H5.667 v-8.59h2.672V18.337z M7.003,8.574c-0.856,0-1.548-0.694-1.548-1.548s0.691-1.548,1.548-1.548c0.854,0,1.548,0.693,1.548,1.548 S7.857,8.574,7.003,8.574z M18.338,18.337h-2.669V14.16c0-0.996-0.018-2.277-1.388-2.277c-1.39,0-1.601,1.086-1.601,2.207v4.248 h-2.667v-8.59h2.56v1.174h0.037c0.355-0.675,1.227-1.387,2.524-1.387c2.704,0,3.203,1.778,3.203,4.092V18.337z"></path></svg></a></li>
+	</ul>
+
+</div> <!-- /.icn-share-holder -->
+		</div> <!-- /.icn-share-holder-mobile -->
+	</div> <!-- /.icn-share-holder-mobile-wrapper -->
+
+	
+	<div class="icn-cookie-notice">
+
+		<div class="content">
+			Inside Climate News uses cookies. By continuing to use this site, you accept this policy. <a href="https://insideclimatenews.org/about/privacy-policy/">Learn More</a>
+		</div> <!-- /.content -->
+
+		<button class="button-red js-close-notice">Accept</button>
+
+	</div> <!-- /.icn-cookie-notice -->
+
+			
+	</div> <!-- /.icn-sticky-footer -->
+
+	
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+
+		gtag( 'event', 'read_article', {
+			"author": "By Kendra Pierre-Louis",
+			"category": "Science",
+			"non_interaction": true
+		} );
+
+	</script>
+
+	<script data-minify="1" type='text/javascript' src='https://insideclimatenews.org/wp-content/cache/min/1/wp-content/plugins/insideclimatenews/build/article-meter/index.js?ver=1688062671' id='icn-article-meter-js' defer></script>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/insideclimatenews.org","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' src='https://insideclimatenews.org/wp-content/themes/insideclimatenews/js/js.cookie.min.js?ver=3.0.0-rc.1' id='js-cookie-js' defer></script>
+<script data-minify="1" type='text/javascript' src='https://insideclimatenews.org/wp-content/cache/min/1/wp-content/themes/insideclimatenews/js/tiny-slider.js?ver=1688062671' id='tiny-slider-js' defer></script>
+<script type='text/javascript' src='https://insideclimatenews.org/wp-content/themes/insideclimatenews/js/public.min.js?ver=2.14.0' id='icn-scripts-js' defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://insideclimatenews.org/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

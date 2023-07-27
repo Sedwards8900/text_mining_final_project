@@ -1,0 +1,310 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 15100000,
+        "search_time": 0.48,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Hampshire storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:09:54.065Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Hampshire+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_auxden9a2vi"
+    },
+    "organic": [
+        {
+            "link": "https://www.wmur.com/article/new-hampshire-severe-weather-strong-storms-61423/44196690",
+            "display_link": "https://www.wmur.com \u203a article \u203a new-hampshire-sev...",
+            "title": "Strong storms move out of New Hampshire Wednesday night",
+            "description": "New Hampshire will see showers and thunderstorms diminish by late this evening with a few passing showers possible overnight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wmur.com/article/new-hampshire-weather-forecast-storms-714/44543122",
+            "display_link": "https://www.wmur.com \u203a article \u203a new-hampshire-wea...",
+            "title": "New Hampshire forecast: Flood watch for southwestern spots",
+            "description": "More scattered thunderstorms are expected to move through New Hampshire Friday Night, brining some locally heavy downpours, strong winds and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.foxweather.com/category/new-hampshire",
+            "display_link": "https://www.foxweather.com \u203a category \u203a new-hamps...",
+            "title": "New Hampshire",
+            "description": "Articles and videos on Fox Weather.",
+            "rank": 3,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nhpr.org/tags/severe-weather",
+            "display_link": "https://www.nhpr.org \u203a tags \u203a severe-weather",
+            "title": "Severe Weather | New Hampshire Public Radio",
+            "description": "Climate change drives an uptick in severe weather in New Hampshire, from droughts to flooding. Diver Jessica Paratto wins an Olympic silver medal.",
+            "rank": 4,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.npr.org/2023/03/14/1163334629/noreaster-storm-snow-new-england-outages",
+            "display_link": "https://www.npr.org \u203a 2023/03/14 \u203a noreaster-storm-sno...",
+            "title": "Nor'easter dumps snow on New York, Massachusetts ...",
+            "description": "Large outages are reported in New Hampshire, New York, Vermont and Massachusetts. The storm is dropping massive amounts of snow less than a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.weatherbug.com/weather-forecast/now/manchester-nh-03103",
+            "display_link": "https://www.weatherbug.com \u203a manchester-nh-03103",
+            "title": "Manchester, New Hampshire | Current Weather Forecasts ...",
+            "description": "Want to know what the weather is now? Check out our current live radar and weather forecasts for Manchester, New Hampshire to help plan your day.",
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.weather.gov/gyx/weatherstory",
+            "display_link": "https://www.weather.gov \u203a gyx \u203a weatherstory",
+            "title": "Weather Story for New Hampshire and Western Maine",
+            "description": "Weather Story for New Hampshire and Western Maine \u00b7 Current Hazards \u00b7 River Flooding \u00b7 Briefing Page \u00b7 Current Conditions \u00b7 Observations (List) \u00b7 Rainfall \u00b7 Radar.",
+            "rank": 7,
+            "global_rank": 14
+        },
+        {
+            "link": "https://www.wbur.org/news/2023/07/18/new-hampshire-tourism-businesses-summer-rains",
+            "display_link": "https://www.wbur.org \u203a news \u203a 2023/07/18 \u203a new-ha...",
+            "title": "New Hampshire tourism businesses feel impact of this ...",
+            "description": "Businesses in the tourism-reliant Lakes and White Mountains regions say this summer's heavy rains are putting a damper on their bottom lines ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 15
+        },
+        {
+            "link": "https://www.unionleader.com/news/weather/april-storm-brings-snow-to-new-hampshire/article_31c7857d-eb02-5dc6-83f1-698b28295ff2.html",
+            "display_link": "https://www.unionleader.com \u203a News \u203a Weather",
+            "title": "April storm brings snow to New Hampshire | Weather",
+            "description": "April storm brings snow to New Hampshire ... of Exeter cleans the snow off her car parked in downtown Exeter during Friday's snowstorm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 16
+        }
+    ],
+    "videos": [
+        {
+            "link": "https://www.wmur.com/article/new-hampshire-weather-video-afternoon-72523/44640081",
+            "duration": "1:21",
+            "duration_sec": 81,
+            "title": "NH forecast video: Hazy, warm with late-day storm chances",
+            "source": "WMUR",
+            "author": "WMUR",
+            "date": "1 day ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wmur.com/article/new-hampshire-weather-video-evening-72423/44632210",
+            "duration": "2:54",
+            "duration_sec": 174,
+            "title": "NH forecast video: Scattered storms, with warmer trend this ...",
+            "source": "WMUR",
+            "author": "WMUR",
+            "date": "1 day ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wmur.com/article/new-hampshire-weather-video-evening-72523/44643288",
+            "duration": "2:54",
+            "duration_sec": 174,
+            "title": "NH forecast video: Warmer, more humid weather ahead",
+            "source": "WMUR",
+            "author": "WMUR",
+            "date": "23 hours ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBEQACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAADBAUGAgEHAP/EAD0QAAIBAgUBBQUFBwMFAQAAAAECAwQRAAUSITFBBhMiUWEUMnGBkRUjQqGxJFKTwdHh8DNUkhYlNIKDB//EABsBAAIDAQEBAAAAAAAAAAAAAAQFAAIDAQYH/8QAMREAAQQABAMGBwEAAwEAAAAAAQACAxEEEiExBUFREyJhcZHwFDKBobHB0eEj0vEV/9oADAMBAAIRAxEAPwDGrLc3sTgqkPaN3rxsCq3B6eWOaLq8EuprFbY7suJ+DK6ioI1RmNebkb/TAEvEsPFpmsrJ+IhZo5wCaHZqSUqsCRm5AeSVuPQcC/zwC/jMXN3orxSRS3kOycouz7JK7LWUl4DpY62Cq1uPK/zv/IWTijNCWnXy/uy30AsapfNYZaGAGR2ka/ibV4Y77X6X/LG+DxUOIlDCcoKBZxFr3FoGykxpExsajXYWtr2/4iw+dsevgwuFq2AO8d1k+eU7mkOWkprWsukG+nVZb/DjG5w0Rdmy6qgneBWZdZNSZfWTSioaI6gpR9TXYAC+4I9NvjhBxaefCuEkYtp0vTdXdieyaAWXr1qlYreycr0ytls7yLyYXdk0i34eOtsJYuNwZ6xDB5jf7UFu3Evd8o+9/kftTqeiq8viMTU8oiT3Qzqz268HjD+LjeCDsjXd3qhHzRufRNFGoK9oJBV5fVtGb7tE9gx4s68H/wBhthoYYcQ3MNfELQSyR80XNcxizKT2moo6dqwrpd45CqyqL2BQ3APHiBH5AYHGCfGbbqPFb/FNeKdoUnHRxyoHj+7Lb6JCG0+lwT/PFnYc1YVWzgGjquZad6cAyIAp4cbj64Fc0t0KIa4EaIYew2I+uKlWRu7llHhUn4Y5YVqKEaWYco30x2wplKXDwjjFqKpojUDUzZjCla2iIqWCtJ3YkNxtq6fzxcF4YQwgE8yL+ypla5wLgSB0Wjqc07PwxsvsESMAdLqSSD5i67nGHw+IJt0uiI7WACuzT/8A+ZSQ1/buoFGs0+Xx0chLyKSmrWunngkfzttjSYNMVEC/IIdkMWfM1oC3NTHnFPVWRWkp/bwlxSpcQd2G1DShudZ08dOm5xh2UJGwultRGwS2jtOTGopKNCwPdOsAGglr3e4OnZrWAN9JPWw72eHrZTvrypPaAiUR0aPKtUwsaYaO6AexF03uQuwJJ8wTiCKAclUg3sjvFmtQaq2XLTAVMRpmFLE14Wk0MDe+4Ua97Hf0x1rY21S7R6JbMRnndSx0OVRtNE8ikvSoBJYylLG1iCoj/wCVtje2jct6lQ5uQXmnNUWZxlq60r3VIkolBeDVIF0nRYEjQbkn1K32rljOnKvuocx3C2q01OoAWCIAcAINsCGJh1IHotaC/GjpibmniJ8+7GO9mzoFUxsPJcfZ1ECT7JT3PJ7pd/yxcEjQK2UdF++z6L/aU/8ACX+mO5ndVMo6L0UFGOKSAf8AyXEzHquZR0XvsNJYj2WCx5HdjEzHqu5QFz9n0X+zp/4S/wBMcXVlMr7NUklbVyyxAXmcgW6ajgOWV2bKESMrGAqrJ2Xy12v3IHyxlnkHNTtfBfA4qJoIjO8ZllI+7hA95ug9T+WPQPLIWdpKaCTl9mgreWZTmNOv7QyNNNeST7w+AW2BsOm23rjzGM4qJm0Ovlfl4LObDyuOunhzTNRmE9Gj01LDLNIq65O7V3NvM2HAwIwPnIeXe/Vep4bw1uHhD5CLPXX6KDLVZpLKjF56eOUa0JZ1Vx5j97n9MHZRE3V1p6xsezQ00t7QxEU1LBU1UmmaAd8O9N9REYOnrYa3v5ad+DgLLmdnDjp4rz00mdx0FKYMyrlqfaknhECbuDKQJG89W+1vhjEgZcmZ18v5Wn7Vvh3Ftiq9FMzPtbSxUE1PQPVlmNhJHU6gCeusknbja/phjheE4x72SSuAHj/10QLsTFG0tYLI97pvs9nsWZ1UdHM01PVsCI7Ts4ey3O+2+x2xXi3CsVgGGUPzM58qvlVlcw/Emyii3X6LUoKlB4KmR3HAdjbHmzO47k+q3cQ7kAmfaHEkaMk5kIvqCsUv134HzxUOkouDzXmhneSB3lW6y641WYE2CTMbjpc2GLmUginmvfihXnPYAUSetrdb09FWaHLEzVM4YiEdFVV5bf5C1+RhjERlzy3XIA7+ZPL2OZWeGjdJHrvaz2fLmmTLCftfM5IGbTqeWyNcX5D3/LDvh2Ihx8vZuY1vld/W91YiWHMQbAUmCvzCaqiRa+oNQWRVd5GYLvtsTY+o62x6GbDwwYZ7QNx+ViySSWVtnRaFez2VEGok7Q18mk6dXttgp+XGEmdwTwQR0plW1TR1ktOtbUyxoR3cjSkl1IuOvrb5YeYGTtY+8NklxkfZSU06FdQZjUof/Jm/iN/XBRY3ohQ49Vpuzfaqpy2QIXLwtyjH8wehwFicIyUa7omGcs31C1knamqYhqemeaMjZ0t+fkfTCg4JwNJo2aEi6WJihpYKhYVkL1Lr4316VQC5+XPGEeMxs+LJleO6Nh7+5V4uHSRR9qB3ht1Xc8whjmZGUwqNKSM27bDwgbXJNyd+owMGlxF7n3f0VooZmztaNZDvzodfpaFRGpy2snqmzDLqqM6QL1MaKZR4luTc2uDbg84dMwhAobeaOnxTJGBpaQR4cvVI1NLHXfZ8cFRRzS0o7kaqtQ0/iCKoKquw033HB3bGz8NbXa7++qmHxLYnEOBAPReUubVVVJKan2NySzN3kGoksDY7+QOw8rYGfiC3doPv8LV+ChBGRxHNfqYd9Vp3hSQzS+CNOA7G+6+Xlz+mBXkusgUUQ7s2NDQbACfzSkloaGuqMtkplkgUSke8rrtckDY7Ejrcg77YvhsJ20zY5DodEqxOIaIi5rdVDGVVBy156+qqXlKq1MlKoUxt090De53IsP1xtJiofickLRlFglxJsc7s/bdUZhHiHNIdfDkuuz655PI032qRSU0qpNHWVL6Qb+K9jewDX5HTBnEY+GxENZFedtggbXtd9fHbzS+ATuBLzVGj78FrKrtXQUlMKiRpmJf7uBIyZChLAbE3tsBcjcg2JvYJTweSRpyso+JRPaMbzTde9aIe+leCKNjYoxIPkLsD8Nuvrhbh42OcWsBJHvb2egtR2RjiQECszCmpjJM6VDqIdKRxwSOWOskAALyRsb7DbxHnDT4N0ncYyr6ivuu5w02sjXdoausY5ZVQw0FDOoDNWxanhVhf3QbWta1/MXwxZwMwRnE6ucOTTufH90hjiW9p2Y0B6qZl02XUdfG1HRuqK5XvXmazjoQh4B9SbYaR4HGOhzTO8arX18PJZDEwtlFDwtaUVW7Rtl8CxE3spFifP4evPpgPknN+Cg5rWxz1jNEoUAWsONvL0w9wEJjis89Ugx0zZJe7ySyyXODSg0ykhXcHFCuqlBmpWMC/HrjIsVw5cNEsk7NHLoihBMsmpjrNunzA+QPnt4e8rRmFk7DTT3/F7uRsgYDHueRNe/voqcDyewNPUU+iniHgMj+KQ+g07f3wK5rTKGtPePTl90MJRHI2JoBefPzNmh5n6LI1kgnrZJJkRdROgE7KNtuBh3Bhz2eVup8E6Y0NID69f8VPsrltNm1bLTzOLKgYBUBHvAFiegANz54xma9g10Q2PxDYmAsAKuU0dLDSUkgjkRamIypeB9zrZTpIBuvhBB8mB64XYhj71S6HEXYrml/aIvaXAWSWzghSXiKNtwbX4v8ADG2HLYxme21vMySdgDDVJiop/a0lWqjrJIpQO8/7g5UkDwhtvh8LcHBsHEI4nZ2s15c0qnwDndxzh+F+eKtaOWCllhhKeBNSFtG2w53sLdPlhW8xCTM4Gt6vxTBoeY6BFgdEHLcpzGmWGOozmRUlOkrTBWvYFrnWDuT5jfqTgx3FImNd8PFR5k/5WiWnCyONSPvoKr/1aBaMLGwNVWLHrAu1jdnKixv5ll+ptwbBMxeNlYacD78lkYcpU/tLm8mW0U/tMc7xq0ap3MemQat916Cw5NubWuMcwWEkMwbGadR5mv79PC0umM+Y60PFYnNM7rK4J7D7VSqG3MlQQzA+8CF28vpj1uB4diY+9K6/A/7ss3TNAyk2UjPOzyF6iZ5JD+JyWYgbc4aTYhmGAaAsI4nTGyV5l1TfNaIIvNTFsevjG2FsuNlkFbDwRjMOxmu6+uUnZWhbPqqGeqrPZIAHSiZSFJtfdr+50F7XsfLcUxhG9oapfHarNGqa+pqgAVnmeUDiwZiRb642jxMsegOiFkhY82USKsR9jdTg+HHhxDXBCSYYtFgp2OTocGlDhF36HFVZUmq6eesjglilipONCqWJJ2F7ck/50x4owyRQ9pG63denla+iStkZEcmrtzf456Khn+bdwsNPAGhRQQCVO/Qcjbb9cY8MwsMhc6c2eVfdDcPhhzOlfufz/wC/dZ2jrFhqlqWWGRg4YrNZla3Qjr649LhRlBY1tN6pm7I+MtzVf2VIZxH7oy3LWU8g6vFuCb79bcf3v2VrQ3K51oH4F5FCc+q8pc0n7p1ipKdDJc6wpJjuqrsSfTVvexYnCdz2CwWCll/8qxm7Q2vyzTPmsjr3cEUz2u7HQhJ6sfJep8r4wIY8Vt+kSKw8feN6ep/Sr01dPFljo89JqksyE1aDQPCzAWUnUSgF7kDawOLDDt2zAfVKMTIJJc4aa8keasczVE8M9K5nkMgp1mDupPIDC1xtsbdRgafDMyh2YfQqQTPHco+iJRrDOkUs9Qs8k3+hHGxGsnott7ebWJsPlgNwfZYwV19/pdmcA29yfsl5ZqjKwsgkr2/aizyBA6qRpLKskvH+mLi4F0GwAKlhA6Mtp7a8gPwP59eaw+HJH/GRttaydfncubgCOSQUi6SI2iWMhlBUe70C2sLkb3549BwvAtZI6Zw1Gg8t/Z3SLFvugkScPbQSmVs9qkLfgWOEmOfmmromGGbTLXizNAyzx7vGQ6/EbjASIX2/tXnpooe0Fc47qWSleGjdbkSK+lFb5MRt8xycb8rVl8NuB6WxguLlJfvLg7DEBINhcIsKvFKGtj0LXZmhw5pWW0aTIksNjiLiu1yrQOsEKpJMBaWQre5I3A8gOPPHjYIXYhgcb7x7o8BzX02JjpWEuO6QLzV1QIdD1ErGwRV1amt0UeQGHeHZhMNTWjXayrkRxijWUdV1S0NQyrLDSzMsshSMpEdLML3A252J+WCw6GEElwvci+So3EQMJ7wCXqIyHkhljIlDaWVksQb2IPlhViJg+9Vo5zHMsc1pMgokhniqJstqHpJotiVMwcBkJ0+Fhci43A2Y2YHC/s5SLq/ok2MlbWRkmoPWvz+lxX03eUlIVo6hRCd/2Yp3YEUasGJX7w6u8bUb7MfUCxilAOVu/wDUHh5mdoe0eushpIqpdaVEmpSSbajpXj5k+WAp840DUwxMkcYpUq+lpQkAhqHBeMSXkcFXAteygEta+4tbAzO1bq4f315JeJ3PJYdeiC+a0sepZK4IRp3khWMS3JBHucW+N723wVhsLnOY6ep/aj4XNAoEk7++aDmNXHUUlTItXTJIsplLxK15CQSq6SvAFx1tv53JnYMr5x7+qox0sTtWn3usLTOskbNGqiIsTHpFhpJ22x6jA5hCA5eexWUyktXr4LtD0szVTmSdpbEAttfrhBKc7y7qmbG5WgJiGYMLHjGKst32qzOT/o7J6cymUVSpLqZrsgVd09QGI36Wt0xo490KywckmMlxBp3YltILEHfFioq9K7d0NQIthtg35oq6ICdtPtNCbbnBSxVl5HeIMsRJ0ncML725/PCpot5ezYAgeC+ptJIzBqa7PkUua0Ts1tEoYnXoH16C+LBjJMO9o38rQ+MYfhnACzSv/dGmijWqy+6SpZlrQD3aO7RndCAwZ99jcDgXwO+Al16+nOgDz20XnXFxdq13pz/iyNYzVGYTViosZmmeQRpJdFBubD+1sBuZkbTk9ghLI2UTfj7K9iNQZYVEsqLI9iEmYA2Une1v3QMZZsoJtSeGN5aHsGp/p6c0/rnMya5p2Btv3zbBR8eOMZ9q4jcrjsLBsGBU8vrYsth1LXdzIysADC7qp20tZTvv0N+mJHGx3zGigeICZ7gBHYFaoVdVxVVPCtNWIvs6hESOnkVWtYX8RNupPF9+uOuhjbbs1lUw0MrZe9GRfO9krDNSBBNV3VV2dOWY9Qo6/H1vjLs5HOyRiyUfNiY4oy6SlNq6mSpTQw0QX1LDe9vifxWx6PCcOjgIe7V1e6XjcXxGbEd3ZvvdJvYCw2AwytL0B/LHbUUaWn3kjuTueTfCCQZJCExYczQUnDdNm6bHFCrpuprGmp6aA30U6sAL9WYkn6aR8sQnRRKG7bDrjgURIYgi6gCH6sDjpcon6MSCM961yTcfDDTCNLWWeaDnNuRr4KtYUrqNoV0SNiysSSv4QTz/AJ6482M2YEPoHRfTQ+nZRv0QVZ9d7sdQxZrpYZdFs12YWm1IEZBHx9cHSYoAWdV20usgqJgkMsZdV121i24Nv89MLpJSTmIQ/asc8AHx/QWmfKMuhqNULSMpopJbyTBe6tujPdfCG3vyBp5O2BiSdD19+iRvx8wJeSNPD3/qzSZzDMUljEjIE/cbe536fpjduElI2RbuK4Ua5tU3BKKvZYVcoQWRHINunhIGMnxOiNOsfRbMxcczbYQQN9f8CrQyUoglkmhdo44GILalJbgadJHU3N77A4wAcN1lisS4AFh1/SQz5qA5nBBlqtJUtAe/RDrMek2UGxYarc2PQbDjDzhVtYS7QHb9rymPe6WS3GypbHbbDi0vpAkOJalJdzjilIMDUkOYQT16l6YE647kByASoJG4BNgSN7YBxjG6ORMB5Kz2posmnjgqaYQ0Ms6nS0MWmnLKPcYL7rW6/XC1pcd0zkjYAK0UPJuz1XmY1MyQQ3t3j7k/AD9TYYjjSyjhc9N552fTK6c1FFOaiJNKzhgNURPB2/CTsD0Ox6E8acwtcljyGlCjXvG8XujpgvDQh5zHYIaV+UUE2r4aIRd6sS1KWtcL7Msd9Ls93PHhFwB+mPMYOMSzgPNAflfTBq/XkkZZBTo7P4QrG5w6x4DW03clc7QRsLnaAWpXtlRMG1NojbiMDcfPFIcE0AF+q8ji+OTyFzY9Gn1VODPauKhp6NKbLZIqcWj9opBIQL3tgl0DClDZSKRKbOa2KKmjEeX93A7sqGjUqQ97ra9gu/AtewvfrQ4ZhNq3bvApdyZhJNTdx7NQwrpVb09MIyNJB2I89IB9MaMiDaolUc8u5IcTmOaOeNiskZupHT5cH54u9jJPmFrjHuZeU1au9nszrKivaCvrZJomiJUkKpRhsLWG+zEb8YS8WD4WB8Tq12TPhzPiHljm3ztC7Q1WZ0eZlUr6pI3iWRPdsL3BAuPMH6404XI3EwnP8wNLLiDOwmLWHRQaiaWaWSaolaWaRizu1rk/LDdoDRQS86mylnbFrXKS8jYlqUp2YuQFt64Bxp2W0I1KUhq62GExQ1Lxxm9wPxDyPmPjgKwiw9wFBUMt7SvR00cJgMpjuF8dkHkdIFr+pviOaCtGTZRSnVFZWVMksklQ95ffAY2Ivex88QEDQLJzi42USnJCm53vg7B/KULNujhsF2skQPtjilLbVAH2bE9hqZmufPj+px44EtlNeC+jjSQ14KDmpPcVIvsDER6XIvj0c7iXtvwQHEXH4eceAU5cHrw6OmIojpxiKIyYiiIDiKI+XAfasElgXRH0ki9vdwt4oP8AhTrgQBxBvofyFou3IHc5YeojYfUKf1OFPACRLIOS7xYDKDzsrIPj1CSIDdccXUvJiKKfX/g+eBMXsFtFuUlPsht5YBG63QVA2+GLFRFGKFRMRe588MMJ8n1Q8vzIgwUsl2OMcUX/2Q==",
+            "rank": 3,
+            "global_rank": 3
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=New+Hampshire+severe+weather&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgsEAE",
+            "text": "new hampshire severe weather",
+            "rank": 1,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Winter+storm+warning+New+Hampshire&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgrEAE",
+            "text": "winter storm warning new hampshire",
+            "rank": 2,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=New+Hampshire+flooding+today&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgiEAE",
+            "text": "new hampshire flooding today",
+            "rank": 3,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=NH+Weather+Radar+hourly&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAggEAE",
+            "text": "nh weather radar hourly",
+            "rank": 4,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Winter+storm+warning+southern+NH&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAghEAE",
+            "text": "winter storm warning southern nh",
+            "rank": 5,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Goffstown+New+Hampshire&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgqEAE",
+            "text": "goffstown new hampshire",
+            "rank": 6,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=NH+Alerts&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgpEAE",
+            "text": "nh alerts",
+            "rank": 7,
+            "global_rank": 23
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Nh+radar+weather&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQ1QJ6BAgkEAE",
+            "text": "nh radar weather",
+            "rank": 8,
+            "global_rank": 24
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Does New Hampshire have storms?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Does+New+Hampshire+have+storms%3F&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQzmd6BAhCEAY",
+            "answer_source": "Weather Hazards | New Hampshire Department of Health and Human ...",
+            "answer_link": "https://www.dhhs.nh.gov/programs-services/environmental-health-and-you/climate-health/weather-hazards",
+            "answer_display_link": "https://www.dhhs.nh.gov \u203a climate-health \u203a weather-haza...https://www.dhhs.nh.gov \u203a climate-health \u203a weather-haza...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEIQBQ\" data-ved=\"2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQu04oAHoECEIQBQ\"><div id=\"r5nBZIHjNo3nrgTI05jAAw__65\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Extreme weather events common to New Hampshire include <b>severe coastal storms, winter storms, cold waves, thunderstorms, floods, and tropical cyclones</b>. Winter storms and snow are an important feature of New Hampshire's climate.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Extreme weather events common to New Hampshire include severe coastal storms, winter storms, cold waves, thunderstorms, floods, and tropical cyclones. Winter storms and snow are an important feature of New Hampshire's climate."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 9
+        },
+        {
+            "question": "Do hurricanes happen in New Hampshire?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Do+hurricanes+happen+in+New+Hampshire%3F&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQzmd6BAhBEAY",
+            "answer_source": "What kinds of disasters does New Hampshire experience? - NH.gov",
+            "answer_link": "https://www.nh.gov/safety/divisions/hsem/faq.html",
+            "answer_display_link": "https://www.nh.gov \u203a safety \u203a divisions \u203a hsem \u203a faqhttps://www.nh.gov \u203a safety \u203a divisions \u203a hsem \u203a faq",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEEQBQ\" data-ved=\"2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQu04oAHoECEEQBQ\"><div id=\"r5nBZIHjNo3nrgTI05jAAw__68\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CD0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Floods, hurricanes and severe winter storms are the most common natural disasters in New Hampshire</b>, although earthquakes and high wind events are also possible.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Floods, hurricanes and severe winter storms are the most common natural disasters in New Hampshire, although earthquakes and high wind events are also possible."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 10
+        },
+        {
+            "question": "What are the weather hazards in New Hampshire?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+are+the+weather+hazards+in+New+Hampshire%3F&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQzmd6BAg_EAY",
+            "answer_source": "Natural Disasters in New Hampshire: What Is the Risk? - Primal Survivor",
+            "answer_link": "https://www.primalsurvivor.net/natural-disasters-new-hampshire/",
+            "answer_display_link": "https://www.primalsurvivor.net \u203a natural-disasters-new-h...https://www.primalsurvivor.net \u203a natural-disasters-new-h...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CD8QBQ\" data-ved=\"2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQu04oAHoECD8QBQ\"><div id=\"r5nBZIHjNo3nrgTI05jAAw__71\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CD4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">New Hampshire has approximately 19,000 miles of rivers and streams. <b>Snowmelt, heavy rains, and ice jams can cause these rivers to swell, resulting in widespread floods</b>. Heavy rains can also cause deadly flash floods in the state. As a result, many areas of New Hampshire are at high risk when it comes to flooding.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 16, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "New Hampshire has approximately 19,000 miles of rivers and streams. Snowmelt, heavy rains, and ice jams can cause these rivers to swell, resulting in widespread floods. Heavy rains can also cause deadly flash floods in the state. As a result, many areas of New Hampshire are at high risk when it comes to flooding.Mar 16, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "question": "What is the climate in NH?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+is+the+climate+in+NH%3F&sa=X&ved=2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQzmd6BAhDEAY",
+            "answer_source": "New Hampshire - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/New_Hampshire",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a New_Hampshirehttps://en.wikipedia.org \u203a wiki \u203a New_Hampshire",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEMQBQ\" data-ved=\"2ahUKEwjB9tDasa2AAxWNs4sKHcgpBjgQu04oAHoECEMQBQ\"><div id=\"r5nBZIHjNo3nrgTI05jAAw__74\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">New Hampshire experiences a <b>humid continental climate</b> (K\u00f6ppen climate classification Dfa in some southern areas, Dfb in most of the state, and Dfc subarctic in some northern highland areas), with warm, humid summers, and long, cold, and snowy winters. Precipitation is fairly evenly distributed all year.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "New Hampshire experiences a humid continental climate (K\u00f6ppen climate classification Dfa in some southern areas, Dfb in most of the state, and Dfc subarctic in some northern highland areas), with warm, humid summers, and long, cold, and snowy winters. Precipitation is fairly evenly distributed all year."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 12
+        }
+    ]
+}

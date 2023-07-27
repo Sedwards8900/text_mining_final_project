@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 109000000,
+        "search_time": 0.52,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Michigan storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:22.618Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Michigan+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_44gzjjddxzl"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-02-22-winter-storm-olive-minneapolis-dakota-chicago-snow-blizzard",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Winter Storm Olive: 'Extreme Amount Of Damage' To Power ...",
+            "description": "This article is no longer being updated. ... The majority of those were in Michigan, where an ice storm has knocked down power lines and tree branches.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://patch.com/michigan/detroit/what-expect-winter-storms-hits-michigan-midwest",
+            "display_link": "https://patch.com \u203a michigan \u203a detroit \u203a what-expect-...",
+            "title": "What To Expect As Winter Storms Hits Michigan, Midwest",
+            "description": "What To Expect As Winter Storms Hits Michigan, Midwest - Detroit, MI - Winter has returned for a couple days and Southeastern Michigan is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 10, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.manisteenews.com/news/article/michigan-weather-snow-totals-uncertain-march-storm-17815749.php",
+            "display_link": "https://www.manisteenews.com \u203a News",
+            "title": "Michigan weather: Snow totals uncertain with Friday storm",
+            "description": "A winter storm could bring up to five inches of snow beginning Friday afternoon, but there's still considerable uncertainty about the mix of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.foxnews.com/us/severe-storms-leave-hundreds-of-thousands-without-power-across-wisconsin-michigan",
+            "display_link": "https://www.foxnews.com \u203a severe-storms-leave-hund...",
+            "title": "Storm leaves thousands without power across Michigan",
+            "description": "Severe storms leave hundreds of thousands without power across Wisconsin, Michigan \u00b7 A storm bringing dark clouds, strong winds and a drop in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 21, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/02/historic-may-snow-cold-michigan-west-virginia/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/02 \u203a histo...",
+            "title": "Historic May snow in Michigan as unusually cold storm ...",
+            "description": "Two feet of snow has fell in high elevations around Marquette as that city recorded its snowiest May day. Wet snow is also plastering parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wlns.com/weather/winter-storm-watch-issued-for-mid-michigan-wednesday/",
+            "display_link": "https://www.wlns.com \u203a weather \u203a winter-storm-watch-is...",
+            "title": "'Messy' winter storm heading towards mid-Michigan",
+            "description": "The National Weather Service has issued a Winter Storm Watch for ... freezing rain and sleet is on track to move into mid-Michigan Wednesday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.crainsdetroit.com/news/michigan-ice-storm-leaves-power-out-more-700000",
+            "display_link": "https://www.crainsdetroit.com \u203a News",
+            "title": "Michigan ice storm leaves power out to more than 700000",
+            "description": "... particularly impacting parts of metro Detroit and Southern Michigan. \"Ice storms are pretty rare in our territory, and this\u2026",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.pbs.org/newshour/nation/5-days-after-severe-ice-storm-some-in-michigan-still-lack-power",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a nation \u203a 5-days-aft...",
+            "title": "5 days after severe ice storm, some in Michigan still lack ...",
+            "description": "A new storm teeming with freezing rain and strong winds is socking Michigan. It's a fresh challenge for crews that have been trying to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2023/feb/23/winter-storms-us-high-temperatures-snow-blizzard-winds",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a feb \u203a winter...",
+            "title": "Nearly a million across US without power as wild winter ...",
+            "description": "Firefighter killed in Michigan by power line, while 13 million people under winter weather ... This article is more than 4 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

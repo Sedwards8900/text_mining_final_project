@@ -1,0 +1,160 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 54500000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:39:39.277Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_aj1km3ralrw"
+    },
+    "organic": [
+        {
+            "link": "https://impact.rutgers.edu/the-rising-tide/",
+            "display_link": "https://impact.rutgers.edu \u203a the-rising-tide",
+            "title": "Saving New Jersey from the Rising Tide - Rutgers Impact",
+            "description": "Rutgers experts provide recommendations to help New Jersey adapt to rising seas, flooding, storms and other threats from climate change.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.guttenbergnj.org/_Content/pdf/flyers/NJ-Hurricane-Survival-Guide.pdf",
+            "display_link": "https://www.guttenbergnj.org \u203a pdf \u203a flyers \u203a N...",
+            "title": "Hurricane Survival Guide for New Jersey",
+            "description": "Weather Service NYC (NE NJ Counties) - www.weather.gov/nyc ... National Weather Service NYC (for NE NJ Counties) ... Toilet paper & towelettes.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://floodlist.com/tag/new-jersey",
+            "display_link": "https://floodlist.com \u203a tag \u203a new-jersey",
+            "title": "New Jersey",
+            "description": "The storm brought heavy rainfall to the region before landfall. A record 1.94 inches (49.28 mm)\u2026 Read Full Article ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.palegaladvice.com/blog/ongoing-storm-rule-in-new-jersey/",
+            "display_link": "https://www.palegaladvice.com \u203a Philly Injury Blog",
+            "title": "Ongoing Storm Rule In New Jersey",
+            "description": "A recent court ruling helps people injured during snow and ice storms. Related Article: 2021 Ongoing Storm Rule Updated. icy sidewalk injury lawyer in new ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.fox29.com/news/cleanup-underway-after-severe-storms-sweep-through-south-jersey",
+            "display_link": "https://www.fox29.com \u203a news \u203a cleanup-underway-afte...",
+            "title": "Cleanup underway, roads closed after severe storms ...",
+            "description": "MARLTON, N.J. - Cleanup is underway in parts of Southern New Jersey after damaging storms swept through the area on Tuesday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwjAp-XL4K2AAxWjHRAIHawBBSw4EhDm3gJ6BAgYEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://pix11.com/news/new-jersey-seeing-flooding-after-national-weather-service-set-alerts-for-nj-and-ny/",
+            "display_link": "https://pix11.com \u203a news \u203a new-jersey-seeing-floodin...",
+            "title": "Storms cause flooding in parts of New Jersey",
+            "description": "NEW YORK (PIX11) \u2014 The National Weather Service issued flooding advisories Saturday as a major storm pummeled the tri-state area with heavy ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.businessinsider.com/hurricane-sandy-flooding-turned-jersey-shore-into-playground-for-rich-2022-11",
+            "display_link": "https://www.businessinsider.com \u203a Real Estate",
+            "title": "How Hurricane Sandy transformed the Jersey Shore into 'a ...",
+            "description": "On October 29, 2012, Hurricane Sandy brought 5 feet of water into a low-lying home in Highlands, New Jersey, the shore town at the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://weather.com/news/news/2021-09-02-ida-new-york-city-floods-new-jersey-pennsylvania-tornadoes",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2021-09-02-ida-...",
+            "title": "At Least 14 Killed in New York and New Jersey, 3 ...",
+            "description": "Here's the latest on dangerous tornadoes and deadly flooding spawned by the remnants of Hurricane Ida. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 2, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.northjersey.com/story/news/new-jersey/2021/09/02/storm-ida-2021-deadliest-storms-hit-new-jersey/5704497001/",
+            "display_link": "https://www.northjersey.com \u203a new-jersey \u203a 2021/09/02",
+            "title": "Hurricane Ida one of deadliest storms to hit New Jersey",
+            "description": "Twenty-three deaths in Tropical Storm Ida makes it one of the deadliest in New Jersey history.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 2, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcphiladelphia.com/weather/stories-weather/250000-still-without-power-in-nj-pa-as-new-storms-approach/2419916/",
+            "display_link": "https://www.nbcphiladelphia.com \u203a stories-weather \u203a 2...",
+            "title": "Thousands Still Without Power in NJ, Pa.; Even More ...",
+            "description": "A rare type of storm called a derecho barreled across Pennsylvania and New Jersey Wednesday, leaving 400,000 customers without power ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 4, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

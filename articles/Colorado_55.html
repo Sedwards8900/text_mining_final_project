@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" lang="en-US">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel='stylesheet' type='text/css' href='https://static.tacdn.com/css2/build/concat/long_lived_global_legacy-v21142003569a.css' data-rup='long_lived_global_legacy'/>
+<link rel="icon" id="favicon" href="https://static.tacdn.com/favicon.ico?v2" type="image/x-icon"/>
+<link rel="preload" href="https://static.tacdn.com/css2/webfonts/TripAdvisor/TripAdvisor_Regular.woff2?v004.023" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="https://static.tacdn.com/css2/webfonts/TripSans/TripSans.css?v1.002" crossorigin>
+<link rel="mask-icon" sizes="any" href="https://static.tacdn.com/img2/brand_refresh/application_icons/mask-icon.svg" color="#000000"/>
+<script type='text/javascript' data-rup='global_error'>!function(){function e(e){return"object"==typeof e&&"WARN"===e.level?"WARN":"ERROR"}function r(r,t,n,o,i,a){var d={error_script:t,line:n,column:o,ready_state:document.readyState};return f?void(require.defined("ta/util/Error")&&require("ta/util/Error").record(i,"error post load:: "+r,a,d,e(i),{isglobal:!0})):(s.push({msg:r||"",error:i,evt:a,data:d}),!window.IS_DEBUG)}function t(){require(["ta/util/Error"],function(r){for(;s.length;){var t=s.shift();t.msg.match(/(^|[^\w.])ta .*defin/)||r.record(t.error,"window.onerror:: "+t.msg,t.evt,t.data,e(t.error),{isglobal:!0})}f=!0})}function n(){w=null,v=!1,d=c=null}function o(e,t,o,i,a,u){var f=u&&u.target;if(v){if((!d||a&&a.stack)&&(d=a),!l)try{l=arguments.callee}catch(e){}w?f=w:(!f||c&&f==window)&&(f=c),r(e,t,o,i,d,{target:f,callee:l}),n()}else{d=a,v=!0,c=f;try{l=arguments.callee}catch(e){}}}function i(e){e=e||window.event,o(e.message,e.filename,e.lineno,e.colno,e.error||e,e)}function a(e){e=e||window.event,w=e.target||e.srcElement,u&&clearTimeout(u),u=setTimeout(function(){u=0,w=null},1)}var d,c,w,l,u,f=!1,s=[],v=!1;window.__scriptLoadError=function(e,r){if(e instanceof HTMLScriptElement){var t=e.getAttribute("data-rup");if(t){r&&window.define&&window.define(t,[],function(){return{}});var n=new Error("Error loading script tag for: "+t);throw n.level="WARN",n}}},window.onerror=function(e,r,t,n,i){return o(e,r,t,n,i,window.event),!window.IS_DEBUG},window.addEventListener?(window.addEventListener("error",i,!1),window.addEventListener("click",a,!0),window.addEventListener("load",t)):window.attachEvent&&(window.attachEvent("onerror",i),document.attachEvent("onmouseup",a),window.attachEvent("onload",t))}();
+!function(){var e,n,t=0,a=5e3;window.uiOverlay=function(l){if(document.readyState in{complete:1,loaded:1}){var i=arguments;require(["trjs!overlays/uiOverlay"],function(e){e.apply(null,i)})}else document.addEventListener&&(e=[].slice.call(arguments),t=(new Date).getTime(),n||(n=!0,document.addEventListener("DOMContentLoaded",function(){Date.now()-t<a&&uiOverlay.apply(null,e)},!1)))}}();
+</script>
+<script type='text/javascript'>
+window.taRollupsAreAsync = true;
+</script>
+<link rel="preload" as="fetch" href="/static/decodeKey.txt" crossorigin="anonymous"/>
+<script>(function(w){
+var q={d:[],r:[],c:[],t:[],v:[]};
+var r = w.require = function() {q.r.push(arguments);};
+r.config = function() {q.c.push(arguments);};
+r.defined = r.specified = function() {return false;};
+r.taConfig = function() {q.t.push(arguments);};
+r.taVer = function(v) {q.v.push(v);};
+r.isQ=true;
+w.getRequireJSQueue = function() {return q;};
+})(window);
+</script>
+<script type='text/javascript' data-rup='amdearly'>!function(e){function t(e){return"function"==typeof require&&require.defined&&require.defined(e)}function n(e,t,n){t?e[t].apply(e,n):"function"==typeof e&&e.apply(e,n)}function r(){if(u=!0,require.isQ)throw"Fatal error - this page does not have require";if(e.getRequireJSQueue){for(var t=e.getRequireJSQueue();t.d.length>0;)define.apply(e,t.d.shift());for(;t.r.length>0;)require.apply(e,t.r.shift());e.getRequireJSQueue=null}l&&+new Date-i<5e3&&a.apply(e,l)}if(!e||!e.requireCallLast){var l,i,u=!1,a=e.requireCallLast=function(e,r){l=null;var a=[].slice.call(arguments,2);t(e)?n(require(e),r,a):t("trjs")?require(["trjs!"+e],function(e){n(e,r,a)}):u||(i=+new Date,l=[].slice.call(arguments))},c=e.requireCallIfReady=function(n){t(n)&&a.apply(e,arguments)},o=function(t,n,r,l){var i=c;return!r||"click"!==r.type&&"submit"!==r.type||(i=a,r.preventDefault&&r.preventDefault()),l.unshift(n),l.unshift(t),i.apply(e,l),!1};e.remoteModule=function(e,t){return o("remoteModule",null,e,[].slice.call(arguments))},e.requireEvCall=function(e,t,n,r){return e=e.match(/^((?:[^\/]+\/)*[^\/\.]+)\.([^\/]*)?$/),o(e[1],e[2],t,[].slice.call(arguments,1))},e.widgetEvCall=function(e,t,n,r){return o("ta/prwidgets","call",t,[].slice.call(arguments))},e.placementEvCall=function(e,t,n,r,l){return o("ta/p13n/placements","evCall",n,[].slice.call(arguments))},document.addEventListener?document.addEventListener("DOMContentLoaded",r):e.addEventListener?e.addEventListener("load",r):e.attachEvent&&e.attachEvent("onload",r)}}(window);
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title> Colorado Weather - Colorado, United States Forecast - Tripadvisor </title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta property="og:image" content="https://static.tacdn.com/img2/brand_refresh/application_icons/post-image-150x150.jpg" height="150px" width="150px"/>
+<meta property="fb:pages" content="5863091683">
+<meta property="fb:pages" content="329182043776593">
+<meta name="keywords" content="Colorado, United States, Weather &amp; When to Go, Colorado: Weather &amp; When to Go"/>
+<meta name="description" content="Current and forecast weather conditions for Colorado including seasonal information for travelers"/>
+<script type="text/javascript">
+(function () {
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})();
+var pageInit = new Date();
+var hideOnLoad = new Array();
+var WINDOW_EVENT_OBJ = window.Event;
+var IS_DEBUG = false;
+var CDNHOST = "https://static.tacdn.com";
+var cdnHost = CDNHOST;
+var MEDIA_HTTP_BASE = "https://media-cdn.tripadvisor.com/media/";
+var POINT_OF_SALE = "en_US";
+if (typeof DUST_GLOBAL === 'undefined') {
+var DUST_GLOBAL = {"IS_IELE8":false,"LOCALE":"en_US","IS_IE10":false,"CDN_HOST":"https://static.tacdn.com","DEVICE":"desktop","IS_RTL":false,"LANG":"en","DEBUG":false,"READ_ONLY":false,"POS_COUNTRY":191};
+}
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/build/concat/jquery-c-v2864359163a.js' data-rup='jquery'></script>
+<script type='text/javascript' data-rup='object-polyfill-standalone'>window.amdResetOldDefine=window.define,window.amdResetOldRequire=window.require,window.define=void 0,window.require=void 0;
+"function"!=typeof Object.assign&&!function(){Object.assign=function(t){"use strict";if(void 0===t||null===t)throw new TypeError("Cannot convert undefined or null to object");for(var e=Object(t),r=1;r<arguments.length;r++){var n=arguments[r];if(void 0!==n&&null!==n)for(var o in n)n.hasOwnProperty(o)&&(e[o]=n[o])}return e}}(),Array.prototype.findIndex||(Array.prototype.findIndex=function(t){if(null==this)throw new TypeError('"this" is null or not defined');var e=Object(this),r=e.length>>>0;if("function"!=typeof t)throw new TypeError("predicate must be a function");for(var n=arguments[1],o=0;o<r;){var i=e[o];if(t.call(n,i,o,e))return o;o++}return-1}),Array.prototype.find||(Array.prototype.find=function(t){if(null==this)throw new TypeError('"this" is null or not defined');var e=Object(this),r=e.length>>>0;if("function"!=typeof t)throw new TypeError("predicate must be a function");for(var n=arguments[1],o=0;o<r;){var i=e[o];if(t.call(n,i,o,e))return i;o++}}),String.prototype.includes||(String.prototype.includes=function(t,e){"use strict";return"number"!=typeof e&&(e=0),!(e+t.length>this.length)&&this.indexOf(t,e)!==-1}),Array.isArray||(Array.isArray=function(t){return"[object Array]"===Object.prototype.toString.call(t)}),Object.entries||(Object.entries=function(t){for(var e=Object.keys(t),r=e.length,n=new Array(r);r--;)n[r]=[e[r],t[e[r]]];return n}),Object.values||(Object.values=function(t){for(var e=Object.keys(t),r=e.length,n=new Array(r);r--;)n[r]=t[e[r]];return n}),Element.prototype.matches||(Element.prototype.matches=Element.prototype.msMatchesSelector||Element.prototype.webkitMatchesSelector),Element.prototype.closest||(Element.prototype.closest=function(t){var e=this;do{if(e.matches(t))return e;e=e.parentElement||e.parentNode}while(null!==e&&1===e.nodeType);return null});
+window.define=window.amdResetOldDefine,window.require=window.amdResetOldRequire,window.amdResetOldDefine=void 0,window.amdResetOldRequire=void 0;
+</script><script type='text/javascript' data-rup='promise-polyfill-standalone'>window.amdResetOldDefine=window.define,window.amdResetOldRequire=window.require,window.define=void 0,window.require=void 0;
+!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?module.exports=e():"function"==typeof define&&define.amd?define(e):t.ES6Promise=e()}(this,function(){"use strict";function t(t){var e=typeof t;return null!==t&&("object"===e||"function"===e)}function e(t){return"function"==typeof t}function n(t){W=t}function r(t){z=t}function o(){return function(){return process.nextTick(a)}}function i(){return"undefined"!=typeof U?function(){U(a)}:c()}function s(){var t=0,e=new H(a),n=document.createTextNode("");return e.observe(n,{characterData:!0}),function(){n.data=t=++t%2}}function u(){var t=new MessageChannel;return t.port1.onmessage=a,function(){return t.port2.postMessage(0)}}function c(){var t=setTimeout;return function(){return t(a,1)}}function a(){for(var t=0;t<N;t+=2){var e=Q[t],n=Q[t+1];e(n),Q[t]=void 0,Q[t+1]=void 0}N=0}function f(){try{var t=Function("return this")().require("vertx");return U=t.runOnLoop||t.runOnContext,i()}catch(e){return c()}}function l(t,e){var n=this,r=new this.constructor(p);void 0===r[V]&&x(r);var o=n._state;if(o){var i=arguments[o-1];z(function(){return T(o,r,i,n._result)})}else j(n,r,t,e);return r}function h(t){var e=this;if(t&&"object"==typeof t&&t.constructor===e)return t;var n=new e(p);return w(n,t),n}function p(){}function v(){return new TypeError("You cannot resolve a promise with itself")}function d(){return new TypeError("A promises callback cannot return that same promise.")}function _(t,e,n,r){try{t.call(e,n,r)}catch(o){return o}}function y(t,e,n){z(function(t){var r=!1,o=_(n,e,function(n){r||(r=!0,e!==n?w(t,n):A(t,n))},function(e){r||(r=!0,S(t,e))},"Settle: "+(t._label||" unknown promise"));!r&&o&&(r=!0,S(t,o))},t)}function m(t,e){e._state===Z?A(t,e._result):e._state===$?S(t,e._result):j(e,void 0,function(e){return w(t,e)},function(e){return S(t,e)})}function b(t,n,r){n.constructor===t.constructor&&r===l&&n.constructor.resolve===h?m(t,n):void 0===r?A(t,n):e(r)?y(t,n,r):A(t,n)}function w(e,n){if(e===n)S(e,v());else if(t(n)){var r=void 0;try{r=n.then}catch(o){return void S(e,o)}b(e,n,r)}else A(e,n)}function g(t){t._onerror&&t._onerror(t._result),E(t)}function A(t,e){t._state===X&&(t._result=e,t._state=Z,0!==t._subscribers.length&&z(E,t))}function S(t,e){t._state===X&&(t._state=$,t._result=e,z(g,t))}function j(t,e,n,r){var o=t._subscribers,i=o.length;t._onerror=null,o[i]=e,o[i+Z]=n,o[i+$]=r,0===i&&t._state&&z(E,t)}function E(t){var e=t._subscribers,n=t._state;if(0!==e.length){for(var r=void 0,o=void 0,i=t._result,s=0;s<e.length;s+=3)r=e[s],o=e[s+n],r?T(n,r,o,i):o(i);t._subscribers.length=0}}function T(t,n,r,o){var i=e(r),s=void 0,u=void 0,c=!0;if(i){try{s=r(o)}catch(a){c=!1,u=a}if(n===s)return void S(n,d())}else s=o;n._state!==X||(i&&c?w(n,s):c===!1?S(n,u):t===Z?A(n,s):t===$&&S(n,s))}function M(t,e){try{e(function(e){w(t,e)},function(e){S(t,e)})}catch(n){S(t,n)}}function P(){return tt++}function x(t){t[V]=tt++,t._state=void 0,t._result=void 0,t._subscribers=[]}function C(){return new Error("Array Methods must be provided an Array")}function O(t){return new et(this,t).promise}function k(t){var e=this;return new e(L(t)?function(n,r){for(var o=t.length,i=0;i<o;i++)e.resolve(t[i]).then(n,r)}:function(t,e){return e(new TypeError("You must pass an array to race."))})}function F(t){var e=this,n=new e(p);return S(n,t),n}function Y(){throw new TypeError("You must pass a resolver function as the first argument to the promise constructor")}function q(){throw new TypeError("Failed to construct 'Promise': Please use the 'new' operator, this object constructor cannot be called as a function.")}function D(){var t=void 0;if("undefined"!=typeof global)t=global;else if("undefined"!=typeof self)t=self;else try{t=Function("return this")()}catch(e){throw new Error("polyfill failed because global object is unavailable in this environment")}var n=t.Promise;if(n){var r=null;try{r=Object.prototype.toString.call(n.resolve())}catch(e){}if("[object Promise]"===r&&!n.cast)return}t.Promise=nt}var K=void 0;K=Array.isArray?Array.isArray:function(t){return"[object Array]"===Object.prototype.toString.call(t)};var L=K,N=0,U=void 0,W=void 0,z=function(t,e){Q[N]=t,Q[N+1]=e,N+=2,2===N&&(W?W(a):R())},B="undefined"!=typeof window?window:void 0,G=B||{},H=G.MutationObserver||G.WebKitMutationObserver,I="undefined"==typeof self&&"undefined"!=typeof process&&"[object process]"==={}.toString.call(process),J="undefined"!=typeof Uint8ClampedArray&&"undefined"!=typeof importScripts&&"undefined"!=typeof MessageChannel,Q=new Array(1e3),R=void 0;R=I?o():H?s():J?u():void 0===B&&"function"==typeof require?f():c();var V=Math.random().toString(36).substring(2),X=void 0,Z=1,$=2,tt=0,et=function(){function t(t,e){this._instanceConstructor=t,this.promise=new t(p),this.promise[V]||x(this.promise),L(e)?(this.length=e.length,this._remaining=e.length,this._result=new Array(this.length),0===this.length?A(this.promise,this._result):(this.length=this.length||0,this._enumerate(e),0===this._remaining&&A(this.promise,this._result))):S(this.promise,C())}return t.prototype._enumerate=function(t){for(var e=0;this._state===X&&e<t.length;e++)this._eachEntry(t[e],e)},t.prototype._eachEntry=function(t,e){var n=this._instanceConstructor,r=n.resolve;if(r===h){var o=void 0,i=void 0,s=!1;try{o=t.then}catch(u){s=!0,i=u}if(o===l&&t._state!==X)this._settledAt(t._state,e,t._result);else if("function"!=typeof o)this._remaining--,this._result[e]=t;else if(n===nt){var c=new n(p);s?S(c,i):b(c,t,o),this._willSettleAt(c,e)}else this._willSettleAt(new n(function(e){return e(t)}),e)}else this._willSettleAt(r(t),e)},t.prototype._settledAt=function(t,e,n){var r=this.promise;r._state===X&&(this._remaining--,t===$?S(r,n):this._result[e]=n),0===this._remaining&&A(r,this._result)},t.prototype._willSettleAt=function(t,e){var n=this;j(t,void 0,function(t){return n._settledAt(Z,e,t)},function(t){return n._settledAt($,e,t)})},t}(),nt=function(){function t(e){this[V]=P(),this._result=this._state=void 0,this._subscribers=[],p!==e&&("function"!=typeof e&&Y(),this instanceof t?M(this,e):q())}return t.prototype["catch"]=function(t){return this.then(null,t)},t.prototype["finally"]=function(t){var n=this,r=n.constructor;return e(t)?n.then(function(e){return r.resolve(t()).then(function(){return e})},function(e){return r.resolve(t()).then(function(){throw e})}):n.then(t,t)},t}();return nt.prototype.then=l,nt.all=O,nt.race=k,nt.resolve=h,nt.reject=F,nt._setScheduler=n,nt._setAsap=r,nt._asap=z,nt.polyfill=D,nt.Promise=nt,nt.polyfill(),nt});
+window.define=window.amdResetOldDefine,window.require=window.amdResetOldRequire,window.amdResetOldDefine=void 0,window.amdResetOldRequire=void 0;
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/build/concat/mootools-c-v23928644364a.js' data-rup='mootools'></script>
+<script type="text/javascript">
+var jsGlobalMonths =     new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+var jsGlobalMonthsAbbrev =     new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec");
+var jsGlobalDayMonthYearAbbrev =     new Array("{0} Jan {1}","{0} Feb {1}","{0} Mar {1}","{0} Apr {1}","{0} May {1}","{0} Jun {1}","{0} Jul {1}","{0} Aug {1}","{0} Sep {1}","{0} Oct {1}","{0} Nov {1}","{0} Dec {1}");
+var jsGlobalDaysAbbrev =     new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
+var jsGlobalDaysShort =     new Array("S","M","T","W","T","F","S");
+var jsGlobalDaysFull =     new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var sInvalidDates = "The dates you entered are invalid. Please correct your dates and search again.";
+var sSelectDeparture = "Please select a departure airport.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var DATE_PICKER_CLASSIC_FORMAT = "MM/dd/yyyy";
+var DATE_PICKER_SHORT_FORMAT = "MM/dd";
+var DATE_PICKER_META_FORMAT = "EEE, MMM d";
+var DATE_PICKER_DAY_AND_SLASHES_FORMAT = "EEE MM/dd/yyyy";
+var jsGlobalDayOffset = 1 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 1, date: 2, year: 3 };
+var formatDate = function(d, m, y) {return [++m,d,y].join("/");};
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;};
+</script>
+<script type="text/javascript">
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+var curs=[,'CHF','SEK','TRY','DKK','NOK','PLN','AED','AFN','ALL','AMD','ANG','AOA','ARS','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BSD','BTN','BWP','BZD','CDF','CLP','COP','CRC','CVE','CZK','DJF','DOP','DZD','EGP','ERN','ETB','FJD','FKP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HNL','HRK','HTG','HUF','IDR','IQD','IRR','ISK','JMD','JOD','KES','KGS','KHR','KMF','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MNT','MOP','MUR','MVR','MWK','MYR','MZN','NAD','NGN','NIO','NPR','OMR','PAB','PEN','PGK','PKR','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SGD','SHP','SLL','SOS','SRD','STD','SZL','THB','TJS','TMT','TND','TOP','TTD','TZS','UAH','UGX','UYU','UZS','VEF','VUV','WST','YER','ZAR','CUP','KPW','MMK','SDG','SYP','BYN'];
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs[i],false);}
+var curs = [,'USD','GBP','EUR','CAD','AUD','JPY','RMB','INR','BRL','MXN','TWD','HKD','ILS','KRW','NZD','PHP','VND','XAF','XCD','XOF','XPF']
+var curs2 = [,'$','£','€','CA$','A$','¥','CN¥','₹','R$','MX$','NT$','HK$','₪','₩','NZ$','₱','₫','FCFA','EC$','F CFA','CFPF']
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs2[i],false);}
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Your location not found.";
+var JS_click_to_expand = "Click to Expand";
+var JS_choose_valid_city = "Please choose a valid city from the list.";
+var JS_select_a_cruise_line = "Please select a cruise line.";
+var JS_loading = "Loading ...";
+var JS_Ajax_failed="We're sorry, but there was a problem retrieving the content. Please check back in a few minutes.";
+var JS_maintenance="Our site is currently undergoing maintenance.\n\nWe\'re sorry for the inconvenience...we\'ll be back soon.";
+var JS_Stop_search = "stop search";
+var JS_Resume_search = "Resume search";
+var JS_Thankyou = "Thank you";
+var JS_DateFormat = "mm/dd/yyyy";
+var JS_review_lost = "Your review will be lost.";
+var JS_coppa_sorry = "We're sorry....";
+var JS_coppa_privacy = "Based on information you submitted, your Tripadvisor account does not meet the requirements of our <a href='/pages/privacy.html'>Privacy Policy</a>.";
+var JS_coppa_deleted = "Your account has been deleted.";
+var JS_close = "Close";
+var JS_close_image = "https://static.tacdn.com/img2/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Changes saved";
+var JS_community_on = "Community has been enabled";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Updating your results &#8230;";
+var JS_OwnerPhoto_heading = "Thank you for submitting your request to Tripadvisor. ";
+var JS_OwnerPhoto_subheading = "We process most listings and changes within 5 business days. ";
+var JS_OwnerPhoto_more = "Add more photos to your listing";
+var JS_OwnerPhoto_return = "Return to your Owner’s Center";
+var JS_NMN_Timeout_title = "Do you want to keep trying?";
+var JS_NMN_Timeout_msg = "It is taking longer than expected to get your location.";
+var JS_NMN_Error_title = "Location error";
+var JS_NMN_Error_msg   = "There has been an error in trying to determine your location";
+var JS_KeepTrying = "Keep Trying";
+var JS_TryAgain   = "Try Again";
+var js_0001 = "Please select at least one vendor from the list."; var js_0002 = "Please choose dates in the future."; var js_0003 = "Please choose a check-out date that is at least one day later than your check-in date."; var js_0004 = "Please choose dates that are less than 330 days away.";   var js_0005 = "Searching for deals ... this may take a few moments"; var js_0006 = "Your selections have not changed."; var js_0010 = "Please click again to open each window or adjust browser settings to disable popup blockers."; var js_0011 = "Update"; var js_0012 = "Show next offer"; var js_0013 = "Please click the \"Check Rates!\" button above to open each window."; var js_0014 = 'Opens one window for each offer. Please disable pop-up blockers.';
+var js_0015 = 'Compare prices';
+var js_invalid_dates_text = "The dates entered are invalid. Please correct your dates and search again."; var js_invalid_dates_text_new = "Please enter dates to check rates"; var js_invalid_dates_text_new2 = "Please enter dates to show prices";
+var qcErrorImage = '<center><img src="https://static.tacdn.com/img/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'https://static.tacdn.com/img2/checkrates/cr.gif';
+var cr_loc_vend_ch = 'https://static.tacdn.com/img2/checkrates/cr_check.gif';
+var cr_loc_logo = 'https://static.tacdn.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'https://static.tacdn.com/img2/checkrates/cd.png';
+var cd_loc_vend_ch = 'https://static.tacdn.com/img2/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Click to rate",
+"Terrible",
+"Poor",
+"Average",
+"Very Good",
+"Excellent"
+];
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var isTakeOver = false;
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var mapChannel = "ta.desktop.travel";
+var bingMapsLang = "en".toLowerCase();
+var bingMapsCountry = "US".toLowerCase();
+var bingMapsBaseUrl = "http://www.bing.com/maps/default.aspx?cc=us&";
+var googleMapsBaseUrl = "http://maps.google.com/?";
+var yandexMapsBaseUrl = "http://maps.yandex.com";
+var serverPool = "A";
+var posLocale = "en_US";
+var cssPhotoViewerAsset = "https://static.tacdn.com/css2/build/concat/photos_with_inline_review-v2516204174a.css";
+var cssAlbumViewerExtendedAsset = "https://static.tacdn.com/css2/build/concat/media_albums_extended-v2895666976a.css";
+var jsPhotoViewerAsset = 'https://static.tacdn.com/js3/src/ta/photos/Viewer-v23776172971a.js';
+var jsAlbumViewerAsset = ["https://static.tacdn.com/js3/build/concat/album_viewer-c-v21720198776a.js"];
+var jsAlbumViewerExtendedAsset = ["https://static.tacdn.com/js3/build/concat/media_albums_extended-c-v24043183975a.js"];
+var cssInlinePhotosTabAsset = "https://static.tacdn.com/css2/build/concat/photo_albums_stacked-v24123383951a.css";
+var cssPhotoLightboxAsset = "https://static.tacdn.com/css2/build/concat/photo_albums-v2231729968a.css";
+var jsDesktopBackboneAsset = ["https://static.tacdn.com/js3/build/concat/desktop_modules_modbone-c-v21048715873a.js"];
+var jsPhotoViewerTALSOAsset = 'https://static.tacdn.com/js3/src/TALSO-v21232481152a.js';
+</script>
+<script type="text/javascript">
+var VERSION_MAP = {
+"ta-widgets-typeahead.js": "https://static.tacdn.com/js3/build/concat/ta-widgets-typeahead-c-v21909157836a.js"
+,
+"ta-media.js": "https://static.tacdn.com/js3/build/concat/ta-media-c-v22482165621a.js"
+,
+"ta-overlays.js": "https://static.tacdn.com/js3/build/concat/ta-overlays-c-v22202289526a.js"
+,
+"ta-registration-RegOverlay.js": "https://static.tacdn.com/js3/build/concat/ta-registration-RegOverlay-c-v21277032347a.js"
+,
+"ta-mapsv2.js": "https://static.tacdn.com/js3/build/concat/ta-mapsv2-gmaps3-c-v22413618596a.js"
+};
+</script>
+<script type="text/javascript">
+var cookieDomain = ".tripadvisor.com";
+var modelLocaleCountry = "US";
+var ipCountryId = "191";
+var pageServlet = "Travel";
+var crPageServlet = "Travel";
+var userLoggedIn = false;
+</script>
+<script type="text/javascript">
+var migrationMember = false;
+var savesEnable = true;
+var flagsUrl = '/Travel-g28927-s208/Colorado:United-States:Weather.And.When.To.Go.html';
+var noPopClass = "no_cpu";
+var flagsSettings = [
+];
+var isIPad = false;
+var isTabletOnFullSite = false;
+var tabletOnFullSite = false;
+var lang_Close  = "Close";
+var img_loop    = "https://static.tacdn.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "";
+var modelLocId = "28927";
+var modelGeoId = "28927";
+var gClient = 'gme-tripadvisorinc';
+var gKey = '';
+var gLang = '&language=en_US';
+var mapsJs = 'https://static.tacdn.com/js3/build/concat/ta-maps-gmaps3-c-v21692313372a.js';
+var mapsJsLite = 'https://static.tacdn.com/js3/lib/TAMap-v22716202300a.js';
+var memoverlayCSS = 'https://static.tacdn.com/css2/pages/memberoverlay-v23380050421a.css';
+var flagsFlyoutCSS = 'https://static.tacdn.com/css2/build/less/overlays/build/flags/flags_flyout-v2547676453a.css';
+var globalCurrencyPickerCSS = 'https://static.tacdn.com/css2/build/less/overlays/build/global_currency_picker-v21258541837a.css';
+var g_emailHotelCSS = 'https://static.tacdn.com/css2/t4b/emailhotel-v23132220216a.css';
+var g_emailHotelJs = ["https://static.tacdn.com/js3/build/concat/t4b_emailhotel-c-v22180948897a.js"];
+var passportStampsCSS = 'https://static.tacdn.com/css2/modules/passport_stamps-v21996473260a.css';
+var autocompleteCss = "https://static.tacdn.com/css2/modules/autocomplete-v21125419838a.css";
+var globalTypeAheadCss = "https://static.tacdn.com/css2/build/concat/global_typeahead-v22345061948a.css";
+var globalTypeAheadFontCss = "https://static.tacdn.com/css2/build/concat/proxima_nova-v21162278434a.css";
+var wiFriHasMember =  false  ;
+var JS_SECURITY_TOKEN = "TNI1625!AGqYWJ+zdEqJeE9DZExeySdNBu3m0sl8wRHZvgJiN85srtobMJeFhhhqNEJMCIKQi/nztqMxBHfhVs8eYeyE/abW0gaYtL/01Jo/sC5IDVjcVCmDMjYAEfG3mzjq4dvvk2Ve6kLHAsKAjnG4VFiOs8SK2D949FGIfqYbTrL2u2jP";
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+hideOnLoad.push('unsubdoc');
+hideOnLoad.push('unsubspace');
+function setDetails(event, title, category, space) {
+new Event(event).stop();
+$('title').value = title;
+$('category').value = category;
+$('space').value = space;
+$('newPage').submit();
+}
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/build/concat/tripadvisor-c-v22601815378a.js' data-rup='tripadvisor'></script>
+<script type="text/javascript">var taSecureToken = "TNI1625!AGqYWJ+zdEqJeE9DZExeySdNBu3m0sl8wRHZvgJiN85srtobMJeFhhhqNEJMCIKQi/nztqMxBHfhVs8eYeyE/abW0gaYtL/01Jo/sC5IDVjcVCmDMjYAEfG3mzjq4dvvk2Ve6kLHAsKAjnG4VFiOs8SK2D949FGIfqYbTrL2u2jP";</script>
+<script type="text/javascript">
+if(window.ta && ta.store) {
+ta.store('photo.viewer.localization.videoError', 'We\'re sorry, video player could not load');     }
+</script>
+<!--trkP:bot_detection-->
+<!-- PLACEMENT bot_detection -->
+<script type="text/javascript">var taEarlyRoyBattyStatus = 0;var taSecureToken = "TNI1625!AGqYWJ+zdEqJeE9DZExeySdNBu3m0sl8wRHZvgJiN85srtobMJeFhhhqNEJMCIKQi/nztqMxBHfhVs8eYeyE/abW0gaYtL/01Jo/sC5IDVjcVCmDMjYAEfG3mzjq4dvvk2Ve6kLHAsKAjnG4VFiOs8SK2D949FGIfqYbTrL2u2jP";(function() {var cookieDomain = ".tripadvisor.com";var sessionPartition = "-1";try {if (navigator.userAgent.indexOf('MSIE 10.0') < 0) {var val = taSecureToken+",1";val = encodeURIComponent(val);if (cookieDomain) {val += "; domain=" + cookieDomain;}document.cookie = "roybatty="+val+"; path=/";var url="/CookiePingback?early=true";var xhr = null;try {xhr = new XMLHttpRequest();} catch (e1) {try {xhr = new ActiveXObject('MSXML2.XMLHTTP');} catch (e2) {try {xhr = new ActiveXObject('Microsoft.XMLHTTP');} catch (e3) {}}}if (xhr != null) {var seth = function(name, val) {try {xhr.setRequestHeader(name, val)}catch(e){}};xhr.open("POST", url, true);seth('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');seth('X-Requested-With', 'XMLHttpRequest');seth('Accept', 'text/javascript, text/html, application/xml, text/xml, */*');xhr.send('');taEarlyRoyBattyStatus = 2;}} } catch(err) {}})();</script><!--etk-->
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/build/concat/traveler_article-c-v22585960033a.js' data-rup='traveler_article'></script>
+<script type="text/javascript">
+var geoParam = "&geo=28927";
+</script>
+<link rel='stylesheet' type='text/css' media='screen, print' href='https://static.tacdn.com/css2/build/concat/universal_new-v23277938938a.css' data-rup='universal_new'/>
+<link rel='stylesheet' type='text/css' media='screen, print' href='https://static.tacdn.com/css2/build/concat/traveler_article-v23666444179a.css' data-rup='traveler_article'/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="https://static.tacdn.com/css2/modules/checkrates_2col-v21731414262a.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="https://static.tacdn.com/css/brandCompat.css"/>
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="https://static.tacdn.com/css2/build/concat/winIE6-v23211338030a.css" />
+        <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="https://static.tacdn.com/css2/build/concat/winIE7-v21543589224a.css" />
+        <![endif]-->
+<script>!function(){if('PerformanceLongTaskTiming' in window){var g=window.__tti={e:[]};g.o=new PerformanceObserver(function(l){g.e=g.e.concat(l.getEntries())});g.o.observe({entryTypes:['longtask']})}}();window.performance&&performance.mark&&performance.mark(document.visibilityState==='visible'?'visible':'hidden');document.addEventListener && document.addEventListener('visibilitychange',function(){window.performance&&performance.mark&&performance.mark(document.visibilityState==='visible'?'visible':'hidden');},false);!function(){var e,t,n,i,r={passive:!0,capture:!0},a=new Date,o=function(){i=[],t=-1,e=null,f(addEventListener)},c=function(i,r){e||(e=r,t=i,n=new Date,f(removeEventListener),u())},u=function(){if(t>=0&&t<n-a){var r={entryType:"first-input",name:e.type,target:e.target,cancelable:e.cancelable,startTime:e.timeStamp,processingStart:e.timeStamp+t};i.forEach((function(e){e(r)})),i=[]}},s=function(e){if(e.cancelable){var t=(e.timeStamp>1e12?new Date:performance.now())-e.timeStamp;"pointerdown"==e.type?function(e,t){var n=function(){c(e,t),a()},i=function(){a()},a=function(){removeEventListener("pointerup",n,r),removeEventListener("pointercancel",i,r)};addEventListener("pointerup",n,r),addEventListener("pointercancel",i,r)}(t,e):c(t,e)}},f=function(e){["mousedown","keydown","touchstart","pointerdown"].forEach((function(t){return e(t,s,r)}))},p="hidden"===document.visibilityState?0:1/0;addEventListener("visibilitychange",(function e(t){"hidden"===document.visibilityState&&(p=t.timeStamp,removeEventListener("visibilitychange",e,!0))}),!0);o(),self.webVitals={firstInputPolyfill:function(e){i.push(e),u()},resetFirstInputPolyfill:o,get firstHiddenTime(){return p}}}();</script><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/dyfdn5.7f52a5d3.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1qndsd.1f1539d1.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/jppfwt.506c0bf7.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/buj4sn.3bc357f8.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/gw8uw6.9b63a90c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/12r4qu.9f9b9ab5.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/frf6ac.2d3baa46.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1essqv.a9979e8d.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/lr6tb6.0fb44271.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1uvk21.a1f96531.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/vjlqzu.421f787b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/hxluky.65161539.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1l9qeu.4d9195df.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1q13wd.39239d3a.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1uzmmz.69470966.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/d8oes5.c40ba193.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/iog21h.729256fd.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/vpo3wt.31264d9d.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/10of6q.d47ad618.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/14q9l4.4ce60161.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/79a2um.c58dab78.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ybxsm.1087726d.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/tr3542.b50330c8.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/183pm0.ddf4b263.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1973cc.2d2a4fde.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/15hcrw.cc01440e.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ex1xu.d32575d2.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/19m912.13e8a93b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/a3v7hk.caadfe20.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/34bu7w.436a67da.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ubyuk.7b0c5a57.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/oz3g7e.1780861f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/160mj7.fa668d3b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/yug3zc.068bc8bc.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/cjerkd.ad02f216.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/dl4tf4.30d1220f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/76j3t0.ea0476b0.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1uaudg.565b1b43.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/uovzt8.8643332f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/11b5l5.0976c3c8.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/17gmts.0bdb0708.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ttyi9.c8e60165.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/cb79np.3997b55c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/8ggxuf.14e3f214.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/o8gqrw.817b8ff7.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1tbrqz.26ef3c19.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1iahto.0b0d7d70.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/132kj4.3f3402fa.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/gppdva.3d19d05f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/covaqn.7d7c42b0.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/714tj5.3c91b83f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1b1clj.3e965cce.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/p9ucm8.0675cae2.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1u3aio.30c1783f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1xm2jz.74f2cf8c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1i3sz5.e5ea9d16.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ntn26.4dffbacc.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1bkeq2.b98c1e91.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/y591su.4e42f631.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/11uzco.b81ac7e1.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1p2jbr.0607a4da.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/m5f61p.d2f45366.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1n6iz1.a4f74876.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1yajq4.854478c6.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1sivdg.48aab65c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1rbxhs.99d94e4c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1os3i1.5f24aaab.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/lt9m20.7afdac4b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/0sjlpd.3c0279a5.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/lyyh8d.7ec57b4a.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1f2fji.88b7fd41.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/zuqoim.ce4e27c6.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/wrg2oq.d21b6b83.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/36016d.7bfe5215.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1qmz2f.da2def23.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/9d19kg.6cf14b60.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/2mx5e1.58a7f6a3.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/hgn5zt.c6f0757a.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/kq4525.be99ced4.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/bljygq.d7996109.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1d4cn1.d15ec4cd.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/aa8hvr.0e4369e7.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/6g4avl.883bccb0.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1gmrl4.aafadf2a.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/18ec5k.4b795829.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/7s4pzp.8d3f4842.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1a85j3.1649a738.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/9rb8bq.be575a97.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/qhcore.0a2db47b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/cnyhjq.d0f650e1.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/12wscm.2e142301.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1227h6.9b72233e.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1un0cu.84f9353e.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/15h0me.a8f1adce.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/z2nh2s.5dbc4a1c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/s2gl90.d18aaee5.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/ec91du.55c0fa01.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/19l2zs.a1a51190.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1af5eu.d4a101f5.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/9f08a0.c25f5ed7.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/12rns1.857d1d14.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/yk7it8.efff9540.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/6m9vgr.e8452971.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ahn2t.084a6655.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1ndszp.d2f45dcb.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/amwhbz.ee380ada.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/7oyc3j.75353d6b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/2j5if1.bb631803.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/eozxiw.6b44e2bf.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/fm6nx5.600f0361.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1us1vw.a519a8df.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/49c7br.d9a9cf3f.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/ay1l3c.ad42cc12.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/iwbyl5.d3afb23b.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/wgun1f.ffb52a59.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1dpzon.7f867829.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/196t94.2cedc370.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1asj0s.83fbfb8d.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1dpmjf.66c72c51.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/17yaz6.36887428.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/ljqkwp.27cda61a.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/14wi38.5fb32719.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/u59av4.4b468f62.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/94v69w.c3b76a92.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/633gr8.a9e6e6c6.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/a349lq.4cca4825.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/n1m6wk.6640062c.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/bj0rkj.f63382b1.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/cvhtao.e2f7a391.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1lq6xs.d5224ccc.es5.css'/><link rel='stylesheet' type='text/css' href='https://static.tacdn.com/assets/1bovo2.6c3812e9.es5.css'/>
+<style type="text/css">
+DIV.ppr_rup.ppr_priv_unsupported_browser_messaging .unsupportedBrowser {
+padding: 5px;
+background-color: #f2f2f2;
+font-size: .75em;
+}
+DIV.ppr_rup.ppr_priv_unsupported_browser_messaging .unsupportedBrowser .innerDiv {
+padding: 6px 0 8px 79px;
+line-height: 167.5%;
+font-weight: bold;
+}
+DIV.ppr_rup.ppr_priv_unsupported_browser_messaging .ui_link {
+font-weight: normal;
+}
+</style>
+<script type="text/javascript" src="https://static.tacdn.com/js/tripcompat.js"></script>
+<script type="text/javascript">
+function showCascadeSearch(sHotelID, bFromPop, sLinkType, sArea) {
+if(sHotelID == null || sHotelID == '') {return;}
+var tgtUrl = "/HotelDateSearch?d=" + sHotelID + "&returnTo=__2F__Travel__2D__g28927__2D__s208__2F__Colorado%3AUnited__2D__States%3AWeather__2E__And__2E__When__2E__To__2E__Go__2E__html&fromPop=" + bFromPop;
+tgtUrl = tgtUrl + "&area=" + sArea;
+var sFromSource = "Travel";
+if(sFromSource !="") {
+if(sLinkType && sLinkType != "") {sFromSource += sLinkType;}
+tgtUrl += "&from=" + sFromSource;
+}
+var w = window.open ( tgtUrl, "CascadeSearch", "toolbar=0,resizable=1,menubar=0,location=0,status=0,scrollbars=1,width=245,height=610,screenX=5,screenY=5,left=5,top=5");
+if (w != null) {
+w.opener = self;
+w.focus();
+}
+}
+</script>
+<style type="text/css">
+body{}
+</style>
+<!-- web120a.a.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- releases/PRODUCTION_1585946_20230724_0401 -->
+<!-- Rev 1585947 -->
+<script type="text/javascript" src="https://static.tacdn.com/js3/src/trsupp-v21438692020a.js"></script>
+<script type="text/javascript">
+if(typeof define !== 'undefined') {
+define('page-model', [], function () {
+var model = {"session":{"analyticsInfo":{"promosStringForCurrentPageview":null,"cv47Key":null,"cv47Value":null,"evtCookiePUID":null,"cv1Key":null,"cv1Value":null,"memberState":"-","enabled":true,"pagePropertyStringForCurrentPageview":"277","jsonForCurrentPageview":"{\"cv\":[[\"_deleteCustomVar\",1],[\"_deleteCustomVar\",47],[\"_setCustomVar\",12,\"Country\",\"United States-191\",3],[\"_setCustomVar\",25,\"Continent\",\"North America-19\",3],[\"_setCustomVar\",10,\"PageAction\",\"TravelStub_WeatherAndWhenToGo\",3],[\"_setCustomVar\",20,\"PP\",\"-277-\",3],[\"_deleteCustomVar\",11],[\"_deleteCustomVar\",13],[\"_deleteCustomVar\",19],[\"_deleteCustomVar\",14],[\"_deleteCustomVar\",8]],\"url\":\"/Travel\"}","hasEvent":false,"jsonForEvent":null,"pageview":true,"trackerId":"UA-30198665-1","campaignParams":"utm_source=tripadvisor&utm_medium=domain direct&utm_campaign=TripAdvisor","customVariablesForSession":[{"variable":"Member","scope":3,"name":"Member","value":"-","slot":2},{"variable":"EntryGeo","scope":3,"name":"EntryGeo","value":"Colorado-28927","slot":3},{"variable":"EntryCountry","scope":3,"name":"EntryCountry","value":"United States-191","slot":4},{"variable":"EntryServlet","scope":3,"name":"EntryServlet","value":"Travel","slot":5},{"variable":"Pool","scope":3,"name":"Pool","value":"A","slot":6},{"variable":"Slice","scope":3,"name":"Slice","value":"2437","slot":7},{"variable":"MCID","scope":3,"name":"MCID","value":"TripAdvisor-0","slot":18},{"variable":"PageType","scope":3,"name":"PageType","value":"Desktop Page","slot":21},{"variable":"DeviceType","scope":3,"name":"DeviceType","value":"Desktop","slot":22},{"variable":"IPGeo","scope":3,"name":"IPGeo","value":"McDonough-35102","slot":23},{"variable":"ProductType","scope":3,"name":"ProductType","value":"Browser","slot":24},{"variable":"WebServer","scope":3,"name":"WebServer","value":"web120a","slot":48}],"domain":""},"lazyObf":"{\"given\":\"abcdefghijklmopqrsuvwxyzABCDEFGHIJKLMOPQRSUVWXYZ1234567890\", \"replace\":\"mopqrsuvwxyzabcdefghijklSUVWXYZABCDEFGHIJKLMOPQR4567890123\",\"token\":\"###Obf###\",\"validator\":\"<!-- amSZ03nt -->\"}","pageServlet":"Travel","sessionId":"3D557C476FAA4133876CAF327986567C","cdnHost":"https://static.tacdn.com","quickSave":true,"isExternalReferral":true,"useERUserTracking":true,"cookieDomain":".tripadvisor.com","uid":"4ee6f34b-e046-4b69-98fb-dcdcc47dd107","hasReferral":false,"posLocale":"en_US","MEDIA_HTTP_BASE":"https://media-cdn.tripadvisor.com/media/","user_id":"","loggedIn":false,"securelyLoggedIn":false},"DUST_GLOBAL":{"IS_IELE8":false,"LOCALE":"en_US","IS_IE10":false,"CDN_HOST":"https://static.tacdn.com","DEVICE":"desktop","IS_RTL":false,"LANG":"en","DEBUG":false,"READ_ONLY":false,"POS_COUNTRY":191},"JS_SECURITY_TOKEN":"TNI1625!ADAA8tFmeGqLZi6zP7qJgiSPPCDZSvXrVuBLCAhX55QjP6+16UbxpXph0dVrpu3/BCP0fi5RERPxv5Pg+5SMSSiAJuTG3iWI3fgjUvVAILdCMHvIb1vJj0sF/amHaK1sqVMyFos8sLfww+6BdwJHRT7oc88NFEv6OmJTctfzbHVb","GEO_ID":"28927","hotelsInGeo":"1489","LOC_ID":"28927","isMobile":false,"isRtl":false};
+return model;
+});
+}
+</script>
+</head>
+<body id="BODY_BLOCK_JQUERY_REFLOW" class="ltr domn_en_US lang_en globalNav2011_reset rebrand_2017 css_commerce_buttons flat_buttons sitewide xo_pin_user_review_to_top track_back" data-scroll='OVERVIEW' data-navArea-metaType="QC_Meta_Mini" data-navArea-placement="Unknown">
+<div id="fb-root"></div>
+<!--trkP:sync_rt_cookie-->
+<!-- PLACEMENT sync_rt_cookie -->
+<DIV ID="taplc_sync_rt_cookie_0" class="ppr_rup ppr_priv_sync_rt_cookie" data-placement-name="sync_rt_cookie">
+<script type="text/javascript">require(["ta/Core/TA.Store"], function(taStore) {taStore.store("retargeting.rtURL", '//' + 'www.tamgrt.com/RT');taStore.store("retargeting.geoId", '28927');});</script><script type="text/javascript">require(["@ta/platform.runtime"], function (runtime) {runtime.importBundle("@ta/platform.consent").then(function (bundle) {bundle.requestConsent(bundle.CategoriesEnum.TARGETING, function () {(function(window, document) {"use strict";var SYNC_AGE = 1000*60*30; var WHITELIST_AGE = 1000*60*60*24; var HTTP_COOKIE = "TART";var SYNC_COOKIE = "SRT";var WHITELIST_COOKIE = "WLRedir";var MSG_PREFIX = "COOKIESYNC:";var _isNewRTCookie = true;var _tart = 'enc%3AalgzxjwV2iif%2Fpot6gjOwW%2BvYQBltdyrLswmdB3kjSGb73NjKZJoqjHGwi5d7spAwDyn3bFagIQ%3D';if (_hasCookie(HTTP_COOKIE) && !_isNewRTCookie) { return; } var syncFrame = document.createElement('iframe');function _on(element, event, callback) {var legacy = !('addEventListener' in document),   listen = legacy ? 'attachEvent' : 'addEventListener';if (legacy) { event = 'on' + event; }element[listen](event, callback);}function _off(element, event, callback) {var legacy = !('addEventListener' in document),   detach = legacy ? 'detachEvent' : 'removeEventListener';if (legacy) { event = 'on' + event; }element[detach](event, callback);}function _setCookie(name, value, age) {document.cookie = name + '=' + value +';domain=' + window.location.hostname +';path=/' +';expires=' + new Date(new Date().getTime() + age).toUTCString();}function _hasCookie(name) {return !!document.cookie.match(name + '=[^;]+');}function handleMessage(e) {if (!syncFrame || !e || !e.data || !e.data.indexOf || e.data.indexOf(MSG_PREFIX) !== 0) { return; }var cookieValue = e.data.substring(MSG_PREFIX.length);if (cookieValue) {_setCookie(SYNC_COOKIE, cookieValue, SYNC_AGE);} else if(!_hasCookie(WHITELIST_COOKIE)) {_setCookie(WHITELIST_COOKIE, "requested", WHITELIST_AGE);}_off(window, 'message', handleMessage);document.body.removeChild(syncFrame);syncFrame = null;}function _setupSyncFrame() {if (!syncFrame) { return; }var src = window.location.protocol + '//' + 'www.tamgrt.com/RT' + "?-sync=true&q=" + new Date().getTime();if(_isNewRTCookie) {if(_tart) {src += '&rid=' + _tart;}}syncFrame.src = src;document.body.appendChild(syncFrame);}_on(window, 'message', handleMessage);syncFrame.style.display = 'none';syncFrame.id = 'ta_cookie_sync';syncFrame.name = new Date().getTime();_setupSyncFrame();})(window, document);});});});</script></DIV>
+<!--etk-->
+<!--trkP:unsupported_browser_messaging-->
+<!-- PLACEMENT unsupported_browser_messaging -->
+<DIV ID="taplc_unsupported_browser_messaging_0" class="ppr_rup ppr_priv_unsupported_browser_messaging" data-placement-name="unsupported_browser_messaging">
+<div class="unsupportedBrowser"><div class="innerDiv" style="background: url('https://static.tacdn.com/img2/icons/64/bv_alert.gif') 12px 2px no-repeat;"><span>We noticed that you're using an unsupported browser. The Tripadvisor website may not display properly.We support the following browsers:</span><br/><span dir="ltr">Windows: <span class="ui_link" onClick="ta.plc_unsupported_browser_messaging_0_handlers.openUrl('PFaSnEitiTI8LuSCMiutLSVLMVTJpcIzv')">Internet Explorer</span>, <span class="ui_link" onClick="ta.plc_unsupported_browser_messaging_0_handlers.openUrl('PFaizCSccJ8LTSEVTixEL')">Mozilla Firefox</span>, <span class="ui_link" onClick="ta.plc_unsupported_browser_messaging_0_handlers.openUrl('q5FyiiycV8LnGEiaV')">Google Chrome</span>. Mac: <span class="ui_link" onClick="ta.plc_unsupported_browser_messaging_0_handlers.openUrl('PFJ22cV8LtJTJESL')">Safari</span>.</span></div></div></DIV>
+<!--etk-->
+<div id="iframediv"></div>
+<div id="PAGE" class=" non_hotels_like desktop scopedSearch">
+<div class="masthead ">
+<!--trkP:horizon_ad-->
+<div class="react-container" id='component_6' data-component-props='page-manifest' data-component='@ta/taps.horizon-ad'></div><!--etk-->
+<!--trkP:global_nav-->
+<!-- PLACEMENT global_nav -->
+<DIV ID="taplc_global_nav_0" class="ppr_rup ppr_priv_global_nav" data-placement-name="global_nav">
+<div class="global-nav-no-refresh" id="global-nav-no-refresh-1"><!-- PLACEMENT global_nav_menus --><div id="taplc_global_nav_menus_0" class="ppr_rup ppr_priv_global_nav_menus" data-placement-name="global_nav_menus">
+<!-- PLACEMENT global_nav_menus -->
+<div class="hidden">
+<div class="global-nav-menus-container">
+<div class="  tabsBar">
+<ul class="tabs" onclick="">
+<li class="tabItem dropDown jsNavMenu">
+<a href="/Tourism-g28927-Colorado-Vacations.html" class="tabLink arwLink geoLink" onclick="ta.util.cookie.setPIDCookie(4964); ta.setEvtCookie('TopNav', 'click', 'Tourism', 0, this.href)">
+<span class="geoName" data-title="Colorado">Colorado</span><span class="ui_icon single-chevron-down"></span>
+</a>
+<ul class="subNav masthead-dropdown-tourism">
+<li class="subItem">
+<a class="subLink " href="/Tourism-g28927-Colorado-Vacations.html" onclick="ta.util.cookie.setPIDCookie(4971);">
+Colorado Tourism
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Hotels-g28927-Colorado-Hotels.html" onclick="ta.util.cookie.setPIDCookie(4972);" onmousedown="requireCallLast('masthead/header', 'addClearParam', this);">
+Colorado Hotels
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Hotels-g28927-c2-Colorado-Hotels.html">
+Colorado Bed and Breakfast
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/VacationRentals-g28927-Reviews-Colorado-Vacation_Rentals.html" onclick="ta.util.cookie.setPIDCookie(4975);">
+Colorado Vacation Rentals
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Flights-g28927-Colorado-Cheap_Discount_Airfares.html" onclick="ta.util.cookie.setPIDCookie(4973);">
+Flights to Colorado
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Restaurants-g28927-Colorado.html" onclick="ta.util.cookie.setPIDCookie(4974);">
+Colorado Restaurants
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Attractions-g28927-Activities-Colorado.html" onclick="ta.util.cookie.setPIDCookie(4977);">
+Things to Do in Colorado
+</a>
+</li>
+<li class="subItem">
+<a class="subLink selForums" href="/ShowForum-g28927-i252-Colorado.html" onclick="ta.util.cookie.setPIDCookie(4980);">
+Colorado Travel Forum
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/LocationPhotos-g28927-Colorado.html" onclick="ta.util.cookie.setPIDCookie(4979);">
+Colorado Photos
+</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Travel-g28927-s208/Colorado:United-States:Weather.And.When.To.Go.html">Traveler Article</a>
+</li>
+</ul>
+</li>
+<li class="tabItem dropDown jsNavMenu hvrIE6">
+<ul class="subNav masthead-dropdown-hotels">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-Colorado-Hotels.html">All Colorado Hotels</a> </li>
+<li class="subItem">
+<a class="subLink" href="/SmartDeals-g28927-Colorado-Hotel-Deals.html">Colorado Hotel Deals</a> </li>
+<li class="subItem">
+<a class="subLink" href="/LastMinute-g28927-Colorado-Hotels.html">Last Minute Hotels in Colorado</a>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink" onClick="     ">
+By Hotel Type
+</span>
+<ul class="secondSubNav" style="top:-0.125em;   ">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfd2-Colorado-Hotels.html">Colorado Motels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-c3-zff29-Colorado-Hotels.html">Colorado Campgrounds</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-c3-zff26-Colorado-Hotels.html">Colorado Hostels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff8-Colorado-Hotels.html">Colorado Resorts</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff14-Colorado-Hotels.html">Colorado Casinos</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff24-Colorado-Hotels.html">Colorado Green Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff12-Colorado-Hotels.html">Colorado Luxury Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff10-Colorado-Hotels.html">Colorado Beach Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff11-Colorado-Hotels.html">Colorado Ski-In / Ski-Out Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff4-Colorado-Hotels.html">Colorado Family Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff7-Colorado-Hotels.html">Colorado Business Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff3-Colorado-Hotels.html">Romantic Hotels in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zff13-Colorado-Hotels.html">Colorado Spa Resorts</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink" onClick="     ">
+By Hotel Class
+</span>
+<ul class="secondSubNav" style="top:-0.125em;   ">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfc4-Colorado-Hotels.html">4-stars Hotels in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfc5-Colorado-Hotels.html">5-stars Hotels in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfc3-Colorado-Hotels.html">3-stars Hotels in Colorado</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink" onClick="     ">
+Popular Amenities
+</span>
+<ul class="secondSubNav" style="top:-0.125em;   ">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfa7-Colorado-Hotels.html">Colorado Hotels with Free Parking</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfa3-Colorado-Hotels.html">Colorado Hotels with Pools</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g28927-zfa9-Colorado-Hotels.html">Pet Friendly Hotels in Colorado</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink" onClick="     ">
+Popular Colorado Categories
+</span>
+<ul class="secondSubNav" style="top:-0.125em;   ">
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Cheap-Resorts-zfp4060.html">Colorado Affordable Resorts</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Honeymoon-Resorts-zfp4326.html">Honeymoon Resorts in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Spa-Resorts-zfp4551.html">Spa Resorts in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Family-Resorts-zfp10668.html">Family Resorts in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Luxury-Resorts-zfp10710.html">Exclusive Resorts in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Hotels-With-Weekly-Rates-zfp622569.html">Hotels with Weekly Rates in Colorado</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Hotels-With-Allergy_free-Rooms-zfp18448842.html">Colorado Hotels with Allergy-free rooms</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Hotels-With-Banquet-Hall-zfp18467516.html">Colorado Hotels with Banquet hall</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Horseback-Riding-Hotels-zfp18470514.html">Colorado Horseback Riding Hotels</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/HotelsList-Colorado-Hotels-With-EV-Charging-zfp18471700.html">Colorado Hotels with EV Charging</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul> </div>
+</div>
+<ul class="global-nav-links-menu-more"></ul>
+</div>
+<div class="global-nav-overlays-container"></div></div></div><!-- PLACEMENT global_nav_component --><div id="taplc_global_nav_component_0" class="ppr_rup ppr_priv_global_nav_component" data-placement-name="global_nav_component"><div class="react-container" id='component_12' data-component-props='page-manifest' data-component='@ta/brand.legacy-header'><div class="CvDIt _Q f e Gi Ra _s P6 Za"><button class="UikNM _G B- _S _T c G_ y wSSLS wnNQG" type="button" tabindex="1"><span class="biGQs _P XWJSj Wb">Skip to main content</span></button></div><!--$--><div class="tcbyg"><div></div><div class="EaSYq"><header class="tfxmn Cj"><div class="QvCXh mvTrV cyIij fluiI"><nav class="pmElb"><button class="ryZJf u j _T _S S8 H0 c Cl _G G_ B- M0 y" title="Menu" aria-label="Menu"><svg viewBox="0 0 24 24" width="1em" height="1em" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M21 7.75H3v-1.5h18v1.5zm0 5H3v-1.5h18v1.5zm0 5H3v-1.5h18v1.5z"></path></svg></button><a class="pBcSw F0 wSSLS" href="/"><picture><img class="BMuGb" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg" alt="Tripadvisor"/></picture><picture><img class="XpHHt" src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg" alt="Tripadvisor"/></picture></a><div class="kgJZH CfAFF"><div class="acbyh"><div class="Vmpeb"><div class="slvrn Z0 Wh PxcKL" data-test-attribute="typeahead-SINGLE_SEARCH_NAV"><div class="RIeZQ"></div><form role="search" class="hZNMq o" action="/Search"><input type="search" autoComplete="off" autoCorrect="off" autoCapitalize="none" spellcheck="false" required="" name="q" class="qjfqs _G B- z _J Cj R0" title="Search" role="searchbox" aria-label="Search" aria-controls="typeahead_results" aria-autocomplete="list" value=""/><input type="hidden" name="searchSessionId" value="001c4b2f48b4cac9.ssid"/><input type="hidden" name="searchNearby" value="false"/><input type="hidden" name="geo" value="28927"/><button type="button" class="riJbp _G _H B- _S t u j Cj lDGWU" title="Back" aria-label="Back"><svg viewBox="0 0 24 24" width="1em" height="1em" class="d Vb UmNoP"><path d="M10.304 3.506l-8.048 8.047a.644.644 0 000 .895l8.048 8.047a.624.624 0 00.883 0l.882-.883a.624.624 0 000-.883l-5.481-5.48h14.714a.625.625 0 00.623-.625v-1.248a.624.624 0 00-.623-.624H6.588l5.481-5.481a.624.624 0 000-.883l-.882-.883a.623.623 0 00-.883-.004c-.001.002-.002.003 0 .005z"></path></svg></button><button type="submit" formaction="/Search" class="riJbp _G _H B- _S t u j Cj PGlrP" title="Search" aria-label="Search" tabindex="-1"><svg viewBox="0 0 24 24" width="1em" height="1em" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.74 3.75a5.99 5.99 0 100 11.98 5.99 5.99 0 000-11.98zM2.25 9.74a7.49 7.49 0 1113.3 4.728l5.44 5.442-1.06 1.06-5.44-5.439A7.49 7.49 0 012.25 9.74z"></path></svg></button></form></div></div></div><div class="JNlKm QA"><div><a class="BrOJk u j z _F wSSLS tIqAi Vonfv tFEIP" href="/UserReview"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M14.288 6.793L6.69 14.368l-.816 3.746 3.724-.839 7.588-7.583-2.9-2.9zm3.96 1.84l-2.898-2.9.556-.554A2.318 2.318 0 0117.52 4.5c.378 0 .73.104 1.031.315l.01.007.012.008c1.12.757 1.221 2.26.326 3.151l-.65.651zm-7.896 10.01l-5.99 1.35C4.34 20 4.319 20 4.298 20a.297.297 0 01-.29-.36l1.31-6.023 9.529-9.5A3.818 3.818 0 0117.52 3c.66 0 1.318.184 1.893.587a3.536 3.536 0 01.546 5.457l-9.607 9.599z"></path></svg><span class="kLqdM"><span class="biGQs _P ttuOS">Review</span></span></a></div><a class="BrOJk u j z _F wSSLS tIqAi Vonfv tFEIP" href="/Trips"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M3.798 5.786A5.769 5.769 0 017.72 4.25c1.455 0 2.857.548 3.922 1.536l.005.005.341.322.332-.317a5.769 5.769 0 013.928-1.54c1.458 0 2.862.55 3.928 1.54l.004.004c1.093 1.032 1.599 2.324 1.569 3.662-.03 1.323-.578 2.643-1.5 3.785-.884 1.096-2.85 2.943-4.547 4.478a183.566 183.566 0 01-3.153 2.785l-.069.059-.489-.569.49.569-.486.416-.488-.412a101.98 101.98 0 01-7.75-7.288l-.021-.021-.02-.023c-1.725-2.115-2.203-5.32.08-7.453l.002-.002zm8.19 13.226a174.415 174.415 0 002.708-2.4c1.72-1.556 3.59-3.32 4.385-4.306.757-.939 1.148-1.948 1.168-2.877.02-.912-.313-1.795-1.097-2.536a4.269 4.269 0 00-2.904-1.138 4.269 4.269 0 00-2.903 1.136l-1.35 1.292-1.375-1.3a4.269 4.269 0 00-2.9-1.133 4.269 4.269 0 00-2.901 1.135c-1.507 1.408-1.353 3.659.042 5.385a100.45 100.45 0 007.127 6.742z"></path></svg><span class="kLqdM"><span class="biGQs _P ttuOS">Trips</span></span></a><a class="BrOJk u j z _F wSSLS tIqAi Vonfv tFEIP" href="/Inbox"><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.25a.75.75 0 01.75.75v1.283c1.865.168 3.412.964 4.529 2.218 1.254 1.409 1.922 3.343 1.956 5.487.013.811.015 4.106.015 5.762H21v1.5h-5.336c-.063.31-.172.694-.368 1.085-.232.464-.592.951-1.146 1.32-.558.372-1.269.595-2.15.595s-1.592-.223-2.15-.595a3.382 3.382 0 01-1.146-1.32 4.378 4.378 0 01-.368-1.085H3v-1.5h1.75c0-1.651.002-4.932.015-5.755C4.76 9.843 5.43 7.907 6.694 6.5 7.82 5.245 9.384 4.45 11.25 4.283V3a.75.75 0 01.75-.75zm-5.75 15.5h11.5c0-1.657-.002-4.94-.015-5.738-.03-1.856-.604-3.422-1.576-4.513C15.196 6.418 13.799 5.75 12 5.75c-1.8 0-3.218.67-4.19 1.751-.98 1.09-1.552 2.651-1.545 4.496v.015a748.17 748.17 0 00-.015 5.738zm3.632 1.5c.04.135.094.276.164.415.143.286.346.549.636.742.285.19.7.343 1.318.343.619 0 1.033-.152 1.318-.343.29-.193.493-.456.636-.742a2.7 2.7 0 00.164-.415H9.883z"></path></svg><span class="kLqdM"><span class="biGQs _P ttuOS">Alerts</span></span></a><a class="rmyCe _G B- z _S c Wc wSSLS w jWkoZ sOtnj" href="/RegistrationController?flow=sign_up_and_save&amp;returnTo=%2FTravel-g28927-s208%2FColorado%3AUnited-States%3AWeather.And.When.To.Go.html&amp;fullscreen=true&amp;flowOrigin=login&amp;hideNavigation=true&amp;isLithium=true"><span class="biGQs _P ttuOS">Sign in</span></a></div><div class="dzyUv u"><a class="BrOJk u j z _F wSSLS tIqAi Vonfv" href="/ShoppingCart?" aria-label="Cart with 0 items."><svg viewBox="0 0 24 24" width="24px" height="24px" class="d Vb UmNoP"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 4.75H2v-1.5h2.5c.779 0 1.354.398 1.71.844.339.423.54.959.54 1.406v.25h14.71l-1.874 7.5H6.75v1.25c0 .29.164.76.475 1.175.327.436.632.575.775.575h9a2.75 2.75 0 11-2.45 1.5h-3.1a2.75 2.75 0 11-4.645-.407c-.314-.219-.578-.499-.78-.768-.439-.585-.775-1.365-.775-2.075v-9a.95.95 0 00-.21-.469c-.144-.179-.319-.281-.54-.281zm4.5 13a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm8 0a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5zm-10.25-6h11.664l1.125-4.5H6.75v4.5z"></path></svg><span class="kLqdM"><span class="biGQs _P ttuOS"><span class="wQzUQ">Cart</span></span></span></a></div></div></nav></div></header></div></div><!--/$--></div></div><div class='components-nav-legacy-actions'><!-- PLACEMENT global_nav_action_inbox:empty --><div id="taplc_global_nav_action_inbox_empty_0" class="ppr_rup ppr_priv_global_nav_action_inbox" data-placement-name="global_nav_action_inbox:empty"><div title="Inbox"> <div class="inbox-nav-contents ppr_rup ppr_priv_global_nav_action_inbox hidden" data-fs-block="true"><div class="inbox-nav-dropdown with-login-cta"><div class="header"><div class="title">Inbox</div> <a class="see-all" href="/Inbox" onclick="ta.trackEventOnPage('Inbox|Dropdown', 'see_all', '', '40186');">See all</a> </div><div class="inbox-lander-thread-list-item js-inbox-lander-thread-list-item loading hidden"><div class="loading-animation"></div><div class="inbox-lander-thread-list-item-core-content"><div class="inbox-lander-thread-list-item-avatar-and-mobile-date"><div class="inbox-lander-thread-list-item-avatar"><div class="empty_avatar"></div></div></div><div class="inbox-lander-thread-list-item-message"><div class="inbox-lander-thread-list-item-skeleton-bar"></div><div class="inbox-lander-thread-list-item-skeleton-bar"></div><div class="inbox-lander-thread-list-item-skeleton-bar"></div></div></div></div><div class="inbox-masthead-wrapper"><div class="login-cta"><span>Sign in</span> to get trip updates and message other travelers.</div> </div></div></div></div></div></div><div class="global-nav-links global-nav-bottom  ui_tabs is-hidden-mobile "><div class="ui_container ui_columns is-gapless"><div class="links_container ui_column  is-11"><!-- PLACEMENT global_nav_links --><div id="taplc_global_nav_links_0" class="ppr_rup ppr_priv_global_nav_links" data-placement-name="global_nav_links"><div class="global-nav-links-container " data-test-target="global_nav"><ul class="global-nav-links-menu"><li class="nav-sub-item" data-element=".masthead-dropdown-tourism"><a href="/Tourism-g28927-Colorado-Vacations.html"id="global-nav-tourism" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="tourism">Colorado </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-hotels"><a href="/Hotels-g28927-Colorado-Hotels.html"id="global-nav-hotels" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="hotels"><span class="ui_icon hotels"></span>Hotels </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-attractions"><a href="/Attractions-g28927-Activities-Colorado.html"id="global-nav-attractions" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="attractions"><span class="ui_icon attractions"></span>Things to Do </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-restaurants"><a href="/Restaurants-g28927-Colorado.html"id="global-nav-restaurants" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="restaurants"><span class="ui_icon restaurants"></span>Restaurants </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-flights"><a href="/Flights-g28927-Colorado-Cheap_Discount_Airfares.html"id="global-nav-flights" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="flights"><span class="ui_icon flights"></span>Flights </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-vr"><a href="/VacationRentals-g28927-Reviews-Colorado-Vacation_Rentals.html"id="global-nav-vr" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="vr"><span class="ui_icon vacation-rentals"></span>Vacation Rentals </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-Articles"><a href="/Articles"id="global-nav-Articles" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="Articles"><span class="ui_icon globe-world"></span>Travel Stories </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-cruises"><a href="/Cruises"id="global-nav-cruises" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="cruises"><span class="ui_icon cruises"></span>Cruises </a></li><li class="nav-sub-item" data-element=".masthead-dropdown-cars"><a href="/RentalCars-g28927-Colorado.html"id="global-nav-cars" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="cars"><span class="ui_icon rental-cars"></span>Rental Cars </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-tours"><a href="/Attractions-g28927-Activities-c42-Colorado.html"id="global-nav-tours" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="tours">Tours </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-AddListing"><a href="/AddListing"id="global-nav-AddListing" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="AddListing"><span class="ui_icon map-pin"></span>Add a Place </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-Forums"><a href="/ShowForum-g28927-i252-Colorado.html"id="global-nav-Forums" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="Forums"><span class="ui_icon forums"></span>Travel Forum </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-no_id"><a href="/Airlines"id="global-nav-no_id" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="Airlines"><span class="ui_icon flights"></span>Airlines </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-no_id"><a href="/TravelersChoice"id="global-nav-no_id" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="TravelersChoice"><span class="ui_icon travelers-choice-badge"></span>Travelers' Choice </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-no_id"><a href="/RoadTrip-g191-United_States.html"id="global-nav-no_id" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="RoadTrips">Road Trips </a></li><li class="nav-sub-item force-more" data-element=".masthead-dropdown-HelpDesk"><a href="https://www.tripadvisorsupport.com/hc/en-us"id="global-nav-HelpDesk" class="global-nav-link global-nav-link-2018 ui_tab "data-tracking-label="HelpDesk"><span class="ui_icon question-circle"></span>Help Center </a></li></ul><ul class="global-nav-links-menu-ellipsis is-top-only"><li class="global-nav-links-ellipsis"><span class="global-nav-link global-nav-link-2018 ui_tab ellipsis"><span class="ui_icon more-horizontal"></span></span></li></ul></div></div></div><div class="message_container ui_column is-1"></div></div></div><div class="global-nav-no-refresh" id="global-nav-no-refresh-2"><!-- PLACEMENT global_nav_onpage_assets --><div id="taplc_global_nav_onpage_assets_0" class="ppr_rup ppr_priv_global_nav_onpage_assets is-shown-at-tablet" data-placement-name="global_nav_onpage_assets">
+<!-- PLACEMENT global_nav_onpage_assets -->
+<div class="inner ">
+<div class="ui_container  with_masthead ">
+<h1 class="header heading fr" data-test-target="masthead_h1">Colorado Weather</h1>
+<!--trkP:trip_planner_breadcrumbs-->
+<!-- PLACEMENT trip_planner_breadcrumbs -->
+<DIV ID="taplc_trip_planner_breadcrumbs_0" class="ppr_rup ppr_priv_trip_planner_breadcrumbs" data-placement-name="trip_planner_breadcrumbs">
+<ul class="breadcrumbs" data-test-target="breadcrumbs"><li class="breadcrumb"><a class="link" href="/Tourism-g191-United_States-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'Country', 1, '/Tourism-g191-United_States-Vacations.html');"><span>United States</span></a>&nbsp;<span class="ui_icon single-chevron-right"></span>&nbsp;</li><li class="breadcrumb"><a class="link" href="/Tourism-g28927-Colorado-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'State', 2, '/Tourism-g28927-Colorado-Vacations.html');"><span>Colorado (CO)</span></a>&nbsp;<span class="ui_icon single-chevron-right"></span>&nbsp;</li><li class="breadcrumb"><a class="link" href="/Travel_Guide-g28927-Colorado.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', '', 3, '/Travel_Guide-g28927-Colorado.html');"><span>Before You Go</span></a></li></ul><script type="application/ld+json">{"@context":"http:\u002F\u002Fschema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"\u002FTourism-g191-United_States-Vacations.html","name":"United States"}},{"@type":"ListItem","position":"2","item":{"@id":"\u002FTourism-g28927-Colorado-Vacations.html","name":"Colorado (CO)"}},{"@type":"ListItem","position":"3","item":{"@id":"\u002FTravel_Guide-g28927-Colorado.html","name":"Before You Go"}}]}</script></DIV>
+<!--etk-->
+</div>
+</div>
+</div></div></DIV>
+<!--etk-->
+<!--trkP:masthead_search_empty-->
+<!-- PLACEMENT masthead_search:empty -->
+<DIV ID="taplc_masthead_search_empty_0" class="ppr_rup ppr_priv_masthead_search" data-placement-name="masthead_search:empty">
+<span class="hidden"><div class="search_overlay_content ui_container social_typeahead_2018" data-div-classes="ppr_rup ppr_priv_masthead_search"><div id="DUAL_SEARCH_LOADER_CONTAINER" class="dual_search_loader_container"><div class="dual_search_loader_overlay"></div><div class="dual_search_loader_visual"><div class="ui_spinner"></div></div></div><div class="just_padding"><div class="no_cpu"><form class="search_form ui_columns is-multiline" method="get" action="/Search" onsubmit="return placementEvCall('taplc_masthead_search_empty_0', 'deferred/lateHandlers.submitForm', event, this);" id="global_nav_search_form"><div class="ui_column is-10 is-gapless"><div class="search_line ui_columns is-multiline"><div id="MAIN_SEARCH_CONTAINER" class="mainSearchContainer ui_column "><div class="input_box"><span class="typeahead_icon what_neighbor ui_icon search"></span><div class="what_with_highlight"><input id="mainSearch" type="search" class="text focusClear" autocomplete="off" onBlur="placementEvCall('taplc_masthead_search_empty_0', 'deferred/lateHandlers.whatFocused', event, this)" onfocus="placementEvCall('taplc_masthead_search_empty_0', 'deferred/lateHandlers.whatFocused', event, this)" onkeydown="if (ta && (event.keyCode || event.which) === 13){ta.setEvtCookie('TopNav_Search', 'Action', 'Search | enter | EnterKey', 0, '/Search');}" onkeyup="placementEvCall('taplc_masthead_search_empty_0', 'deferred/lateHandlers.searchInputKeyUp', event, this)" autocorrect="off" spellcheck="false" placeholder="Search Tripadvisor"/><span id="CLEAR_WHAT" class="clear-text ui_icon times-circle-fill hidden"></span><span class="input_highlight"></span></div></div></div></div></div><div class="ui_column is-2 search_line_block is-gapless"><button id="SEARCH_BUTTON" class="search_button" type="submit" onclick="if (ta && event.clientY) { document.getElementById('global_nav_search_form').elements['pid'].value=3825; }ta && ta.setEvtCookie('TopNav_Search', 'Action', 'Search | ' + (event.detail === 0? 'enter' : 'click') + ' | SearchButton', 0, '/Search');return placementEvCall('taplc_masthead_search_empty_0', 'deferred/lateHandlers.submitClicked', event, this);" name="sub-search"><div id="SEARCH_BUTTON_CONTENT"><div class="inner">Search</div> </div></button></div><input id="SINGLE_SEARCH" type="hidden" name="singleSearchBox" value="true"><input id="TYPEAHEAD_GEO_ID" type="hidden" name="geo" value="28927"><input id="TYPEAHEAD_LATITUDE" type="hidden" name="latitude" value=""><input id="TYPEAHEAD_LONGITUDE" type="hidden" name="longitude" value=""><input id="TYPEAHEAD_NEARBY" type="hidden" name="searchNearby" value=""><input type="hidden" name="pid" value="3826"><input id="TOURISM_REDIRECT" type="hidden" name="redirect" value=""><input id="MASTAHEAD_TYPEAHEAD_START_TIME" type="hidden" name="startTime" value=""><input id="MASTAHEAD_TYPEAHEAD_UI_ORIGIN" type="hidden" name="uiOrigin" value=""><input id="MASTHEAD_MAIN_QUERY" type="hidden" name="q" value=""><input id="MASTHEAD_SUPPORTED_SEARCH_TYPES" type="hidden" name="supportedSearchTypes" value="find_near_stand_alone_query"><input id="MASTHEAD_ENABLE_NEAR_PAGE" type="hidden" name="enableNearPage" value="true"><input type="hidden" name="returnTo" value="__2F__Travel__2D__g28927__2D__s208__2F__Colorado%3AUnited__2D__States%3AWeather__2E__And__2E__When__2E__To__2E__Go__2E__html"><input type="hidden" name="searchSessionId" value="3D557C476FAA4133876CAF327986567C1690433465253ssid"><input type="hidden" id="SOCIAL_TYPEAHEAD_2018_FEATURE" name="social_typeahead_2018_feature" value="true"></form></div><div class="ui_columns results_panel"><div class="ui_column is-10 ui_columns results_panel"><div class="what_results ui_column  hidden"></div><div class="where_results ui_column is-offset-7 is-5 hidden"></div></div></div></div></div></span></DIV>
+<!--etk-->
+</div>
+<div id="MAINWRAP" class=" ">
+<div id="MAIN" class="Travel
+         prodp13n_jfy_overflow_visible
+    "> <div id="hdrAdParent">
+</div>
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Colorado</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g28927-Colorado-Vacations.html">
+Colorado Tourism
+</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g28927-Colorado-Hotels.html">
+Colorado Hotels
+</a>
+</li>
+<li>
+<a class="k_vacation_rentals pid35933" href="/VacationRentals-g28927-Reviews-Colorado-Vacation_Rentals.html">
+Vacation Rentals
+</a>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g28927-Colorado-Cheap_Discount_Airfares.html">
+Flights to Colorado
+</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g28927-Colorado-Hotel-Deals.html">
+Colorado Hotel Deals
+</a>
+</li>
+<li class=" navTitle">
+More On Colorado
+</li>
+<li>
+<a class="k_dining" href="/Restaurants-g28927-Colorado.html" onclick="setOneTimeCookie('mcreset','true')">
+Restaurants
+</a>
+</li>
+<li>
+<a class="k_things_to_do" href="/Attractions-g28927-Activities-Colorado.html">
+Things to Do
+</a>
+</li>
+<li class=" selForums">
+<a class="k_forums pid2995" href="/ShowForum-g28927-i252-Colorado.html">
+Travel Forums
+</a>
+</li>
+<li>
+<a class="u_/LocationPhotos-g28927-Colorado.html k_photos_and_videos" href="/LocationPhotos-g28927-Colorado.html" onclick="return ta.call('ta.overlays.Factory.photosLB', event, this);">
+Photos &amp; Videos
+</a>
+</li>
+<li>
+<a class="k_maps" href="/LocalMaps-g28927-Colorado-Area.html">
+Map
+</a>
+</li>
+<li class=" navTitle">
+Colorado Deals
+</li>
+<li class=" mark">
+<a class="k_kbyg" href="/Travel_Guide-g28927-Colorado.html">
+Travel Guide
+</a>
+<ul>
+<li class="viewing">
+<span class="sprite-lhnselected lhnselected">Traveler Article</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<!--trkP:single_rail_ad_desktop_search_forums-->
+<div class="react-container" id='component_1' data-component-props='page-manifest' data-component='@ta/taps.ad-single-rail'><div id="slot:160x600:rail1" class="Eufjb j u YcOBw ChFsW Xd o S E"></div></div><!--etk-->
+</div>
+<div id="BODYCON" class="col easyClear poolA adjust_padding new_meta_chevron_v2">
+<div class="wrpHeader">
+<span class="apt">Colorado Traveler Article:</span>
+<div id="headingWrapper" class="headerNoSaves jfy_beta " style="">
+<h1 id="HEADING">
+Colorado Weather and 

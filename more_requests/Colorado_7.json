@@ -1,0 +1,159 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 416000000,
+        "search_time": 0.45,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:02.937Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.2 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_we1npyrkvi9"
+    },
+    "organic": [
+        {
+            "link": "https://www.summitdaily.com/news/monsoon-like-storms-to-stick-around-as-current-weather-pattern-grips-colorado-but-its-not-monsoon-season-yet/",
+            "display_link": "https://www.summitdaily.com \u203a news \u203a monsoon-like-...",
+            "title": "Monsoon-like storms to stick around as current weather ...",
+            "description": "But instead of the white stuff, Colorado is filling with rainy precipitation at near-historic rates. Meteorologists have issued three flash ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://patch.com/colorado/denver/colorado-weather-winter-storm-watch-front-range-palmer-divide",
+            "display_link": "https://patch.com \u203a colorado \u203a colorado-weather-winte...",
+            "title": "Winter Storm Watch Front Range/Palmer Divide - Denver",
+            "description": "Colorado Weather: Winter Storm Watch Front Range/Palmer Divide - Denver, CO - The storm should deliver both a shot of heavy rain and wet, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.newsweek.com/colorado-blizzard-chaos-snow-storm-causes-multiple-car-crashes-1770095",
+            "display_link": "https://www.newsweek.com \u203a ... \u203a Weather \u203a Travel",
+            "title": "Colorado 'Blizzard' Chaos as Snow Storm Causes Multiple ...",
+            "description": "However, the inclement weather continued across Colorado, ... The paper said \"at least a dozen vehicles had reportedly veered into a ditch,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wpbf.com/article/florida-colorado-state-university-hurricane-season/44462862",
+            "display_link": "https://www.wpbf.com \u203a article \u203a florida-colorado-stat...",
+            "title": "Colorado State University predicting an above-average ...",
+            "description": "Colorado State University released a new update for the 2023 hurricane season. Back in June, they predicted a near-average season of 15 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.prnewswire.com/news-releases/colorado-state-university-predicts-13-named-storms-for-atlantic-hurricane-season-301797097.html",
+            "display_link": "https://www.prnewswire.com \u203a news-releases \u203a colora...",
+            "title": "Colorado State University Predicts 13 Named Storms for ...",
+            "description": "Share this article ... MILWAUKEE, April 13, 2023 /PRNewswire/ -- Colorado State University (CSU) just released its prediction for the 2023 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://library.municode.com/co/weld_county/codes/charter_and_county_code?nodeId=CH8PUWO_ARTXISTDRCR",
+            "display_link": "https://library.municode.com \u203a weld_county \u203a codes",
+            "title": "ARTICLE XI. - Storm Drainage Criteria | Weld County, CO",
+            "description": "The provisions of this Article shall be known as the \"Weld County Storm ... covered and approved by the Colorado Discharge Permit System (CDPS) regulations.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "subresults": [
+                {
+                    "link": "https://www.cnn.com/2023/06/22/weather/red-rocks-hail-louis-tomlinson-concert/index.html",
+                    "display_link": "https://www.cnn.com \u203a 2023/06/22 \u203a weather \u203a red-rock...",
+                    "title": "Colorado amphitheater hail storm injures nearly 100 ahead ...",
+                    "description": "Nearly 100 people attending a concert Wednesday evening at the Red Rocks Amphitheatre near Denver were injured after being pelted with large ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 22, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 8,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.durangoherald.com/articles/wave-of-storms-heading-toward-southwest-colorado/",
+            "display_link": "https://www.durangoherald.com \u203a articles \u203a wave-of-st...",
+            "title": "Wave of storms heading toward Southwest Colorado",
+            "description": "A parade of low-pressure systems is making its way into Southwest Colorado, with the first blast of moisture expected to arrive Saturday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.tripadvisor.com/Travel-g28927-s208/Colorado:United-States:Weather.And.When.To.Go.html",
+            "display_link": "https://www.tripadvisor.com \u203a ... \u203a Before You Go",
+            "title": "Inside Colorado : Weather &amp; When to Go",
+            "description": "It's not uncommon to have wide temperature swings from one day to the next (40 degrees F!) or even in a summer day (a thunderstorm can drop the temperature30 ...",
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 307000000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Massachusetts storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:32:46.549Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Massachusetts+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_nfxkgozruq"
+    },
+    "organic": [
+        {
+            "link": "https://live959.com/western-massachusetts-braces-for-another-winter-storm-its-big-this-time/",
+            "display_link": "https://live959.com \u203a western-massachusetts-braces-for...",
+            "title": "Western Massachusetts Braces for Another Winter Storm",
+            "description": "Now I'm not trying to tease everyone here, because I know winter storm Keenan which made landfall over the weekend was disappointing for some of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/",
+            "display_link": "https://www.boston.com \u203a weather \u203a 2023/03/02 \u203a sno...",
+            "title": "Snow maps: How much accumulation to expect in Mass.",
+            "description": "Forecasters are predicting a storm will arrive Friday night in Massachusetts, bringing with it a wintry mix of snow, sleet, and rain.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.mass.gov/info-details/winter-storm-safety-tips",
+            "display_link": "https://www.mass.gov \u203a info-details \u203a winter-storm-saf...",
+            "title": "Winter Storm Safety Tips",
+            "description": "Winter storms in New England can range from freezing rain and ice, to a moderate snowfall over a few hours, to blizzard conditions with blinding wind-driven ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Winter_storm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Winter_storm",
+            "title": "Winter storm",
+            "description": "A winter storm is an event in which wind coincides with varieties of precipitation that only ... This article is about storms in winter. For other uses, see Winter storm (disambiguation). \"Snowstorm\" redirects here. For other uses, see Snowstorm ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.metrowestdailynews.com/story/weather/severe/2023/03/13/snow-high-winds-forecast-west-of-boston-tuesday-power-outages/70001036007/",
+            "display_link": "https://www.metrowestdailynews.com \u203a 2023/03/13",
+            "title": "Foot of snow, high winds forecast for west of Boston Tuesday",
+            "description": "The National Weather Service has issued a winter storm warning for most of western Massachusetts, but also including northern Worcester and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.westernmassnews.com/",
+            "display_link": "https://www.westernmassnews.com",
+            "title": "Western Mass News: Springfield News, Weather, and Sports",
+            "description": "Western Mass News is digging deeper and getting answers for you on the latest headlines and breaking news from Springfield and across the Pioneer Valley.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.theatlantic.com/photo/2015/02/winter-storms-bury-freeze-northeastern-us/385566/",
+            "display_link": "https://www.theatlantic.com \u203a photo \u203a 2015/02 \u203a wint...",
+            "title": "What Record-Breaking Snow Really Looks Like",
+            "description": "In the past month, a series of snowstorms and Arctic weather fronts have brought bone-chilling temperatures and record-setting snowfall ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 17, 2015",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/the-blizzard-of-1888-americas-greatest-snow-disaster",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a the-blizzard-...",
+            "title": "The Blizzard of 1888: America's Greatest Snow Disaster",
+            "description": "article image. Above: A snowdrift tunnel in ... No such air mass was in place prior to the development of the storm. Secondly, the storm center became ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wwlp.com/weather/weather-news/winter-storm-will-bring-rain-and-snow-to-western-massachusetts/",
+            "display_link": "https://www.wwlp.com \u203a weather \u203a weather-news \u203a winte...",
+            "title": "WEATHER ALERT: Winter storm will bring rain and snow to ...",
+            "description": "CHICOPEE, Mass. (WWLP) \u2013 The 22News Storm Team has issued a Weather Alert for rain and snow that could lead to hazardous travel Monday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/massachusetts/worst-storms-ma/",
+            "display_link": "https://www.onlyinyourstate.com \u203a worst-storms-ma",
+            "title": "10 Worst Blizzards And Hurricanes In Massachusetts History",
+            "description": "10 Terrifying And Deadly Storms That Have Gone Down In Massachusetts History \u00b7 1. Hurricane Bob, 1991. Wikimedia Commons \u00b7 2. The Great Blizzard ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 29, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 17400000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Iowa storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:28:15.356Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Iowa+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_f1g4hry99sh"
+    },
+    "organic": [
+        {
+            "link": "https://iowaweather.com/",
+            "display_link": "https://iowaweather.com",
+            "title": "Iowa Weather Forecasts Online - IowaWeather.com",
+            "description": "Are you looking for your local weather forecast? Whether it be for Iowa City, Des Moines, Omaha or any other city, ISCN has you covered with your Iowa ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/dmx/StormyandWindyWednesdayDecember152021",
+            "display_link": "https://www.weather.gov \u203a dmx \u203a StormyandWindyW...",
+            "title": "Severe Storms and Extreme Winds - December 15, 2021",
+            "description": "Officially, it set the new record for most tornadoes in Iowa and the most ... being 35 tornadoes on August 31, 2014 (2014 Iowa Tornadoes | Journal Article).",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.stormlake.com/",
+            "display_link": "https://www.stormlake.com",
+            "title": "Storm Lake Times",
+            "description": "A former northwest Iowa congressman who has recently spoken out against the use of eminent domain to build carbon dioxide pipelines will be excluded from...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://who13.com/weather/winter-storm-targeting-iowa-even-earlier-travel-could-shut-down-wednesday-night/",
+            "display_link": "https://who13.com \u203a weather \u203a winter-storm-targeting-...",
+            "title": "Wind, cold, and snow set to paralyze Iowa travel through ...",
+            "description": "IOWA \u2014 A powerful winter storm and an accompanying blast of arctic ... This is an archived article and the information in the article may be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.iowapbs.org/article/9543/swirling-new-stormy-season",
+            "display_link": "https://www.iowapbs.org \u203a article \u203a swirling-new-stor...",
+            "title": "Swirling into a New Stormy Season",
+            "description": "Storm chasing and severe weather safety are top of mind this spring. Learn more and join us for Iowa's Wild Weather April 19.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://apnews.com/article/storms-tornadoes-severe-weather-south-midwest-b6f9db8292e112fa78a9e9ccf462909d",
+            "display_link": "https://apnews.com \u203a article \u203a storms-tornadoes-severe...",
+            "title": "Severe storms including hail, tornadoes hit Midwest, South",
+            "description": "DES MOINES, Iowa (AP) \u2014 People still sorting through the wreckage of their homes after a weekend of deadly weather braced for another wave ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.thegazette.com/weather/severe-storms-bring-high-winds-hail-and-downed-trees-to-eastern-iowa/",
+            "display_link": "https://www.thegazette.com \u203a Weather",
+            "title": "Severe storms bring high winds, hail and downed trees to ...",
+            "description": "According to National Weather Service storm reports, the bad weather in the ... City north of Des Moines to as far east as Bellevue on the Iowa-Illinois border.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.mississippivalleypublishing.com/daily_gate/terrible-tempest-sweeps-through-keokuk/article_4d8d31c0-1691-11ee-acfc-d7054c516c13.html",
+            "display_link": "https://www.mississippivalleypublishing.com \u203a daily_gate",
+            "title": "Terrible tempest sweeps through Keokuk | Daily Gate City",
+            "description": "A severe storm lashed Keokuk Thursday morning, ... \u201cauthorized under Iowa state statute and will execute the expenditure of emergency funds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.southeastiowaunion.com/news/breaking-friday-night-storm-hits-wellman-hard/",
+            "display_link": "https://www.southeastiowaunion.com \u203a News",
+            "title": "BREAKING Friday night storm hits Wellman hard",
+            "description": "WELLMAN \u2014 For much of Washington County, a storm front around rush hour Friday night was a worrying, but ultimately low-damage event.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wqad.com/article/weather/grand-mound-tornado-survey/526-aa669faf-65a6-484f-a833-3afd05cd75c7",
+            "display_link": "https://www.wqad.com \u203a grand-mound-tornado-survey",
+            "title": "Weather service confirms 12 tornadoes so far from Friday ...",
+            "description": "Weather service confirms 12 tornadoes so far from Friday night storms \u00b7 Related Articles \u00b7 More videos on YouTube.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

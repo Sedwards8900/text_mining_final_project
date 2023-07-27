@@ -1,0 +1,355 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 20300000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-26T22:08:30.477Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_x7zkf2bg3c"
+    },
+    "organic": [
+        {
+            "link": "https://www.kansascity.com/news/local/article277337103.html",
+            "display_link": "https://www.kansascity.com \u203a local \u203a article277337103",
+            "title": "Storms down trees, power lines across Kansas City area",
+            "description": "Thunderstorms rolled into Kansas City metro area Friday, causing rain, power outages and damage. Tornado & flooding warnings were in place.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+storm+%22article%22&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ5t4CegQIIxAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kmbc.com/article/storms-severe-friday-afternoon-evening-kansas-city/44545310",
+            "display_link": "https://www.kmbc.com \u203a article \u203a storms-severe-friday...",
+            "title": "Over 90% of Kansas City homes that lost power Friday ...",
+            "description": "Storm updates: Power restored in 90% of the 244,000 Kansas and Missouri homes that lost service. More storms are on the way Sunday evening ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.kmbc.com/article/storms-likely-this-morning-in-kansas-and-missouri/44625457",
+            "display_link": "https://www.kmbc.com \u203a article \u203a storms-likely-this-m...",
+            "title": "Storms likely this morning in Kansas and Missouri",
+            "description": "KANSAS CITY, Mo. \u2014. Advertisement. Scattered showers and thunderstorms will likely impact outdoor plans today between now and noon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.kmbc.com/article/severe-thunderstorm-watch-issued-for-kansas-city-metro/44625272",
+            "display_link": "https://www.kmbc.com \u203a article \u203a severe-thunderstorm...",
+            "title": "Kansas City to see severe thunderstorms Monday morning",
+            "description": "Thousands without power after severe storms roll through Kansas City metro Monday morning. Some storms may produce hail and strong wind.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.kmbc.com/article/wyandotte-county-kansas-johnson-county-kansas-storm-damage/44549878",
+            "display_link": "https://www.kmbc.com \u203a article \u203a wyandotte-county-k...",
+            "title": "Storm damage reported in areas across Wyandotte ...",
+            "description": "Storm damage was reported in multiple communities in Johnson and Wyandotte counties. KMBC's Peyton Headlee was live in Shawnee with a look.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.kmbc.com/article/overland-park-kansas-storm-damage/44549864",
+            "display_link": "https://www.kmbc.com \u203a article \u203a overland-park-kans...",
+            "title": "First Alert Meteorologist Nick Bender at storm damage in ...",
+            "description": "Storm damage was reported in multiple communities in Johnson and Wyandotte counties ... Nick Bender at storm damage in Overland Park, Kansas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://fox4kc.com/weather/severe-thunderstorms-move-through-kansas-city-area-friday/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a severe-thunderstorms-...",
+            "title": "Power out for over 60K after severe storms move through KC ...",
+            "description": "The severe storm threat is over for the Kansas City area, but earlier Friday many counties in the area were under severe thunderstorm warnings.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+storm+%22article%22&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ5t4CegQISRAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.weather.gov/ict/ks_worse_ice_storms",
+            "display_link": "https://www.weather.gov \u203a ict \u203a ks_worse_ice_storms",
+            "title": "Worst Kansas Ice Storms",
+            "description": "Worst Kansas Ice Storms \u00b7 1) December 10-11, 2007: Nearly all of Kansas. \u00b7 2) January 29-31, 2002: Southwest, South-Central, and all of Eastern Kansas. \u00b7 3) ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+storm+%22article%22&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ5t4CegQIQhAB",
+                    "rank": 2
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.ny1.com/nyc/all-boroughs/weather/2023/02/27/damaging-storms-hit-oklahoma-and-kansas--causing-injuries",
+            "display_link": "https://www.ny1.com \u203a nyc \u203a weather \u203a 2023/02/27",
+            "title": "Damaging storms hit Oklahoma and Kansas, causing injuries",
+            "description": "Powerful storms with widespread wind gusts and reported tornadoes swept across Oklahoma and Kansas, leaving more than a dozen people injured ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+storm+%22article%22&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ5t4CegQISxAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.cbsnews.com/news/kansas-tornado-storms-today-2022-04-30/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Storms and tornado rip through Kansas",
+            "description": "A tornado that barreled through parts of Kansas destroyed or damaged hundreds of homes and buildings, injured several people and left more ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+City+storm+damage&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg8EAE",
+            "text": "kansas city storm damage",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+City+power+outage&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg9EAE",
+            "text": "kansas city power outage",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Prairie+Village+storm+damage&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg7EAE",
+            "text": "prairie village storm damage",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+City+power+Outage+Map&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg6EAE",
+            "text": "kansas city power outage map",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Latest+power+outage+update+near+Overland+Park+KS&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg5EAE",
+            "text": "latest power outage update near overland park, ks",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Severe+thunderstorm+warning&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg4EAE",
+            "text": "severe thunderstorm warning",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Evergy+Outage+Map+Kansas+City&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg3EAE",
+            "text": "evergy outage map kansas city",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Kansas+City+weather+radar&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ1QJ6BAg2EAE",
+            "text": "kansas city weather radar",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Does Kansas get thunderstorms?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Does+Kansas+get+thunderstorms%3F&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzmd6BAgfEAY",
+            "answer_source": "Sheltering from thunderstorms, grateful for Kansas community",
+            "answer_link": "https://www.kansascity.com/opinion/article277393143.html",
+            "answer_display_link": "https://www.kansascity.com \u203a opinion \u203a article277393143https://www.kansascity.com \u203a opinion \u203a article277393143",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB8QBQ\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQu04oAHoECB8QBQ\"><div id=\"XZnBZMXJBNydwPAPscS14AI__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Severe thunderstorms ripped through northeast Kansas on Friday</b>, leaving tens of thousands without power, uprooting trees and pelting communities with hail. Lawrence fared better than some areas, but my city grappled with outages.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 17, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Severe thunderstorms ripped through northeast Kansas on Friday, leaving tens of thousands without power, uprooting trees and pelting communities with hail. Lawrence fared better than some areas, but my city grappled with outages.Jul 17, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "Is Kansas in Tornado Alley?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Is+Kansas+in+Tornado+Alley%3F&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzmd6BAgvEAY",
+            "answer_source": "Tornado Alley - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Tornado_Alley",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Tornado_Alleyhttps://en.wikipedia.org \u203a wiki \u203a Tornado_Alley",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC8QBQ\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQu04oAHoECC8QBQ\"><div id=\"XZnBZMXJBNydwPAPscS14AI__17\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDIQAA\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ4dMGegQIMhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCUQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYRpn0\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQyQ0oAHoECCUQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;EOMAfzvjkjK4TM;AYRpn4\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"EOMAfzvjkjK4TM\" data-lpage=\"https://en.wikipedia.org/wiki/Tornado_Alley\" data-ni=\"1\" data-ref-docid=\"lw9EgD4XumZW_M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCYQAA\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzkx6BAgmEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:139px;width:204px\"><img style=\"margin-left:-6px;width:216px\" alt=\"Tornado Alley - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlq50GmkdTwxSQljWc7qaoPh7rtt-AqY28Bidit99IbQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"XZnBZMXJBNydwPAPscS14AI__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">As a colloquial term there are no definitively set boundaries of Tornado Alley, but the area common to most definitions extends from Texas, through Oklahoma, Kansas, Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, Illinois, Indiana, Missouri, Arkansas, North Dakota, Montana, Ohio, and eastern portions of Colorado ...</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "As a colloquial term there are no definitively set boundaries of Tornado Alley, but the area common to most definitions extends from Texas, through Oklahoma, Kansas, Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, Illinois, Indiana, Missouri, Arkansas, North Dakota, Montana, Ohio, and eastern portions of Colorado ..."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Where in Kansas is Tornado Alley?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Where+in+Kansas+is+Tornado+Alley%3F&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzmd6BAgwEAY",
+            "answer_source": "Tornado Alley | States, Texas, & USA | Britannica",
+            "answer_link": "https://www.britannica.com/place/Tornado-Alley",
+            "answer_display_link": "https://www.britannica.com \u203a place \u203a Tornado-Alleyhttps://www.britannica.com \u203a place \u203a Tornado-Alley",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDAQBQ\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQu04oAHoECDAQBQ\"><div id=\"XZnBZMXJBNydwPAPscS14AI__23\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDEQAA\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQ4dMGegQIMRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDEQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYRpoA\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQyQ0oAHoECCkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;BWf7alYcFSC8MM;AYRpn8\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"BWf7alYcFSC8MM\" data-lpage=\"https://www.britannica.com/place/Tornado-Alley\" data-ni=\"1\" data-ref-docid=\"XF_jvoi2YYJX1M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCsQAA\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzkx6BAgrEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-8px;width:165px\" alt=\"Tornado Alley | States, Texas, &amp; USA | Britannica\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWQRsoIIqcc0ZeCYrViQRDc_spdXZ6KspejC1ORPqUMQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"XZnBZMXJBNydwPAPscS14AI__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The region of maximum tornado frequency known as Tornado Alley extends from <b>west Texas northeast through the western and central portions of Oklahoma and Kansas</b> and across most of Nebraska.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The region of maximum tornado frequency known as Tornado Alley extends from west Texas northeast through the western and central portions of Oklahoma and Kansas and across most of Nebraska."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "What kind of storms does Kansas have?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+kind+of+storms+does+Kansas+have%3F&sa=X&ved=2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQzmd6BAgqEAY",
+            "answer_source": "Severe Thunderstorms - Prepare Metro KC",
+            "answer_link": "https://preparemetrokc.org/knowtherisks/severe-thunderstorms/",
+            "answer_display_link": "https://preparemetrokc.org \u203a knowtherisks \u203a severe-thun...https://preparemetrokc.org \u203a knowtherisks \u203a severe-thun...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCoQBQ\" data-ved=\"2ahUKEwiF7JGzsa2AAxXcDhAIHTFiDSwQu04oAHoECCoQBQ\"><div id=\"XZnBZMXJBNydwPAPscS14AI__29\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The Greater Kansas City area averages about 40-60 thunderstorm days per year. The typical thunderstorm is 15 miles in diameter and lasts an average of 30 minutes. All thunderstorms are dangerous. Thunderstorms may include <b>strong winds, lightning, hail, heavy rain, flash floods and flooding, downbursts, and tornadoes</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The Greater Kansas City area averages about 40-60 thunderstorm days per year. The typical thunderstorm is 15 miles in diameter and lasts an average of 30 minutes. All thunderstorms are dangerous. Thunderstorms may include strong winds, lightning, hail, heavy rain, flash floods and flooding, downbursts, and tornadoes."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

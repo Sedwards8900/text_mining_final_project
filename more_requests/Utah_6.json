@@ -1,0 +1,153 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 22600000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Utah storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:05.659Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Utah+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_4mu8enkgbs4"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Blizzard Dumps Over A Foot Of Snow From Utah to ...",
+            "description": "Article image Estimated snowfall from April 2 through April 5 at 8 a.m. EDT from Winter Storm Vanessa from the West to the Northern Plains.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.researchgate.net/publication/234438737_Understanding_Utah_Winter_Storms_The_Intermountain_Precipitation_Experiment",
+            "display_link": "https://www.researchgate.net \u203a publication \u203a 234438737...",
+            "title": "(PDF) Understanding Utah Winter Storms",
+            "description": "Some of these storms were electrified and produced lightning.This paper reviews the weather of the Intermountain West, describes the experimental setup and the ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.visitutah.com/plan-your-trip/Weather",
+            "display_link": "https://www.visitutah.com \u203a plan-your-trip \u203a Weather",
+            "title": "Statewide Utah Weather Updates",
+            "description": "Utah's Seasons \u00b7 \"There are four strong Utah seasons that have distinct weather patterns \u2014 the most pleasant weather usually occurs between late April to mid- ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usu.edu/today/story/state-climate-officer-explains-the-winter-snow-surge-and-what-it-means-for-utahs-water-future",
+            "display_link": "https://www.usu.edu \u203a today \u203a story \u203a state-climate-offic...",
+            "title": "State Climate Officer Explains the Winter Snow Surge and ...",
+            "description": "Utah State University researcher and assistant state climatologist Jon Meyer sat down with Utah State Today to explain the current weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://gephardtdaily.com/local/national-weather-service-prophecizes-another-winter-storm/",
+            "display_link": "https://gephardtdaily.com \u203a Local Utah News",
+            "title": "National Weather Service prophecizes another Utah winter ...",
+            "description": "SALT LAKE CITY, Utah, Feb. 14, 2023 (Gephardt Daily) -- Although March is closer than ever, the National Weather Service is forecasting ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://photojeepers.com/utah-weather-in-the-winter/",
+            "display_link": "https://photojeepers.com \u203a utah-weather-in-the-winter",
+            "title": "Utah Weather in the Winter",
+            "description": "It's all about the weather when deciding the best time of year to plan a vacation. This article details the Utah weather in the winter and what you can ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://ut.ng.mil/Home/Public-Notice-Article-Display/Article/2348017/utah-national-guard-responds-to-utahs-windstorm-emergency-cleanup/",
+            "display_link": "https://ut.ng.mil \u203a Home \u203a Article \u203a utah-national-guar...",
+            "title": "Utah National Guard responds to Utah's windstorm ...",
+            "description": "The Governor of Utah has activated members of the Utah National Guard to assist with cleanup efforts following a hurricane-level storm which caused severe ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/wefo/9/4/1520-0434_1994_009_0479_aasoaw_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a wefo \u203a 1...",
+            "title": "Analysis and Simulation of a Winter Storm over Utah in",
+            "description": "Abstract The evolution of a major winter storm over Utah during 6\u20137 January 1992 is ... Cover Weather and Forecasting ... Article Type: Research Article ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by JD Horel",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1994",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 27",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxnews.com/us/hurricane-force-wind-utah-trucks-flipped-disaster-severe-weather-power-outages-salt-lake-city",
+            "display_link": "https://www.foxnews.com \u203a hurricane-force-wind-uta...",
+            "title": "Hurricane-force winds in Utah flip 45 semitrucks, kill 1 ...",
+            "description": "Tens of thousands remain without power in Utah after hurricane-force winds blasted portions of the state earlier this week, causing major ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 10, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.npr.org/2023/04/19/1170803173/utah-state-of-emergency-flooding",
+            "display_link": "https://www.npr.org \u203a 2023/04/19 \u203a utah-state-of-emerg...",
+            "title": "Utah is in a state of emergency as melting snow is likely ...",
+            "description": "A record-breaking snow season has raised fears of spring flooding throughout Utah as the weather in mountain regions warms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

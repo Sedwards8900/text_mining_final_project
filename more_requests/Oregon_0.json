@@ -1,0 +1,158 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 30100000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:15.513Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_64bjpooxyx9"
+    },
+    "organic": [
+        {
+            "link": "https://www.oregonencyclopedia.org/articles/columbus_day_storm_1962_/",
+            "display_link": "https://www.oregonencyclopedia.org \u203a articles \u203a colu...",
+            "title": "Columbus Day Storm (1962)",
+            "description": "On the morning of Friday, October 12, 1962\u2014Columbus Day\u2014a massive storm hit the coast of northern California. The storm had originated ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 12, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Oregon+storm+%22article%22&sa=X&ved=2ahUKEwj_0ZjP4a2AAxWOTaQEHXktAX84CxDm3gJ6BAgJEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.climate.washington.edu/stormking/January1880.html",
+            "display_link": "https://www.climate.washington.edu \u203a stormking \u203a Jan...",
+            "title": "The January 9, 1880 Storm King",
+            "description": "Whereas in Clackamas County, the Oregon City Enterprise reported, ... In an article titled, \"The Storm,\" which also appeared on January 10th, it is reported ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by W Read",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 1",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.portlandoregon.gov/transportation/article/421986",
+            "display_link": "https://www.portlandoregon.gov \u203a article",
+            "title": "ALERT: Heavy rain and wind may lead to road hazards",
+            "description": "An active weather pattern is expected to bring more rain and wind gusts ... Visit www.portlandoregon.gov/transportation/article/319810 for more information.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://earthobservatory.nasa.gov/images/17548/subtropical-storm-off-the-coast-of-oregon",
+            "display_link": "https://earthobservatory.nasa.gov \u203a images \u203a subtropic...",
+            "title": "Subtropical Storm off the Coast of Oregon",
+            "description": "Subtropical Storm off the Coast of Oregon \u00b7 For more on this storm and other unusual hurricane-like storms, visit the blog of Dr. Jeff Masters on the Weather ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq",
+            "display_link": "https://www.portland.gov \u203a transportation \u203a winter-we...",
+            "title": "Winter Weather Basics and FAQ",
+            "description": "Why doesn't PBOT treat or plow state roads and highways in Portland? While PBOT covers its snow and ice routes, the Oregon Department of Transportation (ODOT) ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.triplicate.com/news/peak-winter-storm-season-draws-storm-watchers-to-a-singular-stretch-of-the-oregon-coast/article_a5781a65-09dd-5afb-aaf7-31b8cd64cb52.html",
+            "display_link": "https://www.triplicate.com \u203a news \u203a article_a5781a65-09...",
+            "title": "Peak winter storm season draws storm watchers to a ...",
+            "description": "It's the heart of winter on the Oregon Coast, which means gargantuan Pacific Ocean swells, roaring sea winds and exploding clouds of foam ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://ktvz.com/weather/2023/03/20/rain-snow-then-a-break-before-another-storm-system-rolls-through-central-oregon/",
+            "display_link": "https://ktvz.com \u203a weather \u203a 2023/03/20 \u203a rain-snow-t...",
+            "title": "Rain, snow, then a break before another storm system rolls ...",
+            "description": "There's a chance of a new storm system arriving on the High Desert by Wednesday night. HAVE A SPARKLING DAY IN CENTRAL OREGON! Article Topic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/02/23/winter-storm-outages-snow-minneapolis-portland/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/02/23 \u203a wint...",
+            "title": "Major storm encases northern U.S. in snow and ice",
+            "description": "Heavy snow has also been reported in coastal areas of Oregon and northern California. In Portland, Ore., cars have been abandoned on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

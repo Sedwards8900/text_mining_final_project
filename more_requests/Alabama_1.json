@@ -1,0 +1,322 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 30200000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Alabama storm article - Google Search",
+        "code_version": "1.104",
+        "timestamp": "2023-07-27T01:17:29.403Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Alabama+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_35strog21"
+    },
+    "organic": [
+        {
+            "link": "https://www.weather.gov/bmx/tornadodb_1922",
+            "display_link": "https://www.weather.gov \u203a bmx \u203a tornadodb_1922",
+            "title": "Alabama Tornadoes 1922",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Tornado # in Year",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Year",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Month",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Day",
+                                "rank": 4
+                            },
+                            {
+                                "text": "Time (CST)",
+                                "rank": 5
+                            },
+                            {
+                                "text": "Damage Scale",
+                                "rank": 6
+                            },
+                            {
+                                "text": "Path Length (Miles)",
+                                "rank": 7
+                            },
+                            {
+                                "text": "Maxi...",
+                                "rank": 8
+                            }
+                        ],
+                        [
+                            {
+                                "text": "9",
+                                "rank": 1
+                            },
+                            {
+                                "text": "1922",
+                                "rank": 2
+                            },
+                            {
+                                "text": "3",
+                                "rank": 3
+                            },
+                            {
+                                "text": "31",
+                                "rank": 4
+                            },
+                            {
+                                "text": "0330",
+                                "rank": 5
+                            },
+                            {
+                                "text": "F2",
+                                "rank": 6
+                            },
+                            {
+                                "text": "1.0",
+                                "rank": 7
+                            },
+                            {
+                                "text": "0",
+                                "rank": 8
+                            }
+                        ],
+                        [
+                            {
+                                "text": "8",
+                                "rank": 1
+                            },
+                            {
+                                "text": "1922",
+                                "rank": 2
+                            },
+                            {
+                                "text": "3",
+                                "rank": 3
+                            },
+                            {
+                                "text": "31",
+                                "rank": 4
+                            },
+                            {
+                                "text": "0300",
+                                "rank": 5
+                            },
+                            {
+                                "text": "F2",
+                                "rank": 6
+                            },
+                            {
+                                "text": "15.0",
+                                "rank": 7
+                            },
+                            {
+                                "text": "100",
+                                "rank": 8
+                            }
+                        ],
+                        [
+                            {
+                                "text": "7",
+                                "rank": 1
+                            },
+                            {
+                                "text": "1922",
+                                "rank": 2
+                            },
+                            {
+                                "text": "3",
+                                "rank": 3
+                            },
+                            {
+                                "text": "31",
+                                "rank": 4
+                            },
+                            {
+                                "text": "0230",
+                                "rank": 5
+                            },
+                            {
+                                "text": "F2",
+                                "rank": 6
+                            },
+                            {
+                                "text": "5.0",
+                                "rank": 7
+                            },
+                            {
+                                "text": "0",
+                                "rank": 8
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.al.com/news/2022/03/severe-weather-overload-2022-alabama-storm-season-not-unusually-busy-meteorologists-say.html",
+            "display_link": "https://www.al.com \u203a news \u203a 2022/03 \u203a severe-weather-o...",
+            "title": "Severe weather overload? 2022 Alabama storm season ...",
+            "description": "Published: Mar. 28, 2022, 7:49 a.m.. Alabama tornadoes. Alabama is a frequent tornado target. Here is a look at the number of tornadoes per year and ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2019/03/05/great-forecast-deadly-tornado-tragedy-alabama-what-went-wrong/",
+            "display_link": "https://www.washingtonpost.com \u203a 2019/03/05 \u203a great...",
+            "title": "A great forecast but a deadly tornado tragedy in Alabama. ...",
+            "description": "(For a detailed timeline of the Weather Service's advisories and warnings for this event, see the bottom of this article.) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 5, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.axios.com/2023/03/26/tornadoes-threaten-mississippi-alabama-sunday",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "Southeast faces severe flooding risk as more tornadoes ...",
+            "description": "There's a moderate risk of severe weather from central Louisiana east through south-central Mississippi and central Alabama, \"where supercell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://weather.com/news/news/2023-01-12-southeast-severe-storms-impacts-alabama-mississippi-kentucky-georgia",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-01-12-southe...",
+            "title": "At Least Six Dead In Alabama Tornado, Storms Carve Path ...",
+            "description": "... homes ripped apart in Selma, Alabama, and businesses wrecked in Griffin, Georgia. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://abc3340.com/news/local/gallery/latest-severe-weather-storm-damage-reports-in-alabama",
+            "display_link": "https://abc3340.com \u203a news \u203a local \u203a gallery \u203a latest-s...",
+            "title": "LATEST: Severe weather, storm damage reports in Alabama",
+            "description": "The National Weather Service in Birmingham reported a \"confirmed large and destructive tornado\" on the ground near the city of Aliceville, about 45 miles ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.reuters.com/world/us/least-6-killed-alabama-storm-sweeps-through-us-south-nyt-2023-01-13/",
+            "display_link": "https://www.reuters.com \u203a world \u203a least-6-killed-alabama...",
+            "title": "At least 6 killed as Tornado, thunderstorms strike central ...",
+            "description": "At least six people were killed in central Alabama on Thursday as thunderstorms and at least one tornado swept through the region, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Alabama+storm+%22article%22&sa=X&ved=2ahUKEwiqu4vS262AAxXFGjQIHfRODrk4DBDm3gJ6BAgZEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cnbc.com/2023/01/12/powerful-storms-slam-south-at-least-6-killed-in-alabama.html",
+            "display_link": "https://www.cnbc.com \u203a 2023/01/12 \u203a powerful-storms-s...",
+            "title": "Powerful storms slam South; at least 6 killed in Alabama",
+            "description": "A giant, swirling storm system billowing across the South killed at least six people Thursday in central Alabama, authorities said, and spawned ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://whnt.com/news/alabama-news/your-photos-storm-damage-reported-across-the-tennessee-valley/",
+            "display_link": "https://whnt.com \u203a news \u203a alabama-news \u203a your-photo...",
+            "title": "PHOTOS: Storm damage, flooding across North Alabama",
+            "description": "Reports of damage are coming in from across the Tennessee Valley after strong storms quickly moved across the area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wsfa.com/2023/01/12/6-confirmed-dead-widespread-damage-across-alabama-tornado-outbreak/",
+            "display_link": "https://www.wsfa.com \u203a 2023/01/12 \u203a 6-confirmed-dead...",
+            "title": "Multiple dead, widespread damage across Alabama in ...",
+            "description": "Seven people are now confirmed dead and significant damage is being reported from Thursday's severe storms and tornado outbreak across much ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Alabama+storm+%22article%22&sa=X&ved=2ahUKEwiqu4vS262AAxXFGjQIHfRODrk4DBDm3gJ6BAglEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

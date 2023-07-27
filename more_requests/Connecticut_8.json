@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93400000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Connecticut storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:35.283Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Connecticut+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_iwe89jlb51s"
+    },
+    "organic": [
+        {
+            "link": "https://www.courant.com/2021/02/19/a-30-hour-storm-continues-to-move-through-connecticut-friday-heres-what-to-expect/",
+            "display_link": "https://www.courant.com \u203a 2021/02/19 \u203a a-30-hour-st...",
+            "title": "A 30+ hour storm continues to move through Connecticut ...",
+            "description": "The storm was a far cry from the heavy snowfall that covered Connecticut in the past few weeks, but it still dropped as many as 4 to 5 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 19, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://libguides.ctstatelibrary.org/c.php?g=212426&p=8246950",
+            "display_link": "https://libguides.ctstatelibrary.org \u203a c.php",
+            "title": "Blizzard of 1888 - Weather",
+            "description": "Blizzard of 1888; Archives; Newspapers, Articles, and more; Sources ... The Blizzard of 1888, also known as the \"Great White Hurricane,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://lewisbrisbois.com/newsroom/legal-alerts/ongoing-storm-rules-for-the-northeast-connecticut-massachusetts-new-jersey",
+            "display_link": "https://lewisbrisbois.com \u203a newsroom \u203a legal-alerts \u203a o...",
+            "title": "\"Ongoing Storm\" Rules for the Northeast (Connecticut, ...",
+            "description": "\"Ongoing Storm\" Rules for the Northeast (Connecticut, Massachusetts, New Jersey, New York & Rhode Island). (February 4, 2021) - The winter storm that ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Irene_in_Connecticut",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane...",
+            "title": "Effects of Hurricane Irene in Connecticut",
+            "description": "The effects of Hurricane Irene in Connecticut were not as severe as farther south in New York and New Jersey, where the storm actually made landfall.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nytimes.com/2012/10/31/nyregion/in-connecticut-feeling-that-the-storms-impact-could-have-been-worse.html",
+            "display_link": "https://www.nytimes.com \u203a 2012/10/31 \u203a nyregion \u203a in-...",
+            "title": "In Connecticut, a Sense That Storm's Impact Could Have ...",
+            "description": "Officials said the combination of the storm's making landfall earlier than expected before the high tide, and a shift in winds blowing surf back ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 30, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.weather.gov/okx/1938HurricaneHome",
+            "display_link": "https://www.weather.gov \u203a okx",
+            "title": "The Great New England Hurricane of 1938",
+            "description": "Sustained hurricane force winds were felt across central and eastern Long Island and southeastern Connecticut. The hurricane produced a destructive storm ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.theridgefieldpress.com/weather/article/snow-rain-totals-ct-noreaster-17838670.php",
+            "display_link": "https://www.theridgefieldpress.com \u203a Weather",
+            "title": "How much rain and snow has CT received so far from ...",
+            "description": "A winter nor'easter has brought heavy rain and nearly a foot of snow in parts of Connecticut Tuesday morning.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://mansfieldct-history.org/80-years-ago-the-hurricane-of-1938-struck-connecticut/",
+            "display_link": "https://mansfieldct-history.org \u203a 80-years-ago-the-hurr...",
+            "title": "80 Years Ago: The Hurricane of 1938 Struck Connecticut",
+            "description": "For three hours, wind and rain ravaged the countryside. The wind averaged 110 mph, peaking at 180 mph. Four previous days of heavy rain had ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 18, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://connecticuthistory.org/topics-page/weather/",
+            "display_link": "https://connecticuthistory.org \u203a Topics",
+            "title": "Weather - Connecticut History | a CTHumanities Project",
+            "description": "In earlier centuries, foul weather could bring starvation, death at sea, and other grave. ... Articles. Shea, Jim. \u201cBlizzards: By Any Tally, 1888 Is First.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://fairfieldmuseum.omeka.net/exhibits/show/risingtides/rising-tides/extreme-weather/connecticut-storms",
+            "display_link": "https://fairfieldmuseum.omeka.net \u203a extreme-weather",
+            "title": "A Century of Connecticut Storms \u00b7 Rising Tides",
+            "description": "A Century of Connecticut Storms \u00b7 Early Accounts \u00b7 1938, September 21: The Great New England Hurricane \u00b7 1944, September 14: The Great Atlantic Hurricane \u00b7 1954, ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

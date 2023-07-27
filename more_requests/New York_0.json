@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 520000000,
+        "search_time": 0.6,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New York storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:40:17.331Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+York+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.3 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_6jarqygxfnm"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnn.com/2022/12/28/weather/buffalo-winter-storm-new-york-blizzard-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/28 \u203a weather \u203a buffalo-...",
+            "title": "Winter storm death toll rises to 37 in Buffalo as criticism ...",
+            "description": "The winter storm death toll has risen to 37 in Erie County, New York, as crews continue to clear roads and first responders check on people ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wsj.com/articles/winter-storm-hits-northeast-new-york-city-snow-e5906fee",
+            "display_link": "https://www.wsj.com \u203a articles \u203a winter-storm-hits-northe...",
+            "title": "Snow Finally Falls in New York City as Winter Storm Hits ...",
+            "description": "Flash floods in Pennsylvania left five people dead and two missing as storms rolled over much of the region. Continue To Article. U.S.New York ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-12281657/New-York-deadly-storm-kills-woman-mid-30s-shes-swept-away-house.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12281657",
+            "title": "New York deadly storm kills woman in her mid-30s as she's ...",
+            "description": "Hudson Valley in upstate New York was drowned by eight inches of rain yesterday, with more on the way; Flash flood and severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/07/10/northeast-storms-flash-floods-rain/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/10 \u203a nort...",
+            "title": "Historic and deadly Northeast floods trap residents, destroy ...",
+            "description": "Intense storms dropped more than a month's worth of rain in parts of New York's Hudson Valley and in Vermont from late Sunday into Monday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.governing.com/community/the-latest-plan-to-protect-new-york-city-from-storm-surges",
+            "display_link": "https://www.governing.com \u203a community \u203a the-latest-...",
+            "title": "The Latest Plan to Protect New York City from Storm Surges",
+            "description": "Ten years after Hurricane Sandy, New York City is still vulnerable to storm surge. The Army Corps of Engineers has proposed a $52 billion ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/biggest-snowstorm-season-likely-new-york-city-new-england-rcna72600",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a biggest-sn...",
+            "title": "Coast-to-coast storm set to follow early week snowstorm in ...",
+            "description": "The final snow total in New York City was 1.8 inches, according to the National Weather Service.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://abc7ny.com/new-york-flooding-hudson-valley-west-point-orange-county/13482914/",
+            "display_link": "https://abc7ny.com \u203a new-york-flooding-hudson-valle...",
+            "title": "New York flash flooding: Gov. Hochul requests federal aid ...",
+            "description": "HIGHLAND FALLS, New York (WABC) -- Governor Kathy Hochul has requested federal aid in the cleanup of the Hudson Valley after Sunday's storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.axios.com/2023/07/10/northeast-storms-flash-flooding-new-york-vermont",
+            "display_link": "https://www.axios.com \u203a Science",
+            "title": "Historic flooding hits Vermont as storm slams Northeast",
+            "description": "More than 6 inches of rain had fallen in parts of New York and nearly 7 inches in Connecticut as of Monday lunchtime, per the NWS.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-64789869",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-64789869",
+            "title": "New York City wakes up to biggest snowfall of season",
+            "description": "Parts of the north-east could see up to 8in (20cm) of snow, the National Weather Service (NWS) said, with New York City getting 2-6in. Further ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://news.sky.com/story/us-winter-storm-life-on-the-road-as-deep-freeze-conditions-hit-new-york-state-12774384",
+            "display_link": "https://news.sky.com \u203a story \u203a us-winter-storm-life-on...",
+            "title": "US winter storm: Stranded in the town Christmas (almost) ...",
+            "description": "Sky News reporter Claire Bates was forced to find refuge in a roadside motel in New York State after being caught in the deadly winter ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

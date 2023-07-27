@@ -1,0 +1,287 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 70000000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Minnesota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:55.153Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Minnesota+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_alk0rfe3m3"
+    },
+    "organic": [
+        {
+            "link": "https://www.kare11.com/article/weather/storm-brings-sizeable-hail-much-needed-rain-to-mn-wi/89-1f908494-3412-4f7d-9762-b79c252bef5e",
+            "display_link": "https://www.kare11.com \u203a article \u203a weather \u203a storm-br...",
+            "title": "Storm brings sizeable hail, much-needed rain to MN, WI",
+            "description": "MINNEAPOLIS \u2014 A storm system that moved across Minnesota Wednesday launched tornado and funnel cloud reports, hail as large as tennis balls, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/mpx/events",
+            "display_link": "https://www.weather.gov \u203a mpx \u203a events",
+            "title": "NWS Twin Cities - Archive of Post-Storm Articles",
+            "description": "NWS Twin Cities - Archive of Post-Storm Articles \u00b7 July 19, 2019 Severe Weather over Central Minnesota and Western Wisconsin \u00b7 Summary of Tornadoes on July 28, ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://bringmethenews.com/minnesota-weather",
+            "display_link": "https://bringmethenews.com \u203a minnesota-weather",
+            "title": "MN Weather",
+            "description": "'Dangerously hot' in Minnesota this week, small chances for storms. By: Joe Nelson \u2013 July 24, 2023. The hottest temps of the summer are forecast to swallow ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.dnr.state.mn.us/climate/journal/index.html",
+            "display_link": "https://www.dnr.state.mn.us \u203a climate \u203a journal",
+            "title": "Climate Journal | Minnesota DNR",
+            "description": "This page offers a running account of significant Minnesota weather events or ... See our legacy climate journal Older journal articles will appear as we ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.startribune.com/winter-storm-disrupts-travel-school-ash-wednesday-services-minnesota/600253467/",
+            "display_link": "https://www.startribune.com \u203a winter-storm-disrupts-tr...",
+            "title": "Potent winter storm sweeping across Minnesota",
+            "description": "A major winter storm disrupting travel, school and even church worship services across Minnesota will ease up a bit Wednesday morning before ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.startribune.com/day-three-of-storm-winds-down-in-minnesota/600253780/",
+                    "display_link": "https://www.startribune.com \u203a day-three-of-storm-win...",
+                    "title": "Day three of storm winds down in Minnesota",
+                    "description": "Day three of storm winds down in Minnesota. Bryan Erickson clears snow in front of First Avenue Thursday, Feb. 23, 2023.",
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.npr.org/2023/02/22/1158700057/minnesota-snow-storm",
+            "display_link": "https://www.npr.org \u203a minnesota-snow-storm",
+            "title": "Winter storm update: Flights canceled and schools shut ...",
+            "description": "Winter storm update: Flights canceled and schools shut down in Minnesota Heavy snow and high winds are causing blizzard conditions in the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.nytimes.com/2022/05/30/us/tornado-minnesota-forada.html",
+            "display_link": "https://www.nytimes.com \u203a tornado-minnesota-forada",
+            "title": "Storm Damages as Many as 100 Homes in Minnesota",
+            "description": "A possible tornado struck Forada, a city of about 160 residents in central Minnesota, on Monday, downing power lines and damaging as many as ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://apnews.com/article/weather-minnesota-minneapolis-storms-183370d37a30a93b7187a2927c9c7e57",
+            "display_link": "https://apnews.com \u203a article \u203a weather-minnesota-min...",
+            "title": "Flights canceled, highways closed as winter storm wallops ...",
+            "description": "A brutal winter storm has closed interstate highways from Arizona to Wyoming, ... offices, even shutting down the Minnesota Legislature.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/02/21/tuesday-forecast-major-winter-storm-0221/11308430002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/02/21 \u203a t...",
+            "title": "'Historic' winter storm to slam Minnesota - Weather",
+            "description": "The National Weather Service in Twin Cities, Minnesota warned that the \"historic\" three-day storm will bring blowing and drifting snow.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+in+Minnesota+today&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg7EAE",
+            "text": "storm in minnesota today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snow+storm+coming+MN&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg8EAE",
+            "text": "snow storm coming mn",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Minnesota+weather+News&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg6EAE",
+            "text": "minnesota weather news",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Minneapolis+Weather&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg5EAE",
+            "text": "minneapolis weather",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snow+storm+MN+tomorrow&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg4EAE",
+            "text": "snow storm mn tomorrow",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Minnesota+Weather+blog&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg3EAE",
+            "text": "minnesota weather blog",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=MN+storm+next+week&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg1EAE",
+            "text": "mn storm next week",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Minnesota+News&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q1QJ6BAg2EAE",
+            "text": "minnesota news",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Has there ever been a tornado in MN?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+there+ever+been+a+tornado+in+MN%3F&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qzmd6BAguEAY",
+            "answer_source": "Does Minnesota Have Tornadoes? [How Common & Stats in 2023]",
+            "answer_link": "https://kassidysjourney.com/does-minnesota-have-tornadoes/",
+            "answer_display_link": "https://kassidysjourney.com \u203a does-minnesota-have-torna...https://kassidysjourney.com \u203a does-minnesota-have-torna...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC4QBQ\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qu04oAHoECC4QBQ\"><div id=\"dZnBZMS_OcG85OUPyaiQ6Ao__16\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDEQAA\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Q4dMGegQIMRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDEQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CC8QAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AZdidc\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0QyQ0oAHoECC8QAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;BL7-xaDqk53IDM;AZdidQ\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"BL7-xaDqk53IDM\" data-lpage=\"https://kassidysjourney.com/does-minnesota-have-tornadoes/\" data-ni=\"1\" data-ref-docid=\"h7SU_VOpO496bM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCIQAA\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qzkx6BAgiEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:92px\"><img style=\"margin-left:-18px;width:128px\" alt=\"Does Minnesota Have Tornadoes? [How Common &amp; Stats in 2023]\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFu5TOvxWD1Y1RxvJ-uPt0IS1ySuPAG3efVfmzow6iaA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"dZnBZMS_OcG85OUPyaiQ6Ao__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>There have been quite a few deadly, dangerous, and scary tornadoes in the state of Minnesota</b>. The worst one in Minnesota tornado history was back in 1886. This tornado was deadly and had 72 people dead with 213 injured in the St. Cloud area.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 7, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There have been quite a few deadly, dangerous, and scary tornadoes in the state of Minnesota. The worst one in Minnesota tornado history was back in 1886. This tornado was deadly and had 72 people dead with 213 injured in the St. Cloud area.Jun 7, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "Is it possible for a hurricane to hit Minnesota?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+it+possible+for+a+hurricane+to+hit+Minnesota%3F&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qzmd6BAghEAY",
+            "answer_source": "II. Natural Disasters in Minnesota",
+            "answer_link": "https://mn.gov/admin/shpo/planning/disaster/risks/",
+            "answer_display_link": "https://mn.gov \u203a admin \u203a shpo \u203a planning \u203a disaster \u203a riskshttps://mn.gov \u203a admin \u203a shpo \u203a planning \u203a disaster \u203a risks",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCEQBQ\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qu04oAHoECCEQBQ\"><div id=\"dZnBZMS_OcG85OUPyaiQ6Ao__22\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">2.1 General. <b>Minnesota is fortunate in that its inland location removes us from the threat of hurricanes or tidal waves</b>. We are also fortunate to be located in the lowest risk seismic category which virtually eliminates the threat of earthquakes.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "2.1 General. Minnesota is fortunate in that its inland location removes us from the threat of hurricanes or tidal waves. We are also fortunate to be located in the lowest risk seismic category which virtually eliminates the threat of earthquakes."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Is there a snow storm coming to Minnesota?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+there+a+snow+storm+coming+to+Minnesota%3F&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qzmd6BAgrEAY",
+            "answer_source": "Minneapolis, MN Winter Weather Forecast - AccuWeather",
+            "answer_link": "https://www.accuweather.com/en/us/minneapolis/55415/winter-weather-forecast/348794",
+            "answer_display_link": "https://www.accuweather.com \u203a minneapolis \u203a winter-we...https://www.accuweather.com \u203a minneapolis \u203a winter-we...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCsQBQ\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qu04oAHoECCsQBQ\"><div id=\"dZnBZMS_OcG85OUPyaiQ6Ao__25\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Snow and Ice Outlook<br><br> <b>There are currently no active snow events at this location</b>. Visit our Winter Center page to see which locations within the United States or Canada are currently being impacted by snow events.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Snow and Ice Outlook There are currently no active snow events at this location. Visit our Winter Center page to see which locations within the United States or Canada are currently being impacted by snow events."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "What was the worst blizzard in Minnesota?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+blizzard+in+Minnesota%3F&sa=X&ved=2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qzmd6BAggEAY",
+            "answer_source": "1940 Armistice Day Blizzard - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/1940_Armistice_Day_Blizzard",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a 1940_Armistice_Day_B...https://en.wikipedia.org \u203a wiki \u203a 1940_Armistice_Day_B...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCAQBQ\" data-ved=\"2ahUKEwiEzv--sa2AAxVBHrkGHUkUBK0Qu04oAHoECCAQBQ\"><div id=\"dZnBZMS_OcG85OUPyaiQ6Ao__28\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Armistice Day Blizzard of 1940</b>, a podcast by the Minnesota Historical Society on the storm and subsequent changes to the National Weather Service's forecasting practices.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Armistice Day Blizzard of 1940, a podcast by the Minnesota Historical Society on the storm and subsequent changes to the National Weather Service's forecasting practices."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

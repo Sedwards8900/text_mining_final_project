@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39700000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Utah storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:50.100Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Utah+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_qakg8rs5bzg"
+    },
+    "organic": [
+        {
+            "link": "https://kslnewsradio.com/1988889/massive-storm-coming-set-to-add-even-more-to-strong-utah-snowpack/",
+            "display_link": "https://kslnewsradio.com \u203a massive-storm-coming-set-t...",
+            "title": "Storm approaching Utah will add significantly to strong ...",
+            "description": "Reporter, Utah's Morning News. SALT LAKE CITY \u2014 One of the biggest storms of the 2022-2023 winter season is expected to arrive in northern ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://ksltv.com/533658/winter-storm-warning-in-effect-for-portions-of-utah-mountains/",
+            "display_link": "https://ksltv.com \u203a winter-storm-warning-in-effect-for-...",
+            "title": "Winter storm warning in effect for portions of Utah mountains",
+            "description": "According to the National Weather Service in Salt Lake City, heavy snow is expected in Utah's southern mountains. The first winter storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.deseret.com/utah/2022/12/20/23518766/christmas-forecast-where-will-winter-storm-hit",
+            "display_link": "https://www.deseret.com \u203a utah \u203a 2022/12/20 \u203a christ...",
+            "title": "Christmas forecast: Winter storm is coming, where will it hit?",
+            "description": "Utah and this winter storm: You can expect some snow in the mountains and a little on the valley floors in northern Utah, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.fox13now.com/weather/utahs-weather-authority-captures-photos-of-lightning-storm-in-northern-utah",
+            "display_link": "https://www.fox13now.com \u203a weather \u203a utahs-weather...",
+            "title": "Utah's Weather Authority captures photos of lightning storm ...",
+            "description": "A lightning storm put on quite a show along the Wasatch Front Thursday night and Utah's Weather Authority shared their view of the storm with incredible ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.stgeorgeutah.com/news/archive/2023/03/09/prc-another-winter-storm-yup-and-its-heading-for-the-southern-utah-mountains/",
+            "display_link": "https://www.stgeorgeutah.com \u203a archive \u203a 2023/03/09",
+            "title": "Another winter storm? Yup, and it's heading for the ...",
+            "description": "GEORGE \u2014 Winter just doesn't seem to want to go away in Southern Utah, where again, the five-county area of Washington, Iron, Beaver, Kane and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.utah.com/things-to-do/plan-your-trip/weather/",
+            "display_link": "https://www.utah.com \u203a things-to-do \u203a plan-your-trip",
+            "title": "Utah Weather & Temperature",
+            "description": "Current information on weather conditions in major Utah cities and at national parks ... Our weather is as varied as our terrain. ... Articles & Itineraries.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/09/09/utah-wind-power-outages/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/09/09 \u203a utah...",
+            "title": "Destructive windstorm slams Utah with gusts to 100 mph",
+            "description": "Gift Article. Share. More than 180,000 customers lost power across Utah on Tuesday as a serious wind storm rocked the Beehive State, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 9, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Blizzard Dumps Over A Foot Of Snow From Utah to ...",
+            "description": "Article image Estimated snowfall from April 2 through April 5 at 8 a.m. EDT from Winter Storm Vanessa from the West to the Northern Plains.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.visitutah.com/plan-your-trip/Weather",
+            "display_link": "https://www.visitutah.com \u203a plan-your-trip \u203a Weather",
+            "title": "Statewide Utah Weather Updates",
+            "description": "Utah's Seasons \u00b7 \"There are four strong Utah seasons that have distinct weather patterns \u2014 the most pleasant weather usually occurs between late April to mid- ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://gephardtdaily.com/local/national-weather-service-prophecizes-another-winter-storm/",
+            "display_link": "https://gephardtdaily.com \u203a Local Utah News",
+            "title": "National Weather Service prophecizes another Utah winter ...",
+            "description": "SALT LAKE CITY, Utah, Feb. 14, 2023 (Gephardt Daily) -- Although March is closer than ever, the National Weather Service is forecasting ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

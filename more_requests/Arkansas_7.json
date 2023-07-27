@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 150000000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arkansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:28.056Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arkansas+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/611.1.21.161.7 (KHTML, like Gecko) Version/14.1 Safari/611.1.21.161.7",
+        "request_id": "hl_c3a9eb28_0y9z8d29pj9"
+    },
+    "organic": [
+        {
+            "link": "https://www.dailymail.co.uk/news/article-11926117/Terrifying-moment-monster-tornado-rips-apart-Arkansas-capital-Little-Rock-80mph-winds.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-11926117",
+            "title": "Terrifying moment monster tornado rips apart Arkansas ...",
+            "description": "On Friday, Little Rock, Arkansas, was hit by a severe tornado that caused significant damage to ... Share or comment on this article:.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://arktimes.com/arkansas-blog/2021/06/06/tornadoes-increasing-in-arkansas-due-to-climate-change-researcher-says",
+            "display_link": "https://arktimes.com \u203a Arkansas Blog",
+            "title": "Tornadoes increasing in Arkansas due to climate change, ...",
+            "description": "Last year, Arkansas recorded 45 tornadoes. There were 41 in 2019 and 36 in 2018. This year, as of June 4, the state has seen 16. Condry said the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 6, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://governor.arkansas.gov/executive_orders/executive-order-authorizing-emergency-paid-leave-for-certain-state-employees-whose-principal-residences-are-or-were-adversely-impacted-by-the-severe-weather-emergency-declared-in-executive-order-23-20/",
+            "display_link": "https://governor.arkansas.gov \u203a executive_orders \u203a ex...",
+            "title": "EXECUTIVE ORDER AUTHORIZING EMERGENCY PAID ...",
+            "description": "WHEREAS: On March 31, 2023, severe thunderstorms and tornadoes struck Arkansas ... is issued pursuant to Article VI, Section 2 of the Arkansas Constitution, ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-03-31-tornadoes-storms-arkansas-tennessee-illinois-mississippi-missouri",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Tornadoes, Storms Carve Deadly Path Through Arkansas ...",
+            "description": "Tornadoes, Storms Carve Deadly Path Through Arkansas, Illinois, Iowa, Tennessee ... T\u200bhis article is no longer being updated. Please click here for the latest on ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.samaritanspurse.org/article/samaritans-purse-responds-to-storms-in-marked-tree-arkansas/",
+            "display_link": "https://www.samaritanspurse.org \u203a article \u203a samaritans-...",
+            "title": "Samaritan's Purse Responds to Storms in Marked Tree, ...",
+            "description": "First Baptist Church of Marked Tree is our host church for this response in Arkansas. Many families are recovering from these violent storms and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.newsbreak.com/news/2743836203168/arkansas-storm-team-weather-blog-watching-two-areas-for-hurricane-development",
+            "display_link": "https://www.newsbreak.com \u203a news \u203a arkansas-storm-tea...",
+            "title": "Arkansas Storm Team Weather Blog: Watching two areas ...",
+            "description": "This season there have only been 5 named storms. Three tropical storms, two hurricanes, and no major hurricanes. Last year in mid September we ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.kcra.com/article/deadly-tornadoes-us-midwest-south/43487838",
+            "display_link": "https://www.kcra.com \u203a article \u203a deadly-tornadoes-us-...",
+            "title": "At least 32 dead as tornadoes torment from Arkansas to ...",
+            "description": "Other deaths from the storms that hit Friday night into Saturday were reported in Alabama and Mississippi. Video: Tornado damage in Little Rock, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.newsweek.com/little-rock-arkansas-before-after-devastating-tornado-1792020",
+            "display_link": "https://www.newsweek.com \u203a ... \u203a Weather \u203a Tornado",
+            "title": "Images Show Little Rock, Arkansas Before and After ...",
+            "description": "At least one person died after a devastating tornado struck Little Rock, Arkansas on Friday afternoon. The National Weather Service said ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.uaex.uada.edu/environment-nature/disaster/storm-damage.aspx",
+            "display_link": "https://www.uaex.uada.edu \u203a environment-nature \u203a sto...",
+            "title": "Arkansas Storm Damage - Trees | Assess, Prune, Disaster ...",
+            "description": "How to Recover From Tree Damage After a Storm ... To learn more about tree topping, read the article by the Arkansas Urban Forestry Council Link opens in a ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.pbs.org/newshour/show/large-tornado-plows-through-little-rock-arkansas",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a show \u203a large-torna...",
+            "title": "Large tornado plows through Little Rock, Arkansas",
+            "description": "A tornado plowed into Little Rock, Arkansas, and nearby towns Friday afternoon with reports of heavy damage and many people injured.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

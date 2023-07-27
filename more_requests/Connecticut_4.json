@@ -1,0 +1,187 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 80700000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Connecticut storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:23.461Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Connecticut+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_jj6eetjbxrc"
+    },
+    "organic": [
+        {
+            "link": "https://www.stamfordadvocate.com/local/article/For-Henri-Stamford-and-Greenwich-officials-16403680.php",
+            "display_link": "https://www.stamfordadvocate.com \u203a News \u203a Local",
+            "title": "Stamford and Greenwich first responders prepped, but not ...",
+            "description": "STAMFORD \u2014 Though initially projected to wreak havoc in lower Fairfield Country, Tropical Storm Henri left Stamford and Greenwich relatively ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.sheltonherald.com/news/article/Winter-storm-expected-to-hit-CT-Sunday-here-s-14872905.php",
+            "display_link": "https://www.sheltonherald.com \u203a News",
+            "title": "Winter storm expected to hit CT Sunday; here's what you ...",
+            "description": "The National Weather Service predicts up to a foot of snow could hit inland Connecticut,...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.middletownpress.com/news/article/ct-weather-winter-storm-snow-sleet-rain-flooding-17817627.php",
+            "display_link": "https://www.middletownpress.com \u203a News",
+            "title": "Winter storm will bring mix of snow, sleet, rain and flooding ...",
+            "description": "A winter storm will produce several inches of snow in northern Connecticut, while the coast will see heavy rain, wind and flooding, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.newstimes.com/news/article/ct-weather-winter-storm-snow-ice-coastal-flooding-17815235.php",
+            "display_link": "https://www.newstimes.com \u203a News",
+            "title": "Storm will bring mix of rain, snow and ice to CT, weather ...",
+            "description": "Connecticut is expected to get a winter storm Friday night through Saturday that could produce coastal flooding, the National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.newstimes.com/news/article/Storm-hits-Danbury-area-12917021.php",
+                    "display_link": "https://www.newstimes.com \u203a News",
+                    "title": "At least 2 killed as violent storm wallops Danbury area",
+                    "description": "You voted. See who won. ... Ryan Gallagher, a meteorologist with Connecticut Weather Center, said he estimated winds reached 60 mph in Danbury.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "May 15, 2018",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.courant.com/2023/02/28/crashes-and-closures-mark-ct-snowstorm-with-5-to-7-inches-in-most-towns/",
+            "display_link": "https://www.courant.com \u203a 2023/02/28 \u203a crashes-and-...",
+            "title": "Crashes and closures mark CT snowstorm, with 5 to 7 ...",
+            "description": "Connecticut is waking up to several inches of snow thanks to its first first significant snowstorm of the winter season but the storm is not ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/deadly-high-winds-sweep-pennsylvania-connecticut",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a deadly-high-...",
+            "title": "Deadly High Winds Sweep from Pennsylvania to Connecticut",
+            "description": "Several discrete supercell storms swept from west to east across the area before the storms morphed into a powerful wind-packing squall line (or mesoscale ...",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://opencommons.uconn.edu/cgi/viewcontent.cgi?article=1067&context=wracklines&httpsredir=1&referer=",
+            "display_link": "https://opencommons.uconn.edu \u203a viewcontent",
+            "title": "Tropical Storm Irene Delivered a Sunday Punch to Connecticut",
+            "description": "By the time she reached the shores of Connecticut on. Sunday August 28, 2011, Irene had been downgraded from a Category 1 Hurricane to a Tropical Storm. In ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by M Hart",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2011",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 2",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theridgefieldpress.com/news/article/ct-weather-snow-rain-wind-17740456.php",
+            "display_link": "https://www.theridgefieldpress.com \u203a News",
+            "title": "Snow turning to heavy rain as winter storm hits CT",
+            "description": "While coastal Connecticut likely won't see much, if any, accumulation, the area will experience heavy rain and strong winds, according to the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://libguides.ctstatelibrary.org/c.php?g=212426&p=8246950",
+            "display_link": "https://libguides.ctstatelibrary.org \u203a c.php",
+            "title": "Blizzard of 1888 - Weather",
+            "description": "Blizzard of 1888; Archives; Newspapers, Articles, and more; Sources ... The Blizzard of 1888, also known as the \"Great White Hurricane,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

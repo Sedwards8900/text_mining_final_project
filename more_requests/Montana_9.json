@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 49100000,
+        "search_time": 0.49,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Montana storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:36:45.432Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Montana+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_iloxlbjvmr8"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/weather/2019/09/30/record-september-snowstorm-drops-feet-snow-montana-rockies/",
+            "display_link": "https://www.washingtonpost.com \u203a 2019/09/30 \u203a reco...",
+            "title": "Record September snowstorm drops 4 feet of snow on ...",
+            "description": "Up to four feet of snow fell in a historic September snowstorm, which prompted Montana governor Steve Bullock to declare a winter storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.montanaangler.com/information/weather",
+            "display_link": "https://www.montanaangler.com \u203a information \u203a weat...",
+            "title": "Montana Weather Information",
+            "description": "Montana weather can be highly variable with a wide range of temperatures and climatic conditions. In general the state has a drier climate and enjoys a lot ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/weather/2023/01/28/weekend-forecast-winter-weather/11135353002/",
+            "display_link": "https://www.usatoday.com \u203a weather \u203a 2023/01/28",
+            "title": "Weekend winter weather forecast: Snow, cold from ...",
+            "description": "Some areas are expecting up to two feet of snow, and parts of Montana, North Dakota and Minnesota are under a wind chill advisory this ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.fox2detroit.com/news/montana-hit-by-unprecedented-september-winter-storm-piling-over-4-feet-of-snow-in-some-areas",
+            "display_link": "https://www.fox2detroit.com \u203a news \u203a montana-hit-by-u...",
+            "title": "Montana hit by 'unprecedented' September winter storm ...",
+            "description": "Montana hit by 'unprecedented' September winter storm, piling over 4 feet of snow in some areas ... Temperatures dipped across the Rocky Mountains ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.krtv.com/news/montana-and-regional-news/winter-storm-causes-school-closures-in-parts-of-montana",
+            "display_link": "https://www.krtv.com \u203a montana-and-regional-news",
+            "title": "Snow storm causes school closures in parts of Montana",
+            "description": "The snow begins to lessen on Wednesday, but a good amount of wrap-around snow could still fall in portions of eastern Montana. TRENDING ARTICLES.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.bigskyfishing.com/Montana-Info/montana_weather2.shtm",
+            "display_link": "https://www.bigskyfishing.com \u203a Montana-Info \u203a mon...",
+            "title": "What Weather to Expect in Montana by Season",
+            "description": "This page of the article covers what kind of weather a visitor can expect in Montana - by season. Summer Weather in Montana. Summer on the Big Hole River Photo ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.axios.com/2023/02/22/massive-winter-storm-affects-lower-48-states-blizzard",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "\"Massive\" winter storm to impact entire Lower 48",
+            "description": "South of the wintry weather, temperatures could hit 80\u00b0F in Washington, ... into negative numbers in Montana and eventually Wyoming as well.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kulr8.com/top_story/weather-authority-alert-major-storm-extreme-cold-to-impact-montana/article_0f0e94e1-bc63-53c2-a775-793111dde575.html",
+            "display_link": "https://www.kulr8.com \u203a top_story \u203a article_0f0e94e1-b...",
+            "title": "WEATHER AUTHORITY ALERT: Major storm, cold temps ...",
+            "description": "Western Montana: A strong winter storm will impact the area Friday afternoon through mid-day Saturday. Snow and winds be will major factors.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 23, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxweather.com/lifestyle/montana-extreme-weather-lanscape",
+            "display_link": "https://www.foxweather.com \u203a lifestyle \u203a montana-ext...",
+            "title": "Montana's extreme weather helps shape character of ...",
+            "description": "Montana also experienced a lot of extreme weather this year, from floods, intense heat and strong winds. \"So, we have to adapt,\" Whitlock said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 18, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://billingsgazette.com/",
+            "display_link": "https://billingsgazette.com",
+            "title": "Billings Gazette | News, Weather in Billings, MT | Read Billings ...",
+            "description": "Read Billings, MT news. Get the latest on Montana weather, sports, and things to do.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

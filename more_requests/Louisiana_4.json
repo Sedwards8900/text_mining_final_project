@@ -1,0 +1,177 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 27700000,
+        "search_time": 0.62,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Louisiana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:38.063Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Louisiana+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_zfbo2o2s6wo"
+    },
+    "organic": [
+        {
+            "link": "https://www.aljazeera.com/gallery/2022/12/15/photos-punishing-storms-cause-devastation-in-louisiana",
+            "display_link": "https://www.aljazeera.com \u203a gallery \u203a 2022/12/15 \u203a p...",
+            "title": "Photos: Punishing storms devastate Louisiana",
+            "description": "At least three people killed and several more injured as severe weather system damages homes and causes power outages. Weather Louisiana.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.frontiersin.org/articles/10.3389/fenvs.2019.00068/full",
+            "display_link": "https://www.frontiersin.org \u203a fenvs.2019.00068 \u203a full",
+            "title": "Impact of Hurricane Katrina on the Coastal Systems ...",
+            "description": "This paper discusses community resilience to natural hazards and ... human and natural systems in Louisiana responded to Hurricane Katrina, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by WC Chuang",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2019",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 13",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cnbc.com/2020/08/28/hurricane-laura-leaves-damage-in-louisiana-weakens-to-tropical-depression.html",
+            "display_link": "https://www.cnbc.com \u203a 2020/08/28 \u203a hurricane-laura-le...",
+            "title": "Hurricane Laura leaves damage in Louisiana, weakens to ...",
+            "description": "Hurricane Laura leaves damage in Louisiana and weakens into tropical depression \u00b7 Hurricane Laura left a path extensive property damage, a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 28, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://climate360news.lmu.edu/southern-louisiana-at-risk-of-more-severe-hurricanes-heavier-rainfall-as-planet-warms/",
+            "display_link": "https://climate360news.lmu.edu \u203a southern-louisiana-a...",
+            "title": "Southern Louisiana at risk of more severe hurricanes, heavier ...",
+            "description": "LAKE CHARLES, LA \u2013 The last year of extreme weather in Louisiana has been ... A paper in the Journal of Advancing Earth and Space Science found this event ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.news4jax.com/weather/2020/10/05/why-do-storms-keep-thrashing-louisiana/",
+            "display_link": "https://www.news4jax.com \u203a weather \u203a 2020/10/05",
+            "title": "Why do storms keep thrashing Louisiana?",
+            "description": "Hurricane Delta makes it's 2nd landfall in Louisiana in a season that has seen back-to-back attacks on the Pelican State.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 9, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-58378788",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-58378788",
+            "title": "Hurricane Ida: One million people in Louisiana without power",
+            "description": "Louisiana is assessing the damage after the storm knocked out power ... Watch: Wind gusts of up to 172mph and heavy rain pummelled Louisiana.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnn.com/2022/12/14/us/nationwide-massive-storm-tornadoes-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/12/14 \u203a nationwide-massiv...",
+            "title": "At least 3 dead and multiple injured as tornadoes wreak ...",
+            "description": "At least three people have died and more than a dozen were left injured across Louisiana over the past 24 hours as severe weather moves ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-10638273/Louisiana-Mississippi-Alabama-warned-storm-approaches.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-10638273",
+            "title": "Tornado strikes New Orleans as storms move into Deep ...",
+            "description": "Apocalyptic scenes in New Orleans as monster tornado devastates entire town and leaves upturned cars and flattened homes in its wake: Louisiana, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.insurancejournal.com/news/southcentral/2021/08/24/628200.htm",
+            "display_link": "https://www.insurancejournal.com \u203a news \u203a 2021/08/24",
+            "title": "Hurricane Laura Hit Louisiana a Year Ago but Recovery Is ...",
+            "description": "Laura was one of three hurricanes, along with two tropical storms, that hit the state in 2020, making last year's storm season the most active ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.forbes.com/sites/nicholasreimann/2020/08/26/hurricane-laura-could-be-the-strongest-storm-to-hit-louisiana-since-1856/",
+            "display_link": "https://www.forbes.com \u203a sites \u203a 2020/08/26 \u203a hurrica...",
+            "title": "Hurricane Laura Could Be The Strongest Storm To Hit ...",
+            "description": "This article is more than 2 years old. Updated Aug 26, 2020, 05:01pm EDT. TOPLINE. Parts of southwest Louisiana and east Texas could be \u201cuninhabitable for ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

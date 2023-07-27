@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 120000000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Michigan storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:06.108Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Michigan+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_yzqn5xt2he8"
+    },
+    "organic": [
+        {
+            "link": "https://www.michigan.gov/-/media/Project/Websites/msp/EMHSD/documents/FEMA_MSP_Winter_Weather_Hazards_Packet.pdf?rev=4d239eb4e53e46e8a05462b577355784",
+            "display_link": "https://www.michigan.gov \u203a msp \u203a documents",
+            "title": "HOW TO PREPARE FOR A WINTER STORM",
+            "description": "Winter Storm Checklist. Helplines. Introduction. Winter storms can bring extreme cold, freezing rain, ice, snow, high winds, or a combination of all of ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.bloomberg.com/news/articles/2023-02-23/extreme-ice-storm-severely-hampers-michigan-power-system",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a extre...",
+            "title": "Extreme Ice Storm Cuts Power to 800000 Michigan Homes ...",
+            "description": "Nearly 800000 homes and businesses in Michigan lost power after an extreme ice storm tore down thousands of electricity lines, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://patch.com/michigan/detroit/what-expect-winter-storms-hits-michigan-midwest",
+            "display_link": "https://patch.com \u203a michigan \u203a detroit \u203a what-expect-...",
+            "title": "What To Expect As Winter Storms Hits Michigan, Midwest",
+            "description": "What To Expect As Winter Storms Hits Michigan, Midwest - Detroit, MI - Winter has returned for a couple days and Southeastern Michigan is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 10, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.manisteenews.com/news/article/severe-storms-crossing-lake-michigan-region-air-18261565.php",
+            "display_link": "https://www.manisteenews.com \u203a News",
+            "title": "Severe storms crossing Lake Michigan as region under air ...",
+            "description": "According to the National Weather Service forecasts, the storms are expected to strengthen and bring high winds with the potential for large ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "11 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.foxnews.com/us/severe-storms-leave-hundreds-of-thousands-without-power-across-wisconsin-michigan",
+            "display_link": "https://www.foxnews.com \u203a severe-storms-leave-hund...",
+            "title": "Storm leaves thousands without power across Michigan",
+            "description": "Severe storms leave hundreds of thousands without power across Wisconsin, Michigan \u00b7 A storm bringing dark clouds, strong winds and a drop in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 21, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.bigrapidsnews.com/news/article/Winter-storm-to-hit-Michigan-winter-storm-16750836.php",
+            "display_link": "https://www.bigrapidsnews.com \u203a News",
+            "title": "Winter storm hits Michigan, warnings and advisories issued",
+            "description": "A storm is dumping heavy snow in parts of Michigan Wednesday and a winter storm warning has been issued by the National Weather Service for ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.detroitnews.com/story/news/local/michigan/2023/03/04/power-michigan-second-winter-storm-week/69969169007/",
+            "display_link": "https://www.detroitnews.com \u203a michigan \u203a 2023/03/04",
+            "title": "200K without power in Mich. after second storm in nine days",
+            "description": "A second winter storm in nine days knocked out electricity to more than 200000 customers, including ones who lost power in the first storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.lansingstatejournal.com/story/news/local/2023/04/05/tornado-watch-issued-michigan-ingham-eaton-clinton-counties-lansing/70083904007/",
+            "display_link": "https://www.lansingstatejournal.com \u203a 2023/04/05 \u203a to...",
+            "title": "Severe weather threat dissipates as morning ...",
+            "description": "A tornado watch issued Wednesday morning was canceled as thunderstorms dissipated across southern Michigan. \"We continue to monitor storms over ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://upnorthlive.com/news/local/gallery/photos-wind-storm-damage-throughout-northern-michigan",
+            "display_link": "https://upnorthlive.com \u203a news \u203a local \u203a gallery \u203a phot...",
+            "title": "Photos: Wind storm damage throughout northern Michigan",
+            "description": "Photo from Jan Gill, Grayling.",
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

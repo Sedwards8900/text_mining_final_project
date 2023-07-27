@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47300000,
+        "search_time": 0.58,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:53:00.566Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_5xg4kjxtq35"
+    },
+    "organic": [
+        {
+            "link": "https://www.newsbreak.com/cheyenne-wy/2978410086340-se-wyoming-storm-could-bring-over-a-foot-of-snow-strong-winds",
+            "display_link": "https://www.newsbreak.com \u203a Cheyenne, WY",
+            "title": "SE Wyoming Storm Could Bring Over A Foot Of Snow, Strong ...",
+            "description": "SE Wyoming Storm Could Bring Over A Foot Of Snow, Strong Winds. By Doug Randall,. 7 days ago. article cover. By Doug Randall,. 7 days ago.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/1875/11/20/archives/heavy-snowstorm-in-wyoming.html",
+            "display_link": "https://www.nytimes.com \u203a archives \u203a heavy-snowstorm-...",
+            "title": "HEAVY SNOW-STORM IN WYOMING.",
+            "description": "Full text is unavailable for this digitized archive article. Subscribers may view the full text of this article in its original form through TimesMachine.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/22/weather/winter-storm-us-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/02/22 \u203a winter-storm-us-we...",
+            "title": "Winter storm in the North and heat wave in the South ...",
+            "description": "Much of Montana, Wyoming and the Dakotas had temperatures below zero Wednesday afternoon, including minus 9 degrees in Cut Bank, Montana. At the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://mybighornbasin.com/winter-storm-closes-roads-in-wyoming-colorado-nebraska/",
+            "display_link": "https://mybighornbasin.com \u203a winter-storm-closes-roads-...",
+            "title": "Winter storm closes roads in Wyoming, Colorado, Nebraska",
+            "description": "A powerful late winter snowstorm intensified over the central Rocky Mountains on Sunday with heavy snow and wind leading to airport and road closures, ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://law.justia.com/codes/wyoming/2019/title-40/chapter-12/article-7/section-40-12-704/",
+            "display_link": "https://law.justia.com \u203a article-7 \u203a section-40-12-704",
+            "title": "Wyoming Statutes \u00a7 40-12-704 (2019) - Disclosure ...",
+            "description": "2019 Wyoming Statutes Title 40 - Trade and Commerce Chapter 12 - Consumer Protection Article 7 - Exterior Storm Damage Repair Contracts Section 40-12-704 - ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/03/17/wyoming-cheyenne-blizzard-nws/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/03/17 \u203a wyo...",
+            "title": "Wyoming got buried beneath a record blizzard, trapping ...",
+            "description": "More than 30 inches of snow fell at the National Weather Service office, setting a new single-day record.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://globalnews.ca/tag/wyoming-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a wyoming-storm",
+            "title": "wyoming storm | News, Videos & Articles",
+            "description": "wyoming storm videos and latest news articles; GlobalNews.ca your source for the latest news on wyoming storm .",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2021/mar/13/powerful-snow-storm-western-us-colorado-nebreska-wyoming",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a powe...",
+            "title": "Powerful snow storm with high winds headed toward ...",
+            "description": "Blizzard warnings issued for Wyoming and Nebraska and 2ft of snow expected in Colorado over the ... This article is more than 2 years old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/wyoming/snow-storms-in-wyoming-2020-wy/",
+            "display_link": "https://www.onlyinyourstate.com \u203a wyoming \u203a snow-s...",
+            "title": "2020 Snow Storms In Wyoming Have Dumped A Record ...",
+            "description": "Wyoming's snowy winter isn't over yet - there's more snow in the forecast. Wyoming snow storms are predicted to dump at least another six inches ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 29, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://apnews.com/article/2694403c28b94e7c9b756e1c3645dfec",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "98 mph wind gusts rip through Wyoming during winter storm",
+            "description": "CASPER, Wyo. (AP) \u2014 The National Weather Service says wind gusts reached as fast as 98 mph (158 kph) during a winter storm in Wyoming.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

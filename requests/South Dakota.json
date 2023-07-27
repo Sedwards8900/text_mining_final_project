@@ -1,0 +1,385 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 23200000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:45.732Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Dakota+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_cypo96idcmc"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/weather-south-dakota-state-government-nebraska-kristi-noem-climate-and-environment-881af98309578627a6644c9a5b22865a",
+            "display_link": "https://apnews.com \u203a article \u203a weather-south-dakota-st...",
+            "title": "South Dakota tribe: Storm deaths 'could have been ...",
+            "description": "A Native American tribe in South Dakota says several of its members died when December storms buried their reservation in snow and left them ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2022/07/06/us/south-dakota-green-sky-derecho.html",
+            "display_link": "https://www.nytimes.com \u203a 2022/07/06 \u203a south-dakota-g...",
+            "title": "South Dakota's Derecho Brings Green Sky and Strong Winds",
+            "description": "But before the derecho (pronounced deh-REY-cho) hit Sioux Falls, S.D., the storm caused the skies to turn green, an unusual weather phenomenon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.dakotanewsnow.com/2023/01/04/south-dakota-ranked-fifth-worst-state-winter-weather-damage/",
+            "display_link": "https://www.dakotanewsnow.com \u203a 2023/01/04 \u203a south-...",
+            "title": "South Dakota ranked fifth worst state for winter weather ...",
+            "description": "According to a new Stacker.com article, total property damages from winter weather in South Dakota are estimated to reach $6.6 million.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://data.argusleader.com/rolling-storm-damage-report/",
+            "display_link": "https://data.argusleader.com \u203a rolling-storm-damage-r...",
+            "title": "Rolling storm damage reports in South Dakota",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Date/Time",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Scale*",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Location",
+                                "rank": 3
+                            },
+                            {
+                                "text": "County, State",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 25, 2023 11:07 p.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "75",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Belgrade",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Stearns County, MN",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 25, 2023 11:01 p.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "100",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Glenwood",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Pope County, MN",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 25, 2023 10:57 p.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "60",
+                                "rank": 2
+                            },
+                            {
+                                "text": "5 S Brooten",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Stearns County, MN",
+                                "rank": 4
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://abcnews.go.com/US/south-dakota-tribes-fight-recover-massive-winter-storm/story?id=95833857",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "South Dakota tribes fight to recover from massive winter storm ...",
+            "description": "But Native American tribal communities living on South Dakota reservations are still enduring the storm's debilitating consequences.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.newscenter1.tv/news/looking-back-on-some-of-south-dakota-s-most-damaging-winter-storms-that-happened-in/article_ceb94508-2bdd-5d31-8e04-83978ad952e2.html",
+            "display_link": "https://www.newscenter1.tv \u203a news \u203a article_ceb94508-2...",
+            "title": "Looking back on some of South Dakota's most damaging ' ...",
+            "description": "Only in Your State lists the May 3-4, 1905 snowstorm, known as \u201cThe Great Equalizer\u201d as its second \u201cmost horrific\u201d winter storms in South Dakota ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.weather.gov/fsd/events",
+            "display_link": "https://www.weather.gov \u203a fsd \u203a events",
+            "title": "Event Summaries",
+            "description": "Event Summaries \u00b7 September 18-21, 2018 - Widespread Heavy Rain, Flooding, and Severe Storms \u00b7 August 27-28, 2018 - Hailstorms across southeast South Dakota and ...",
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2022/07/06/derecho-green-sky-south-dakota/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/07/06 \u203a dere...",
+            "title": "Derecho turns sky green in South Dakota, Iowa amid ...",
+            "description": "The sky turned green as a derecho, a widespread wind storm, moved through South Dakota and other parts of the Great Plains on July 5.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.weather.gov/unr/WinterStorm-170124",
+            "display_link": "https://www.weather.gov \u203a unr \u203a WinterStorm-170124",
+            "title": "Heaviest Snow over south central South Dakota This Evening",
+            "description": "A winter storm continues to track across the central Plains tonight, bringing heavy snow, gusty winds, and blowing snow to southern South Dakota.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=South+Dakota+storm+%22article%22&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ5t4CegQIOBAB",
+                    "rank": 2
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.keloland.com/news/local-news/severe-storms-moving-through-keloland/",
+            "display_link": "https://www.keloland.com \u203a news \u203a local-news \u203a sever...",
+            "title": "Severe storms in South Dakota",
+            "description": "Tuesday storms bring 80+ mph winds, hail through much of South Dakota ... SIOUX FALLS, S.D. (KELO) \u2014 Severe weather made its way across South ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=South+dakota+storm+article+today&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgxEAE",
+            "text": "South dakota storm article today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+in+South+Dakota+today&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgwEAE",
+            "text": "storm damage in south dakota today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=South+Dakota+tornado+2023&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgvEAE",
+            "text": "south dakota tornado 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=South+Dakota+green+sky+2023&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAguEAE",
+            "text": "south dakota green sky 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Tornado+South+Dakota+TODAY&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgtEAE",
+            "text": "tornado south dakota today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Hail+storm+South+Dakota&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgsEAE",
+            "text": "hail storm south dakota",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=South+Dakota+winter+temperatures&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgrEAE",
+            "text": "south dakota winter temperatures",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Derecho+storm&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQ1QJ6BAgqEAE",
+            "text": "derecho storm",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Was there a derecho in South Dakota?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Was+there+a+derecho+in+South+Dakota%3F&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQzmd6BAgVEAY",
+            "answer_source": "Remembering the May 12, 2022 Derecho - SDSU Extension",
+            "answer_link": "https://extension.sdstate.edu/remembering-may-12-2022-derecho",
+            "answer_display_link": "https://extension.sdstate.edu \u203a remembering-may-12-202...https://extension.sdstate.edu \u203a remembering-may-12-202...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBUQBQ\" data-ved=\"2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQu04oAHoECBUQBQ\"><div id=\"5JnBZJKNEoi4hbIPr_a02A0__4\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>There was extensive damage left in the wake of the derecho and haboob, primarily in eastern South Dakota and neighboring Minnesota</b>. Infrastructure damage included everything from nursing homes and residential structures to grain bins, barns and commercial property.</span></span><span class=\"kX21rb ZYHQ7e\">May 12, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There was extensive damage left in the wake of the derecho and haboob, primarily in eastern South Dakota and neighboring Minnesota. Infrastructure damage included everything from nursing homes and residential structures to grain bins, barns and commercial property.May 12, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "Is South Dakota in Tornado Alley?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+South+Dakota+in+Tornado+Alley%3F&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQzmd6BAgaEAY",
+            "answer_source": "Are tornadoes common in western South Dakota? - NewsCenter1",
+            "answer_link": "https://www.newscenter1.tv/weather/weather_blog/are-tornadoes-common-in-western-south-dakota/article_fa2fdb8c-9341-5ced-a79c-4285dfd0a9bf.html",
+            "answer_display_link": "https://www.newscenter1.tv \u203a weather \u203a weather_bloghttps://www.newscenter1.tv \u203a weather \u203a weather_blog",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQu04oAHoECBoQBQ\"><div id=\"5JnBZJKNEoi4hbIPr_a02A0__7\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">\u201cDo tornadoes take place in south Dakota\u201d \u2013 the short answer is yes, and it could be argued that <b>eastern South Dakota could easily be considered part of the famous tornado alley that runs from Texas northward through the great plains</b>. Although not as frequent as places like Texas or Mississippi\u2026</span></span><span class=\"kX21rb ZYHQ7e\">Apr 13, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "\u201cDo tornadoes take place in south Dakota\u201d \u2013 the short answer is yes, and it could be argued that eastern South Dakota could easily be considered part of the famous tornado alley that runs from Texas northward through the great plains. Although not as frequent as places like Texas or Mississippi\u2026Apr 13, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "When was the derecho in South Dakota?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=When+was+the+derecho+in+South+Dakota%3F&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQzmd6BAgbEAY",
+            "answer_source": "$1 billion storm: May 12, 2022 derecho - KELOLAND.com",
+            "answer_link": "https://www.keloland.com/keloland-com-original/a-billion-dollar-storm-may-12-2022-derecho/",
+            "answer_display_link": "https://www.keloland.com \u203a keloland-com-original \u203a a-b...https://www.keloland.com \u203a keloland-com-original \u203a a-b...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQu04oAHoECBsQBQ\"><div id=\"5JnBZJKNEoi4hbIPr_a02A0__10\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">That storm event produced more than 150 damaging wind reports, 59 significant wind gusts (75 mph or higher) and resulted in two deaths in South Dakota. The National Centers for Environmental Information listed the May 12, 2022 derecho as a billion-dollar disaster event.</span></span><span class=\"kX21rb ZYHQ7e\">May 12, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "That storm event produced more than 150 damaging wind reports, 59 significant wind gusts (75 mph or higher) and resulted in two deaths in South Dakota. The National Centers for Environmental Information listed the May 12, 2022 derecho as a billion-dollar disaster event.May 12, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "What is the storm that turned the sky green?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+storm+that+turned+the+sky+green%3F&sa=X&ved=2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQzmd6BAgUEAY",
+            "answer_source": "Why does the sky sometimes turn green during thunderstorms?",
+            "answer_link": "https://www.foxweather.com/learn/storm-cloud-sky-green-why-result",
+            "answer_display_link": "https://www.foxweather.com \u203a learn \u203a storm-cloud-sky-g...https://www.foxweather.com \u203a learn \u203a storm-cloud-sky-g...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBQQBQ\" data-ved=\"2ahUKEwiSj8_zsa2AAxUIXEEAHS87DdsQu04oAHoECBQQBQ\"><div id=\"5JnBZJKNEoi4hbIPr_a02A0__13\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>A derecho</b> is a cluster of storms that produces destructive wind gusts and hail for hundreds of miles and has the potential to impact millions of people. A July 2022 derecho event that moved through the Northern Plains produced hail, damaging winds and an eerie shade of green in the sky.</span></span><span class=\"kX21rb ZYHQ7e\">May 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A derecho is a cluster of storms that produces destructive wind gusts and hail for hundreds of miles and has the potential to impact millions of people. A July 2022 derecho event that moved through the Northern Plains produced hail, damaging winds and an eerie shade of green in the sky.May 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

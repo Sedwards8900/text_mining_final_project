@@ -1,0 +1,317 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 45700000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Indiana storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-26T22:08:23.123Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Indiana+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_dsskke9en5f"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/indiana-tornado-severe-storm-3b1204a9605ca044150595fa2b2088b7",
+            "display_link": "https://apnews.com \u203a article \u203a indiana-tornado-severe-...",
+            "title": "Tornado and other severe weather kill 3, damage homes ...",
+            "description": "A tornado struck an Indiana home, killing one occupant and injuring another. States from Michigan to Georgia experienced power outages.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.indystar.com/story/weather/indianapolis/2023/06/29/central-indiana-has-chance-for-rain-severe-weather-this-weekend/70366889007/",
+            "display_link": "https://www.indystar.com \u203a indianapolis \u203a 2023/06/29",
+            "title": "Storm system brings high winds, power outages",
+            "description": "Storms that slammed into the Indianapolis area Thursday left tens of thousands without power.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nytimes.com/2023/06/25/us/indiana-tornado-storm-hail.html",
+            "display_link": "https://www.nytimes.com \u203a indiana-tornado-storm-hail",
+            "title": "At Least 1 Dead After Tornadoes Are Reported in Indiana",
+            "description": "At least one person was killed and another was injured in southern Indiana on Sunday when storms battered parts of the South and the Ohio ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://fox59.com/news/severe-storms-leave-1-person-dead-in-southern-indiana/",
+            "display_link": "https://fox59.com \u203a news \u203a severe-storms-leave-1-pers...",
+            "title": "Severe storms leave 1 person dead in southern Indiana",
+            "description": "MARTIN COUNTY, Ind. \u2014 A person is dead after severe storms rolled through Martin County in southern Indiana Sunday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wthr.com/article/news/local/live-storm-blog-severe-thunderstorm-warning-issued/531-61c2a9cf-2b6d-479a-9664-ca73232b708a",
+            "display_link": "https://www.wthr.com \u203a article \u203a news \u203a local \u203a live-st...",
+            "title": "Tornado and storm damage reported across central Indiana",
+            "description": "INDIANAPOLIS \u2014 Severe storms brought tornadoes and hail to parts of central Indiana Sunday, leaving behind significant damage.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wthr.com/article/news/local/damage-severe-storm-tornadoes-central-indiana/531-057bb0e1-53e9-451a-a40d-c4773a3d98ab",
+            "display_link": "https://www.wthr.com \u203a article \u203a news \u203a local \u203a damag...",
+            "title": "FIRST LOOK: Damage from Indiana severe weather outbreak",
+            "description": "INDIANAPOLIS \u2014 A line of dangerous storms passed across central Indiana on Friday night, sparking dozens of tornado watches and warnings, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://cbs4indy.com/weather/major-winter-storm-to-impact-central-indiana-by-thursday-evening-commute/",
+            "display_link": "https://cbs4indy.com \u203a weather \u203a major-winter-storm-t...",
+            "title": "Major winter storm to impact Central Indiana",
+            "description": "INDIANAPOLIS \u2013 A major winter storm is brewing across the West Central US and will impact the Hoosier State with snow, strong wind, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.wfyi.org/news/articles/storms-packing-high-winds-cause-damage-in-central-indiana",
+            "display_link": "https://www.wfyi.org \u203a news \u203a articles \u203a storms-packin...",
+            "title": "Storms Packing High Winds Cause Damage In Central ...",
+            "description": "Severe storms with high winds, hail and possible tornadoes swept across the Midwest and caused damage to homes and businesses in central ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 9, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.wishtv.com/weather/weather-blog/weather-blog-severe-weather-warning-for-indiana/",
+            "display_link": "https://www.wishtv.com \u203a weather \u203a weather-blog \u203a w...",
+            "title": "Weather Blog: Severe storms hit Indiana",
+            "description": "Reports of tree limbs broken and power poles broken in Greenfield, the National Weather Service at Indianapolis reports. 4:17 p.m.. Damaging ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-12234895/At-3-dead-dozens-homes-damaged-storms-hit-US-Midwest-South.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12234895",
+            "title": "Three die after killer tornados and severe storms barreled ...",
+            "description": "Share or comment on this article: Three die after killer tornados and severe storms barreled through Indiana and Arkansas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Indiana+storm+damage+today&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAhCEAE",
+            "text": "indiana storm damage today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+Indiana+2023&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAhAEAE",
+            "text": "tornado indiana 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Greenwood,+Indiana+tornado+2023&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAgtEAE",
+            "text": "greenwood, indiana tornado 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Indiana+tornado+map&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAguEAE",
+            "text": "indiana tornado map",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Indiana+tornado+today&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAgvEAE",
+            "text": "indiana tornado today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Martin+County,+Indiana&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAgwEAE",
+            "text": "martin county, indiana",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Indiana+tornado+Map+2023&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAg7EAE",
+            "text": "indiana tornado map 2023",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Johnson+County,+Indiana+tornado&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Q1QJ6BAgsEAE",
+            "text": "johnson county, indiana tornado",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What part of Indiana was hit by tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Indiana+was+hit+by+tornado%3F&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qzmd6BAgeEAY",
+            "answer_source": "National Weather Service confirms 4 tornados struck Indiana on Sunday",
+            "answer_link": "https://fox59.com/indiana-news/national-weather-service-teams-to-assess-tornado-storm-damage-in-several-indiana-counties/#:~:text=to%20this%20report.-,Johnson%20County,length%20of%20over%205%20miles.",
+            "answer_display_link": "https://fox59.com \u203a indiana-news \u203a national-weather-ser...https://fox59.com \u203a indiana-news \u203a national-weather-ser...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB4QBQ\" data-ved=\"2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qu04oAHoECB4QBQ\"><div id=\"VZnBZMjCDavk5NoP2vWM-AY__13\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Johnson County</b>. The National Weather Service has confirmed that the Johnson County tornado was an EF2 that hit an estimated wind peak of 115 miles per hour that had a path length of over 5 miles.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 26, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Johnson County. The National Weather Service has confirmed that the Johnson County tornado was an EF2 that hit an estimated wind peak of 115 miles per hour that had a path length of over 5 miles.Jun 26, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 6
+        },
+        {
+            "question": "Was there a tornado in Indiana on 6 25 23?",
+            "question_link": "https://www.google.com/search?hl=en&q=Was+there+a+tornado+in+Indiana+on+6+25+23%3F&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qzmd6BAgaEAY",
+            "answer_source": "Tornadoes and Severe Storms of June 25, 2023 - National Weather Service",
+            "answer_link": "https://www.weather.gov/ind/june252023severeevent#:~:text=Numerous%20severe%20thunderstorms%20developed%20during,same%20tornado%20in%20Martin%20County.",
+            "answer_display_link": "https://www.weather.gov \u203a indhttps://www.weather.gov \u203a ind",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qu04oAHoECBoQBQ\"><div id=\"VZnBZMjCDavk5NoP2vWM-AY__16\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Numerous severe thunderstorms developed during the afternoon of June 25 across central Indiana. The storms produced tornadoes, damaging winds, and very large hail up to 4 inches in diameter. <b>One person was killed in a tornado with 1 injured by the same tornado in Martin County.</b></span></span><span class=\"kX21rb ZYHQ7e\">Jun 25, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Numerous severe thunderstorms developed during the afternoon of June 25 across central Indiana. The storms produced tornadoes, damaging winds, and very large hail up to 4 inches in diameter. One person was killed in a tornado with 1 injured by the same tornado in Martin County.Jun 25, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 7
+        },
+        {
+            "question": "Did the tornado hit Greenwood Indiana?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+the+tornado+hit+Greenwood+Indiana%3F&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qzmd6BAgbEAY",
+            "answer_source": "Tornado rips through Greenwood, Indiana - YouTube",
+            "answer_link": "https://m.youtube.com/watch?v=DdGr4HYHMXY#:~:text=Tornado%20rips%20through%20Greenwood%2C%20Indiana,%2Fgreenwood%2Dind...",
+            "answer_display_link": "https://m.youtube.com \u203a watchhttps://m.youtube.com \u203a watch",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qu04oAHoECBsQBQ\"><div id=\"VZnBZMjCDavk5NoP2vWM-AY__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Tornado rips through Greenwood, Indiana</b> - YouTube. At least one person is dead from tornadoes in central Indiana. https://abc7chicago.com/greenwood-ind...</span></span><span class=\"kX21rb ZYHQ7e\">Jun 26, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tornado rips through Greenwood, Indiana - YouTube. At least one person is dead from tornadoes in central Indiana. https://abc7chicago.com/greenwood-ind...Jun 26, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 8
+        },
+        {
+            "question": "Has Indiana ever had an F5 tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=Has+Indiana+ever+had+an+F5+tornado%3F&sa=X&ved=2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qzmd6BAgZEAY",
+            "answer_source": "Central Indiana Tornado Statistics - National Weather Service",
+            "answer_link": "https://www.weather.gov/ind/tornadostats#:~:text=Most%20Intense,in%20far%20southern%20Indiana...",
+            "answer_display_link": "https://www.weather.gov \u203a ind \u203a tornadostatshttps://www.weather.gov \u203a ind \u203a tornadostats",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwiIwbKvsa2AAxUrMlkFHdo6A28Qu04oAHoECBkQBQ\"><div id=\"VZnBZMjCDavk5NoP2vWM-AY__22\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Most Intense</b>. <b>Three F5 tornadoes occurred within the April 3, 1974 Super Outbreak</b>, all in far southern Indiana...</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Most Intense. Three F5 tornadoes occurred within the April 3, 1974 Super Outbreak, all in far southern Indiana..."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        }
+    ]
+}

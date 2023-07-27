@@ -1,0 +1,960 @@
+	
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /><title>Albuquerque, NM</title><meta name="DC.title" content="Albuquerque, NM" /><meta name="DC.description" content="NOAA National Weather Service Albuquerque, NM" /><meta name="DC.creator" content="US Department of Commerce, NOAA, National Weather Service" /><meta name="DC.date.created" scheme="ISO8601" content="" /><meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" /><meta name="DC.keywords" content="weather, Albuquerque, NM" /><meta name="DC.publisher" content="NOAA's National Weather Service" /><meta name="DC.contributor" content="National Weather Service" /><meta name="DC.rights" content="http://www.weather.gov/disclaimer.php" /><meta name="rating" content="General" /><meta name="robots" content="index,follow" />
+
+        <link href="/css/weatherstyle.css" rel="stylesheet" type="text/css" />
+        <link href="/css/template.css" rel="stylesheet" type="text/css" />
+        <link href="/css/myfcst.css" rel="stylesheet" type="text/css" />
+        <link href="/css/ForecastSearch.css" rel="stylesheet" type="text/css" />
+        <link href="/css/pointforecast.css" rel="stylesheet" type="text/css" />
+        <link href="/css/jqueryui10_3_1custom/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="/css/widgets.css" rel="stylesheet" type="text/css" />
+        <link href="/css/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
+        <!-- <script type="text/javascript" src="/js/jquery.mobile-1.4.0.min.js"></script> //-->
+        <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.hoverIntent.minified.js"></script>
+        <script type="text/javascript" src="/js/ForecastSearch.js"></script>
+        <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&sub-agency=NOAA&pua=G-736JJ6NL0V"></script>
+        <script type="text/javascript" src="/js/topNavMenu.js"></script>
+        <script type="text/javascript" src="/js/NidsESRI.js"></script>
+        <script type="text/javascript">
+        (function() {
+          var a = document.createElement('script');
+          a.type = 'text/javascript';
+          a.async = true;
+          a.src = 'https://cdn.gov.cfigroup.com/webmon/s/source/webmon/ce989efe8b1040/webmon.js';
+          var b = document.getElementsByTagName('script')[0];
+          b.parentNode.insertBefore(a, b);
+        })();
+        </script>
+        <script type="text/javascript" src="/js/widgets.js"></script>
+        <script type="text/javascript" src="/js/jquery.cycle2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.colorbox-min.js"></script>
+        <script type="text/javascript" src="/js/nwsexit.js"></script>
+        
+<script>
+$(document).ready(function() {
+  $('img.nocache').each(function () {
+      var $this = $(this);
+      $this.attr('src', noCache($this.attr('src')));
+  });
+});
+function noCache(url) {
+  return url + (url.indexOf('?') >= 0 ? '&nocache=' : '?') + $.now();
+}
+</script>
+
+    </head>
+    <body> 
+        <!-- CFI SURVEY -->
+        <div id='ZN_9tslIS2mj3KoPgp'><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div> 
+        <!-- CFI SURVEY END -->
+
+        		<div class="header">
+			<div class="header-content">
+			<a href="http://www.weather.gov" class="header-nws"><img src="/css/images/header.png"  alt="National Weather Service"/></a>
+			<a href="http://www.commerce.gov" class="header-doc"><img src="/css/images/header_doc.png" alt="United States Department of Commerce"/></a>
+            <a href="http://www.noaa.gov" class="header-noaa" title="National Oceanic and Atmospheric Administration"></a>
+            </div>
+                    <div style="clear:both"></div>
+		</div>
+
+		<div class="header-shadow">
+			<div class="header-shadow-content"></div>
+		</div>
+	
+
+        <div class="center">
+
+                    <div class="content">
+            <div class="topnav">
+                <ul id="topnav">
+                    <li>
+                        <script type="text/javascript">
+                            function goBack()
+                            {
+                                if (document.referrer.toLowerCase().indexOf("weather.gov") != -1)
+                                {
+                                    history.back();
+                                }
+                                else
+                                {
+                                    document.location.href = "http://www.weather.gov";
+                                }
+                            }
+                        </script>
+                        <div class="topMenuNavList home">
+                            <a href="#" onclick="goBack();">HOME</a>
+                        </div>
+                    </li>
+                    <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/forecastmaps">FORECAST</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov">Local</a>                        </li>                        <li>                            <a href="http://digital.weather.gov">Graphical</a>                        </li>                        <li>                            <a href="http://www.aviationweather.gov/">Aviation</a>                        </li>                        <li>                            <a href="http://www.weather.gov/marine">Marine</a>                        </li>                        <li>                            <a href="http://water.weather.gov/ahps/">Rivers and Lakes</a>                        </li>                        <li>                            <a href="http://www.nhc.noaa.gov/">Hurricanes</a>                        </li>                        <li>                            <a href="http://www.spc.noaa.gov/">Severe Weather</a>                        </li>                        <li>                            <a href="http://www.weather.gov/fire/">Fire Weather</a>                        </li>                        <li>                            <a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html">Sun/Moon</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Long Range Forecasts</a>                        </li>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov">Climate Prediction</a>                        </li>                        <li>                            <a href="https://www.swpc.noaa.gov/">Space Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="https://www.weather.gov/wrh/climate/">PAST WEATHER</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Past Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Heating/Cooling Days</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Monthly Temperatures</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrh/climate/">Records</a>                        </li>                        <li>                            <a href="http://aa.usno.navy.mil/">Astronomical Data</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/safety">SAFETY</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/safety/tsunami">Tsunamis</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/flood">Floods</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/beachhazards">Beach Hazards</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wildfire">Wildfire</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/cold">Cold</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/tornado">Tornadoes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/airquality">Air Quality</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/fog">Fog</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat">Heat</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/hurricane">Hurricanes</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/lightning">Lightning</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/safeboating">Safe Boating</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/ripcurrent">Rip Currents</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/thunderstorm">Thunderstorms</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/space">Space Weather</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/heat-uv">Sun (Ultraviolet Radiation)</a>                        </li>                        <li>                            <a href="http://www.weather.gov/safetycampaign">Safety Campaigns</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/wind">Wind</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/drought">Drought</a>                        </li>                        <li>                            <a href="https://www.weather.gov/safety/winter">Winter Weather</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/informationcenter">INFORMATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/wrn/wea">Wireless Emergency Alerts</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Brochures</a>                        </li>                        <li>                            <a href="http://www.weather.gov/wrn/">Weather-Ready Nation</a>                        </li>                        <li>                            <a href="https://www.weather.gov/coop/">Cooperative Observers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/briefing/">Daily Briefing</a>                        </li>                        <li>                            <a href="http://www.nws.noaa.gov/om/hazstats.shtml">Damage/Fatality/Injury Statistics</a>                        </li>                        <li>                            <a href="http://mag.ncep.noaa.gov/">Forecast Models</a>                        </li>                        <li>                            <a href="https://www.weather.gov/gis">GIS Data Portal</a>                        </li>                        <li>                            <a href="https://www.weather.gov/nwr/">NOAA Weather Radio</a>                        </li>                        <li>                            <a href="http://weather.gov/publications">Publications</a>                        </li>                        <li>                            <a href="http://www.weather.gov/SKYWARN">SKYWARN Storm Spotters</a>                        </li>                        <li>                            <a href="http://www.weather.gov/StormReady">StormReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/TsunamiReady/">TsunamiReady</a>                        </li>                        <li>                            <a href="https://www.weather.gov/notification/">Service Change Notices</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/education">EDUCATION</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="https://www.weather.gov/wrn/force">Be A Force of Nature</a>                        </li>                        <li>                            <a href="http://www.weather.gov/owlie">NWS Education Home</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/news/">NEWS</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/news">NWS News</a>                        </li>                        <li>                            <a href="https://www.weather.gov/wrn/calendar">Events</a>                        </li>                        <li>                            <a href="https://www.weather.gov/owlie/publication_brochures">Pubs/Brochures/Booklets </a>                        </li>                        <li>                            <a href="http://www.noaa.gov/NOAA-Communications">NWS Media Contacts</a>                        </li></ul></div>                        </li>
+            <li>	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/search">SEARCH</a>                        </div>
+                             
+                            <div style="opacity: 0;" class="sub">     
+                                <ul class="no-links">
+                                <li><!-- Begin search code -->
+                                    <div id="site-search">
+                                        <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                                            <input type="hidden" name="v:project" value="firstgov" /> 
+                                            <label for="query">Search For</label> 
+                                            <input type="text" name="query" id="query" size="12" /> 
+                                            <input type="submit" value="Go" />
+                                            <p>
+                                                <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws" /> 
+                                                <label for="nws" class="search-scope">NWS</label> 
+                                                <input type="radio" name="affiliate" value="noaa.gov" id="noaa" /> 
+                                                <label for="noaa" class="search-scope">All NOAA</label>
+                                            </p>
+                                        </form>
+                                    </div>
+                                </li>
+                                </ul>
+                            </div>
+                                                        </li>
+            <li class="last">	
+                        <div class="topMenuNavList section-link">
+                            	<a href="http://www.weather.gov/about">ABOUT</a>                        </div>
+                            <div style="opacity: 0;" class="sub"> <ul>                        <li>                            <a href="http://www.weather.gov/about">About NWS</a>                        </li>                        <li>                            <a href="http://www.weather.gov/organization">Organization</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/wrn/NWS-2023-Strategic-Plan.pdf">Strategic Plan</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/#diversity">Commitment to Diversity</a>                        </li>                        <li>                            <a href="https://sites.google.com/a/noaa.gov/nws-insider/">For NWS Employees</a>                        </li>                        <li>                            <a href="http://www.weather.gov/insider">International</a>                        </li>                        <li>                            <a href="http://www.weather.gov/ncep">National Centers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/careers/">Careers</a>                        </li>                        <li>                            <a href="http://www.weather.gov/contact">Contact Us</a>                        </li>                        <li>                            <a href="https://w1.weather.gov/glossary">Glossary</a>                        </li>                        <li>                            <a href="https://weather.gov/socialmedia">Social Media</a>                        </li></ul></div>                        </li>
+                            </ul>
+            </div>
+        </div>
+
+        
+
+            <div class="center-content">
+                <div id="zipcity_news">
+                    		<div class="one-sixth-first">
+			<div id="forecast-lookup">
+				<form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+                    <label for="inputstring">Local forecast by <br />"City, St" or ZIP code</label>
+                    <input id="inputstring" name="inputstring" type="text" value="Enter location ..." onclick="this.value=''" />
+                    <input name="btnSearch" id="btnSearch" type="submit" value="Go" />
+                    <div id="txtError">
+                        <div id="errorNoResults" style="display:none;">Sorry, the location you searched for was not found. Please try another search.</div>
+                        <div id="errorMultipleResults" style="display:none">Multiple locations were found. Please select one of the following:</div>
+                        <div id="errorChoices" style="display:none"></div>
+                        <input id="btnCloseError" type="button" value="Close" style="display:none" />
+                    </div>
+                    <div id="txtHelp"><a style="text-decoration: underline;" href="javascript:void(window.open('http://weather.gov/ForecastSearchHelp.html','locsearchhelp','status=0,toolbar=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1,height=500,width=530').focus());">Location Help</a></div>
+                </form>
+
+			</div><!-- <div id="forecast-lookup"> -->
+		</div><!-- <div class="one-sixth-first"> -->
+	
+                    <div class="five-sixth-last">
+    <div id="topnews">
+        <div id="global_localnews" style="float:left;width:800px;">
+            <div id="global_localnews_headerbar_main">
+                <div id="global_localnews_headerbar_sub_left">
+                    <div id="global_localnews_title" style="color:black;margin:5px 0px 2px 0px;font-size:14px;font-weight:bold;">News Headlines</div>
+                </div>
+            </div>
+            <div id="localnews">
+                <ul>
+                                    <li><a href="http://www.weather.gov/abq/TempPop"><strong>Temperature and Precipitation Table Moves to Forecasts Menu</strong></a></li>
+                                    <li><a href="https://www.weather.gov/abq/clifeatures_100degrees"><strong>100° Facts for Albuquerque and New Mexico</strong></a></li>
+                                    <li><a href="https://www.weather.gov/media/abq/Briefings/2023MonsoonOutlook.pdf"><strong>2023 Monsoon Outlook for Central &amp; Northern NM</strong></a></li>
+                                    <li><a href="https://www.weather.gov/wrn/summer-safety"><strong>Learn How to Stay Cool and Safe this Summer!</strong></a></li>
+                                </ul>
+                            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    /** news headline Additional Headlines link **/
+    $(document).ready(function () {
+        $("#additionalNews").toggle();
+        $(".toggleHeadlines a").click(function(e){
+            e.preventDefault();
+            e.stopPropagation();
+            $(".toggleHeadlines").toggle();
+            $(".hidden-news-link").toggle();
+        });
+    });
+</script>
+
+                </div>
+                <div class="full-width-bordertop">
+                    <div class="div-full">
+
+                        <!-- area for the myforecast widget and wwamap data -->
+                        <div class="one-sixth-first" id="sidebar">
+                                    <script type="text/javascript" src="/js/jquery-cookie.js"></script>
+        <script type="text/javascript" src="/js/MyForecastWidget.js"></script>
+        <div id="myfcst-widget">
+            <div id="myfcst">
+                <form id='myfcst-form' action='/widgets/MyForecastWidget.php'>
+                    <span id="myfcst-title">Customize Your <strong>Weather.gov</strong></span>
+                    <span id="myfcst-error"></span>
+                    <div id="myfcst-input-block">
+                        <input type="text" name="myfcst-location-input" id="myfcst-location-input" value="City, ST" /> 
+                        <label for="myfcst-location-input">Enter Your City, ST or ZIP Code</label><br />	
+                        <input type="checkbox" name="myfcst-remember" id="myfcst-remember" />
+                        <label for="myfcst-remember">Remember Me</label> 					
+                    </div>
+                    <div class="myfcst-footer">
+                        <input type="submit" value="Get Weather" id="myfcst-submit" />
+                        <p class="myfcst-policy"><a href="http://www.weather.gov/privacy.php">Privacy Policy</a></p>
+                    </div>
+                </form>
+                <div id="myfcst-fcst"></div>
+                <div id="myfcst-multi-result"></div>
+                <div id="myfcst-loading">LOADING...</div>
+            </div>
+            
+        </div>
+        
+                            <div class="div-full cms-content" id="cms_page_badges"><!-- DO NOT REMOVE CODE BELOW UNLESS INSTRUCTED TO DO SO --><!-- Code below enlarges badges below WWA map --><script>
+  /* Attach tracking to all download & external links */
+var _gaq = _gaq || [];
+
+function _gaLt(event){
+    var el = event.srcElement || event.target;
+
+    /* Loop through parent elements if clicked element is not a link (ie: <a><img /></a> */
+    while(el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase() != 'a' || !el.href))
+        el = el.parentNode;
+
+    if(el && el.href){
+        dl = document.location;
+        l = dl.pathname + dl.search;
+        h = el.href;
+        c = !1;
+        if(h.indexOf(location.host) == -1){
+            c = "Outgoing Links";
+            a = h;
+        }
+        else if(h.match(/\/assets\//) && !h.match(/\.(jpe?g|bmp|png|gif|tiff?)$/i)){
+            c = "Downloads";
+            a = h.match(/\/assets\/(.*)/)[1];
+        }
+        if(c){
+            _gaq.push(["_trackEvent",c,a,l]);
+            /* Push secondary tracker if set */
+            _gaq2 && _gaq.push(["b._trackEvent",c,a,l]);
+            /* if target not set delay opening of window by 0.5s to allow tracking */
+            if(!el.target || el.target.match(/^_(self|parent|top)$/i)){
+                setTimeout(function(){
+                    document.location.href = el.href;
+                }.bind(el),500);
+                /* Prevent standard click */
+                event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+            }
+        }
+
+    }
+}
+var d = document;
+d.addEventListener ? d.addEventListener("click",_gaLt,!1) : d.attachEvent && d.attachEvent("onclick",_gaLt);
+
+</script><script>
+	$(document).ready(function(){ 
+		$('.mod-image-tiles .one-sixth-first').css({
+    	'width' : '31%',
+    	'height': '225px',
+        'margin-bottom': '35px'
+    	});
+
+		$('.mod-image-tiles img').css({
+    	'width' : '100%',
+        'height': '100%',
+    	});
+
+	});
+
+
+
+
+</script>
+<p><br />
+<style type="text/css">#nowcast{
+			 padding: 5px;
+    		 line-height: 50%;
+    		 
+    		 
+    	}
+	/* unvisited link */   	
+	#nowcast a:link {
+    color: #1763AB;
+    text-decoration: none;
+		}
+
+	/* visited link */
+	#nowcast a:visited {
+    color: #1763AB;
+    text-decoration: none;
+		}
+
+	/* mouse over link */
+	#nowcast a:hover {
+    color: orange;
+		}
+
+	/* selected link */
+	#nowcast a:active {
+    color: #1763AB;
+    text-decoration: none;
+		}
+	
+	hr.style-four {
+    		border: 0;
+    		height: 1px;
+    		background-image: -webkit-linear-gradient(left, rgba(200,200,200,0.05), rgba(200,200,200,1), rgba(200,200,200,0.05)); 
+    		background-image:    -moz-linear-gradient(left, rgba(200,200,200,0.05), rgba(200,200,200,1), rgba(200,200,200,0.05)); 
+    		background-image:     -ms-linear-gradient(left, rgba(200,200,200,0.05), rgba(200,200,200,1), rgba(200,200,200,0.05)); 
+    		background-image:      -o-linear-gradient(left, rgba(200,200,200,0.05), rgba(200,200,200,1), rgba(200,200,200,0.05)); 
+}
+</style>
+</p>
+
+<div id="nowcast">&nbsp;</div>
+<!-- DO NOT REMOVE CODE ABOVE UNLESS INSTRUCTED TO DO SO --></div>
+                        </div><!-- end of <div class="one-sixth-first"> -->
+
+                        <div class="five-sixth-first" id="pagebody">
+                            <div class="div-full breadcrumb">    <div class="sitename">        <p class="sitename-name">Albuquerque, NM</p>        <p class="sitename-class">Weather Forecast Office</p>    </div>    <div class="location">        <h1 class='location-pagetitle'>NWS Albuquerque</h1>        <div class='location-breadcrumb'>            <a href="https://www.weather.gov">Weather.gov</a> &gt; Albuquerque, NM        </div>    </div></div>
+                            <div class="div-full">    <div class="subMenuNav">        <ul id="subMenuNav">            <li>                <div class="subMenuNavList section-link">                    <a href="/abq/hazards">Current Hazards</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://www.weather.gov/crh/outlooks?sid=abq">Outlooks</a>                        </li>                        <li>                            <a href="https://www.weather.gov/abq/submitLSR?site=abq">Submit a Storm Report</a>                        </li>                        <li>                            <a href="/abq/hazards">Severe and Hazardous Weather Information</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/abq/observations">Current Conditions</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://tinyurl.com/hg4ljwu">Surface Observations</a>                        </li>                        <li>                            <a href="http://www.weather.gov/satellite?image=ir">Satellite</a>                        </li>                        <li>                            <a href="http://water.weather.gov/precip/">Observed Precipitation</a>                        </li>                        <li>                            <a href="/abq/observations">Local Observations Page</a>                        </li>                        <li>                            <a href="/abq/satellite">Local Satellite Page</a>                        </li>                        <li>                            <a href="https://www.weather.gov/abq/solar-dashboard">Solar Dashboard for New Mexico</a>                        </li>                        <li>                            <a href="/abq/webcam">WFO ABQ Web Camera Images</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://radar.weather.gov/region/conus/standard">Radar</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="https://radar.weather.gov/station/KABX/standard">Local Albuquerque Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy0xMDYuODIsMzUuMTQ3XSwibG9jYXRpb24iOm51bGwsInpvb20iOjcsImZpbHRlciI6bnVsbCwibGF5ZXIiOiJicmVmX3JhdyIsInN0YXRpb24iOiJLQUJYIn0sImFuaW1hdGluZyI6ZmFsc2UsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwicmZjIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D">Local Albuquerque Enhanced Radar</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/station/KFDX/standard">Local Canon Air Force Base Standard Radar (low bandwidth)</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJsb2NhbCIsImNlbnRlciI6Wy0xMDMuNjE4LDM0LjYzM10sImxvY2F0aW9uIjpudWxsLCJ6b29tIjo4LCJmaWx0ZXIiOiJXU1ItODhEIiwibGF5ZXIiOiJicmVmX3JhdyIsInN0YXRpb24iOiJLRkRYIn0sImFuaW1hdGluZyI6ZmFsc2UsImJhc2UiOiJzdGFuZGFyZCIsImFydGNjIjpmYWxzZSwiY291bnR5IjpmYWxzZSwiY3dhIjpmYWxzZSwicmZjIjpmYWxzZSwic3RhdGUiOmZhbHNlLCJtZW51Ijp0cnVlLCJzaG9ydEZ1c2VkT25seSI6dHJ1ZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D#/">Local Canon Air Force Base Enhanced Radar</a>                        </li>                        <li>                            <a href="https://radar.weather.gov/region/southrockies/standard">Regional Standard Radar (low bandwidth)</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="#">Forecasts</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://forecast.weather.gov/gridpoint.php?site=abq&TypeDefault=graphical">Hourly View</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/wxplanner.php?site=abq">Activity Planner</a>                        </li>                        <li>                            <a href="/abq/forecasts-fireweather">Fire</a>                        </li>                        <li>                            <a href="http://forecast.weather.gov/product.php?site=NWS&issuedby=ABQ&product=AFD&format=CI&version=1&glossary=1">Forecaster's Discussion</a>                        </li>                        <li>                            <a href="/abq/aviation_newpage">Aviation Forecasts</a>                        </li>                        <li>                            <a href="https://www.weather.gov/media/abq/Briefings/KeyImpacts.pdf">Key Impacts</a>                        </li>                        <li>                            <a href="http://graphical.weather.gov/sectors/abq.php">Graphical Forecasts</a>                        </li>                        <li>                            <a href="/abq/TempPop">Graphical Temperature and Precipitation Table</a>                        </li>                        <li>                            <a href="/abq/forecasts-local">Local Forecast Page</a>                        </li>                        <li>                            <a href="/abq/winter">Winter Weather (Experimental)</a>                        </li>                        <li>                            <a href="/abq/AvalancheWeather">Avalanche Weather (Experimental)</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://water.weather.gov/ahps2/index.php?wfo=ABQ">Rivers and Lakes</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://water.weather.gov/ahps2/index.php?wfo=ABQ">Advanced Hydrologic Prediction Services</a>                        </li>                        <li>                            <a href="/abq/hydrology">Local Hydrology Products</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="https://w2.weather.gov/climate/index.php?wfo=abq">Climate and Past Weather</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="http://www.cpc.ncep.noaa.gov/">Climate Prediction</a>                        </li>                        <li>                            <a href="http://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx?NM">Drought</a>                        </li>                        <li>                            <a href="https://charts.climate.lsu.edu/mly">Statewide Average Monthly Temperature and Rainfall</a>                        </li>                        <li>                            <a href="http://www.weather.gov/abq/prepwinterwxclimo">Winter Weather Climatology for NM</a>                        </li>                        <li>                            <a href="http://www.weather.gov/abq/svrwxclimo">Severe Thunderstorm and Tornado Climatology for NM</a>                        </li>                        <li>                            <a href="/abq/cli_plots">Climate Graphs</a>                        </li>                        <li>                            <a href="https://www.climate.gov/">NOAA Climate Service</a>                        </li>                        <li>                            <a href="/abq/solar-dashboard">Solar Dashboard</a>                        </li>                    </ul>                </div>            </li>            <li>                <div class="subMenuNavList section-link">                    <a href="/abq/ouroffice-outreach">Local Programs</a>                </div>                <div class="sub">                    <ul>                        <li>                            <a href="/abq/ouroffice-outreach">About Our Office</a>                        </li>                        <li>                            <a href="/abq/prepskywarn">SKYWARN</a>                        </li>                        <li>                            <a href="/abq/wxradio">NOAA Weather Radio</a>                        </li>                        <li>                            <a href="/abq/featuresmainpage">Local Studies and Features</a>                        </li>                        <li>                            <a href="http://www.weather.gov/abq/text_product_tab_list">Locally Issued Text Products</a>                        </li>                        <li>                            <a href="/abq/prepwinterwx">Local Winter Weather Info, Safety Tips, and Climatology</a>                        </li>                        <li>                            <a href="/abq/prephazards">Local Severe Weather Info, Safety Tips, and Climatology</a>                        </li>                        <li>                            <a href="https://www.weather.gov/abq/cocorahs">CoCoRaHS - Community Collaborative Rain, Hail & Snow Network</a>                        </li>                        <li>                            <a href="/abq/coop_program">Cooperative Observer Program</a>                        </li>                        <li>                            <a href="http://www.weather.gov/zab">Center Weather Service Unit Albuquerque</a>                        </li>                    </ul>                </div>            </li>        </ul>    </div></div>
+
+                            
+                            <div class="div-full">
+		<div id="wx_map_border" style="margin-bottom-15px;min-height:450px;width:600px;padding:2px;">		<style type="text/css">
+ 		#wfomap_main{
+			width:700px;
+			padding:0px;
+			margin:5px 0px 5px 0px;
+		}
+		#wfomap_container{
+			width:354px;
+			border:1px solid black;
+			background-repeat:no-repeat;
+			height:274px;
+			padding:0px;
+ 			margin:0px;
+			float: left;
+		}
+		#wfomap_rtcol{
+			float: left;
+			width:190px;
+			border:1px solid black;
+			margin:0px 0px 0px 5px;
+		}
+		#wfomap_rtcol_top_lt{
+			padding-top:5px;
+			width:86px;
+			float: left;
+		}
+		#wfomap_rtcol_top_rt{
+			width:64px;
+			float: left;
+			line-height: 0pt;
+			margin:0px 0px 0px 40px;
+		}
+		#wfomap_rtcol_bot{
+			float: left;
+			width:190px;
+			border-top:1px solid black;
+			line-height: 0pt;
+		}
+		#wfomap_rtcol_bot a{
+			line-height: 10pt;
+		}
+		#wfomap_rtcol_bot table{
+			width:180px;
+		}
+		#wfomap_rtcol_bot table td{
+			padding:2px 0px 1px 5px;
+		}
+		#wwamap_header{
+			text-align:center;
+			font-weight:bold;
+			width:355px;
+			margin:0px 0px 5px 0px;
+		}
+		#wwamap_time_area{
+			margin:5px 0px 0px 0px;
+			width:100%;
+			text-align:center;
+			font-size:12px;
+			font-weight:bold;
+		}
+		#language_version_area{
+			position:relative;
+			margin:0px 0px 5px 420px;
+		}
+		</style>
+
+		<script language="javascript">
+                $(document).ready(function(){
+                   $("#wwamapImage").click(function(e){
+                        var offset_l = $(this).offset().left - $(window).scrollLeft();
+			var offset_t = $(this).offset().top - $(window).scrollTop();
+			var left =  Math.round( (e.clientX - offset_l) );
+			var top = Math.round( (e.clientY - offset_t) );
+			//console.log("click position result --> X: " + left + ", Y: " + top);
+			$('#mapx').val(left);
+			$('#mapy').val(top);
+                   });
+                });
+		</script>
+
+		<div id="wwamap">
+		<div id="wfomap_main" style="margin:10px 0px 0px 15px;">
+			<div id="wwamap_header">Click a location below for detailed forecast.</div>
+						    <div id="wfomap_container">
+				<form name="form1" method="get" action="https://forecast.weather.gov/MapClick.php">
+				<input type="image" id="wwamapImage" src="/wwamap/png/abq.png" align="middle" alt="Map of Forecast Area" title="Map of Forecast Area" />
+				<input type="hidden" name="site" value="abq" />
+				<input type="hidden" name="zmx" value="" /><input type="hidden" name="zmy" value="" />
+				<input type="hidden" name="map_x" id="mapx" value="" />
+				<input type="hidden" name="map_y" id="mapy" value="" />
+				</form>
+								    <p id="wwamap_time_area">Last Map Update: Wed, Jul. 26, 2023 at 11:16:06 pm MDT</p>
+							    </div>
+			
+			<!-- START RIGHT SIDE COLUMN -->
+			<div id="wfomap_rtcol">
+
+				<div id="wfomap_rtcol_top_lt">
+					<a href="/wwamap/wwatxtget.php?cwa=abq&wwa=all">Watches, Warnings &amp; Advisories</a>
+				</div>
+				<div id="wfomap_rtcol_top_rt">		<style type="text/css">
+		td {
+			padding:0px;
+			vertical-align:middle;
+		}
+		.zoom a {
+			color:#ffffff;
+			font-size:9px;
+			font-weight:normal;
+			line-height:9pt;
+			text-decoration:none;
+		}
+		a {
+			vertical-align:none;
+		}
+		img {
+			display:inline;
+			vertical-align:text-top;
+		}
+
+		img.south_disabled, img.west_disabled, img.north_disabled, img.northwest_disabled, img.northeast_disabled, img.east_disabled, img.southeast_disabled, img.southwest_disabled{
+  			filter:alpha(opacity=30);
+  			-moz-opacity: .3;
+  			opacity: .3;
+		}
+		</style>
+		<table border="0" width="64" cellspacing="0" cellpadding="0" bgcolor="#003399"><tr><td><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/gjt/'"><img class="" src="/wwamap/gif/nw.gif" alt="National Weather Service Grand Junction, CO" title="National Weather Service Grand Junction, CO" width="17" height="17" border="0" /></a></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/pub/'"><img class="" src="/wwamap/gif/n.gif" alt="National Weather Service Pueblo, CO" title="National Weather Service Pueblo, CO" width="17" height="17" border="0" /></a></td><td align="right"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/ama/'"><img class="" src="/wwamap/gif/ne.gif" alt="National Weather Service Amarillo, TX" title="National Weather Service Amarillo, TX" width="17" height="17" border="0" /></a></td></tr><tr><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/fgz/'"><img class="" src="/wwamap/gif/w.gif" alt="National Weather Service Flagstaff, AZ" title="National Weather Service Flagstaff, AZ" width="17" height="17" border="0" /></a></td><td align="center" width="30" class="zoom"><img src="/wwamap/gif/spacer.gif" width="30" height="1" border="0" /><a href="http://www.weather.gov">Zoom<br />Out</a><br /><img src="/wwamap/gif/spacer.gif" width="30" height="1" border="0" /></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/lub/'"><img class="" src="/wwamap/gif/e.gif" alt="National Weather Service Lubbock, TX" title="National Weather Service Lubbock, TX" width="17" height="17" border="0" /></a></td></tr><tr><td><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/twc/'"><img class="" src="/wwamap/gif/sw.gif" alt="National Weather Service NWS Tucson Arizona" title="National Weather Service NWS Tucson Arizona" width="17" height="17" border="0" /></a></td><td align="center"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/epz/'"><img class="" src="/wwamap/gif/s.gif" alt="National Weather Service El Paso, TX" title="National Weather Service El Paso, TX" width="17" height="17" border="0" /></a></td><td align="right"><a href="javascript:void(0);" onclick="javascript:location.href='https://www.weather.gov/maf/'"><img class="" src="/wwamap/gif/se.gif" alt="National Weather Service Midland/Odessa" title="National Weather Service Midland/Odessa" width="17" height="17" border="0" /></a></td></tr></table></div>
+
+				<div id="wfomap_rtcol_bot">
+					<table width="150" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=ABQ&wwa=excessive heat warning">Excessive Heat Warning</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#c71585;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=ABQ&wwa=heat advisory">Heat Advisory</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#ff7f50;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="2"></td>
+        <td valign="top" width="125"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="125" height="3" border="0"></td>
+        <td valign="top" width="20"></td>
+        <td valign="top" width="2"></td>
+    </tr>
+    <tr>
+        <td valign="top" align="left" width="2"></td>
+        <td valign="top" align="left" width="125">
+            <a href="//forecast.weather.gov/wwamap/wwatxtget.php?cwa=ABQ&wwa=hazardous weather outlook">Hazardous Weather Outlook</a>
+        </td>
+        <td valign="top" align="right" width="20">
+            <div style="display:inline-block; width:20px; height:12px; background-color:#eee8aa;"></div>
+        </td>
+        <td valign="top" align="left" width="2"></td>
+    </tr>
+    <tr>
+        <td colspan="4"><img src="//forecast.weather.gov/wwamap/gif/spacer.gif" width="150" height="3" border="0"></td>
+    </tr>
+</table>
+				</div>
+			</div>
+			<div style="clear:both;"></div>
+			<!-- END RIGHT SIDE COLUMN -->
+
+		</div><!-- end of  <div id="wfomap_main" style="margin:10px 0px 0px 15px;"> -->
+		</div><!-- end of <div id="wwamap"> -->
+	</div></div>
+                            <div class="div-full cms-content" id="front_page_content"><link href="/source/abq/resources/css/roundup.css" rel="stylesheet" />
+<link href="https://code.jquery.com/ui/1.11.4/themes/redmond/jquery-ui.css" rel="stylesheet" /><script href="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script><script>
+value = '35.1064,-106.632';
+
+if ($.cookie('myForecast') == null){
+
+  $.cookie('myForecast', value);
+  $.cookie('myForecastess', value);
+
+}
+</script>
+<p><link rel="stylesheet" media="all" type="text/css" href="/css/tabs.css">
+<div id="tabs" class="c-tabs" style="">
+    <div class="c-tabs-nav">
+                    <div class="c-tabs-nav__link is-active"><span>Tonight</span></div>
+                    <div class="c-tabs-nav__link"><span>Thursday</span></div>
+                    <div class="c-tabs-nav__link"><span>Heat Safety</span></div>
+                    <div class="c-tabs-nav__link"><span>Burn Scar Matrix</span></div>
+                    <div class="c-tabs-nav__link"><span>Dew Point Tracker</span></div>
+            </div>
+            <div class="c-tab is-active">
+          <div class="c-tab__content"><div class="graphicast">
+    <div class="image"><img src="http://www.weather.gov/images/abq/graphicast/image8.gif?f4e5ada4d2b017234d46dd843ce75083" style="max-width: 100%;"></div>
+    <div class="description">Isolated to scattered storms will steadily taper off through the evening to midnight tonight.</div>
+    <div class="more"><a href="http://www.weather.gov/abq/">Read More...</a></div>
+</div>
+</div>
+        </div>
+            <div class="c-tab">
+          <div class="c-tab__content"><div class="graphicast">
+    <div class="image"><img src="http://www.weather.gov/images/abq/graphicast/image4.gif?f4e5ada4d2b017234d46dd843ce75083" style="max-width: 100%;"></div>
+    <div class="description">Record to near record heat is likely again Thursday. Isolated to widely scattered thunderstorms will be possible across the western and northern high terrain before drifting over surrounding lower elevations later in the day.</div>
+    <div class="more"><a href="http://www.weather.gov/abq/">Read More...</a></div>
+</div>
+</div>
+        </div>
+            <div class="c-tab">
+          <div class="c-tab__content"><div class="graphicast">
+    <div class="image"><img src="http://www.weather.gov/images/abq/graphicast/image2.gif?f4e5ada4d2b017234d46dd843ce75083" style="max-width: 100%;"></div>
+    <div class="description">During excessive heat, remember to find a cool place, either in the shade or in air conditioning inside. Avoid strenuous activities, wear light clothing and drink plenty of water. Temperatures in your car will heat up quickly! Remember to look before you lock!</div>
+    <div class="more"><a href="http://www.weather.gov/abq/">Read More...</a></div>
+</div>
+</div>
+        </div>
+            <div class="c-tab">
+          <div class="c-tab__content"><div class="graphicast">
+    <div class="image"><img src="http://www.weather.gov/images/abq/graphicast/image6.gif?f4e5ada4d2b017234d46dd843ce75083" style="max-width: 100%;"></div>
+    <div class="description">Thunderstorm Threat Guidance for recent burn scars in northern and central New Mexico.</div>
+    <div class="more"><a href="http://www.weather.gov/abq/">Read More...</a></div>
+</div>
+</div>
+        </div>
+            <div class="c-tab">
+          <div class="c-tab__content"><div class="graphicast">
+    <div class="image"><img src="http://www.weather.gov/images/abq/graphicast/image5.gif?f4e5ada4d2b017234d46dd843ce75083" style="max-width: 100%;"></div>
+    <div class="description">Dewpoint temperature is one of the many parameters used to monitor moisture surges of the North American Monsoon across the Southwest U.S.</div>
+    <div class="more"><a href="http://www.weather.gov/abq/">Read More...</a></div>
+</div>
+</div>
+        </div>
+    </div>
+<script type="text/javascript" src="/js/tabs.js"></script>
+<script type="text/javascript">
+  var myTabs = tabs({
+    el: '#tabs',
+    tabNavigationLinks: '.c-tabs-nav__link',
+    tabContentContainers: '.c-tab'
+  });
+
+  myTabs.init();
+</script></p>
+
+<p>&nbsp;</p>
+
+<div id="localcontent"><script type="text/javascript" src="/source/srh/regionalJS/moveTabs.js"></script>
+<div>&nbsp;</div>
+
+<table align="left" bgcolor="#dddddd" border="0" cellpadding="0" cellspacing="0" height="60" width="100%">
+	<tbody>
+		<tr bgcolor="#0086b3">
+			<td align="center" style="color:white" width="700">
+			<div style="font-size:12pt;display:inline;"><b>Text Product Selector (Selected product opens in current window)</b></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="auto-style1" colspan="2">
+			<form action="/abq/" align="center" name="prod" size="1"><select name="pil" onchange="if(document.prod.pil.selectedIndex) {location=document.prod.pil.options[document.prod.pil.selectedIndex].value;}" size="1" tabindex="1"><option selected="selected" value="">Choose a Text Product</option> <optgroup label="Weather Hazards and Warnings"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=WCN&amp;glossary=0">TOR/SEVERE TSTM Watch County Status Message</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FFS&amp;glossary=0">Flash Flood Statement</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FFW&amp;glossary=0">Flash Flood Warning</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FLS&amp;glossary=0">Flood Advisory or Statement</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FFA&amp;glossary=0">Flood or Flash Flood Watch</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FLW&amp;glossary=0">Flood Warning (River)</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=NPW&amp;glossary=0">Non-Precipitation Hazards Message</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=SVR&amp;glossary=0">Severe Thunderstorm Warning</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=SVS&amp;glossary=0">Severe Weather Statement</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=SPS&amp;glossary=0">Special Weather Statement or Significant Weather Alert</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=TOR&amp;glossary=0">Tornado Warning</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=WSW&amp;glossary=0">Winter Weather Watch/Warning/Advisory</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=AVA&amp;glossary=0">Avalanche Watch</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=AVW&amp;glossary=0">Avalanche Warning</option> </optgroup> <optgroup label="Forecast Discussion / Text Forecasts"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=AFD&amp;glossary=0">Area Forecast Discussion</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=SFT&amp;glossary=0">Tabular Forecast for Northern &amp; Central NM</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=PFM&amp;glossary=0">Point Forecast Matrices</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=ZFP&amp;glossary=0">Zone Forecast Product</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=AVG&amp;glossary=0">Avalanche Weather Guidance</option> </optgroup> <optgroup label="Aviation Statements and Forecasts"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;product=AWW&amp;issuedby=ABQ">Airport Weather Warning for Albuquerque International Sunport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=FMN&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Farmington Four Corners Regional Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=GUP&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Gallup Municipal Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ABQ&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Albuquerque International Sunport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=AEG&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Double Eagle II Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=SAF&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Santa Fe Municipal Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=LVS&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Las Vegas Municipal Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=TCC&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Tucumcari Municipal Airport</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ROW&amp;product=TAF&amp;glossary=0">Terminal Aerodrome Forecast for Roswell Industrial Air Center Airport</option> </optgroup> <optgroup label="Observation and Climate Products"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=NM&amp;product=RWR&amp;glossary=0">Hourly Weather Roundup</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=NM&amp;product=RTP&amp;glossary=0">State Temp &amp; Precip Table</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=RTP&amp;glossary=0">Northern &amp; Central NM Temp &amp; Precip Table</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ABQ&amp;product=CLI&amp;glossary=0">Daily Climate Summary for Albuquerque</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=CAO&amp;product=CLI&amp;glossary=0">Daily Climate Summary for Clayton</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ROW&amp;product=CLI&amp;glossary=0">Daily Climate Summary for Roswell</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ABQ&amp;product=CLM&amp;glossary=0">Monthly Climate Summary for Albuquerque</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=CAO&amp;product=CLM&amp;glossary=0">Monthly Climate Summary for Clayton</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ROW&amp;product=CLM&amp;glossary=0">Monthly Climate Summary for Roswell</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ABQ&amp;product=RER&amp;glossary=0">Record Event Report for Albuquerque</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=CAO&amp;product=RER&amp;glossary=0">Record Event Report for Clayton</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ROW&amp;product=RER&amp;glossary=0">Record Event Report for Roswell</option> </optgroup> <optgroup label="Fire Weather"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FWF&amp;glossary=0">Fire Weather Forecast</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=RFW&amp;glossary=0">Fire Weather Watch/Red Flag Warning</option> </optgroup> <optgroup label="Hydrology Products"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=ESF&amp;glossary=0">Hydrologic Outlook</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=RVS&amp;glossary=0">Hydrologic Statement</option> </optgroup> <optgroup label="Other Products"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=AQA&amp;glossary=0">Air Quality Alert</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=LSR&amp;glossary=0">Local Storm Report</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=PNS&amp;glossary=0">Public Information Statement</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abx&amp;product=FTM&amp;glossary=0">Radar Status Message/Free Text Message for Albuquerque (ABX)</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=fdx&amp;product=FTM&amp;glossary=0">Radar Status Message/Free Text Message for Cannon Air Force Base (FDX)</option> </optgroup> <optgroup label="Upper Air Messages from Weather Balloon Data"><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=FZL&amp;glossary=0">Upper Air Sounding Freezing Level (RADAT)</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=ABV&amp;glossary=0">Upper Air Sounding High Levels</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=MAN&amp;glossary=0">Upper Air Sounding Mandatory Levels</option><option value="https://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=abq&amp;product=SGL&amp;glossary=0">Upper Air Sounding Significant Levels</option> </optgroup> </select></form>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td>
+			<div class="container">
+			<div id="observationtable">&nbsp;</div>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+<style type="text/css">.first {text-align:center; font-size:10pt; font-weight:bold; background-color:#a7d2fe;  color:white; }
+.second {text-align:center; font-size:11pt; font-weight:bold; background-color:#0289ca;  color:white;}
+.third {text-align:center; font-size:10pt; background-color:#000099;  color:black;}
+</style>
+<table align="center" border="0" cellpadding="5" cellspacing="5" style="float:left;margin-top:10px" width="100%">
+	<tbody>
+		<tr>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/submitLSR?site=abq"><img alt="Submit Storm Report Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/storm_report.png/storm_report__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/submitLSR?site=abq">Submit Storm Report</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/media/abq/Briefings/KeyImpacts.pdf"><img alt="Key Impacts Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/key_impacts.jpg" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/media/abq/Briefings/KeyImpacts.pdf">Key Impacts</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/observations"><img alt="Observations Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/observations.png/observations__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/observations">Local Observations</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/webcam"><img alt="Webcams Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/web_cam.png/web_cam__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/webcam">Office Webcams</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/satellite"><img alt="Satellite Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/satellite.png/satellite__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/satellite">Satellite Imagery</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/emergencyprepintro"><img alt="Are You Prepared Icon" src="/images/abq/frontpageicons/front_page_icons_2019/are_you_prepared.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/emergencyprepintro">Are You Prepared?</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/media/abq/Briefings/weeklyweatherbriefing.pdf"><img alt="Weekly Weather Briefing Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/wwb_female.png/wwb_female__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/media/abq/Briefings/weeklyweatherbriefing.pdf">Weekly Weather Briefing</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://forecast.weather.gov/product.php?site=abq&amp;issuedby=abq&amp;product=AFD&amp;glossary=0"><img alt="Area Forecast Discussion Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/afd.png/afd__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://forecast.weather.gov/product.php?site=abq&amp;issuedby=abq&amp;product=AFD&amp;glossary=0">Area Forecast Discussion</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/forecasts-fireweather"><img alt="Fire Weather Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/fire.png/fire__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/forecasts-fireweather">Fire Weather</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/aviation_newpage"><img alt="Aviation Weather Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/aviation.png/aviation__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/aviation_newpage">Aviation Weather</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/winter"><img alt="Snow Probabilities Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/snow_prob.png/snow_prob__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/winter">Snow Probabilities</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/prepskywarn"><img alt="SKYWARN Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/skywarn.png/skywarn__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/prepskywarn">SKYWARN Spotters</a></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/wxhistory"><img alt="On This Date in Weather History Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/on_this_date2.png/on_this_date2__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/wxhistory">On This Date</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/cli_plots"><img alt="Climate Graphs Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/climate_graphs.png/climate_graphs__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/cli_plots">Climate Graphs</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/DroughtNEW"><img alt="Drought Monitor Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/drought.png/drought__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/DroughtNEW">Drought Monitor</a></p>
+			</td>
+			<td style="height: 180px;" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/svrwxclimo"><img alt="Severe Weather Info and Climatology Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/severe_climo.png/severe_climo__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/svrwxclimo">Severe Weather Climatology</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/northamericanmonsoon-awarenesshome"><img alt="Monsoon Awareness Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/monsoon.png/monsoon__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/northamericanmonsoon-awarenesshome">Monsoon Awareness</a></p>
+			</td>
+			<td style="height: 180px;" valign="top" width="17%">
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/prepwinterwxclimo"><img alt="Winter Climatology Icon" src="/images/abq/frontpageicons/front_page_icons_2019/__thumbs/winter_climo2.png/winter_climo2__100x100.png" style="width: 100px; height: 100px; margin-left: 10px; margin-right: 10px;" /></a></p>
+
+			<p style="text-align: center;"><a href="https://www.weather.gov/abq/prepwinterwxclimo">Winter Climatology</a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="abqgcast">&nbsp;</div>
+<script src="/source/abq/resources/scripts/roundup.js"></script><script src="/source/abq/resources/scripts/graphicast.js"></script><script>
+        $(document).ready(function(){
+            addHeader();
+            getObservations();
+        });
+    </script></div>
+                            
+                        </div>
+
+                    </div><!-- end of <div class="partial-width-borderbottom"> -->
+   
+                </div><!-- <div class="full-width-border"> -->
+           
+                <!-- area for features, frontpage thumbs, and custom page -->
+                
+                
+                <!-- end of <div class="partial-width-borderbottom feature-block"> -->
+                        <link rel="stylesheet" type="text/css" href="/css/mod-image-tiles.css" />
+                            <div id="image_tiles">
+        <div class="div-full mod-image-tiles">
+                    <div class="one-sixth-first" >
+                <a href="https://www.weather.gov/abq/webcam"><img alt="Views from WFO Albuquerque Webcam" src="/images/abq/webcam/webcam.gif" />Office Webcam</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://www.wpc.ncep.noaa.gov/national_forecast/natfcst.php "><img alt="Weather Map" src="//www.wpc.ncep.noaa.gov/noaa/noaad1.gif" />Weather Map</a>
+            </div>
+                    <div class="one-sixth-first" >
+                <a href="https://www.weather.gov/abq/satellite"><img alt="Satellite Imagery" src="https://cdn.star.nesdis.noaa.gov/GOES16/ABI/SECTOR/sr/GEOCOLOR/GOES16-SR-GEOCOLOR-600x600.gif" />Satellite Imagery</a>
+            </div>
+                </div>
+                    </div>
+        
+                <div class="full-width-bordertop">
+                    		 <div class="full-width-first communication-links">
+                        	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://twitter.com/NWSAlbuquerque" target="_blank">
+                			<img src="/css/images/twitter.png" width="16" alt="Follow us on Twitter" height="16" />&nbsp;&nbsp;Follow us on Twitter
+                		</a>
+               		</div>
+               	</div>
+                        	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+                		<a style="text-decoration:none;" href="https://www.facebook.com/NWSAlbuquerque/" target="_blank">
+                			<img src="/css/images/fb.png" width="16" height="16" alt="Follow us on Facebook" />&nbsp;&nbsp;Follow us on Facebook
+                		</a>
+                	</div>
+                </div>
+         	            	<div class ="one-sixth-first divs">
+            		<div class="myforecast-current">
+            			<a style="text-decoration:none;" href="https://www.youtube.com/user/NWSAlbuquerque" target="_blank">
+            				<img src="/css/images/youtube_play.png" alt="Follow us on YouTube" />&nbsp;&nbsp;Follow us on YouTube
+            			</a>
+            		</div>
+            	</div>
+                        <div class ="one-half-last nopad">
+               	<span class="txt-rt myforecast-current">
+                	<div class="myforecast-current">
+                		<a href="/rss_page.php?site_name=abq" target="_blank" style="text-decoration:none;font-size:11px;">
+							<img src="/css/images/rss.png" width="16" height="16" alt="ABQ RSS Feed" />&nbsp;&nbsp;ABQ RSS Feed
+						</a>
+                	</div>
+                </span>
+          	</div>
+      	</div>
+    	<div style="clear:both;"></div>
+	
+                </div>
+
+
+                <div style="clear:both;"></div>
+
+            </div><!-- <div class="center-content"> -->
+
+        </div><!-- end of <div class="center"> -->
+
+        <!-- sitemap area -->
+        <div class="footer">
+            		<style type="text/css">
+            .footer-column-head a:link, .footer-column-head a:visited {
+                color: #ED7A08;		
+            }
+		</style>
+		<div class="footer-content">
+							<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="http://www.weather.gov/abq/hazards">Current Hazards</a>
+                            </span><br />
+                                                        <a href="http://www.weather.gov/crh/outlooks?sid=abq#.WBKdutUrKJA">Outlooks</a><br />
+                                                            <a href="https://www.weather.gov/abq/submitLSR?site=abq">Submit A Storm Report</a><br />
+                                                            <a href="http://www.weather.gov/abq/hazards">Severe and Hazardous Weather Info</a><br />
+                                                    </p>
+                                                <p>
+                            <span class="footer-column-head">
+                                <a href="http://www.weather.gov/abq/observations">Current Conditions</a>
+                            </span><br />
+                                                        <a href="http://preview.weather.gov/edd/?lat=34.5256">Surface Observations</a><br />
+                                                            <a href="http://water.weather.gov/precip/">Observed Precipitation</a><br />
+                                                            <a href="http://www.weather.gov/satellite?image=ir">Satellite</a><br />
+                                                            <a href="http://www.weather.gov/abq/satellite">Local Satellite Page</a><br />
+                                                            <a href="http://www.weather.gov/abq/observations">Local Observations Page</a><br />
+                                                            <a href="http://www.weather.gov/abq/eventmap">Map of Latest Wind and Precipitation Reports</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="http://radar.weather.gov/">Radar</a>
+                            </span><br />
+                                                        <a href="http://radar.weather.gov/">National Radar</a><br />
+                                                            <a href="http://radar.weather.gov/radar.php?rid=abx">ABX Albuquerque Radar</a><br />
+                                                            <a href="http://radar.weather.gov/radar.php?rid=fdx">FDX Cannon Air Force Base Radar</a><br />
+                                                    </p>
+                                                <p>
+                            <span class="footer-column-head">
+                                <a href="http://www.weather.gov/abq/forecasts-local">Forecasts</a>
+                            </span><br />
+                                                        <a href="http://www.weather.gov/abq/forecasts-fireweather">Fire Weather Forecasts</a><br />
+                                                            <a href="http://forecast.weather.gov/product.php?site=ABQ&amp;issuedby=ABQ&amp;product=AFD&amp;format=CI&amp;version=1&amp;glossary=1">Area Forecast Discussion</a><br />
+                                                            <a href="http://forecast.weather.gov/gridpoint.php?site=abq">Hourly View Forecast</a><br />
+                                                            <a href="http://forecast.weather.gov/wxplanner.php?site=abq">Activity Planner</a><br />
+                                                            <a href="http://www.weather.gov/abq/forecasts-aviation">Aviation Forecasts</a><br />
+                                                            <a href="http://www.weather.gov/abq/forecasts-local">Local Forecast Page</a><br />
+                                                            <a href="http://graphical.weather.gov/sectors/abq.php">Graphical Forecasts</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="http://water.weather.gov/ahps2/index.php?wfo=ABQ">Hydrology</a>
+                            </span><br />
+                                                        <a href="http://www.weather.gov/abq/hydrology">Local Hydrology Products</a><br />
+                                                            <a href="http://water.weather.gov/ahps2/index.php?wfo=ABQ">Advanced Hydrologic Prediction Services</a><br />
+                                                    </p>
+                                                <p>
+                            <span class="footer-column-head">
+                                <a href="http://w2.weather.gov/climate/index.php?wfo=abq">Climate and Past Weather</a>
+                            </span><br />
+                                                        <a href="http://www.weather.gov/abq/cli_plots">Climate Graphs</a><br />
+                                                            <a href="http://www.cpc.ncep.noaa.gov/">Climate Prediction Center</a><br />
+                                                            <a href="https://www.climate.gov/">NOAA Climate Center</a><br />
+                                                            <a href="http://www.weather.gov/abq/prepwinterwxclimo">Winter Climatology for NM</a><br />
+                                                            <a href="http://w2.weather.gov/climate/index.php?wfo=abq">Local Data</a><br />
+                                                            <a href="http://www.weather.gov/abq/svrwxclimo">Severe T-Storm Climatology for NM</a><br />
+                                                            <a href="https://www.drought.gov/drought/">Drought</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                                            <p>
+                            <span class="footer-column-head">
+                                <a href="">Local Programs</a>
+                            </span><br />
+                                                        <a href="http://www.weather.gov/abq/ouroffice-outreach">About Our Office</a><br />
+                                                            <a href="http://www.weather.gov/abq/prepskywarn">SKYWARN</a><br />
+                                                            <a href="http://www.weather.gov/abq/wxradio">NOAA Weather Radio</a><br />
+                                                            <a href="http://www.weather.gov/abq/featuresmainpage">Local Studies and Features</a><br />
+                                                            <a href="http://www.weather.gov/abq/prepwinterwx">Winter Weather Info, Safety Tips, and Climo</a><br />
+                                                            <a href="http://www.weather.gov/abq/prephazards">Severe Weather Info, Safety Tips, and Climo</a><br />
+                                                            <a href="http://www.weather.gov/zab/">Center Weather Service Unit</a><br />
+                                                    </p>
+                              			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            				<div class="footer-column" style="padding:10px 10px;">
+                          			</div>
+            		</div>
+	
+        </div><!-- end of <div class="footer"> -->
+
+        <!-- legal footer area -->
+        <div class="footer-legal">
+                    <div class="footer-legal">
+            <div class="footer-legal-content">
+
+                <div class="one-sixth-first" id="footer_legal_gov">
+                    <a href="http://www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30" /></a>
+                </div>
+
+                <div class="one-half-first" id="footer_legal_info">
+                    <p> 
+                        <a href="http://www.commerce.gov">US Dept of Commerce</a><br />
+                        <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br />
+                        <a href="https://www.weather.gov" >National Weather Service</a><br />
+                        Albuquerque, NM<br>2341 Clark Carr Loop SE<br />Albuquerque, NM 87106-5633<br />(505) 243-0702<br /><br /><a href="mailto:sr-abq.webmaster@noaa.gov">Comments? Questions? Please Contact Us.</a>                    </p>
+                </div><!-- end of <div class="one-half-first" id="footer_legal_info"> -->
+
+                <div class="one-third-last" id="footer_required_links">
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/disclaimer">Disclaimer</a><br />
+                        <a href="http://www.cio.noaa.gov/services_programs/info_quality.html">Information Quality</a><br />
+                        <a href="https://www.weather.gov/help">Help</a><br />
+                        <a href="http://www.weather.gov/glossary">Glossary</a>
+                    </div>
+
+                    <div class="div-half">
+                        <a href="https://www.weather.gov/privacy">Privacy Policy</a><br />
+                        <a href="https://www.noaa.gov/foia-freedom-of-information-act">Freedom of Information Act (FOIA)</a><br />
+                        <a href="https://www.weather.gov/about">About Us</a><br />
+                        <a href="https://www.weather.gov/careers">Career Opportunities</a>
+                    </div>
+                </div><!-- end of <div class="one-third-last" id="footer_required_links"> -->
+
+            </div><!-- end of <div class="footer-legal-content"> -->
+        </div><!-- end of <div class="footer-legal"> -->
+        
+        </div><!-- end of <div class="footer-legal"> -->
+
+        <script type="text/javascript" src="//www.weather.gov/js/govshutdown.js"></script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 30500000,
+        "search_time": 0.52,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:46:41.035Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Carolina+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/610.3.7.1.9 (KHTML, like Gecko) Version/14.0.2 Safari/610.3.7.1.9",
+        "request_id": "hl_c3a9eb28_ob6cou7pxu"
+    },
+    "organic": [
+        {
+            "link": "https://www.thestate.com/news/weather-news/",
+            "display_link": "https://www.thestate.com \u203a news \u203a weather-news",
+            "title": "Columbia South Carolina Weather News & Reports",
+            "description": "Follow the latest Columbia, SC and the midlands South Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.postandcourier.com/hurricanewire/storm-atlantic-impact-south-carolina/article_36ebdf76-2af9-11ee-b99e-6b4b0a99ce0a.html",
+            "display_link": "https://www.postandcourier.com \u203a hurricanewire \u203a article...",
+            "title": "Storm in Atlantic not immediate concern for South Carolina",
+            "description": "Disturbance south of Bermuda could move close to US coast, but no immediate concern for SC \u00b7 Sign up for The Post and Courier's Hurricane Wire ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/Expect-Storm-Surge-15-20-Feet-Landfalling-Category-4-Storm-Carolinas",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a Expect-Stor...",
+            "title": "20 Feet in a Landfalling Category 4 Storm in the Carolinas",
+            "description": "If Florence hits the coast of North or South Carolina as a Category 3 or stronger hurricane, we should expect to see record storm surge heights, with a 15 ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wcnc.com/article/weather/chesterfield-county-storm-damage-tornado-weather/275-5a672e1f-3b6f-49e6-ae30-47eff85ae94a",
+            "display_link": "https://www.wcnc.com \u203a article \u203a weather \u203a chesterfiel...",
+            "title": "Chesterfield County storm damages roofs and topples trees",
+            "description": "CHESTERFIELD COUNTY, S.C. \u2014 A severe thunderstorm in Chesterfield County, South Carolina Sunday caused damage to buildings and trees.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://scdhec.gov/news-releases/dhec-stresses-importance-being-prepared-severe-weather-hurricane-season-begins",
+            "display_link": "https://scdhec.gov \u203a news-releases \u203a dhec-stresses-imp...",
+            "title": "DHEC Stresses Importance of Being Prepared for Severe ...",
+            "description": "COLUMBIA, S.C. \u2013 The 2023 hurricane season officially began on June 1, and the South Carolina Department of Health and Control (DHEC) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nhc.noaa.gov/surge/",
+            "display_link": "https://www.nhc.noaa.gov \u203a surge",
+            "title": "Storm Surge Overview - National Hurricane Center",
+            "description": "Along the coast, storm surge is often the greatest threat to life and property ... Hugo impacted the southeastern United States, including South Carolina ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.dominionenergy.com/our-stories/south-carolina-storm-response",
+            "display_link": "https://www.dominionenergy.com \u203a Our Stories",
+            "title": "South Carolina Storm Response",
+            "description": "Article Summary \u00b7 Dominion Energy crews restore energy under challenging circumstances \u00b7 Energy restoration in coastal SC following Hurricane Ian ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.live5news.com/weather/hurricane/",
+            "display_link": "https://www.live5news.com \u203a weather \u203a hurricane",
+            "title": "First Alert Hurricane Center - Live 5 News",
+            "description": "The Atlantic hurricane season now has its fourth named storm of the year. ... State leaders say time is of the essence to protect South Carolina and its ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cityofgoosecreek.com/article/storm-aftermath-please-use-caution-county-provides-link-report-damage",
+            "display_link": "https://www.cityofgoosecreek.com \u203a article \u203a storm-aft...",
+            "title": "Please use caution; County provides link to report damage",
+            "description": "Please report storm damage to Berkeley County at this link: - Mon, ... A Hurricane Watch has been issued for South Carolina's Lowcountry, including Goose ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.reuters.com/article/us-storm-dorian-south-carolina/south-carolina-scrambles-ahead-of-dorians-storm-surge-idUSKCN1VP32A",
+            "display_link": "https://www.reuters.com \u203a article \u203a south-carolina-scra...",
+            "title": "South Carolina scrambles ahead of Dorian's storm surge",
+            "description": "A large digital screen alongside a major highway running into Charleston, South Carolina, issued a stark warning to residents on Wednesday: ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 4, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

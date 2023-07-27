@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33400000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:44:33.927Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_aty9viz3odw"
+    },
+    "organic": [
+        {
+            "link": "https://ktvz.com/weather/2023/03/20/rain-snow-then-a-break-before-another-storm-system-rolls-through-central-oregon/",
+            "display_link": "https://ktvz.com \u203a weather \u203a 2023/03/20 \u203a rain-snow-t...",
+            "title": "Rain, snow, then a break before another storm system rolls ...",
+            "description": "There's a chance of a new storm system arriving on the High Desert by Wednesday night. HAVE A SPARKLING DAY IN CENTRAL OREGON! Article Topic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.koin.com/weather/portlands-snow-timeline-totals-with-next-winter-storm/",
+            "display_link": "https://www.koin.com \u203a weather \u203a portlands-snow-tim...",
+            "title": "Portland Oregon snow timeline, totals with next winter storm",
+            "description": "Snowfall totals from the first few snowflakes to Sunday morning is expected to near 0.5-2 inches in downtown Portland. The greatest amounts of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://nypost.com/2021/02/14/hundreds-of-thousands-without-power-after-oregon-ice-storm/",
+            "display_link": "https://nypost.com \u203a 2021/02/14 \u203a hundreds-of-thousa...",
+            "title": "Hundreds of thousands without power after Oregon ice storm",
+            "description": "Freezing rain left roads, power lines and trees coated in ice in the ... New York Times torched for 'fear-mongering' article about the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://weather.com/storms/severe/news/west-coast-california-oregon-storm-impacts",
+            "display_link": "https://weather.com \u203a storms \u203a severe \u203a news \u203a west-c...",
+            "title": "Deadly Spring Storm Slams West Coast, Toppling Trees ...",
+            "description": "High winds, rain, snow leads to issues from the Sierra to the Pacific Northwest - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 8, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://thatoregonlife.com/2023/01/bomb-cyclone-to-unleash-in-pacific-ocean-creating-monster-waves/",
+            "display_link": "https://thatoregonlife.com \u203a News",
+            "title": "Bomb Cyclone To Unleash In Pacific Ocean, Creating ...",
+            "description": "The last time we saw a bomb cyclone impact Oregon was November 25-27, 2019. The West Coast is expected to be hit hard with damaging winds and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/oregon/coos-bay",
+            "display_link": "https://www.theweathernetwork.com \u203a coos-bay",
+            "title": "3-Day Severe Weather Outlook: Coos Bay, Oregon",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/5/1520-0493_1931_59_195_gdsiwa_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre \u203a 1...",
+            "title": "GREAT DUST STORM IN WASHINGTON AND OREGON ...",
+            "description": "Abstract SYNOPSIS A considerable part of Washington and Oregon experienced on April 21\u201324, 1931, an extraordinary dust storm borne on strong northeast winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DC CAMERON",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 8",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://katu.com/news/local/winter-storm-blankets-western-oregon-sw-wash-in-snow-cold-dry-pattern-ahead-forecast-portland-metro-road-conditions",
+            "display_link": "https://katu.com \u203a news \u203a local \u203a winter-storm-blanket...",
+            "title": "Winter storm blankets Western Oregon, SW. Wash. in snow ...",
+            "description": "KATU ABC 2 offers coverage of news, weather, sports and community events for Portland, Oregon and surrounding towns, including Beaverton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts of ... to 3 feet in high elevations and mountain peaks of western Oregon; ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}
