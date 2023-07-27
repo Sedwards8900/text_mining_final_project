@@ -1,0 +1,1737 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<!-- Google Tag Manager -->
+				<script>(function(w,d,s,l,i){w.GATrackingId='UA-204537243-89';w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','cpDataLayer','GTM-KN5P4QJ');</script>
+				<!-- End Google Tag Manager --><!-- Google Tag Manager for GA4 -->
+				<script>(function(w,d,s,l,i){w.GAMeasurementID='G-944QS6GP7Q';w[l]=w[l]||[];w[l].push({'gtm.start':
+				new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+				j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+				'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+				})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>
+				<!-- End Google Tag Manager for GA4 -->
+				<script type='text/javascript'>
+					var enableTelemetry = 'false'
+					var aiConfig = {
+					instrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'						
+					}
+					var appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://az416426.vo.msecnd.net/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('startTrackPage'), b('stopTrackPage'), b('flush'), !a.disableExceptionTracking) { f = 'onerror', b('_' + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c['_' + f](a, b, d, e, h), i } } return c }(aiConfig);
+					window.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length;
+					// Add telemetry initializer
+					appInsights.queue.push(function() {
+						appInsights.context.addTelemetryInitializer(function(envelope) {
+							var telemetryItem = envelope.data.baseData;
+							// To check the telemetry item’s type:
+							if (!false)
+							{
+								//If the telemetry is not enabled, we still want to capture Google map custom event, so only allow that
+								if (envelope.name.indexOf('.Event') == -1)
+									return false;
+							}
+						});
+					});						
+					appInsights.trackPageView();
+				</script>
+	<script>
+		function populateAntiForgery(token) {
+			var input = document.createElement("input");
+			input.name = "__RequestVerificationToken";
+			input.type = "hidden";
+			input.value = token;
+			var absPat = /^https?:\/\/|^\/\//i;
+			var forms = document.getElementsByTagName("form");
+			for (var i = 0; i < forms.length; i++) {
+				if (forms[i].method == "post" &&
+					!forms[i].querySelector('[name="__RequestVerificationToken"]') &&
+					!absPat.test(forms[i].getAttribute("action"))) {
+					forms[i].appendChild(input.cloneNode());
+				}
+			}
+		}
+
+		function getAntiForgeryToken(callback, error) {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "/antiforgery");
+			xhr.addEventListener("load", function() {
+				try {
+					if (this.status !== 200) {
+						throw Error("Invalid status. Could not retrieve antiforgery token.");
+		}
+					var obj = JSON.parse(this.responseText);
+					callback(obj.token);
+				} catch (e) {
+					typeof error === "function" && error(e);
+				}
+			});
+			xhr.send();
+		}
+
+		getAntiForgeryToken(function(token) {
+			if (document.readyState === "complete"
+				|| document.readyState === "loaded" 
+				|| document.readyState === "interactive") {
+				populateAntiForgery(token);
+				return;
+			}
+			document.addEventListener("DOMContentLoaded", function() {
+				populateAntiForgery(token);
+			}, false);
+		}, console.error);
+			</script>
+			
+	
+<script type="text/javascript">
+		window.departmentHeader = {};
+		window.pageSectionTracker = {};
+        window.isResponsiveEnabled = true;
+		window.isRemoveSetHeights= false;
+		if (window.isRemoveSetHeights) {
+			document.documentElement.className += ' removeSetHeights';
+		}
+		window.mainMenuMediaQuery = 'screen and (max-width: 40em)';
+		window.isMobileBrowserIncludingTablets = false;
+		window.fixedResponsiveMenu = false;
+		window.fullWidthResponsiveMenu = false;
+		window.responsiveMenuHeight = '';
+		window.responsiveMenuFontSize = '';
+		(function () {
+			window.setSizeCookie = function () {
+				document.cookie = "dpi=" + window.devicePixelRatio + "; path=/";
+				document.cookie = "viewportWidth=" + window.innerWidth + "; path=/";
+				document.cookie = "viewportHeight=" + window.innerHeight + "; path=/";
+				if (screen && screen.width && screen.height) {
+					document.cookie = "screenWidth=" + screen.width + "; path=/";
+					document.cookie = "screenHeight=" + screen.height + "; path=/";
+				}
+				document.cookie = "responsiveGhost=1; path=/";
+			};
+
+			setSizeCookie();
+		}());
+</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="category0" content="Custom_Public Works" />
+<meta name="category1" content="Storm Water" />
+<meta name="category2" content="Storm Water Management Plan (SWMP)" />
+
+	
+	<meta name="theme-color" content="#333333">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+		<title>Storm Water Management Plan | Draper City, UT - Official Website</title>
+	
+		<meta name="description" content="">
+				
+	<!--[if IE 6]><script language="JavaScript" type="text/javascript"> var isie6 = true; </script><![endif]-->
+	<!--[if IE 7]><script language="JavaScript" type="text/javascript"> var isie7 = true; </script><![endif]-->
+	<!--[if IE 8]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<!--[if IE 9]><script language="JavaScript" type="text/javascript"> var isie8 = true; </script><![endif]-->
+	<script type="text/javascript"><!--
+	var intCountryCode = 840;
+	var externalSiteDialogHeight = '390px';
+	var order = '';
+//--></script>
+	
+	<link href="/-738162100.css" rel="stylesheet" type="text/css" />	<link href="/1622791244.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="/Assets/Styles/Print.css" media="print">
+<script type="text/javascript" src="/Scripts/2011.3.1115/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript">
+		window.Pages = window.Pages || {};
+		// FrontEnd RWD initialization
+		window.Pages.rwdReady = $.Deferred();
+		window.Pages.toolBarDeferred = $.Deferred();
+		window.Pages.rwdSetupComplete = $.Deferred();
+		window.Pages.megaMenuLoaded = $.Deferred();
+		window.Pages.angularToolbarComplete = $.Deferred();
+		window.Pages.frontEndToolbarComplete = $.Deferred();
+	</script>
+	<!--CPHeadContent-->
+	<script src="/880068046.js" type="text/javascript"></script>
+	
+	
+	
+	
+
+
+
+
+	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/App_Themes/ie8.css"><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/App_Themes/ie7.css"><![endif]-->
+	<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="/App_Themes/ie6.css"><![endif]-->
+	<!--[if lt IE 9]><script type="text/javascript" src="/Scripts/html5.js"></script><![endif]-->
+
+	<script type="text/javascript">
+		setEditorVariables(false, 840);
+		function getPrintPreviewType() { return 0; } function printPreview() {pPreview(getPrintPreviewType()); }
+	</script>
+	
+</head>
+<body class="wide " >
+
+	<script>jQuery(document).click(function (event) {
+	var target = jQuery(event.target);
+	if (target.attr('src') && target.parents('.image').length && target.parents('.widget').length) {
+		var text = target.attr('title');
+		
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Image',
+				eventAction: 'Image - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.is('button') || target.hasClass('button') || target.parents().hasClass('button')) {
+		var text = "";
+		if (target.parents('.button')[0]) {
+			text = target.parents('.button')[0].text;
+		} else if (target.text().length) {
+			text = target.text();
+		} else if (target.attr('title').length) {
+			text = target.attr('title');
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Button',
+				eventAction: 'Button - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetCustomHtml').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Custom Html',
+				eventAction: 'Custom Html Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.editor').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Editor',
+				eventAction: 'Editor Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.GraphicLinks').length) {
+		var text = "";
+		var targetGraphicLink = target;
+		if (target.hasClass('widgetGraphicLinksLink')) {
+			targetGraphicLink = jQuery(target.children()[0]);
+		}
+		if (targetGraphicLink.hasClass('text')) {
+			text = targetGraphicLink.text();
+		} else if (targetGraphicLink.attr('src').length) {
+			if (targetGraphicLink.attr('alt').length) {
+				text = targetGraphicLink.attr('alt');
+			} else {
+				text = targetGraphicLink.attr('src');
+			}
+		} else {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Graphic Links',
+				eventAction: 'Graphic Link - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.InfoAdvanced').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Info Advanced',
+				eventAction: 'Info Advanced Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.list').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'List',
+				eventAction: 'List Clicked',
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.megaMenuItem').length || target.parents('.topMenuItem').length) {
+		var megaMenuText = jQuery('.topMenuItem.mouseover').find('span').text();
+		var breadCrumbs = [];
+		jQuery('.breadCrumbs > li').each(function () {
+			 breadCrumbs.push(this.textContent);
+		});
+		var pageTitle = breadCrumbs.join('>');
+		var subTitleText = target.parents('.megaMenuItem').children('.widgetTitle').children().text();
+		var text = "";
+		if (pageTitle) {
+			text += pageTitle + " | ";
+		} else {
+			text += document.title + ' - ';
+		}
+		if (target.text() == "" && megaMenuText == "") {
+			text += "N/A";
+		} else if (target.text().length && megaMenuText.length) {
+			if (megaMenuText == target.text()) {
+				text += megaMenuText;
+			} else {
+				text += megaMenuText + " - " + subTitleText + " - " + target.text();
+			}
+		} else if (target.text() == "") {
+			text += megaMenuText;
+		} else {
+			text += target.text();
+		}
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Mega Menu',
+				eventAction: 'Mega Menu : ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetNewsFlash').length && target.parents('.widgetItem').length) {
+		var text = jQuery(target.parents('.widgetItem')[0]).find('.widgetTitle').children().text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'News Flash',
+				eventAction: 'News Flash - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.hasClass('widgetQuickLinksLink') || target.find('.widgetQuickLinksLink').length) {
+		var text = target.text();
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Quick Links',
+				eventAction: 'Quick Links - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.attr('src') && target.parents('.cpSlideshow').length) {
+		var text = target.attr('title');
+		if (!text.length) {
+			text = "N/A";
+		}
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Slideshow',
+				eventAction: 'Slideshow - ' + text,
+				eventLabel: window.location.href
+			});
+	}
+	if (target.parents('.widgetText').length) {
+		ga('send',
+			{
+				hitType: 'event',
+				eventCategory: 'Text',
+				eventAction: 'Text Link Clicked',
+				eventLabel: window.location.href
+			});
+	}
+});</script>
+
+	<div id="fb-root"></div>
+<div id=skipToContentLinks>
+<a href="#cc7b2dc7ec-b3f1-4f5b-8b9a-9ef6e3905c43" target="_self" class="skipToContentLink">Skip to Main Content</a>
+</div>
+	<form id="frmReferenceFormForTelerikEditorDialogs"></form>
+
+		<input type="hidden" id="GoogleMapsKey" value="AIzaSyDWUuE-ifkbhxblF920N8MjpBdTg1Wt784" />
+	
+
+<link href="/745732998.css" rel="stylesheet" type="text/css" />
+
+<div tabindex="0"></div>
+<div id="SplashMessageWrapper" class="cp-Splash-wrapper">
+    <div role="dialog" aria-labelledby="cp-Splash-title" aria-describedby="editorContentDesc" aria-modal="true" tabindex="-1" id="SplashMessage" class="hidden cp-Splash cp-Splash--modal is-open">
+        <div class="cp-Splash-header">
+            <h3 class="cp-Splash-title" id="cp-Splash-title">Loading</h3>
+            <button class="cp-Splash-Btn cp-Splash-close" aria-label="Close this modal" title="Close this window">
+                <svg id="iconClose" viewBox="0 0 25 25">
+                    <polygon style="fill:currentcolor"
+                             points="18.806,6.98 18.075,6.248 12.532,11.792 6.989,6.248 6.257,6.98 11.786,12.508 6.212,18.084 6.943,18.815 12.532,13.224 18.12,18.815 18.851,18.084 13.277,12.508"></polygon>
+                </svg>
+            </button>
+        </div>
+        <div class="cp-Splash-body">
+            <div class="cp-Splash-Prose editorContent fr-view fr-element" id="editorContentDesc">
+                <!-- Content from the Froala Editor will go here. -->
+                Loading
+            </div>
+        </div>
+        <div class="cp-Splash-footer">
+            <button class="cp-Splash-Btn cp-Splash-Btn--NoShow">Do Not Show Again</button>
+            <button class="cp-Splash-Btn cp-Splash-Btn--Close">Close</button>
+        </div>
+    </div>
+</div>
+<div tabindex="0"></div>
+
+<script src="/Assets/Scripts/APIClient.js"></script>
+<script src="/Assets/Scripts/MomentJs/2.29.1/moment.min.js"></script>
+<script src="/Assets/Scripts/SplashModal/SplashModalRender.js"></script>
+<script>
+
+		$(document).ready(function () {
+			var filter = {
+				targetId: '974',
+				targetType: 1
+			}
+
+            new SplashModalRender().triggerRender(filter);
+		});
+</script>
+	
+	
+<input type="hidden" id="cpcDomain" value="https://cp-civicplusuniversity2.civicplus.com">
+	<input type="hidden" id="hdnStructureID" value="5" />
+	<input type="hidden" id="hdnContentCollectionID" value="d52f0f27-604d-46e1-876d-8cb400587976" />
+	<input type="hidden" id="hdnWorkingCopyID" value="00000000-0000-0000-0000-000000000000" />
+	<input type="hidden" id="hdnThemeID" value="7" />
+	<input type="hidden" id="pageIsFrontEnd" value="true" />
+	<input type="hidden" id="pageModuleID" />
+	<input type="hidden" id="pagePageID" value="974" />
+	<input type="hidden" id="hdnModuleEligibleForJquery224Upgrade" value="true" />
+
+		<div id="stickyPlaceholder"></div>
+	<div id="outer-wrap" class="outer-wrap">
+		<div id="inner-wrap" class="inner-wrap">
+				<div id="divToolbars" class="cpToolbars newCP mui-fixed" style="">
+					
+<!--[if lte IE 7]><link rel="stylesheet" type="text/css" href="/App_Themes/CP/ie7.css"><![endif]-->
+<!-- Allow Dashboard, Favorites Enabled -->
+
+				</div>
+			<div id="bodyWrapper">
+				<div id="mainNavHolderMobile" class="mainNavHolderMobile"></div>
+				
+<div data-cpRole="structuralContainer" id="bodyContainerTS">
+<!-- Header Container --><header data-cpRole="structuralContainer" id="headerContainerTS" class="fixedTopTS">
+<div class="siteWrap"><div data-cpRole="banner" id="bannerLogoTS" class="bannerLogoTS empty">
+
+
+
+
+				<a style="			display: block; text-align: center;
+" class="bannerObject" href="http://www.draperutah.gov" target="_self"><img alt="Draper Final Logo 01.19.2021-web" class="bannerObject" height="1303" src="/ImageRepository/Document?documentID=11252" width="1767" /></a>
+
+</div><div data-cpRole="contentContainer" id="searchTS">	<div id="cc41a6dcef-4e83-4462-9bed-9aad3eaf527a" data-containerid="41a6dcef-4e83-4462-9bed-9aad3eaf527a" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="88f69877-6e1b-43f3-acc2-4f1a5ce7e5bd">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id34631efa-2d56-448d-b241-42b8be40d253" style="" data-widgetcontainerid="34631efa-2d56-448d-b241-42b8be40d253">	
+<div data-widget-id="c815c2ca-de4a-4603-8eb6-426e6401716e" data-widget-controller-path="/Layout/WidgetSearch">
+	
+		<script defer type="text/javascript" src="/Common/Controls/jquery-ui/js/jquery.ui.autocomplete.min.js"></script>
+	<script defer src="/Areas/Layout/Assets/Scripts/Search.js" type="text/javascript"></script>
+	<script defer type="text/javascript">
+
+		$(document).ready(function () {
+			try {
+				$(".widgetSearchButton.widgetSearchButtonc815c2ca-de4a-4603-8eb6-426e6401716e").click(function (e) {
+				e.preventDefault();
+					if ($("#ysnSearchOnlyDeptc815c2ca-de4a-4603-8eb6-426e6401716e").is(':checked')) {
+						doWidgetSearch($(this).siblings(".widgetSearchBox").val(), Number(0));
+					} else {
+						doWidgetSearch($(this).siblings(".widgetSearchBox").val(), 0);
+					}
+			});
+			$("#searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e").keypress(function (e) {
+				if (window.clipboardData) {
+					if (e.keyCode == 13) {
+							if ($("#ysnSearchOnlyDeptc815c2ca-de4a-4603-8eb6-426e6401716e").is(':checked')) {
+								doWidgetSearch($(this).val(), Number(0));
+							} else {
+								doWidgetSearch($(this).val(), 0);
+							}
+						return false;
+					}
+				} else {
+					if (e.which == 13) {
+							if ($("#ysnSearchOnlyDeptc815c2ca-de4a-4603-8eb6-426e6401716e").is(':checked')) {
+								doWidgetSearch($(this).val(), Number(0));
+							} else {
+								doWidgetSearch($(this).val(), 0);
+							}
+						return false;
+					}
+				}
+				return true;
+			});
+
+				if (true) {
+					var currentRequest = null;
+
+					var $searchField = $("#searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e").autocomplete({
+						source: function (request, response) {
+							currentRequest = $.ajax({
+								url: '/Search/AutoComplete',
+								dataType: "json",
+								timeout: 10000,
+								beforeSend: function () {
+									if (currentRequest != null) {
+										currentRequest.abort();
+									}
+								},
+								data:
+								{
+									term: request.term,
+								},
+								success: function (data) {
+									response(data);
+									$('.autoCompleteError').remove();
+								},
+								error: function (xmlhttprequest, textstatus, message) {
+									if (textstatus === "timeout") {
+										if ($("#searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e").siblings('.autoCompleteError').length == 0)
+											$('<span class="autoCompleteError"><p class="alert error">Search autocomplete is currently not responding. Please try again later.</p></span>').insertAfter($("#searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e"));
+									}
+								}
+							});
+						},
+						html: true,
+						delay: 500,
+						select: function (event, ui) {
+							$(this).val(ui.item.value);
+							$(this).next().click();
+						}
+					});
+
+					if (false && true) {
+						$searchField.data("ui-autocomplete")._renderItem = function (ul, item) {
+							return $("<li class=\"itemList\"></li>")
+								.data("ui-autocomplete-item", item)
+								.append("<a>" + item.label + "</a>")
+								.appendTo(ul);
+						};
+					}
+					else {
+						$searchField.data("autocomplete")._renderItem = function (ul, item) {
+							return $("<li></li>")
+								.data("item.autocomplete", item)
+								.append("<a>" + item.label + "</a>")
+								.appendTo(ul);
+						};
+					}
+}
+}
+			catch(e) {} //we're going to eat this error. Autocomplete won't work but we dont wan't to break anything else on the page.
+		});
+	</script>
+
+	<section id="widgetPreviewSearch" class="widget widgetSearch skin11 widgetOptionSet32" style="display: block;" aria-label="Search">
+				<!-- For the button right and inside -->
+		<div class="widgetBody buttonRightInside">
+			<input class="widgetSearchBox widgetSearchBoxc815c2ca-de4a-4603-8eb6-426e6401716e" cp5ph="true" id="searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e" name="searchField" onchange="searchBtnApplyQuery();" placeholder="Search" title="Search" type="text" value="" />
+							<a href="/Search/Results" id="btnSearchIcon" class="widgetSearchButton widgetSearchButtonc815c2ca-de4a-4603-8eb6-426e6401716e" role="button"><img alt="Go to Site Search" class="imageHover" data-hover="/ImageRepository/Document?documentID=10412" data-image="/ImageRepository/Document?documentID=10413" src="/ImageRepository/Document?documentID=10413" /></a>
+
+			<label class="searchLabel" for="searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e">Search</label>
+		</div>
+
+	</section>
+
+
+<style scoped>
+    
+        .widgetSearch ::-webkit-input-placeholder {
+        color: #444444;
+      }
+        .widgetSearch :-moz-placeholder { /* Firefox 18- */
+       color: #444444;
+    }
+        .widgetSearch ::-moz-placeholder {  /* Firefox 19+ */
+       color: #444444;
+    }
+    .widgetSearch :-ms-input-placeholder {
+       color: #444444;
+    }
+    
+
+	.widgetSearch .widgetBody .widgetSearchBoxc815c2ca-de4a-4603-8eb6-426e6401716e
+	{
+        color: #444444;
+		height: 60px; background: #fff; border: 1px solid #444444; border-radius: 30px; font-family: Open Sans; font-weight: 600; padding: 0 65px 0 20px; 
+	}
+	.widgetSearch .widgetBody .widgetSearchButtonc815c2ca-de4a-4603-8eb6-426e6401716e
+	{
+		margin: 8px 8px 0 0; 
+	}
+	.widgetSearch .widgetSearch-onlyDeptc815c2ca-de4a-4603-8eb6-426e6401716e
+	{
+		display: inline-block;
+		color: #333;
+		
+		
+		 padding-top: 10px;
+	}
+	#ysnSearchOnlyDeptc815c2ca-de4a-4603-8eb6-426e6401716e
+	{
+		position: relative;
+		top: .125em;
+	}
+
+</style>
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+
+	<script type="text/javascript">
+	//Updates search icons href to have the correct queryString
+	function searchBtnApplyQuery() {
+		document.getElementById("btnSearchIcon").href = "/Search?searchPhrase=" + document.getElementById("searchFieldc815c2ca-de4a-4603-8eb6-426e6401716e").value;
+    }
+	</script>
+
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div><nav data-cpRole="nav" id="mainNav" class="siteNav mainNav" role="navigation">
+<ol id="mainNavMenu" data-parent="1" class="rootNavMenu" role="menu"><!--
+--><li id="MainItem8" class="topMenuItem" aria-haspopup="true" role="menuitem" data-pageid="8" data-displaymegamenu="False"><!--
+			--><!--
+			--><a id="mainNavGOVERNMENT" class="navMainItem mainNavItem mainNavItem1" href="/8/GOVERNMENT" target="_self">GOVERNMENT</a><!--
+			--><!--
+			--></li><!----><li id="MainItem31" class="topMenuItem" aria-haspopup="true" role="menuitem" data-pageid="31" data-displaymegamenu="False"><!--
+			--><!--
+			--><a id="mainNavDEPARTMENTS" class="navMainItem mainNavItem mainNavItem2" href="/31/DEPARTMENTS" target="_self">DEPARTMENTS</a><!--
+			--><!--
+			--></li><!----><li id="MainItem1084" class="topMenuItem" aria-haspopup="true" role="menuitem" data-pageid="1084" data-displaymegamenu="False"><!--
+			--><!--
+			--><a id="mainNavRESIDENTS" class="navMainItem mainNavItem mainNavItem3" href="/1084/RESIDENTS" target="_self">RESIDENTS</a><!--
+			--><!--
+			--></li><!----><li id="MainItem35" class="topMenuItem" aria-haspopup="true" role="menuitem" data-pageid="35" data-displaymegamenu="False"><!--
+			--><!--
+			--><a id="mainNavBUSINESS" class="navMainItem mainNavItem mainNavItem4" href="/35/BUSINESS" target="_self">BUSINESS</a><!--
+			--><!--
+			--></li><!----><li id="MainItem149" class="topMenuItem" aria-haspopup="true" role="menuitem" data-pageid="149" data-displaymegamenu="False"><!--
+			--><!--
+			--><a id="mainNavCONTACT" class="navMainItem mainNavItem mainNavItem5" href="/Directory.aspx" target="_self">CONTACT</a><!--
+			--><!--
+			--></li><!---->
+</ol>
+
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var menuID = 'mainNavMenu';
+			var menuType = MAIN_MENU;
+
+			//setup menu manager properties for main menu
+			if (!menuManager.mobileMainNav && true)
+				menuManager.adjustMainItemsWidth('#' + menuID);
+			menuManager.isMainMenuEditable = false;
+			menuManager.mainMenuMaxSubMenuLevels = 4;
+			menuManager.setMOMMode(2, menuType);
+
+			//Init main menu
+			var setupDraggable = menuManager.isMainMenuEditable;
+			var urlToGetHiddenMenus = '/Pages/MenuMain/HiddenMainSubMenus?pageID=1&moduleID=&themeID=7&menuContainerID=mainNav';
+
+			menuManager.setupMenu(menuID, 'mainNav', menuType, setupDraggable, urlToGetHiddenMenus);
+			menuManager.mainMenuInit = true;
+			menuManager.mainMenuTextResizer = false;
+			if (1.00 > 0)
+				menuManager.mainMenuTextResizerRatio = 1.00;
+			if (window.isResponsiveEnabled)
+				menuManager.mainMenuReady.resolve();
+
+		});
+	</script>
+
+
+<aside data-cpRole="megaMenu" id="megaMenu" class="megaMenu" style="display: none;"><input type="hidden" id="megaMenuPopupDirection" value="0"><input type="hidden" id="megaMenuWidthReference" value="0"></aside></nav></div>
+</header><!-- Banner --><div data-cpRole="structuralContainer" id="bannerContainerTS" class="noOverflowTS">
+<!-- Top Links --><div data-cpRole="structuralContainer" id="tlinksContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="tlinksContentTS">	<div id="cc09d735d3-e712-4ef2-a1af-bb5f84ae744f" data-containerid="09d735d3-e712-4ef2-a1af-bb5f84ae744f" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</div></div>
+</div><div data-cpRole="structuralContainer" id="bannerSizingTS">
+<div data-cpRole="banner" id="banner1"><div data-cpRole="structuralContainer" id="bannerSearchTS">
+<div class="siteWrap2"><div data-cpRole="contentContainer" id="welcomeTS">	<div id="cc95529c75-1bd2-44cc-9ae9-760f97c34b5c" data-containerid="95529c75-1bd2-44cc-9ae9-760f97c34b5c" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</div></div>
+</div>
+
+
+
+
+			<div id="banner1-106" style="display: none"></div>
+				<script type="text/javascript">
+					onOrLive($(window), function () {
+							$.when(window.Pages.rwdSetupComplete)
+								.done(function () {
+									renderBanner('banner1-106',
+										'banner1',
+										{"BannerOptionID":106,"ThemeID":7,"SlotName":"banner1","Name":"Logo Background 2","IsDefault":true,"BannerMode":1,"SlideShowSlideTiming":null,"SlideshowTransition":0,"SlideShowTransitionTiming":null,"ImageScale":true,"ImageAlignment":1,"ImageScroll":true,"MuteSound":true,"VideoType":0,"Status":40,"SlideshowControlsPosition":0,"SlideshowControlsAlignment":0,"SlideshowBannerControlsColorScheme":0,"BannerImages":[{"BannerImageID":333,"BannerOptionID":106,"FileName":"/ImageRepository/Document?documentID=11308","Height":150,"Width":1550,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":1,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":null}],"BannerVideos":[],"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/"},
+										{"BannerImageID":333,"BannerOptionID":106,"FileName":"/ImageRepository/Document?documentID=11308","Height":150,"Width":1550,"StartingOn":null,"StoppingOn":null,"IsLink":false,"LinkAddress":null,"Sequence":1,"RecordStatus":0,"ModifiedBy":0,"ModifiedOn":"\/Date(-62135575200000)\/","AltText":null},
+										'/App_Themes/2020 - Interior/Images/',
+										'<img alt="" class="bannerObject" src="/ImageRepository/Document?documentID=11308" />');
+								});
+						}, "load");
+				</script>
+
+
+</div>
+</div>
+</div><!-- Content container --><div data-cpRole="structuralContainer" id="mainContainerTS">
+<div class="siteWrap2"><div data-cpRole="structuralContainer" id="mainWrapTS" class="mainWrap" role="main">
+<div data-cpRole="structuralContainer" id="outerContentWrapTS" class="outerContentWrap">
+<div data-cpRole="structuralContainer" id="contentWrapTS" class="contentWrap">
+<div data-cpRole="breadCrumbs" id="breadCrumbs" class="breadCrumbContainer">		<ol class="semanticList breadCrumbs">
+			<li><a class="breadCrumb" href="/1559/Custom-Public-Works">Custom_Public Works</a></li><li><a class="breadCrumb" href="/349/Storm-Water">Storm Water</a></li><li id="currentBCPage" data-pageid="974">Storm Water Management Plan (SWMP)</li>
+		</ol>
+
+	   
+    
+</div><div data-cpRole="mainContentContainer" id="moduleContent">
+	
+	<div id="page" class="moduleContentNew">
+		
+
+	<input id="hdnPageID" name="hdnPageID" type="hidden" value="974" />
+	<input id="hdnParentID" name="hdnParentID" type="hidden" value="349" />
+	<input id="hdnVersionID" name="hdnVersionID" type="hidden" value="9846" />
+	<input id="pageMenuTitle" name="pageMenuTitle" type="hidden" value="Storm Water Management Plan (SWMP)" />
+	<input id="pageShowFeatureColumn" name="pageShowFeatureColumn" type="hidden" value="False" />
+	<input id="hdnIsLayoutPage" name="hdnIsLayoutPage" type="hidden" value="False" />
+	<input id="hdnPageStatus" name="hdnPageStatus" type="hidden" value="Published" />
+
+				<h1 id="versionHeadLine" class="headline">
+
+Storm Water Management Plan		</h1>
+	
+		<div id="cc7b2dc7ec-b3f1-4f5b-8b9a-9ef6e3905c43" data-containerid="7b2dc7ec-b3f1-4f5b-8b9a-9ef6e3905c43" class="pageContent cpGrid cpGrid24"  data-contentcontainerbreakpoint="30" >
+			
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="f28781d4-bc1f-4c12-8f80-d96b7757fbd5">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id456a6535-ea65-4b94-aeac-3d383dbea136" style="" data-widgetcontainerid="456a6535-ea65-4b94-aeac-3d383dbea136">	
+<div class="widget editor pageStyles narrow" id="divEditor06975aa0-7c65-4f4c-8941-a414c2c9b620" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}'>
+        <div class="fr-view">
+
+
+        <h3 class="subhead2">Report</h3><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/1908" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">SWMP Report</a></li></ul><h3 class="subhead2">Minimum Control Measure Requirements &amp; Programs</h3><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 1 - MCM 1 Programs</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 2 - MCM 2 Programs</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 3 - MCM 3 Programs</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 4 - MCM 4 Programs</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 5 - MCM 5 Programs</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Table 6 - MCM 6 Programs</li></ul><h3 class="subhead2">Supporting Documents</h3><p>1. Public Education and Outreach</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Attendance at Salt Lake County Storm Water Coalition Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Attendance at Utah Storm Water Advisory Committee Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Articles Published in Newsletter (link to newsletters)</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Flyers Distributed in Utility Billing Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Attendance at Water Quality Fair Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Employee Training Log*</li></ul><p>2. Public Participation/Involvement</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Collection Event Flyers*</li></ul><p>3. Illicit Discharge Detection and Elimination</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Hotline Calls and Online Reporting Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Priority Area Inspections and log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Outfall Inspections and log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Reported Illicit Discharges and Investigations and logs*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a aria-label="Priority Areas and Inspection Points/Outfalls Opens in new window" href="https://www.draperutah.gov/DocumentCenter/View/2207" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_blank" title="TEXT, Priority Areas and Inspection Points Outfalls, Priority_Areas_and_Inspection_Points_Outfalls.pdf, 3.0 MB">Priority Areas and Inspection Points/Outfalls</a></li></ul><p>4. Construction Site Runoff Control</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Monthly Inspection Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Enforcement Log*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">SWPPP Compliance Inspection Forms*</li></ul><p>5. Post-Construction Runoff Control</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Maintenance and Inspections by Owners of Private Structural Controls*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Inspections Completed by City of Private Structural Controls*</li></ul><p>6. Pollution Prevention/Good Housekeeping City-Owned or Operated Facilities Storm Water Maintenance Plan</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">City-Owned or Operated Facilities</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Map of City-Owned or Operated Facilities</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Spill Prevention and Response Plan</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Inventory of Floor Drains on City-Owned Facility Properties Maintained in City GIS Database*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Inventory of Storm Drains on City-Owned Facility Properties Maintained in City GIS Database*</li></ul><h3 class="subhead2">High Priority Facilities Storm Water Maintenance Plan</h3><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Storm Water System Maintenance Plan Schedule</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Inventory of Draper City Storm Drain System Facilities Maintained in City GIS Database*</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Inspection/maintenance reports*</li></ul><p>Standard Operating Procedures</p><p>Development and Enforcement</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2215" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Construction Site Management and Inspection</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2222" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">SWPPP Inspections</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2216" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Construction Storm Water Enforcement</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2214" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Dry Weather Screening Flow Chart</a></li></ul><p>Facility</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2640" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Dumpster/Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Garbage and Scrap Metal Storage</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Parking Lot Maintenance</li></ul><p>IDDE</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2532" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Reporting and Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2220" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Tracing Illicit Discharge</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">I<a href="https://www.draperutah.gov/DocumentCenter/View/2219" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">DDE - Removing Illicit Discharge</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2223" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE -</a><a href="https://www.draperutah.gov/DocumentCenter/View/2223" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Dry Weather Screening Checklist /SOP</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2540" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Dry Weather Screening Flow Chart</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">IDDE - Priority Area Inspection</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3382" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Employee Training</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2554" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Spill Containment and Cleanup</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2540" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">C-01 Illicit Discharge Screening Flow chart-2016</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2539" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">C-02 Reporting and Response Flow Chart-2016</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2538" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">C-03 Incoming Call Report Form (for phone operator)-2016</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2537" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">C-04 IDDE Response Report Form</a></li></ul><p>Municipal</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2217" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Quarterly Inspection SOP</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2218" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Weekly Inspection SOP</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2221" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Visual Monitoring of SW Discharges SOP</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2219" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE- Removing Illicit Discharges</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2220" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE- Tracing Illicit Discharges</a></li></ul><h3 class="subhead2">Divisions</h3><p>FLEET Department</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2671" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2672" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2673" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Fleet Department SOPs- Introductions-</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2674" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Garbage Storage, Scrap metal, Trash, and Automotive Wastes</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2675" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE- Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2676" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2677" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2678" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2679" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><p>Parks</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2697" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2698" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Application Pesticides, Herbicides, Fertilizers</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2698" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2681" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Garbage Storage Scrap Metal Containers, Trash Piles</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2682" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2683" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Mowing and Trimming</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2684" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Open Space Management</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2685" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Park Department SOPs - Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2686" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Pet Waste</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2687" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Planting Vegetation - Seeds</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2688" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Planting Vegetation - Starters</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2689" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Shouldering and Mowing</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2690" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Dry Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2691" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2692" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Soil and Gravel</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2693" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2694" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2695" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2695" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><h3 class="subhead2">Planning</h3><p>Streets</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2724" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2725" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Crack Seal</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2726" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2727" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">New Replacement Concrete Work</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2728" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Overlays and Patching</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2729" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Snow Removal and De-icing</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2730" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Street Sweeping</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2731" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Streets Department SOPs- Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2732" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2733" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Soil and Gravel</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2734" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2735" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2736" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2737" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><p>Solid Waste</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2699" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2700" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2944" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Garbage Storage Scrap Metal Containers and Trash Piles</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2701" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2702" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Solid Waste Department SOPs-Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2936" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Dry Excavated Materials and Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2703" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2704" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2705" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2706" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2707" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><p>Stormwater</p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2708" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2709" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Catch Basin Cleaning</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2710" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2711" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Creek Management</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2712" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Detention Pond Cleaning</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2713" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Ditch Management</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2714" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE-Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2715" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Snow Removal and De-Icing</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2716" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Stormwater Department SOPs-Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2954" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Street Sweeping</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2955" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Dry Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2956" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2957" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2958" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2959" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2960" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><p>Trails and Open Space</p><ul style="box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle;"><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2738" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2754" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Application Pesticides, Herbicides, Fertilizers</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2755" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling, Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2756" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Draper City Incident Report</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2738" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Garbage Storage Scrap metal Containers Trash Piles</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2739" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDDE - Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2740" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Mowing and Trimming</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2741" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Open Space Management</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2742" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Pet Waste</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2743" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Planting Vegetation - Seeds</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2744" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Planting Vegetation - Starters</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2745" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Shouldering and Mowing</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2746" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Trails and Open Space Department SOPs-Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2747" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2748" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Soil and Gravel</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2749" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2750" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2751" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2752" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li></ul><p>Water Department</p><ul style="box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle;"><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3012" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Buildings-Dumpsters-Garbage Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3013" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Chemical Handling, Transporting and Spill Response</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2994" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Garbage Storage - Scrap Metal Containers Trash Pile</a>s</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2995" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">IDD - Opportunistic Illicit Discharge Observation</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2996" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Overlays and Patching</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2997" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Planned Waterline Excavation Repair or Replacement</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2998" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Dry Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2999" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Equipment</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3000" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Soil and Gravel</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3001" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Transporting Wet Excavated Materials Spoils</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3002" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Unplanned Waterline Excavation Repair or Replacement</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3003" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Fueling</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3004" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Vehicle and Equipment Storage</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3005" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Vehicles - Washing</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3006" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Water Department SOPs - Introductions</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3007" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">WL Flushing After Const. System Disinfection with Discharge to Storm Drain</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3008" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">WL Flushing After Const. System Disinfection with Discharge with Haul</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3009" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">WL Flushing After Construction System Disinfection with Discharge to Storm Drain</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3009" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">WL Flushing After Construction System Disinfection with Discharge with</a></li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/3011" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">WL Flushing for Routine Maintenance</a></li></ul><h3 style='box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; border: 0px none; font-family: "Open Sans"; font-style: normal; font-weight: 700; color: rgb(31, 127, 139); font-size: 1.1em; text-decoration: none; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;'>Annual Reports</h3><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a aria-label="MS4 Annual Report 2022 Opens in new window" href="/DocumentCenter/View/12715" rel="noopener" target="_blank">MS4 Annual Report 2022</a></li></ul><h3 style='box-sizing: content-box; margin-top: 0px; margin-bottom: 0px; border: 0px none; font-family: "Open Sans"; font-style: normal; font-weight: 700; color: rgb(31, 127, 139); font-size: 1.1em; text-decoration: none; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;'>Agreements</h3><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Salt Lake County/Draper City Interlocal Agreement Media Sharing 2014</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;"><a href="https://www.draperutah.gov/DocumentCenter/View/2530" style="box-sizing: content-box; color: rgb(31, 127, 139); text-decoration: underline;" target="_self">Memorandum of Understanding between Salt Lake County Health Department and Draper</a></li></ul><p><span style='color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>* Indicates a document/data that is not posted on the website but is available upon request</span></p><ul style='box-sizing: content-box; margin: 0px 0px 1.4em; padding: 0px 0px 0px 2em; list-style-type: circle; color: rgb(34, 34, 35); font-family: "Open Sans"; font-size: 15.2px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Buildings-Dumpsters-Garbage Storage</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Chemical Handling Transporting and Spill Response</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Fleet Department SOPs- Introduction</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Buildings-Dumpsters-Garbage Storage</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Chemical Handling Transporting and Spill Response</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Fleet Department SOPs- Introduction</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Buildings-Dumpsters-Garbage Storage</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Chemical Handling Transporting and Spill Response</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Fleet Department SOPs- Introduction</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Buildings-Dumpsters-Garbage Storage</li><li style="box-sizing: content-box; margin-bottom: 0.35em; border: 0px none;">Chemical Handling Transporting and Spi</li></ul>
+    </div>
+
+<script type="text/javascript">
+	$(document).ready(function (e) {		
+	    renderSlideshowIfApplicable($('#divEditor' + '06975aa0-7c65-4f4c-8941-a414c2c9b620'));
+	});
+</script>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+		</div>
+
+	</div>
+
+	
+	<div class="newCP">
+
+	</div>
+</div>
+</div><aside data-cpRole="contentContainer" id="featureColumn" class="secondaryContent">	<div id="ccb4cfefe6-8291-4d39-86c2-cd05c93c1a12" data-containerid="b4cfefe6-8291-4d39-86c2-cd05c93c1a12" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div><div data-cpRole="structuralContainer" id="siteSidebarTS" class="siteSidebar">
+<aside data-cpRole="contentContainer" id="sidebarContainer1TS">	<div id="cc38b0c7fe-3f0f-4656-b83a-bf33e8e01783" data-containerid="38b0c7fe-3f0f-4656-b83a-bf33e8e01783" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="2d500215-5e74-43a4-b5c0-5ec943ad3e44">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id557ea3cb-ba74-4400-9867-9f2eb1121771" style="" data-widgetcontainerid="557ea3cb-ba74-4400-9867-9f2eb1121771">	
+<div data-widget-id="1711e699-a6c8-4353-a743-3f12298be910" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidget1711e699-a6c8-4353-a743-3f12298be910" class="widget widgetGraphicLinks skin11 widgetOptionSet30 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid5 ">	
+			<div class="row autoWidths left wide"><!--
+--><div class="col col1 first "><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/1749/Public-Works" target="_self" class="fancyButton fancyButton838 " >
+		<span>
+			<span><span class="text">Public Works</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton838.fancyButton:link,.fancyButton838.fancyButton:visited, .fancyButton838div.fancyButton{
+	background-color: #2e4c7b;
+	padding-right: 2em;
+	padding-left: 4em;
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-top-left-radius: 30px;
+	-khtml-border-top-left-radius: 30px;
+	border-top-left-radius: 30px;
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-top-right-radius: 30px;
+	-khtml-border-top-right-radius: 30px;
+	border-top-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-bottom-left-radius: 30px;
+	-khtml-border-bottom-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-bottom-right-radius: 30px;
+	-khtml-border-bottom-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-image: url('/ImageRepository/Document?documentID=11285');
+	background-repeat: no-repeat;
+	background-position: 25px  center;
+	border-top: 1px solid #4e7697;
+	border-left: 1px solid #4e7697;
+	border-right: 1px solid #4e7697;
+	border-bottom: 1px solid #4e7697;
+}
+.fancyButton838.fancyButton:hover,.fancyButton838.fancyButton:focus,.fancyButton838.fancyButton:active,.fancyButton838.fancyButton.hover{
+	background-color: #395b91;
+	background-repeat: no-repeat;
+}
+.fancyButton838.fancyButton:link > span,.fancyButton838.fancyButton:visited > span, .fancyButton838div.fancyButton > span{
+}
+.fancyButton838.fancyButton:hover > span,.fancyButton838.fancyButton:focus > span,.fancyButton838.fancyButton:active > span,.fancyButton838.fancyButton.hover > span{
+}
+.fancyButton838.fancyButton .text{
+	color: #ffffff;
+	font-family: "Open Sans";
+	text-align: left;
+	font-weight: 700;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+height: 55px;line-height: 1.2;}
+.fancyButton838.fancyButton:hover .text,.fancyButton838.fancyButton:focus .text,.fancyButton838.fancyButton:active .text,.fancyButton838.fancyButton.hover .text{
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: left top;
+
+font-size: 18px;}
+</style>
+
+ </div><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+--></div></div><!----><div class="col col1  last"><div class="semanticList"><!--
+--></div></div><!--			--></div>
+	</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</aside><nav data-cpRole="nav" id="secondaryNav" class="siteNav secondaryNav">
+
+
+
+
+	<ol role="menu" id="secondaryMenusecondaryNav" data-parent="349" class="rootNavMenu accordionNav">
+	<li role="menuitem" aria-haspopup="true" class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem1022" data-pageid="1022">
+		<div class="accordionNavItem">
+			<a href="/1022/SWPPP-Permits-and-Criteria" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">SWPPP Permits and Criteria</a>
+		</div>
+			</li>
+	<li role="menuitem" aria-haspopup="true" class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem1021" data-pageid="1021">
+		<div class="accordionNavItem">
+			<a href="/1021/Water-Pollution---Best-Practices" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Water Pollution - Best Practices</a>
+		</div>
+			</li>
+	<li role="menuitem" aria-haspopup="true" class="topMenuItem sideNavLi hasAccordionChildren" id="SideItem974" data-pageid="974">
+		<div class="accordionNavItem">
+			<a href="/974/Storm-Water-Management-Plan-SWMP" target="_self" class="navMainItem secondaryNavItem cpComponent" data-type="SecondaryMainItem">Storm Water Management Plan (SWMP)</a>
+		</div>
+			</li>
+
+	</ol>
+
+
+	<script type="text/javascript">
+        $(document).ready(function () {
+            //setup menu manager properties for secondary menu
+            menuManager.isSideMenuEditable = false;
+		    menuManager.sideMenuMaxSubMenuLevels = 4;
+            menuManager.sideMenuHasCustomLinks = true;
+        });
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('*[id^="SideItem"]').each(function () {
+				var ids = $('[id="' + this.id + '"]');
+				if (ids.length > 1)
+					$.each(ids, function (index, value) {
+						value.id = value.id + '_' + index;
+					});
+			});
+
+			$('.hasAccordionChildren .openAccordionNav').click(function (e) {
+				e.preventDefault();
+				showHideAccordionMenuForSecondaryNav($(this));
+			});
+
+			$("#secondaryNav .grippy").each(function () {
+				menuManager.setupDraggableElement($(this), SIDE_MENU, '#secondaryNav');
+			});
+
+			$("#secondaryNav li").each(function () {
+				menuManager.setupDroppableAccordionElement($(this), SIDE_MENU);
+			});
+		});
+	</script>
+
+
+
+</nav><aside data-cpRole="contentContainer" id="contentContainer2">	<div id="ccbab617bf-3b83-4def-a684-6c280d260042" data-containerid="bab617bf-3b83-4def-a684-6c280d260042" class="pageContent cpGrid cpGrid24 showInMobile">
+				                
+
+
+
+	</div>
+</aside>
+</div>
+</div></div>
+</div><!-- GBs --><div data-cpRole="structuralContainer" id="gbsContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="gbsTS">	<div id="ccbd416f2e-1714-4c62-936e-7a3550093d1f" data-containerid="bd416f2e-1714-4c62-936e-7a3550093d1f" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+
+
+	</div>
+</div></div>
+</div><!-- Footer --><footer data-cpRole="structuralContainer" id="footerContainerTS">
+<div class="siteWrap2"><div data-cpRole="contentContainer" id="footerTS">	<div id="ccd67f70cd-e4a1-4673-a0bf-507018f8c6b6" data-containerid="d67f70cd-e4a1-4673-a0bf-507018f8c6b6" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile" data-contentcontainerbreakpoint="75">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col6 first" style="" data-widgetcontainerid="3831eb20-0204-40cb-99f4-b556d79c2622">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col6 first last idf42c6f4c-0eac-4378-925b-ebafd9109e5b" style="" data-widgetcontainerid="f42c6f4c-0eac-4378-925b-ebafd9109e5b">	
+    <div data-widget-id="dc47302b-8b39-42f5-b24b-c7f4aae1c044" data-widget-controller-path="/InfoAdvanced/Widget">
+
+
+
+
+
+	<section id="divInfoAdvdc47302b-8b39-42f5-b24b-c7f4aae1c044" class="widget widgetInfoAdvanced skin14 widgetOptionSet5 wide" data-modulewidgettype="infoAdv" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-labelledby="headerdc47302b-8b39-42f5-b24b-c7f4aae1c044">
+			<header class="widgetHeader" id="headerdc47302b-8b39-42f5-b24b-c7f4aae1c044">
+		<div class="">
+					<h3 >Draper City Hall</h3>
+								</div>
+	</header>
+	<div class="widgetBody  cpGrid cpGrid1 ">
+		<div class="row  wide">
+					<div class="col col1 first last">
+						<ol class="pageStyles semanticList">
+
+<li class="InfoAdvanced widgetItem fr-view">
+	1020 E. Pioneer Road<br>
+Draper, UT 84020<br>
+<a href="tel:801-576-6500" target="_self" class="Hyperlink">801-576-6500</a><br>
+<a href="mailto:info@draperutah.gov" target="_self" class="Hyperlink">info@draperutah.gov</a>&nbsp;<br>
+</li>						</ol>
+					</div>
+		</div>
+	</div>
+	<div class="widgetFooter">
+
+	</div>
+
+	</section>
+
+
+
+<script type="text/javascript">
+	//Render slideshow if info advacned items contain one.
+	$(document).ready(function (e) {
+		$('#divInfoAdvdc47302b-8b39-42f5-b24b-c7f4aae1c044 .InfoAdvanced.widgetItem').each(function () {
+			renderSlideshowIfApplicable($(this));		
+		});
+	});
+</script></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="a5f7176e-0fd9-4698-b4e5-97ce5bd233e3">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id4864550e-31be-4f91-930f-f2a5ae118626" style="" data-widgetcontainerid="4864550e-31be-4f91-930f-f2a5ae118626">	
+
+<div class="widget widgetSpacer" id="0d136479-39bb-4032-bf75-208c0d826947"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col7" style="" data-widgetcontainerid="2436c211-a1f5-4ffe-8c39-3bfa4c89c953">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col7 first last idc59bb305-170a-4218-af50-df38c2a5ed1e" style="" data-widgetcontainerid="c59bb305-170a-4218-af50-df38c2a5ed1e">	
+<div data-widget-id="e7d4f669-6cbb-461a-b087-ec4eb850713d" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidgete7d4f669-6cbb-461a-b087-ec4eb850713d" class="widget widgetGraphicLinks skin17 widgetOptionSet38 wide" data-elementqueryclasses='{"wide-narrow":"min-width:1em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+			<h3 >Connect With Us:</h3>
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid5 ">	
+			<div class="row   wide"><!--
+--><div class="col col1 first "><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks"><a class="widgetDesc widgetGraphicLinksLink" href="http://www.facebook.com/drapercityutah" target="_blank"  aria-label="Facebook graphic opens in new window"><img src="/ImageRepository/Document?documentID=11220" 
+     class="graphicButtonLink" alt="Facebook" 
+     onmouseover="this.src='/ImageRepository/Document?documentID=11220'" 
+	onmouseout="this.src='/ImageRepository/Document?documentID=11220'"
+     onfocus="this.src='/ImageRepository/Document?documentID=11220'" 
+	onblur="this.src='/ImageRepository/Document?documentID=11220'"> </a></div><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks"><a class="widgetDesc widgetGraphicLinksLink" href="http://www.twitter.com/drapercity" target="_blank"  aria-label="Twitter graphic opens in new window"><img src="/ImageRepository/Document?documentID=11225" 
+     class="graphicButtonLink" alt="Twitter" 
+     onmouseover="this.src='/ImageRepository/Document?documentID=11225'" 
+	onmouseout="this.src='/ImageRepository/Document?documentID=11225'"
+     onfocus="this.src='/ImageRepository/Document?documentID=11225'" 
+	onblur="this.src='/ImageRepository/Document?documentID=11225'"> </a></div><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks"><a class="widgetDesc widgetGraphicLinksLink" href="http://www.instagram.com/drapercity" target="_blank"  aria-label="Instagram graphic opens in new window"><img src="/ImageRepository/Document?documentID=11221" 
+     class="graphicButtonLink" alt="Instagram" 
+     onmouseover="this.src='/ImageRepository/Document?documentID=11221'" 
+	onmouseout="this.src='/ImageRepository/Document?documentID=11221'"
+     onfocus="this.src='/ImageRepository/Document?documentID=11221'" 
+	onblur="this.src='/ImageRepository/Document?documentID=11221'"> </a></div><!--
+--></div></div><!----><div class="col col1  "><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks"><a class="widgetDesc widgetGraphicLinksLink" href="http://www.linkedin.com/company/draper-city" target="_blank"  aria-label="Linked In graphic opens in new window"><img src="/ImageRepository/Document?documentID=11222" 
+     class="graphicButtonLink" alt="Linked In" 
+     onmouseover="this.src='/ImageRepository/Document?documentID=11222'" 
+	onmouseout="this.src='/ImageRepository/Document?documentID=11222'"
+     onfocus="this.src='/ImageRepository/Document?documentID=11222'" 
+	onblur="this.src='/ImageRepository/Document?documentID=11222'"> </a></div><!--
+--></div></div><!----><div class="col col1  last"><div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks"><a class="widgetDesc widgetGraphicLinksLink" href="https://www.youtube.com/channel/UCXDVRMIeGN5BytGRzI2Nb_w" target="_blank"  aria-label="Youtube graphic opens in new window"><img src="/ImageRepository/Document?documentID=11228" 
+     class="graphicButtonLink" alt="Youtube" 
+     onmouseover="this.src='/ImageRepository/Document?documentID=11228'" 
+	onmouseout="this.src='/ImageRepository/Document?documentID=11228'"
+     onfocus="this.src='/ImageRepository/Document?documentID=11228'" 
+	onblur="this.src='/ImageRepository/Document?documentID=11228'"> </a></div><!--
+--></div></div><!--			--></div>
+	</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col1" style="" data-widgetcontainerid="a182c094-46d0-4f99-9384-e92734eb1485">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col1 first last id59230256-4f4e-4326-bafb-df6f4ecc7b44" style="" data-widgetcontainerid="59230256-4f4e-4326-bafb-df6f4ecc7b44">	
+
+<div class="widget widgetSpacer" id="d224707d-9b03-44f8-a852-24310dfbbca5"></div>	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!----><div class="outer col col9 last" style="" data-widgetcontainerid="ab992bfc-ce5d-4486-a3a9-dfc4b540e178">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col9 first last id645e3aac-493f-4fe9-ae9d-4e5c19d3f78e" style="" data-widgetcontainerid="645e3aac-493f-4fe9-ae9d-4e5c19d3f78e">	
+<div data-widget-id="fd34fda1-6280-40e7-8f01-1e9c0d13795e" data-widget-controller-path="/GraphicLinks/Widget">
+
+
+
+
+<div id="graphicLinkWidgetfd34fda1-6280-40e7-8f01-1e9c0d13795e" class="widget widgetGraphicLinks skin14 widgetOptionSet39 wide" data-elementqueryclasses='{"wide-narrow":"min-width:25em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' data-modulewidgettype="graphicLinks">
+	<div class="widgetHeader">
+		<div class="">
+			<h3 >Subscribe to City Emergency Alerts &amp; Notifications</h3>
+				</div>
+	</div>
+	<div class="widgetBody cpGrid cpGrid1 ">	
+			<div class="semanticList"><!--
+	    --><div class="widgetItem GraphicLinks">
+
+<div>
+	<a href="/1480" target="_self" class="fancyButton fancyButton901 " >
+		<span>
+			<span><span class="text">Sign Up Now</span></span>
+		</span>
+	</a>
+</div>
+		<style scoped="scoped">.fancyButton901.fancyButton:link,.fancyButton901.fancyButton:visited, .fancyButton901div.fancyButton{
+	background-color: #ffffff;
+	padding-left: 1.5em;
+	-webkit-border-top-left-radius: 30px;
+	-moz-border-top-left-radius: 30px;
+	-khtml-border-top-left-radius: 30px;
+	border-top-left-radius: 30px;
+	-webkit-border-top-right-radius: 30px;
+	-moz-border-top-right-radius: 30px;
+	-khtml-border-top-right-radius: 30px;
+	border-top-right-radius: 30px;
+	-webkit-border-bottom-left-radius: 30px;
+	-moz-border-bottom-left-radius: 30px;
+	-khtml-border-bottom-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	-webkit-border-bottom-right-radius: 30px;
+	-moz-border-bottom-right-radius: 30px;
+	-khtml-border-bottom-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	background-repeat: no-repeat;
+	background-position: 25px  center;
+	border-top: 1px solid #333333;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+.fancyButton901.fancyButton:hover,.fancyButton901.fancyButton:focus,.fancyButton901.fancyButton:active,.fancyButton901.fancyButton.hover{
+	background-repeat: no-repeat;
+}
+.fancyButton901.fancyButton:link > span,.fancyButton901.fancyButton:visited > span, .fancyButton901div.fancyButton > span{
+}
+.fancyButton901.fancyButton:hover > span,.fancyButton901.fancyButton:focus > span,.fancyButton901.fancyButton:active > span,.fancyButton901.fancyButton.hover > span{
+}
+.fancyButton901.fancyButton .text{
+	color: #333333;
+	font-family: "Open Sans";
+	text-align: left;
+	padding-right: 3em;
+	font-weight: 700;
+	text-decoration: none;
+	padding-right: 3em;
+	background-image: url('/ImageRepository/Document?documentID=10591');
+	background-repeat: no-repeat;
+	background-position: 93%  center;
+height: 55px;
+line-height: 1.2;
+position: relative;
+background-size:20px;
+transition:.2s ease-in-out;
+/*}
+
+.fancyButton901 .text::after {
+content: '\2192';
+position: absolute;
+right: 15px;
+top: 45%;
+line-height: 1;
+transform: translateY(-50%);
+font-size: 1.5em;
+font-family: Arial;
+transition: all .3s ease-in-out;
+text-decoration: none;
+*/
+}
+.fancyButton901.fancyButton:hover .text,.fancyButton901.fancyButton:focus .text,.fancyButton901.fancyButton:active .text,.fancyButton901.fancyButton.hover .text{
+	text-decoration: underline;
+	background-repeat: no-repeat;
+	background-position: 96%  center;
+}
+
+.fancyButton901 .text:hover::after,
+.fancyButton901 .text:active::after,
+.fancyButton901 .text:focus::after {
+right: 10px;
+}
+</style>
+
+ </div><!--
+			--></div>
+	</div>
+	<div class="widgetFooter">
+			</div>
+</div>
+
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</footer><!-- Bottom Links --><div data-cpRole="structuralContainer" id="blinksContainerTS">
+<div class="siteWrap"><div data-cpRole="contentContainer" id="blinksContentTS">	<div id="ccccfb4622-f69c-4c8a-9ec7-7b37fde20d27" data-containerid="ccfb4622-f69c-4c8a-9ec7-7b37fde20d27" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="8b95d27d-e2a9-4c18-9422-ba424a0b51e9">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last id5def08ba-1144-43df-8a85-108991b03fc5" style="" data-widgetcontainerid="5def08ba-1144-43df-8a85-108991b03fc5">	
+	<div data-widget-id="bf85e930-7725-4b93-85af-8f1f704b82fc" data-widget-controller-path="/QuickLinks/Widget">
+
+
+
+
+
+ 
+
+
+	<section id="widgetQuicklinkbf85e930-7725-4b93-85af-8f1f704b82fc" class="widget widgetQuickLinks skin15 widgetOptionSet33 narrow" data-modulewidgettype="quickLinks" data-elementqueryclasses='{"wide-narrow":"min-width:35em"}' data-elementquerymatch='matchMultiColumn' data-elementqueryunmatch='unmatchMultiColumn' aria-label="Quick Links">
+			<header class="widgetHeader" id="quickLinksHeaderbf85e930-7725-4b93-85af-8f1f704b82fc">
+		<div class="">
+						</div>
+	</header>
+	<div class="widgetBody cpGrid cpGrid7 ">
+        <div class="row autoWidths center narrow">
+				<div class="col col1 first ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="http://www.draper.ut.us" target="_self" >Home</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/sitemap" target="_self" >Site Map</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/accessibility" target="_self" >Accessibility</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="/site/copyright" target="_self" >Copyright</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.draperutah.gov/Admin" target="_self" >Admin Login</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  ">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.draperutah.gov/113/Human-Resources" target="_blank"  aria-label="Jobs opens in new window">Jobs</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+				<div class="col col1  last">
+					<ol class="semanticList">
+
+    <li style="position:relative" class="widgetItem QuickLinks">
+        <a class="widgetDesc widgetQuickLinksLink" href="https://www.draper.ut.us/149/CONTACT" target="_blank"  aria-label="Contact Us opens in new window">Contact Us</a>
+        <div class="widgetMeta"></div>
+    </li>
+					</ol>
+				</div>
+		</div>
+        
+	</div>
+	<div class="widgetFooter">
+	</div>
+	<div class="addItemModal hidden">
+		<div class="url hidden">/QuickLinks.aspx</div>
+	</div>
+
+	</section>
+</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</div><!-- Powered By --><div data-cpRole="structuralContainer" id="poweredByContainerTS">
+<div class="siteWrap2"><div data-cpRole="contentContainer" id="poweredByTS">	<div id="ccf87f42d8-b353-49e0-ac1a-9508810d2392" data-containerid="f87f42d8-b353-49e0-ac1a-9508810d2392" class="pageContent cpGrid cpGrid24 isLockedContainer showInMobile">
+				                
+
+		<div class="row outer wide"><!--
+--><div class="outer col col24 first last" style="" data-widgetcontainerid="29772653-eb46-4aaf-9045-7a3c05b38958">				
+	<div class="row nest first last wide">
+	
+	<div class="inner col col24 first last idfdda93c2-4ba6-4ab3-a0bc-ea9ce1eddf1f" style="" data-widgetcontainerid="fdda93c2-4ba6-4ab3-a0bc-ea9ce1eddf1f">	
+ 
+	<div data-widget-id='58fd09e8-7581-428f-865d-35fe5a2f685c' data-moduleName="customHtml" id='widgetCustomHtml58fd09e8-7581-428f-865d-35fe5a2f685c' class="widget widgetCustomHtml skin15 narrow" >
+	<div class="widgetBody pageStyles" id="widgetBody58fd09e8-7581-428f-865d-35fe5a2f685c">
+		<div id="customHtml58fd09e8-7581-428f-865d-35fe5a2f685c"><div><style>
+  /* CP icon */
+  .cpBylineIconTS {
+  }
+  /* CP Text */
+  .cpBylineTextTS,
+  .cpBylineTextTS a:link {
+  }
+
+  .cpBylineTS {
+    text-align: center;
+  }
+  
+  .cpBylineIconTS {
+    fill: currentColor;
+    width: 39px;
+    height: 26px;
+    display: inline;
+    vertical-align: middle;
+  }
+</style>
+
+<div class="widgetItem cpBylineTS">
+  <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" class="cpBylineIconTS">
+    <path class="c" d="M73.4,23.2h-19v16.7h19c2.8,0,5,2.2,5,5c0,2.8-2.2,5-5,5h-19v28.4h5.5l11.3-11.7h2.2c11.9,0,21.6-9.7,21.6-21.6C95,33,85.3,23.2,73.4,23.2"></path>
+    <path class="p" d="M45.8,66.5H26.6C14.7,66.5,5,56.8,5,44.9C5,33,14.7,23.2,26.6,23.2h19.1v16.7H26.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5h19.1V66.5z"></path>
+  </svg>
+  <span class="cpBylineTextTS">Government Websites by <a href="https://connect.civicplus.com/referral">CivicPlus&reg;</a></span>
+</div>
+</div></div>
+	</div>
+	</div>
+	</div> <!-- inner column -->
+
+	</div> <!-- inner row -->
+
+			</div><!-- outer column --><!--		--></div> <!-- outer row -->
+
+
+	</div>
+</div></div>
+</div>
+</div>
+
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+
+
+	
+
+
+
+
+
+
+	<script src="/-1856420368.js" type="text/javascript"></script>
+	<!-- Fixed Nav Adjustment -->
+<script>
+  function getValueTS(elem, attr) {
+    const val = elem.css(attr);
+    if (val === undefined) return undefined;
+    const num = parseInt(val, 10);
+    if (num === NaN) return undefined;
+    return num;
+  }
+
+  function clampTS(number, min, max) {
+    return Math.min(Math.max(number, min), max);
+  }
+
+  function isPageEditingTS() {
+    return (
+      $("#doneEditing").length > 0 || // In live edit
+      typeof DesignCenter !== "undefined" // In theme manager
+    );
+  }
+
+  const bgColorRegexTS = /rgba\((\d+), (\d+), (\d+), (\d*\.?\d*)\)/;
+  function isTransparentTS(elem) {
+    const bg = elem.css('background-color');
+    if (typeof bg !== "string" || !bg.startsWith('rgba(')) return false;
+    const matchState = bg.match(bgColorRegexTS);
+    if (!matchState || matchState.length !== 5) return false;
+    const alpha = parseFloat(matchState[4], 10);
+    if (!(alpha >= 0 && alpha < 1)) return false;
+    return true;
+  }
+
+  function iterateLeftpads(cb) {
+    const containersTS = $("[class^='siteWrap'],[class*=' siteWrap']");
+    for (let i = 0; i < containersTS.length; i++) {
+      const containerTS = containersTS[i];
+      // Skip the body container and anything with data-skip-leftpad
+      if (
+        containerTS.id !== "bodyContainerTS" &&
+        containerTS.getAttribute('data-skip-leftpad') === null
+      ) {
+        cb(containerTS);
+      }
+    }
+  }
+
+  const anchor = $("#divToolbars");
+
+  // Outer banner padding (push banner down)
+  const outerSizingTS = $("#bannerContainerTS");
+  // Inner banner padding (push banner content down) - Transparent header OR on attaching headers
+  const innerSizingTS = $("#bannerSizingTS");
+  const bodyContainerTS = $("#bodyContainerTS");
+
+  const forceUnfixClassTS = "forceUnfixTS";
+
+  const fixedTopTS = $(".fixedTopTS");
+  const fixedBottomTS = $(".fixedBottomTS");
+  const fixedLeftTS = $(".fixedLeftTS");
+
+  var initialTopTS;
+  var topAttachTS;
+  if (fixedTopTS && fixedTopTS.length === 1) {
+    initialTopTS = getValueTS(fixedTopTS, 'top');
+    const attachment = fixedTopTS.attr('data-attach');
+    if (attachment) topAttachTS = $("#" + attachment);
+    if (!topAttachTS || topAttachTS.length !== 1) topAttachTS = undefined;
+  }
+
+  function resizeAdjustmentTS() {
+    const editing = isPageEditingTS();
+
+    // Fixed top script
+    (function () {
+      if (!fixedTopTS || fixedTopTS.length !== 1 || initialTopTS === undefined) return;
+
+      if (editing) {
+        fixedTopTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedTopTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      const topPosition = fixedTopTS.css('position');
+      if (topPosition === 'fixed') {
+        if (topAttachTS) {
+          scrollAdjustmentTS();
+        } else {
+          const anchorHeight = anchor.outerHeight() - 1;
+          fixedTopTS.css('top', anchorHeight + initialTopTS);
+        }
+      } else {
+        fixedTopTS.css('top', initialTopTS);
+      }
+
+      if (topPosition === 'fixed' || topPosition === 'absolute') {
+        // Bump the banner content down
+        if (isTransparentTS(fixedTopTS)) {
+          innerSizingTS.css('padding-top', initialTopTS + fixedTopTS.outerHeight() - 1);
+          outerSizingTS.css('padding-top', '');
+
+          try {
+            window.Pages.onResizeHandlersExecute();
+          } catch (e) { }
+        } else {
+          outerSizingTS.css('padding-top', fixedTopTS.outerHeight() - 1);
+          innerSizingTS.css('padding-top', '');
+        }
+      } else {
+        innerSizingTS.css('padding-top', '');
+        outerSizingTS.css('padding-top', '');
+      }
+    })();
+
+    // Fixed bottom script
+    (function () {
+      if (!fixedBottomTS || fixedBottomTS.length === 0) return;
+
+      // If the widget has gone narrow, force unfix
+      if (editing || fixedBottomTS.outerHeight() > 200) {
+        fixedBottomTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedBottomTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedBottomTS.css('position') === 'fixed') {
+        bodyContainerTS.css('padding-bottom', fixedBottomTS.outerHeight());
+      } else {
+        bodyContainerTS.css('padding-bottom', '');
+      }
+    })();
+
+    // Fixed left script
+    (function () {
+      if (!fixedLeftTS || fixedLeftTS.length === 0) return;
+
+      if (editing) {
+        fixedLeftTS[0].classList.add(forceUnfixClassTS);
+      } else {
+        fixedLeftTS[0].classList.remove(forceUnfixClassTS);
+      }
+
+      if (fixedLeftTS.css('position') === 'fixed') {
+        const anchorHeight = anchor.outerHeight() - 1;
+        fixedLeftTS.css('top', anchorHeight);
+        const leftBoundingTS = fixedLeftTS[0].getBoundingClientRect();
+        iterateLeftpads(function (containerTS) {
+          const containerBoundingTS = containerTS.getBoundingClientRect();
+          if (containerBoundingTS.left <= leftBoundingTS.right) {
+            $(containerTS).css('padding-left', leftBoundingTS.width + 16);
+          }
+        });
+      } else {
+        fixedLeftTS.css('top', '');
+        iterateLeftpads(function (containerTS) {
+          $(containerTS).css('padding-left', '');
+        });
+      }
+    })();
+  }
+
+  function scrollAdjustmentTS() {
+    if (!fixedTopTS || fixedTopTS.length !== 1 || !topAttachTS || topAttachTS.length !== 1) return;
+    const topPosition = fixedTopTS.css('position');
+    if (topPosition === 'fixed' || topPosition === 'absolute') {
+      const anchorBounding = anchor[0].getBoundingClientRect();
+      const attachBounding = topAttachTS[0].getBoundingClientRect();
+      const scrollTop = $(window).scrollTop();
+
+      fixedTopTS.css('top', Math.max(anchorBounding.bottom - 1, attachBounding.bottom));
+    } else {
+      fixedTopTS.css('top', initialTopTS);
+    }
+  }
+
+  $(window).load(function () {
+    setTimeout(function () {
+      resizeAdjustmentTS();
+    }, 350);
+
+    $(window).scroll(function () {
+      scrollAdjustmentTS();
+    });
+
+    var adjustTimeoutTS;
+    $(window).resize(function () {
+      clearTimeout(adjustTimeoutTS);
+      adjustTimeoutTS = setTimeout(function () {
+        resizeAdjustmentTS();
+      }, 350);
+    });
+
+    $.when(window.Pages.angularToolbarComplete).done(function () {
+      resizeAdjustmentTS();
+    });
+  });
+</script>
+<!-- End Fixed Nav Adjustment -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLG1TR3KQJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FLG1TR3KQJ');
+</script>
+
+<!----------Google Translate (Mobile Friendly)--------->
+
+
+
+<style>#google-translate-container {float: right;padding: 3px 5px 0px 0px;}.goog-te-combo,.goog-te-banner *,.goog-te-ftab *,.goog-te-menu *,.goog-te-menu2 *,.goog-te-balloon * {font-family: arial;font-size: 10pt;background-image: url("https://theme.zdassets.com/theme_assets/958586/bae8aa24db8d43595871692a9d259186f2db3fb4.png");background-position: 3px 4px;background-size: 22px;background-repeat: no-repeat;text-indent: 20px;background-color: #fff;color: #000 !important;}.goog-logo-link {display: none !important;}.goog-te-gadget {color: transparent !important;}.goog-te-gadget .goog-te-combo {margin: 2px 0 !important;border-radius: 15px !important;}.goog-te-combo{border: 1px solid !important;border-color: #bcc9d7 #96a3b1 #96a3b1 #bcc9d7 !important;border-radius: 0 !important;height:32px; !important;padding: 0 1px 0 .25rem !important;}
+
+#launcher-wrapper {bottom: 50px !important;}
+
+</style>
+
+<div id="google-translate-container">
+
+<div id="google_translate_element" style="position: fixed; bottom: 0px; right: 20px; z-index: 5;"></div>
+
+</div>
+
+<script>
+
+function googleTranslateElementInit() {
+
+new google.translate.TranslateElement({ pageLanguage: "en" }, "google_translate_element");
+
+// begin accessibility compliance
+
+$('img.goog-te-gadget-icon').attr('alt','Google Translate');
+
+$('div#goog-gt-tt div.logo img').attr('alt','translate');
+
+$('div#goog-gt-tt .original-text').css('text-align','left');
+
+$('.goog-te-gadget-simple .goog-te-menu-value span').css('color','#000000');
+
+$('.goog-te-combo').attr('aria-label','google translate languages');
+
+$('svg.goog-te-spinner').attr('title','Google Translate Spinner');
+
+$('.goog-te-gadget-simple .goog-te-menu-value span').css('color','#000000');
+
+}
+
+$(function() {
+
+$.getScript("//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit");
+
+});
+
+</script>
+
+
+
+<!--------------End Google Translate----------------->
+
+
+	<script type="text/javascript">
+		$(function () {
+			document.cookie = "responsiveGhost=0; path=/";
+		});
+		onOrLive($(window), function () {
+			$('body').addClass('doneLoading').removeClass('hideContent');
+
+			if ($('#404Content').length > 0)
+				$('div#bodyWrapper').css('padding', '0px');
+		}, 'load');
+	</script>
+
+	<noscript>
+		<style>
+			body.hideContent {
+				opacity: 1 !important;
+			}
+		</style>
+	</noscript>
+
+		
+<div style="display: none;">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+
+		<symbol id="iconArrow--left" viewbox="0 0 25 25">
+			<title>Arrow Left</title>
+			<polygon style="fill:currentcolor" points="18.044,25 19.498,23.545 8.409,12.454 19.408,1.455 17.954,0 5.502,12.452"></polygon>
+		</symbol>
+
+		<symbol id="iconArrow--right" viewbox="0 0 25 25">
+			<title>Arrow Right</title>
+			<polygon style="fill:currentcolor" points="6.957,0 5.502,1.455 16.591,12.546 5.592,23.545 7.047,25 19.498,12.548"></polygon>
+		</symbol>
+
+	</svg>
+</div>
+	<script type="text/javascript">loadCSS('//fonts.googleapis.com/css?family=Barlow+Condensed:100,100italic,200,200italic,300,300italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic,italic,regular|Montserrat:700,regular|Open+Sans:600,600italic,700,700italic,italic,regular|Playfair+Display:500,500italic,600,600italic,700,700italic,800,800italic,900,900italic,italic,regular|Raleway:500,600,700,regular|Source+Sans+Pro:600,700,regular|Titillium+Web:200,200italic,300,300italic,600,600italic,700,700italic,900,italic,regular|');</script>
+	
+
+	<div class="hidden activeWidgetSkinComponentsOnPageJson">[]</div>
+		<div style="display: none;">
+			<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+				<symbol id="iconSlideshowArrowLeft" viewBox="0 0 22.68 40">
+					<title>Slideshow Left Arrow</title>
+					<g>
+						<path style="fill:currentcolor;" d="M20,40a2.67,2.67,0,0,1-1.9-.79L.79,21.9a2.68,2.68,0,0,1,0-3.79L18.1.79a2.68,2.68,0,1,1,3.79,3.79L6.47,20,21.89,35.42A2.68,2.68,0,0,1,20,40Z"></path>
+					</g>
+				</symbol>
+				<symbol id="iconSlideshowArrowRight" viewBox="0 0 22.68 40">
+					<title>Slideshow Right Arrow</title>
+					<g>
+						<path style="fill:currentcolor;" d="M2.68,0a2.67,2.67,0,0,1,1.9.79L21.89,18.1a2.68,2.68,0,0,1,0,3.79L4.58,39.21A2.68,2.68,0,0,1,.79,35.42L16.21,20,.79,4.58A2.68,2.68,0,0,1,2.68,0Z"></path>
+					</g>
+				</symbol>
+			</svg>
+		</div>
+	
+	
+
+	</body>
+</html>

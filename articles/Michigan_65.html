@@ -1,0 +1,1311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "//www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNE5GEVT4X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VNE5GEVT4X');
+</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Expires" content="-1" />
+  <meta name="DC.title" content="NOAA/NWS Storm Prediction Center" />
+  <meta name="DC.language" scheme="DCTERMS.RFC1766" content="EN-US" />
+  <meta name="language" content="EN-US" />
+  <link rel="icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="SPC Forecast Products RSS" href="/products/spcrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Tornado/Severe Thunderstorm Watches RSS" href="/products/spcwwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Mesoscale Discussions RSS" href="/products/spcmdrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Convective Outlooks RSS" href="/products/spcacrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Thunderstorm Outlooks RSS" href="/products/spctstmrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Fire Weather Outlooks RSS" href="/products/spcfwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC PDS Watches RSS" href="/products/spcpdswwrss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="SPC Multimedia Briefings RSS" href="/products/spcmbrss.xml" />
+
+  <title>NOAA/NWS Storm Prediction Center</title>
+
+  <!-- Sitewide css -->
+  <link rel="stylesheet" href="/new/css/SPCmain.css" />
+
+  <!--Conflict between prototype.js and jquery, so using jQuery.noConflict() -->
+
+  <!--Use google lib for prototype.js which is used by tabber for product alerts -->
+  <script type="text/javascript" src="/misc/js/prototype.js"></script>
+    <!--Use google lib for jquery -->
+  <script type="text/javascript" src="/misc/js/jquery-3.5.1.min.js"></script>
+  <script type="text/javascript" src="/misc/js/jquery-migrate-1.4.1.js"></script>
+  <script type="text/javascript" src="/misc/js/nwsexit-spc.js"></script>
+    <!--SPCindex.js is used to update page content -->
+  <script type="text/javascript" src="/new/js/SPCindex.js"></script>
+    <!--usno_gmttime.js used to run UTC clock at the top of the page -->
+  <script type="text/javascript" src="/new/js/usno_gmttime.js"></script>
+    <!--lastMod.js used for page update time in the footer -->
+  <script type="text/javascript" src="/misc/lastMod.js"></script>
+    <!--hoverIntent.minified.js used for main menu functionality -->    
+  <script type="text/javascript" src="/new/js/jquery.hoverIntent.min.js"></script>
+    <!--flot.js and flot.time.min.js used for plotting severe reports -->
+  <script language="javascript" type="text/javascript" src="/new/js/jquery.flot.js"></script>
+  <script language="javascript" type="text/javascript" src="/new/js/jquery.flot.time.min.js"></script>
+    <!--jquery.cycle.all.js used to cycle through forecast tools in PanelContent -->
+  <script language="javascript" type="text/javascript" src="/new/js/jquery.cycle.all.js"></script>	
+  <script language="javascript" type="text/javascript" src="/new/js/scroll2top.js"></script>	
+
+    <!--The following funtion is used for the main menu functionality -->
+  <script type="text/javascript">
+    function MM_jumpMenu(targ,selObj,restore) {
+        //v3.0
+      eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+      if (restore) selObj.selectedIndex=0;
+    }
+  </script>
+
+  <script type="text/javascript" src="/new/js/topNavMenu.js"></script>
+
+</head>
+
+<body>
+
+<div id="SPCWrapper">
+   <div id="SPCMain">
+      <div class="SPCMain2">
+         <!-- ##### SPC TOP MENU ##### -->
+         <!-- Main Banner -->
+<div class="full_width" id="PageTop">
+ <div class="UTCclock">Current time (in <a href="/faq/index.html#3.1">UTC/GMT/Zulu</a>):&nbsp; </div>
+ <div class="UTCclock" id="USNOtime">JavaScript Must Be Enabled.</div>
+
+ <div id="TopNav">
+  <ul>
+   <li style="margin-top: -4px;">
+    <form method="post" action="//forecast.weather.gov/zipcity.php" target="_blank">
+     <input type="text" id="query-field" name="inputstring" size="12" title="Enter ZIP/City, State for local forecast" value="Local Forecast by ZIP/City, State" onfocus="this.value='';" onblur="this.value='Local Forecast by ZIP/City, State';" />
+    </form>
+   </li>
+   <li><a href="/misc/feedback.html">Feedback</a></li>
+   <li><a href="/exper/mobile/">Mobile</a></li>
+   <li><a href="/misc/aboutus.html">About&nbsp;Us</a></li>
+   <li><a href="//www.weather.gov/organization/" target="_blank">Organization</a></li>
+   <li><a href="/sitemap.html">Site&nbsp;Map</a></li>
+  </ul>
+ </div>
+</div>
+<div class="full_width" id="banner">
+ <img src="/new/images/SPC.png" width="960" height="75" usemap="#bannermap" alt="SPC Logo">
+ <map name="bannermap">
+  <area shape="rect" coords="0,0,72,74" href="//www.noaa.gov/" target="_blank" alt="NOAA - National Oceanic and Atmospheric Administration">
+  <area shape="rect" coords="75,0,150,74" href="//www.weather.gov/" target="_blank" alt="NWS - National Weather Service">
+  <area shape="rect" coords="180,0,770,74" href="/" alt="SPC - Storm Prediction Center">
+  <area shape="rect" coords="917,0,960,37" href="//www.doc.gov/" target="_blank" alt="DOC - Department of Commerce">
+ </map>
+</div>
+
+<div class="full_width" id="midBlock"> 
+<div class="topnav">
+ <ul id="topnav">
+  <li>
+   <div class="topMenuNavList home"><a href="/">HOME</a></div>
+   <div style="opacity: 0;" class="sub">
+    <ul>
+     <li><a href="/" title="Home Page" target="_blank">Home Page</a></li>
+     <li><a href="/classic.html" title="Classic Home Page" target="_blank">Classic Home Page</a></li>
+    </ul>
+   </div>
+  </li>
+  <li>
+   <div class="topMenuNavList home"><a href="/new/SPCNews/news.html">NEWS</a></div>
+   <div style="opacity: 0;" class="sub">
+    <ul>
+     <li><a href="//www.weather.gov/news" title="NWS News" target="_blank">NWS News</a></li>
+     <li><a href="//www.weather.gov/ncep/Newsletter_Q2/" target="_blank" title="NCEP Quarterly Newsletter">NCEP News</a></li>
+     <li><a href="/new/SPCNews/news.html" title="SPC News" target="_blank">SPC News</a></li>
+    </ul>
+   </div>
+  </li>
+  <li>
+   <div class="topMenuNavList products"><a href="/products/">SPC PRODUCTS</a></div>
+    <div style="opacity: 0;" class="sub">
+     <ul>
+      <li><a href="/products/" title="All Forecasts">All Forecasts</a></li>
+      <li><a href="/products/watch/" title="Current Watches">Severe Thunderstorm/Tornado Watches</a></li>
+      <li><a href="/products/md/" title="Mesoscale Discussions">Mesoscale Discussions</a></li>
+      <li><a href="/products/outlook/" title="Convective Outlooks">Convective Outlooks</a></li>
+      <li><a href="/products/exper/enhtstm/" title="Thunderstorm Outlook">Thunderstorm Outlook</a></li>
+      <li><a href="/products/fire_wx/overview.html" title="Fire Weather Outlook">Fire Weather Outlooks</a></li>
+      <li><a href="/products/archive/" title="Product Overview">Product Overview</a></li>
+      <li><a href="/products/exper/" title="Exeprimental Products">Experimental Products</a></li>
+      <li><a href="/gis/" title="Products in GIS File Formats">Products in GIS File Formats</a></li>
+      <li><a href="/aboutrss.html" title="RSS Feeds">RSS Feeds</a></li>
+      <li><a href="//www.weather.gov/subscribe/" target="_blank" title="Email Alerts">Email Alerts</a></li>
+     </ul>
+    </div>
+   </li>
+   <li>
+    <div class="topMenuNavList weather"><a href="/climo/online/">WEATHER INFO</a></div>
+     <div style="opacity: 0;" class="sub">
+      <ul>
+       <li><a href="/climo/online/" title="Storm Reports">Storm Reports</a></li>
+       <li><a href="/exper/reports/" title="Storm Reports Prototype">Storm Reports Prototype</a></li>
+       <li><a href="/new/ReportPlot/reportPlot.php" title="Storm Report Trends">Storm Report Trends</a></li>
+       <li><a href="/new/SVRclimo/climo.php?parm=anySvr" title="Severe Weather Climatology">Severe Weather Climatology</a></li>
+       <li><a href="/archive/" title="SPC Product Archive">Product Archive</a></li>
+       <li><a href="//www.weather.gov/" target="_blank" title="Watch/Warning Map">Watch/Warning Map</a></li>
+       <li><a href="//www.weather.gov/Radar/" target="_blank" title="National RADAR">National RADAR</a></li>
+       <li><a href="http://www.nws.noaa.gov/nwr/" target="_blank" title="NOAA Weather Radio All Hazards">NOAA Weather Radio</a></li>
+      </ul>
+     </div>
+    </li>
+    <li>
+     <div class="topMenuNavList tools"><a href="/exper/">FORECAST TOOLS</a></div>
+      <div style="opacity: 0;" class="sub">
+       <ul>
+        <li><a href="/exper/mesoanalysis/" title="Mesoanalysis">Mesoanalysis</a></li>
+        <li><a href="/exper/soundings/" title="Observed Sounding Analysis">Observed Sounding Analysis</a></li>
+        <li><a href="/exper/soundingclimo/" title="Sounding Climatology">Sounding Climatology</a></li>
+	<li><a href="/climo/dataviewer/" title="Lightning Climatology">Lightning Climatology</a></li>
+	<li><a href="/obswx/maps/" title="Upper-Air Maps">Upper-Air Maps</a></li>
+        <li><a href="/exper/href/" title="HREF">HREF</a></li>
+        <li><a href="/exper/hrrr/" title="HRRR">HRRR Browser</a></li>
+        <li><a href="/exper/sref/index.php" title="SREF">SREF</a></li>
+        <li><a href="/exper/sref/fplumes/" title="SREF Plumes">SREF Plumes</a></li>
+	<li><a href="/exper/firecomp/" title="Fire Weather Composite Maps">Fire Weather Composite Maps</a></li>
+        <li><a href="/exper/compmap/" title="Compmap">Compmap</a></li>
+       </ul>
+      </div>
+     </li>
+     <li>
+      <div class="topMenuNavList research"><a href="/publications/">RESEARCH</a></div>
+       <div style="opacity: 0;" class="sub">
+        <ul>
+         <li><a href="/publications/" title="Publications">Publications</a></li>
+         <li><a href="/exper/archive/events/" title="Severe Thunderstorm Event Archive">Severe Thunderstorm Event Archive</a></li>
+	 <li><a href="/exper/envbrowser/" title="Tornado Environment Browser">Tornado Environment Browser</a></li>
+	 <li><a href="/exper/outbreaks/" title="Violent Tornado Outbreaks">Violent Tornado Outbreaks</a></li>
+         <li><a href="//hwt.nssl.noaa.gov/" target="_blank" title="SPC-NSSL Hazardous Weather Testbed">SPC-NSSL Hazardous Weather Testbed</a></li>
+        </ul>
+       </div>
+      </li>
+      <li>
+       <div class="topMenuNavList outreach"><a href="/faq/">OUTREACH</a></div>
+        <div style="opacity: 0;" class="sub">
+         <ul>
+          <li><a href="/misc/aboutus.html" title="About the SPC">About</a></li>
+          <li><a href="/faq/" title="SPC FAQ">FAQ</a></li>
+          <li><a href="/wcm/" title="WCM Page">WCM Page</a></li>
+          <li><a href="/faq/tornado/" title="About Tornadoes">About Tornadoes</a></li>
+          <li><a href="/misc/AbtDerechos/derechofacts.htm" title="About Derechos">About Derechos</a></li>
+          <li><a href="//www.weather.gov/safety/" target="_blank" title="Severe Weather Safety">Severe Weather Safety</a></li>
+          <li><a href="/efscale/" title="EF Scale">Enhanced Fujita Scale</a></li>
+          <li><a href="/exper/spcousom/" title="Video Lecture Series">Video Lecture Series</a></li>
+          <li><a href="/history/early.html" title="History of the SPC">History</a></li>
+          <li><a href="http://www.noaa.gov/NOAA-Communications/" target="_blank" title="NOAA Communications">NOAA Communications</a></li>
+          <li><a href="/staff/" title="Staff Listing">Staff Listing</a></li>
+          <li><a href="//nwc.ou.edu/tours/" target="_blank" title="Tours">Public Tours</a></li>
+         </ul>
+        </div>
+       </li>
+       <li>
+       <div class="topMenuNavList ncep"><a href="//www.weather.gov" target="_blank">NWS/NCEP</a></div>
+        <div style="opacity: 0;" class="sub">
+         <ul>
+          <li><a href="//www.weather.gov/" target="_blank" title="NWS">National Weather Service (NWS)</a></li>
+          <li><a href="//www.ncep.noaa.gov/" target="_blank" title="NCEP">National Centers for Environmental Prediction (NCEP)</a></li>
+          <li><a href="//www.aviationweather.gov/" target="_blank" title="AWC">Aviation Weather Center (AWC)</a></li>
+          <li><a href="//www.cpc.ncep.noaa.gov/" target="_blank" title="CPC">Climate Prediction Center (CPC)</a></li>
+          <li><a href="//www.emc.ncep.noaa.gov/" target="_blank" title="EMC">Environmental Modeling Center (EMC)</a></li>
+          <li><a href="//www.nco.ncep.noaa.gov/" target="_blank" title="NCO">NCEP Central Operations (NCO)</a></li>
+          <li><a href="//www.nhc.noaa.gov/" target="_blank" title="NHC">National Hurricane Center (NHC)</a></li>
+          <li><a href="//ocean.weather.gov//" target="_blank" title="OPC">Ocean Prediction Center (OPC)</a></li>
+          <li><a href="//www.swpc.noaa.gov/" target="_blank" title="SWPC">Space Weather Prediction Center (SWPC)</a></li>
+          <li><a href="http://www.wpc.ncep.noaa.gov/" target="_blank" title="WPC">Weather Prediction Center (WPC)</a></li>
+         </ul>
+        </div>
+       </li>
+       </ul>
+      </div>
+
+    <div id="searchBox">
+     <a class="SPC_news_rss_small" href="/aboutrss.html" title="SPC News RSS"></a>
+     <a class="SPC_twitter" href="https://twitter.com/NWSSPC"  target="_blank" title="SPC Twitter"></a>
+     <a class="SPC_facebook" href="https://facebook.com/NWSSPC"  target="_blank" title="SPC Facebook"></a>
+
+     <label style="display: none;" for="query-field">Search Criteria</label>
+
+     <form accept-charset="UTF-8" action="https://search.usa.gov/search" method="get" id="search_form" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" />
+      <fieldset id="searchFieldSet">
+       <input id="affiliate" name="affiliate" type="hidden" value="spc" />
+       <input autocomplete="on" class="usagov-search-autocomplete" id="query-field" name="query" type="text" value="Search SPC..." onfocus="this.value='';" onblur="this.value='Search SPC...';"/>
+       <input type="image" alt="Click to Search SPC" title="Click to Search SPC" id="searchsubmit" src="/new/images/search_submitA.png"/>
+      </fieldset>
+     </form>
+
+     <script type="text/javascript">
+       //<![CDATA[
+         var usasearch_config = { siteHandle:"spc" };
+
+         var script = document.createElement("script");
+         script.type = "text/javascript";
+         script.src = "https://search.usa.gov/javascripts/remote.loader.js";
+         document.getElementsByTagName("head")[0].appendChild(script);
+
+       //]]>
+     </script>
+
+    </div>
+   </div>
+
+         <!-- ##### WEATHER HEADLINES ##### -->
+             <html>
+  <head>
+  </head>
+  <body>
+    <div id='headlineContainer'>
+      <div class='full_width'>
+        <div class='SPCWeatherHeadlinesBoxSlgt'>
+          <div class='SPCWeatherHeadlinesSlgt'>
+            A Slight Risk of Severe Thunderstorms is Forecast Today and/or Tonight
+          </div>
+          <div class='SPCWeatherHeadlinesBody'>
+            <br />
+            A few severe storms remain possible from southern Lower Michigan across northern Ohio and into far western New York and western Pennsylvania. A few storms may also produce strong gusts or hail over parts of the Dakotas and from Colorado into northwest Kansas.<br />
+            <img src='/new/images/feature_stories_bullet2.png'>&nbsp;For additional details, see the latest <a href='/products/outlook/day1otlk.html'>Day 1 Convective Outlook</a>.<br />
+            <br />
+            <img src='/new/images/feature_stories_bullet2.png'>&nbsp;<font color='#ff0000'>Critical</font> fire weather conditions are forecast today.  See <a href='/products/fire_wx/fwdy1.html'>details</a>...
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type='text/javascript' src='/new/js/jquery-expander.js'></script>
+    <script type='text/javascript' src='/new/js/custom.js'></script>
+  </body>
+</html>
+         
+            <div class="LeftCol" > <!-- Left-side 585px wide column -->
+
+            <!-- ##### SPC QUICK VIEW ( IMAGE DISPLAY ) ##### -->
+           <div id="quickViewContainer">
+	                    <div class="SPCQuickView">    
+                  <ul>
+                     <li class="SPCQuickViewTabFirst">
+		        <a href="/products/" OnMouseOver="show_tab('TABoverview')" class="overview" alt="Overview"><span id="TABoverviewT" class="Tyellow">Overview</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/products/outlook/" OnMouseOver="show_tab('TABday1')" class="overview" alt="Day 1 Convective Outlook"><span id="TABday1T" class="Tyellow">Conv. Outlook</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/products/watch/" OnMouseOver="show_tab('TABwatch')" class="overview" alt="Current Watches"><span id="TABwatchT" class="Tyellow">Watches</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/products/md/" OnMouseOver="show_tab('TABmcd')" class="overview" alt="Current MDs"><span id="TABmcdT" class="Tyellow">MDs</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/climo/online/" OnMouseOver="show_tab('TABreport')" class="overview" alt="Today's Storm Reports" ><span id="TABreportT" class="Tyellow">Storm Reports</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/exper/mesoanalysis/" OnMouseOver="show_tab('TABmeso')" class="overview" alt="Mesoanalysis Page"><span id="TABmesoT" class="Tyellow">Mesoanalysis</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="/products/fire_wx/overview.html" OnMouseOver="show_tab('TABfirewx')" class="overview" alt="Day 1 Fire Weather"><span id="TABfirewxT" class="Tyellow">Fire</span></a>
+		     </li>
+                     <li class="SPCQuickViewTab">
+			<a href="//weather.gov/largemap.php" target=_blank" OnMouseOver="show_tab('TABwwa1')" class="overview" alt="NWS Hazards Map"><span id="TABwwa1T" class="Tyellow">Hazards</span></a>
+		     </li>
+                  </ul>
+                  <br><br>
+               </div>
+
+            <div id="TABoverview" style="display:block;"> <a href="/products/"><img src="/products/activity_loop.gif" id="activity" alt="SPC Products Overview" width="582" height="408"></a> </div>
+            <div id="TABday1" style="display:none;"> <a href="/products/outlook/"><img src="/products/outlook/day1otlk-overview.gif" id="dy1otlk" alt="Day 1 Convective Outlook" width="582" height="408"></a> </div>
+            <div id="TABwatch" style="display:none;"> <a href="/products/watch/"><img src="/products/watch/validww.png" id="curww" alt="Current Watches" width="582" height="408"></a> </div>
+            <div id="TABmcd" style="display:none;"> <a href="/products/md/"><img src="/products/md/validmd.png" id="curmcd" alt="Current MCDs" width="582" height="408"></a> </div>
+            <div id="TABreport" style="display:none;"> <a href="/climo/online/"><img src="/climo/reports/today.gif" id="reports" alt="Today's Reports" width="582" height="408"></a> </div>
+            <div id="TABmeso" style="display:none;"> <a href="/exper/mesoanalysis/"><img src="/exper/mesoanalysis/sectorloop2.gif" id="meso" alt="SPC Mesoanalysis Page" width="582" height="408"></a> </div>
+            <div id="TABfirewx" style="display:none;"> <a href="/products/fire_wx/overview.html"><img src="/products/fire_wx/day1fireotlk-overview.gif" id="fire" alt="Day 1 Fire Weather Outlook" width="582" height="408"></a> </div>
+            <div id="TABwwa1" style="display:none;"> <a href="//weather.gov/largemap.php" target=_blank"><img src="//forecast.weather.gov/wwamap/png/US.png" id="wwa" alt="Current Hazardous Weather Watches, Warnings, and Advisories" width="582" height="408"></a> </div>
+
+
+	   </div>
+            <!-- ##### SPC OUTLOOK MATRIX ##### -->
+	   <div id="matrixContainer">
+            <!-- TABLE WIDTH MODIFIED TO 582px from 586px -->
+
+<table width='582' cellspacing='0' cellpadding='0' align='center'>
+<tbody>
+<tr>
+<td style='border: 1px solid black;'>
+<table cellspacing='1' cellpadding='2' border='0' width='100%'>
+<tr style='background-color: #0062ae; text-align: center;'>
+<td align='center' bgcolor='#000000'><span class='matrix'><font color='#ffffff'>Hazard</font></span></td>
+
+<!--#config errmsg=""-->
+<td align='center'><span class='matrix'><font color='#ffffff'>Wed&nbsp;(07/26)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Thu&nbsp;(07/27)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Fri&nbsp;(07/28)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Sat&nbsp;(07/29)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Sun&nbsp;(07/30)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Mon&nbsp;(07/31)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Tue&nbsp;(08/01)</font></span></td>
+<td align='center'><span class='matrix'><font color='#ffffff'>Wed&nbsp;(08/02)</font></span></td>
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0062ae'><span class='matrix'><a href="/products/outlook/" class='awhite' title="SPC Convective Outlooks">Severe</a></span></td>
+
+<td align='center' class='ac-slight'><a class='black' href='/products/outlook/day1otlk.html' title='Day 1 Convective Outlook Valid: 27/0100Z - 27/1200Z'>Slight</a></td>
+<td align='center' class='ac-slight'><a class='black' href='/products/outlook/day2otlk.html' title='Day 2 Convective Outlook Valid: 27/1200Z - 28/1200Z'>Slight</a></td>
+<td align='center' class='ac-slight'><a class='black' href='/products/outlook/day3otlk.html' title='Day 3 Convective Outlook Valid: 28/1200Z - 29/1200Z'>Slight</a></td>
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Severe Weather Outlook Valid: 29/1200Z - 30/1200Z'>No Area</a></td>
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Severe Weather Outlook Valid: 30/1200Z - 31/1200Z'>No Area</a></td>
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Severe Weather Outlook Valid: 31/1200Z - 01/1200Z'>No Area</a></td>
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Severe Weather Outlook Valid: 01/1200Z - 02/1200Z'>No Area</a></td>
+<td align='center' class='ac48-noarea'><a class='black' href='/products/exper/day4-8/' title='Day 4-8 Severe Weather Outlook Valid: 02/1200Z - 03/1200Z'>No Area</a></td>
+
+</tr>
+
+<tr align='center' bgcolor='#eeeeee'>
+<td align='center' bgcolor='#0062ae'><span class='matrix'><a href="/products/fire_wx/overview.html" class='awhite' title="SPC Fire Weather Outlooks">Fire</a></span></td>
+
+<td align='center' class='fw12-critical'><a class='black' href='/products/fire_wx/fwdy1.html' title='Day 1 Fire Weather Outlook Valid: 261700Z - 271200Z'>Critical</a></td>
+<td align='center' class='fw12-seetext'><a class='black' href='/products/fire_wx/fwdy2.html' title='Day 2 Fire Weather Outlook Valid: 271200Z - 281200Z'>Elevated</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 281200Z - 291200Z'>No Area</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 291200Z - 301200Z'>No Area</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 301200Z - 311200Z'>No Area</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 311200Z - 011200Z'>No Area</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 011200Z - 021200Z'>No Area</a></td>
+<td align='center' class='fw38-noarea'><a class='black' href='/products/exper/fire_wx/' title='Day 3-8 Fire Weather Outlook Valid: 021200Z - 031200Z'>No Area</a></td>
+
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+	   </div>
+            <br />
+
+
+         <div> <!-- LeftCol -->
+      </div> <!-- SPCMain2 -->
+   </div> <!-- SPCMain -->
+
+   <!-- ##### SPC PRODUCT ALERTS ##### -->
+   <div class="RightCol">
+      <div class="content_container_prods">
+
+<!-- Tabbed content below -->      
+<script type="text/javascript">
+
+document.write('<style type="text/css">.tabber{display:none;}<\/style>');
+
+var tabberOptions = { 
+
+  'onClick': function(argsObj) {
+
+    var t = argsObj.tabber; /* Tabber object */
+    var i = argsObj.index; /* Which tab was clicked (0..n) */
+    var div = this.tabs[i].div; /* The tab content div */
+
+    /* Display a loading message */
+    div.innerHTML = "<p>Loading...<\/p>";
+
+    /* Fetch some html depending on which tab was clicked */
+    var url = '/new/SPCProducts/validProducts.php?content=' +i;
+    var pars = 'foo=bar&foo2=bar2'; /* just for example */
+    var myAjax = new Ajax.Updater(div, url, {method:'get',parameters:pars});
+  },
+
+  'onLoad': function(argsObj) {
+    /* Load the first tab */
+    argsObj.index = 0;
+    this.onClick(argsObj);
+  }
+
+}
+</script>
+
+
+
+<script type="text/javascript" src="/new/js/tabber.js"></script>
+
+<!-- This stylesheet and DIV below are needed for the AJAX call -->
+<div id="prodCSS">
+<style>
+
+ul.tabbernav li a#prodsnav2 {
+   padding: 3px 0.5em;
+   margin-left: 3px;
+   border: 1px solid #778;
+   border-bottom: none;
+   color: #387200;
+   background: #d2ffa6;
+   text-decoration: none;
+}
+
+ul.tabbernav li a#prodsnav2:hover {
+   background: #84fe0c;
+}
+
+@-moz-keyframes ul.tabbernav li a#prodsnav2 {
+   from {background: red; }
+   to {background: yellow; }
+}
+
+ul.tabbernav li a#prodsnav3 {
+   padding: 3px 0.5em;
+   margin-left: 3px;
+   border: 1px solid #778;
+   border-bottom: none;
+   color: #387200;
+   background: #d2ffa6;
+   text-decoration: none;
+}
+
+ul.tabbernav li a#prodsnav3:hover {
+   background: #84fe0c;
+}
+</style>
+</div>
+
+<div class="tabber" id="prods">
+
+     <div class="tabbertab">
+          <h2>All Products</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>Watches</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>MDs</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>Outlooks</h2>
+     </div>
+
+     <div class="tabbertab">
+          <h2>Fire</h2>
+     </div>
+
+</div>
+
+<!-- end tabs -->
+	
+      </div> <!-- close Right Column -->
+   </div> <!-- close container -->
+
+<!-- ##### 8 or 6-panel content ##### -->
+<div class="feature_container">
+<div id="contentCheck">
+   
+<div id="HighlightContainer">
+    <table>
+     <tr>
+      <td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+          <tr><td id="HighlightTitle">Severe Weather Climatology (1982-2011)</td></tr>
+          <tr><td align="center">
+          
+<script src="/new/js/slides.min.jquery.js"></script>
+<script>
+	var $j = jQuery.noConflict();
+	$j(function(){
+		$j('#slides').slides({
+			fadeSpeed: 1000,
+			crossfade: true,
+			effect: 'fade',
+			preload: true,
+			preloadImage: '/new/SVRclimo/loading.gif',
+			play: 7000,
+			pause: 2500,
+			hoverPause: true,
+			animationStart: function(current){
+				$j('.caption').animate({
+					bottom:-35
+				},100);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationStart on slide: ', current);
+				};
+			},
+			animationComplete: function(current){
+				$j('.caption').animate({
+					bottom:0
+				},200);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationComplete on slide: ', current);
+				};
+			},
+			slidesLoaded: function() {
+				$j('.caption').animate({
+					bottom:0
+				},200);
+			}
+		});
+	});
+</script>
+
+<div id="spc1">
+   <div id="example">
+      <div id="slides">
+	 <div class="slides_container">
+	    <div class="slide">
+	       <a href="/misc/climographics/any_severe/209.png" title="Any Severe for 27
+ Jul
+" target="_blank" alt="Slide 1"><img src="/misc/climographics/any_severe/sm_209.png"></a>
+	       <div class="caption" style="bottom:0"><p>Any Severe Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+	    <div class="slide">
+	       <a href="/misc/climographics/all_torn/209.png" target="_blank"><img src="/misc/climographics/all_torn/sm_209.png"></a>
+	       <div class="caption" style="bottom:0"><p>Tornado Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+	    <div class="slide">
+               <a href="/misc/climographics/all_wind/209.png" target="_blank"><img src="/misc/climographics/all_wind/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>Damaging Wind Probabilities: 27
+ Jul
+</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/all_hail/209.png" target="_blank"><img src="/misc/climographics/all_hail/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>Severe Hail Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+	    <div class="slide">
+               <a href="/misc/climographics/sig_torn/209.png" target="_blank"><img src="/misc/climographics/sig_torn/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>Significant Tornado Probabilities: 27
+ Jul
+</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/sig_wind/209.png" target="_blank"><img src="/misc/climographics/sig_wind/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>Significant Wind Probabilities: 27
+ Jul
+</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/climographics/sig_hail/209.png" target="_blank"><img src="/misc/climographics/sig_hail/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>Significant Hail Probabilities: 27
+ Jul
+</p></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+	  </td></tr>
+	  <tr><td align="left"><br>More severe weather climatology data <a href="/new/SVRclimo/climo.php?parm=anySvr">here</a>.</td></tr>
+        </table>
+      </td>
+
+<td valign='top' width='33%' id='TopicContainer'>
+<table summary='layout' border='0'>
+<tr><td id='HighlightTitle'>Today's Storm Report Trend</td></tr>
+<tr><td align='center'>
+
+<!--[if lte IE 8]<script language="javascript" type="text/javascript" src="/new/js/excanvas.min.js"></script><![endif]-->
+
+<div id="reportWrapper" style="width:310px;height:200px; padding:0px;">
+<table border="0px" width="300px" cellpadding="0px" cellspacing="0px">
+<tr>
+<td width="15px" height="200px" valign="middle"><img src="/new/images/repCount_sm.png"></td>
+<td> <div id="placeholder" style="width:285px;height:200px; float: left;"></div></td>
+</tr>
+<tr><td colspan="2" align="middle" style="font-family:arial;font-size:1.0em;font-weight:bold;line-height:1.3em;">report time</td></tr>
+</table>
+</div>
+
+
+
+<script type="text/javascript">
+var $j = jQuery.noConflict();
+
+$j(function () {
+
+var $j = jQuery.noConflict();
+
+var options =
+{
+        lines: { show: true  },
+	points: { show: true, radius: .1 },
+        xaxis: { "mode": "time", "timeformat": "%0d/%HZ" },
+	yaxis: { tickDecimals: 0 },
+        grid: { backgroundColor: { colors: ["#fff", "#fcf9de"] }},
+	legend: { position: "nw", backgroundOpacity: 1, labelBoxBorderColor: "#000" }
+   };
+
+
+var torn =
+{
+        label: "Tornado (0)",
+        color: "#ff0000",
+        data:
+        [
+],};
+
+
+var wind =
+{
+        label: "Wind (185)",
+        color: "#0000ff",
+        data:
+        [
+[1690373820000, "1"],
+[1690373820000, "2"],
+[1690374360000, "3"],
+[1690375440000, "4"],
+[1690376400000, "5"],
+[1690377300000, "6"],
+[1690377300000, "7"],
+[1690378140000, "8"],
+[1690378200000, "9"],
+[1690378800000, "10"],
+[1690378980000, "11"],
+[1690379580000, "12"],
+[1690380060000, "13"],
+[1690380240000, "14"],
+[1690380600000, "15"],
+[1690383600000, "16"],
+[1690383720000, "17"],
+[1690384260000, "18"],
+[1690384260000, "19"],
+[1690384560000, "20"],
+[1690386960000, "21"],
+[1690386960000, "22"],
+[1690388100000, "23"],
+[1690388100000, "24"],
+[1690389240000, "25"],
+[1690390140000, "26"],
+[1690392300000, "27"],
+[1690392300000, "28"],
+[1690392600000, "29"],
+[1690392600000, "30"],
+[1690392600000, "31"],
+[1690393440000, "32"],
+[1690393500000, "33"],
+[1690393680000, "34"],
+[1690393740000, "35"],
+[1690393800000, "36"],
+[1690393800000, "37"],
+[1690394100000, "38"],
+[1690395840000, "39"],
+[1690395900000, "40"],
+[1690395900000, "41"],
+[1690396200000, "42"],
+[1690396560000, "43"],
+[1690396800000, "44"],
+[1690396800000, "45"],
+[1690396800000, "46"],
+[1690397400000, "47"],
+[1690397940000, "48"],
+[1690398000000, "49"],
+[1690398120000, "50"],
+[1690398180000, "51"],
+[1690398180000, "52"],
+[1690398240000, "53"],
+[1690398600000, "54"],
+[1690398780000, "55"],
+[1690398840000, "56"],
+[1690398960000, "57"],
+[1690398960000, "58"],
+[1690398960000, "59"],
+[1690399080000, "60"],
+[1690399200000, "61"],
+[1690399200000, "62"],
+[1690399200000, "63"],
+[1690399200000, "64"],
+[1690399200000, "65"],
+[1690399200000, "66"],
+[1690399320000, "67"],
+[1690399320000, "68"],
+[1690399500000, "69"],
+[1690399500000, "70"],
+[1690399560000, "71"],
+[1690399620000, "72"],
+[1690399740000, "73"],
+[1690399800000, "74"],
+[1690399800000, "75"],
+[1690399800000, "76"],
+[1690399860000, "77"],
+[1690400040000, "78"],
+[1690400340000, "79"],
+[1690400400000, "80"],
+[1690400400000, "81"],
+[1690400400000, "82"],
+[1690400640000, "83"],
+[1690400940000, "84"],
+[1690401000000, "85"],
+[1690401240000, "86"],
+[1690401360000, "87"],
+[1690401360000, "88"],
+[1690402200000, "89"],
+[1690402800000, "90"],
+[1690402800000, "91"],
+[1690402800000, "92"],
+[1690403040000, "93"],
+[1690403100000, "94"],
+[1690403400000, "95"],
+[1690403700000, "96"],
+[1690403820000, "97"],
+[1690403820000, "98"],
+[1690404120000, "99"],
+[1690404420000, "100"],
+[1690404480000, "101"],
+[1690405500000, "102"],
+[1690405560000, "103"],
+[1690405680000, "104"],
+[1690406400000, "105"],
+[1690406520000, "106"],
+[1690406700000, "107"],
+[1690407000000, "108"],
+[1690407120000, "109"],
+[1690407120000, "110"],
+[1690407180000, "111"],
+[1690407900000, "112"],
+[1690408200000, "113"],
+[1690409520000, "114"],
+[1690410180000, "115"],
+[1690410180000, "116"],
+[1690411200000, "117"],
+[1690411440000, "118"],
+[1690411560000, "119"],
+[1690411560000, "120"],
+[1690411560000, "121"],
+[1690411680000, "122"],
+[1690411800000, "123"],
+[1690411800000, "124"],
+[1690411800000, "125"],
+[1690411920000, "126"],
+[1690412040000, "127"],
+[1690412400000, "128"],
+[1690412520000, "129"],
+[1690413000000, "130"],
+[1690413300000, "131"],
+[1690413300000, "132"],
+[1690413300000, "133"],
+[1690413300000, "134"],
+[1690413360000, "135"],
+[1690413360000, "136"],
+[1690413420000, "137"],
+[1690413960000, "138"],
+[1690414200000, "139"],
+[1690414740000, "140"],
+[1690416000000, "141"],
+[1690416000000, "142"],
+[1690416300000, "143"],
+[1690416480000, "144"],
+[1690417200000, "145"],
+[1690417260000, "146"],
+[1690417320000, "147"],
+[1690417560000, "148"],
+[1690417680000, "149"],
+[1690417800000, "150"],
+[1690417800000, "151"],
+[1690418100000, "152"],
+[1690418160000, "153"],
+[1690418400000, "154"],
+[1690418460000, "155"],
+[1690418520000, "156"],
+[1690418580000, "157"],
+[1690419000000, "158"],
+[1690419060000, "159"],
+[1690419300000, "160"],
+[1690419420000, "161"],
+[1690419420000, "162"],
+[1690419900000, "163"],
+[1690419900000, "164"],
+[1690420020000, "165"],
+[1690420200000, "166"],
+[1690420200000, "167"],
+[1690420740000, "168"],
+[1690421160000, "169"],
+[1690421820000, "170"],
+[1690422000000, "171"],
+[1690422180000, "172"],
+[1690422240000, "173"],
+[1690422900000, "174"],
+[1690422960000, "175"],
+[1690423140000, "176"],
+[1690423680000, "177"],
+[1690424400000, "178"],
+[1690424460000, "179"],
+[1690425000000, "180"],
+[1690425000000, "181"],
+[1690425060000, "182"],
+[1690425540000, "183"],
+[1690425600000, "184"],
+[1690426380000, "185"],
+],};
+
+
+var hail =
+{
+        label: "Hail (8)",
+        color: "#008000",
+        data:
+        [
+[1690401360000, "1"],
+[1690402620000, "2"],
+[1690406460000, "3"],
+[1690411800000, "4"],
+[1690413120000, "5"],
+[1690413240000, "6"],
+[1690415760000, "7"],
+[1690420560000, "8"],
+],};
+
+    $j.plot($j("#placeholder"), [torn,wind,hail], options);
+});
+</script>
+
+
+</td></tr>
+<tr><td align='left'><br><br>Full-size plot <a href='/new/ReportPlot/reportPlot.php'>here</a>.</td></tr>
+</table></td>
+
+        <script type="text/javascript" src="/new/js/jquery.slides.min.js"></script>
+
+        <script>
+          var $j = jQuery.noConflict();
+          $j(function(){
+            $j('#slides1').slides({
+              fadeSpeed: 1000,
+              crossfade: true,
+              effect: 'fade',
+              preload: true,
+              preloadImage: '/new/SVRclimo/loading.gif',
+              play: 7000,
+              pause: 2500,
+              hoverPause: true,
+              animationStart: function(current){
+                $j('.caption').animate({
+                  bottom:-35 
+                },100);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationStart on slide: ', current);
+                };
+              },
+              animationComplete: function(current){
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationComplete on slide: ', current);
+                };
+              },
+              slidesLoaded: function() {
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+              }
+            });
+          });
+        </script>
+
+	<td valign='top' width='33%' id='TopicContainer'>
+          <table summary="layout" border="0" background="#eee">
+	    <tr><td id='HighlightTitle'>Did You Know?</td></tr>
+            <tr><td align="center">
+
+            <div id="spc1">
+              <div id="example">
+                <div id="slides1">
+                  <div class="slides_container">
+                    <div class="slide">
+                      <a href="/new/images/SPC_outlook_final_updated.png" alt="Slide 1" title="Convective Outlook Category Descriptions" target="_blank"><img src="/new/images/SPC_outlook_final_updated-sm.png" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>What's My Risk?</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="/new/images/SPC-final-spanish.png" alt="Slide 2" title="Convective Outlook Category Descriptions in Spanish" target="_blank"><img src="/new/images/SPC-final-spanish-sm.png" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>La tormenta factor de riesgo.</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="//www.youtube.com/watch?v=x3V3HZBs1Y4" alt="Slide 3" title="What's a Watch?" target="YouTube Clip"><img src="/new/images/WatchWarn.png" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>What's a Watch?</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="//youtu.be/PHMlpv5vJ_Y" alt="Slide 4" title="How's a Forecast Made?" target="YouTube Clip"><img src="/new/images/ForecastMade.jpg" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>How's a Forecast Made?</p></div>
+                    </div>
+                    <div class="slide">
+                      <a href="/faq/tornado/#Safety" alt="Slide 5" title="Tornado Safety" target="_blank"><img src="/new/images/TornSafety.png" height="174" width="280"/></a>
+                      <div class="caption" style="bottom:0"><p>Tornado Safety <a href="/faq/tornado/#Safety">Tips</a></p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </td></tr>
+          </table>
+        </td>
+        <tr>
+
+        <td valign='top' width='33%' id='TopicContainer'>
+	<table summary='layout' border='0'>
+        <tr><td id='HighlightTitle'>Forecast Tools</td></tr>
+        <tr><td align='center'>
+
+        <script>
+          var $j = jQuery.noConflict();
+          $j(function(){
+            $j('#slides2').slides({
+              fadeSpeed: 1000,
+              crossfade: true,
+              effect: 'fade',
+              preload: true,
+              preloadImage: '/new/SVRclimo/loading.gif',
+              play: 7000,
+              pause: 2500,
+              hoverPause: true,
+              animationStart: function(current){
+                $j('.caption').animate({
+                  bottom:-35 
+                },100);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationStart on slide: ', current);
+                };
+              },
+              animationComplete: function(current){
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+                if (window.console && console.log) {
+                  // example return of current slide number
+                  console.log('animationComplete on slide: ', current);
+                };
+              },
+              slidesLoaded: function() {
+                $j('.caption').animate({
+                  bottom:0
+                },200);
+              }
+            });
+          });
+        </script>
+	
+        <div id="spc1">
+          <div id="example">
+            <div id="slides2">
+              <div class="slides_container">
+                <div class="slide">
+                  <a href="/exper/href/" title="HREF" target="_blank" alt="Slide 1"><img src="/new/images/href_sm.png" width="300" height="212"></a>
+                  <div class="caption" style="bottom:0"><p>HREF</p></div>
+                </div>
+              <div class="slide">
+                <a href="/exper/sref/" target="_blank"><img src="/new/images/SPC_SREF.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>SREF</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/mesoanalysis/new/" target="_blank"><img src="/new/images/SPC_mesoanalysis.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Mesoanalysis</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/soundings/" target="_blank"><img src="/new/images/SPC_sounding.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Observed Soundings</p></div>
+              </div>
+              <div class="slide">
+                <a href="/exper/envbrowser/" target="_blank"><img src="/new/images/SPC_env_browser.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Tornado Environment Browser</p></div>
+              </div>
+              <div class="slide">
+                <a href="/obswx/maps/" target="_blank"><img src="/new/images/SPC_UA.png" width="300" height="212"></a>
+                <div class="caption" style="bottom:0"><p>Upper-Air Maps</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+	</td></tr>
+        </table></td>
+        
+
+	<td valign="top" width="33%" id="TopicContainer">
+        <table summary="layout" border="0">
+        <tr><td id="HighlightTitle">2023 Watch Summaries</td></tr>
+	<tr><td align='center'>
+
+        <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        $j(document).ready(function() {
+          $j('#slideshow2').cycle({fx: 'fade', timeout:5000, speed:2000});
+          $j('#slideshow2 img').click(function (){
+            var blankWindow = window.open('','_blank');
+	    blankWindow.location.href=$j(this).attr('rel');
+            // document.location.href=$j(this).attr('rel');
+          }).css('cursor','pointer');
+        });
+        </script>
+
+        <div id="slideshow2">
+	<img src="/wcm/thumbs/2023_torww_to_date_sm.png" alt="" rel="/wcm/2023_torww_to_date.png" width="300" height="200" />
+	<img src="/wcm/thumbs/2023_svrww_to_date_sm.png" alt="" rel="/wcm/2023_svrww_to_date.png" width="300" height="200" />
+	</div>
+        </td></tr>
+
+<tr><td align='left'>Page last modified: July 26 2023 12:29 UTC</td></tr>
+
+        </table></td>
+
+	<td valign="top" width="33%" id="TopicContainer">
+         <table summary="layout" border="0">
+          <tr><td id="HighlightTitle">Wildfire Climatology (1992-2015)</td></tr>
+          <tr><td align="center">
+          
+<script src="/new/js/slides.min.jquery.js"></script>
+<script>
+	var $j = jQuery.noConflict();
+	$j(function(){
+		$j('#slides3').slides({
+			fadeSpeed: 1000,
+			crossfade: true,
+			effect: 'fade',
+			preload: true,
+			preloadImage: '/new/FWclimo/loading.gif',
+			play: 7000,
+			pause: 2500,
+			hoverPause: true,
+			animationStart: function(current){
+				$j('.caption').animate({
+					bottom:-35
+				},100);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationStart on slide: ', current);
+				};
+			},
+			animationComplete: function(current){
+				$j('.caption').animate({
+					bottom:0
+				},200);
+				if (window.console && console.log) {
+					// example return of current slide number
+					console.log('animationComplete on slide: ', current);
+				};
+			},
+			slidesLoaded: function() {
+				$j('.caption').animate({
+					bottom:0
+				},200);
+			}
+		});
+	});
+</script>
+
+<div id="spc1">
+   <div id="example">
+      <div id="slides3">
+	 <div class="slides_container">
+	    <div class="slide">
+	       <a href="/misc/fire_climo/Figs_Climo100ac/209.png" title="100 acres for 27
+ Jul
+" target="_blank" alt="Slide 1"><img src="/misc/fire_climo/Figs_Climo100ac/sm_209.png"></a>
+	       <div class="caption" style="bottom:0"><p>100 Acres Wildfire Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+	    <div class="slide">
+	       <a href="/misc/fire_climo/Figs_Climo300ac/209.png" target="_blank"><img src="/misc/fire_climo/Figs_Climo300ac/sm_209.png"></a>
+	       <div class="caption" style="bottom:0"><p>300 Acres Wildfire Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+	    <div class="slide">
+               <a href="/misc/fire_climo/Figs_Climo1000ac/209.png" target="_blank"><img src="/misc/fire_climo/Figs_Climo1000ac/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>1000 Acres Wildfire Probabilities: 27
+ Jul
+</p></div>
+            </div>
+            <div class="slide">
+               <a href="/misc/fire_climo/Figs_Climo5000ac/209.png" target="_blank"><img src="/misc/fire_climo/Figs_Climo5000ac/sm_209.png"></a>
+               <div class="caption" style="bottom:0"><p>5000 Acres Wildfire Probabilities: 27
+ Jul
+</p></div>
+	    </div>
+         </div>
+      </div>
+   </div>
+</div>
+          </td></tr>
+          <tr><td align="left"><br>More wildfire climatology data <a href="/new/FWclimo/climo.php?parm=100ac">here</a>.</td></tr>
+         </table>
+        </td>
+       </tr>
+       <tr>
+        <td colspan="2" valign="top" width="66%" id="TopicContainer">
+	<div id="HighlightTitle">Latest SPC Publications</div>
+        <ul class="SPCResearchList">
+  <li>
+    Gallo, B.T., K.A. Wilson, J.J. Choate, K. Knopfmeier, P. Skinner, B. Roberts<sup>*</sup>, P.L. Heinselman, I.L. Jirak, and A.J. Clark, 2022:  <A href="/publications/gallo/wofs-hwt.pdf" target="_blank">Exploring the Watch-to-Warning Space: Experimental Outlook Performance during the 2019 Spring Forecasting Experiment in NOAA's Hazardous Weather Testbed</a>.  Published in <i>Wea. Forecasting</i>. [4328K PDF]
+  </li>
+  <li>
+    Squitieri, B.J., and W.A. Gallus Jr., 2022: <a href="/publications/squitieri/gridwrf2.pdf" target="_blank">On the Changes in Convection-Allowing WRF Forecasts of MCS Evolution due to Decreases in Model Horizontal and Vertical Grid Spacing. Part II: Impacts on QPFs</a>. Published in Wea. Forecasting. [5607K PDF]
+  </li>
+  <li>
+    Squitieri, B.J., and W.A. Gallus Jr., 2022: <a href="/publications/squitieri/gridwrf1.pdf" target="_blank">On the Changes in Convection-Allowing WRF Forecasts of MCS Evolution due to Decreases in Model Horizontal and Vertical Grid Spacing. Part I: Changes in Cold Pool Evolution</a>. Published in Wea. Forecasting. [3655K PDF]
+  </li>
+  <li>
+    Harrison, D.R., M.S. Elliott, I.L. Jirak, and P.T. Marsh, 2022:  <a href="/publications/harrison/hrefcalb.pdf" target="_blank">Utilizing the High-Resolution Ensemble Forecast System to Produce Calibrated Probabilistic Thunderstorm Guidance</a>. Published in Wea. Forecasting.  [2549K PDF]
+  </li>
+  <li>
+    Bentley, E.S., R.L. Thompson, B.R. Bowers, J.G. Gibbs, and S.E. Nelson, 2021: <a href="/publications/bentley/torwarns.pdf" target="_blank">An Analysis of 2016-18 Tornadoes and National Weather Service Tornado Warnings across the Contiguous United States</a>. Published in Wea. Forecasting. [2942K PDF]
+  </li>
+  <li>
+    Edwards, R., H.E. Brooks, and H. Cohn, 2021: <a href="/publications/edwards/f-ef.pdf" target="_blank">Changes in Tornado Climatology Accompanying the Enhanced Fujita Scale</a>. Published in J. Appl. Meteor. Clim. [2250K PDF]
+  </li>
+  <li>
+    Krocak, M.J., M.D. Flournoy, and H.E. Brooks, 2021: <a href="/publications/krocak/subdaily.pdf" target="_blank">Examining Subdaily Tornado Warning Performance and Associated Environmental Characteristics</a>. Published in Wea. Forecasting. [888K PDF]
+  </li>
+  <li>
+    Krocak, M.J., and H.E. Brooks, 2021: <a href="/publications/krocak/watchwrn.pdf" target="_blank">The Influence of Weather Watch Type on the Quality of Tornado Warnings and Its Implications for Future Forecasting Systems</a>. Published in Wea. Forecasting. [537K PDF]
+  </li>
+  <li>
+    Krocak, M.J., J.N. Allan, J.T. Ripberger, C.L. Silva, and H.C. Jenkins-Smith, 2021: <a href="https://www.spc.noaa.gov/publications/krocak/nitewarn.pdf" target="_blank">An Analysis of Tornado Warning Reception and Response across Time: Leveraging Respondents' Confidence and a Nocturnal Tornado Climatology</a>. Published in Wea. Forecasting. [938K PDF]
+  </li>
+  <li>
+    Trujillo-Falcon, J.E., O. Bermudez, K. Negron-Hernandez, J. Lipski, E. Leitman, and K. Berry, 2021: <a href="https://www.spc.noaa.gov/publications/trujillo/hazwxcom.pdf" target="_blank">Hazardous Weather Communication en Espanol: Challenges, Current Resources, and Future Practices</a>. Published in Bull. Amer. Meteor. Soc. [5004K PDF]
+  </li>
+  <li>
+    Find more research articles at the <a href="/publications/" target="_blank">SPC publication archive</a>.
+  </li>
+</ul>
+        </td>
+        <td valign="top" width="33%" id="TopicContainer">  
+	<div id="HighlightTitle">Latest SPC Case Archive</div>
+        <table id='CaseArchive' width='290x' cellpadding='1' cellspacing='1'>
+<tr>
+<td align='left' style='background:#ebf3ff;'><a href='/exper/archive/event.php?date=20230725' target='_blank'>Jul 25, 2023</a></td>
+<td align='left' style='background:#ccc;'>Tornado: 2</td>
+<td align='left' style='background:#ccc;'>Wind: 139</td>
+<td align='left' style='background:#ccc;'>Hail: 27</td>
+</tr><tr>
+<td colspan='4' align='center'><a href='/exper/archive/event.php?date=20230725' target='_blank'><img src='/new/SPCCaseArchive/rep_thumb.gif' style ='margin: 2px;'></a></td></tr>
+</tr></table>
+        </td>
+       </tr>
+
+     </table>
+   </td>
+  </tr>
+</table>
+</div><!--end HighlightContainer-->
+<!--End 9-panel-->
+</div>
+</div><!-- SPCMain -->
+
+<!-- ##### Social Media content ##### -->
+<div class="feature_container">
+<div>
+  <div id="HighlightContainer">
+  <table>
+    <tr>
+      <td colspan="2" valign="center" align="center" width="50%" id="TopicContainer">
+        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FNWSSPC&amp;width=500&amp;height=395&amp;show_faces=false&amp;colorscheme=light&amp;stream=true&amp;show_border=true&amp;header=true" scrolling="yes" frameborder="1" style="border:none; overflow:hidden; width:500px; height:395px;" allowTransparency="true"></iframe>
+      </td>
+      <td valign="center" align="center" width="50%" id="TopicContainer">  
+        <a class="twitter-timeline" data-width="420" data-height="395" href="https://twitter.com/NWSSPC?ref_src=twsrc%5Etfw">Tweets by NWSSPC</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </td>
+    </tr>
+  </table>
+</div><!--end HighlightContainer-->
+<!--End Socail Media -->
+</div>
+</div><!-- Social Media content -->
+
+
+   <!-- ##### FOOTER ACROSS BOTTOM OF PAGE ##### -->
+   <div class="footer_container">
+      <div id="footer">
+          <table cellspacing="6" cellpadding="0" width="100%" border="0">
+    <tr valign="top">
+      <td class="gray">
+        <a href="//www.usa.gov" target="_blank"><img src="/misc/usagov_logo_color_110.png" alt="usa.gov" width="110" height="110" /></a>
+      </td>
+      <td class="gray">
+        <a href="//www.noaa.gov/" target="_blank"><span class="gray">NOAA</span></a>&nbsp;/
+        <a href="//www.weather.gov/" target="_blank"><span class="gray">National Weather Service</span></a><br />
+        <a href="//www.ncep.noaa.gov/" target="_blank"><span class="gray">National Centers for Environmental Prediction</span></a><br />
+        <a href="/"><span class="gray">Storm Prediction Center</span></a><br />
+        120 David L. Boren Blvd.<br />
+        Norman, OK 73072 U.S.A.<br />
+        <a href="mailto:spc.feedback@noaa.gov?subject=[SPC web feedback]"><span class="gray">spc.feedback@noaa.gov</span></a><br />
+
+	Page last modified: July 27 2023 00:59 UTC
+              <td align="left">
+        <a href="//www.weather.gov/disclaimer">
+          <span class="gray">Disclaimer</span></a><br />
+        <a href="//www.cio.noaa.gov/services_programs/info_quality.html">
+          <span class="gray">Information Quality</span></a><br />
+        <a href="//www.weather.gov/help">
+          <span class="gray">Help</span></a><br />
+        <a href="//www.weather.gov/glossary">
+          <span class="gray">Glossary</span></a>
+      </td>
+      <td align="right">
+        <a href="//www.weather.gov/privacy">
+          <span class="gray">Privacy Policy</span></a><br />
+        <a href="//www.rdc.noaa.gov/%7Efoia/">
+          <span class="gray">Freedom of Information Act (FOIA)</span></a><br />
+        <a href="//www.weather.gov/about">
+          <span class="gray">About Us</span></a><br />
+        <a href="//www.weather.gov/careers">
+          <span class="gray">Career Opportunities</span></a>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript" async="true" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=SPC&pua=UA-52727918-1"></script>
+  <script type="text/javascript">
+    if (typeof jQuery == 'undefined') {
+      document.write(unescape("%3Cscript async src='/misc/js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+  </script>
+
+  <script async type="text/javascript" src="/misc/js/nwsexit-spc-min.js"></script>
+</div>
+   </div>
+
+<div class="clear"> </div> <!-- Sets background to white -->
+
+ </div>
+<script type="text/javascript">
+   var $j = jQuery.noConflict();
+   show_tab("TABoverview");
+   $j("#query-field").blur();
+</script>
+
+<div 
+   id="click-to-scroll-up" 
+   onclick="ScrollUp()" 
+   style="
+      display:none;
+      position:fixed;
+      right:3pt;
+      bottom:50pt;
+      background-color:transparent;
+      border:3px solid #999;
+      border-radius:50% 50%;
+      width:27pt;
+      height:27pt;
+      text-align:center;
+      cursor:pointer;">
+<img 
+   src="/new/images/ArrowScrollUp.png" 
+   style="width:auto; height:24pt; border:none; outline:none;" 
+   name="Click or tap to scroll to the top" 
+   alt="Click-to-scroll-up Image">
+</div>
+
+
+</body>
+</html>
+
