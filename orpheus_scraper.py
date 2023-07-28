@@ -1,28 +1,23 @@
-import os
-
-# Install libraries required to run program through os library by running it in terminal/console
-os.system('pip install -r requirements.txt')
-
-# Web scraper imports
+# %%
 import pandas as pd
 import requests
 import os
-import dotenv
+import dotenv   
 from bs4 import BeautifulSoup
-import json
 # turn off warnings
 import warnings
 warnings.filterwarnings('ignore')
 
+# %% [markdown]
+# ### Get an api key from : https://apilayer.com/marketplace/google_search-api 
+# 
+# ### Then set it to a variable named 'google' in your .env file 
 
-''' 
-Get an api key from : https://apilayer.com/marketplace/google_search-api 
-Then set it to a variable named 'google' in your .env file 
-'''
-
+# %%
 # import .env file
 dotenv.load_dotenv()
 
+# %%
 # list of all 50 US states
 united_states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 'Connecticut', 'Delaware',
                     'Florida', 'Georgia', 'Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky',
@@ -32,11 +27,16 @@ united_states = ['Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colo
                     'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont',
                     'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming']
 
-'''
-Below is how we query the api and get the results split into the first 10 results 
-and the next 90 results
-'''
-# BLOCK A
+# %%
+# creating the folders
+os.makedirs('articles', exist_ok=True)
+os.makedirs('more_requests', exist_ok=True)
+os.makedirs('requests', exist_ok=True)
+
+# %% [markdown]
+# ### Below is how we query the api and get the results split into the first 10 results and the next 90 results
+
+# %%
 # for state in united_states:
 #   q = f'{state}%20storm%20article'
 #   url = f"https://api.apilayer.com/google_search?q={q}"
@@ -55,7 +55,7 @@ and the next 90 results
 #         f.write(response.text)
 #   print(f'{state} status code: {status_code}')
 
-# BLOCK B
+# %%
 # for state in united_states:
 #   for i in range(10):
 
@@ -77,10 +77,11 @@ and the next 90 results
 #             f.write(response.text)
 #       print(f'{state}_{i} status code: {status_code}')
 
+# %% [markdown]
+# ### below gets the urls found in the requests and stores them in a list organized by State
 
-### below gets the urls found in the requests and stores them in a list organized by State
-
-
+# %%
+import json
 # urls
 urls = {}
 
@@ -92,9 +93,12 @@ for file in os.listdir('./requests/'):
         for item in data['organic']:
             url = item['link']
             urls[file[:-5]].append(url)
+urls
 
+            
 
-# add more requests to the urls dictionary
+# %%
+# add more reqeusts to the urls dictionary
 for file in os.listdir('./more_requests/'):
     with open(f'./more_requests/{file}') as f:
         # urls[file[:-5]] = []
@@ -103,18 +107,17 @@ for file in os.listdir('./more_requests/'):
             url = item['link']
             urls[file[:-7]].append(url)
 
+# %%
 # print the total number of urls
 total = 0
 for key in urls.keys():
     total += len(urls[key])
 print(total)
 
+# %% [markdown]
+# ### below the urls are iterated through and the webpages are downloaded and stored in a folder named 'articles'
 
-''' 
-below the urls are iterated through and the webpages are downloaded and stored 
-in a folder named 'articles'
-'''
-
+# %%
 # download the articles from the urls in parallel
 articles = os.listdir('./articles')
 
@@ -141,8 +144,11 @@ print(num_cores)
 downloads = Parallel(n_jobs=num_cores)(delayed(download_article)(state, i, url) for state in urls.keys() for i, url in enumerate(urls[state]))
 
 
-### below the articles are read and the text is extracted and stored in a dataframe 
 
+# %% [markdown]
+# ### below the articles are read and the text is extracted and stored in a dataframe 
+
+# %%
 # organize the articles into a dataframe
 articles = os.listdir('./articles')
 
@@ -173,9 +179,17 @@ for article in articles:
         state = article.split('_')[0]
         df = df.append({'title': title, 'author': author, 'publication': publication, 'body_text': body_text, 'url': url, 'state': state}, ignore_index=True)
 
+df
+
+# %%
 # Pickle file for use on part 2
 df = pd.to_pickle('articles.pkl')
+# df
 
-'''
-# Phase 1 complete
-'''
+# %% [markdown]
+# # Phase 1 complete
+
+# %%
+
+
+
