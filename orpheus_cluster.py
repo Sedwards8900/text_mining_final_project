@@ -203,6 +203,7 @@ def word_types(doc):
     lemmas = []
     nav = []
     for token in doc:
+        # Extract and append lemmas to lemmas list
         lemmas.append(token.lemma_)
         # adjectives (and adverbs)
         if token.pos_ == "ADJ": #or token.pos_ == "ADV":
