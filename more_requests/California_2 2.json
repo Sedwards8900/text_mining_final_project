@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 176000000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "California storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:40.568Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=California+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_ix3jfyp36ml"
+    },
+    "organic": [
+        {
+            "link": "https://www.reuters.com/world/us/california-concerned-over-flooding-potential-after-heavy-rains-2023-03-10/",
+            "display_link": "https://www.reuters.com \u203a world \u203a california-concerned-...",
+            "title": "California copes with heavy rain, flooding in latest ' ...",
+            "description": "Emergency officials in several California counties spent patrolling levies and swollen rivers as an \"atmospheric river\" storm drenched the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cbsnews.com/news/california-heavy-rain-storms-atmospheric-river-evacuations-flooding/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "California pummeled by heavy rain amid another round of ...",
+            "description": "The latest in a series of powerful storm fronts driven by atmospheric rivers slammed California again Saturday, as the state continued to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://cw3e.ucsd.edu/wp-content/uploads/2013/10/Dettinger_Ingram_sciam13.pdf",
+            "display_link": "https://cw3e.ucsd.edu \u203a uploads \u203a 2013/10 \u203a De...",
+            "title": "drowned: A 43-day atmospheric-river storm in 1861 turned ...",
+            "description": "Massive floods have struck California every 200 years or so, according to analysis of ... article: a megastorm that rivaled the 1861\u201362 storm in size but.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcnews.com/science/environment/california-drought-storms-tornado-weather-rcna76410",
+            "display_link": "https://www.nbcnews.com \u203a science \u203a environment \u203a c...",
+            "title": "California braces for 12th atmospheric river storm",
+            "description": "Plagued by drought, California is now soaked after 12 monstrous storms ... After three years of drought, California has seen a record-setting ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.kcra.com/article/california-rain-snow-hail-tahoe-snow-updates-road-conditions-radar-sacramento-kcra-weather-coverage/43279353",
+            "display_link": "https://www.kcra.com \u203a article \u203a california-rain-snow-hai...",
+            "title": "California Storm Recap: Severe weather hits Northern ...",
+            "description": "Northern California Storm Updates. Sunday updates: 9:00 p.m.: Eastbound vehicles on I-80 are required to have chains on unless you have 4 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://apnews.com/article/california-storms-atmospheric-river-flooding-rain-weather-0f57c5dbe224813ead980d3fed8d566b",
+            "display_link": "https://apnews.com \u203a article \u203a california-storms-atmos...",
+            "title": "New atmospheric river storm pushes into California",
+            "description": "LOS ANGELES (AP) \u2014 The first in a new series of atmospheric rivers flowed into California on Thursday, and forecasters warned that ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2023/01/10/california-climate-atmospheric-rivers-drought/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/01/10 \u203a calif...",
+            "title": "California's paradox: Confronting too little water, and ...",
+            "description": "Gift Article. Share. It wasn't so long ago that California prayed for rain. Something to quench the climate-change-fueled drought \u2014 the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.pbs.org/newshour/show/climate-change-increasing-chance-of-mega-storm-in-california-scientists-say",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a show \u203a climate-cha...",
+            "title": "Climate change increasing chance of 'mega storm' in ...",
+            "description": "California is no stranger to extreme weather. It typically comes in the form of severe drought and wildfires, but a new study suggests the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.scientificamerican.com/article/why-california-is-being-deluged-by-atmospheric-rivers/",
+            "display_link": "https://www.scientificamerican.com \u203a article \u203a why-cal...",
+            "title": "Why California Is Being Deluged by Atmospheric Rivers",
+            "description": "California is taking a beating from what the National Weather Service has called a \u201cseemingly never ending parade\u201d of strong storm systems, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.abc10.com/article/weather/warm-winter-storm/103-5d73734b-b2ae-4625-8aba-8874811938b1",
+            "display_link": "https://www.abc10.com \u203a weather \u203a warm-winter-storm",
+            "title": "California storms - rain, warmer air and potential flood risk",
+            "description": "Much of California has been placed under a Flood Watch ahead of a warm atmospheric river storm set to impact the state later this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 539000000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:54.037Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_kz4sf5cxzxs"
+    },
+    "organic": [
+        {
+            "link": "https://www.9news.com/article/weather/severe-storms-likely-on-the-4th-of-july-for-denver/73-f7e8468c-5031-4943-97f6-1612d5220a35",
+            "display_link": "https://www.9news.com \u203a article \u203a weather \u203a severe-st...",
+            "title": "Colorado weather: Severe storms on the 4th? - Denver",
+            "description": "Strong storms, including the potential for large hail, may disrupt Fourth of July plans across northeastern Colorado. Author: Chris Bianchi.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.9news.com/article/weather/weather-colorado/colorado-snow-storm/73-b8fc666d-5b12-4a28-a0e8-10e38745959e",
+                    "display_link": "https://www.9news.com \u203a article \u203a colorado-snow-storm",
+                    "title": "Colorado's Tuesday snow storm looks like the 'Big One'",
+                    "description": "A drought-busting type of rain and/or snow event could impact much of eastern Colorado on Tuesday and Wednesday snow rain Denver Colorado ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 24, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.denverpost.com/news/weather/",
+            "display_link": "https://www.denverpost.com \u203a news \u203a weather",
+            "title": "Weather news from around Denver, Colorado and the world",
+            "description": "Metro Denver residents face blue skies and sunshine Wednesday along with summer heat and possible afternoon thunderstorms, according to the National Weather ...",
+            "subresults": [
+                {
+                    "link": "https://www.denverpost.com/2023/01/18/denver-weather-snowstorm-continues-wednesday-morning/",
+                    "display_link": "https://www.denverpost.com \u203a 2023/01/18 \u203a denver-w...",
+                    "title": "Colorado weather today: 7 inches of snow falls in ...",
+                    "description": "An overnight snowstorm has dropped between four and nearly eight inches of snow from Boulder to Denver International Airport by 5 a.m..",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jan 18, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nytimes.com/2021/03/14/us/snow-squall-denver-colorado-wyoming.html",
+            "display_link": "https://www.nytimes.com \u203a 2021/03/14 \u203a snow-squall-de...",
+            "title": "Colorado Snowstorm Knocks Out Power to Thousands",
+            "description": "The storm, which brought heavy, wet snow to parts of Colorado and Wyoming, resulted in road closings, canceled flights ... Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2019/03/13/us/bomb-cyclone-colorado.html",
+                    "display_link": "https://www.nytimes.com \u203a bomb-cyclone-colorado",
+                    "title": "Strong Winter Storm Classifies as 'Bomb Cyclone' in ...",
+                    "description": "The fierce winter weather, part of which classified as a \u201cbomb cyclone,\u201d pummeled Denver and other areas in Colorado, and rapidly intensified ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 13, 2019",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 5
+        },
+        {
+            "link": "https://dhsem.colorado.gov/info-center/readycolorado/colorado-hazard-information/winter-storm/blizzard",
+            "display_link": "https://dhsem.colorado.gov \u203a readycolorado \u203a blizzard",
+            "title": "Winter Storm / Blizzard",
+            "description": "Blizzards are severe winter storms that consist of blowing snow and wind resulting in very low visibility. In Colorado, blizzards may occur anytime from fall to ...",
+            "rank": 4,
+            "global_rank": 11
+        },
+        {
+            "link": "https://denvergazette.com/outtherecolorado/news/what-we-know-about-the-high-impact-winter-storm-that-could-hit-colorado-this-week/article_d1fa9ef3-83be-53ce-a3d2-2da72a950207.html",
+            "display_link": "https://denvergazette.com \u203a outtherecolorado \u203a news \u203a ar...",
+            "title": "What we know about the \"high impact winter storm\" that ...",
+            "description": "A second storm that is expected to be stronger and more widespread will potentially impact Colorado beginning on Tuesday night.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.coloradoan.com/story/news/2023/05/18/colorado-weather-threat-of-thunderstorms-flash-flooding-increasing/70232972007/",
+            "display_link": "https://www.coloradoan.com \u203a news \u203a 2023/05/18 \u203a c...",
+            "title": "Colorado weather: Strong storm tracks south of Fort Collins",
+            "description": "The National Weather Service says severe weather is moving into the foothills and I-25 corridor, and the Cameron Peak burn scar faces flash ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.cpr.org/2023/02/22/colorado-weather-winter-storm-brings-more-snow-freezing-temps/",
+            "display_link": "https://www.cpr.org \u203a 2023/02/22 \u203a colorado-weather...",
+            "title": "Colorado weather: Winter storm brings more snow, below ...",
+            "description": "A large winter storm system is moving across Colorado, and it will bring at least several inches of snow, freezing rain and strong winds to most ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+in+Colorado+10+days&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg4EAE",
+            "text": "weather in colorado 10 days",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+in+Colorado+tomorrow&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg5EAE",
+            "text": "weather in colorado tomorrow",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+in+Denver+10+days&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg3EAE",
+            "text": "weather in denver 10 days",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Denver+weather&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg2EAE",
+            "text": "denver weather",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Colorado+weather&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg1EAE",
+            "text": "colorado weather",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Colorado+weather+map&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAg0EAE",
+            "text": "colorado weather map",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Colorado+storms+yesterday&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAgzEAE",
+            "text": "colorado storms yesterday",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=9+news,+weather+Live&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQ1QJ6BAgyEAE",
+            "text": "9 news, weather live",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Why is Colorado getting so much rain?",
+            "question_link": "https://www.google.com/search?hl=en&q=Why+is+Colorado+getting+so+much+rain%3F&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQzmd6BAgUEAY",
+            "answer_source": "Why is Colorado stuck in a wet, stormy weather pattern? | FOX31 Denver",
+            "answer_link": "https://kdvr.com/news/local/why-is-colorado-stuck-in-a-wet-stormy-weather-pattern/",
+            "answer_display_link": "https://kdvr.com \u203a news \u203a local \u203a why-is-colorado-stuck-...https://kdvr.com \u203a news \u203a local \u203a why-is-colorado-stuck-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBQQBQ\" data-ved=\"2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQu04oAHoECBQQBQ\"><div id=\"OZnBZOS9BtGt5NoP38W4mAI__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">\u201cWe keep getting these really <b>big influxes of Gulf of Mexico moisture</b> across eastern Colorado and once it hits the mountains to our west, it rings it out as showers and thunderstorms on an almost daily basis,\u201d Heavener said.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 6, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "\u201cWe keep getting these really big influxes of Gulf of Mexico moisture across eastern Colorado and once it hits the mountains to our west, it rings it out as showers and thunderstorms on an almost daily basis,\u201d Heavener said.Jun 6, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "What kind of storms are in Colorado?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+kind+of+storms+are+in+Colorado%3F&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQzmd6BAgXEAY",
+            "answer_source": "Colorado Severe Weather Awareness Week",
+            "answer_link": "https://www.weather.gov/gld/ColoradoSevereWeatherAwarenessWeek",
+            "answer_display_link": "https://www.weather.gov \u203a gld \u203a ColoradoSevereWeathe...https://www.weather.gov \u203a gld \u203a ColoradoSevereWeathe...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQu04oAHoECBcQBQ\"><div id=\"OZnBZOS9BtGt5NoP38W4mAI__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Colorado is an annual host for <b>tornadoes, flash floods, tornadoes, damaging hail, killer lightning and wind damage</b>. Are you weather-ready?</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Colorado is an annual host for tornadoes, flash floods, tornadoes, damaging hail, killer lightning and wind damage. Are you weather-ready?"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "What was the worst storm in Colorado history?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+was+the+worst+storm+in+Colorado+history%3F&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQzmd6BAgVEAY",
+            "answer_source": "The Ten Biggest Snowstorms in Denver",
+            "answer_link": "https://www.westword.com/news/denver-ten-biggest-snowstorms-8657201",
+            "answer_display_link": "https://www.westword.com \u203a news \u203a denver-ten-biggest-...https://www.westword.com \u203a news \u203a denver-ten-biggest-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBUQBQ\" data-ved=\"2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQu04oAHoECBUQBQ\"><div id=\"OZnBZOS9BtGt5NoP38W4mAI__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>December 1-5, 1913</b><br><br> The biggest snowfall in Denver's recorded history measured 45.7 inches, and even though the storm hit over a century ago, the stories live on.</span></span><span class=\"kX21rb ZYHQ7e\">Jan 29, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "December 1-5, 1913 The biggest snowfall in Denver's recorded history measured 45.7 inches, and even though the storm hit over a century ago, the stories live on.Jan 29, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "Does Denver get severe storms?",
+            "question_link": "https://www.google.com/search?hl=en&q=Does+Denver+get+severe+storms%3F&sa=X&ved=2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQzmd6BAgWEAY",
+            "answer_source": "Denver Weather: After the longest stretch without rain in ... - CBS News",
+            "answer_link": "https://www.cbsnews.com/colorado/news/denver-weather-after-the-longest-stretch-without-rain-in-months-thunderstorms-return-on-thursday/",
+            "answer_display_link": "https://www.cbsnews.com \u203a colorado \u203a news \u203a denver-w...https://www.cbsnews.com \u203a colorado \u203a news \u203a denver-w...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBYQBQ\" data-ved=\"2ahUKEwikvv6hsa2AAxXRFlkFHd8iDiMQu04oAHoECBYQBQ\"><div id=\"OZnBZOS9BtGt5NoP38W4mAI__24\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Beyond the hail threat, other hazards including damaging wind, very heavy rain, and even a weak tornado are possible. <b>Areas east of I-25 have a \"slight\" risk for severe weather which is 2 on a scale that goes from 1 to 5</b>. The scale rarely goes higher than 3 in Colorado.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 29, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Beyond the hail threat, other hazards including damaging wind, very heavy rain, and even a weak tornado are possible. Areas east of I-25 have a \"slight\" risk for severe weather which is 2 on a scale that goes from 1 to 5. The scale rarely goes higher than 3 in Colorado.Jun 29, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

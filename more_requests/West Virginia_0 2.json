@@ -1,0 +1,184 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 38700000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "West Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:47.326Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=West+Virginia+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_5typjh4rzgq"
+    },
+    "organic": [
+        {
+            "link": "https://www.thedaonline.com/weather/justice-issues-state-of-emergency-for-west-virginia-ahead-of-winter-storm/article_5597cde6-8229-11ed-873f-a7e3bbd6d8ed.html",
+            "display_link": "https://www.thedaonline.com \u203a weather \u203a article_5597cd...",
+            "title": "Justice issues State of Emergency for West Virginia ahead ...",
+            "description": "Gov. Jim Justice has declared a State of Emergency for all of West Virginia ahead of a winter storm that will continue into the holiday weekend.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2023/01/30/weather/winter-weather-storm-central-us/index.html",
+            "display_link": "https://www.cnn.com \u203a winter-weather-storm-central-us",
+            "title": "Winter weather alerts from Texas to West Virginia affecting ...",
+            "description": "More than 40 million people are under winter weather alerts from Texas to West Virginia, with significant icing likely \u00b7 Storms make for ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wvnstv.com/weather/scattered-strong-storms-possible-through-4th-of-july-weekend/",
+            "display_link": "https://www.wvnstv.com \u203a weather \u203a scattered-strong-sto...",
+            "title": "Scattered strong storms possible through 4th of July weekend",
+            "description": "As a result, scattered showers and storms will meander about southern West Virginia, especially in the afternoon. Some storms could produce ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=West+Virginia+storm+%22article%22&sa=X&ved=2ahUKEwjn_6-n462AAxXMD1kFHdGjA_A4CxDm3gJ6BAgXEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.thecentersquare.com/west_virginia/article_90351df0-809e-11ed-b9dd-eb14f1c24059.html",
+            "display_link": "https://www.thecentersquare.com \u203a west_virginia \u203a articl...",
+            "title": "All 55 West Virginia counties under state of preparedness ...",
+            "description": "The National Weather Service in Charleston, West Virginia, is forecasting a \u201clarge and intense\u201d winter storm system will begin impacting parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.fayettetribune.com/news/justice-declares-state-of-emergency-for-all-55-counties-in-wv-ahead-of-winter-storm/article_f660994a-827b-11ed-82c2-a37a6ef81bed.html",
+            "display_link": "https://www.fayettetribune.com \u203a news \u203a article_f660994...",
+            "title": "Justice declares State of Emergency for all 55 counties in ...",
+            "description": "\u201cAll West Virginians need to absolutely be ready for the potential impact this winter storm may bring to our state,\u201d Gov. Justice said. \u201cWest ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wvgazettemail.com/news/wvs-eastern-mountains-brace-for-rare-may-snowstorm/article_0673c102-e6ef-5eb4-9454-b3882569a86e.html",
+            "display_link": "https://www.wvgazettemail.com \u203a news \u203a article_0673c1...",
+            "title": "WV's Eastern mountains brace for rare May snowstorm",
+            "description": "... the National Weather Service issued winter storm warnings Monday for the mountains of three Eastern West Virginia counties, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.channel3000.com/news/national-and-world-news/oh-ohio-west-virginia-storm-damage/video_6fef144a-7081-52f3-8adf-1984190ee8e9.html",
+            "display_link": "https://www.channel3000.com \u203a national-and-world-news",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.2news.com/weather/ap_weather_headlines/oh-ohio-west-virginia-storm-damage/video_7b7c2fa1-5fce-55ed-9b9f-f7d75308d7cf.html",
+            "display_link": "https://www.2news.com \u203a weather \u203a ap_weather_headlines",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE | Weather - KTVN",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.register-herald.com/news/local_news/breaking-news-updated-with-photos-storm-prompts-state-of-emergency-motorists-stranded-thousands-without-power/article_32e11727-8623-5466-beae-b231d9b4fa6c.html",
+            "display_link": "https://www.register-herald.com \u203a news \u203a local_news \u203a a...",
+            "title": "Storm prompts state of emergency; motorists stranded ...",
+            "description": "The worst winter storm to hit southern West Virginia in nearly 12 years paralyzed much of the region Friday night and early Saturday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2009",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/03/west-virginia-record-may-snow/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/03 \u203a west...",
+            "title": "West Virginia sees biggest May snowfall on record with up ...",
+            "description": "The cause: A slow-moving zone of low pressure \u00b7 Historic West Virginia snow \u00b7 A storm for the books \u00b7 Storm to exit.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

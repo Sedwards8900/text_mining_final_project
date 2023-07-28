@@ -1,0 +1,316 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 32500000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Delaware storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:00.182Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Delaware+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_mqz39pl30p"
+    },
+    "organic": [
+        {
+            "link": "https://whyy.org/articles/tornado-damage-middletown-delaware/",
+            "display_link": "https://whyy.org \u203a articles \u203a tornado-damage-middleto...",
+            "title": "National Weather Service confirms tornado caused ...",
+            "description": "The National Weather Service said a tornado caused damage in New Castle County, Delaware on Sunday. In Middletown, Delaware, parts of a roof ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cbsnews.com/news/tornado-strikes-delaware-severe-weather-slams-northeast/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "One killed after tornado strikes Delaware; severe weather ...",
+            "description": "The weather-related fatality occurred when a suspected tornado caused a structure to collapse near the Delaware town of Greenwood, the Sussex ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wdel.com/another-line-of-thunderstorms-brings-flooding-wind-damage-to-delaware-sunday/article_558e1d82-1ea5-11ee-a0dd-d37f83d1915f.html",
+            "display_link": "https://www.wdel.com \u203a article_558e1d82-1ea5-11ee-a0...",
+            "title": "Another line of thunderstorms brings flooding, wind ...",
+            "description": "Another line of thunderstorms brings flooding, wind damage to Delaware Sunday. Nearly 16\" of rain has fallen in Wilmington since June 1.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.delawareonline.com/story/news/2023/04/01/tornado-powerful-storms-hit-delaware-sussex-county-bridgeville-warning/70072114007/",
+            "display_link": "https://www.delawareonline.com \u203a news \u203a 2023/04/01",
+            "title": "Delaware storms: At least 1 dead in house collapse",
+            "description": "Delaware storms: At least 1 dead in house collapse; possible tornado in Sussex County \u00b7 Multiple homes damaged in Greenwood, Bridgeville, Newark.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcphiladelphia.com/news/local/tornado-touched-down-in-delaware-on-sunday-nws-says/3601376/",
+            "display_link": "https://www.nbcphiladelphia.com \u203a news \u203a local \u203a tor...",
+            "title": "EF-1 tornado touched down in Delaware on Sunday, NWS ...",
+            "description": "A tornado touched down in Middletown, Delaware, as storms moved through the area on Sunday, the National Weather Service confirmed Monday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornado-confirmed-delaware-powerful-storm-moves-east/story?id=98293454",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Tornado confirmed in Delaware as powerful storm moves east",
+            "description": "A confirmed tornado was located near Bridgeville in Sussex County, Delaware, shortly after 6 p.m. ET Saturday, moving east at 50 mph, according ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://news.delaware.gov/2023/04/02/state-and-local-agencies-respond-to-severe-weather-and-likely-tornado/",
+            "display_link": "https://news.delaware.gov \u203a 2023/04/02 \u203a state-and-lo...",
+            "title": "State and Local Agencies Respond to Severe Weather and ...",
+            "description": "Delaware state and local agencies are mobilizing resources and personnel to respond to yesterday's statewide damage from severe storms and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://archives.delaware.gov/storm-of-1962/more-articles/",
+                    "display_link": "https://archives.delaware.gov \u203a Storm of 1962",
+                    "title": "More Articles - Storm of 1962 - Delaware Public Archives",
+                    "description": "The following are articles from various newspapers at the time of the storm. Beach Residents Flee Storm [19.7MB] \u00b7 Bowers the Day After: Water, High, ...",
+                    "global_rank": 12,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://apnews.com/article/tornado-storms-deaths-damage-tennessee-arkansas-1931cb7510deab7ad26890d033fb32e1",
+            "display_link": "https://apnews.com \u203a article \u203a tornado-storms-deaths-d...",
+            "title": "32 dead as tornadoes torment from Arkansas to Delaware",
+            "description": "The National Weather Service confirmed Sunday that a tornado was responsible for damage to several homes near Bridgeville, Delaware.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.dgs.udel.edu/projects/storm-surge-and-high-tide-relationships-delaware-inland-bays",
+            "display_link": "https://www.dgs.udel.edu \u203a projects \u203a storm-surge-and...",
+            "title": "Storm Surge and High Tide Relationships in the Delaware ...",
+            "description": "It has been widely documented that Delaware is highly vulnerable to the impacts of coastal flooding along its Delaware Bay, Atlantic Ocean, and Delaware ...",
+            "rank": 9,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Tornado in Maryland",
+            "list_group": true,
+            "expanded": true,
+            "more_link": "https://www.google.com/search?hl=en&q=Tornado+outbreak+of+April+27%E2%80%9328,+2002&stick=H4sIAAAAAAAAAOOQUeLUz9U3ME9PKkk2Ei7JL8pLTMlXyMxTyE0sqsxJzEuJEnNJzUksTyxKVSgGSucqJBaVZCbnpJ5iRGiEsy2yS2Ds7BQDg1OMXCC2UUGJeVE2lGNiaGFQWQhVZWaYbmYBY1dmmWVA2UlGZblVvxiFQxDu8YW6p4GFcRGrOkwiv7QkqSg1MVshP03BsaAoM0fByPxRw2QjCx0FIwMDo1tskgy3VvSoSOpffGV7YWvm2m8r4pcuf-Dqz9IoBQAdUtiP-wAAAA&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQs9oBKAB6BAgxEAI",
+            "more_text": "Tornado outbreak of April 27\u201328...Tornado outbreak of September...Tornado outbreak sequence o...1929 Rye Cove tornado outbreakTornado outbreak sequence o...1980 Grand Island tornado out...",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-0xUPUvjzzH-4eXiBQhQBlDjc9PMpIFyepCGB&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-0xUPUvjzzH-4eXiBQhQBlDjc9PMpIFyepCGB&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+in+Delaware+TODAY&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg5EAE",
+            "text": "tornado in delaware today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Delaware+tornado+history&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg1EAE",
+            "text": "delaware tornado history",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Delaware+tornado+2023&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg4EAE",
+            "text": "delaware tornado 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+damage+in+Delaware+today&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg3EAE",
+            "text": "storm damage in delaware today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Delaware+tornado+death&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg2EAE",
+            "text": "delaware tornado death",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Delaware+tornado+path&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg8EAE",
+            "text": "delaware tornado path",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+in+Delaware+yesterday&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg0EAE",
+            "text": "tornado in delaware yesterday",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Greenwood,+Delaware+tornado&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ1QJ6BAg7EAE",
+            "text": "greenwood, delaware tornado",
+            "rank": 9,
+            "global_rank": 23
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Where did a tornado hit in Delaware yesterday?",
+            "question_link": "https://www.google.com/search?hl=en&q=Where+did+a+tornado+hit+in+Delaware+yesterday%3F&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQzmd6BAglEAY",
+            "answer_source": "EF-1 Tornado touched down in Delaware, NWS confirms - CBS News",
+            "answer_link": "https://www.cbsnews.com/philadelphia/news/tornado-touched-down-in-delaware-nws-confirms/",
+            "answer_display_link": "https://www.cbsnews.com \u203a philadelphia \u203a tornado-touch...https://www.cbsnews.com \u203a philadelphia \u203a tornado-touch...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQu04oAHoECCUQBQ\"><div id=\"PpnBZLWDN7-rqtsPx6ubqAM__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">(CBS) - The National Weather Service has confirmed an EF-1 tornado touched down in <b>Middletown, Delaware</b> on Sunday. Reports on social media show damage on the north side of Middletown, where trees were knocked down, along with a neighborhood's entrance sign.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "(CBS) - The National Weather Service has confirmed an EF-1 tornado touched down in Middletown, Delaware on Sunday. Reports on social media show damage on the north side of Middletown, where trees were knocked down, along with a neighborhood's entrance sign.Jul 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What town did the tornado hit in Delaware?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+town+did+the+tornado+hit+in+Delaware%3F&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQzmd6BAgpEAY",
+            "answer_source": "'It was a good birthday. We're alive,' woman says after tornado hits her ...",
+            "answer_link": "https://6abc.com/severe-weather-delaware-tornado-middletown-de-new-castle-county-storms/13485645/",
+            "answer_display_link": "https://6abc.com \u203a severe-weather-delaware-tornado-mid...https://6abc.com \u203a severe-weather-delaware-tornado-mid...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCkQBQ\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQu04oAHoECCkQBQ\"><div id=\"PpnBZLWDN7-rqtsPx6ubqAM__18\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQtwcoAHoECB0QAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"MIDDLETOWN, Delaware\"><div class=\"IZ6rdc\">MIDDLETOWN, Delaware</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"PpnBZLWDN7-rqtsPx6ubqAM__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCYQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\"><b>MIDDLETOWN, Delaware</b> (WPVI) -- The National Weather Service confirmed that a tornado touched down in Middletown, Delaware on Sunday afternoon, leaving behind a path of destruction. The tornado was rated an EF-1 with estimated peak winds of 100 mph, according to the NWS.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "MIDDLETOWN, Delaware",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "MIDDLETOWN, Delaware (WPVI) -- The National Weather Service confirmed that a tornado touched down in Middletown, Delaware on Sunday afternoon, leaving behind a path of destruction. The tornado was rated an EF-1 with estimated peak winds of 100 mph, according to the NWS.Jul 10, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Did a tornado hit Delaware?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+a+tornado+hit+Delaware%3F&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQzmd6BAghEAY",
+            "answer_source": "Deadly Delaware tornado ranks as strongest in over 60 years",
+            "answer_link": "https://www.delawareonline.com/story/news/2023/04/03/deadly-delaware-tornado-ranks-as-states-strongest-in-over-60-years/70077773007/",
+            "answer_display_link": "https://www.delawareonline.com \u203a news \u203a 2023/04/03https://www.delawareonline.com \u203a news \u203a 2023/04/03",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCEQBQ\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQu04oAHoECCEQBQ\"><div id=\"PpnBZLWDN7-rqtsPx6ubqAM__22\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Weather officials detail path of <b>Delaware's strongest tornado in 60+ years</b>, 140-mph winds. The tornado that tore through parts of Sussex County on Saturday has been rated an EF-3 on the on the Enhanced Fujita scale, the National Weather Service announced Monday evening.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 3, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Weather officials detail path of Delaware's strongest tornado in 60+ years, 140-mph winds. The tornado that tore through parts of Sussex County on Saturday has been rated an EF-3 on the on the Enhanced Fujita scale, the National Weather Service announced Monday evening.Apr 3, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Who was killed in Delaware tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=Who+was+killed+in+Delaware+tornado%3F&sa=X&ved=2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQzmd6BAgiEAY",
+            "answer_source": "Family of Delaware Man Killed During Tornado Speak Out - YouTube",
+            "answer_link": "https://www.youtube.com/watch?v=1MwP8_NOCsQ",
+            "answer_display_link": "https://www.youtube.com \u203a watchhttps://www.youtube.com \u203a watch",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQu04oAHoECCIQBQ\"><div id=\"PpnBZLWDN7-rqtsPx6ubqAM__25\"><div class=\"wDYxhc NFQFxe\" data-md=\"294\"><div jscontroller=\"vvvZqd\" jsdata=\"QeZRUb;_;AW1l0w\" jsaction=\"rcuQ6b:npT2md;lQqO9c:TvD9Pc;sYd32b:kv4lH;BUYwVb:kv4lH\"><div><div class=\"L2AgXb\" data-hveid=\"CCAQAA\"><div class=\"qvSLpc dnEV5c\"><a jsname=\"JUCs7e\" style=\"display:none\" href=\"https://www.youtube.com/watch?v=1MwP8_NOCsQ\" jsaction=\"ti6hGc\" data-jsarwt=\"1\" data-usg=\"AOvVaw0fQuUUK8Ex1ORnfZk_YHKK\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQg_QBegQIIBAC\"></a><div role=\"button\" tabindex=\"0\" jsaction=\"ti6hGc\" class=\"aavBce\" aria-label=\"A span of a video titled Family of Delaware Man Killed During Tornado Speak Out - YouTube. The suggested span starts from 24 second and ends at 80 second, with duration of 56 seconds\"><div class=\"vfO4k\" style=\"width:100%\"><div style=\"width:100%;padding-top:56.25%\"></div><div class=\"MnwSrc\" style=\"position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;display:flex;align-items:center\"><div style=\"display:flex;flex-direction:column;align-items:center;width:100%\"><g-img style=\"width:100%\"><img data-src=\"\" class=\"YQ4gaf zr758c\" alt=\"Part of a video titled Family of Delaware Man Killed During Tornado Speak Out - YouTube\"></g-img></div></div><div class=\"fi3CNb\"></div><div class=\"Do1FMc\"><span style=\"height:48px;line-height:48px;width:48px\" class=\"z1asCe UIgqBe\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z\"></path></svg></span></div><div style=\"position:absolute;left:0;right:0;padding:0 16px;vertical-align:center;display:flex;bottom:0;color:#fff\"><div class=\"kAoFgd\"><div style=\"padding-bottom:1px;padding-left:calc(15.79% - 19px);line-height:12px\"><div style=\"position:relative\"><div class=\"NWd2Ib\"><span class=\"MF6MAc\">0:24</span></div><svg overflow=\"visible\" style=\"position:absolute;top:17px;left:15.5px;height:6px;width:9px\"><polygon fill=\"#fff\" points=\"0 0, 4.5 6, 9 0\"></polygon></svg></div></div><svg height=\"26\" width=\"100%\"><g opacity=\"0.54\"><rect fill=\"#fff\" height=\"4\" rx=\"2\" ry=\"2\" stroke=\"none\" width=\"100%\" y=\"3\"></rect></g><g><rect fill=\"#fff\" x=\"15.79%\" height=\"10\" stroke=\"none\" width=\"2\" y=\"0\"></rect><rect fill=\"#fff\" x=\"-52.63%\" height=\"10\" stroke=\"none\" transform=\"scale(-1 1)\" width=\"2\" y=\"0\"></rect><rect fill=\"#fff\" height=\"4\" width=\"36.64%\" x=\"15.89%\" y=\"3\" stroke=\"none\"></rect></g><svg x=\"34.21%\" overflow=\"visible\" y=\"14\"><polygon fill=\"#e8f0fe\" points=\"0,0 10,12 10,14, -10,14 -10,12\"></polygon></svg></svg></div><div class=\"ClE1Nc\"><span class=\"yp0ec\">2:32</span></div></div></div></div><div><g-lightbox jscontroller=\"ggQ0Zb\" data-df=\"false\" jsshadow=\"\" jsaction=\"rcuQ6b:npT2md\"><div><div jsname=\"jt9vfc\" aria-hidden=\"true\" role=\"button\" tabindex=\"0\" jsaction=\"focus:sT2f3e\" style=\"display:none\"></div><div jsname=\"AHe6Kc\" class=\"ynlwjd VDgVie DvHOIf xUZ4Hc\" style=\"display:none;outline:none\" role=\"dialog\" tabindex=\"-1\" jsaction=\"klllfd:hfClUb;QFR3de:vhMcte;pD9K6e:FL9aIe;KbF57e:DlGmce;mLt3mc\"><div class=\"dtCYCd VDgVie\" jsaction=\"yZGKvf\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ-UN6BAggEAQ\"><g-loading-icon jsname=\"aZ2wEe\" class=\"Xfh32\" style=\"display:none;height:24px;width:24px\"><img height=\"24\" src=\"//www.gstatic.com/ui/v1/activityindicator/loading_24.gif\" width=\"24\" alt=\"Loading...\" role=\"progressbar\"></g-loading-icon></div><div class=\"Xvesr BV6uAb\" aria-label=\"Close\" role=\"button\" tabindex=\"0\" jsaction=\"yZGKvf\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ-EN6BAggEAY\"></div><div jsname=\"Sx9Kwc\" class=\"AU64fe zsYMMe TUOsUe\" style=\"display:none\"><span jsslot=\"\"><div class=\"VFlF2c\"><div class=\"pE7Yzc\"><div class=\"tBZiXd\"><div class=\"jTSIHb\"><div><a href=\"https://www.youtube.com/watch?v=1MwP8_NOCsQ\" data-jsarwt=\"1\" data-usg=\"AOvVaw0fQuUUK8Ex1ORnfZk_YHKK\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQ-4ACegQIIBAH\"><div><span>Family of Delaware Man Killed During Tornado Speak Out - YouTube</span></div><div style=\"opacity:0.7\">YouTube</div></a></div></div><div jsname=\"haAclf\" data-ves=\"80\" data-vid=\"1MwP8_NOCsQ\" data-vss=\"24\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQpfQBegQIIBAI\"><iframe jsname=\"vLxpee\" allow=\"autoplay ;fullscreen\" frameborder=\"0\" height=\"100%\" width=\"100%\"></iframe></div><div style=\"flex-grow:1\"><div jsname=\"OGEiTb\" class=\"GoIRO\"><div jsname=\"zVT96b\">Start of suggested clip</div><div jsname=\"Me5Zx\" style=\"display:none\">End of suggested clip</div></div></div></div></div></div></span></div></div><div jsname=\"qngMid\" aria-hidden=\"true\" role=\"button\" tabindex=\"0\" jsaction=\"focus:tuePCd\" style=\"display:none\"></div></div></g-lightbox></div></div><div class=\"jRFvfe\" style=\"background-color:#e8f0fe\"><div class=\"UAMSo\" data-hveid=\"CCAQCQ\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQmdMFegQIIBAJ\"><div><div class=\"iMCzjd\"><div jscontroller=\"EAZJjb\"><span jsname=\"pQcl6\"><span class=\"XdBtEc\" aria-label=\"A part of the suggested span transcript before expanded is The ef-3 tornado that killed him reportedly the strongest ever to hit Delaware since they&amp;#39;ve been. You can view more by clicking More button at the end of this text\">The ef-3 tornado that killed him reportedly the strongest ever to hit Delaware since they've been</span><span jsname=\"FZud5\" class=\"w90itc\" role=\"button\" tabindex=\"0\" jsaction=\"JzCzbc\" data-ved=\"2ahUKEwi1muCksa2AAxW_lWoFHcfVBjUQwJ0GegQIIBAK\">More<span style=\"margin-left:1px;height:12px;line-height:12px;width:12px\" class=\"z1asCe QFl0Ff\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z\"></path></svg></span></span></span><span jsname=\"EVvVid\" class=\"CTkDab\"><span class=\"XdBtEc\" aria-label=\"A part of the suggested span transcript after expanded is The ef-3 tornado that killed him reportedly the strongest ever to hit Delaware since they&amp;#39;ve been keeping records. He got pinned underneath. This pile here.\">The ef-3 tornado that killed him reportedly the strongest ever to hit Delaware since they've been keeping records. He got pinned underneath. This pile here.</span></span></div></div></div></div></div></div></div></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "video",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

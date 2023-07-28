@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 426000000,
+        "search_time": 0.5,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Colorado storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:21:04.750Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Colorado+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_rloiuflrbet"
+    },
+    "organic": [
+        {
+            "link": "https://www.cpr.org/2023/02/22/colorado-weather-winter-storm-brings-more-snow-freezing-temps/",
+            "display_link": "https://www.cpr.org \u203a 2023/02/22 \u203a colorado-weather...",
+            "title": "Colorado weather: Winter storm brings more snow, below ...",
+            "description": "A large winter storm system is moving across Colorado, and it will bring at least several inches of snow, freezing rain and strong winds to most ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://kdvr.com/news/local/polis-declares-storm-disaster-for-4-colorado-counties/",
+            "display_link": "https://kdvr.com \u203a news \u203a local \u203a polis-declares-storm-...",
+            "title": "Polis declares storm disaster for 4 Colorado counties",
+            "description": "DENVER (KDVR) \u2014 The governor declared a disaster emergency for several Colorado counties Thursday after severe storms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nbcmiami.com/news/local/colorado-state-increases-hurricane-season-forecast-to-above-average/3066868/",
+            "display_link": "https://www.nbcmiami.com \u203a news \u203a local \u203a colorado-...",
+            "title": "Hurricane season 2023: Colorado State increases forecast ...",
+            "description": "Researchers from Colorado State have increased their forecast and are now predicting an \"above-average\" 2023 Atlantic hurricane season, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://coloradoencyclopedia.org/article/colorado-climate",
+            "display_link": "https://coloradoencyclopedia.org \u203a article \u203a colorado-c...",
+            "title": "Colorado Climate | Articles",
+            "description": "Colorado's combination of high elevation, midlatitude, and continental interior geography results in a cool, dry, and invigorating climate.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-06-12-colorado-springs-flood-tornado-boulder-hail",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Colorado Hit With Flooding, Hail, Storms",
+            "description": "R\u200boads were closed and cars stranded as strong storms brought heavy rain and hail to parts of Colorado Monday, including Colorado Springs and Boulder.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wdsu.com/article/colorado-state-university-hurricane-forecast-update/44465964",
+            "display_link": "https://www.wdsu.com \u203a article \u203a colorado-state-unive...",
+            "title": "Colorado State University Dr Phil Klotzbach hurricane ...",
+            "description": "This includes the three named storms Arlene, Bret & Cindy that already occurred plus the January subtropical storm. An average season has 14 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.summitdaily.com/news/monsoon-like-storms-to-stick-around-as-current-weather-pattern-grips-colorado-but-its-not-monsoon-season-yet/",
+            "display_link": "https://www.summitdaily.com \u203a news \u203a monsoon-like-...",
+            "title": "Monsoon-like storms to stick around as current weather ...",
+            "description": "But instead of the white stuff, Colorado is filling with rainy precipitation at near-historic rates. Meteorologists have issued three flash ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://patch.com/colorado/denver/colorado-weather-winter-storm-watch-front-range-palmer-divide",
+            "display_link": "https://patch.com \u203a colorado \u203a colorado-weather-winte...",
+            "title": "Winter Storm Watch Front Range/Palmer Divide - Denver",
+            "description": "Colorado Weather: Winter Storm Watch Front Range/Palmer Divide - Denver, CO - The storm should deliver both a shot of heavy rain and wet, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/03/12/colorado-wyoming-denver-snowstorm-blizzard/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/03/12 \u203a colo...",
+            "title": "Historic blizzard bearing down on Colorado and Wyoming",
+            "description": "Winter storm warnings are in effect in Denver, Boulder and Fort Collins, where the National Weather Service predicts 12 to 24 inches of snow. In ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.newsweek.com/colorado-blizzard-chaos-snow-storm-causes-multiple-car-crashes-1770095",
+            "display_link": "https://www.newsweek.com \u203a ... \u203a Weather \u203a Travel",
+            "title": "Colorado 'Blizzard' Chaos as Snow Storm Causes Multiple ...",
+            "description": "However, the inclement weather continued across Colorado, ... The paper said \"at least a dozen vehicles had reportedly veered into a ditch,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

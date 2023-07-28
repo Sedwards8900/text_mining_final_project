@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 154000000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arkansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:12.858Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arkansas+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_scp7pp5hvb"
+    },
+    "organic": [
+        {
+            "link": "https://www.4029tv.com/article/tuesday-severe-day-another-round-of-storm-expected/43488524",
+            "display_link": "https://www.4029tv.com \u203a article \u203a tuesday-severe-da...",
+            "title": "Arkansas weather: Tornadoes, strong winds, hail possible ...",
+            "description": "Crawford, Sebastian and Franklin counties are under severe thunder storm warnings. The 40/29 Get Ready Weather Team is tracking a new system ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kark.com/weather/weather-headlines/arkansas-storm-team-blog-low-end-severe-weather-chance-this-weekend/",
+            "display_link": "https://www.kark.com \u203a weather \u203a weather-headlines",
+            "title": "Severe t-storm watch for SW Arkansas until 5 pm",
+            "description": "The Arkansas Storm Team is a collaboration of two stations to bring you the largest weather team in the state when covering Arkansas weather. Be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.fox16.com/weather/weather-headlines/arkansas-storm-team-forecast-low-end-severe-weather-threat-today/",
+            "display_link": "https://www.fox16.com \u203a weather \u203a weather-headlines",
+            "title": "Arkansas Storm Team Weather Blog: Severe Thunderstorm ...",
+            "description": "However, some flash flooding will be possible with heavy rain. The tornado risk is very low at this time but is something the Arkansas Storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wsj.com/articles/large-tornado-hits-little-rock-ark-as-central-u-s-braces-for-severe-weather-fb9d781",
+            "display_link": "https://www.wsj.com \u203a articles",
+            "title": "Three Dead After Large Tornadoes Hit Arkansas",
+            "description": "At least 50 people injured around Little Rock as storms cause extensive damage. ... Continue reading your article with a WSJ subscription ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2023/mar/31/arkansas-tornado-little-rock",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a arkan...",
+            "title": "Monster storm system leaves at least 26 dead through US ...",
+            "description": "Tornadoes leave devastation across Arkansas, Illinois, Iowa and Oklahoma, including theatre roof ... This article is more than 3 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.jpost.com/breaking-news/article-736072",
+            "display_link": "https://www.jpost.com \u203a World News",
+            "title": "Tornado pummels central Arkansas, killing at least 20 ...",
+            "description": "Arkansas first responders on Saturday will sift through debris for more possible victims after a fierce tornado sliced through the Little Rock ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nbcdfw.com/news/local/texas-news/possible-tornado-hits-arkansas-deep-south-braces-for-storms/2927815/",
+            "display_link": "https://www.nbcdfw.com \u203a news \u203a local \u203a texas-news",
+            "title": "7 Hurt in Arkansas Tornado; Storms Move Into Deep South",
+            "description": "WDSU's tower cam recorded video of the tornado that struck New Orleans last night. Copyright AP - Associated Press. This article tagged under:.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-11926117/Terrifying-moment-monster-tornado-rips-apart-Arkansas-capital-Little-Rock-80mph-winds.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-11926117",
+            "title": "Terrifying moment monster tornado rips apart Arkansas ...",
+            "description": "On Friday, Little Rock, Arkansas, was hit by a severe tornado that caused significant damage to ... Share or comment on this article:.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnbc.com/2022/03/30/possible-tornado-hits-arkansas-deep-south-braces-for-storms-.html",
+            "display_link": "https://www.cnbc.com \u203a 2022/03/30 \u203a possible-tornado-...",
+            "title": "Possible tornado hits Arkansas; Deep South braces for ...",
+            "description": "A tornado watch was issued for most of Arkansas, northern Louisiana, southern Missouri, southeastern Oklahoma, and northeast Texas through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.newscenter1.tv/news/tornadoes-spawned-by-huge-system-destroy-homes-in-arkansas-3-dead/article_5c3ac6c0-463b-584f-99a3-e5d31de12614.html",
+            "display_link": "https://www.newscenter1.tv \u203a news \u203a article_5c3ac6c0-4...",
+            "title": "Tornadoes spawned by huge system destroy homes in ...",
+            "description": "A home is damaged and trees are down after a tornado swept through Little Rock, Ark., Friday, March 31, 2023. (AP Photo/Andrew DeMillo) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

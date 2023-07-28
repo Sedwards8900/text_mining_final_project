@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 26600000,
+        "search_time": 0.48,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "West Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:52:10.595Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=West+Virginia+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_3jy5nwc9plx"
+    },
+    "organic": [
+        {
+            "link": "https://www.reuters.com/article/usa-weather-power/update-3-west-virginia-struggles-with-power-outages-amid-new-storms-idUKL2E8I5DVF20120706",
+            "display_link": "https://www.reuters.com \u203a article \u203a usa-weather-power",
+            "title": "UPDATE 3-West Virginia struggles with power outages ...",
+            "description": "LEWISBURG, W.V., July 5 (Reuters) - Six days after violent storms hit the eastern United States, the state of West Virginia was struggling to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.2news.com/weather/ap_weather_headlines/oh-ohio-west-virginia-storm-damage/video_7b7c2fa1-5fce-55ed-9b9f-f7d75308d7cf.html",
+            "display_link": "https://www.2news.com \u203a weather \u203a ap_weather_headlines",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE | Weather - KTVN",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/03/west-virginia-record-may-snow/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/03 \u203a west...",
+            "title": "West Virginia sees biggest May snowfall on record with up ...",
+            "description": "The cause: A slow-moving zone of low pressure \u00b7 Historic West Virginia snow \u00b7 A storm for the books \u00b7 Storm to exit.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.register-herald.com/news/local_news/breaking-news-updated-with-photos-storm-prompts-state-of-emergency-motorists-stranded-thousands-without-power/article_32e11727-8623-5466-beae-b231d9b4fa6c.html",
+            "display_link": "https://www.register-herald.com \u203a news \u203a local_news \u203a a...",
+            "title": "Storm prompts state of emergency; motorists stranded ...",
+            "description": "The worst winter storm to hit southern West Virginia in nearly 12 years paralyzed much of the region Friday night and early Saturday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2009",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://wchstv.com/weather/blog/gallery/significant-snow-event-increasingly-likely-late-thursday-into-friday",
+            "display_link": "https://wchstv.com \u203a weather \u203a blog \u203a gallery \u203a signifi...",
+            "title": "Winter storm brings heavy snow to Tri-State and West ...",
+            "description": "Still a few days off, but be prepared for some wintry weather late this week. (WCHS){p}{/p}",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wsaz.com/weather/towercams.shtml",
+            "display_link": "https://www.wsaz.com \u203a weather \u203a towercams",
+            "title": "WSAZ Weather | First Warning Forecast | dual doppler radar",
+            "description": "Showers and storms largely avoided the region last night, though some rain clipped parts of southeastern Kentucky and far southern West Virginia. What did occur ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Mount_Storm,_West_Virginia",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Mount_Storm,_West...",
+            "title": "Mount Storm, West Virginia",
+            "description": "Mount Storm is an unincorporated community in Grant County, West Virginia, United States. Mount Storm lies on the Northwestern Turnpike (U.S. Route 50) at ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://crisisequipped.com/what-natural-disasters-occur-in-west-virginia/",
+            "display_link": "https://crisisequipped.com \u203a what-natural-disasters-occ...",
+            "title": "These Natural Disasters Can Occur in West Virginia! Are ...",
+            "description": "West Virginia doesn't get directly hit by hurricanes because it's a landlocked state, however, the remnants of hurricanes can bring in heavy rainfall and gusty ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://climatecheck.com/westvirginia",
+            "display_link": "https://climatecheck.com \u203a westvirginia",
+            "title": "Top Climate Change Risks: Heat, Precipitation, Flood",
+            "description": "West Virginia ranks #21 for storm risk. Highest storm risk: Rhode Island and New York Lowest storm risk: Nevada and Arizona.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.king5.com/article/weather/blizzard-in-west-virginia-as-storm-blows-through-appalachia/281-330702581",
+            "display_link": "https://www.king5.com \u203a article \u203a weather \u203a blizzard-i...",
+            "title": "Blizzard in West Virginia as storm blows through Appalachia",
+            "description": "ELKINS, W.Va. -- Wet snow and high winds spinning off the edge of superstorm Sandy spread blizzard conditions over parts of West Virginia ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 30, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

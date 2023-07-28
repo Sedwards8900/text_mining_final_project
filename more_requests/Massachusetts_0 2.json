@@ -1,0 +1,178 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 307000000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Massachusetts storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:32:07.045Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Massachusetts+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.2 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_rzf0e865h9"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/nation/2022/01/30/winter-storm-bomb-cyclone-outages/",
+            "display_link": "https://www.washingtonpost.com \u203a nation \u203a 2022/01/30",
+            "title": "Massachusetts residents dig out after 'bomb cyclone' storm",
+            "description": "\u201cThe storm moved out of our region last night, but we expect to be clearing more roads \u2026 and working with our utilities throughout the day today ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wbur.org/news/2023/03/14/heavy-snow-gusts-power-outage-winter-storm-massachusetts-new-england",
+            "display_link": "https://www.wbur.org \u203a news \u203a 2023/03/14 \u203a heavy-s...",
+            "title": "Powerhouse storm brings heavy snow and damaging gusts",
+            "description": "The storm also caused pockets of damage and power outages from heavy snow and fierce gusts, mostly in the western parts of Massachusetts.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.masslive.com/weather/2023/03/winter-storm-will-most-likely-develop-into-a-bomb-cyclone-forecasters-say.html",
+            "display_link": "https://www.masslive.com \u203a weather \u203a 2023/03 \u203a winter-...",
+            "title": "Winter storm most likely to develop into bomb cyclone, ...",
+            "description": "The strong high-impact winter storm that's sweeping across New England and bringing up to 18 inches of snow to parts of Massachusetts, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://whdh.com/news/winter-storm-expected-to-dump-up-to-7-inches-of-snow-in-parts-of-mass/",
+            "display_link": "https://whdh.com \u203a news \u203a winter-storm-expected-to-d...",
+            "title": "Winter storm expected to dump up to 7 inches of snow in ...",
+            "description": "Winter storm expected to dump up to 7 inches of snow in parts of Mass. ... A snowstorm that will roll into the area late Monday night into early ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://patch.com/massachusetts/boston/ma-weather-bomb-cyclone-exploding-region-rain-wind",
+            "display_link": "https://patch.com \u203a massachusetts \u203a boston \u203a ma-weath...",
+            "title": "'Bomb Cyclone' Nor'easter Starts Slow, Ramping Up",
+            "description": "MA Weather: 'Bomb Cyclone' Nor'easter Starts Slow, Ramping Up - Boston, MA - The powerful storms' quiet start won't last much longer as the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 16, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.weather.gov/box/1938hurricane",
+            "display_link": "https://www.weather.gov \u203a box",
+            "title": "NWS Boston - The Great Hurricane of 1938",
+            "description": "Rainfall from this hurricane resulted in severe river flooding across sections of Massachusetts and Connecticut. Three to six inches fell across much of western ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wired.com/story/a-bomb-cyclone-brings-massive-flooding-to-new-englandagain/",
+            "display_link": "https://www.wired.com \u203a Science \u203a extreme weather",
+            "title": "A Bomb Cyclone Brings Massive Flooding to New England ...",
+            "description": "\u201cTree down on a house on Mayflower Street.\u201d \u201cWires down on at Keene Street and Congress.\u201d The seaside Massachusetts town is now firmly in the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.woodmans.com/14-most-infamous-storms-north-shore/",
+            "display_link": "https://www.woodmans.com \u203a 14-most-infamous-stor...",
+            "title": "The 14 Most Infamous Storms on the North Shore",
+            "description": "Gusts recorded at Blue Hill Observatory in Massachusetts were measured at 135 mph, while gusts at the New Bedford Airport hit 110 mph in a sheltered area.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Massachusetts+storm+%22article%22&sa=X&ved=2ahUKEwjvl6303q2AAxVemmoFHVK1CQM4CxDm3gJ6BAgWEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.boston25news.com/news/local/winter-storm-warning-effect-parts-massachusetts-new-hampshire/OTFMQCGCDVGINPGE3I2LDKODME/",
+            "display_link": "https://www.boston25news.com \u203a news \u203a local \u203a winte...",
+            "title": "Winter storm warning in effect for parts of Massachusetts, ...",
+            "description": "In Massachusetts, parts of Worcester, Middlesex, Franklin, Hampshire, and Berkshire counties are under the warning from through Monday evening, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://live959.com/western-massachusetts-braces-for-another-winter-storm-its-big-this-time/",
+            "display_link": "https://live959.com \u203a western-massachusetts-braces-for...",
+            "title": "Western Massachusetts Braces for Another Winter Storm",
+            "description": "Now I'm not trying to tease everyone here, because I know winter storm Keenan which made landfall over the weekend was disappointing for some of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

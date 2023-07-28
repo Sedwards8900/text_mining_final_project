@@ -1,0 +1,153 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 37200000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:23.799Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_l2sdsg2q0si"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/cat6/maria-pulling-away-north-carolina-lee-major-hurricane",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a maria-pullin...",
+            "title": "Maria Pulling Away From North Carolina; Lee a Major ...",
+            "description": "Tropical Storm Warnings and Storm Surge Warnings continued for much of North Carolina's Outer Banks on Wednesday as Hurricane Maria began to slowly pull ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://weather.com/news/weather/news/2023-07-19-north-carolina-tornado-dortches",
+            "display_link": "https://weather.com \u203a news \u203a weather \u203a news \u203a 2023-07-...",
+            "title": "North Carolina Pfizer Factory Heavily Damaged By Tornado",
+            "description": "The twister was the first EF-3 tornado ever observed in central North Carolina in the month of July. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Florence",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Florence",
+            "title": "Hurricane Florence",
+            "description": "The hurricane's sluggish movement resulted in widespread, catastrophic rainfall throughout North and South Carolina. After making landfall, the tropical cyclone ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.13newsnow.com/article/traffic/storm-could-cause-driving-challenges-on-outer-banks-this-weekend/291-728edd9a-62f9-4b4f-bcc9-6da0b8a260b7",
+            "display_link": "https://www.13newsnow.com \u203a article \u203a traffic \u203a storm...",
+            "title": "Storm could create driving challenges on Outer Banks of NC",
+            "description": "HATTERAS, N.C. \u2014 A huge storm system bearing down on the East Coast is expected to have significant impacts on North Carolina Highway 12 on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/north-carolina/raleigh",
+            "display_link": "https://www.theweathernetwork.com \u203a raleigh",
+            "title": "3-Day Severe Weather Outlook: Raleigh, North Carolina",
+            "description": "Raleigh, NC. The Severe Weather Outlook helps you prepare for significant weather, such as an upcoming storm, that could result in weather warnings or ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.pressdemocrat.com/article/news/north-carolina-beach-homes-collapse-from-lumbering-coastal-storm/",
+            "display_link": "https://www.pressdemocrat.com \u203a News \u203a Nation",
+            "title": "North Carolina beach homes collapse from lumbering ...",
+            "description": "The incident on the Outer Banks has exposed the risk to shoreline homes from storms and the rising sea.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://patch.com/north-carolina/across-nc/tropical-storm-laura-how-storms-track-could-impact-nc",
+            "display_link": "https://patch.com \u203a north-carolina \u203a across-nc \u203a tropic...",
+            "title": "Tropical Storm Laura: How Storm's Track Could Impact NC",
+            "description": "Tropical Storm Laura, which is expected to turn into a hurricane in the Gulf of Mexico by Tuesday night could impact NC, forecasters said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 24, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://artisanqualityroofing.com/hurricanes-like-in-the-triangle-area/",
+            "display_link": "https://artisanqualityroofing.com \u203a hurricanes-like-in-t...",
+            "title": "What are Hurricanes Like in Raleigh & the NC Triangle?",
+            "description": "Both hurricanes and tropical storms are types of cyclones. To learn more about how a hurricane forms, you can check out this article from National Geographic.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nationalgeographic.org/article/what-forecasters-got-right-and-wrong-about-florence/",
+            "display_link": "https://www.nationalgeographic.org \u203a article \u203a what-fo...",
+            "title": "What Forecasters Got Right and Wrong About Florence",
+            "description": "The hurricane has caused severe flooding in the Carolinas. ... East satellite on September 12, 2018, two days before it made landfall in North Carolina.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nature.com/articles/s41370-021-00325-5",
+            "display_link": "https://www.nature.com \u203a ... \u203a articles",
+            "title": "Environmental impacts of Hurricane Florence flooding in ...",
+            "description": "Hurricane Florence made landfall in North Carolina in September 2018 causing extensive flooding. ... Article; Published: 24 April 2021 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by NA Aly",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 22",
+                    "rank": 3
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

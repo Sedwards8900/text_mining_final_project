@@ -1,0 +1,333 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 53300000,
+        "search_time": 0.34,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:59.869Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_4z9k3cfmhdc"
+    },
+    "organic": [
+        {
+            "link": "https://www.wlwt.com/article/kentucky-severe-weather-threat-storms-tornado-beshear/43176558",
+            "display_link": "https://www.wlwt.com \u203a article \u203a kentucky-severe-wea...",
+            "title": "Kentucky Gov. Beshear issues state of emergency ahead ...",
+            "description": "\"Kentucky is facing dangerous weather, with severe storms, damaging winds and the possibility of tornadoes and flooding. I want to make sure we ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kentucky.com/news/weather-news/article276931183.html",
+            "display_link": "https://www.kentucky.com \u203a news \u203a article276931183",
+            "title": "Tornadoes, hail, wind and haze. Kentucky weather keeps ...",
+            "description": "Kentucky had many rounds of unseasonable, unusual & severe weather over the past year, including floods, extreme cold, high winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 3, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Kentucky+storm+%22article%22&sa=X&ved=2ahUKEwiu8sS33q2AAxWQM1kFHSFkDj44EBDm3gJ6BAgMEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.courier-journal.com/story/news/2021/12/11/what-we-know-about-kentucky-tornadoes-storm-damage-power-outages-deaths/6475716001/",
+            "display_link": "https://www.courier-journal.com \u203a news \u203a 2021/12/11",
+            "title": "What we know about Kentucky tornadoes, storm damage ...",
+            "description": "Kentucky tornadoes: What to know about the damage, deaths after overnight storms ... While much of the nation slept early Saturday morning, a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.newsweek.com/photos-show-aftermath-deadly-kentucky-storm-over-400k-lost-power-1785538",
+            "display_link": "https://www.newsweek.com \u203a photos-show-aftermath-...",
+            "title": "Photos Show Aftermath of Deadly Kentucky Storm as Over ...",
+            "description": "Lexington and the central Kentucky region experienced severe weather on Friday afternoon as high-speed winds and two tornadoes swept through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnbc.com/2021/12/11/kentucky-gov-declares-state-of-emergency-after-deadly-tornado.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/12/11 \u203a kentucky-gov-dec...",
+            "title": "Kentucky Gov. declares state of emergency after deadly ...",
+            "description": "Beshear said the tornado that slammed through Western Kentucky struck the city Mayfield before moving northeast through Benton, Princeton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://news.yahoo.com/more-bad-weather-projected-kentucky-124456636.html",
+            "display_link": "https://news.yahoo.com \u203a more-bad-weather-projected...",
+            "title": "More bad weather projected as Kentucky communities ...",
+            "description": "Torrential rainfall and damaging winds are expected to be the main hazards in a storm system taking aim at Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsiltv.com/news/kentucky/severe-storms-cause-damage-throughout-western-kentucky-southern-illinois/article_4adf300e-d3ed-11ed-aca0-a794caa61b04.html",
+            "display_link": "https://www.wsiltv.com \u203a news \u203a kentucky \u203a article_4adf...",
+            "title": "Severe storms cause damage throughout Western ...",
+            "description": "MURRAY, Ky. -- Communities in multiple western Kentucky counties received damage after storms swept through the area Wednesday afternoon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Kentucky governor: At least 50 killed in severe storms - YouTube",
+            "description": "The governor said more than 50 fatalities are expected from the storm. Most of the damage was in southern and western Kentucky.",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "WHAS11",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAwECBAUGB//EADEQAAEDAwIEBQMDBQEAAAAAAAEAAhEDBCESMQUTQVEGImFxkRQyoUJSgRUkQ4LRB//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMFBP/EACQRAQACAQQCAAcAAAAAAAAAAAABEQIDEiExQVEEEyJxcpGx/9oADAMBAAIRAxEAPwD5jbCx5f8AdC65k/4tMR/P8prjww6cXrQMbsJKyNElBElJKagp63mjr5f6dcT/ADCWE0fY4JcINDB5gobuVcCFXKAD9oCqFZRGUBBEFQrOHmPuoIQEKFMIKAg4KFJ3UIAUBSoQE9FCAoTAQhCDbAMFEJoYY2QGqSU0ww+6pC0xLYhM+kfAJaciUrOMZq2KFUhauXk+iS5sJ2rbwSgGJVi1RpTQoUFWhRCAqgqUEICpUKyCMICqgqSoQAgoUIAQhCDemdwusxmosMd1mfbODS7SYmJjErrXHjXjV1Yi1ebZrJyW2zASO2y5Qvr2rTNF1Qmm52rRAiVnju8q4L5cYhfSuA8S4Twbw02ndcP134puFRzabS4lxMST6QuR4P8ACreP8qpc3gpikYLIEn0Hdel8Q8HsOE8NbT5/OrVrjWTAPlA2/KnV6tvh8Jp687M5eCb4V4o5g5VAPjc6wubxXgl/YaTc25YH/bkGfhfa7T+kBjgziNvvsXgR+V4j/wBKZRdWtBa3NOp5HNOhwMElXjVM9TKenzyyGp7sTAWk087BPtG06d39LpaXCWl4G8doW6vYlsBjAX9iVfbCXJ5Q7BHJB/St5t3AajTGnvqMKzaMO0uYQ79okp7S5cz6Zs/aPhNbb4+0fC0VK9Bjuh9sqv11MT5Cf9YRQZq1GB9o+FlqM9Fvr34eIFBvvKwVKjnTgD2SDO9vollszHZNcCd1QhCiFCaWqulAUQrQhAdJjCtFKGEGdlmDvcq7XbKWmMw9b4eFI3VGpcmo2nsDSOZXoeLWFvZ+HrS/pVKhJuDTAdtGT8ryvCLv6VlpUxl7ivS+Ibrm+BbDMuN4534P/V59SbiL9uzh9GUV6i/1LFW4yWsdpc6ScrznGrnn3LahJy38pTq7i4guBWW6eHPaXZaOi3jqnL1anmkig2scQXJb7HpB9lpa9gcGiB26LZRIqMBAGMKZmYeaXDdZhp2KsGxhdupRGZaEh9uw5ZEKfmlbmaJG6iCNzha6lAx5SUkU3MJDs9jCe8EvmMBUc09QtD8pT46ojMWQYSyxNqARhUnCqzKLVTSnEQq4VWC9JQrE5UosGyrBxSmuwn0nhpyJlC8YiZ5dNlctt7dv7ZXe4vduqeErGhA8lVz/AJXli+WM29F0r2qDwmg3BIO68+Udfd2dOst8+sY/lOcX49Uis6TlS96U4yt3Hy7OpnXSMbtT7a4fSJbMg9CYWOi/TUlTVME6SflExfDN3WXD3eTQTGwGyG1Wk+c6QsFneeXS4QYgJ1RweNg2B06rz5Y8lMNDnMIh5mDiFlraQPKZnt0UNIaDBMyqOfrcS0geowp2lRDs4bv1ISnOMGU53eR2wlP7flawcEuKrqEKzohKK0iDTIj1VSiVUuToJJ9EKslCYXamIQmqGyBy2ey13bibGk0nAlQheefDtafWf4uWd1V24Qhbw409oB8w91ZylCaQNj7LXR2G/wAoQpyCxJD8E42yrETB6qULGUyREuyl9UIVYjyS8JZ2lCFpBqFR0QhUaChCEE//2Q==",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAAAwECBAUGB//EADEQAAEDAwIEBQMDBQEAAAAAAAEAAhEDBCESMQUTQVEGImFxkRQyoUJSgRUkQ4LRB//EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMFBP/EACQRAQACAQQCAAcAAAAAAAAAAAABEQIDEiExQVEEEyJxcpGx/9oADAMBAAIRAxEAPwD5jbCx5f8AdC65k/4tMR/P8prjww6cXrQMbsJKyNElBElJKagp63mjr5f6dcT/ADCWE0fY4JcINDB5gobuVcCFXKAD9oCqFZRGUBBEFQrOHmPuoIQEKFMIKAg4KFJ3UIAUBSoQE9FCAoTAQhCDbAMFEJoYY2QGqSU0ww+6pC0xLYhM+kfAJaciUrOMZq2KFUhauXk+iS5sJ2rbwSgGJVi1RpTQoUFWhRCAqgqUEICpUKyCMICqgqSoQAgoUIAQhCDemdwusxmosMd1mfbODS7SYmJjErrXHjXjV1Yi1ebZrJyW2zASO2y5Qvr2rTNF1Qmm52rRAiVnju8q4L5cYhfSuA8S4Twbw02ndcP134puFRzabS4lxMST6QuR4P8ACreP8qpc3gpikYLIEn0Hdel8Q8HsOE8NbT5/OrVrjWTAPlA2/KnV6tvh8Jp687M5eCb4V4o5g5VAPjc6wubxXgl/YaTc25YH/bkGfhfa7T+kBjgziNvvsXgR+V4j/wBKZRdWtBa3NOp5HNOhwMElXjVM9TKenzyyGp7sTAWk087BPtG06d39LpaXCWl4G8doW6vYlsBjAX9iVfbCXJ5Q7BHJB/St5t3AajTGnvqMKzaMO0uYQ79okp7S5cz6Zs/aPhNbb4+0fC0VK9Bjuh9sqv11MT5Cf9YRQZq1GB9o+FlqM9Fvr34eIFBvvKwVKjnTgD2SDO9vollszHZNcCd1QhCiFCaWqulAUQrQhAdJjCtFKGEGdlmDvcq7XbKWmMw9b4eFI3VGpcmo2nsDSOZXoeLWFvZ+HrS/pVKhJuDTAdtGT8ryvCLv6VlpUxl7ivS+Ibrm+BbDMuN4534P/V59SbiL9uzh9GUV6i/1LFW4yWsdpc6ScrznGrnn3LahJy38pTq7i4guBWW6eHPaXZaOi3jqnL1anmkig2scQXJb7HpB9lpa9gcGiB26LZRIqMBAGMKZmYeaXDdZhp2KsGxhdupRGZaEh9uw5ZEKfmlbmaJG6iCNzha6lAx5SUkU3MJDs9jCe8EvmMBUc09QtD8pT46ojMWQYSyxNqARhUnCqzKLVTSnEQq4VWC9JQrE5UosGyrBxSmuwn0nhpyJlC8YiZ5dNlctt7dv7ZXe4vduqeErGhA8lVz/AJXli+WM29F0r2qDwmg3BIO68+Udfd2dOst8+sY/lOcX49Uis6TlS96U4yt3Hy7OpnXSMbtT7a4fSJbMg9CYWOi/TUlTVME6SflExfDN3WXD3eTQTGwGyG1Wk+c6QsFneeXS4QYgJ1RweNg2B06rz5Y8lMNDnMIh5mDiFlraQPKZnt0UNIaDBMyqOfrcS0geowp2lRDs4bv1ISnOMGU53eR2wlP7flawcEuKrqEKzohKK0iDTIj1VSiVUuToJJ9EKslCYXamIQmqGyBy2ey13bibGk0nAlQheefDtafWf4uWd1V24Qhbw409oB8w91ZylCaQNj7LXR2G/wAoQpyCxJD8E42yrETB6qULGUyREuyl9UIVYjyS8JZ2lCFpBqFR0QhUaChCEE//2Q==",
+            "duration": "8:55",
+            "duration_sec": 535,
+            "author": "WHAS11",
+            "date": "Dec 11, 2021",
+            "moments": [
+                {
+                    "title": "Tornadoes",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=8",
+                    "start": "00:08",
+                    "start_sec": 8,
+                    "rank": 1
+                },
+                {
+                    "title": "Mayfield Kentucky",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=69",
+                    "start": "01:09",
+                    "start_sec": 69,
+                    "rank": 2
+                },
+                {
+                    "title": "Team Coverage",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=104",
+                    "start": "01:44",
+                    "start_sec": 104,
+                    "rank": 3
+                },
+                {
+                    "title": "Chief Meteorologist Ben Pine and the First Alert Storm",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=114",
+                    "start": "01:54",
+                    "start_sec": 114,
+                    "rank": 4
+                },
+                {
+                    "title": "Quad Cities Tornado",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=149",
+                    "start": "02:29",
+                    "start_sec": 149,
+                    "rank": 5
+                },
+                {
+                    "title": "Flash Flood",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=185",
+                    "start": "03:05",
+                    "start_sec": 185,
+                    "rank": 6
+                },
+                {
+                    "title": "Up to 100 Kentuckians",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=331",
+                    "start": "05:31",
+                    "start_sec": 331,
+                    "rank": 7
+                },
+                {
+                    "title": "Bowling Green Kentucky",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=413",
+                    "start": "06:53",
+                    "start_sec": 413,
+                    "rank": 8
+                },
+                {
+                    "title": "Power Outage Numbers",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=480",
+                    "start": "08:00",
+                    "start_sec": 480,
+                    "rank": 9
+                },
+                {
+                    "title": "Power Outages",
+                    "link": "https://www.youtube.com/watch?v=IpUsDGtCFWE&t=530",
+                    "start": "08:50",
+                    "start_sec": 530,
+                    "rank": 10
+                }
+            ],
+            "source": "YouTube",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.lpm.org/investigate/2021-12-17/in-western-kentucky-tornadoes-are-frequent-and-put-billions-at-risk",
+            "display_link": "https://www.lpm.org \u203a investigate \u203a in-western-kentuc...",
+            "title": "In western Kentucky, tornadoes are frequent",
+            "description": "The threat is especially high in the counties in the path of last week's deadly tornado front: Fulton, Hickman, Graves, Marshall, Lyon, Caldwell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ],
+    "images": [
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Kentucky Tornadoes Followed Flash Floods, Ice Storm and a ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Kentucky tornadoes: up to 100 feared dead in historic US ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "A Kentucky Town Feels the Long Reach of a Tornado's Trauma ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Kentucky tornado damages, aftermath day 2 live updates",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 13
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYz9A-_pZQeLh9GO72YY7tQoLqgROkAsIvrfeYxSDhoA&s",
+            "image_alt": "Tornadoes wreak havoc across the South",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYz9A-_pZQeLh9GO72YY7tQoLqgROkAsIvrfeYxSDhoA&s",
+            "rank": 5,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKOtoWz6FhN7_JTBBc3WJKBZmVcKi97VaNQ1zDeQWsQ&s",
+            "image_alt": "Kentucky tornadoes: 74 confirmed dead, Biden to visit Wednesday",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKKOtoWz6FhN7_JTBBc3WJKBZmVcKi97VaNQ1zDeQWsQ&s",
+            "rank": 6,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjbzj8NWkxkIS7TyQtYdxapsunKKzXUiYdIPqP0c2bQ&s",
+            "image_alt": "Tornadoes leave damage in Louisville, parts of Meade County",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROjbzj8NWkxkIS7TyQtYdxapsunKKzXUiYdIPqP0c2bQ&s",
+            "rank": 7,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKUQ2zuJdthDspLlhCfYr4CpbJw5PL3SHoZ8AQqkHYQ&s",
+            "image_alt": "The Violent Tornado Outbreak of December 10-11, 2021",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvKUQ2zuJdthDspLlhCfYr4CpbJw5PL3SHoZ8AQqkHYQ&s",
+            "rank": 8,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVOwWYeVLxG5dmAeV9TLsKn66b4VUphPP6kgP8-nxPsQ&s",
+            "image_alt": "Ice Storm Strikes Tornado-Ravaged Areas of Tennessee ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVOwWYeVLxG5dmAeV9TLsKn66b4VUphPP6kgP8-nxPsQ&s",
+            "rank": 9,
+            "global_rank": 18
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxuZTbj38348V9tk-GKkn9k1qU_RRav7wlAItf0nWCQ&s",
+            "image_alt": "Kentucky Gov. declares state of emergency after deadly tornado",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwxuZTbj38348V9tk-GKkn9k1qU_RRav7wlAItf0nWCQ&s",
+            "rank": 10,
+            "global_rank": 19
+        }
+    ]
+}

@@ -1,0 +1,2157 @@
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+				
+		<!-- OneTrust Cookies Consent Notice start for boston.com -->
+		<script id="onetrustSDK" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1744ffcc-f9fb-436a-97fd-6530afa75829"></script>		<!-- OneTrust Cookies Consent Notice end for boston.com -->
+
+		<script type="text/javascript">
+
+			/**
+	 		 * OptanonWrapper callback function. We use the OptanonWrapper function to listen for a user event and determine script behavior based on the user event.
+	 		 *
+	 		 * @return void
+	 		*/
+			function OptanonWrapper() {
+
+				/**
+				* The below code is checking if the user has given consent to the vendor. 
+				*  If the user has given consent, the consent string is stored in the local storage. 
+				*  This code is block untill IAB framework is available.
+				*/
+				if (typeof __tcfapi === "function") {
+					__tcfapi("getTCData", 2, (tcData, success) => {
+						if (success) {
+							consentString = tcData.tcString;
+							localStorage.setItem( 'iabConsentString', consentString);
+						} 
+						isTCF2 = true;
+					});
+				}
+
+				if( ( typeof OptanonWrapperCount )  == "undefined" ){  // Consent has not fired.
+					let OTConsentCookieInit = OneTrustGetCookie( 'OptanonConsent' );
+					let OTConsentGroups     = OneTrustGetGroups ( OTConsentCookieInit );
+					OneTrustGetInitialGroups();
+					OneTrustSetConsentValues( OTConsentGroups );
+					GetGdprCountriesUserLocation( OTConsentCookieInit );
+    			}
+
+				// Assign OnetrustActiveGroups to a custom initial variable so we can compare any changes to this data layer.
+				function OneTrustGetInitialGroups() {
+					OptanonWrapperCount = '';
+					OTinitGroups =  OnetrustActiveGroups;  // See https://community.cookiepro.com/s/article/UUID-66bcaaf1-c7ca-5f32-6760-c75a1337c226?language=en_US
+    			}
+
+				// Returns the OptanonConsent cookie using its name as a parameter. Not parsed.
+				function OneTrustGetCookie( name ) {
+					const value = `; ${document.cookie}`;
+  					const parts = value.split(`; ${name}=`);
+					  
+  					if (parts.length === 2) {
+						return decodeURIComponent( parts.pop().split(';').shift() );
+					}
+
+					return;
+
+				}
+
+				// Parses the OptanonConsent Cookie values only. We are interested in the groups (which carry the consent). Returns an object with all the values of said cookie.
+				function OneTrustGetConsentObject( OTcookie ) {
+					let OTConsentObj = {};
+					
+					OTcookie.split('&').forEach( ( pair ) => {
+  						if( pair !== '' ) {
+    						let splitpair = pair.split('=');
+    						let key = splitpair[0].charAt(0).toLowerCase() + splitpair[0].slice(1).split(' ').join('');
+    						OTConsentObj[key] = splitpair[1];
+  						}
+					});
+					
+					return OTConsentObj;
+					
+				}
+
+				// Grabs the OptanonConsent cookie, turns this into an object (using OneTrustGetConsentObject), targets the 'groups' value, turns it into an array, removes the first element of the array.
+				function OneTrustGetGroups ( cookie ) {
+					let OTConsentArr = [];
+					let OTConsentGroupsStr = OneTrustGetConsentObject(cookie).groups;
+					
+					OTConsentArr = OTConsentGroupsStr.split(",");
+					OTConsentArr.shift();
+
+					return OTConsentArr;
+					
+				}
+
+				// Sets the consent values based on the groups paramater, which is an array of consent categories that has been parsed from the OptanonConsent cookie.
+				function OneTrustSetConsentValues( groups ){
+					// Create a json list with the values ​​of each consent. These values ​​will be updated if the user starts to toggle consent.
+					// We then create a local storage item to read these values in other parts of the theme that require it. Converted to json in case we need to keep adding items.
+					let json_consent = {};
+					json_consent[ "C0002" ] = groups[0].includes('2:1') ? true : false;
+					json_consent[ "C0003" ] = groups[1].includes('3:1') ? true : false;
+					json_consent[ "C0004" ] = groups[2].includes('4:1') ? true : false;
+					let consent = JSON.stringify( json_consent );
+					localStorage.setItem( 'consent_one_trust_bdc', consent );
+    			}
+
+				/**
+				 * If the user's country code is in the array of EU country codes, then set the local storage item
+				 * `consent_country_gdpr` to `true`
+				 * https://cdn.cookielaw.org/scripttemplates/otSDKStub.js this.EUCOUNTRIES=
+				 */
+				function GetGdprCountriesUserLocation( cookie ){
+					let OTConsentGeolocation = OneTrustGetConsentObject(cookie).geolocation;
+					let countryCode = OTConsentGeolocation.split(';');
+					/* Creating an array of country codes. */
+					let CountryList = ["BE","BG","CZ","DK","DE","EE","IE","GR","ES","FR","IT","CY","LV","LT","LU","HU","MT","NL","AT","PL","PT","RO","SI","SK","FI","SE","GB","HR","LI","NO","IS"];
+					let CountryCodeConsent = CountryList.includes(countryCode[0]) ? true : false;
+					// CCPA script
+					if( 'US;CA' === OTConsentGeolocation ) {
+						insertCCPAscript();
+					}
+					// TCF script
+					if( CountryCodeConsent ) {
+						insertTCFscript();
+					}
+					/* Setting the local storage for the consent_country_state and consent_country_gdpr. */
+					localStorage.setItem( 'consent_country_state', OTConsentGeolocation );
+					localStorage.setItem( 'consent_country_gdpr', CountryCodeConsent );
+				}
+
+				/**
+				 * It creates a script tag and adds it to the body of the page.
+				 * https://developer.onetrust.com/onetrust/docs/iab-ccpa-us-privacy-string
+				 */
+				function insertCCPAscript() {
+					var OTTag = document.createElement( 'script' );
+
+					// Add standard script attributes
+					OTTag.setAttribute( 'src', 'https://cdn.cookielaw.org/opt-out/otCCPAiab.js' );
+					OTTag.setAttribute( 'type', 'text/javascript' );
+					OTTag.setAttribute( 'charset', 'UTF-8' );
+
+					// Add custom attributes
+					OTTag.setAttribute( 'ccpa-opt-out-ids', 'C0001,C0002,C0003,C0004' );
+					OTTag.setAttribute( 'ccpa-opt-out-geo', 'ca' );
+					OTTag.setAttribute( 'ccpa-opt-out-lspa', 'true' );
+
+					document.body.appendChild( OTTag );
+
+					/* The below code is checking if the __uspapi function exists and if it does,
+					* it is calling the function and passing in the parameters.
+					* resources: https://developer.onetrust.com/onetrust/docs/iab-ccpa-us-privacy-string
+					*/
+					window.addEventListener("load", function () {
+						if ( typeof __uspapi === "function" ) {
+							__uspapi('getUSPData', 1 , (uspData, success) => {
+							if ( success ) {
+									localStorage.setItem( 'upsConsentString', uspData.uspString );
+								} 
+							});
+						}
+					});
+				}
+
+				/**
+				 * It inserts the TCF script into the DOM.
+				 * https://developer.onetrust.com/onetrust/docs/using-tcf-with-header-bidding
+				 */
+				function insertTCFscript(){
+					const scriptOnetrust = document.getElementById( 'onetrustSDK' );
+					if ( scriptOnetrust ) {
+						var OTTagTCF = document.createElement( 'script' );
+						// Add standard script attributes
+						OTTagTCF.setAttribute( 'src', 'https://cdn.cookielaw.org/consent/tcf.stub.js' );
+						OTTagTCF.setAttribute( 'type', 'text/javascript' );
+						OTTagTCF.setAttribute( 'charset', 'UTF-8' );
+						//https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+						scriptOnetrust.insertAdjacentHTML( 'beforebegin',OTTagTCF );
+					}
+				}
+
+				// OneTrust event listener that fires whenever someone confirms cosent preferences (banner).
+				Optanon.OnConsentChanged( function() {
+					
+					// OTinitGroups are the initial values of the OptanonConsent before the change and  OnetrustActiveGroups after someone has updated the values. If not the same, consent has changed.
+					if( OTinitGroups !== OnetrustActiveGroups ) {
+						OTinitGroups = OnetrustActiveGroups;
+						
+						let OTConsentCookieChanged = OneTrustGetCookie( 'OptanonConsent' );
+						let OTConsentGroups        = OneTrustGetGroups ( OTConsentCookieChanged );
+
+						OneTrustSetConsentValues( OTConsentGroups );
+					}
+					
+				});
+
+			}
+
+		</script>
+		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+	<style id="typekit-font-loading">
+		@import url("https://p.typekit.net/p.css?s=1&k=ewj0jxz&ht=tk&f=12784.12094.12095&a=43290994&app=typekit&e=css");
+
+		@font-face {
+			font-family:"franklin-gothic-urw-cond";
+			src:url("https://use.typekit.net/af/f4a030/000000000000000077359dfc/30/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/f4a030/000000000000000077359dfc/30/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/f4a030/000000000000000077359dfc/30/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n5&v=3") format("opentype");
+			font-display:swap;font-style:normal;font-weight:500;font-stretch:normal;
+		}
+
+		@font-face {
+			font-family:"franklin-gothic-urw-cond";
+			src:url("https://use.typekit.net/af/a2031c/0000000000000000000118b9/27/l?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/a2031c/0000000000000000000118b9/27/d?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/a2031c/0000000000000000000118b9/27/a?primer=fff1a989570eb474b8c22c57cc7199e63bfc7e911b750165d0199218f0b7e7cc&fvd=n7&v=3") format("opentype");
+			font-display:swap;font-style:normal;font-weight:700;font-stretch:normal;
+		}
+	</style>
+		<style id="cls-ad-css">
+		[id="ad_lead1"] {
+			min-height: 50px;
+		}
+
+		@media only screen and (min-width: 768px) {
+			[id="ad_lead1"] {
+				min-height: 90px;
+			}
+		}
+
+		[id="ad_sectionfront1"],
+		[id="ad_sectionfront2"],
+		[id="ad_articlerail1"],
+		[id="ad_articlerail2"] {
+			position: relative;
+		}
+
+		[id="ad_sectionfront1"]::before,
+		[id="ad_sectionfront2"]::before,
+		[id="ad_articlerail1"]::before,
+		[id="ad_articlerail2"]::before {
+			content: "Advertisement";
+			color: #68686d;
+			display: block;
+			font-family:"franklin-gothic-urw-cond";
+			font-size: .875rem;
+			font-weight: 700;
+			padding-bottom: 0.25rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		.m-real-estate-listing__content [id="ad_sectionfront1"]::before,
+		.m-real-estate-listing__content [id="ad_sectionfront2"]::before,
+		.m-real-estate-listing__content [id="ad_articlerail1"]::before,
+		.m-real-estate-listing__content [id="ad_articlerail2"]::before {
+			display: none;
+		}
+
+		@media only screen and (min-width: 768px) {
+
+			.m-real-estate-listing__content [id="ad_sectionfront1"]::before,
+			.m-real-estate-listing__content [id="ad_sectionfront2"]::before,
+			.m-real-estate-listing__content [id="ad_articlerail1"]::before,
+			.m-real-estate-listing__content [id="ad_articlerail2"]::before {
+				display: block;
+			}
+		}
+
+		.m-advert--600 {
+			height: 600px;
+		}
+
+		.m-sports-bar {
+			min-height: 59px;
+		}
+
+	</style>
+	<link rel="preconnect" href="//c.amazon-adsystem.com" crossorigin /><link rel="preconnect" href="//ads.pubmatic.com" crossorigin /><link rel="preconnect" href="//securepubads.g.doubleclick.net" crossorigin /><link rel="preconnect" href="https://use.typekit.net" crossorigin /><link rel="preconnect" href="https://p.typekit.net" crossorigin /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" as="style" /><link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"><link rel="preload" as="font/woff" href="https://use.typekit.net/af/f4a030/000000000000000077359dfa/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" /><link rel="preload" as="font/woff2" href="https://use.typekit.net/af/f4a030/000000000000000077359dfa/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3" /><link rel="preload" as="font/woff" href="https://use.typekit.net/af/a2031c/0000000000000000000118b9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" /><link rel="preload" as="font/woff2" href="https://use.typekit.net/af/a2031c/0000000000000000000118b9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3" /><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+		<script type="text/javascript" id="pwt-inserter">
+		(function() {
+			window.performance.mark('pwt start');
+			var setProfile = window.matchMedia('(min-width: 1024px)').matches;
+			var reportingId = setProfile ? '2890' : '2891';
+			var url = '//ads.pubmatic.com/AdServer/js/pwt/159928/' + reportingId;
+			var profileVersionId = '';
+
+			var wtads = document.createElement('script');
+
+			wtads.async = true;
+			wtads.type = 'text/javascript';
+			wtads.src = url + profileVersionId + '/pwt.js';
+
+			var node = document.getElementById('pwt-inserter');
+			node.parentNode.insertBefore(wtads, node.nextSibling);
+			window.performance.mark('pwt end');
+		})();
+		</script>
+
+	
+	<script src="https://www.boston.com/wp-content/themes/bdc-2020/includes/gam/lazy-load-ad.min.js" type="text/javascript"></script>
+	<script src="//securepubads.g.doubleclick.net/tag/js/gpt.js" type="text/javascript" id="securepubads.g" async></script>
+	<!-- <script src="//c.amazon-adsystem.com/aax2/apstag.js" type="text/javascript" async></script> -->
+	<script type="text/javascript">
+		const script_pub    = document.getElementById( 'securepubads.g' );
+		const apstag_script = document.createElement( "script" );
+		apstag_script.setAttribute( "type", "text/javascript" );
+		apstag_script.setAttribute( "src", "//c.amazon-adsystem.com/aax2/apstag.js" );
+		apstag_script.setAttribute( "async", "" );
+		const ActiveScriptsOnetrust = 1;
+		const CodeOnetrust = JSON.parse(localStorage.getItem( 'consent_country_gdpr' ) );
+		const ConsentFromOnetrust = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+		if ( ! ActiveScriptsOnetrust ) {
+			script_pub.after( apstag_script );
+		} 
+		if ( ( null !==  ConsentFromOnetrust ) && ( ConsentFromOnetrust.C0004 ) ) {
+			script_pub.after( apstag_script );
+		}
+	</script>
+	<script id="boston-ads" type="text/javascript">
+		var PWT = {};
+		var adLazyLoading = false;
+		var googletag = googletag || {};
+		var gptRan = false;
+		var FAILSAFE_TIMEOUT = 600;
+		const DYNAMIC_NAME = '/weather';
+		var adSlots = [];
+
+		googletag.cmd = googletag.cmd || [];
+
+	</script>
+
+	<script id="boston-init-adserver" type="text/javascript">
+		// this function will act as a lock and will call the GPT API
+		function initAdserver(forced) {
+			if((forced === true && window.initAdserverFlag !== true) || (PWT.a9_BidsReceived && PWT.ow_BidsReceived)){
+				window.initAdserverFlag = true;
+				PWT.a9_BidsReceived = PWT.ow_BidsReceived = false;
+
+				if( 'undefined' !== typeof AdLazyLoader ) {
+					adLazyLoading = true;
+					var slotsToLazyLoad = [];
+					for ( var prop in window.adSlots ) {
+						if ( window.adSlots.hasOwnProperty( prop ) ) {
+							slotsToLazyLoad.push( window.adSlots[ prop ] );
+						}
+					}
+					AdLazyLoader.registerSlots( slotsToLazyLoad );
+				} else {
+					googletag.pubads().refresh();
+				}
+			}
+		}
+	</script>
+
+	<script id="boston-init-tam" type="text/javascript">
+		!function(a9,a,p,s,t,A,g) {
+			if( a[a9] )return;
+			function q( c, r ) {
+				a[a9]._Q.push( [c,r] )
+			}
+			a[a9]={
+				init:function() {
+					q("i",arguments)
+				},
+				fetchBids:function() {
+					q("f",arguments)
+				},
+				setDisplayBids:function(){},
+				_Q:[]
+			};
+		}("apstag", window, document, "script", "//c.amazon-adsystem.com/aax2/apstag.js" );
+
+		/* The above code is checking if the Onetrust script is active.
+		* If it is, it checks if the user has given consent for the US and California. 
+		* If they have, it will pass the CCPA consent string to the apstag.init() function. 
+		*/
+		const OnetrustActiveScripts = 1;
+		const CountryCodeOnetrust = JSON.parse(localStorage.getItem( 'consent_country_gdpr' ) );
+		const StorageConsentFromOnetrust = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+		var initParams = {
+			pubID: '3453',
+			adServer: 'googletag',
+			videoAdServer: 'DFP'
+		};
+		if ( ! OnetrustActiveScripts ) {
+			apstag.init(initParams);
+		} else {
+			/* 
+			* Checking if the country code is not equal to true 
+			* and the storage consent is not equal to null
+			* and the storage consent is equal to C0004.
+			*/
+			if ( ( null !==  StorageConsentFromOnetrust ) && ( StorageConsentFromOnetrust.C0004 ) ) {
+				const onetrustStorageLocalization = localStorage.getItem( 'consent_country_state' );
+				/* The above code is checking if the user is from the US/California and if the user has given
+				consent to the CCPA. The code will add the consent string to the initParams.params object. */
+				if ( ( typeof __uspapi === "function" ) && ( null !== onetrustStorageLocalization ) && ( 'US;CA' === onetrustStorageLocalization ) ) {
+					let storageCCPA = localStorage.getItem( 'upsConsentString' );
+					initParams.params = { aps_privacy: storageCCPA  };
+				}
+				apstag.init(initParams);
+			}
+		}
+
+		let slots = [];
+
+					slots = [
+				{
+					slotID: 'ad_lead1',
+					sizes: [[728, 90], [970, 90], [320, 50]]
+				},
+				{
+					slotID: 'ad_articlerail1',
+					sizes: [[300,250], [300,600], [160,600]]
+				},
+				{
+					slotID: 'ad_articlerail2',
+					sizes: [[300,250], [300,600], [160,600]]
+				},
+			];
+
+							if ( ! OnetrustActiveScripts ) {
+			apstag.fetchBids({
+				slots: slots,
+				timeout: 2e3 // Make Sure this timeout is less than or equal to OpenWrap TimeOut.
+			}, function(bids) {
+				googletag.cmd.push(function(){
+					apstag.setDisplayBids();
+					PWT.a9_BidsReceived = true;
+					initAdserver(false);
+				});
+			});
+		} else {
+			if ( true !== CountryCodeOnetrust  || ( null !==  StorageConsentFromOnetrust ) && ( StorageConsentFromOnetrust.C0004 ) ) {
+				apstag.fetchBids({
+					slots: slots,
+					timeout: 2e3 // Make Sure this timeout is less than or equal to OpenWrap TimeOut
+				}, function(bids) {
+					googletag.cmd.push(function(){
+						apstag.setDisplayBids();
+						PWT.a9_BidsReceived = true;
+						initAdserver(false);
+					});
+				});
+			}
+		}
+	</script>
+
+	<script id="boston-gam" type="text/javascript">
+		googletag.cmd.push(function() {
+
+			var leaderMapping = googletag
+				.sizeMapping()
+				.addSize([0, 0], [[300, 250], [320, 50], [320, 100], [ 325, 508 ], [ 325, 204 ]])
+				.addSize([768, 200], [[728, 90], [300,250]])
+				.addSize([960, 200], [[728, 90], [620, 366], [300, 250]])
+				.addSize([1280, 200], [[970, 250], [970, 90], [728, 90], [620, 366], [300, 250]])
+				.build();
+
+			var leader1Mapping = googletag
+				.sizeMapping()
+				.addSize([0, 0], [320, 50])
+				.addSize([768, 200], [[768, 90], [728, 90]])
+				.addSize([1050, 200], [[970, 90], [728, 90]])
+				.build();
+
+			var leader2Mapping = googletag
+				.sizeMapping()
+				.addSize([0, 0], [[300, 250], [320, 100], [320, 50], [ 325, 508 ], [ 325, 204 ]])
+				.addSize([768, 200], [[728, 90], [300, 250]])
+				.addSize([1050, 200], [[728, 90], [620, 366], [300, 250]])
+				.build();
+
+			var railMapping = googletag
+				.sizeMapping()
+				.addSize([0, 0], [])
+				.addSize([768, 200], [])
+				.addSize([1050, 200], [[300, 250], [300, 600], [160,600]])
+				.build();
+
+			
+				adSlots['ad_lead1'] = googletag
+					.defineSlot('/61381659/boston.com' + DYNAMIC_NAME, [[768, 90], [728, 90], [970, 90], [320, 50]], 'ad_lead1' )
+					.setTargeting('pos', [['lead1'], ['atf']])
+					.defineSizeMapping( leader1Mapping )
+					.addService( googletag.pubads() );
+
+				adSlots['ad_articlerail1'] = googletag
+					.defineSlot('/61381659/boston.com' + DYNAMIC_NAME, [[300,250], [300,600], [160,600]], 'ad_articlerail1')
+					.setTargeting('pos', [['articlerail1'], ['atf']])
+					.defineSizeMapping(railMapping)
+					.addService( googletag.pubads() );
+
+				adSlots['ad_articlerail2'] = googletag
+					.defineSlot('/61381659/boston.com' + DYNAMIC_NAME, [[300,250], [300,600], [160,600]], 'ad_articlerail2')
+					.setTargeting('pos', [['articlerail2'], ['atf']])
+					.defineSizeMapping(railMapping)
+					.addService( googletag.pubads() );
+
+				// Dynamically build the in-article ad definitoins and add to the config definition based off of the number of in-article ads
+				
+				
+					adSlots['nativeteasebot'] = googletag
+						.defineSlot('/61381659/boston.com' + DYNAMIC_NAME, [300,100], 'nativeteasebot')
+						.setTargeting('pos', ['nativeteasebot'])
+						.addService(googletag.pubads());
+
+				
+				adSlots['presentedby'] = googletag
+					.defineOutOfPageSlot('/61381659/boston.com' + DYNAMIC_NAME, 'presentedby')
+					.setTargeting('pos', [['presentedby'], ['outofpage']])
+					.addService(googletag.pubads());
+
+				adSlots['oosvideo'] = googletag
+					.defineOutOfPageSlot('/61381659/boston.com' + DYNAMIC_NAME, 'oosvideo')
+					.setTargeting('pos', [['oosvideo'], ['outofpage']])
+					.addService(googletag.pubads());
+
+			
+			
+			
+
+			// common targetings
+			googletag.pubads()
+														.setTargeting( 'pgtype', 'post' )
+				
+														.setTargeting( 'authors', 'dialynn.dwyer,jack.pickell' )
+					
+														.setTargeting( 'ptag', 'weather' )
+				
+														.setTargeting( 'tag', 'local-forecasts,local-news,massachusetts-news,snow,storms,weather,weather-maps,winter' )
+					
+														.setTargeting( 's1', 'boston.com' )
+				
+														.setTargeting( 's2', 'weather' )
+				
+														.setTargeting( 'pageurl', '_weather_weather_2023_03_02_snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023_' )
+				
+				
+				.setTargeting( 'environment', ['production'])
+
+				
+				.setTargeting( 'adunblock', ['undefined' !== typeof( window._bcm_il ) ? 'true' : 'false']
+			);
+
+			/*
+			*
+			* BlueConic Reference
+			* https://support.blueconic.com/hc/en-us/articles/115004519689-doubleclick-for-publishers--targeting-only-#adjust-your-google-ad-manager-implementation-code-0-1
+			*
+			*/
+			if ( typeof Storage !== "undefined" ) {
+				const targetingParamStr = localStorage.getItem("bcDFPTargetingParams");
+				if ( targetingParamStr ) {
+					const targetingParameters = JSON.parse( targetingParamStr );
+
+					targetingParameters.forEach( function( param, index ) {
+						googletag.pubads().setTargeting( param.key, param.value );
+					});
+				}
+			}
+
+			// Register event handlers to observe lazy loading behavior. (this for the QA instructions)
+			googletag.pubads().addEventListener( 'slotRequested', function( event ) {
+				updateSlotStatus( event.slot.getSlotElementId(), 'fetched' );
+			});
+
+			googletag.pubads().addEventListener( 'slotOnload', function( event ) {
+				updateSlotStatus( event.slot.getSlotElementId(), 'rendered' );
+			});
+			
+			googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+				var size = event.size;
+				if(size === null) return;
+				var slot = event.slot;
+				var slotDiv = document.getElementById(slot.getSlotElementId());
+
+				if (size[0] > slotDiv.clientWidth) {
+					slotDiv.style.width = size[0] + 'px';
+				}
+
+				if (size[1] > slotDiv.clientHeight) {
+					slotDiv.style.height = size[1] + 'px';
+				}
+			});
+
+			googletag.pubads().enableSingleRequest();
+			googletag.pubads().disableInitialLoad();
+
+							
+				const onetrustStorageConsent = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+				const CountryCodeOnetrust    = JSON.parse( localStorage.getItem( 'consent_country_gdpr' ) );
+				// User has made their consent choice.
+				if ( ( onetrustStorageConsent !== null ) && ( ! onetrustStorageConsent.C0004 ) )  {
+
+					owpbjs = owpbjs || {};
+					owpbjs.que = owpbjs.que || [];
+					owpbjs.que.push(function() {
+						// See https://docs.prebid.org/dev-docs/publisher-api-reference/bidderSettings.html
+						owpbjs.bidderSettings = {
+							standard: {
+								storageAllowed: false
+							}
+						}
+						// See https://docs.prebid.org/dev-docs/publisher-api-reference/setConfig.html#setConfig-deviceAccess
+						// See https://docs.prebid.org/dev-docs/modules/consentManagement.html#tcf-v20-examples
+						
+						owpbjs.setConfig( {
+							deviceAccess: false
+						});
+
+
+					});
+
+					
+					googletag.pubads().setRequestNonPersonalizedAds(1);  // See https://support.google.com/admanager/answer/9005435
+
+					googletag.pubads().setPrivacySettings({
+						'restrictDataProcessing' : true,  // See https://support.google.com/admanager/answer/9598414
+						'limitedAds'             : true   // See https://support.google.com/admanager/answer/9882911
+					});
+
+					// Resume sending ad requests. No slots as parameter as we are refreshing all of them.
+					googletag.pubads().refresh();
+
+				}  // end if.
+
+			
+			googletag.enableServices();
+
+			/* The above code is a snippet of code that is used to call the Prebid.js library. */
+			if( typeof PWT.requestBids === 'function' ) {
+				PWT.requestBids(
+					PWT.generateConfForGPT(googletag.pubads().getSlots()),
+					function(adUnitsArray) {
+						PWT.addKeyValuePairsToGPTSlots(adUnitsArray);
+						PWT.ow_BidsReceived = true;
+						initAdserver(false);
+					}
+				);
+			}
+
+			// No need to handle "else" part as we have A9 wrapper on page
+			// OpenWrap code END here
+
+			setTimeout(function() {
+				initAdserver(true); // calling this function with forced mode set to true so that GPT API is always executed
+			}, FAILSAFE_TIMEOUT);
+
+			if ( (PWT.a9_BidsReceived && PWT.ow_BidsReceived) && ! adLazyLoading && 'undefined' !== typeof AdLazyLoader ) {
+				// This is a fallback for if prebid has already returned and
+				// attempted to register ads to lazy load before the ads have
+				// all been defined.
+				adLazyLoading = true;
+				var slotsToLazyLoad = [];
+				for ( var prop in window.adSlots ) {
+					if ( window.adSlots.hasOwnProperty( prop ) ) {
+						slotsToLazyLoad.push( window.adSlots[ prop ] );
+					}
+				}
+				AdLazyLoader.registerSlots( slotsToLazyLoad );
+			}
+
+
+			const hasArcVideo = document.getElementsByClassName( 'a-video' ).length > 0;
+
+			/**
+			 * ===================
+			 * Arc Video
+			 * ===================
+			 */
+			if ( hasArcVideo ) {
+				const params = [
+					'sz=640x480',
+					`iu=/61381659/boston.com${DYNAMIC_NAME}`,
+					'gdfp_req=1',
+					'env=vp',
+					'output=xml_vast3',
+					'unviewed_position_start=1',
+					'description_url=https%3A%2F%2Fboston.com',
+					'ciu_szs=300x250',
+					`cust_params=${buildCustomParams()}`,
+				].join('&')
+
+				window.PoWaSettings = window.PoWaSettings || {};
+				window.PoWaSettings.advertising = window.PoWaSettings.advertising || {};
+
+				// Define the ad tag to be used by the player.
+				window.PoWaSettings.advertising.adTag = function () {
+					return `//pubads.g.doubleclick.net/gampad/ads?${params}`;
+				};
+
+				/**
+				 * Builds the custom parameters needed for the ARC video preroll
+				 *
+				 * @return string - URL encoded string of parameters
+				 */
+				function buildCustomParams() {
+
+					const getCurrentBreakPoint = function() {
+						if ( window.outerWidth < 768 ) { return 'mobile'; }
+						if ( window.outerWidth < 960 ) { return 'tablet'; }
+						return 'desktop';
+					};
+
+					const getTestQueryString = function() {
+						var queryString = window.location.search;
+						var regex = /[\?\&]test=([^&]*)/;
+						return queryString.match( regex ) ? queryString.match( regex )[1] : '';
+					};
+
+					const customParams = [
+						'pos=preroll',
+						'breakpoint=' + getCurrentBreakPoint(),
+						'test=' + getTestQueryString(),
+					];
+
+					googletag
+						.pubads()
+						.getTargetingKeys()
+						.forEach((key) => customParams.push(`${key}=${googletag.pubads().getTargeting(key)}`));
+
+					return encodeURIComponent(
+						customParams.join('&')
+						.replace('pgtype=post', 'pgtype=article') // Match legacy ad call format
+					);
+				};
+			}
+		});  //googletag.cmd.push
+		/*
+		 * Updating the status of the slot. 
+		 * This is only to check behaivor on branch env
+		 */
+		function updateSlotStatus( slotId, state ) {
+			var elem       = document.getElementById( slotId );
+			elem.className = 'activated';
+			console.log( slotId + ' status: ' + state );
+		}
+	</script>
+
+	
+	<!-- This site is optimized with the Yoast SEO Premium plugin v20.8 (Yoast SEO v20.8) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Snow maps: Massachusetts forecast for March 3-4, 2023</title>
+	<meta name="description" content="Forecasters are predicting a storm will arrive Friday night in Massachusetts, bringing with it a wintry mix of snow, sleet, and rain." />
+	<link rel="canonical" href="https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Snow maps: How much accumulation to expect in Mass." />
+	<meta property="og:description" content="Forecasters are predicting a storm will arrive Friday night in Massachusetts, bringing with it a wintry mix of snow, sleet, and rain." />
+	<meta property="og:url" content="https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/" />
+	<meta property="og:site_name" content="Boston.com" />
+	<meta property="article:publisher" content="https://www.facebook.com/boston" />
+	<meta property="article:published_time" content="2023-03-02T14:23:06+00:00" />
+	<meta property="article:modified_time" content="2023-03-04T12:53:50+00:00" />
+	<meta property="og:image" content="https://www.boston.com/wp-content/uploads/2023/03/sleet-and-slush-boston-common--6400ab60bdc2b-scaled.jpg" />
+	<meta property="og:image:width" content="2560" />
+	<meta property="og:image:height" content="1597" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="Dialynn Dwyer" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:description" content="&quot;Sloppy coating to 2&quot; immediate coast, Boston and areas south where it changes to rain.&quot;" />
+	<meta name="twitter:image" content="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/sleet-and-slush-boston-common--6400ab60bdc2b-768x432.jpg" />
+	<meta name="twitter:creator" content="@dia_dwyer" />
+	<meta name="twitter:site" content="@BostonDotCom" />
+	<meta name="twitter:label1" content="Written by" />
+	<meta name="twitter:data1" content="Dialynn Dwyer" />
+	<meta name="twitter:label2" content="Est. reading time" />
+	<meta name="twitter:data2" content="1 minute" />
+	<script type="application/ld+json" class="yoast-schema-graph">{
+	    "@context": "https://schema.org",
+	    "@graph": [
+	        {
+	            "@type": "NewsArticle",
+	            "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#article",
+	            "isPartOf": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/"
+	            },
+	            "author": {
+	                "name": "Dialynn Dwyer",
+	                "@id": "https://www.boston.com/#/schema/person/d8204f5d6b64d8040953e97139f71427"
+	            },
+	            "headline": "Snow maps: How much accumulation to expect in Mass.",
+	            "datePublished": "2023-03-02T14:23:06+00:00",
+	            "dateModified": "2023-03-04T12:53:50+00:00",
+	            "mainEntityOfPage": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/"
+	            },
+	            "wordCount": 157,
+	            "commentCount": 0,
+	            "publisher": {
+	                "@id": "https://www.boston.com/#organization"
+	            },
+	            "image": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#primaryimage"
+	            },
+	            "thumbnailUrl": "https://www.boston.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg",
+	            "keywords": [
+	                "Local Forecasts",
+	                "Local News",
+	                "Massachusetts News",
+	                "Snow",
+	                "Storms",
+	                "Weather",
+	                "Weather Maps",
+	                "Winter"
+	            ],
+	            "articleSection": [
+	                "Weather"
+	            ],
+	            "inLanguage": "en-US",
+	            "potentialAction": [
+	                {
+	                    "@type": "CommentAction",
+	                    "name": "Comment",
+	                    "target": [
+	                        "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#respond"
+	                    ]
+	                }
+	            ],
+	            "copyrightYear": "2023",
+	            "copyrightHolder": {
+	                "@id": "https://www.boston.com/#organization"
+	            }
+	        },
+	        {
+	            "@type": "WebPage",
+	            "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/",
+	            "url": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/",
+	            "name": "Snow maps: Massachusetts forecast for March 3-4, 2023",
+	            "isPartOf": {
+	                "@id": "https://www.boston.com/#website"
+	            },
+	            "primaryImageOfPage": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#primaryimage"
+	            },
+	            "image": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#primaryimage"
+	            },
+	            "thumbnailUrl": "https://www.boston.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg",
+	            "datePublished": "2023-03-02T14:23:06+00:00",
+	            "dateModified": "2023-03-04T12:53:50+00:00",
+	            "description": "Forecasters are predicting a storm will arrive Friday night in Massachusetts, bringing with it a wintry mix of snow, sleet, and rain.",
+	            "breadcrumb": {
+	                "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#breadcrumb"
+	            },
+	            "inLanguage": "en-US",
+	            "potentialAction": [
+	                {
+	                    "@type": "ReadAction",
+	                    "target": [
+	                        "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/"
+	                    ]
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "ImageObject",
+	            "inLanguage": "en-US",
+	            "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#primaryimage",
+	            "url": "https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg",
+	            "contentUrl": "https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg",
+	            "width": 1024,
+	            "height": 768
+	        },
+	        {
+	            "@type": "BreadcrumbList",
+	            "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#breadcrumb",
+	            "itemListElement": [
+	                {
+	                    "@type": "ListItem",
+	                    "position": 1,
+	                    "name": "Home",
+	                    "item": "https://www.boston.com/"
+	                },
+	                {
+	                    "@type": "ListItem",
+	                    "position": 2,
+	                    "name": "Snow maps: How much accumulation to expect in Mass."
+	                }
+	            ]
+	        },
+	        {
+	            "@type": "WebSite",
+	            "@id": "https://www.boston.com/#website",
+	            "url": "https://www.boston.com/",
+	            "name": "Boston.com",
+	            "description": "Boston.com",
+	            "publisher": {
+	                "@id": "https://www.boston.com/#organization"
+	            },
+	            "potentialAction": [
+	                {
+	                    "@type": "SearchAction",
+	                    "target": {
+	                        "@type": "EntryPoint",
+	                        "urlTemplate": "https://www.boston.com/?s={search_term_string}"
+	                    },
+	                    "query-input": "required name=search_term_string"
+	                }
+	            ],
+	            "inLanguage": "en-US"
+	        },
+	        {
+	            "@type": "Organization",
+	            "@id": "https://www.boston.com/#organization",
+	            "name": "Boston.com",
+	            "url": "https://www.boston.com/",
+	            "logo": {
+	                "@type": "ImageObject",
+	                "inLanguage": "en-US",
+	                "@id": "https://www.boston.com/#/schema/logo/image/",
+	                "url": "https://bdc2020.o0bc.com/wp-content/uploads/2021/05/Boston.com-Logo-609cb231cf4d6.png",
+	                "contentUrl": "https://bdc2020.o0bc.com/wp-content/uploads/2021/05/Boston.com-Logo-609cb231cf4d6.png",
+	                "width": 2820,
+	                "height": 876,
+	                "caption": "Boston.com"
+	            },
+	            "image": {
+	                "@id": "https://www.boston.com/#/schema/logo/image/"
+	            },
+	            "sameAs": [
+	                "https://www.facebook.com/boston",
+	                "https://twitter.com/BostonDotCom",
+	                "https://instagram.com/boston/",
+	                "https://www.youtube.com/channel/UC8IkdxFyPXgw11n4Ew0osHQ"
+	            ]
+	        },
+	        {
+	            "@id": "https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/#author",
+	            "@type": "Person",
+	            "name": "Dialynn Dwyer",
+	            "description": "Dialynn Dwyer is an assistant editor for news at Boston.com. She joined Boston.com in 2015 after working as a general assignment reporter for KPFA Pacifica Radio in Berkeley, California, and for the Ithaca Times in Ithaca, New York.\r\n\r\nAs a member of Boston.com’s general assignment team, her coverage over the years has ranged across topics from breaking news and crime to historical features and politics. She often  focuses on the overlapping issues of public health, addiction, and mental health in Boston and New England. When she’s not reporting on local news, she leads Boston.com’s seasonal book coverage and interviews authors about their forthcoming works. \r\n\r\nStories she has written on Mass. and Cass, transportation, coronavirus, history, racial justice, and human interest have garnered awards from the New England Newspaper Association. She had also won awards for feature writing and in-depth reporting from the New York Press Association. \r\n\r\nShe is a graduate of Sarah Lawrence College, where she studied literature, writing, and theatre.",
+	            "sameAs": [
+	                "https://twitter.com/dia_dwyer",
+	                "https://www.boston.com/author/dialynn-dwyer/"
+	            ]
+	        }
+	    ]
+	}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//static.chartbeat.com' />
+<link rel='dns-prefetch' href='//cdn.blueconic.net' />
+<link rel="alternate" type="application/rss+xml" title="Boston.com &raquo; Feed" href="https://www.boston.com/feed/" />
+<link rel="alternate" type="text/calendar" title="Boston.com &raquo; iCal Feed" href="https://www.boston.com/things-to-do/?ical=1" />
+<link rel='stylesheet' id='tribe-events-pro-mini-calendar-block-styles-css' href='https://bdc2020.o0bc.com/wp-content/plugins/events-calendar-pro/src/resources/css/tribe-events-pro-mini-calendar-block.min.css?ver=5.13.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='https://bdc2020.o0bc.com/wp-includes/css/dist/block-library/style.min.css?ver=6.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_blocks_embed_weather_podcast-cgb-style-css-css' href='https://bdc2020.o0bc.com/wp-content/plugins/wp-block-embed-weather-podcast/dist/blocks.style.build.css' type='text/css' media='all' />
+<link rel='stylesheet' id='elasticpress-related-posts-block-css' href='https://bdc2020.o0bc.com/wp-content/plugins/elasticpress/dist/css/related-posts-block-styles.min.css?ver=3.5.6' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://bdc2020.o0bc.com/wp-includes/css/classic-themes.min.css?ver=6.2.2' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--red: #bb2525;--wp--preset--color--background-black: #1a1a1a;--wp--preset--color--line-gray: #e1e1e1;--wp--preset--color--blue: #2c74de;--wp--preset--color--light-gray: #f1f1f1;--wp--preset--color--off-white: #fbf1e7;--wp--preset--color--mid-gray: #b6b6b6;--wp--preset--color--dark-gray: #68686d;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='tenup-block-library-frontend-accordion-styles-css' href='https://bdc2020.o0bc.com/wp-content/plugins/block-library/dist/css/frontend-accordion-styles.css?ver=d899f5cabdebab30a4d631759350a871' type='text/css' media='all' />
+<link rel='stylesheet' id='global-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/global.css?ver=b691fcec68f9bdd07bab804d8fc77885' type='text/css' media='all' />
+<link rel='stylesheet' id='base-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/base.css?ver=153e4cf19f97c214cdded4c8aa97d4e7' type='text/css' media='all' />
+<link rel='stylesheet' id='blocks-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/blocks.css?ver=6bf279dbf2320dcc78e7bb96ce193037' type='text/css' media='all' />
+<link rel='stylesheet' id='molecules-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/molecules.css?ver=9f03227012eeb8bb49fcdbc2ca5a314b' type='text/css' media='all' />
+<link rel='stylesheet' id='organisms-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/organisms.css?ver=9b8398c7374f26cea489529361ccd0f5' type='text/css' media='all' />
+<link rel='stylesheet' id='styles-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/style.css?ver=484b2a62549491bb36da52607ac5adfc' type='text/css' media='all' />
+<link rel='stylesheet' id='bdc-real-estate-css' href='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/css/real-estate.css?ver=6e87b72c5ec0d5aebeb6e14d65a0f25c' type='text/css' media='all' />
+<script type='text/javascript' id='chartbeat_head_js-js-extra'>
+/* <![CDATA[ */
+var chartbeat_config = {"domain":"boston.com","uid":"8544","useCanonical":"1","oneTrusActive":"1","useAB":"","authors":"Dialynn Dwyer, Jack Pickell","sections":"Weather","title":"Snow maps: Massachusetts forecast for March 3-4, 2023"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/bdc-chartbeat/js/bdc.chartbeat-head.js?ver=1689108115' id='chartbeat_head_js-js'></script>
+<script type='text/javascript' src='//static.chartbeat.com/js/chartbeat_mab.js?ver=6.2.2' id='chartbeat_mab-js'></script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
+<script type='text/javascript' id='ua-wn-js-extra'>
+/* <![CDATA[ */
+var uaWnSettings = {"prompt":{"enabled":true,"prompt_views":2,"prompt_again_views":8}};
+/* ]]> */
+</script>
+<script type="text/plain" src="https://bdc2020.o0bc.com/wp-content/plugins/urban-airship-web-push-notifications/assets/js/notification.js?ver=1.3.4"  id="ua-wn" class="optanon-category-C0003"></script><script type="text/plain" src="//cdn.blueconic.net/bostonglobemedia.js"  id="blueconic_js" class="optanon-category-C0004"></script>	<script type="text/plain" class="optanon-category-C0003">
+		!(function(o,n,t){t=o.createElement(n),o=o.getElementsByTagName(n)[0],t.async=1,t.src="https://fallaciousfifth.com/v2ojfJQXItusfVrUEda5saSZ5uxEMzujCipb6jl01lNcP_fOujjlpKPeM-wc-_90A",o.parentNode.insertBefore(t,o)})(document,"script"),(function(o,n){o[n]=o[n]||function(){(o[n].q=o[n].q||[]).push(arguments)}})(window,"admiral");!(function(c,e,o,t,n){function r(o,t){(function n(){try{return 0<(localStorage.getItem("v4ac1eiZr0")||"").split(",")[4]}catch(o){}return!1})()&&(t=c[e].pubads())&&t.setTargeting("admiral-engaged","true")}(n=c[e]=c[e]||{}).cmd=n.cmd||[],typeof n.pubads===o?r():typeof n.cmd.unshift===o?n.cmd.unshift(r):n.cmd.push(r)})(window,"googletag","function");
+	</script>
+			<script type="text/javascript">
+			/* 
+			* This is checking if the user has opted out of analytics.
+			* OptanonWrapper plugins/bdc-functionality/includes/BDC/Theme/OneTrustCMP.php:220
+			*/
+			var ConsentOnetrust = localStorage.getItem( 'consent_one_trust_bdc' );
+			var CleanCreative   = document.createElement( 'script' );
+			CleanCreative.setAttribute( 'src','//dz9qn8fh4jznm.cloudfront.net./script.js' );
+			CleanCreative.setAttribute( 'type','text/javascript' );
+			
+			/* 
+			* The above code is checking if the user has given consent for the category "Marketing" 
+			* and if the user has given consent, then the script is appended to the head tag.
+			 */
+			if (
+				typeof OptanonWrapper === 'function' &&
+				ConsentOnetrust &&
+				JSON.parse( ConsentOnetrust ).C0003 === true
+			) {
+				document.getElementsByTagName( 'head' )[0].appendChild( CleanCreative );
+			} 
+			if ( typeof OptanonWrapper !== 'function' ) {
+				document.getElementsByTagName( 'head' )[0].appendChild( CleanCreative );
+			}
+		</script>
+		<!-- REGI ENV = PRD--><script type="text/javascript">
+//Registration base URL
+regiBaseUrl = 'http://tomcat.boston.com/profiles/outside/REST/';
+</script><meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.boston.com"><link rel="alternate" href="https://www.boston.com/wp-json/tribe/events/v1/" /><link rel='manifest' href='https://www.boston.com/wp-content/themes/bdc-2020/manifest.json' /><link rel="amphtml" href="https://www.boston.com/weather/weather/2023/03/02/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023/?amp=1">	<!-- Facebook Pixel Code -->
+	<script>
+		var consent = 'grant';
+		/* The above code is parsing the JSON data from the local storage and storing it in a variable. */
+					const onetrustStorageConsent = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+			if ( ( onetrustStorageConsent !== null ) ) {
+				/* Checking to see if the user has consented to the use of cookies.
+				* If they have not, it is deleting the cookie.
+				* This will comment for now, until further notice.
+				*/
+				//if ( onetrustStorageConsent.C0002 === false ) {
+				//	document.cookie = '_fbp=;expires=Thu, 01 Jan 2010 00:00:00 UTC; path=/; domain=.boston.com';
+				//}
+				/* Checking if the user has given consent for the cookie C0002. 
+				* If the user has given consent, the variable consent will be set to 'grant'. 
+				* If the user has not given consent,the variable consent will be set to 'revoke'.
+				* Documentation https://developers.facebook.com/docs/meta-pixel/implementation/gdpr
+				*/
+				if ( onetrustStorageConsent.C0002 !== true ) {
+					consent = 'revoke';
+				}
+			}
+				!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('consent', consent);
+		fbq('init', '989222871864976');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+	src="https://www.facebook.com/tr?id=989222871864976&ev=PageView&noscript=1"
+	/></noscript>
+	<!-- End Facebook Pixel Code -->
+	<!-- The following line must be placed in the head tag -->
+	<script type="text/javascript" src="https://p.teads.tv/teads-fellow.js" async="true"></script>
+	<script>
+	if (typeof(window.bgmpGdpr) !== 'undefined' && !window.bgmpGdpr.isOptedOut()) {
+	window.teads_e = window.teads_e || [];
+	window.teads_adv_id = 39960;}
+	</script>
+	<!--
+		Start of global snippet: Please do not remove
+		Place this snippet between the <head> and </head> tags on every page of your site.
+	-->
+	<!-- Global site tag (gtag.js) - Google Marketing Platform -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=DC-11164343"></script>
+	<script>
+		const onetrustLibrary = 1;
+		const onetrustConsent = localStorage.getItem('consent_one_trust_bdc');
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push( arguments );
+		}
+		gtag( 'js', new Date() );
+		/* 
+		* Setting the default consent for the user. 
+		* By default we granted
+		*/
+		gtag( 'consent', 'default', {
+			'analytics_storage': 'granted'
+		} );
+		gtag( 'consent', 'default', {
+			'ad_storage': 'granted'
+		} );
+		if ( 1 === onetrustLibrary && onetrustConsent && JSON.parse(onetrustConsent).C0002 === false ) {
+			gtag( 'consent', 'update', { 'analytics_storage': 'denied' } ); 
+		}
+		if ( 1 === onetrustLibrary && onetrustConsent && JSON.parse(onetrustConsent).C0004 === false ) { 
+			gtag( 'consent', 'update', { 'ads_storage': 'denied' } ); 
+		}
+		gtag( 'config', 'DC-11164343' );
+		
+	</script>
+	<!-- End of global snippet: Please do not remove -->
+<link rel="icon" href="https://bdc2020.o0bc.com/wp-content/uploads/2021/05/BDC_Logo_2020_Social_WhiteBG-609c79a967eee-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://bdc2020.o0bc.com/wp-content/uploads/2021/05/BDC_Logo_2020_Social_WhiteBG-609c79a967eee-200x200.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://bdc2020.o0bc.com/wp-content/uploads/2021/05/BDC_Logo_2020_Social_WhiteBG-609c79a967eee-200x200.png" />
+<meta name="msapplication-TileImage" content="https://bdc2020.o0bc.com/wp-content/uploads/2021/05/BDC_Logo_2020_Social_WhiteBG-609c79a967eee.png" />
+		<style type="text/css" id="wp-custom-css">
+			.m-gforms-poll-block .gpoll_button { display: none }		</style>
+					<meta property="og:type" content="article"/> 
+			<meta property="article:opinion" content="false"/> 
+			<meta property="article:content_tier" content="free"/>
+				</head>
+
+	<body class="post-template-default single single-post postid-27084493 single-format-standard wp-embed-responsive site-body tribe-no-js">
+
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>			<script src="https://www.boston.com/wp-content/plugins/bdc-chartbeat/js/bdc.chartbeat-body.js"></script>
+		
+		<header class="o-site-header" id="site-header" aria-label="Site Header">
+			<section class="o-site-header__advert" aria-label="Leaderboard Advert">
+				<div id="js-advert--lead1" class="m-advert m-advert--lead1 m-advert--with-gray m-advert--header "><div class="m-advert__container"><div id="ad_lead1"><script type="type/javascript">googletag.cmd.push(function() { googletag.display("ad_lead1") })</script></div></div></div>			</section>
+
+			<a class="screen-reader-text" href="#site-content">
+				Skip to Main Content			</a>
+
+			<div class="o-site-header__masthead">
+				<div class="m-grid m-grid-container">
+
+					<div class="m-panel-menu">
+						
+<button aria-label="Toggle Panel menu" class="a-button a-button--with-icon m-panel-navigation__toggle" id="js-panel-navigation-trigger" aria-haspopup="true" aria-controls="js-panel-navigation" aria-expanded="false">
+	<svg class="a-icon m-panel-navigation__open" aria-hidden="true" width="19" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#menu"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#menu"></use></svg><span class="screen-reader-text">Open</span>	<svg class="a-icon m-panel-navigation__close" aria-hidden="true" width="19" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close-symbol"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close-symbol"></use></svg><span class="screen-reader-text">Close</span>	<span class="a-hide-mobile">Menu</span>
+</button>
+
+<nav id="js-panel-navigation" class="m-panel-navigation" aria-label="Mobile Navigation"  aria-hidden="true">
+	<div class="m-panel-navigation__wrap" tabindex="-1">
+		<div class="m-panel-navigation_expose">
+			<ul class="a-list a-list--no-style m-panel-navigation__list">
+				<li class="m-panel-navigation__list-item menu-item">
+					<a href="https://www.boston.com">
+						Home					</a>
+				</li>
+			</ul>
+
+			<div class="menu-bdc-main-container"><ul id="panel-primary-nav" class="a-list a-list--no-style m-panel-navigation__menu"><li id="menu-item-22274386" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274386"><a href="https://www.boston.com/category/news/">News</a>
+<ul class="sub-menu">
+	<li id="menu-item-22667248" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667248"><a href="https://www.boston.com/tag/local-news/">Local News</a></li>
+	<li id="menu-item-22667254" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667254"><a href="https://www.boston.com/tag/national-news/">National News</a></li>
+	<li id="menu-item-22667253" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667253"><a href="https://www.boston.com/tag/politics/">Politics</a></li>
+	<li id="menu-item-22667276" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667276"><a href="https://www.boston.com/tag/coronavirus/">COVID</a></li>
+	<li id="menu-item-22667264" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667264"><a href="https://www.boston.com/tag/crime/">Crime</a></li>
+	<li id="menu-item-22688550" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22688550"><a href="https://www.boston.com/tag/traffic/">Traffic</a></li>
+	<li id="menu-item-22667271" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667271"><a href="https://www.boston.com/tag/jobs/">Jobs</a></li>
+</ul>
+</li>
+<li id="menu-item-22274480" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274480"><a href="https://www.boston.com/category/sports/">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-22497520" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497520"><a href="https://www.boston.com/tag/boston-red-sox/">Red Sox</a></li>
+	<li id="menu-item-22497515" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497515"><a href="https://www.boston.com/tag/new-england-patriots/">Patriots</a></li>
+	<li id="menu-item-22497530" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497530"><a href="https://www.boston.com/tag/boston-bruins/">Bruins</a></li>
+	<li id="menu-item-22497525" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497525"><a href="https://www.boston.com/tag/boston-celtics/">Celtics</a></li>
+	<li id="menu-item-22672278" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672278"><a href="https://www.boston.com/tag/new-england-revolution/">Revs</a></li>
+	<li id="menu-item-22360533" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360533"><a href="https://www.boston.com/author/chad-finn/">Chad Finn</a></li>
+</ul>
+</li>
+<li id="menu-item-22359876" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-22359876 current-post-category"><a href="https://www.boston.com/category/weather/">Weather</a>
+<ul class="sub-menu">
+	<li id="menu-item-23008219" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008219"><a href="https://www.boston.com/tag/weather-maps/">Maps</a></li>
+	<li id="menu-item-23008224" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008224"><a href="https://www.boston.com/tag/storms/">Storms</a></li>
+	<li id="menu-item-23008199" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008199"><a href="https://www.boston.com/tag/climate-change/">Climate Change</a></li>
+	<li id="menu-item-23008255" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008255"><a href="https://www.boston.com/tag/snow/">Snow</a></li>
+	<li id="menu-item-22360741" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360741"><a href="https://www.boston.com/author/david-epstein/">David Epstein</a></li>
+</ul>
+</li>
+<li id="menu-item-22274495" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274495"><a href="https://www.boston.com/category/food/">Food</a>
+<ul class="sub-menu">
+	<li id="menu-item-22672249" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672249"><a href="https://www.boston.com/tag/restaurants/">Restaurants</a></li>
+	<li id="menu-item-22672303" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672303"><a href="https://www.boston.com/tag/food-news/">News</a></li>
+	<li id="menu-item-22672295" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672295"><a href="https://www.boston.com/tag/restaurant-reviews/">Reviews</a></li>
+	<li id="menu-item-22672298" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672298"><a href="https://www.boston.com/tag/food-events/">Events</a></li>
+	<li id="menu-item-22672251" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672251"><a href="https://www.boston.com/tag/breweries-bars/">Breweries &amp; Bars</a></li>
+	<li id="menu-item-22672290" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672290"><a href="https://www.boston.com/tag/restaurant-openings/">Openings</a></li>
+	<li id="menu-item-22672285" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672285"><a href="https://www.boston.com/tag/restaurant-closings/">Closings</a></li>
+</ul>
+</li>
+<li id="menu-item-23474810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23474810"><a href="https://www.boston.com/things-to-do/">Things To Do</a>
+<ul class="sub-menu">
+	<li id="menu-item-23527961" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23527961"><a href="https://www.boston.com/calendar-submission/">Submit a Listing</a></li>
+</ul>
+</li>
+<li id="menu-item-24270121" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-24270121"><a href="https://www.boston.com/category/community/">Community</a>
+<ul class="sub-menu">
+	<li id="menu-item-24063234" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063234"><a href="https://www.boston.com/tag/tell-us/">Tell Us</a></li>
+	<li id="menu-item-24063232" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063232"><a href="https://www.boston.com/tag/readers-say/">Readers Say</a></li>
+	<li id="menu-item-24063239" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063239"><a href="https://www.boston.com/tag/book-club/">Book Club</a></li>
+	<li id="menu-item-24063244" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063244"><a href="https://www.boston.com/tag/cocktail-club/">Cocktail Club</a></li>
+	<li id="menu-item-26377957" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-26377957"><a href="https://www.boston.com/tag/the-b-side/">The B-Side</a></li>
+</ul>
+</li>
+<li id="menu-item-22274485" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274485"><a href="https://www.boston.com/category/culture/">Culture</a>
+<ul class="sub-menu">
+	<li id="menu-item-22672229" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672229"><a href="https://www.boston.com/tag/entertainment/">Entertainment</a></li>
+	<li id="menu-item-22672234" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672234"><a href="https://www.boston.com/tag/movies/">Movies</a></li>
+	<li id="menu-item-22672235" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672235"><a href="https://www.boston.com/tag/tv/">TV</a></li>
+	<li id="menu-item-24669784" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24669784"><a href="https://www.boston.com/tag/streaming/">Streaming</a></li>
+	<li id="menu-item-22672238" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672238"><a href="https://www.boston.com/tag/celebs/">Celebs</a></li>
+	<li id="menu-item-22672241" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672241"><a href="https://www.boston.com/tag/music/">Music</a></li>
+	<li id="menu-item-22672218" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672218"><a href="https://www.boston.com/tag/arts/">Arts</a></li>
+	<li id="menu-item-22360713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360713"><a href="https://loveletters.boston.com/">Love Letters</a></li>
+</ul>
+</li>
+<li id="menu-item-22360356" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22360356"><a href="https://www.boston.com/category/travel/">Travel</a>
+<ul class="sub-menu">
+	<li id="menu-item-24676057" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24676057"><a href="https://www.boston.com/tag/outdoors/">Outdoors</a></li>
+	<li id="menu-item-27503800" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-27503800"><a href="https://www.boston.com/tag/beaches/">Beaches</a></li>
+	<li id="menu-item-24976054" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24976054"><a href="https://www.boston.com/tag/flights/">Flights</a></li>
+	<li id="menu-item-22993850" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22993850"><a href="https://www.boston.com/tag/visiting-boston/">Visiting Boston</a></li>
+	<li id="menu-item-24976055" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24976055"><a href="https://www.boston.com/tag/cape-cod-travel/">Cape Cod</a></li>
+	<li id="menu-item-22672269" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672269"><a href="https://www.boston.com/tag/new-england-travel/">New England</a></li>
+</ul>
+</li>
+<li id="menu-item-25890194" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25890194"><a href="https://www.boston.com/category/real-estate/">Real Estate</a>
+<ul class="sub-menu">
+	<li id="menu-item-25890196" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890196"><a href="https://www.boston.com/tag/real-estate-news/">News</a></li>
+	<li id="menu-item-25890197" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890197"><a href="https://www.boston.com/tag/home-buying/">Buying</a></li>
+	<li id="menu-item-25890200" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890200"><a href="https://www.boston.com/tag/open-houses/">Open Houses</a></li>
+	<li id="menu-item-25890207" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890207"><a href="https://www.boston.com/tag/renting/">Renting</a></li>
+	<li id="menu-item-25890215" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890215"><a href="https://www.boston.com/tag/luxury-homes/">Luxury</a></li>
+	<li id="menu-item-25890218" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890218"><a href="https://www.boston.com/tag/home-improvement/">Reno</a></li>
+	<li id="menu-item-25890221" class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890221"><a href="https://www.boston.com/tag/new-developments/">Developments</a></li>
+</ul>
+</li>
+<li id="menu-item-25195153" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25195153"><a href="https://www.boston.com/category/cars/">Cars</a>
+<ul class="sub-menu">
+	<li id="menu-item-25195157" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25195157"><a href="https://www.boston.com/new-car-specials/">New Car Specials</a></li>
+</ul>
+</li>
+<li id="menu-item-22360995" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-22360995 menu-item-hamburger-only"><a href="https://www.boston.com/">Extra</a>
+<ul class="sub-menu">
+	<li id="menu-item-22360996" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360996 menu-item-hamburger-only"><a href="https://www.boston.com/fresh-start-submit-your-appeal/">Fresh Start</a></li>
+	<li id="menu-item-22360999" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360999 menu-item-hamburger-only"><a href="https://www.bostonglobemedia.com/">Advertise</a></li>
+	<li id="menu-item-22361010" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361010 menu-item-hamburger-only"><a href="https://advertising.bostonglobemedia.com/">Classified Ads</a></li>
+	<li id="menu-item-22361025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361025 menu-item-hamburger-only"><a href="https://www.boston.com/customer-support/">Customer Support</a></li>
+	<li id="menu-item-22864808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22864808"><a href="https://www.boston.com/tag/newsletters/">Newsletters</a></li>
+	<li id="menu-item-22361055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361055 menu-item-hamburger-only"><a href="https://bostonglobemediapartners.applytojob.com/apply">Careers</a></li>
+	<li id="menu-item-22361026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361026 menu-item-hamburger-only"><a href="https://www.boston.com/contact-us/">Contact Us</a></li>
+	<li id="menu-item-22361019" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361019 menu-item-hamburger-only"><a href="https://www.legacy.com/obituaries/bostonglobe/">Obituaries</a></li>
+	<li id="menu-item-25927243" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927243"><a href="/tag/massachusetts-lottery/">Mass. Lottery</a></li>
+	<li id="menu-item-25927251" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927251"><a href="https://www.boston.com/tag/powerball/">Powerball</a></li>
+	<li id="menu-item-25927254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927254"><a href="https://www.boston.com/tag/mega-millions/">Mega Millions</a></li>
+	<li id="menu-item-22361035" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361035 menu-item-hamburger-only"><a href="https://www.boston.com/horoscope/">Horoscopes</a></li>
+	<li id="menu-item-22361043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361043 menu-item-hamburger-only"><a href="https://www.boston.com/comics/">Comics</a></li>
+	<li id="menu-item-22361045" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361045 menu-item-hamburger-only"><a href="https://www.boston.com/today-in-history/">Today in History</a></li>
+	<li id="menu-item-26545208" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26545208"><a href="https://businesses.boston.com/">Businesses</a></li>
+	<li id="menu-item-23262418" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23262418 menu-item-hamburger-only"><a href="https://www.boston.com/partner-landing/partners/">Partners</a></li>
+</ul>
+</li>
+<li id="menu-item-24512309" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24512309 menu-item-hamburger-only"><a href="https://games.boston.com/">Games</a></li>
+<li id="menu-item-27617269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27617269 menu-item-hamburger-only"><a href="https://www.boston.com/coupons">Coupons</a></li>
+</ul></div>		</div>
+	</div>
+</nav>
+						<div class="m-panel-overlay"></div>
+					</div>
+
+					<div id="site-logo" class="m-site-logo">
+						
+	<a class="m-site-logo__link"  href="https://www.boston.com">
+		<span class="screen-reader-text">Boston.com</span>
+		<img width="133" height="39" src="https://www.boston.com/wp-content/themes/bdc-2020/dist/images/boston-com-logo.png" aria-hidden="true" alt="" />
+	</a>
+						</div>
+
+					<nav class="m-secondary-menu" aria-label="Utility Navigation" id="utility-navigation">
+						
+<ul class="m-secondary-menu__list a-list--no-style">
+	<li class="m-header-search">
+		<button id="js-search-button" aria-controls="header-search-form" aria-expanded="false" aria-haspopup="true" class="a-button a-button--icon a-button--icon-svg" type="button">
+			<svg class="a-icon" aria-hidden="true" width="20" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#search"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#search"></use></svg>			<svg class="a-icon a-icon--close" aria-hidden="true" width="20" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close"></use></svg>			<span class="screen-reader-text">Search</span>
+		</button>
+		<div id="js-search-form" class="m-header-search__form" aria-hidden="true">
+			
+<form role="search" id="searchform--header" class="m-search-form m-search-form--header" method="get" action="https://www.boston.com/">
+		<label for="search-field-search-form-2" class="screen-reader-text m-search-form__label">
+		Search for:	</label>
+	<input class="m-search-form__input" type="text" id="search-field-search-form-2" value="" placeholder="Search Boston.com" name="s" />
+	<button class="m-search-form__button" tabindex="-1" type="submit" aria-label="Submit">
+		<svg class="a-icon a-icon--no-action" aria-hidden="true" width="20" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#search"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#search"></use></svg><span class="screen-reader-text">Search Boston.com</span>	</button>
+		</form>
+		</div>
+	</li>
+	<li id="events-calender-icon" class="m-header-events">
+		<a href="https://www.boston.com/things-to-do/">
+			<svg class="a-icon" aria-hidden="true" width="20" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#events"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#events"></use></svg><span class="screen-reader-text">View Boston Events</span>		</a>
+	</li>
+</ul>
+					</nav>
+
+				</div>
+			</div>
+
+			<div class="o-site-header__menu">
+
+				<div class="m-grid-container m-grid-container-inline">
+					
+	<nav aria-label="Main Site Navigation" class="m-site-navigation m-site-navigation--left" id="site-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+		<div class="menu-bdc-main-container"><ul id="menu-bdc-main" class="m-primary-menu m-primary-menu--section-level a-list--no-style"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274386"><a href="https://www.boston.com/category/news/">News</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667248"><a href="https://www.boston.com/tag/local-news/">Local News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667254"><a href="https://www.boston.com/tag/national-news/">National News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667253"><a href="https://www.boston.com/tag/politics/">Politics</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667276"><a href="https://www.boston.com/tag/coronavirus/">COVID</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667264"><a href="https://www.boston.com/tag/crime/">Crime</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22688550"><a href="https://www.boston.com/tag/traffic/">Traffic</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22667271"><a href="https://www.boston.com/tag/jobs/">Jobs</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274480"><a href="https://www.boston.com/category/sports/">Sports</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497520"><a href="https://www.boston.com/tag/boston-red-sox/">Red Sox</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497515"><a href="https://www.boston.com/tag/new-england-patriots/">Patriots</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497530"><a href="https://www.boston.com/tag/boston-bruins/">Bruins</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22497525"><a href="https://www.boston.com/tag/boston-celtics/">Celtics</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672278"><a href="https://www.boston.com/tag/new-england-revolution/">Revs</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360533"><a href="https://www.boston.com/author/chad-finn/">Chad Finn</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-has-children menu-item-22359876 current-post-category"><a href="https://www.boston.com/category/weather/">Weather</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008219"><a href="https://www.boston.com/tag/weather-maps/">Maps</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008224"><a href="https://www.boston.com/tag/storms/">Storms</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008199"><a href="https://www.boston.com/tag/climate-change/">Climate Change</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-23008255"><a href="https://www.boston.com/tag/snow/">Snow</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360741"><a href="https://www.boston.com/author/david-epstein/">David Epstein</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274495"><a href="https://www.boston.com/category/food/">Food</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672249"><a href="https://www.boston.com/tag/restaurants/">Restaurants</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672303"><a href="https://www.boston.com/tag/food-news/">News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672295"><a href="https://www.boston.com/tag/restaurant-reviews/">Reviews</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672298"><a href="https://www.boston.com/tag/food-events/">Events</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672251"><a href="https://www.boston.com/tag/breweries-bars/">Breweries &amp; Bars</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672290"><a href="https://www.boston.com/tag/restaurant-openings/">Openings</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672285"><a href="https://www.boston.com/tag/restaurant-closings/">Closings</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23474810"><a href="https://www.boston.com/things-to-do/">Things To Do</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23527961"><a href="https://www.boston.com/calendar-submission/">Submit a Listing</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-24270121"><a href="https://www.boston.com/category/community/">Community</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063234"><a href="https://www.boston.com/tag/tell-us/">Tell Us</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063232"><a href="https://www.boston.com/tag/readers-say/">Readers Say</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063239"><a href="https://www.boston.com/tag/book-club/">Book Club</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24063244"><a href="https://www.boston.com/tag/cocktail-club/">Cocktail Club</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-26377957"><a href="https://www.boston.com/tag/the-b-side/">The B-Side</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22274485"><a href="https://www.boston.com/category/culture/">Culture</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672229"><a href="https://www.boston.com/tag/entertainment/">Entertainment</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672234"><a href="https://www.boston.com/tag/movies/">Movies</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672235"><a href="https://www.boston.com/tag/tv/">TV</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24669784"><a href="https://www.boston.com/tag/streaming/">Streaming</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672238"><a href="https://www.boston.com/tag/celebs/">Celebs</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672241"><a href="https://www.boston.com/tag/music/">Music</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672218"><a href="https://www.boston.com/tag/arts/">Arts</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360713"><a href="https://loveletters.boston.com/">Love Letters</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-22360356"><a href="https://www.boston.com/category/travel/">Travel</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24676057"><a href="https://www.boston.com/tag/outdoors/">Outdoors</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-27503800"><a href="https://www.boston.com/tag/beaches/">Beaches</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24976054"><a href="https://www.boston.com/tag/flights/">Flights</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22993850"><a href="https://www.boston.com/tag/visiting-boston/">Visiting Boston</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-24976055"><a href="https://www.boston.com/tag/cape-cod-travel/">Cape Cod</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-22672269"><a href="https://www.boston.com/tag/new-england-travel/">New England</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25890194"><a href="https://www.boston.com/category/real-estate/">Real Estate</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890196"><a href="https://www.boston.com/tag/real-estate-news/">News</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890197"><a href="https://www.boston.com/tag/home-buying/">Buying</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890200"><a href="https://www.boston.com/tag/open-houses/">Open Houses</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890207"><a href="https://www.boston.com/tag/renting/">Renting</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890215"><a href="https://www.boston.com/tag/luxury-homes/">Luxury</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890218"><a href="https://www.boston.com/tag/home-improvement/">Reno</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-post_tag menu-item-25890221"><a href="https://www.boston.com/tag/new-developments/">Developments</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-25195153"><a href="https://www.boston.com/category/cars/">Cars</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25195157"><a href="https://www.boston.com/new-car-specials/">New Car Specials</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-22360995 menu-item-hamburger-only"><a href="https://www.boston.com/">Extra</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360996 menu-item-hamburger-only"><a href="https://www.boston.com/fresh-start-submit-your-appeal/">Fresh Start</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22360999 menu-item-hamburger-only"><a href="https://www.bostonglobemedia.com/">Advertise</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361010 menu-item-hamburger-only"><a href="https://advertising.bostonglobemedia.com/">Classified Ads</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361025 menu-item-hamburger-only"><a href="https://www.boston.com/customer-support/">Customer Support</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22864808"><a href="https://www.boston.com/tag/newsletters/">Newsletters</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361055 menu-item-hamburger-only"><a href="https://bostonglobemediapartners.applytojob.com/apply">Careers</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361026 menu-item-hamburger-only"><a href="https://www.boston.com/contact-us/">Contact Us</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361019 menu-item-hamburger-only"><a href="https://www.legacy.com/obituaries/bostonglobe/">Obituaries</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927243"><a href="/tag/massachusetts-lottery/">Mass. Lottery</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927251"><a href="https://www.boston.com/tag/powerball/">Powerball</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25927254"><a href="https://www.boston.com/tag/mega-millions/">Mega Millions</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361035 menu-item-hamburger-only"><a href="https://www.boston.com/horoscope/">Horoscopes</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361043 menu-item-hamburger-only"><a href="https://www.boston.com/comics/">Comics</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22361045 menu-item-hamburger-only"><a href="https://www.boston.com/today-in-history/">Today in History</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26545208"><a href="https://businesses.boston.com/">Businesses</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23262418 menu-item-hamburger-only"><a href="https://www.boston.com/partner-landing/partners/">Partners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24512309 menu-item-hamburger-only"><a href="https://games.boston.com/">Games</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27617269 menu-item-hamburger-only"><a href="https://www.boston.com/coupons">Coupons</a></li>
+</ul></div>	</nav>
+
+	<nav aria-label="Trending Navigation" class="m-site-navigation m-site-navigation--right m-site-navigation--trending" id="trending-navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
+		<div class="menu-bdc-trending-container"><ul id="menu-bdc-trending" class="m-primary-menu m-primary-menu--trending a-list--no-style"><li id="menu-item-27344576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27344576"><a href="https://www.boston.com/sports/boston-bruins/2023/07/25/patrice-bergeron-boston-bruins-retirement-legacy-brad-marchand/">Patrice Bergeron</a></li>
+<li id="menu-item-27400553" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27400553"><a href="https://www.boston.com/news/crime/2023/07/25/karen-read-case-judge-cannone-declines-recusal/">Karen Read</a></li>
+<li id="menu-item-27308742" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27308742"><a href="https://www.boston.com/sports/boston-celtics/2023/07/25/jaylen-brown-contract-celtics-evolution-nba/">Jaylen Brown</a></li>
+<li id="menu-item-27591903" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27591903"><a href="https://www.bostonglobe.com/globe-today/?p1=BDC_Trending">Watch: Globe Today</a></li>
+</ul></div>	</nav>
+				</div>
+			</div>
+
+		</header>
+
+		
+		
+		<main class="t-main" id="site-content" aria-label="Main Site Content">
+
+					<div id="oosvideo">
+				<script>
+					googletag.cmd.push(function() {
+						googletag.display('oosvideo');
+					});
+				</script>
+			</div>
+		
+
+		<div class="m-grid-container t-layout t-layout--is-single t-layout--with-sidebar t-layout--standard-image ">
+		<section class="t-layout__main ">
+			<article class="content-well content-well--article" role="main">
+				<div id="presentedby">
+					<script>
+						googletag.cmd.push(function() {
+							googletag.display('presentedby');
+						});
+					</script>
+				</div>
+
+				<header class="m-article-header m-article-header--standard">
+												<span id="article-header-primary-term">
+								<a class="a-term a-term--primary" href="https://www.boston.com/tag/weather/">
+								Weather								</a>
+							</span>
+							
+					<h1 class="m-article-header__headline">Snow maps: How much accumulation to expect in Mass.</h1>
+					<h2 class="m-article-header__sub-headline">&quot;Sloppy coating to 2&quot; immediate coast, Boston and areas south where it changes to rain.&quot;</h2>
+
+					<figure class="a-photo m-article-header__photo ">
+	<figcaption class="a-photo__caption">
+	<em> </em>	</figcaption>
+</figure>
+
+					<div class="m-article-header__meta">
+						<div class="m-article-header__byline">
+							<p class="m-article-header__author">
+								By <a class="a-link a-link--inline" href="https://www.boston.com/author/dialynn-dwyer/">Dialynn Dwyer</a> and <a class="a-link a-link--inline" href="https://www.boston.com/author/jack-pickell/">Jack Pickell</a>							</p>
+
+							<time class="m-article-header__date">
+								updated on March 4, 2023							</time>
+						</div>
+						<div class="m-article-header__social">
+							<ul class="a-list--no-style m-social-share"><li class="m-social-share__item"><a id="sharetools-facebook" class="m-social-share__link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.boston.com%2F%3Fpost_type%3Dpost%26p%3D27084493" rel="noopener noreferr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="a-icon" aria-hidden="true" role="presentation" width="18" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#facebook-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#facebook-white"></use></svg><span class="screen-reader-text">Facebook</span></a></li><li class="m-social-share__item"><a id="sharetools-twitter" class="m-social-share__link" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.boston.com%2F%3Fpost_type%3Dpost%26p%3D27084493" rel="noopener noreferr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="a-icon" aria-hidden="true" role="presentation" width="18" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#twitter-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#twitter-white"></use></svg><span class="screen-reader-text">Twitter</span></a></li><li class="m-social-share__item"><a id="sharetools-email" class="m-social-share__link" href="/cdn-cgi/l/email-protection#241b5751464e41475019774a4b53011614494554570117650116146c4b530116144951474c0116144547475149514845504d4b4a011614504b011614415c544147500116144d4a011614694557570a02464b405d194c505054570117650116620116625353530a464b57504b4a0a474b49011662011762544b57507b505d5441011760544b5750011612540117601613141c10101d17" rel="noopener noreferr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="a-icon" aria-hidden="true" role="presentation" width="18" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#mail-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#mail-white"></use></svg><span class="screen-reader-text">Email</span></a></li><li class="m-social-share__item"><a id="sharetools-copylink" class="m-social-share__link js-copy-link" data-clipboard-text="https://www.boston.com/?post_type=post&#038;p=27084493" rel="noopener noreferr" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="a-icon" aria-hidden="true" role="presentation" width="18" height="15"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#link-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#link-white"></use></svg><span class="screen-reader-text">Email</span></a></li><li class="m-social-share__item m-social-share__comments"><a href="#comments" class="m-social-share__comments-link">6</a></li></ul>						</div>
+					</div>
+				</header>
+
+				<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+
+<div class="m-block t-amp__list-container m-article-list-container  m-article-list-container--frame-border a-border-frame  a-list-header__headline--red  m-article-list--floated">
+			<header class="t-amp__list-header a-list-header ">
+			<h5 class="a-list-header__headline a-list-header__headline--no-border ">Friday&#039;s storm:</h5>
+		</header>
+		<ul class="t-amp__list a-list--no-style m-article-list m-article-list--recirculation m-article-list--has-images ">
+
+					<li class="js-article-card m-article-list__item m-article-list__item--featured">
+				<img width="768" height="432" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg" class="t-amp__list-image m-article-list__image m-article-list__image--full" alt="" decoding="async" loading="lazy" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2019_01_20_BostonGlobe.com_Metro_Images_RinaldiWeather01-640201b042295-768x432.jpg?width=900 900w" sizes="(max-width: 768px) 100vw, 768px" />				<div class="m-article-list__content">
+										<h4 class="m-article-list__headline t-amp__list-headline ">
+						<a href="https://www.boston.com/weather/weather/2023/03/01/boston-ma-weather-forecast-snow-sleet-friday-saturday-march-3-4-2023/" class="js-article-card-link m-article-list__link a-link a-link--inline a-link--text-link a-link--text-link-dark" data-p1="article_recirc_inline_feature">
+						What forecasters say about the timing and impacts of the wintry mix in Mass.						</a>
+					</h4>
+				</div>
+			</li>
+				</ul>
+</div>
+<html><body><p>You might want to keep your shovel handy a little longer &mdash; a messy wintry mix, including <a href="https://www.boston.com/tag/snow/" target="_blank" rel="noreferrer noopener">snow</a>, has arrived in <a href="https://www.boston.com/tag/massachusetts/" target="_blank" rel="noreferrer noopener">Massachusetts</a>.</p>
+
+<p>The <a href="https://www.boston.com/tag/storms/">storm</a> arrived Friday night, bringing with it a <a href="https://www.boston.com/category/weather/" target="_blank" rel="noreferrer noopener">wintry mix</a> of snow, sleet, and rain that continue Saturday.&nbsp;</p>
+
+<p>So far, local meteorologists <a href="https://www.boston.com/weather/weather/2023/03/01/boston-ma-weather-forecast-snow-sleet-friday-saturday-march-3-4-2023/">are expecting</a> higher snow accumulations will be seen at the state&rsquo;s higher elevations and north of the Mass. Pike.&nbsp;</p>
+
+<p>Below, see which areas of Massachusetts and the region forecasters are saying could see accumulating snowfall from the storm.&nbsp;</p>
+
+<h2 class="wp-block-heading" id="h-nws-boston"><a href="https://twitter.com/NWSBoston" target="_blank" rel="noreferrer noopener">NWS Boston</a></h2>
+
+<figure class="wp-block-image size-full"><img decoding="async" width="1024" height="768" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg" alt="" class="wp-image-27097280" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/FqXpYQ7aQAEBnWk-64033d6a451a0.jpg?width=900 900w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure><figure class="wp-block-image size-full"><img decoding="async" loading="lazy" width="1024" height="768" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg" alt="snow map" class="wp-image-27091554" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/03/Snow-forecast-6401f1664a396.jpeg?width=900 900w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure><h3 class="wp-block-heading"><a href="https://twitter.com/NWSGray" target="_blank" rel="noreferrer noopener">NWS Gray</a></h3>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">The Nor&#39;easter will bring snowfall across the area late tonight through Saturday, 4 March.  You can check out a detailed forecast for your location at <a href="https://t.co/JEQHTxksDG">https://t.co/JEQHTxksDG</a>. <a href="https://t.co/hvUleT85Ia">pic.twitter.com/hvUleT85Ia</a></p>&mdash; NWS Gray (@NWSGray) <a href="https://twitter.com/NWSGray/status/1631620153589788672?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h3 class="wp-block-heading"><a href="https://twitter.com/NWSBurlington" target="_blank" rel="noreferrer noopener">NWS Burlington</a></h3>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">[3/3 4 AM] A Winter Storm Warning is now in effect for all of VT and northern NY. Snow begins late this evening, becoming heavy overnight into Sat morning before tapering off Sat afternoon. Visit <a href="https://t.co/bWrAqA7uKd">https://t.co/bWrAqA7uKd</a> for the latest storm forecast <a href="https://twitter.com/hashtag/snow?src=hash&amp;ref_src=twsrc%5Etfw">#snow</a> <a href="https://twitter.com/hashtag/vtwx?src=hash&amp;ref_src=twsrc%5Etfw">#vtwx</a> <a href="https://twitter.com/hashtag/nywx?src=hash&amp;ref_src=twsrc%5Etfw">#nywx</a> <a href="https://t.co/8K8bnYS5Rp">pic.twitter.com/8K8bnYS5Rp</a></p>&mdash; NWS Burlington (@NWSBurlington) <a href="https://twitter.com/NWSBurlington/status/1631583760071430144?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://twitter.com/growingwisdom" target="_blank" rel="noreferrer noopener">Dave Epstein</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Colder air works in this afternoon and changes the mix back to snow.  Not much road accumulation, but could be a coating to an inch or two on other surfaces before it ends. <a href="https://t.co/pp9P7W4Gje">pic.twitter.com/pp9P7W4Gje</a></p>&mdash; Dave Epstein (@growingwisdom) <a href="https://twitter.com/growingwisdom/status/1631996475587657728?ref_src=twsrc%5Etfw">March 4, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">No significant changes to the AM map for predicted snow totals.  There will be another set of data overnight to evaluate &amp; make any necessary changes. We have about 30 hrs until the first flakes fly.  Still am concerned about heavy wet nature of snow in those areas w/high totals. <a href="https://t.co/bCWQwMhTc7">pic.twitter.com/bCWQwMhTc7</a></p>&mdash; Dave Epstein (@growingwisdom) <a href="https://twitter.com/growingwisdom/status/1631421876596535297?ref_src=twsrc%5Etfw">March 2, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://www.boston25news.com/weather/" target="_blank" rel="noreferrer noopener">Boston 25 News</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Key message with the latest snow map:<br>Highest totals for the elevations/interior<br>Mix along the coast<br>Plain rain for Cape &amp; Islands<br>*We could get a quick burst of snow as the storm is moving out, possibly the best chance to see snow along the coast <a href="https://t.co/xln8nj7ixE">pic.twitter.com/xln8nj7ixE</a></p>&mdash; Vicki Graf (@VickiGrafWX) <a href="https://twitter.com/VickiGrafWX/status/1631599635511885826?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://whdh.com/weather/" target="_blank" rel="noreferrer noopener">7News</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">Heaviest snow/sleet amounts will be across northern Mass. Even across Boston/MetroWest, those lower amounts are loaded with water content thanks to sleet and some drops mixed in. A lot of weight to push around. <a href="https://t.co/EhinQgwW5U">pic.twitter.com/EhinQgwW5U</a></p>&mdash; Chris Lambert (@clamberton7) <a href="https://twitter.com/clamberton7/status/1631609646757687296?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://www.cbsnews.com/boston/weather/" target="_blank" rel="noreferrer noopener">WBZ-TV</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">No changes tonight&#8230;we&#39;ll see how it looks tomorrow. Most accumulation still expected midnight to 7am as we transition to sleet and rain and then the sun angle/warmer temps go to work during the day Saturday. <a href="https://twitter.com/hashtag/wbz?src=hash&amp;ref_src=twsrc%5Etfw">#wbz</a> <a href="https://t.co/6wCHNj6iOL">pic.twitter.com/6wCHNj6iOL</a></p>&mdash; Eric Fisher (@ericfisher) <a href="https://twitter.com/ericfisher/status/1631507543506796545?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://www.nbcboston.com/weather/" target="_blank" rel="noreferrer noopener">NBC10 Boston</a> &amp; <a href="https://www.necn.com/weather/" target="_blank" rel="noreferrer noopener">NECN</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">I doubt much of Southern New England except the deep interior will see much accumulation after about 9am thanks to sun strength equivalent to October, but the burst until then accumulates &amp; from north-Central MA northward continues to add up a bit longer, esp. Northern NewEng. <a href="https://t.co/N88A7cVZ25">pic.twitter.com/N88A7cVZ25</a></p>&mdash; Matt Noyes NBC10 Boston &amp; NECN (@MattNBCBoston) <a href="https://twitter.com/MattNBCBoston/status/1631647996365381634?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure><h2 class="wp-block-heading"><a href="https://www.wcvb.com/weather" target="_blank" rel="noreferrer noopener">WCVB</a></h2>
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true"><p lang="en" dir="ltr">SNOW FORECAST<br>Heaviest snow the farther N&amp;W you go where 4-8&quot; of heavy, wet snow could accumulate.  <br>2-4&quot; near the pike and 128 where sleet will mix in (water logged and tough to move)  <br>Sloppy coating to 2&quot; immediate coast, Boston and areas south where it changes to rain <a href="https://twitter.com/hashtag/WCVB?src=hash&amp;ref_src=twsrc%5Etfw">#WCVB</a> <a href="https://t.co/eLVs5EiQFz">pic.twitter.com/eLVs5EiQFz</a></p>&mdash; Cindy Fitzgibbon (@Met_CindyFitz) <a href="https://twitter.com/Met_CindyFitz/status/1631638694032547845?ref_src=twsrc%5Etfw">March 3, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+<div class="m-block m-generic-cta m-generic-cta--post-content m-generic-cta--dark m-generic-cta--homepage m-generic-cta--email-signup t-amp__generic-cta">
+	<div class="m-generic-cta__wrap">
+		
+		
+		<div class="m-generic-cta__content">
+							<h3 class="m-generic-cta__title">Newsletter Signup</h3>
+			
+							<p class="m-generic-cta__subtitle">Stay up to date on all the latest news from Boston.com</p>
+					</div>
+		<div class="m-generic-cta__feature">
+																
+<form id="newsletter-form-3" class="m-form-newsletter m-form-newsletter--horizontal" action="" method="">
+		<fieldset form="newsletter-form" data-mailchimp-list-ids="">
+		<legend class="screen-reader-text">
+			Submit your email		</legend>
+
+		<label class="m-form-newsletter__label" for="email-form-3">
+			<span class="screen-reader-text">Enter your email address</span>
+							<input class="a-input m-form-newsletter__input" type="email" id="email-form-3" name="email" placeholder="Email Address" aria-required="true" required>
+						<p class="m-form-newsletter-error"></p>
+		</label>
+
+		<button type="submit" name="submit" class="a-button a-button--primary m-form-newsletter__button">
+			Sign up		</button>
+	</fieldset>
+</form>
+					</div>
+
+			</div>
+</div>
+</body></html>
+
+								<div class="content-below-article">
+					</div>
+				<div class="rev-content">
+			<div id="rev">
+				<div id="rc-widget-5c0cda" data-rc-widget data-widget-host="habitat" data-direct-delivery data-endpoint="//trends.revcontent.com" data-widget-id="109517"></div>
+			</div>
+		</div>
+		<div>
+<div id="comments">
+<h3 style="margin-bottom: 0.9375rem;">Conversation</h3><h5 style="margin-top: 0;">This discussion has ended. Please join elsewhere on Boston.com</h5></div>
+</div>
+
+
+			</article>
+					</section>
+
+		<div class="t-layout__sidebar" id="sidebar-home">
+						
+<div class="m-widget">
+	<div class="m-advert m-advert--sidebar m-advert--600">
+		<div class="m-content-advert-wrap">
+			<div id="js-advert--articlerail1" class="m-advert m-advert--articlerail1  "><div class="m-advert__container"><div id="ad_articlerail1"><script type="type/javascript">googletag.cmd.push(function() { googletag.display("ad_articlerail1") })</script></div></div></div>		</div>
+	</div>
+</div>
+
+<div class="m-widget">
+	
+<div id="most-popular-posts" class="m-widget m-numbered-post-list">
+	<header class="m-numbered-post-list__header">
+		<h3 class="m-numbered-post-list__header-title">
+			Most Popular		</h3>
+	</header>
+	<div class="m-numbered-post-list__posts">
+		
+<article aria-label="Is Tom Brady dating supermodel Irina Shayk?" id="m-numbered-post-list-1" class="m-numbered-post-list__post">
+	<div class="m-numbered-post-list__image" data-count="1">
+		<a class="m-numbered-post-list__image-link" href="https://boston.com/culture/celebs/2023/07/24/tom-brady-irina-shayk-dating-girlfriend/">
+			<img src="//boston.com/wp-content/uploads/2023/07/Tom-Brady-Irina-Shayk-dating-64bec7cb22dac.jpg?width=190" loading="lazy" width="95" height="95" alt="Is Tom Brady dating supermodel Irina Shayk?" />
+		</a>
+	</div>
+
+	<h4 class="m-numbered-post-list__title" >
+		<a class="m-numbered-post-list__link" href="https://boston.com/culture/celebs/2023/07/24/tom-brady-irina-shayk-dating-girlfriend/">
+			<span class="screen-reader-text">
+				Visit 			</span>
+			Is Tom Brady dating supermodel Irina Shayk?		</a>
+	</h4>
+</article>
+
+<article aria-label="4 takeaways as Red Sox earn 7-1 triumph over MLB-best Braves" id="m-numbered-post-list-2" class="m-numbered-post-list__post">
+	<div class="m-numbered-post-list__image" data-count="2">
+		<a class="m-numbered-post-list__image-link" href="https://boston.com/sports/boston-red-sox/2023/07/25/red-sox-braves-takeaways-masataka-yoshida-rafael-devers-nick-pivetta-highlights/">
+			<img src="//boston.com/wp-content/uploads/2023/07/Rafael-Devers-64c08e7aa4a3d-scaled.jpg?width=190" loading="lazy" width="95" height="95" alt="4 takeaways as Red Sox earn 7-1 triumph over MLB-best Braves" />
+		</a>
+	</div>
+
+	<h4 class="m-numbered-post-list__title" >
+		<a class="m-numbered-post-list__link" href="https://boston.com/sports/boston-red-sox/2023/07/25/red-sox-braves-takeaways-masataka-yoshida-rafael-devers-nick-pivetta-highlights/">
+			<span class="screen-reader-text">
+				Visit 			</span>
+			4 takeaways as Red Sox earn 7-1 triumph over MLB-best Braves		</a>
+	</h4>
+</article>
+
+<article aria-label="Jaylen Brown&#039;s new contract with Celtics shows evolution of NBA" id="m-numbered-post-list-3" class="m-numbered-post-list__post">
+	<div class="m-numbered-post-list__image" data-count="3">
+		<a class="m-numbered-post-list__image-link" href="https://boston.com/sports/boston-celtics/2023/07/25/jaylen-brown-contract-celtics-evolution-nba/">
+			<img src="//boston.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_davishc14-64c01d495b417-scaled.jpg?width=190" loading="lazy" width="95" height="95" alt="Jaylen Brown&#039;s new contract with Celtics shows evolution of NBA" />
+		</a>
+	</div>
+
+	<h4 class="m-numbered-post-list__title" >
+		<a class="m-numbered-post-list__link" href="https://boston.com/sports/boston-celtics/2023/07/25/jaylen-brown-contract-celtics-evolution-nba/">
+			<span class="screen-reader-text">
+				Visit 			</span>
+			Jaylen Brown&#039;s new contract with Celtics shows evolution of NBA		</a>
+	</h4>
+</article>
+
+<article aria-label="Patrick Mendoza: Monica&#039;s Trattoria license suspended" id="m-numbered-post-list-4" class="m-numbered-post-list__post">
+	<div class="m-numbered-post-list__image" data-count="4">
+		<a class="m-numbered-post-list__image-link" href="https://boston.com/news/local-news/2023/07/25/monicas-trattoria-license-suspended-patrick-mendoza-arrested-shooting/">
+			<img src="//boston.com/wp-content/uploads/2023/07/monicas.trattoria-64c0591ad6462-scaled.jpg?width=190" loading="lazy" width="95" height="95" alt="Patrick Mendoza: Monica&#039;s Trattoria license suspended" />
+		</a>
+	</div>
+
+	<h4 class="m-numbered-post-list__title" >
+		<a class="m-numbered-post-list__link" href="https://boston.com/news/local-news/2023/07/25/monicas-trattoria-license-suspended-patrick-mendoza-arrested-shooting/">
+			<span class="screen-reader-text">
+				Visit 			</span>
+			Patrick Mendoza: Monica&#039;s Trattoria license suspended		</a>
+	</h4>
+</article>
+
+<article aria-label="15 things that defined Patrice Bergeron’s 19-year career with Bruins" id="m-numbered-post-list-5" class="m-numbered-post-list__post">
+	<div class="m-numbered-post-list__image" data-count="5">
+		<a class="m-numbered-post-list__image-link" href="https://boston.com/sports/boston-bruins/2023/07/25/here-are-15-things-that-defined-patrice-bergerons-19-year-career-with-bruins/">
+			<img src="//boston.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2013_05_14_BostonGlobe.com_Sports_Videos_Sources_2381680815001-64c067922805b.jpg?width=190" loading="lazy" width="95" height="95" alt="15 things that defined Patrice Bergeron’s 19-year career with Bruins" />
+		</a>
+	</div>
+
+	<h4 class="m-numbered-post-list__title" >
+		<a class="m-numbered-post-list__link" href="https://boston.com/sports/boston-bruins/2023/07/25/here-are-15-things-that-defined-patrice-bergerons-19-year-career-with-bruins/">
+			<span class="screen-reader-text">
+				Visit 			</span>
+			15 things that defined Patrice Bergeron’s 19-year career with Bruins		</a>
+	</h4>
+</article>
+	</div>
+</div>
+
+
+</div>
+
+
+
+<div class="m-widget">
+	<div class="m-advert m-advert--sidebar">
+		<div class="m-content-advert-wrap">
+			<div id="js-advert--articlerail2" class="m-advert m-advert--articlerail2  m-advert--sticky"><div class="m-advert__container"><div id="ad_articlerail2"><script type="type/javascript">googletag.cmd.push(function() { googletag.display("ad_articlerail2") })</script></div></div></div>		</div>
+	</div>
+</div>
+		</div>
+
+		<div class="m-grid-container t-layout__related-news">
+			<hr class="a-thin-hr">
+			
+<section aria-label="In Related News" class="o-featured-content o-featured-content--c o-featured-content--c-related m-grid">
+				<div class="m-grid-span-8">
+							<header>
+					<h3 class="o-featured-content__title">
+													In Related News											</h3>
+				</header>
+						<section aria-label="What Boston meteorologists are saying about Tuesday&#8217;s storms and the &#8216;dangerous heat&#8217; ahead" class="js-article-card m-article-list-feature">
+				<div class="m-article-list-feature__image-container">
+					<img width="768" height="432" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg" class="o-featured-content__main-image m-article-list-feature__image" alt="" decoding="async" loading="lazy" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/63IF3GKDVHHHGXDDE7XESCEAYA-64bfca0a3a864-768x432.jpg?width=900 900w" sizes="(max-width: 768px) 100vw, 768px" />				</div>
+				<div class="m-article-list-feature__content">
+					<h3 class="m-article-list-feature__headline">
+						<a href="https://www.boston.com/weather/weather/2023/07/25/what-boston-meteorologists-are-saying-about-tuesdays-storms-and-the-dangerous-heat-ahead/" class="js-article-card-link m-article-list-feature__link" data-p1=article_recirc_well>
+							What meteorologists are saying about today&#039;s storms and the &#039;dangerous heat&#039; ahead						</a>
+					</h3>
+				</div>
+			</section>
+		</div>
+		<div class="o-featured-content__article-list o-featured-content--has-title m-grid-span-4">
+				<ul class="a-list--no-style m-article-list m-article-list--has-images">
+			<li class="js-article-card m-article-list__item o-featured-content__list-image">
+				<div id="nativeteasebot">
+					<script>
+						googletag.cmd.push(function() {
+							googletag.display('nativeteasebot');
+						});
+					</script>
+				</div>
+			</li>
+						<li class="js-article-card m-article-list__item o-featured-content__list-image">
+
+				<img width="2560" height="1707" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg" class="m-article-list__image" alt="" decoding="async" loading="lazy" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/s3___bgmp-arc_arc-feeds_generic-photos_to-arc_tlumackigloomyjuly360-64ba953192a3a-scaled.jpg?width=900 900w" sizes="(max-width: 2560px) 100vw, 2560px" />				<div class="m-article-list__content o-featured-content__list-content">
+										<span class="m-article-list__topic">
+						<a class="a-link a-link--tag a-link--tag-transparent" href="https://www.boston.com/weather/weather/2023/07/21/what-boston-meteorologists-are-saying-about-fridays-severe-weather-and-the-weekend-forecast/">
+							Weather						</a>
+					</span>
+										<h4 class="m-article-list__headline o-featured-content__list-headline">
+						<a href="https://www.boston.com/weather/weather/2023/07/21/what-boston-meteorologists-are-saying-about-fridays-severe-weather-and-the-weekend-forecast/" class="js-article-card-link m-article-list__link" >
+						What Boston meteorologists are saying about today&#039;s severe weather — and the weekend forecast						</a>
+					</h4>
+				</div>
+			</li>
+						<li class="js-article-card m-article-list__item o-featured-content__list-image">
+
+				<img width="2560" height="1249" src="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg" class="m-article-list__image" alt="" decoding="async" loading="lazy" srcset="https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=200 200w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=300 300w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=400 400w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=500 500w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=600 600w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=700 700w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=800 800w, https://bdc2020.o0bc.com/wp-content/uploads/2023/07/https___arcmigration-prdweb.bostonglobe.com_r_Boston_2011-2020_2017_06_01_BostonGlobe.com_Metro_Images_davis_lightning_met-64b6ac35ed3f5-scaled.jpg?width=900 900w" sizes="(max-width: 2560px) 100vw, 2560px" />				<div class="m-article-list__content o-featured-content__list-content">
+										<span class="m-article-list__topic">
+						<a class="a-link a-link--tag a-link--tag-transparent" href="https://www.boston.com/weather/weather/2023/07/18/what-boston-meteorologists-are-saying-about-the-thunderstorms-in-the-forecast-tuesday/">
+							Weather						</a>
+					</span>
+										<h4 class="m-article-list__headline o-featured-content__list-headline">
+						<a href="https://www.boston.com/weather/weather/2023/07/18/what-boston-meteorologists-are-saying-about-the-thunderstorms-in-the-forecast-tuesday/" class="js-article-card-link m-article-list__link" >
+						What Boston meteorologists are saying about the thunderstorms in the forecast today						</a>
+					</h4>
+				</div>
+			</li>
+					</ul>
+			</div>
+</section>
+		</div>
+
+			</div>
+	<!-- Page Content -->
+	</main>
+	<footer id="site-footer" class="o-site-footer" aria-label="Site Footer">
+		<div class="m-grid-container">
+			<section class="o-site-footer__meta m-grid">
+				<div class="o-site-footer__social m-grid-span-4">
+					
+<ul class="a-list--no-style m-social-share m-social-share--block m-social-share--footer">
+	<li class="m-social-share__item">
+		<a  href="https://www.instagram.com/boston/" class="m-social-share__link" rel="nopenner noreferrer" target="_blank">
+			<svg class="a-icon a-icon--social" aria-hidden="true" width="21" height="17"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#instagram-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#instagram-white"></use></svg><span class="screen-reader-text">Follow Boston.com on Instagram (Opens in a New Tab)</span>		</a>
+	</li>
+	<li class="m-social-share__item">
+		<a href="https://twitter.com/intent/user?screen_name=BostonDotCom" class="m-social-share__link" rel="nopenner noreferrer" target="_blank">
+			<svg class="a-icon a-icon--social" aria-hidden="true" width="21" height="17"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#twitter-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#twitter-white"></use></svg><span class="screen-reader-text">Follow Boston.com on Twitter (Opens in a New Tab)</span>		</a>
+	</li>
+	<li class="m-social-share__item">
+		<a href="https://www.facebook.com/boston" class="m-social-share__link" rel="nopenner noreferrer" target="_blank">
+			<svg class="a-icon a-icon--social" aria-hidden="true" width="11" height="20"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#facebook-white"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#facebook-white"></use></svg><span class="screen-reader-text">Like Boston.com on Facebook (Opens in a New Tab)</span>		</a>
+	</li>
+</ul>
+				</div>
+
+				<div class="o-site-footer__colophon m-site-colophon m-grid-span-4">
+					<p class="m-site-colophon__text">&copy;2023 Boston Globe Media Partners, LLC</p>
+				</div>
+
+				<div class="o-site-footer__signup m-grid-span-4">
+					<div class="o-site-footer__signup-divider a-pattern-divider a-pattern-divider--full-width a-pattern-divider--red a-hide-desktop"></div>
+					
+<form id="newsletter-form-4" class="m-form-newsletter m-form-newsletter--horizontal" action="" method="">
+			<h4 class="m-form-newsletter__heading">
+			Sign up for our daily newsletter 		</h4>
+		<fieldset form="newsletter-form" data-mailchimp-list-ids="">
+		<legend class="screen-reader-text">
+			Submit your email		</legend>
+
+		<label class="m-form-newsletter__label" for="email-form-4">
+			<span class="screen-reader-text">Enter your email address</span>
+							<input class="a-input m-form-newsletter__input" type="email" id="email-form-4" name="email" placeholder="Email Address" aria-required="true" required>
+						<p class="m-form-newsletter-error"></p>
+		</label>
+
+		<button type="submit" name="submit" class="a-button a-button--primary m-form-newsletter__button">
+			Subscribe		</button>
+	</fieldset>
+</form>
+				</div>
+
+									<div class="o-site-footer__menu m-grid-span-12">
+						<nav class="o-site-footer__nav m-secondary-menu m-secondary-menu--footer a-list--no-style" aria-label="Footer Navigation">
+							<div class="menu-footer-container"><ul id="footer-menu" class="o-site-footer__menu-list m-secondary-menu__list a-list--no-style"><li id="menu-item-22362950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22362950"><a href="https://www.boston.com/privacy-policy">Do not sell my data</a></li>
+<li id="menu-item-22362921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22362921"><a href="https://www.boston.com/privacy-policy">Privacy Policy</a></li>
+<li id="menu-item-26585081" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26585081"><a href="https://www.boston.com/online-gambling-content-disclaimer">GAMBLING DISCLAIMER</a></li>
+<li id="menu-item-26304418" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26304418"><a href="https://www.bostonglobemedia.com/advertise/">ADVERTISE</a></li>
+<li id="menu-item-22362900" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22362900"><a href="https://www.boston.com/terms-of-service">Terms of Service</a></li>
+<li id="menu-item-22362926" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22362926"><a href="https://www.boston.com/member-agreement">Member Agreement</a></li>
+<li id="menu-item-26304411" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26304411"><a href="https://www.boston.com/contact-us/">CONTACT US</a></li>
+<li id="menu-item-23287074" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-23287074"><a href="https://bostonglobemediapartners.applytojob.com/apply">CAREERS</a></li>
+<li id="menu-item-27836187" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27836187"><a href="https://www.boston.com/coupons">Coupons</a></li>
+</ul></div>						</nav>
+					</div>
+				
+			</section>
+		</div>
+	</footer>
+
+	<!-- Site Modal -->
+	
+<div id="site-modal" class="o-site-modal" aria-hidden="true">
+	<div class="o-site-modal__overlay" tabindex="-1" data-a11y-dialog-hide></div>
+
+	<div role="dialog" class="o-site-modal__content" aria-labelledby="m-site-modal-logo" aria-describedby="modal-description">
+
+		<button data-a11y-dialog-hide="site-modal" class="a-button o-site-modal__close" aria-label="Close this dialog window">
+			<svg class="a-icon" aria-hidden="true" width="17" height="17"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close-symbol"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#close-symbol"></use></svg><span class="screen-reader-text">Close Modal</span>		</button>
+
+		<h3 id="m-site-modal-logo" class="m-site-logo">
+			<span class="screen-reader-text">
+				Boston.com Newsletter Signup			</span>
+			<svg class="a-icon" aria-hidden="true" width="200" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#logo"></use><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.boston.com/wp-content/themes/bdc-2020/assets/symbol-defs.svg#logo"></use></svg><span class="screen-reader-text">Boston.com Logo</span>		</h3>
+
+		<p id="modal-description" class="o-site-modal__description">
+			Stay up to date with everything Boston. Receive the latest news and breaking updates, straight from our newsroom to your inbox.		</p>
+
+		<!-- form id should match fieldset 'form' attribute -->
+		
+<form id="newsletter-form-5" class="m-form-newsletter m-form-newsletter--vertical" action="" method="">
+			<h4 class="m-form-newsletter__heading">
+			Enter your email address		</h4>
+		<fieldset form="newsletter-form" data-mailchimp-list-ids="">
+		<legend class="screen-reader-text">
+			Submit your email		</legend>
+
+		<label class="m-form-newsletter__label" for="email-form-5">
+			<span class="screen-reader-text">Enter your email address</span>
+							<input class="a-input m-form-newsletter__input" type="email" id="email-form-5" name="email" placeholder="Email Address" aria-required="true" required>
+						<p class="m-form-newsletter-error"></p>
+		</label>
+
+		<button type="submit" name="submit" class="a-button a-button--primary m-form-newsletter__button">
+			Subscribe		</button>
+	</fieldset>
+</form>
+
+		<button type="button" name="cancel" class="a-button a-button--is-link a-c-red a-uppercase" data-a11y-dialog-hide="site-modal" >
+			No thanks				<span class="screen-reader-text">
+					 - Closes Modal window				</span>
+			</button>
+	</div>
+</div>
+
+
+	<!-- / Site Modal -->
+
+	
+	<script type="text/javascript" id="ad-refresh-callback">
+
+		/**
+		 * Refresh the OpenWrap/Amazon ads.
+		 *
+		 * @param array slotsToRefresh The slots due to be refreshed.
+		 */
+		function refreshOpenWrapAds( slotsToRefresh ) {
+			// Don't refresh "out of page" ads.
+			const adsToNotRefresh = ['oosvideo', 'presentedby', 'outofpage'];
+			slotsToRefresh = slotsToRefresh.filter((slot) => !adsToNotRefresh.includes(slot.getSlotElementId()))
+			if (!slotsToRefresh.length) {
+				return
+			}
+			
+			// Remove the previous bids from GPT.
+			PWT.removeKeyValuePairsFromGPTSlots( slotsToRefresh );
+			
+			// Add targeting Refresh=true to ads that are being refreshed.
+			slotsToRefresh.forEach((slot) => slot.setTargeting('refresh', 'true'))
+
+
+			/* 
+			* The above code is checking if the Onetrust script is active or not. 
+			* If it is active, it checks if the user has given consent for the country code or not. 
+			* If the user has given consent, it will display the ads. 
+			*/
+			const OnetrustActiveScripts = 1;
+			const CountryCodeOnetrust = JSON.parse(localStorage.getItem( 'consent_country_gdpr' ) );
+			const StorageConsentFromOnetrust = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+			if ( ! OnetrustActiveScripts ) {
+				apstag.setDisplayBids();
+			} else {
+				if ( true !== CountryCodeOnetrust || ( null !== StorageConsentFromOnetrust ) && ( StorageConsentFromOnetrust.C0004 ) ) {
+					apstag.setDisplayBids();
+				}
+			}
+
+			PWT.a9_BidsReceived = PWT.ow_BidsReceived = false;
+
+			const
+				amazonSlotsToRefresh    = formatSlotsToAmazon( slotsToRefresh ),
+				a9Promise               = fetchAmazonBids( amazonSlotsToRefresh ),
+				pubmaticPromise         = fetchPubmaticBids( slotsToRefresh );
+
+			Promise.all( [a9Promise, pubmaticPromise] ).then( (resultA9, resultPubmatic) => {
+      			this.refreshAds( slotsToRefresh );
+    		} );
+		}
+
+		/**
+		 * Converts the slots in the format required by Amazon.
+		 *
+		 * @param array slots The slots due to be refreshed.
+		 */
+		function formatSlotsToAmazon( slots ) {
+			const amazonSlotsToRefresh = [];
+
+			for (let index = 0; index < slots.length; index++) {
+				const slotItem		= slots[index], element = {}, slotSizes = [], size = [];
+				element.slotID   	= slots[index].getSlotElementId();
+				element.slotName 	= slots[index].getAdUnitPath();
+
+				if ( slots[index].getSizes() ) {
+					sizes = slots[index].getSizes();
+					for (let indexJ = 0; indexJ < sizes.length; indexJ++) {
+						size[indexJ] = [];
+						size[indexJ].push(sizes[indexJ].width, sizes[indexJ].height);
+						slotSizes.push(size[indexJ]);
+					}
+				}
+
+				element.sizes = slotSizes;
+				amazonSlotsToRefresh.push(element);
+			}
+
+			return amazonSlotsToRefresh;
+		}
+
+		// Gets bids from Amazon for the provided adSlots.
+		fetchAmazonBids = ( slots ) => {
+			return new Promise( ((resolve) => {
+				try {
+					apstag.fetchBids({
+						slots: slots
+					}, ( bids ) => {
+						apstag.setDisplayBids();
+						PWT.a9_BidsReceived = true;
+						resolve( bids );
+					});
+				} catch ( e ) {
+					resolve( null );
+				}
+			}) );
+		}
+
+		// Gets bids from PubMatic for the provided adSlots.
+		fetchPubmaticBids = ( slots ) => {
+    		PWT.removeKeyValuePairsFromGPTSlots( slots );
+    		return new Promise( ( resolve ) => {
+				try {
+					PWT.requestBids(
+					PWT.generateConfForGPT( slots ),
+					( adUnitsArray ) => {
+						PWT.addKeyValuePairsToGPTSlots( adUnitsArray );
+						PWT.ow_BidsReceived = true;
+						resolve( adUnitsArray );
+					},
+					);
+				} catch (e) {
+					resolve( null );
+				}
+    		} );
+  		}
+
+		// Displays the adSlot provided using googletag.
+		displayAdSlots = ( slots ) => {
+			return new Promise( (( resolve ) => {
+				try {
+					for ( let i = 0; i < slots.length; i++ ) {
+						googletag.display( slots[i] );
+					}
+					resolve( slots );
+				} catch ( e ) {
+					resolve( null );
+				}
+			}) );
+
+		}
+
+		// Refreshes the adSlots provided.
+		refreshAds = ( slots ) => {
+			PWT.initAdserverSet = true;
+			displayAdSlots( slots ).then(
+				slots => {
+					googletag.pubads().refresh( slots );
+				}
+			)
+		}
+
+	</script>
+				<script type="text/javascript">	
+				(function (){
+					var self = this;
+					initialize();
+					function initialize(){
+						const onetrust_active             = 1;
+						const CountryCodeOnetrust         = JSON.parse(localStorage.getItem( 'consent_country_gdpr' ) );
+						const StorageConsentFromOnetrust  = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+						const onetrustStorageLocalization = localStorage.getItem( 'consent_country_state' );
+						const widget_revcontent           = document.getElementById( 'rc-widget-5c0cda' );
+						/* If the OneTrust plugin is not active, then we load the RevContent script. */
+						if ( !onetrust_active ) {
+							loadScriptRevContent(widget_revcontent, onetrustStorageLocalization )
+						}
+						/* If the user is not in the EU, or if the user has given consent to the "Advertising" category,
+						then we load the RevContent script. */
+						if ( ( true !== CountryCodeOnetrust ) || ( null !==  StorageConsentFromOnetrust ) && ( StorageConsentFromOnetrust.C0004 ) ) {
+							loadScriptRevContent(widget_revcontent, onetrustStorageLocalization )
+						}
+					}
+					/* Adding the Rev Content javascript file. */
+					function loadScriptRevContent( widget_revcontent = null, onetrustStorageLocalization = null ) {
+						const scripts_initialiaze = document.createElement( "script" );
+						scripts_initialiaze.setAttribute( "type", "text/javascript" );
+						scripts_initialiaze.setAttribute( "src", "https://assets.revcontent.com/master/delivery.js" );
+						scripts_initialiaze.setAttribute( "defer", "defer" );
+						if ( ( null !== onetrustStorageLocalization ) && ( 'US;CA' === onetrustStorageLocalization ) ) {
+							const storageCCPA = localStorage.getItem( 'upsConsentString' );
+							widget_revcontent.setAttribute( "data-us-privacy", storageCCPA );
+						}
+						widget_revcontent.after( scripts_initialiaze );
+					}
+				})();
+			</script>
+			<script type="text/javascript">
+!function(n,t,c,e,u){function r(n){try{f=n(u)}catch(n){return h=n,void i(p,n)}i(s,f)}function i(n,t){for(var c=0;c<n.length;c++)d(n[c],t);
+}function o(n,t){return n&&(f?d(n,f):s.push(n)),t&&(h?d(t,h):p.push(t)),l}function a(n){return o(!1,n)}function d(t,c){
+n.setTimeout(function(){t(c)},0)}var f,h,s=[],p=[],l={then:o,catch:a,_setup:r};n[e]=l;var v=t.createElement("script");
+v.src=c,v.async=!0,v.id="_uasdk",v.rel=e,t.head.appendChild(v)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+	'UA', {
+		appKey: 'XJoCGW0GRDietgEhEXpsJg',
+		token: 'MTpYSm9DR1cwR1JEaWV0Z0VoRVhwc0pnOndCZ3RiWnpwQnFXakEtckxkQnlyTkE1NmRDaWxSMm5vNUFQNkRRZHFjN28',
+				websitePushId: 'web.boston.com.remix',
+						secureIframeUrl: 'https://www.boston.com/secure-bridge.html',		vapidPublicKey: 'BHRLCpgLazdtSrznUKdHmTSjqjEg5PjeRqWDX2g1ezJ40WUFkKMeifMIXqjWC2OQlNoA9KYbl47GloxsgLdbYtE='
+	});
+</script>
+				<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+			<script type="module">
+		var consent = 'grant';
+		/* The above code is parsing the JSON data from the local storage and storing it in a variable. */
+				
+			const onetrustStorageConsent = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+			/* Checking to see if the user has consented to the use of cookies.
+			* If they have not, it is deleting the cookie.
+			* This will comment for now, until further notice.
+			*/
+			//if ( onetrustStorageConsent.C0002 === false ) {
+			//	document.cookie = '_fbp=;expires=Thu, 01 Jan 2010 00:00:00 UTC; path=/; domain=.boston.com';
+			//}
+			/* Checking if the user has given consent for the cookie C0002. 
+			* If the user has given consent, the variable consent will be set to 'grant'. 
+			* If the user has not given consent,the variable consent will be set to 'revoke'.
+			* Documentation https://developers.facebook.com/docs/meta-pixel/implementation/gdpr
+			*/
+			if ( ( onetrustStorageConsent !== null ) && (onetrustStorageConsent.C0002 !== true ) ) {
+				consent = 'revoke';
+			}
+			
+				!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+		{n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+		;if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('consent', consent);
+		fbq('init', '813236348753005');
+		fbq('track', "PageView");
+	</script>
+	<noscript><img height="1" width="1" class="hidden"
+	src="https://www.facebook.com/tr?id=813236348753005&ev=PageView&noscript=1"
+	/></noscript>
+<script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesMin":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script type='text/javascript' src='https://bdc2020.o0bc.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2' id='wp-polyfill-inert-js'></script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11' id='regenerator-runtime-js'></script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0' id='wp-polyfill-js'></script>
+<script type='text/javascript' id='frontend-js-extra'>
+/* <![CDATA[ */
+var bdcFeatureFlags = {"real-estate":"1","arc-video-ads":"0"};
+var sportsbarData = {"is_home":"","tags":"local-forecasts,local-news,massachusetts-news,snow,storms,weather,weather-maps,winter","category":"weather"};
+var breakingNews = {"post_id":"27084493","category_id":""};
+var gformsData = {"ajaxurl":"https:\/\/www.boston.com\/wp-admin\/admin-ajax.php"};
+var bdc2020Webpack = {"path":"https:\/\/www.boston.com\/wp-content\/themes\/bdc-2020\/dist\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/themes/bdc-2020/dist/js/frontend.js?ver=4c57d0dbba064cccd98969667b490965' id='frontend-js' async></script>
+<script type='text/javascript' id='avc_frontend-js-extra'>
+/* <![CDATA[ */
+var AdRefreshControl = {"advertiserIds":[],"lineItemIds":[],"sizesToExclude":"","slotIdsToExclude":{"ad_partnerad1":1,"presentedby":1,"oosvideo":1},"viewabilityThreshold":"70","refreshInterval":"30","maximumRefreshes":"10","refreshCallback":"refreshOpenWrapAds"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/ad-refresh-control/dist/js/frontend.js?ver=1.0.5' id='avc_frontend-js'></script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/block-library/dist/js/frontend-accordion-scripts.js?ver=8563120eb740c7cc17ee526901535e7c' id='tenup-block-library-frontend-accordion-scripts-js'></script>
+<script type='text/javascript' id='bgmp-regi-bundle-js-js-extra'>
+/* <![CDATA[ */
+var bgmpRegi = {"regi_signup_form_path":"https:\/\/www.boston.com\/wp-content\/plugins\/wp-plugin-regi-spot-im\/markup\/signup-form.php?blog_name=Boston.com","blog_name":"Boston.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/wp-plugin-regi-spot-im//bgmp-regi-bundle.js?ver=0.0.2' id='bgmp-regi-bundle-js-js'></script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/bdc-functionality/assets/js/tracker/lib/AppMeasurement/AppMeasurement.js?ver=2.22.0' id='app_measurement-js'></script>
+<script type='text/javascript' id='bdc_tracker-js-extra'>
+/* <![CDATA[ */
+var bdcfunctionalityWebpack = {"path":"https:\/\/www.boston.com\/wp-content\/plugins\/bdc-functionality\/dist\/"};
+var bdcDigitalData = {"settings":{"reportSuite":"nytbglobe,nytbgglobal","customLinksReportSuite":"nytbglobe","trackingServer":"smetrics.boston.com"},"pageInstanceID":"Snow maps: How much accumulation to expect in Mass.-www.boston.com","page":{"pageInfo":{"pageID":"Snow maps: How much accumulation to expect in Mass.","internalLinks":"javascript:,cars.com,boston.com,bostonglobe.com,globe.com,cityfeet.com,legacy.com,monstermoving.com,movietickets.com,newsbank.com,salary.com,snocountry.com,travidia.com,uclick.com,zap2it.com,bostondirtdogs.com,adperfect.com,bankrate.com,ce.com,flightview.com,gabriels.com,harvestadsdepot.com,interviewmastery.com,localattitude.com,pair.com,resume.com,sportsballot.com,vanlines.com,boston.addresses.com,boston.jiwire.com,boston.stats.com,gadzoo.com,jobview.boston.monster.com,mrboffo.com,mypublicnotices.com,upickem.com,realtraffic.maptuit.com,caspio.com,upickem.net,boston.houzz.com,localhost,www.boston.com","destinationURL":"https:\/\/www.boston.com\/weather\/weather\/2023\/03\/02\/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023\/","pageURL":"https:\/\/www.boston.com\/weather\/weather\/2023\/03\/02\/snow-maps-massachusetts-storm-friday-saturday-march-3-4-2023\/","channel":"Weather","campaign":"","subsection":"Weather","rssID":"","authors":"Dialynn Dwyer,Jack Pickell","pageLayout":"rail-header-standard","pagination":"","p1":"","pageType":"article page","publishDate":"03\/02\/2023","videoName":"","cms":"WordPress","environment":"Live","summaryLength":190,"searchKeyword":"","trackingCode":"","keywords":"Local Forecasts,Local News,Massachusetts News,Snow,Storms,Weather,Weather Maps,Winter","sponsorName":"","loginStatus":"logged out","publicationName":"Boston.com","galleryName":null,"codeVersion":"2.22.0","articleID":"BDC-27084493","refresh":"","registrationID":"","newsletter":""}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://bdc2020.o0bc.com/wp-content/plugins/bdc-functionality/dist/js/tracker.js?ver=5681536e80a918e57a7f0a1fed979627' id='bdc_tracker-js'></script>
+		<!-- OneTrust Cookies Settings button start -->
+		<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
+		<!-- OneTrust Cookies Settings button end -->
+
+		<!-- This can be enabled if you want to show the OneTrust Cookie Consent Table Overview on the frontend -->
+		<!-- OneTrust Cookies List start  <div id="ot-sdk-cookie-policy"></div> --><!-- OneTrust Cookies List end -->
+				<script>
+			const oneTrustEl = document.getElementsByClassName( 'onetrust-revcontent' );
+
+			if ( oneTrustEl.length > 0 ) {  // If less than 1, no RevContent is running.
+				// Is this if really needed?
+				if ( ( true !== CountryCodeOnetrust ) || ( null !==  StorageConsentFromOnetrust ) && ( StorageConsentFromOnetrust.C0004 ) ) {
+					let storageCCPA = localStorage.getItem( 'upsConsentString' );
+					oneTrustEl[0].setAttribute( "data-us-privacy", storageCCPA );
+				}
+			}
+		
+		</script>
+				<script type="text/javascript">
+			window.addEventListener('DOMContentLoaded', (event) => {
+				const airshipExtrajs              = document.getElementById("ua-wn-js-extra");
+				const ConsentFromOnetrustStorage  = JSON.parse(localStorage.getItem( 'consent_one_trust_bdc' ) );
+				if ( airshipExtrajs ) {
+					if ( ( null !==  ConsentFromOnetrustStorage ) && ( ConsentFromOnetrustStorage.C0003 ) ) {
+						document.getElementById('ua-wn-js-extra').setAttribute('type', 'text/plain');
+						document.getElementById('ua-wn-js-extra').setAttribute('class', 'optanon-category-C0003');
+					}
+				}
+			});
+		</script>
+			</body>
+</html>
+
+<!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->

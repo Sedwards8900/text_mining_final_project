@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 18900000,
+        "search_time": 0.5,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:48:14.670Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Dakota+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_3yqhk2fg4ba"
+    },
+    "organic": [
+        {
+            "link": "https://www.southdakotamagazine.com/farmhouse-refuge",
+            "display_link": "https://www.southdakotamagazine.com \u203a farmhouse-r...",
+            "title": "Farmhouse Refuge",
+            "description": "This storm that took place on March 2-5, 1966 took the lives of at least 18 people, and over 100,000 sheep, cattle and hogs. Winds blew with gusts up to 70 mph, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-storms-weather-south-dakota-sd-state-wire-c98e253a8a83f6a849e54dd5402ac396",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-storms-weath...",
+            "title": "Severe storms blamed for 3 deaths in South Dakota, ...",
+            "description": "SIOUX FALLS, S.D. (AP) \u2014 Strong winds and a tornado caused widespread damage in parts of the Midwest, where officials said another round of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.fox9.com/news/photographer-captures-wall-of-dust-in-south-dakota-as-storm-approaches",
+            "display_link": "https://www.fox9.com \u203a news \u203a photographer-captures-...",
+            "title": "Photographer captures wall of dust in South Dakota as storm ...",
+            "description": "article. A wall of clouds and dust can be seen in an image captured over South Dakota by Rayce Monahan. (FOX 9) - Inclement weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.9news.com/article/weather/thursdays-dust-storm-compares-to-dust-bowl/73-bf4f994d-c7c0-42b3-9a61-236643f7a9a1",
+            "display_link": "https://www.9news.com \u203a article \u203a weather \u203a thursdays...",
+            "title": "South Dakota dust storm versus Dust Bowl - Denver",
+            "description": "Thursday's dust storm was caused by a line of thunderstorms called a derecho. Satellite images show lightning highlighting a squall line.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 16, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/tornado-leaves-path-destruction-through-se-south-dakota-n135166",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a tornado...",
+            "title": "Tornado Leaves Path of Destruction Through SE South ...",
+            "description": "The tornado was spotted 5 miles northeast of Woonsocket, South Dakota, according to The Weather Channel.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2014",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://hurricanes.einnews.com/state/southdakota",
+            "display_link": "https://hurricanes.einnews.com \u203a state \u203a southdakota",
+            "title": "South Dakota Hurricane Newswire - EIN Presswire",
+            "description": "Canva Record rainfall in every state Person with rain jacket in storm. Flooding is the most common and expensive natural disaster in the United States, costing ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.travelsouthdakota.com/article/weather-seasons",
+            "display_link": "https://www.travelsouthdakota.com \u203a article \u203a weather...",
+            "title": "Weather and Seasons",
+            "description": "The cold alternates between mild and extreme, producing average January highs below 32\u00b0F (0\u00b0C) and average lows below 10\u00b0F (-12\u00b0C). Whether you're celebrating ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/south-dakota/horrific-winter-storms-sd/",
+            "display_link": "https://www.onlyinyourstate.com \u203a south-dakota \u203a hor...",
+            "title": "10 Horrific Winter Storms In South Dakota We All Remember",
+            "description": "We Will Never Forget These 10 Horrific Winter Storms That Have Gone Down In South Dakota History \u00b7 1. January 12, 1888. Library of Congress \u00b7 2.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 18, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theguardian.com/world/2013/oct/05/south-dakota-snowstorm-iowa-nebraska-tornadoes",
+            "display_link": "https://www.theguardian.com \u203a world \u203a oct \u203a south-da...",
+            "title": "South Dakota blanketed by several feet of snow as storms ...",
+            "description": "Several states hit hard by storm system, including as many as nine ... South Dakota snow storm ... This article is more than 9 years old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 5, 2013",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2022-12-09-winter-storm-west-northern-plains-blizzard-northeast",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Winter Storm Diaz Brought Blizzard Conditions to the Plains",
+            "description": "There were numerous reports of over 20 inches of snowfall in western South Dakota. The highest totals were in the northern Black Hills, were up to 48 inches was ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

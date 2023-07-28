@@ -1,0 +1,177 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 560000000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Massachusetts storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:32:43.569Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Massachusetts+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_hl4wdhldgcp"
+    },
+    "organic": [
+        {
+            "link": "https://en.wikipedia.org/wiki/Hurricane_Bob",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Hurricane_Bob",
+            "title": "Hurricane Bob",
+            "description": "Hurricane Bob was one of the costliest hurricanes in New England history. ... This article is about the Atlantic hurricane of 1991. For other storms of the same name, see List of storms named Bob. Hurricane Bob was one of the ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://features.weather.com/exodus/chapter/never-the-same-every-year/",
+            "display_link": "https://features.weather.com \u203a exodus \u203a chapter \u203a neve...",
+            "title": "This Massachusetts Town Devastated By Nor'easters ...",
+            "description": "By the time they were done blasting several states, two of the storms would cause more than $1 billion in damage each and claim 31 lives. Tides ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 1, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://climateactiontool.org/content/coastal-storms",
+            "display_link": "https://climateactiontool.org \u203a content \u203a coastal-storms",
+            "title": "Coastal storms | Massachusetts Wildlife Climate Action Tool",
+            "description": "Coastal habitats and species are vulnerable to storm impacts, particularly erosion and flooding due to storm surge and heavy precipitation. While climate change ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wwlp.com/",
+            "display_link": "https://www.wwlp.com",
+            "title": "WWLP: Springfield News & Weather | Springfield, MA",
+            "description": "We tell local Springfield news & weather stories, and we do what we do to make Springfield & the rest of Massachusetts a better place to live.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.necn.com/",
+            "display_link": "https://www.necn.com",
+            "title": "NECN \u2013 News, Local News, Weather, Traffic, Entertainment ...",
+            "description": "News, Local News, Weather, Traffic, Entertainment, Breaking News. ... This car is being sought by Boston police in fatal hit-and-run of young boy. Boston, MA.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://whdh.com/news/cleanup-begins-after-storms-topple-trees-cause-flooding-in-parts-of-mass/",
+            "display_link": "https://whdh.com \u203a news \u203a cleanup-begins-after-storm...",
+            "title": "Cleanup begins after storms topple trees, cause flooding in ...",
+            "description": "FRAMINGHAM, MASS. (WHDH) - Cleanup efforts began Tuesday after storms passing through parts of Massachusetts left behind extensive damage in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://books.google.com/books?id=NRUCAwAAQBAJ&pg=PA62&lpg=PA62&dq=Massachusetts+storm+article&source=bl&ots=vKnYfvMJEg&sig=ACfU3U1Vr3x1mt8JJQhcsQVLbnyFj5esqw&hl=en&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExDoAXoECAgQAw",
+            "display_link": "https://books.google.com \u203a books",
+            "title": "Israeli Strategy After Desert Storm: Lessons of the Second ...",
+            "description": "cited in Ma'ariv, 4 March 1992. ... Cf. several articles on the subject, providing a wealth of information: D. Albright and M. Hibbs, 'Iraq's Bomb: ...",
+            "extensions": [
+                {
+                    "type": "google_books",
+                    "text": "2014",
+                    "rank": 1
+                },
+                {
+                    "type": "google_books",
+                    "text": "History",
+                    "rank": 2
+                },
+                {
+                    "type": "google_books",
+                    "link": "https://www.google.com/search?hl=en&tbm=bks&q=inauthor:%22Aharon+Levran%22&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExD0CHoECAgQCw",
+                    "text": "Aharon Levran",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://books.google.com/books?id=lRmiMGBHYNgC&pg=PA1488&lpg=PA1488&dq=Massachusetts+storm+article&source=bl&ots=nm4j2O9iCR&sig=ACfU3U1gp_nxMmuCHEXxVENkIN7CLwbeAQ&hl=en&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExDoAXoECAcQAw",
+            "display_link": "https://books.google.com \u203a books",
+            "title": "Congressional Record: Proceedings and Debates of the ... ...",
+            "description": "See DEPARTMENT OF Article : Offshore Weather Gap , 27239 . ... Hurricane MASS . , WBEC , PITTSFIELD , Camille , public service during , 25612 .",
+            "extensions": [
+                {
+                    "type": "google_books",
+                    "text": "1969",
+                    "rank": 1
+                },
+                {
+                    "type": "google_books",
+                    "text": "Law",
+                    "rank": 2
+                },
+                {
+                    "type": "google_books",
+                    "link": "https://www.google.com/search?hl=en&tbm=bks&q=inauthor:%22United+States.+Congress%22&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExD0CHoECAcQCw",
+                    "text": "United States. Congress",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://books.google.com/books?id=u4WOZ_RU11sC&pg=RA2-PA47&lpg=RA2-PA47&dq=Massachusetts+storm+article&source=bl&ots=xZ5UHJOu7e&sig=ACfU3U2SBpWAaI5ODQW0CY6bPBhZmYRGjw&hl=en&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExDoAXoECBsQAw",
+            "display_link": "https://books.google.com \u203a books",
+            "title": "Bulletin of the American Meteorological Society",
+            "description": "The recent ice storm in east - central Massachusetts indicates the necessity for a ... article by G. H. Burnham , on the economic effects of this storm .",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "1921",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Meteorology",
+                    "rank": 2
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://books.google.com/books?id=jj9OAAAAYAAJ&pg=PA271&lpg=PA271&dq=Massachusetts+storm+article&source=bl&ots=tjFqzy2Xjy&sig=ACfU3U1zLZzrCtxwTDPSaFkfxGm3xk5V9w&hl=en&sa=X&ved=2ahUKEwi9l4GG362AAxWAFVkFHex5Bnc4ExDoAXoECBwQAw",
+            "display_link": "https://books.google.com \u203a books",
+            "title": "Monthly Weather Review - Volume 45 - Page 271 - Google Books Result",
+            "description": "Some of the great storms of northeastern Massachusetts are interestingly ... by the author from the article under the same title in The Geographical Review ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "1918",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Meteorology",
+                    "rank": 2
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

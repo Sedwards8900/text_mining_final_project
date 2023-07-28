@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29300000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:26.917Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1.2 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_zl4fzty5yzs"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts ... Two tornadoes were reported in Kansas and Missouri, and one in Texas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://theconversation.com/hurricane-force-wind-gusts-in-colorado-dust-storms-in-kansas-tornadoes-in-iowa-in-december-heres-what-fueled-a-day-of-extreme-storms-173904",
+            "display_link": "https://theconversation.com \u203a hurricane-force-wind-gu...",
+            "title": "Hurricane-force wind gusts in Colorado, dust storms ...",
+            "description": "This article was updated with a National Weather Service meteorologist describing the storm as a \u201cserial derecho.\u201d Weather \u00b7 Extreme weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://finance.yahoo.com/news/storm-producing-strong-winds-damaging-130342403.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a storm-producing-s...",
+            "title": "Storm producing strong winds, damaging hail could hit ...",
+            "description": "Kansas City Star McClatchy Articles. Kansas City Star McClatchy Articles. Car plunges off I-435 overpass during Kansas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://klcjournal.com/kansas-tornadoes-and-flooding/",
+            "display_link": "https://klcjournal.com \u203a kansas-tornadoes-and-flooding",
+            "title": "Don't let the Kansas tornado decline fool you. Flooding kills ...",
+            "description": "Is Tornado Ally still a thing? A recent decline in Kansas twisters may only be temporary. But flooding is far deadlier.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/07/02/unpredicted-tornado-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/07/02 \u203a unpr...",
+            "title": "Southwestern Kansas sees tornado after forecast for no ...",
+            "description": "There was a zero percent chance of rain or severe storms. Then a tornado touched down. Meteorologists say the Kansas storm was completely ' ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://kids.nationalgeographic.com/science/article/tornado",
+            "display_link": "https://kids.nationalgeographic.com \u203a article \u203a tornado",
+            "title": "Tornadoes",
+            "description": "Though the storms can happen at any time of the year, tornado season in Texas, Oklahoma, and Kansas occurs in May through early June.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://themercury.com/news/storm-powerful-winds-cause-power-outage-damage-throughout-area/article_dc63da38-d218-57ed-9fb0-ccf6e135561a.html",
+            "display_link": "https://themercury.com \u203a news \u203a article_dc63da38-d218-...",
+            "title": "Storm, powerful winds cause power outage, damage ...",
+            "description": "Severe thunderstorms with powerful winds on Wednesday led to widespread ... thunderstorms packing intense winds swept across eastern Kansas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/twisters-return-kansas-oklahoma-more-severe-weather-tap",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a twisters-retur...",
+            "title": "Twisters Return to Kansas, Oklahoma; More Severe ...",
+            "description": "Twisters Return to Kansas, Oklahoma; More Severe Weather on Tap. Bob Henson \u00b7 May 2, 2018, 10:13 AM EDT. article image ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nssl.noaa.gov/education/svrwx101/tornadoes/",
+            "display_link": "https://www.nssl.noaa.gov \u203a svrwx101 \u203a tornadoes",
+            "title": "Severe Weather 101: Tornado Basics",
+            "description": "Basic information about tornadoes, from the NOAA National Severe Storms Laboratory. ... Texas, Oklahoma, and Kansas) is from May into early June.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/kansas/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "Kansas \u2014 Weather",
+            "description": "It suffers from extreme weather conditions in both summer and winter, with yearly temperatures ranging from 17\u00b0F in January to 90\u00b0F in July. Heavy rains, ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

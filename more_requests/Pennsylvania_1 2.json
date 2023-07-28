@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 142000000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Pennsylvania storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:45:01.721Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Pennsylvania+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_hg0ed77bm0o"
+    },
+    "organic": [
+        {
+            "link": "https://www.nbcphiladelphia.com/weather/stories-weather/storm-snow-wintry-mix-rain-philadelphia-region/3449694/",
+            "display_link": "https://www.nbcphiladelphia.com \u203a stories-weather \u203a stor...",
+            "title": "Storm Brings Snow, Wintry Mix, Heavy Rain to Philly Region",
+            "description": "But we're getting off easy compared to those other places. The timing was everything as the large storm system arrived in Pennsylvania, New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/ap-top-news-us-news-social-media-pennsylvania-storms-34b6e63a55394df183926d1146c9ac8e",
+            "display_link": "https://apnews.com \u203a article \u203a ap-top-news-us-news-socia...",
+            "title": "Strong Pennsylvania storm damages businesses, overturns cars",
+            "description": "WILKES-BARRE, Pa. (AP) \u2014 A strong storm pounded parts of Pennsylvania, damaging numerous businesses in a shopping plaza, overturning cars and downing trees ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.fox43.com/article/weather/why-hasnt-south-central-pennsylvania-gotten-much-snow-this-winter-weather-rewind/521-d2ad55f6-5acb-48ad-bdee-cd300f6af6ff",
+            "display_link": "https://www.fox43.com \u203a article \u203a weather \u203a why-hasn...",
+            "title": "Why hasn't south central Pennsylvania gotten much snow ...",
+            "description": "Stay tuned for all the \u201cwhys\u201d behind the weather wonders that capture our attention each week! Related Articles. Atmospheric river | Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.post-gazette.com/news/weather-news/2023/04/01/pittsburgh-weather-high-winds-thunderstorm-power-outages/stories/202304010081",
+            "display_link": "https://www.post-gazette.com \u203a 2023/04/01 \u203a stories",
+            "title": "Wind storm, thunderstorm batter southwest Pennsylvania",
+            "description": "Thank you for reading the Post-Gazette! This article requires a subscription. Get 8 weeks for only 99\u00a2! ... Click here for terms and conditions.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://patch.com/pennsylvania/across-pa/pa-weather-severe-thunderstorms-way-forecasters-say",
+            "display_link": "https://patch.com \u203a pennsylvania \u203a across-pa \u203a pa-wea...",
+            "title": "PA Weather: Severe Thunderstorms On The Way, ...",
+            "description": "PA Weather: Severe Thunderstorms On The Way, Forecasters Say - Across Pennsylvania, PA - Minor flooding and fierce storms are possible ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.pennlive.com/opinion/2022/03/pennsylvania-must-do-better-to-address-storm-water-flooding-opinion.html",
+            "display_link": "https://www.pennlive.com \u203a opinion \u203a 2022/03 \u203a pennsy...",
+            "title": "Pennsylvania must do better to address storm water flooding",
+            "description": "We are now less than 100 days away from the 2022 hurricane season and Pennsylvania is no more prepared for the expected onslaught of storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.inquirer.com/news/philadelphia-pennsylvania-south-jersey-storm-flood-watch-rain-weather-forecast-20230709.html",
+            "display_link": "https://www.inquirer.com \u203a news \u203a philadelphia-penns...",
+            "title": "Severe storm, flood watches in effect as heavy rains start ...",
+            "description": "The National Weather Service has issued flood and severe ... 9:30 p.m. for parts of Southeastern Pennsylvania, including Philadelphia.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cbsnews.com/pittsburgh/news/first-alert-weather-winter-weather-advisory-issued-for-parts-of-western-pa-ahead-of-wednesday-storm/",
+            "display_link": "https://www.cbsnews.com \u203a ... \u203a Local News",
+            "title": "First Alert Weather: Winter Weather Advisory issued for ...",
+            "description": "Pittsburgh Weather, Weather Forecast, KDKA Weather, Weather. ... Weather Advisory issued for parts of Western Pa. ahead of Wednesday storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.ready.pa.gov/Are-You-Ready-PA/Pages/Article.aspx?post=46",
+            "display_link": "https://www.ready.pa.gov \u203a Pages \u203a Article",
+            "title": "Winter Weather Awareness - Ready PA",
+            "description": "Winter Weather Awareness \u00b7 Winter Storm Watch: Issued for the possibility of a blizzard, heavy snow, heavy freezing rain, or heavy sleet. \u00b7 Wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://triblive.com/local/regional/intense-storms-high-temperatures-headed-for-western-pa/",
+            "display_link": "https://triblive.com \u203a local \u203a regional \u203a intense-storms-...",
+            "title": "Low-pressure system bringing intense storms to Western Pa.",
+            "description": "Heavy storms, straight-line winds and tornadoes are roaring through the midwest and some measure of it is headed to the Pittsburgh area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

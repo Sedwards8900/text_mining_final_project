@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 180000000,
+        "search_time": 0.59,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Missouri storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:35:13.971Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Missouri+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.3 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_ppnmbkdliks"
+    },
+    "organic": [
+        {
+            "link": "https://stormaware.mo.gov/tornado-facts-history/",
+            "display_link": "https://stormaware.mo.gov \u203a tornado-facts-history",
+            "title": "Tornado Facts and History - Missouri StormAware",
+            "description": "What is a Tornado? A tornado appears as a rotating, funnel-shaped cloud that extends from a thunderstorm to the ground with whirling winds that can reach ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cbsnews.com/news/tornado-missouri-deaths-bollinger-county/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Missouri tornado kills at least 5 people, causes widespread ...",
+            "description": "Missouri tornado kills at least 5 people, causes widespread damage: \"It's just heartbreaking\" ... At least five people were killed in southeastern ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.denverpost.com/2023/04/05/missouri-tornado-kills-5-in-latest-wave-of-severe-weather/",
+            "display_link": "https://www.denverpost.com \u203a 2023/04/05 \u203a missouri-...",
+            "title": "Missouri tornado kills 5 in latest wave of severe weather",
+            "description": "The Missouri tornado touched down around 3:30 a.m. Wednesday and moved through a rural area of Bollinger County, about 50 miles (80 kilometers) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://abcnews.go.com/US/live-updates/tornado-warning-map-forecast-when/?id=98346422",
+            "display_link": "https://abcnews.go.com \u203a live-updates \u203a tornado-warni...",
+            "title": "Tornado updates: At least 5 dead in Missouri as storms tear ...",
+            "description": "Tornado updates: At least 5 dead in Missouri as storms tear across US \u00b7 Latest headlines: \u00b7 More than 80 structures damaged in Bollinger County, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.forbes.com/sites/brianbushard/2023/04/05/missouri-tornado-5-killed-in-latest-severe-early-season-storm-officials-say/",
+            "display_link": "https://www.forbes.com \u203a brianbushard \u203a 2023/04/05",
+            "title": "Missouri Tornado: 5 Killed In Latest Severe Early-Season ...",
+            "description": "The death toll from a catastrophic tornado that ripped through southern Missouri early Wednesday morning has climbed to five people, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.ksdk.com/article/weather/severe-weather/severe-weather-crawford-county-missouri/63-66c8ab80-0910-4b37-914d-108bc2cfef57",
+            "display_link": "https://www.ksdk.com \u203a weather \u203a severe-weather \u203a se...",
+            "title": "Severe weather causes damage to buildings in Crawford ...",
+            "description": "SULLIVAN, Mo. \u2014 On Saturday night, downed powerlines bordered scattered metal and debris from buildings in Sullivan, Missouri. Severe storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://fox4kc.com/weather/missouri-storms-leave-thousands-without-power-heading-into-july-4th-weekend/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a missouri-storms-leave-...",
+            "title": "Missouri weather: Storms leave thousands without power",
+            "description": "MARYVILLE, Mo. \u2014 People in northern Missouri are cleaning up after a Thursday morning storm ripped through their communities.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://nypost.com/2023/04/05/missouri-tornado-kills-multiple-people-wreaks-havoc/",
+            "display_link": "https://nypost.com \u203a 2023/04/05 \u203a missouri-tornado-k...",
+            "title": "Multiple dead after tornado wreaks havoc in Missouri",
+            "description": "The Missouri State Highway Patrol confirmed multiple fatalities and injuries after a tornado touched down right before dawn Wednesday in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://fox2now.com/news/missouri/lingering-storm-damage-power-outages-across-jefferson-county/",
+            "display_link": "https://fox2now.com \u203a news \u203a missouri \u203a lingering-sto...",
+            "title": "Lingering storm damage, power outages across Jefferson ...",
+            "description": "Storm damage in Hillsboro, Missouri, includes dozens of homes, the fire station, the Community Civic Club, and the roof at Hillsboro ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://abc17news.com/news/2021/10/24/parts-of-missouri-left-with-storm-damage-after-severe-weather-sweeps-through-the-state/",
+            "display_link": "https://abc17news.com \u203a news \u203a 2021/10/24 \u203a parts-of...",
+            "title": "Parts of Missouri left with storm damage after severe ...",
+            "description": "More information about Sunday night's storms is available on ABC 17's Weather Alert blog. Article Topic Follows: News. Jump to comments \u2193.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

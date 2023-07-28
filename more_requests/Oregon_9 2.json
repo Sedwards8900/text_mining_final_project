@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47100000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:41.206Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_kx1i9clngn"
+    },
+    "organic": [
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/oregon/coos-bay",
+            "display_link": "https://www.theweathernetwork.com \u203a coos-bay",
+            "title": "3-Day Severe Weather Outlook: Coos Bay, Oregon",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://katu.com/news/local/winter-storm-blankets-western-oregon-sw-wash-in-snow-cold-dry-pattern-ahead-forecast-portland-metro-road-conditions",
+            "display_link": "https://katu.com \u203a news \u203a local \u203a winter-storm-blanket...",
+            "title": "Winter storm blankets Western Oregon, SW. Wash. in snow ...",
+            "description": "KATU ABC 2 offers coverage of news, weather, sports and community events for Portland, Oregon and surrounding towns, including Beaverton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/5/1520-0493_1931_59_195_gdsiwa_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre \u203a 1...",
+            "title": "GREAT DUST STORM IN WASHINGTON AND OREGON ...",
+            "description": "Abstract SYNOPSIS A considerable part of Washington and Oregon experienced on April 21\u201324, 1931, an extraordinary dust storm borne on strong northeast winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DC CAMERON",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 8",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts of ... to 3 feet in high elevations and mountain peaks of western Oregon; ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://backyardbend.com/winter-storm-warning-issued/",
+            "display_link": "https://backyardbend.com \u203a Trending",
+            "title": "heavy snow forecast in Oregon Cascades, some in Coast ...",
+            "description": "Winter storm warning issued: heavy snow forecast in Oregon Cascades, some in Coast Range ... SEE THE ORIGINAL ARTICLE BY THE OREGONIAN HERE.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.latimes.com/california/story/2023-02-22/snow-in-southern-california-winter-storm",
+            "display_link": "https://www.latimes.com \u203a california \u203a story \u203a snow-in-s...",
+            "title": "Snowmaker storm of epic proportions moving into SoCal",
+            "description": "\"It's an ideal situation for a big weather maker with huge impacts.\" ... California is slated to drop rain, sleet and snow from the Oregon ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.beachconnection.net/news/storm_stories_deaths122822.php",
+            "display_link": "https://www.beachconnection.net \u203a news \u203a storm_stori...",
+            "title": "Storm Stories, Damage Along Oregon Coast: Deaths ...",
+            "description": "Storm Stories, Damage Along Oregon Coast: Deaths, Closures, Misadventures, Images - Downed trees, flooded roads, power outages, damage to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://weather.com/storms/severe/news/west-coast-california-oregon-storm-impacts",
+            "display_link": "https://weather.com \u203a storms \u203a severe \u203a news \u203a west-c...",
+            "title": "Deadly Spring Storm Slams West Coast, Toppling Trees ...",
+            "description": "High winds, rain, snow leads to issues from the Sierra to the Pacific Northwest - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 8, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cbsnews.com/news/atmospheric-river-oregon-washington-pacific-northwest-flooding-power-outages-today-2022-12-28/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Deadly crashes, mass power outages reported as ...",
+            "description": "An atmospheric river brought monster waves, high tides and strong winds to batter western Oregon and Washington. The weather led to fatal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/storm-brings-snow-southern-california-heavy-rain-prompts-search-rescue-rcna72348",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a storm-brin...",
+            "title": "Storm brings snow, heavy rain to California, tornadoes ...",
+            "description": "A \"remarkable, perhaps historic storm system\" \u2014 including ... throughout California as the storm moved south and east from Oregon overnight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

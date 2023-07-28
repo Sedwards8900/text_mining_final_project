@@ -1,0 +1,326 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 53300000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:33.079Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_iktg2ryf0ff"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/live/2021/12/13/us/tornadoes-kentucky-illinois",
+            "display_link": "https://www.nytimes.com \u203a live \u203a 2021/12/13 \u203a tornadoe...",
+            "title": "Deadly Tornado Aftermath: At Least 74 Dead in Kentucky ...",
+            "description": "At least 74 people are confirmed dead in Kentucky, with more than 100 ... Read the full article about the storm damage across six states.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2023/03/04/us/kentucky-tennessee-alabama-storms.html",
+                    "display_link": "https://www.nytimes.com \u203a 2023/03/04 \u203a kentucky-tenn...",
+                    "title": "At Least 12 Dead After Storms Sweep the South",
+                    "description": "Give this article. Read in app ... Kentucky was hit particularly hard by the storms, which left at least five people dead in the state, Gov.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 5, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.whas11.com/article/weather/national-weather-service-storm-damage-kentucky-southern-indiana/417-fff5e02d-6100-4594-8367-e3c0c3ecc574",
+            "display_link": "https://www.whas11.com \u203a article \u203a weather \u203a national...",
+            "title": "NWS Louisville surveys storm damage in Kentuckiana",
+            "description": "An aerial look at some of the damage caused by an EF-2 tornado in rural Hardin County, Kentucky. 2/43.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.whas11.com/article/news/local/lyndon-kentucky-storm-damage-weather-power-outage/417-b74d5f01-77e1-42eb-a588-deebdf2a2ef3",
+                    "display_link": "https://www.whas11.com \u203a article \u203a news \u203a local \u203a lyn...",
+                    "title": "Storm damage reported in Lyndon, Kentucky after severe ...",
+                    "description": "LYNDON, Ky. \u2014 Sunday evening a string of strong storms wreaked havoc in areas of Louisville, with the Lyndon ... Unable to load next article.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 26, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wlky.com/article/macroburst-madison-county-kentucky-storm-damage/44350688",
+            "display_link": "https://www.wlky.com \u203a article \u203a macroburst-madison...",
+            "title": "Macroburst touches down in Kentucky over the weekend",
+            "description": "The National Weather Service of Louisville confirmed that there was a \"macroburst\" in Madison County, which is southeast of Lexington.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wlky.com/article/state-of-emergency-kentucky-storms-forecast/43178655",
+                    "display_link": "https://www.wlky.com \u203a article \u203a state-of-emergency-...",
+                    "title": "Gov. Beshear: 5 dead after severe storms in Kentucky on ...",
+                    "description": "Kentucky's governor says that five people were killed as a result of the severe storms across the state on Friday.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 4, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.npr.org/2022/01/01/1069702738/kentucky-storm-flooding-power-outages",
+            "display_link": "https://www.npr.org \u203a 2022/01/01 \u203a kentucky-storm-flo...",
+            "title": "Kentucky storm brings flooding, damage and power outages",
+            "description": "Andy Beshear declared a state of emergency on Saturday as powerful storms ripped through the state causing flash floods, power outages and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Kentucky+storm+%22article%22&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ5t4CegQIPxAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.theguardian.com/world/2021/dec/12/kentucky-tornadoes-up-to-100-feared-dead-in-historic-us-storms",
+            "display_link": "https://www.theguardian.com \u203a world \u203a dec \u203a kentuck...",
+            "title": "Kentucky tornadoes: up to 100 feared dead in historic US ...",
+            "description": "Dozens remain unaccounted for after tornado leaves trail of destruction from Arkansas to Kentucky. ... This article is more than 1 year old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 12, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.wdrb.com/news/gov-beshear-preemptively-declares-state-of-emergency-ahead-of-kentucky-storms/article_292e5e76-b9da-11ed-a59d-3b3184dc148a.html",
+            "display_link": "https://www.wdrb.com \u203a news \u203a article_292e5e76-b9da-...",
+            "title": "Gov. Beshear preemptively declares State of Emergency ...",
+            "description": "Beshear said storms in Kentucky were producing 80 mph winds and that 18,000 residents were without power. That number, as of 4:30 p.m., had risen to more than ...",
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2023/03/04/winter-storms-power-outage/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/03/04 \u203a wint...",
+            "title": "Winter storms wreak havoc for millions across Midwest, South",
+            "description": "Storms have knocked out power for more than 1 million Americans and caused ... after heavy winds and possible tornadoes pummeled Kentucky, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Kentucky+tornado+2023&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhSEAE",
+            "text": "kentucky tornado 2023",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+in+Ky+yesterday&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhREAE",
+            "text": "tornado in ky yesterday",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Kentucky+storm+damage+today&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhQEAE",
+            "text": "kentucky storm damage today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Kentucky+tornado+today&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhPEAE",
+            "text": "kentucky tornado today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=mayfield,+ky+tornado+today&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhOEAE",
+            "text": "mayfield, ky tornado today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Where+did+the+tornado+hit+in+Kentucky+today&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhNEAE",
+            "text": "where did the tornado hit in kentucky today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Kentucky+tornado+history&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhMEAE",
+            "text": "kentucky tornado history",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=recent+tornado+in+u.s.+2023&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ1QJ6BAhLEAE",
+            "text": "recent tornado in u.s. 2023",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What part of Kentucky did the tornado hit?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Kentucky+did+the+tornado+hit%3F&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzmd6BAgzEAY",
+            "answer_source": "Deadly Tornado Aftermath: At Least 74 Dead in Kentucky ...",
+            "answer_link": "https://www.nytimes.com/live/2021/12/13/us/tornadoes-kentucky-illinois#:~:text=MAYFIELD%2C%20Ky.,candle%20factory%20were%20likely%20lost.",
+            "answer_display_link": "https://www.nytimes.com \u203a live \u203a 2021/12/13 \u203a tornadoe...https://www.nytimes.com \u203a live \u203a 2021/12/13 \u203a tornadoe...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDMQBQ\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQu04oAHoECDMQBQ\"><div id=\"X5nBZKDrLMyHptQPmou_sAw__14\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CBsQAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ4dMGegQIGxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CBsQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBQQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYZxJQ\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQyQ0oAHoECBQQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;Y6cEZvvP5aB4rM;AYZxI4\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"Y6cEZvvP5aB4rM\" data-lpage=\"https://www.nytimes.com/live/2021/12/13/us/tornadoes-kentucky-illinois\" data-ni=\"1\" data-ref-docid=\"8cRxbGy8yx4mCM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CA8QAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzkx6BAgPEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-13px;width:240px\" alt=\"Deadly Tornado Aftermath: At Least 74 Dead in Kentucky ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM8cdxEQJlClX0TcaPZGIpT3c9RIUagFCK1w8YBn-D0A&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"X5nBZKDrLMyHptQPmou_sAw__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>MAYFIELD, Ky</b>. \u2014 In the hours after the tornado descended on Mayfield, shredding this small town in Western Kentucky, the authorities said dozens of people at a candle factory were likely lost.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 3, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "MAYFIELD, Ky. \u2014 In the hours after the tornado descended on Mayfield, shredding this small town in Western Kentucky, the authorities said dozens of people at a candle factory were likely lost.Apr 3, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Is Kentucky becoming Tornado Alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Kentucky+becoming+Tornado+Alley%3F&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzmd6BAgsEAY",
+            "answer_source": "Watch Out: Tornado Alley Is Migrating Eastward - Scientific American",
+            "answer_link": "https://www.scientificamerican.com/article/watch-out-tornado-alley-is-migrating-eastward/#:~:text=More%20recently%2C%20that%20focus%20has,new%20region%20of%20concentrated%20storms.&text=Tornado%20activity%20in%20early%202023%20epitomized%20the%20trend.",
+            "answer_display_link": "https://www.scientificamerican.com \u203a article \u203a watch-out-...https://www.scientificamerican.com \u203a article \u203a watch-out-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCwQBQ\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQu04oAHoECCwQBQ\"><div id=\"X5nBZKDrLMyHptQPmou_sAw__20\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CB0QAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ4dMGegQIHRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CB0QAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYZxJc\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQyQ0oAHoECBgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;GKUaVCeeBPsglM;AYZxI8\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"GKUaVCeeBPsglM\" data-lpage=\"https://www.scientificamerican.com/article/watch-out-tornado-alley-is-migrating-eastward/\" data-ni=\"1\" data-ref-docid=\"L0R3oJO0QZ-LzM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBMQAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzkx6BAgTEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:150px;width:204px\"><img style=\"margin-left:-6px;width:216px\" alt=\"Watch Out: Tornado Alley Is Migrating Eastward - Scientific ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSIOEt8B9vNmkLlugKRC1OcqgCJ3phPtZfq1vTv0rnA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"X5nBZKDrLMyHptQPmou_sAw__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">More recently, that focus has shifted eastward by 400 to 500 miles. In the past decade or so <b>tornadoes have become prevalent in eastern Missouri and Arkansas, western Tennessee and Kentucky</b>, and northern Mississippi and Alabama\u2014a new region of concentrated storms. Tornado activity in early 2023 epitomized the trend.</span></span><span class=\"kX21rb ZYHQ7e\">May 11, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "More recently, that focus has shifted eastward by 400 to 500 miles. In the past decade or so tornadoes have become prevalent in eastern Missouri and Arkansas, western Tennessee and Kentucky, and northern Mississippi and Alabama\u2014a new region of concentrated storms. Tornado activity in early 2023 epitomized the trend.May 11, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "When was the last f5 tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=When+was+the+last+f5+tornado%3F&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzmd6BAgvEAY",
+            "answer_source": "The U.S. hasn't seen an EF5 tornado in almost 10 years. What's going on?",
+            "answer_link": "https://yaleclimateconnections.org/2023/05/the-u-s-hasnt-seen-an-ef5-tornado-in-almost-10-years-whats-going-on/#:~:text=There%20were%20nine%20EF5%20twisters,haven't%20been%20any%20since.",
+            "answer_display_link": "https://yaleclimateconnections.org \u203a 2023/05 \u203a the-u-s-h...https://yaleclimateconnections.org \u203a 2023/05 \u203a the-u-s-h...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC8QBQ\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQu04oAHoECC8QBQ\"><div id=\"X5nBZKDrLMyHptQPmou_sAw__26\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CB8QAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ4dMGegQIHxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CB8QAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYZxJk\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQyQ0oAHoECBkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;ouT5E1Yj3yHT9M;AYZxJE\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"ouT5E1Yj3yHT9M\" data-lpage=\"https://yaleclimateconnections.org/2023/05/the-u-s-hasnt-seen-an-ef5-tornado-in-almost-10-years-whats-going-on/\" data-ni=\"1\" data-ref-docid=\"80gkA-pEwh3-EM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBYQAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzkx6BAgWEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-56px;width:284px\" alt=\"The U.S. hasn't seen an EF5 tornado in almost 10 years ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU_JD547JRGp4SoI2uCQ93ICFKISy9WyVkTn6NK2tr7w&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"X5nBZKDrLMyHptQPmou_sAw__29\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">There were nine EF5 twisters from May 2007 to <b>May 2013</b>, and there haven't been any since.</span></span><span class=\"kX21rb ZYHQ7e\">May 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "There were nine EF5 twisters from May 2007 to May 2013, and there haven't been any since.May 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Did the tornado hit Kentucky?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+the+tornado+hit+Kentucky%3F&sa=X&ved=2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzmd6BAguEAY",
+            "answer_source": "2021 Western Kentucky tornado - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/2021_Western_Kentucky_tornado#:~:text=February%202023)-,Casualties,Service%20in%20Paducah%2C%20Kentucky).",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a 2021_Western_Kentuck...https://en.wikipedia.org \u203a wiki \u203a 2021_Western_Kentuck...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC4QBQ\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQu04oAHoECC4QBQ\"><div id=\"X5nBZKDrLMyHptQPmou_sAw__32\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQ4dMGegQIIBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCAQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYZxJg\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;1jtxK6tb3sbTjM;AYZxJM\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"1jtxK6tb3sbTjM\" data-lpage=\"https://en.wikipedia.org/wiki/2021_Western_Kentucky_tornado\" data-ni=\"1\" data-ref-docid=\"YH4QMea5JsmxPM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBcQAA\" data-ved=\"2ahUKEwjglrS0sa2AAxXMg4kEHZrFD8YQzkx6BAgXEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-17px;width:240px\" alt=\"2021 Western Kentucky tornado - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87nEcjS5sx5h5__04ASgReTzjNMi7hCk6iR3q7QjYjA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"X5nBZKDrLMyHptQPmou_sAw__35\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Casualties. <b>The Western Kentucky tornado directly killed 57 people and resulted in between 508 and 533 injuries</b> (according to figures from the National Weather Service in Paducah, Kentucky).</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Casualties. The Western Kentucky tornado directly killed 57 people and resulted in between 508 and 533 injuries (according to figures from the National Weather Service in Paducah, Kentucky)."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

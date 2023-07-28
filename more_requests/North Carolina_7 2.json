@@ -1,0 +1,256 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 50200000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:18.212Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_w1yhz4qyh5"
+    },
+    "organic": [
+        {
+            "link": "https://abcnews.go.com/US/ef3-tornado-north-carolina-extreme-weather-nationwide/story?id=101510966",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "EF3 tornado rips through North Carolina amid extreme ...",
+            "description": "A powerful tornado ripped through central North Carolina for more than a dozen miles on Wednesday, destroying homes and injuring residents, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.charlotteobserver.com/news/weather-news/",
+            "display_link": "https://www.charlotteobserver.com \u203a news \u203a weather-news",
+            "title": "Charlotte North Carolina Weather News & Reports",
+            "description": "Follow the latest Charlotte, NC and the Piedmont North Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cbsnews.com/live-news/hurricane-florence-aftermath-weather-flooding-power-outage-death-toll-fema-latest-forecast-live/",
+            "display_link": "https://www.cbsnews.com \u203a live-news \u203a hurricane-flor...",
+            "title": "Hurricane Florence aftermath: Flooding crisis in North and ...",
+            "description": "Death toll rises to 35. CBS News has confirmed 35 deaths are being attributed to the storm as of Monday evening: Twenty-seven in North Carolina, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 19, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/north-carolina-agricultural-town-threatened-tropical-storm-florence-s-relentless-n909881",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a north-caro...",
+            "title": "North Carolina agricultural town threatened by Tropical ...",
+            "description": "Florence was downgraded to a tropical depression early Sunday, but the National Hurricane Center said \"flash flooding and major river flooding ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 16, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://myfox8.com/weather/blog/what-you-should-know-about-tornadoes-and-storms-in-north-carolina/",
+            "display_link": "https://myfox8.com \u203a weather \u203a blog \u203a what-you-shou...",
+            "title": "What you should know about tornadoes and storms in ...",
+            "description": "NOTE: This article includes information and text from the National ... North Carolina experiences about 40 to 50 thunderstorm days per year.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://data.citizen-times.com/rolling-storm-damage-report/",
+            "display_link": "https://data.citizen-times.com \u203a rolling-storm-damage-...",
+            "title": "Rolling storm damage reports in North Carolina",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Date/Time",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Scale*",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Location",
+                                "rank": 3
+                            },
+                            {
+                                "text": "County, State",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 7:26 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "60",
+                                "rank": 2
+                            },
+                            {
+                                "text": "3 NNW Stewartville",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Olmsted County, MN",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 7:17 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "70",
+                                "rank": 2
+                            },
+                            {
+                                "text": "3 N Stockton",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Jo Daviess County, IL",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 5:03 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "100",
+                                "rank": 2
+                            },
+                            {
+                                "text": "5 NE Fonda",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Pocahontas County, IA",
+                                "rank": 4
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/pii/S1463500308000905",
+            "display_link": "https://www.sciencedirect.com \u203a science \u203a article \u203a pii",
+            "title": "A real-time, event-triggered storm surge forecasting system ...",
+            "description": "The prediction of storm surge along coastal North Carolina due to hurricane activity is the primary focus of the system. The NCFS utilizes a computationally ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by C Mattocks",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2008",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 200",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.13newsnow.com/article/traffic/storm-could-cause-driving-challenges-on-outer-banks-this-weekend/291-728edd9a-62f9-4b4f-bcc9-6da0b8a260b7",
+            "display_link": "https://www.13newsnow.com \u203a article \u203a traffic \u203a storm...",
+            "title": "Storm could create driving challenges on Outer Banks of NC",
+            "description": "HATTERAS, N.C. \u2014 A huge storm system bearing down on the East Coast is expected to have significant impacts on North Carolina Highway 12 on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nps.gov/calo/learn/news/storm-watch.htm",
+            "display_link": "https://www.nps.gov \u203a calo \u203a learn \u203a news \u203a storm-wat...",
+            "title": "Storm Watch - Cape Lookout National Seashore (U.S. ...",
+            "description": "The main coastal flood concerns will be oceanside north of Cape Lookout, ... NC or Harkers Island starting Thursday through Saturday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://weather.com/news/weather/news/2023-07-19-north-carolina-tornado-dortches",
+            "display_link": "https://weather.com \u203a news \u203a weather \u203a news \u203a 2023-07-...",
+            "title": "North Carolina Pfizer Factory Heavily Damaged By Tornado",
+            "description": "The twister was the first EF-3 tornado ever observed in central North Carolina in the month of July. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

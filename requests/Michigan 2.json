@@ -1,0 +1,332 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 118000000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Michigan storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:50.684Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Michigan+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0.1 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_tcwrybgafue"
+    },
+    "organic": [
+        {
+            "link": "https://www.clickondetroit.com/weather/2023/07/26/4warn-weather-alert-strong-to-severe-afternoon-storms-wednesday-in-se-michigan/",
+            "display_link": "https://www.clickondetroit.com \u203a weather \u203a 2023/07/26",
+            "title": "Severe storms could bring strong winds, tornadoes ...",
+            "description": "Numerous thunderstorms are possible today across Southeast Michigan. The region is under an enhanced risk (level 3 of 5) for severe weather.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "12 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.detroitnews.com/story/news/local/wayne-county/2023/06/25/quick-spin-up-tornadoes-golf-ball-sized-hail-possible-in-se-michigan/70354658007/",
+            "display_link": "https://www.detroitnews.com \u203a local \u203a 2023/06/25 \u203a q...",
+            "title": "71K+ without power after storms sweep through SE Michigan",
+            "description": "More than 71,000 DTE Energy and Consumers customers were without power Monday afternoon after storms swept through southeast Michigan and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Michigan+storm+%22article%22&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q5t4CegQIFBAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nytimes.com/2023/02/25/us/michigan-winter-storm-power-outage.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/02/25 \u203a michigan-wint...",
+            "title": "Residents in Michigan Endure Fifth Day Without Power",
+            "description": "After an ice storm caused power failures across the state, more than 203000 customers were still without electricity on Sunday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.mlive.com/weather/2023/03/winter-storm-watch-posted-heavy-snow-for-all-of-michigans-biggest-cities.html",
+            "display_link": "https://www.mlive.com \u203a weather \u203a 2023/03 \u203a winter-sto...",
+            "title": "Winter Storm Watch: Heavy snow for all of Michigan's ...",
+            "description": "A winter storm watch has been issued for the entire southern half of Lower Michigan. The winter storm watch is alerting you of a high ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.mlive.com/weather/2023/02/another-winter-storm-to-target-michigan-bringing-up-to-6-inches-of-snow.html",
+                    "display_link": "https://www.mlive.com \u203a weather \u203a 2023/02 \u203a another-w...",
+                    "title": "Another winter storm to target Michigan, bringing up to 6 ...",
+                    "description": "This storm is taking aim on Lower Michigan Friday into Friday night in the form of mainly snow.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Feb 28, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/disaster-planning-and-response-michigan-detroit-climate-environment-business-e8ca2d08393913474f35ca796330b1b3",
+            "display_link": "https://apnews.com \u203a article \u203a disaster-planning-and-re...",
+            "title": "After Michigan storm, customers wait - and wait - for power",
+            "description": "More than 600,000 customers of Detroit-based DTE Energy lost power when the storm plowed Wednesday into southeastern Michigan, while Jackson- ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/floods-weather-winter-oregon-california-fc0511d110d16272361cdd0b5be8fb86",
+                    "display_link": "https://apnews.com \u203a article",
+                    "title": "Snow, rain slam California as Michigan suffers without power",
+                    "description": "Heavy rain and snow are pounding California and other parts of the West in the latest winter storm to hit the United States.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Feb 24, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 7,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.fox2detroit.com/weather/michigan-weather-significant-threat-for-thunderstorms-and-hail-isolated-tornadoes-possible",
+            "display_link": "https://www.fox2detroit.com \u203a weather \u203a michigan-weat...",
+            "title": "Michigan weather: Significant threat for thunderstorms and ...",
+            "description": "Wednesday afternoon, much of Michigan is under a moderate risk for severe weather - including hail, thunderstorms, and even a possible ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.cbsnews.com/news/deadly-winter-storm-slams-south-midwest-power-outages/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "At least 12 dead after winter storm slams South, Midwest",
+            "description": "Thousands of residents in the region already had lost power for days following recent ice storms that slammed Michigan. Victoria Burnett felt a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://thehill.com/policy/energy-environment/3873887-more-than-450000-remain-without-power-in-michigan-after-ice-storm/",
+            "display_link": "https://thehill.com \u203a policy \u203a energy-environment \u203a 3...",
+            "title": "More than 450000 remain without power in Michigan after ...",
+            "description": "More than 450,000 Michigan locations remain without power Saturday following an ice storm that brought freezing temperatures to the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Michigan+storm+damage+today&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhFEAE",
+            "text": "michigan storm damage today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Michigan+ice+storm+2023&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhEEAE",
+            "text": "michigan ice storm 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Winter+storm+Michigan+this+week&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhCEAE",
+            "text": "winter storm michigan this week",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+Michigan+today&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhDEAE",
+            "text": "snow storm michigan today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Michigan+power+outage+today&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhBEAE",
+            "text": "michigan power outage today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Michigan+power+outage+map&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAhAEAE",
+            "text": "michigan power outage map",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+Michigan+Friday&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAg_EAE",
+            "text": "snow storm michigan friday",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=DTE+outage+map&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q1QJ6BAg-EAE",
+            "text": "dte outage map",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "How much snow did Michigan get in 3 3 23?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+much+snow+did+Michigan+get+in+3+3+23%3F&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzmd6BAgsEAY",
+            "answer_source": "March 3rd 2023 Winter Storm - National Weather Service",
+            "answer_link": "https://www.weather.gov/dtx/2023-03-03-Winter-Storm#:~:text=The%20strong%20winds%20also%20resulted,Lapeer%2C%20and%20parts%20of%20St.",
+            "answer_display_link": "https://www.weather.gov \u203a dtx \u203a 2023-03-03-Winter-Sto...https://www.weather.gov \u203a dtx \u203a 2023-03-03-Winter-Sto...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCwQBQ\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qu04oAHoECCwQBQ\"><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The strong winds also resulted in lakeshore flooding along the Lake Erie shoreline. Widespread snow totals of <b>8 to 11 inches</b> occurred along a corridor from Jackson to Howell and Ann Arbor, the northern Metro Detroit suburbs, Lapeer, and parts of St.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 3, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The strong winds also resulted in lakeshore flooding along the Lake Erie shoreline. Widespread snow totals of 8 to 11 inches occurred along a corridor from Jackson to Howell and Ann Arbor, the northern Metro Detroit suburbs, Lapeer, and parts of St.Mar 3, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 8
+        },
+        {
+            "question": "Is Michigan in danger of tornadoes?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Michigan+in+danger+of+tornadoes%3F&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzmd6BAgrEAY",
+            "answer_source": "Discover the Michigan Town Most Likely to Be Hit By a Tornado",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-michigan-town-most-likely-to-be-hit-by-a-tornado/#:~:text=Michigan%2C%20renowned%20for%20its%20four,localized%20nature%20of%20the%20risk.",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-michigan-t...https://a-z-animals.com \u203a blog \u203a discover-the-michigan-t...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCsQBQ\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qu04oAHoECCsQBQ\"><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__18\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCUQAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q4dMGegQIJRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCUQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AZPdFc\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8QyQ0oAHoECBkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;xQikjNu9Acy69M;AZPdFw\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"xQikjNu9Acy69M\" data-lpage=\"https://a-z-animals.com/blog/discover-the-michigan-town-most-likely-to-be-hit-by-a-tornado/\" data-ni=\"1\" data-ref-docid=\"2IW_DxWobyAcAM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CB4QAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzkx6BAgeEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-17px;width:241px\" alt=\"Discover the Michigan Town Most Likely to Be Hit By a Tornado ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbVmpTKHfjFhB70fV8QliG4Q7xzInE1HyGSyIFTuD_Q&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Michigan, renowned for its four seasons and proximity to the Great Lakes, <b>is susceptible to tornadoes despite its northern location</b>. Certain areas within Michigan are more prone to tornadoes than others, highlighting the localized nature of the risk.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 23, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Michigan, renowned for its four seasons and proximity to the Great Lakes, is susceptible to tornadoes despite its northern location. Certain areas within Michigan are more prone to tornadoes than others, highlighting the localized nature of the risk.Jun 23, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 9
+        },
+        {
+            "question": "Have we ever had a tornado in Michigan?",
+            "question_link": "https://www.google.com/search?hl=en&q=Have+we+ever+had+a+tornado+in+Michigan%3F&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzmd6BAgXEAY",
+            "answer_source": "Michigan's worst tornado hit Flint in 1953 - Detroit Free Press",
+            "answer_link": "https://www.freep.com/story/news/local/michigan/2023/04/05/michigan-worst-tornado-flint-1953/70083036007/#:~:text=Michigan%20averages%20about%2015%20tornadoes,it's%20essential%20to%20heed%20alerts.",
+            "answer_display_link": "https://www.freep.com \u203a local \u203a michigan \u203a 2023/04/05https://www.freep.com \u203a local \u203a michigan \u203a 2023/04/05",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qu04oAHoECBcQBQ\"><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__24\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCkQAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q4dMGegQIKRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCkQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBsQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AZPdFo\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8QyQ0oAHoECBsQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;-BurKxIdDSRNCM;AZPdF0\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"-BurKxIdDSRNCM\" data-lpage=\"https://www.freep.com/story/news/local/michigan/2023/04/05/michigan-worst-tornado-flint-1953/70083036007/\" data-ni=\"1\" data-ref-docid=\"79usg1r8suiqTM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzkx6BAggEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-43px;width:285px\" alt=\"Michigan's worst tornado hit Flint in 1953\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfvisAG2caxf81t45Nfp-A1-KLBfDADg0lE-in_1Id4A&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Michigan averages about 15 tornadoes a year</b>, according to the state's emergency preparedness program. But it's still especially difficult to predict exactly where a tornado, which can spin at more than 200 mph, will hit. That's why disaster preparedness experts say it's essential to heed alerts.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Michigan averages about 15 tornadoes a year, according to the state's emergency preparedness program. But it's still especially difficult to predict exactly where a tornado, which can spin at more than 200 mph, will hit. That's why disaster preparedness experts say it's essential to heed alerts.Apr 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 10
+        },
+        {
+            "question": "Is Michigan a tornado alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Michigan+a+tornado+alley%3F&sa=X&ved=2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzmd6BAgwEAY",
+            "answer_source": "Tornado Alley - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Tornado_Alley#:~:text=Illinois%2C%20Wisconsin%2C%20Minnesota%2C%20Indiana,it%20reaches%20the%20Canadian%20Prairies.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Tornado_Alleyhttps://en.wikipedia.org \u203a wiki \u203a Tornado_Alley",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDAQBQ\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qu04oAHoECDAQBQ\"><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__30\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCQQAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Q4dMGegQIJBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCQQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AZPdFY\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8QyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;MMh2ufxhNkCNUM;AZPdFs\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"MMh2ufxhNkCNUM\" data-lpage=\"https://en.wikipedia.org/wiki/Tornado_Alley\" data-ni=\"1\" data-ref-docid=\"lw9EgD4XumZW_M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CB8QAA\" data-ved=\"2ahUKEwjx6uW8sa2AAxWwkIkEHS18Ah8Qzkx6BAgfEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-24px;width:198px\" alt=\"Tornado Alley - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8AJFnNlrZRqloOKg6H8OGKOWWLi4mqcXbPiLyRNdUA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"cZnBZLHuE7ChptQPrfiJ-AE__33\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Illinois, Wisconsin, Minnesota, Indiana, Michigan, and western Ohio are sometimes included in Tornado Alley</b>. Some research suggests that tornadoes are becoming more frequent in the northern parts of Tornado Alley where it reaches the Canadian Prairies.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Illinois, Wisconsin, Minnesota, Indiana, Michigan, and western Ohio are sometimes included in Tornado Alley. Some research suggests that tornadoes are becoming more frequent in the northern parts of Tornado Alley where it reaches the Canadian Prairies."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 11
+        }
+    ]
+}

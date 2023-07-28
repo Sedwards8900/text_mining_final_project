@@ -1,0 +1,133 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47100000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:23.354Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_rtxonbvakuq"
+    },
+    "organic": [
+        {
+            "link": "https://www.portlandoregon.gov/transportation/article/421986",
+            "display_link": "https://www.portlandoregon.gov \u203a article",
+            "title": "ALERT: Heavy rain and wind may lead to road hazards",
+            "description": "An active weather pattern is expected to bring more rain and wind gusts ... Visit www.portlandoregon.gov/transportation/article/319810 for more information.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq",
+            "display_link": "https://www.portland.gov \u203a transportation \u203a winter-we...",
+            "title": "Winter Weather Basics and FAQ",
+            "description": "Why doesn't PBOT treat or plow state roads and highways in Portland? While PBOT covers its snow and ice routes, the Oregon Department of Transportation (ODOT) ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://earthobservatory.nasa.gov/images/17548/subtropical-storm-off-the-coast-of-oregon",
+            "display_link": "https://earthobservatory.nasa.gov \u203a images \u203a subtropic...",
+            "title": "Subtropical Storm off the Coast of Oregon",
+            "description": "Subtropical Storm off the Coast of Oregon \u00b7 For more on this storm and other unusual hurricane-like storms, visit the blog of Dr. Jeff Masters on the Weather ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.triplicate.com/news/peak-winter-storm-season-draws-storm-watchers-to-a-singular-stretch-of-the-oregon-coast/article_a5781a65-09dd-5afb-aaf7-31b8cd64cb52.html",
+            "display_link": "https://www.triplicate.com \u203a news \u203a article_a5781a65-09...",
+            "title": "Peak winter storm season draws storm watchers to a ...",
+            "description": "It's the heart of winter on the Oregon Coast, which means gargantuan Pacific Ocean swells, roaring sea winds and exploding clouds of foam ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://ktvz.com/weather/2023/03/20/rain-snow-then-a-break-before-another-storm-system-rolls-through-central-oregon/",
+            "display_link": "https://ktvz.com \u203a weather \u203a 2023/03/20 \u203a rain-snow-t...",
+            "title": "Rain, snow, then a break before another storm system rolls ...",
+            "description": "There's a chance of a new storm system arriving on the High Desert by Wednesday night. HAVE A SPARKLING DAY IN CENTRAL OREGON! Article Topic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wweek.com/news/2019/11/26/a-bomb-cyclone-snow-storm-headed-to-southwest-oregon-is-likely-to-affect-regional-travel/",
+            "display_link": "https://www.wweek.com \u203a news \u203a 2019/11/26 \u203a a-bomb-...",
+            "title": "A \u201cBomb Cyclone\u201d Snow Storm Headed to Southwest ...",
+            "description": "A strong \u201cbomb cyclone\u201d snow storm is moving over Southwest Oregon and could bring a light dusting to Portland later tonight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 26, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.koin.com/weather/portlands-snow-timeline-totals-with-next-winter-storm/",
+            "display_link": "https://www.koin.com \u203a weather \u203a portlands-snow-tim...",
+            "title": "Portland Oregon snow timeline, totals with next winter storm",
+            "description": "Snowfall totals from the first few snowflakes to Sunday morning is expected to near 0.5-2 inches in downtown Portland. The greatest amounts of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/oregon/coos-bay",
+            "display_link": "https://www.theweathernetwork.com \u203a coos-bay",
+            "title": "3-Day Severe Weather Outlook: Coos Bay, Oregon",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 28400000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Nevada storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:37:27.189Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Nevada+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_s11f3z3y6x"
+    },
+    "organic": [
+        {
+            "link": "https://fox40.com/weather/sacramento-area-and-sierra-nevada-storm-updates-newsom-expands-state-of-emergency/",
+            "display_link": "https://fox40.com \u203a weather \u203a sacramento-area-and-sie...",
+            "title": "Sacramento, Sierra Nevada atmospheric river storm updates",
+            "description": "This article will no longer be updated. Visit FOX 40's Weather section to view forecasts, radar, maps and other weather coverage.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.sfchronicle.com/weather/article/sierra-nevada-snow-blizzard-17806832.php",
+            "display_link": "https://www.sfchronicle.com \u203a Weather",
+            "title": "Blizzard to hit Sierra Nevada as winter storms sweep over ...",
+            "description": "The Sierra Nevada is hunkering down as snow again pelts the region, bracing for a dangerous blizzard that weather officials expect to close ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://thehill.com/policy/energy-environment/3795001-california-nevada-face-flooding-power-outages-amid-winter-storm/",
+            "display_link": "https://thehill.com \u203a policy \u203a energy-environment \u203a 3...",
+            "title": "California, Nevada face flooding, power outages amid ...",
+            "description": "Northern California and western Nevada were slammed over the weekend by a powerful winter storm that deluged towns and counties with several ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cbsnews.com/news/winter-storm-sierra-nevada-avalanche-warning/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Winter storm slams western U.S., brings heavy snow ...",
+            "description": "A winter storm packing powerful winds, heavy rain and potentially several feet of snow in the Sierra Nevada shut down mountain highways, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.abc10.com/article/news/local/grass-valley-nevada-city/nevada-city-potential-flooding/103-c2f82ba0-c9d7-45bd-b16c-9b8f790e86da",
+            "display_link": "https://www.abc10.com \u203a grass-valley-nevada-city \u203a n...",
+            "title": "Flooding concerns swell in Nevada City",
+            "description": "\u2014 Nevada City residents are anxiously awaiting the brunt of the upcoming Northern California storm expected to dump rain over the feet of snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nytimes.com/2021/12/27/us/sierra-nevada-california-snow.html",
+            "display_link": "https://www.nytimes.com \u203a sierra-nevada-california-snow",
+            "title": "Winter Storm Shuts Down 81 Miles of an Interstate in ...",
+            "description": "Give this article ... Winter Storm Wreaks Havoc in the Sierra Nevada ... \u201cIt's really good news for the water supply out there,\u201d Mr. Orrison ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.opb.org/article/2022/12/12/winter-storm-slams-western-u-s-bringing-heavy-snow-to-northern-california/",
+            "display_link": "https://www.opb.org \u203a article \u203a 2022/12/12 \u203a winter-st...",
+            "title": "Winter storm that struck Sierra Nevada heads across US",
+            "description": "A winter storm that sent ski lift chairs swinging and closed mountain highways in the Sierra Nevada will push across the United States and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/11/02/storm-drops-12-inches-of-snow-in-sierra-nevada-with-more-likely-to-come/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/11/02 \u203a storm-...",
+            "title": "Storm drops 12 inches of snow in Sierra Nevada, with more ...",
+            "description": "What is article sharing? Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 18
+        },
+        {
+            "link": "https://www.reviewjournal.com/local/local-nevada/storm-area-51-still-affects-tiny-nevada-town-a-year-later-2124160/",
+            "display_link": "https://www.reviewjournal.com \u203a Local \u203a Local Nevada",
+            "title": "Storm Area 51 still affects tiny Nevada town a year later",
+            "description": "Long before the 2020-ness of life began pulverizing us on a daily basis, the world was obsessed with how many people would descend on a tiny ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 18, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 19
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Winter Storm Wreaks Havoc in the Sierra Nevada",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 8
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Northern California Storm: I-80 closed, power outages and more - March 3,  2023",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 9
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Record-breaking storm blasts Northern Nevada, California",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Sierra area residents facing heavy snow storms, power outages",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 11
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHw-FmiCD6lIbOEMCpv-DkRyNHuDTipqDoM2MlwECoLA&s",
+            "image_alt": "What 11 Feet of Snow In Four Days Looks Like in California's ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHw-FmiCD6lIbOEMCpv-DkRyNHuDTipqDoM2MlwECoLA&s",
+            "rank": 5,
+            "global_rank": 12
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDVw2-fb_YXBXRVX6HnbcvEloFaILvJxlv7CMiWmEq&s",
+            "image_alt": "Nevada Storm \u2013 2021 WFA D2 Champions",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDVw2-fb_YXBXRVX6HnbcvEloFaILvJxlv7CMiWmEq&s",
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCejqCIfgfLIXBV-Si0N_U4IzmIC8Ci9SpjRvjbgpxmQ&s",
+            "image_alt": "Spinouts and avalanche danger: Interstate 80, highways 50 ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCejqCIfgfLIXBV-Si0N_U4IzmIC8Ci9SpjRvjbgpxmQ&s",
+            "rank": 7,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmUlKeOEHLdSUEdBAmNwQ2xs6OfkESKpS5IXf1jDD_g&s",
+            "image_alt": "Late-season storm brings more snow to the Sierra Nevada | AP ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmUlKeOEHLdSUEdBAmNwQ2xs6OfkESKpS5IXf1jDD_g&s",
+            "rank": 8,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9dyI05IChg0Gbb6oHKWMRVxbVHoTrv-PXLlL6qXd8g&s",
+            "image_alt": "Storm Watch: Nevada City home owners trapped inside house for 10 days  without power",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9dyI05IChg0Gbb6oHKWMRVxbVHoTrv-PXLlL6qXd8g&s",
+            "rank": 9,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGPRXyh8VZcrijWUQEIq60YL4kRx-qFYEHyVTOc2X0ew&s",
+            "image_alt": "Nevada puts winter storm costs at $10.6M; FEMA help promised ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGPRXyh8VZcrijWUQEIq60YL4kRx-qFYEHyVTOc2X0ew&s",
+            "rank": 10,
+            "global_rank": 17
+        }
+    ]
+}

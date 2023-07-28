@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 42500000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Delaware storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:52.825Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Delaware+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_24j1jzz9cle"
+    },
+    "organic": [
+        {
+            "link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Isabel_in_Delaware",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane...",
+            "title": "Effects of Hurricane Isabel in Delaware",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The effects of Hurricane Isabel in Delaware resulted in one of only thirteen presidential ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://townsquaredelaware.com/how-to-stay-safe-this-hurricane-season/",
+            "display_link": "https://townsquaredelaware.com \u203a how-to-stay-safe-thi...",
+            "title": "How To Stay Safe In Delaware This Hurricane Season",
+            "description": "In the midst of the grimy haze of smoke covering the NE from Canadian wildfires, Del has its next battle with Mother Nature: hurricane ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://lithub.com/when-a-hurricane-hits-a-story-of-americas-urban-rise-and-fall/",
+            "display_link": "https://lithub.com \u203a when-a-hurricane-hits-a-story-of-a...",
+            "title": "When a Hurricane Hits the Delaware Bay",
+            "description": "Andrew S. Lewis on the Impact of Super Storm Sandy ... Robert Juet, recounted in his journal the morning's drama: \u201cAnd hee that will ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 9, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nytimes.com/1909/07/18/archives/storm-sweeps-delaware-two-persons-are-killed-and-many-buildings.html",
+            "display_link": "https://www.nytimes.com \u203a 1909/07/18 \u203a archives \u203a stor...",
+            "title": "Two Persons Are Killed and Many Buildings Blown Down.",
+            "description": "STORM SWEEPS DELAWARE.; Two Persons Are Killed and Many Buildings Blown Down. Give this article.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/delaware/wilmington",
+            "display_link": "https://www.theweathernetwork.com \u203a wilmington",
+            "title": "3-Day Severe Weather Outlook: Wilmington, Delaware",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.fox29.com/news/tornado-kills-1-in-sussex-county-del-as-storm-carves-a-14-mile-path-of-destruction",
+            "display_link": "https://www.fox29.com \u203a news \u203a tornado-kills-1-in-susse...",
+            "title": "Tornado kills 1 in Sussex County as storm carves a 14-mile ...",
+            "description": "One man is dead after Saturday evening's severe storms take aim in southern Delaware. The National Weather Service says one tornado touched ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://firststateupdate.com/2023/07/severe-storms-damage-homes-topple-big-rig-keep-first-responders-busy-sunday/",
+            "display_link": "https://firststateupdate.com \u203a 2023/07 \u203a severe-storms-...",
+            "title": "Severe Storms Damage Homes, Topple Big Rig, Keep ...",
+            "description": "New Castle County, Delaware, was battered by a series of severe storms on Sunday, leaving a trail of destruction in their wake.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "http://thedialog.org/our-diocese/one-killed-many-residents-displaced-as-severe-storm-in-delaware-damages-dozens-of-homes-in-sussex-county/",
+            "display_link": "http://thedialog.org \u203a Our Diocese",
+            "title": "One killed, many residents displaced as severe storm in ...",
+            "description": "One person was killed and homes in Delaware sustained damage from severe storms and likely tornado in Sussex County on Saturday, April 1.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.delcotimes.com/2023/07/25/delaware-county-all-of-southeastern-pennsylvania-in-t-storm-watch/",
+            "display_link": "https://www.delcotimes.com \u203a 2023/07/25 \u203a delaware-...",
+            "title": "Delaware County, all of southeastern Pennsylvania in T- ...",
+            "description": "Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are not subscribers. Subscribe ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/delaware/ash-wednesday-storm-de/",
+            "display_link": "https://www.onlyinyourstate.com \u203a delaware \u203a ash-we...",
+            "title": "The Massive Ash Wednesday Storm of 1962 in Delaware",
+            "description": "A Terrifying, Deadly Storm Struck Delaware In 1962\u2026 And No One Saw It Coming. Typically, March in Delaware is mild, with some snow, some rain, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

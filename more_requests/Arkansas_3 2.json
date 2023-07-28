@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 150000000,
+        "search_time": 0.75,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arkansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:18.877Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arkansas+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_sk83prz5ob"
+    },
+    "organic": [
+        {
+            "link": "https://www.kark.com/weather/weather-headlines/arkansas-storm-team-weather-blog-significant-severe-weather-threat-tuesday/",
+            "display_link": "https://www.kark.com \u203a weather \u203a weather-headlines",
+            "title": "Arkansas Storm Team Weather Blog: Significant severe ...",
+            "description": "To watch the latest video updates from the Arkansas Storm Team, ... around the different sections of this article to find what you need.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.fox16.com/weather/weather-headlines/arkansas-storm-team-forecast-low-end-severe-weather-threat-today/",
+            "display_link": "https://www.fox16.com \u203a weather \u203a weather-headlines",
+            "title": "Arkansas Storm Team Weather Blog: Severe Thunderstorm ...",
+            "description": "However, some flash flooding will be possible with heavy rain. The tornado risk is very low at this time but is something the Arkansas Storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2023/mar/31/arkansas-tornado-little-rock",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a arkan...",
+            "title": "Monster storm system leaves at least 26 dead through US ...",
+            "description": "Tornadoes leave devastation across Arkansas, Illinois, Iowa and Oklahoma, including theatre roof ... This article is more than 3 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nwaonline.com/news/2023/apr/05/watch-live-governor-officials-give-update-on-arkansas-tornado-recovery/",
+            "display_link": "https://www.nwaonline.com \u203a news \u203a apr \u203a watch-live...",
+            "title": "Arkansas tornado cleanup mostly unaffected by new round ...",
+            "description": "Severe weather that stretched across Arkansas overnight Tuesday and ... for this article was contributed by Cynthia Howell of the Arkansas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcdfw.com/news/local/texas-news/severe-storms-pummel-south-after-7-hurt-in-arkansas-tornado/2928695/",
+            "display_link": "https://www.nbcdfw.com \u203a news \u203a local \u203a texas-news",
+            "title": "Severe Storms Pummel South After 7 Hurt in Arkansas ...",
+            "description": "A line of severe storms packing isolated tornadoes and high winds ripped across the Deep South overnight, toppling trees and power lines and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-11926117/Terrifying-moment-monster-tornado-rips-apart-Arkansas-capital-Little-Rock-80mph-winds.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-11926117",
+            "title": "Terrifying moment monster tornado rips apart Arkansas ...",
+            "description": "On Friday, Little Rock, Arkansas, was hit by a severe tornado that caused significant damage to ... Share or comment on this article:.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://arktimes.com/arkansas-blog/2021/06/06/tornadoes-increasing-in-arkansas-due-to-climate-change-researcher-says",
+            "display_link": "https://arktimes.com \u203a Arkansas Blog",
+            "title": "Tornadoes increasing in Arkansas due to climate change, ...",
+            "description": "Last year, Arkansas recorded 45 tornadoes. There were 41 in 2019 and 36 in 2018. This year, as of June 4, the state has seen 16. Condry said the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 6, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://governor.arkansas.gov/executive_orders/executive-order-authorizing-emergency-paid-leave-for-certain-state-employees-whose-principal-residences-are-or-were-adversely-impacted-by-the-severe-weather-emergency-declared-in-executive-order-23-20/",
+            "display_link": "https://governor.arkansas.gov \u203a executive_orders \u203a ex...",
+            "title": "EXECUTIVE ORDER AUTHORIZING EMERGENCY PAID ...",
+            "description": "WHEREAS: On March 31, 2023, severe thunderstorms and tornadoes struck Arkansas ... is issued pursuant to Article VI, Section 2 of the Arkansas Constitution, ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/news/2023-03-31-tornadoes-storms-arkansas-tennessee-illinois-mississippi-missouri",
+            "display_link": "https://www.wunderground.com \u203a article \u203a news \u203a news",
+            "title": "Tornadoes, Storms Carve Deadly Path Through Arkansas ...",
+            "description": "Tornadoes, Storms Carve Deadly Path Through Arkansas, Illinois, Iowa, Tennessee ... T\u200bhis article is no longer being updated. Please click here for the latest on ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.samaritanspurse.org/article/samaritans-purse-responds-to-storms-in-marked-tree-arkansas/",
+            "display_link": "https://www.samaritanspurse.org \u203a article \u203a samaritans-...",
+            "title": "Samaritan's Purse Responds to Storms in Marked Tree, ...",
+            "description": "First Baptist Church of Marked Tree is our host church for this response in Arkansas. Many families are recovering from these violent storms and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

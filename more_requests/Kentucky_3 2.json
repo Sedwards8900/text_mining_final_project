@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 53300000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:53.696Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_k1dcol3clx"
+    },
+    "organic": [
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2022-02-02-tornado-outbreak-then-ice-storm-kentucky-tennessee-arkansas",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Ice Storm Strikes Tornado-Ravaged Areas of Tennessee, ...",
+            "description": "A damaging ice storm is underway in parts of Kentucky and Tennessee still recovering from a destructive and deadly December tornado outbreak.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/floods-kentucky-weather-fe54aac79f4f67ef1630a2cadcccb897",
+            "display_link": "https://apnews.com \u203a article \u203a floods-kentucky-weathe...",
+            "title": "More rain, more bodies in flooded Kentucky mountain towns",
+            "description": "Radar indicated that up to 4 more inches (10.2 centimeters) of rain fell Sunday, and the National Weather Service warned that slow-moving ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cbsnews.com/news/kentucky-flooding-power-outages-deaths/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Governor: Search for victims in Kentucky floods could take ...",
+            "description": "At least 25 people have died as rains unleashed what Kentucky Gov. Andy Beshear described as some of the worst flooding in the state's ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wlwt.com/article/kentucky-severe-weather-threat-storms-tornado-beshear/43176558",
+            "display_link": "https://www.wlwt.com \u203a article \u203a kentucky-severe-wea...",
+            "title": "Kentucky Gov. Beshear issues state of emergency ahead ...",
+            "description": "\"Kentucky is facing dangerous weather, with severe storms, damaging winds and the possibility of tornadoes and flooding. I want to make sure we ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.courier-journal.com/story/news/2021/12/11/what-we-know-about-kentucky-tornadoes-storm-damage-power-outages-deaths/6475716001/",
+            "display_link": "https://www.courier-journal.com \u203a news \u203a 2021/12/11",
+            "title": "What we know about Kentucky tornadoes, storm damage ...",
+            "description": "Kentucky tornadoes: What to know about the damage, deaths after overnight storms ... While much of the nation slept early Saturday morning, a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.newsweek.com/photos-show-aftermath-deadly-kentucky-storm-over-400k-lost-power-1785538",
+            "display_link": "https://www.newsweek.com \u203a photos-show-aftermath-...",
+            "title": "Photos Show Aftermath of Deadly Kentucky Storm as Over ...",
+            "description": "Lexington and the central Kentucky region experienced severe weather on Friday afternoon as high-speed winds and two tornadoes swept through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnbc.com/2021/12/11/kentucky-gov-declares-state-of-emergency-after-deadly-tornado.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/12/11 \u203a kentucky-gov-dec...",
+            "title": "Kentucky Gov. declares state of emergency after deadly ...",
+            "description": "Beshear said the tornado that slammed through Western Kentucky struck the city Mayfield before moving northeast through Benton, Princeton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://news.yahoo.com/more-bad-weather-projected-kentucky-124456636.html",
+            "display_link": "https://news.yahoo.com \u203a more-bad-weather-projected...",
+            "title": "More bad weather projected as Kentucky communities ...",
+            "description": "Torrential rainfall and damaging winds are expected to be the main hazards in a storm system taking aim at Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wsiltv.com/news/kentucky/severe-storms-cause-damage-throughout-western-kentucky-southern-illinois/article_4adf300e-d3ed-11ed-aca0-a794caa61b04.html",
+            "display_link": "https://www.wsiltv.com \u203a news \u203a kentucky \u203a article_4adf...",
+            "title": "Severe storms cause damage throughout Western ...",
+            "description": "MURRAY, Ky. -- Communities in multiple western Kentucky counties received damage after storms swept through the area Wednesday afternoon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.lpm.org/investigate/2021-12-17/in-western-kentucky-tornadoes-are-frequent-and-put-billions-at-risk",
+            "display_link": "https://www.lpm.org \u203a investigate \u203a in-western-kentuc...",
+            "title": "In western Kentucky, tornadoes are frequent",
+            "description": "The threat is especially high in the counties in the path of last week's deadly tornado front: Fulton, Hickman, Graves, Marshall, Lyon, Caldwell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

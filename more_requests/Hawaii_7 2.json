@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 35800000,
+        "search_time": 0.74,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Hawaii storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:25:34.520Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Hawaii+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_oeolcrf28"
+    },
+    "organic": [
+        {
+            "link": "https://www.sunrun.com/go-solar-center/solar-articles/hawaii-severe-weather-events",
+            "display_link": "https://www.sunrun.com \u203a solar-articles \u203a hawaii-sever...",
+            "title": "What to Expect from Hawaii's Severe Weather Events",
+            "description": "Extreme Weather and Its Impact on the Hawaiian Islands ... Hurricane season in Hawaii runs from June 1 to November 30 each year. While hurricanes ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://abcnews.go.com/US/wireStory/tropical-storm-calvin-passes-hawaii-leaving-minor-flooding-101504150",
+            "display_link": "https://abcnews.go.com \u203a wireStory \u203a tropical-storm-c...",
+            "title": "Tropical Storm Calvin passes over Hawaii and leaves minor ...",
+            "description": "Tropical Storm Calvin has brought high surf, heavy rain and gusts to parts of Hawaii's Big Island but left only minor flooding in its wake.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://nypost.com/2021/12/07/dangerous-storm-threatens-havoc-across-hawaiian-archipelago/",
+            "display_link": "https://nypost.com \u203a 2021/12/07 \u203a dangerous-storm-th...",
+            "title": "Dangerous storm threatens havoc across Hawaii",
+            "description": "Dangerous storm threatens havoc across Hawaii ... HONOLULU \u2014 From the empty shores of Oahu's Waikiki Beach to the snowy summit of the Big Island's ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://weather.com/safety/hurricane/news/2018-08-23-hurricane-lane-impacts-hawaii-honolulu-maui-hilo",
+            "display_link": "https://weather.com \u203a safety \u203a hurricane \u203a news \u203a 201...",
+            "title": "Hurricane Lane's Flooding Kills 1, Dumps Feet of Rain on ...",
+            "description": "Here's what happened in Hawaii as the islands felt the impact of Lane. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 13, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.staradvertiser.com/2023/07/18/breaking-news/calvin-on-track-to-pound-hawaii-island-with-heavy-rain-high-winds/",
+            "display_link": "https://www.staradvertiser.com \u203a breaking-news \u203a calv...",
+            "title": "Calvin brings heavy rain, strong winds as it passes south of ...",
+            "description": "A flood watch is in effect through Wednesday afternoon for all Hawaiian islands as a weakening Tropical Storm Calvin moves west.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.kitv.com/news/tropical-storm-calvin-is-affecting-travel-for-hawaii-island/article_3df9bca8-2643-11ee-b3d3-33596e2fbac8.html",
+            "display_link": "https://www.kitv.com \u203a news \u203a article_3df9bca8-2643-1...",
+            "title": "Tropical Storm Calvin is affecting travel for Hawaii Island",
+            "description": "Two major airlines are preparing for Tropical Storm Calvin's impact on Hawaii Island for Wednesday. Hawaiian Airlines and Southwest issued ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.khon2.com/hawaii-hurricane/oahu-prepares-for-tropical-storm-calvin-impacts/",
+            "display_link": "https://www.khon2.com \u203a hawaii-hurricane \u203a oahu-pr...",
+            "title": "Oahu, Maui prepare for Calvin impacts, Kauai remains dry",
+            "description": "The Honolulu Fire Department said they responded to some calls that were possibly weather-related, including two blown roofs, both in Manoa and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.gohawaii.com/trip-planning/weather",
+            "display_link": "https://www.gohawaii.com \u203a trip-planning \u203a weather",
+            "title": "Weather in Hawaii",
+            "description": "It is this weather phenomenon that creates Hawai\u02bbi's rich, green, tropical environment. The wettest months are from November to March, but winter rains do not ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://kauainownews.com/2023/07/19/tropical-storm-calvin-passed-hawai%CA%BBi-island-overnight-continues-to-move-well-south-of-kaua%CA%BBi/",
+            "display_link": "https://kauainownews.com \u203a 2023/07/19 \u203a tropical-sto...",
+            "title": "UPDATE: Calvin no longer a tropical storm",
+            "description": "Tropical storm conditions have ended in Hawai\u02bbi. Locally gusty winds will likely continue today before easing tonight. ARTICLE CONTINUES ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.reviewjournal.com/news/nation-and-world/maui-big-island-saturated-as-tropical-storm-moves-on-from-hawaii/",
+            "display_link": "https://www.reviewjournal.com \u203a ... \u203a Nation and World",
+            "title": "Maui, Big Island saturated as tropical storm moves on from ...",
+            "description": "The central Pacific gets fewer hurricanes than other regions, with only about four or five named storms a year. Hawaii rarely gets hit. The last ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 26, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

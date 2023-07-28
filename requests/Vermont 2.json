@@ -1,0 +1,268 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29000000,
+        "search_time": 0.49,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Vermont storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:56.618Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Vermont+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_9v30gu5g0c"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2023/07/12/us/vermont-flooding-tropical-storm-irene.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/07/12 \u203a vermont-floodi...",
+            "title": "Vermont Storm Exposes the Strengths, and Limits, of ...",
+            "description": "A forceful storm walloped Vermont again this week, causing severe flooding, damaging thousands of homes and businesses, and revealing the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2023/07/12/us/vermont-flooding-rain-forecast.html",
+                    "display_link": "https://www.nytimes.com \u203a vermont-flooding-rain-forecast",
+                    "title": "Vermont Floods: What to Know",
+                    "description": "A powerful storm dumped as much as nine inches of rain on parts of Vermont this week, causing at least one death and leaving residents of ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 14, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.mynbc5.com/article/historic-flooding-vermont-changing-storm-characteristics/44547204",
+            "display_link": "https://www.mynbc5.com \u203a article \u203a historic-flooding-...",
+            "title": "Vermont flooding: Climatologist explains changing storm ...",
+            "description": "Recent flooding across Vermont led to dozens of washouts, hundreds of swift water rescues, and powerful images of the capitol city buried ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/2023/07/11/us/northeast-storms-flooding-excessive-rainfall-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/07/11 \u203a northeast-storms-fl...",
+            "title": "Catastrophic flooding swamped Vermont's capital as ...",
+            "description": "Catastrophic flooding swamped Vermont's capital as intense storms forced evacuations and closures in Northeast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.cnn.com/2023/07/12/us/northeast-storms-flooding-excessive-rainfall-wednesday/index.html",
+                    "display_link": "https://www.cnn.com \u203a 2023/07/12 \u203a northeast-storms-fl...",
+                    "title": "Post-flooding perils endanger Vermont as more rain could ...",
+                    "description": "\u201cAdditional rainfall is expected Thursday afternoon as a line of strong thunderstorms move through,\u201d the National Weather Service in Burlington ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 12, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.npr.org/2023/07/10/1186827217/a-powerful-storm-is-hitting-vermont-hard-causing-flash-floods",
+            "display_link": "https://www.npr.org \u203a 2023/07/10 \u203a a-powerful-storm-is...",
+            "title": "A powerful storm is hitting Vermont hard, causing flash floods",
+            "description": "A fast-moving storm caused flash flooding in Vermont and other states, washing out roads and claiming lives.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.pbs.org/newshour/show/historic-storm-brings-catastrophic-flooding-to-vermont-with-more-rain-expected-this-week",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a show \u203a historic-stor...",
+            "title": "Historic storm brings catastrophic flooding to Vermont with ...",
+            "description": "In New England, a storm for the ages has ravaged Vermont. There've been no reported deaths or injuries, but parts of the state capital are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2023/07/11/vermont-flood-rescues-officials-brace-rain/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/11 \u203a ver...",
+            "title": "More than 100 rescued in Vermont floods as search efforts ...",
+            "description": "Vermont faced catastrophic flooding and damage Tuesday as crews worked to find and rescue stranded people in the rural, mountainous state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://apnews.com/article/northeast-historic-flooding-death-06af24623cd252b13786f0db2df75325",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Vermonters rush to dry out flooded homes and businesses ...",
+            "description": "Vermonters rush to dry out flooded homes and businesses with more storms on the horizon. In Vermont's capital city, volunteers are pitching in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-66154757",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-66154757",
+            "title": "Vermont assesses 'devastating' damage as floods recede",
+            "description": "BBC News. Crews in Vermont are assessing the damage after a storm dumped up to two months of rain on the state in a matter of days, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Where was flooding in Vermont?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+was+flooding+in+Vermont%3F&sa=X&ved=2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzmd6BAgfEAY",
+            "answer_source": "Vermont Floods: What to Know - The New York Times",
+            "answer_link": "https://www.nytimes.com/2023/07/12/us/vermont-flooding-rain-forecast.html#:~:text=The%20storm%20system%20then%20moved,Tropical%20Storm%20Irene%20in%202011.",
+            "answer_display_link": "https://www.nytimes.com \u203a vermont-flooding-rain-forecasthttps://www.nytimes.com \u203a vermont-flooding-rain-forecast",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB8QBQ\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQu04oAHoECB8QBQ\"><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__14\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCMQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQ4dMGegQIIxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCMQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AfO6fk\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQyQ0oAHoECBgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;HkmfPlU4jYhYxM;AfO6fM\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"HkmfPlU4jYhYxM\" data-lpage=\"https://www.nytimes.com/2023/07/12/us/vermont-flooding-rain-forecast.html\" data-ni=\"1\" data-ref-docid=\"cxt-NA9RRfZGiM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBQQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzkx6BAgUEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-39px;width:285px\" alt=\"Vermont Floods: What to Know - The New York Times\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzdyB6LHrvtyTImjHZurLgHmaBZDGmYi28VQkQwdIViA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The storm system then moved north into New England, causing severe flooding and forcing hundreds of people in Vermont to evacuate their homes. At least two of Vermont's rivers \u2014 <b>the Winooski, which runs through Montpelier, and the Lamoille</b> \u2014 surpassed the levels they reached during Tropical Storm Irene in 2011.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 14, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The storm system then moved north into New England, causing severe flooding and forcing hundreds of people in Vermont to evacuate their homes. At least two of Vermont's rivers \u2014 the Winooski, which runs through Montpelier, and the Lamoille \u2014 surpassed the levels they reached during Tropical Storm Irene in 2011.Jul 14, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 6
+        },
+        {
+            "question": "Why was Hurricane Irene so bad?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Why+was+Hurricane+Irene+so+bad%3F&sa=X&ved=2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzmd6BAglEAY",
+            "answer_source": "Hurricane Irene: 10 Years Later - National Weather Service",
+            "answer_link": "https://www.weather.gov/gyx/Irene_Anniversary#:~:text=Irene's%20main%20impact%20was%20from,flood%20stages%20on%20larger%20rivers.",
+            "answer_display_link": "https://www.weather.gov \u203a gyx \u203a Irene_Anniversaryhttps://www.weather.gov \u203a gyx \u203a Irene_Anniversary",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQu04oAHoECCUQBQ\"><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__20\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCEQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQ4dMGegQIIRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCEQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AfO6fg\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;VkUe6lb77WXyMM;AfO6fU\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"VkUe6lb77WXyMM\" data-lpage=\"https://www.weather.gov/gyx/Irene_Anniversary\" data-ni=\"1\" data-ref-docid=\"rBNH5RYHlZdpZM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBYQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzkx6BAgWEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-39px;width:199px\" alt=\"Hurricane Irene: 10 Years Later\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZjLm23ul2GB5Mz1qqQzvr56hL7LRDrJTh-iKa_tV6Dw&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Irene's <b>main impact was from rainfall</b>. Catastrophic floods occurred in New York and New England, especially in central and southern Vermont and New Hampshire. These rains caused devastating flash flooding across many mountain valleys with some record breaking flood stages on larger rivers.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Irene's main impact was from rainfall. Catastrophic floods occurred in New York and New England, especially in central and southern Vermont and New Hampshire. These rains caused devastating flash flooding across many mountain valleys with some record breaking flood stages on larger rivers."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 7
+        },
+        {
+            "question": "Is Vermont at risk for flooding?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+Vermont+at+risk+for+flooding%3F&sa=X&ved=2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzmd6BAgkEAY",
+            "answer_source": "Vermont Flood Factor\u00ae Report",
+            "answer_link": "https://riskfactor.com/state/vermont/50_fsid/flood#:~:text=Does%20Vermont%20have%20Flood%20Risk,over%20the%20next%2030%20years.",
+            "answer_display_link": "https://riskfactor.com \u203a state \u203a vermont \u203a 50_fsid \u203a floodhttps://riskfactor.com \u203a state \u203a vermont \u203a 50_fsid \u203a flood",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQu04oAHoECCQQBQ\"><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Does Vermont have Flood Risk? There are 46,543 properties in Vermont that have <b>greater than a 26% chance of being severely affected by flooding over the next 30 years</b>.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Does Vermont have Flood Risk? There are 46,543 properties in Vermont that have greater than a 26% chance of being severely affected by flooding over the next 30 years."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 8
+        },
+        {
+            "question": "When did Hurricane Irene hit Vermont?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=When+did+Hurricane+Irene+hit+Vermont%3F&sa=X&ved=2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzmd6BAgdEAY",
+            "answer_source": "Tropical Storm Irene - Vermont History Explorer",
+            "answer_link": "https://vermonthistoryexplorer.org/tropical-storm-irene#:~:text=On%20August%2028%2C%202011%2C%20Tropical,than%20four%20inches%20of%20rain.",
+            "answer_display_link": "https://vermonthistoryexplorer.org \u203a tropical-storm-irenehttps://vermonthistoryexplorer.org \u203a tropical-storm-irene",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB0QBQ\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQu04oAHoECB0QBQ\"><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__29\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQ4dMGegQIIBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCAQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AfO6fc\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQyQ0oAHoECBkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;8toTVtT3WTJtSM;AfO6fY\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"8toTVtT3WTJtSM\" data-lpage=\"https://vermonthistoryexplorer.org/tropical-storm-irene\" data-ni=\"1\" data-ref-docid=\"-eJM3D6bVCzeiM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBcQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQzkx6BAgXEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-17px;width:240px\" alt=\"Tropical Storm Irene \u2014 Vermont History Explorer\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_x9c6Ga62CqGk1cNqkjxP34jmIJFTo4S-MeGNJJ5aWg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__32\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCYQAA\" data-ved=\"2ahUKEwiF_dr4sa2AAxXTuJUCHSvdBkgQtwcoAHoECCYQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"August 28, 2011\"><div class=\"IZ6rdc\">August 28, 2011</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"7pnBZIXOO9Px1sQPq7qbwAQ__33\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">On <b>August 28, 2011</b>, Tropical Storm Irene hit Vermont. The storm was no longer a hurricane with high winds. In Vermont, water was the main problem. Many towns had more than four inches of rain.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "August 28, 2011",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "On August 28, 2011, Tropical Storm Irene hit Vermont. The storm was no longer a hurricane with high winds. In Vermont, water was the main problem. Many towns had more than four inches of rain."
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        }
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31100000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Alabama storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:17:40.813Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Alabama+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_oq563af6eq8"
+    },
+    "organic": [
+        {
+            "link": "https://weather.com/news/news/2023-01-12-southeast-severe-storms-impacts-alabama-mississippi-kentucky-georgia",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-01-12-southe...",
+            "title": "At Least Six Dead In Alabama Tornado, Storms Carve Path ...",
+            "description": "... homes ripped apart in Selma, Alabama, and businesses wrecked in Griffin, Georgia. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.axios.com/2023/03/26/tornadoes-threaten-mississippi-alabama-sunday",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "Southeast faces severe flooding risk as more tornadoes ...",
+            "description": "There's a moderate risk of severe weather from central Louisiana east through south-central Mississippi and central Alabama, \"where supercell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://abc3340.com/news/local/gallery/latest-severe-weather-storm-damage-reports-in-alabama",
+            "display_link": "https://abc3340.com \u203a news \u203a local \u203a gallery \u203a latest-s...",
+            "title": "LATEST: Severe weather, storm damage reports in Alabama",
+            "description": "The National Weather Service in Birmingham reported a \"confirmed large and destructive tornado\" on the ground near the city of Aliceville, about 45 miles ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.reuters.com/world/us/least-6-killed-alabama-storm-sweeps-through-us-south-nyt-2023-01-13/",
+            "display_link": "https://www.reuters.com \u203a world \u203a least-6-killed-alabama...",
+            "title": "At least 6 killed as Tornado, thunderstorms strike central ...",
+            "description": "At least six people were killed in central Alabama on Thursday as thunderstorms and at least one tornado swept through the region, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Alabama+storm+%22article%22&sa=X&ved=2ahUKEwjK0dXW262AAxVsF1kFHZf7BjQ4DxDm3gJ6BAgZEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnbc.com/2023/01/12/powerful-storms-slam-south-at-least-6-killed-in-alabama.html",
+            "display_link": "https://www.cnbc.com \u203a 2023/01/12 \u203a powerful-storms-s...",
+            "title": "Powerful storms slam South; at least 6 killed in Alabama",
+            "description": "A giant, swirling storm system billowing across the South killed at least six people Thursday in central Alabama, authorities said, and spawned ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.stltoday.com/news/local/weather/dangerous-alabama-tornado-slams-buildings-uproots-trees/article_6a0dd337-df6b-5624-8bb8-41dd750330a5.html",
+            "display_link": "https://www.stltoday.com \u203a news \u203a local \u203a weather \u203a artic...",
+            "title": "'Dangerous' Alabama tornado slams buildings, uproots trees",
+            "description": "The weather service soon after issued a tornado emergency for several counties just north of the capital city of Montgomery as the same ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsfa.com/2023/01/12/6-confirmed-dead-widespread-damage-across-alabama-tornado-outbreak/",
+            "display_link": "https://www.wsfa.com \u203a 2023/01/12 \u203a 6-confirmed-dead...",
+            "title": "Multiple dead, widespread damage across Alabama in ...",
+            "description": "Seven people are now confirmed dead and significant damage is being reported from Thursday's severe storms and tornado outbreak across much ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 12, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Alabama+storm+%22article%22&sa=X&ved=2ahUKEwjK0dXW262AAxVsF1kFHZf7BjQ4DxDm3gJ6BAgbEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://whnt.com/news/photos-severe-weather-brings-damage-to-north-alabama/",
+            "display_link": "https://whnt.com \u203a news \u203a photos-severe-weather-brin...",
+            "title": "PHOTOS: Storms leave damage in Boaz, flooding across ...",
+            "description": "Strong storms left behind heavy damage in northeast Alabama Sunday ... This is an archived article and the information in the article may be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.alabamawx.com/",
+            "display_link": "https://www.alabamawx.com",
+            "title": "The Alabama Weather Blog - Mobile",
+            "description": "Alabama NewsCenter \u2013 Birmingham Freedom Fest returns to in-person format \u00b7 Only Isolated Showers/Storms; Hot Through The Weekend \u00b7 Midday Nowcast: Sunny, Hot Late ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.pbs.org/newshour/science/explaining-the-forces-that-fueled-alabamas-deadly-tornado",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a science \u203a explainin...",
+            "title": "Explaining the forces that fueled Alabama's deadly tornado",
+            "description": "Experts say a natural La Nina weather pattern, unusually warm moist air juiced by climate change, and long-term shift in where tornadoes hit ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

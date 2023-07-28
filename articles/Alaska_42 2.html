@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GZ1TE4CNT2"></script>
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GZ1TE4CNT2');
+    </script>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"258a197b3e",applicationID:"180632083"};;/*! For license information please see nr-loader-rum-1.236.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>_,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>j});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.236.0",i="PROD",o="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>a,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>o,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=""+o?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=_()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=_();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!_()[c[e]]}function _(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",733:"session_trace-aggregate",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"ac76d497",147:"3dc53903",148:"1a20d5fe",242:"2a64278a",317:"49e41428",348:"bd6de33a",412:"2f55ce66",439:"30bd804e",538:"1b18459f",590:"cf0efb30",675:"ae9f91a8",733:"83105561",786:"06482edd",860:"03a8b7a5",873:"e6b09d52",898:"998ef92b"}[e]+"-1.236.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=6,i.p="https://js-agent.newrelic.com/",(()=>{var e={6:0,352:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(385),d=i(8e3),u=i(5938),l=i(3960),f=i(50);class g extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=c.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r;this.onAggregateImported=new Promise((e=>{r=e}));const o=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,f.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r(!0)}catch(e){(0,f.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),r(!1)}};c.il?(0,l.b)((()=>o()),!0):o()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var p=i(7633),h=i(7894);class v extends g{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.Tt)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,h.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var m=i(1117),b=i(1284);class y extends m.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,b.D)(e,(function(e,n){t[e]=w(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,b.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=w(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=w(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=x(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function w(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function x(e){return"object"!=typeof e?[]:(0,b.D)(e,D)}function D(e,t){return t}var _=i(8632),j=i(4402),E=i(4351);var k=i(7956),T=i(3239),I=i(9251);class N extends g{static featureName=I.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,I.t,r),c.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,I.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var P=i(3081);class S extends g{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);c._A?(this.agentIdentifier=t,this.sharedAggregator=new y({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(v),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()):(0,f.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,f.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,f.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[v,N,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-47322413-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("set", "dimension1", "Article");ga("set", "dimension2", "54686");ga("set", "dimension3", "Historic Storm Causes Widespread Flooding and Damage Along West Alaska Coastline");ga("send", "pageview");</script>
+<meta name="description" content="An extremely powerful storm slammed into Alaska’s western coastline over the weekend resulting in extensive damage from record-level flooding. Warming oceans as a result of climate change contributed to the storm’s severity." />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-language" content="en" />
+<link rel="canonical" href="https://www.highnorthnews.com/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" />
+<link rel="image_src" href="/sites/default/files/2022-09/Nome%20storm%20damage%20%20jeremy%20perkins.jpg" />
+<meta name="referrer" content="no-referrer" />
+<meta property="og:site_name" content="High North News" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.highnorthnews.com/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" />
+<meta property="og:title" content="Historic Storm Causes Widespread Flooding and Damage Along West Alaska Coastline" />
+<meta property="og:description" content="An extremely powerful storm slammed into Alaska’s western coastline over the weekend resulting in extensive damage from record-level flooding. Warming oceans as a result of climate change contributed to the storm’s severity." />
+<meta property="og:image" content="https://www.highnorthnews.com/sites/default/files/styles/facebook/public/2022-09/Nome%20storm%20damage%20%20jeremy%20perkins.jpg?h=c9bb1d09&amp;itok=whFjEDZJ" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1270" />
+<meta property="og:updated_time" content="2022-09-19T08:51:32+0200" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="An extremely powerful storm slammed into Alaska’s western coastline over the weekend resulting in extensive damage from record-level flooding. Warming oceans as a result of climate change contributed to the storm’s severity." />
+<meta name="twitter:image:height" content="512" />
+<meta name="twitter:image:width" content="1024" />
+<meta name="twitter:image" content="https://www.highnorthnews.com/sites/default/files/styles/twitter/public/2022-09/Nome%20storm%20damage%20%20jeremy%20perkins.jpg?h=c9bb1d09&amp;itok=oB_CSK7Q" />
+<meta name="Generator" content="Drupal 9 (Thunder | https://www.thunder.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "NewsArticle",
+            "headline": "Historic Storm Causes Widespread Flooding and Damage Along West Alaska Coastline",
+            "description": "An extremely powerful storm slammed into Alaska’s western coastline over the weekend resulting in extensive damage from record-level flooding. Warming oceans as a result of climate change contributed to the storm’s severity.",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.highnorthnews.com/sites/default/files/styles/full_width_desktop/public/2022-09/Nome%20storm%20damage%20%20jeremy%20perkins.jpg?h=c9bb1d09\u0026itok=6DT55UuI"
+            },
+            "datePublished": "2022-09-19T08:51:32+0200",
+            "dateModified": "2022-09-19T08:51:32+0200",
+            "author": {
+                "@type": "Person",
+                "name": "Malte Humpert",
+                "url": "https://www.highnorthnews.com/profile/malte-humpert"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "High North News",
+                "url": "https://www.highnorthnews.com",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.highnorthnews.com/themes/custom/hnn_theme/logo.png"
+                }
+            }
+        }
+    ]
+}</script>
+<link rel="icon" href="/themes/custom/hnn_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.highnorthnews.com/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" />
+
+    <title>Historic Storm Causes Widespread Flooding and Damage Along West Alaska Coastline</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_CfyJhQeLGBDZMgfoS2QCPUYwmWkyAbmkwI5wC1GwVLE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_qtoTEPw4u2qGpxglACCbIbaKcLB62fujEvCNfoVwFWA.css" />
+
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="rm-theme path-node node--type-article">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+  <div id="page">
+            
+<header id="header" class="header" role="banner" aria-label="Site header">
+  <div class="navbar navbar-dark header-top">
+    <div class="container">
+        <div class="d-flex region region-header-top">
+    <div class="navbar-brand">
+      <a href="/en" title="Home" rel="home" class="float-left site-logo">
+      <img src="/themes/custom/hnn_theme/logo.png" alt="Home" class="img-fluid" />
+    </a>
+    </div>
+  </div>
+
+        <div class="region region-header-top-secondary">
+    <div class="language-switcher-language-url block-region-header_top_secondary block block-language block-language-blocklanguage-interface" id="block-hnn-theme-languageswitcher" role="navigation">
+        <div class="content">
+      
+<div class="language-switcher language-switcher--flags language-switcher--flags--rounded">
+    <ul><li hreflang="en" data-drupal-link-system-path="node/54686" class="en language-switcher--flags__item is-active"><a href="/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" class="language-link is-active" hreflang="en" data-drupal-link-system-path="node/54686">English</a></li><li hreflang="nb" data-drupal-link-system-path="&lt;front&gt;" class="nb language-switcher--flags__item"><a href="/nb" class="language-link" hreflang="nb" data-drupal-link-system-path="&lt;front&gt;">Norwegian Bokmål</a></li></ul>
+  </div>
+    </div>
+  </div>
+<div id="block-socialmedialinks-3" class="block-social-media-links block-region-header_top_secondary block block-social-media-links-block">
+  
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/HighNorthNews"  >
+        <span class='fab fa-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/highnorthnews"  >
+        <span class='fab fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+  </div>
+
+    </div>
+  </div>
+  <div class="navbar navbar-dark navbar-expand-md header-navbar">
+    <div class="container">
+      
+      <div class="collapse navbar-collapse">
+        <nav role="navigation" aria-labelledby="block-mainnavigation-3-menu" id="block-mainnavigation-3" class="block-region-primary_menu block block-menu navigation menu--main">
+            
+  <h2 class="sr-only" id="block-mainnavigation-3-menu">Main navigation</h2>
+  
+
+        
+
+
+<div class="menu ">
+                    <ul class="navbar-nav nav">
+                                <li class="nav-item  ">
+                  <a href="/en/business?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7227">Business</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/politics?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7228">Politics</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/science?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7224">Science</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/arctic-living?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7211">Arctic Living</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/opinions?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/32">Opinions</a>
+              </li>
+                                          <li class="nav-item  ">
+                  <a href="https://pub.dialogapi.no/s/933da0e1-e718-4100-9026-0e31b53e2cbb" class="nav-link" target="_blank">Newsletter</a>
+              </li>
+        </ul>
+  
+  </div>
+
+
+
+  </nav>
+
+      </div>
+      
+      <button class="btn-toggler search-menu-toggler" id="header-collapse-toggler" type="button" aria-controls="header-collapse" aria-expanded="false" aria-label="Toggle search form">
+        <span class="sr-only">Menu & Search</span>
+      </button>
+    </div>
+  </div>
+  <div class="navbar-collapse header-collapse" id="header-collapse" hidden>
+    <div class="container">
+      <nav role="navigation" aria-labelledby="block-mainnavigation-3-menu" id="block-mainnavigation-3" class="block-region-primary_menu block block-menu navigation menu--main">
+            
+  <h2 class="sr-only" id="block-mainnavigation-3-menu">Main navigation</h2>
+  
+
+        
+
+
+<div class="menu ">
+                    <ul class="navbar-nav nav">
+                                <li class="nav-item  ">
+                  <a href="/en/business?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7227">Business</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/politics?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7228">Politics</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/science?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7224">Science</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/arctic-living?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/7211">Arctic Living</a>
+              </li>
+                            <li class="nav-item  ">
+                  <a href="/en/opinions?page_manager_page_variant_weight=0&amp;overridden_route_name=entity.taxonomy_term.canonical&amp;base_route_name=entity.taxonomy_term.canonical&amp;page_manager_page=taxonomy_term_view&amp;page_manager_page_variant=taxonomy_term_view-panels_variant-0" class="nav-link" data-drupal-link-system-path="taxonomy/term/32">Opinions</a>
+              </li>
+                                          <li class="nav-item  ">
+                  <a href="https://pub.dialogapi.no/s/933da0e1-e718-4100-9026-0e31b53e2cbb" class="nav-link" target="_blank">Newsletter</a>
+              </li>
+        </ul>
+  
+  </div>
+
+
+
+  </nav>
+
+      <div class="views-exposed-form block-region-header_search block block-views block-views-exposed-filter-blocksearch-index-search-results" data-drupal-selector="views-exposed-form-search-index-search-results" id="block-hnn-search-form-block">
+  
+    
+      <div class="content">
+      <form action="/en/search" method="get" id="views-exposed-form-search-index-search-results" accept-charset="UTF-8">
+  <div class="form--inline clearfix">
+  <div class="js-form-item form-item js-form-type-textfield form-type--textfield js-form-item-search-api-fulltext form-item--search-api-fulltext">
+      <label for="edit-search-api-fulltext">Searchword</label>
+          
+
+<input data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" class="form-text form-text--nice" />
+
+        </div>
+<div class="js-form-item form-item js-form-type-select form-type--select js-form-item-sort-by form-item--sort-by">
+      <label for="edit-sort-by">Sort by</label>
+          
+<select data-drupal-selector="edit-sort-by" id="edit-sort-by" name="sort_by" class="form-select form-select--nice"><option value="search_api_relevance" selected="selected">Relevance</option><option value="published_at">Published on</option></select>
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">  <input data-drupal-selector="edit-submit-search-index" type="submit" id="edit-submit-search-index" value="Search" class="button js-form-submit form-submit form-submit--nice form-submit--search" />
+</div>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+
+    </div>
+  </div>
+</header>
+  
+          <div class="highlighted">
+        <aside class="container clearfix" role="complementary">
+          <div data-drupal-messages-fallback class="hidden"></div>
+
+        </aside>
+      </div>
+    
+
+    <div id="main-wrapper" class="layout-main-wrapper clearfix">
+              <div id="main">
+                      <div class="container">
+              <div id="block-hnn-theme-breadcrumbs" class="block-region-breadcrumb block block-system block-system-breadcrumb-block">
+  
+    
+      <div class="content">
+        <nav role="navigation" aria-label="breadcrumb">
+    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+    <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+          <a href="/en">Home</a>
+        </li>
+                        <li class="breadcrumb-item">
+          <a href="/en/politics">Politics</a>
+        </li>
+              </ol>
+  </nav>
+
+    </div>
+  </div>
+
+            </div>
+          
+          <main class="test">
+            <a id="main-content" tabindex="-1"></a>
+            <div id="block-hnn-theme-content" class="block-region-content block block-system block-system-main-block">
+  
+    
+      <div class="content">
+        
+ 
+<div class=" role="article" class="article-two-column node node--type-article node--view-mode-full clearfix"">
+  <div class="article-two-column__header">
+    <div class="container">
+      
+<header>
+  <h1 class="article--header__title"><span class="article--header__prefix-title"></span> Historic Storm Causes Widespread Flooding and Damage Along West Alaska Coastline</h1>
+    
+            <div class="field field--name-field-main-illustration field--type-entity-reference-revisions field--label-hidden field__item">
+
+
+        
+        
+  
+      <div class="paragraph paragraph--type--image paragraph--view-mode--default">
+              <figure>
+          
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--default field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image is-b-loading"><img alt="Nome" title="Flooding and destroyed roadway along coastline in Nome, Alaska. (Source: With permission by Jeremy Perkins)" class="media__image media__element b-lazy img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_image/public/2022-09/Nome%20storm%20damage%20%20jeremy%20perkins.jpg?itok=KysE6BCH" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" width="938" height="588" />
+        </div>
+        
+  
+</div>
+      
+                    
+  <div class="caption">
+              
+            <div class="clearfix text-formatted field field--name-field-caption field--type-text-long field--label-hidden field__item">Flooding and destroyed roadway along coastline in Nome, Alaska. <em>(Source: With permission by Jeremy Perkins)</em></div>
+      
+      </div>
+        </figure>
+          </div>
+  </div>
+      
+</header>
+
+<div class="article-meta">
+  <div class="article-meta__dates">
+    <span class="article-meta__published-at"><span class="article-meta__label">Published at:</span> Sep 19 2022 - 08:51</span>
+          <span class="article-meta__separator">/</span>
+      <span class="article-meta__updated-at"><span class="article-meta__label">Updated at:</span> Sep 19 2022 - 08:51</span>
+      </div>
+</div>
+    </div>
+  </div>
+  <div class="article-two-column__main-wrapper">
+    <div class="container">
+                  
+<div class="share-buttons share-buttons--aside-article share-buttons--small">
+  <div class="share-buttons__inner">
+    <div class="shariff" data-url="https://www.highnorthnews.com/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" data-mail-url="mailto:" data-theme="grey" data-services="twitter, facebook, mail" data-orientation="vertical" data-lang="en"></div>
+  </div>
+</div>
+
+            <div class="row">
+        <div class="article-two-column__main col-md-8">
+          
+    <div class="intro-text "><p>An extremely powerful storm slammed into Alaska’s western coastline over the weekend resulting in extensive damage from record-level flooding. Warming oceans as a result of climate change contributed to the storm’s severity.</p>
+</div>
+  
+                
+    
+                        
+
+
+<div class="byline">
+  
+<section class="section section--separated">
+    <div class="section__contents">
+          <div class="byline__items">
+                            
+<div class="byline-item byline-item--with_photo">
+      <div class="byline-item__photo d-none d-md-block"><a href="/en/profile/malte-humpert">
+            <div class="field field--name-field-photo field--type-image field--label-hidden field__item">  <img loading="lazy" src="/sites/default/files/styles/byline/public/profile/photo/Malte%20Humpert.jpg?h=1e66e246&amp;itok=_Bvv-RYw" width="160" height="160" alt="" class="img-fluid image-style-byline" />
+
+
+</div>
+      </a></div>
+    <div class="byline-item__meta">
+    <span class="byline-item__byline_label">Text</span>
+    <span class="byline-item__name"><a href="/en/profile/malte-humpert">Malte Humpert</a></span>
+  </div>
+</div>              </div>
+      </div>
+</section>
+</div>
+          
+      <div class="field field--name-field-paragraphs field--type-entity-reference-revisions field--label-hidden field__items">
+              
+  <div class="text-paragraph contextual-region">
+    
+    
+    <div class="text-paragraph__text"><p><span><span><span><span><span><span>An ex-tropical storm, formed out of remnants of Pacific Typhoon Merbok, rapidly traveled across the Bering Sea before reaching coastal Alaska on Friday.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>The storm caused widespread flooding, power outages and damage to buildings, roads and other infrastructure. Damage reports include many communities along more than 1,600 km of coastline, including Hooper Bay, Nome, Unalakleet, and Shaktoolik in Western Alaska.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>In Nome, a town of 4000 people, water levels rose to 3-4 meters above normal and flooding was observed as far as 100 km inland from the coast, including the community of Bethel.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>The Nome-Council road, a vital 100 km highway connecting the two communities along the shore of the Bering Sea sustained major damage with large sections of the road flooded or completely destroyed.</span></span></span></span></span></span></p></div>
+  </div>
+  
+              
+
+
+        
+        
+  
+      <div class="paragraph paragraph--type--image paragraph--view-mode--default">
+              <figure>
+          
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--default field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image is-b-loading"><img alt="Nome-Council highway" title="Nome-Council highway and other coastal roads experienced significant damage. (Source: With permission by Jeremy Perkins)" class="media__image media__element b-lazy img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_image/public/2022-09/Nome%20counucli%20highway%20jeremy%20perkins.png?itok=9dxp4ppe" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" width="938" height="568" />
+        </div>
+        
+  
+</div>
+      
+                    
+  <div class="caption">
+              
+            <div class="clearfix text-formatted field field--name-field-caption field--type-text-long field--label-hidden field__item">Nome-Council highway and other coastal roads experienced significant damage. <em>(Source: With permission by Jeremy Perkins)</em></div>
+      
+      </div>
+        </figure>
+          </div>
+  
+              
+  <div class="text-paragraph contextual-region">
+    
+    
+    <div class="text-paragraph__text"><p><span><span><span><span><span><span>A number of communities along Western Alaska remain without power and airport runways, a vital line of transportation across many communities which do not have road connections, will have to be inspected or repaired before aid and assistance can arrive.</span></span></span></span></span></span></p></div>
+  </div>
+  
+              
+
+
+        
+        
+  
+      <div class="paragraph paragraph--type--image paragraph--view-mode--default">
+              <figure>
+          
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--default field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image is-b-loading"><img alt="nome airport" title="Nome runway and airport facilities were impacted by the flooding. (Source: With permission by Jeremy Perkins)" class="media__image media__element b-lazy img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_image/public/2022-09/Nome%20airport%20flooded%20jeremy%20perkins.png?itok=-Qy9ZKnK" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" width="938" height="582" />
+        </div>
+        
+  
+</div>
+      
+                    
+  <div class="caption">
+              
+            <div class="clearfix text-formatted field field--name-field-caption field--type-text-long field--label-hidden field__item">Nome runway and airport facilities were impacted by the flooding. <em>(Source: With permission by Jeremy Perkins)</em></div>
+      
+      </div>
+        </figure>
+          </div>
+  
+              
+  <div class="text-paragraph contextual-region">
+    
+    
+    <div class="text-paragraph__text"><h3><span><span><span><strong><span><span>Worst storm in 50 years</span></span></strong></span></span></span></h3>
+
+<p><span><span><span><span><span><span>According to meteorologists the remnants of Typhoon Merbok - the Pacific equivalent of an Atlantic hurricane - was the worst September storm to hit the state since the 1970s.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>“This dangerous storm produced water levels higher than any seen over at least 50 years,” forecasters at the Weather Service in Fairbanks, Alaska, wrote this weekend.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>Officials have only begun assessing the full extent of the damage while Alaska’s governor declared emergencies to activate state assistance for the affected communities.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>Nome experienced the highest level of storm surge in more than 50 years surpassing previous record-level flooding in 2011 and 1974. Hooper Bay around 400km further south received some of the worst damage with much of the community under several feet of water, according to local officials.</span></span></span></span></span></span></p></div>
+  </div>
+  
+              
+
+
+        
+        
+  
+      <div class="paragraph paragraph--type--image paragraph--view-mode--default">
+              <figure>
+          
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--default field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image is-b-loading"><img alt="Hooper Bay" title="Flooded street in Hooper Bay. (Source: With permission by Ervin Chayalkun)" class="media__image media__element b-lazy img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_image/public/2022-09/hooper%20bay%20flooding%20Ervin%20Chayalkun.png?itok=Fyw6ei1D" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" width="938" height="614" />
+        </div>
+        
+  
+</div>
+      
+                    
+  <div class="caption">
+              
+            <div class="clearfix text-formatted field field--name-field-caption field--type-text-long field--label-hidden field__item">Flooded street in Hooper Bay. <em>(Source: With permission by Ervin Chayalkun)</em></div>
+      
+      </div>
+        </figure>
+          </div>
+  
+              
+  <div class="text-paragraph contextual-region">
+    
+    
+    <div class="text-paragraph__text"><h3><span><span><span><span><span>Climate change multiplies the threat</span></span></span></span></span></h3>
+
+<p><span><span><span><span><span><span>While scientists continue to study the exact role climate change plays in increasing the severity of storms like these, increased sea surface temperature has been found to contribute to greater levels of moisture storms are able to suck up leading to more intense rainfall, flooding, and winds when storms reach land.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>A recent study had <span>identified Alaskan coastal communities as highly vulnerable</span> to the impact of weather and climate change impacts.</span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>The loss of sea ice in the region has also <span>rendered communities more vulnerable to coastal erosion</span> and flooding as ocean waves gnaw away at the shoreline which was previously protected by sea ice. In some areas coastlines have eroded by as much as 30 meters a year threatening or damaging infrastructure built in proximity to the ocean. </span></span></span></span></span></span></p>
+
+<p><span><span><span><span><span><span>The 2018 </span></span></span></span></span></span><a href="https://nca2018.globalchange.gov/chapter/26/ry" target="_blank" class="elf-external elf-icon" rel="nofollow"><span><span><span><span><span><span><span>National Climate Change Assessment</span></span></span></span></span></span></span></a><span><span><span><span><span><span> identified coastal communities as especially vulnerable to the effects of climate change. With longer ice-free seasons, melting of permafrost, and rising sea levels enhancing the threat from ocean flooding during storm events. This development has already </span></span></span></span></span></span><a href="https://www.thearcticinstitute.org/fighting-rising-tide-shaktoolik-alaska/" target="_blank" class="elf-external elf-icon" rel="nofollow"><span><span><span><span><span><span><span>forced entire communities to relocate</span></span></span></span></span></span></span></a><span><span><span><span><span><span> to new safer terrain. </span></span></span></span></span></span></p></div>
+  </div>
+  
+              
+
+
+        
+        
+  
+      <div class="paragraph paragraph--type--image paragraph--view-mode--default">
+              <figure>
+          
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--default field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image is-b-loading"><img alt="alaska map" title="Alaska Indigenous Communities at the Front Lines of Climate Change" class="media__image media__element b-lazy img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_image/public/2022-09/alaska%20storm%20map%20merbok.png?itok=DHUhI1sX" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" width="938" height="723" />
+        </div>
+        
+  
+</div>
+      
+                    
+  <div class="caption">
+              
+            <div class="clearfix text-formatted field field--name-field-caption field--type-text-long field--label-hidden field__item">Satellite image of Alaska with location of select western Alaskan communities the the state’s largest city, Anchorage, highlighted for reference. <em>(Source: Google Earth)</em></div>
+      
+      </div>
+        </figure>
+          </div>
+  
+              
+<section class="section section--separated">
+      <h2 class="section__title">
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Also read</div>
+      </h2>
+    <div class="section__contents">
+          <div class="listing--suggested-content row"><div class="listing--suggested-content__item col-sm-6">
+<article class="article--suggested-content row">
+  <div class="article--suggested-content__media col"><a href="/en/new-research-identifies-arctic-communities-most-risk-melting-permafrost">
+            <div class="field field--name-field-teaser-media field--type-entity-reference field--label-hidden field__item"><figure>
+      <div class="img-container" itemscope="" itemtype="http://schema.org/imageObject">
+      
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--teaser field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image media--responsive is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 851px)" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser/public/2021-11/satellite%20image%20risk.jpeg?h=2f83cd36&amp;itok=s88Lgpzu 1x"/>
+              <source srcset="" media="all and (min-width: 560px) and (max-width: 850px)" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser_tablet/public/2021-11/satellite%20image%20risk.jpeg?h=2f83cd36&amp;itok=DHObn_Ym 1x"/>
+              <source srcset="" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser_tablet/public/2021-11/satellite%20image%20risk.jpeg?h=2f83cd36&amp;itok=DHObn_Ym 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_teaser/public/2021-11/satellite%20image%20risk.jpeg?h=2f83cd36&amp;itok=s88Lgpzu" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" alt="Permafrost" title="Permafrost" />
+
+  </picture>
+        </div>
+        
+  
+</div>
+      
+    </div>
+            
+  </figure>
+</div>
+      </a></div>
+  
+  <h3 class="article--suggested-content__title col"><a href="/en/new-research-identifies-arctic-communities-most-risk-melting-permafrost">New Research Identifies Arctic Communities Most at Risk from Melting Permafrost</a></h3>
+  
+</article>
+</div><div class="listing--suggested-content__item col-sm-6">
+<article class="article--suggested-content row">
+  <div class="article--suggested-content__media col"><a href="/en/alaska-indigenous-communities-front-lines-climate-change">
+            <div class="field field--name-field-teaser-media field--type-entity-reference field--label-hidden field__item"><figure>
+      <div class="img-container" itemscope="" itemtype="http://schema.org/imageObject">
+      
+            <div class="blazy blazy--field blazy--field-image blazy--field-image--teaser field field--name-field-image field--type-image field--label-hidden field__item" data-blazy="">
+
+
+
+
+                  <div class="media media--blazy media--image media--responsive is-b-loading">  <picture>
+                  <source srcset="" media="all and (min-width: 851px)" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser/public/2018-12/image1-kivalina-hnn_10.12.18.jpg?h=50844e28&amp;itok=n5Hmeulr 1x"/>
+              <source srcset="" media="all and (min-width: 560px) and (max-width: 850px)" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser_tablet/public/2018-12/image1-kivalina-hnn_10.12.18.jpg?h=50844e28&amp;itok=fNex60HJ 1x"/>
+              <source srcset="" type="image/jpeg" data-srcset="/sites/default/files/styles/media_teaser_tablet/public/2018-12/image1-kivalina-hnn_10.12.18.jpg?h=50844e28&amp;itok=fNex60HJ 1x"/>
+                  <img class="media__image media__element b-lazy b-responsive img-fluid" decoding="async" loading="lazy" data-src="/sites/default/files/styles/media_teaser/public/2018-12/image1-kivalina-hnn_10.12.18.jpg?h=50844e28&amp;itok=n5Hmeulr" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%201%201&#039;%2F%3E" alt="The Alaskan village Kivalina is facing coastal erosion (Source: ShoreZone/Creative Commons)" title="The Alaskan village Kivalina is facing coastal erosion (Source: ShoreZone/Creative Commons)" />
+
+  </picture>
+        </div>
+        
+  
+</div>
+      
+    </div>
+            
+  </figure>
+</div>
+      </a></div>
+  
+  <h3 class="article--suggested-content__title col"><a href="/en/alaska-indigenous-communities-front-lines-climate-change">Alaska Indigenous Communities at the Front Lines of Climate Change </a></h3>
+  
+</article>
+</div></div>
+
+      </div>
+</section>
+
+          </div>
+  
+                                  
+
+
+
+<section class="section ">
+      <h2 class="section__title">Tags</h2>
+    <div class="section__contents">
+        <div class="tags">
+      <ul class="tags__items">
+                  <li class="tags__item">
+            <a href="/en/tag/alaska-9" class="tags__link">Alaska</a></li>
+                  <li class="tags__item">
+            <a href="/en/tag/climate-change-4" class="tags__link">Climate change</a></li>
+                  <li class="tags__item">
+            <a href="/en/tag/flooding" class="tags__link">flooding</a></li>
+                  <li class="tags__item">
+            <a href="/en/tag/coastal-erosion" class="tags__link">Coastal erosion</a></li>
+              </ul>
+    </div>
+    </div>
+</section>
+
+                      
+<section class="section social-icons--article-footer">
+      <h2 class="section__title">Share</h2>
+    <div class="section__contents">
+                        
+<div class="share-buttons share-buttons--below-article">
+  <div class="share-buttons__inner">
+    <div class="shariff" data-url="https://www.highnorthnews.com/en/historic-storm-causes-widespread-flooding-and-damage-along-west-alaska-coastline" data-mail-url="mailto:" data-theme="grey" data-services="twitter, facebook, mail" data-orientation="horizontal" data-lang="en"></div>
+  </div>
+</div>
+
+                </div>
+</section>
+                    
+        </div>
+                  <div class="article-two-column_sidebar col-md-4">
+            <div id="block-quicktabsmostpopularlatestarticles" class="block-region-article_sidebar block block-quicktabs block-quicktabs-blockmost-popular-latest-articles">
+  
+    
+      <div class="content">
+      <div class="quicktabs-wrapper" id="quicktabs-most_popular_latest_articles"><div class="item-list"><ul class="quicktabs-tabs" role="tablist"><li role="tab" aria-controls="quicktabs-tabpage-most_popular_latest_articles-0" aria-selected="true" id="quicktabs-tab-most_popular_latest_articles-0" tabIndex="-1" class="active popular" tabindex="0"><a href="/en/quicktabs/nojs/most_popular_latest_articles/0" class="quicktabs-loaded" data-quicktabs-tab-index="0">Popular</a></li><li role="tab" aria-controls="quicktabs-tabpage-most_popular_latest_articles-1" aria-selected="false" id="quicktabs-tab-most_popular_latest_articles-1" tabIndex="-1" class="latest"><a href="/en/quicktabs/nojs/most_popular_latest_articles/1" class="quicktabs-loaded" data-quicktabs-tab-index="1">Latest</a></li></ul></div><div class="quicktabs-main" id="quicktabs-container-most_popular_latest_articles"><div id="quicktabs-tabpage-most_popular_latest_articles-0" class="quicktabs-tabpage" role="tabpanel" aria-labelledby="quicktabs-tab-most_popular_latest_articles-0" tabindex="0">
+<div class="quicktabs-block-title"></div>
+<div><div class="views-element-container"><div class="view view-articles-list view-id-articles_list view-display-id-popular js-view-dom-id-0a5aad11bf769b0cd457775dbd2f8552a282eadb14c7e671f45271e1daa121ec">
+  
+    
+      
+  
+          </div>
+</div>
+</div>
+</div>
+<div id="quicktabs-tabpage-most_popular_latest_articles-1" class="quicktabs-tabpage quicktabs-hide" role="tabpanel" aria-labelledby="quicktabs-tab-most_popular_latest_articles-1" tabindex="0">
+<div class="quicktabs-block-title"></div>
+<div><div class="views-element-container"><div class="view view-articles-list view-id-articles_list view-display-id-latest js-view-dom-id-d4694ec65f3f260270b923c3c29d0def4361817da209f75abbf14a27cb7a043b">
+  
+    
+      
+      <div class="view-content">
+      <div class="listing--articles-list">
+  
+  <ol class="listing--articles-list__list">
+
+          <li class="listing--articles-list__item">  
+<article class="article--list">
+  
+  
+  <a href="/en/happy-summer-holiday-high-north-news" class="article--list__link">
+    <span class="article--list__link-hover"></span>
+    <h3 class="article--list__title">Happy Summer Holiday from High North News</h3>
+    <span class="article--list__date">Jul 02 2023 - 17:09</span>
+  </a>
+</article>
+</li>
+          <li class="listing--articles-list__item">  
+<article class="article--list">
+  
+  
+  <a href="/en/come-home-and-stay-home" class="article--list__link">
+    <span class="article--list__link-hover"></span>
+    <h3 class="article--list__title">"Come Home and Stay Home!"</h3>
+    <span class="article--list__date">Jun 30 2023 - 13:36</span>
+  </a>
+</article>
+</li>
+          <li class="listing--articles-list__item">  
+<article class="article--list">
+  
+  
+  <a href="/en/moddi-threading-musical-path-new-north" class="article--list__link">
+    <span class="article--list__link-hover"></span>
+    <h3 class="article--list__title">Moddi: Threading the Musical Path Into the New North</h3>
+    <span class="article--list__date">Jun 30 2023 - 13:22</span>
+  </a>
+</article>
+</li>
+          <li class="listing--articles-list__item">  
+<article class="article--list">
+  
+  
+  <a href="/en/new-lng-storage-hub-set-accelerate-flow-russian-gas-europe" class="article--list__link">
+    <span class="article--list__link-hover"></span>
+    <h3 class="article--list__title">New LNG Storage Hub Set to Accelerate Flow of Russian Gas to Europe</h3>
+    <span class="article--list__date">Jun 30 2023 - 09:22</span>
+  </a>
+</article>
+</li>
+    
+  </ol>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+    </div>
+  </div>
+
+<div  id="block-mailchimppopupblock" class="block-region-article_sidebar mailchimp-popup-block">
+  
+  
+  <h2 class="mailchimp-popup-block__title">Newsletter</h2>
+  <div class="mailchimp-popup-block__description">Stay on top, click here for our weekly newsletter:</div>
+  <button class="mailchimp-popup-block__button mailchimp-popup-block__trigger form-submit" onclick="window.open('https://pub.dialogapi.no/s/933da0e1-e718-4100-9026-0e31b53e2cbb')">Subscribe</button>
+</div>
+
+          </div>
+              </div>
+    </div>
+  </div>
+  <div class="article-two-column__footer">
+    
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+          </main>
+        </div>
+          </div>
+
+            
+<footer class="footer">
+      <div class="container">
+              <div class="row">
+          <div class="footer_branding col-md-4">
+            <a href="https://www.highnorthnews.com/en"><img src="/themes/custom/hnn_theme/logo-footer.png" alt="High North News Logo" title=""></a>
+          </div>
+          <div class="footer__top footer__textbox col">
+            <div id="block-footeraboutus" class="block-region-footer block block-block-content block-block-content18d12c89-9fd6-4aa6-be52-fd0d28c436d2">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>ABOUT US</strong></p>
+
+<p>High North News is an independent newspaper published by the High North Center at the Nord university. High North News follows the <a href="http://presse.no/Etisk-regelverk/Vaer-Varsom-plakaten" class="elf-external elf-icon" rel="nofollow">Norwegian Press Code of Ethics</a> and is edited according to the Association of Norwegian Editors – <a href="http://www.nored.no/Redaktoeransvar/Redaktoerplakaten/Redaktoerplakaten-paa-engelsk" class="elf-external elf-icon" rel="nofollow">Rights and Duties of the Editor</a>. High North News is not responsible for the content or opinions expressed on external web pages.</p></div>
+      
+    </div>
+  </div>
+
+          </div>
+        </div>
+      
+              <div class="footer__column-wrapper">
+          <div class="row">
+            <div class="footer__column--first col-md-4">
+              <div id="block-socialmedialinks-4" class="block-social-media-links block-region-footer_col_first block block-social-media-links-block">
+  
+    
+      <div class="content">
+      
+
+<ul class="social-media-links--platforms platforms inline horizontal">
+      <li>
+      <a class="social-media-link-icon--twitter" href="https://www.twitter.com/HighNorthNews"  >
+        <span class='fab fa-twitter fa-2x'></span>
+      </a>
+
+          </li>
+      <li>
+      <a class="social-media-link-icon--facebook" href="https://www.facebook.com/highnorthnews"  >
+        <span class='fab fa-facebook fa-2x'></span>
+      </a>
+
+          </li>
+  </ul>
+
+    </div>
+  </div>
+
+            </div>
+            <div class="footer__column--second footer__textbox col-md-3">
+              <div id="block-hnn-theme-footeraddress" class="block-region-footer_col_second block block-block-content block-block-content7070e6fe-a7cf-45ea-9a87-73216757f699">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>Postadresse:</strong></p>
+
+<p>High North News<br />
+Nord universitet<br />
+Postboks 1490<br />
+8049 Bodø<br />
+Norway</p></div>
+      
+    </div>
+  </div>
+
+            </div>
+            <div class="footer__column--third footer__textbox col-md-3">
+              <div id="block-hnn-theme-footerresponsiblepersons" class="block-region-footer_col_third block block-block-content block-block-content679d8093-aff6-46ea-97d9-fe54c47ae614">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>EDITOR IN CHIEF:</strong> </p>
+
+<p><a href="/profile/arne-o-holm">Arne O. Holm</a></p>
+
+<p><strong>E-MAIL:</strong></p>
+
+<p>arne.o.holm<a href="mailto:Hinn@nord.no" class="elf-mailto elf-icon">@nord.no</a></p></div>
+      
+    </div>
+  </div>
+
+            </div>
+            <div class="footer__column--fourth footer__textbox col-md-2">
+              <div id="block-footertelephone" class="block-region-footer_col_fourth block block-block-content block-block-content08cf5b12-344e-4d2b-9adc-8fe303f3e6da">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><strong>TELEPHONE:</strong></p>
+
+<p>(+ 47) 905 29472</p>
+
+<p><strong>E-MAIL EDITORIAL STAFF:</strong></p>
+
+<p>hinn@nord.no </p></div>
+      
+    </div>
+  </div>
+
+            </div>
+          </div>
+        </div>
+      
+              <div class="footer__bottom row justify-content-between">
+          <div id="block-hnn-theme-copyright" class="col-sm-8 col-md-2 pb-3 pb-sm-0 align-self-end block-region-footer_bottom block block-block-content block-block-contenta65bf90d-2cda-4ca4-b015-b25df4d943f7">
+  
+    
+      <div class="content">
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Copyright © 2018 High North News. All Rights Reserved.</p></div>
+      
+    </div>
+  </div>
+<div id="block-hnn-theme-poweredbyramsalt" class="col-sm-4 col-md-6 text-sm-right align-self-end block-region-footer_bottom block block-rm-branding block-ramsalt-powered-by-block">
+  
+    
+      <div class="content">
+      <span>Powered by <a href="https://ramsalt.com">Ramsalt Media</a></span>
+    </div>
+  </div>
+
+        </div>
+          </div>
+  </footer>
+    </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"en\/","currentPath":"node\/54686","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"blazy\/blazy,blazy\/classlist,blazy\/load,blazy\/polyfill,blazy\/promise,blazy\/raf,blazy\/webp,classy\/base,classy\/messages,core\/normalize,elf\/elf_css,elf\/elf_js,google_analytics\/google_analytics,hnn_theme\/footer,hnn_theme\/global,hnn_theme\/header,paragraphs\/drupal.paragraphs.unpublished,quicktabs\/quicktabs,rm_theme\/article,rm_theme\/article__header,rm_theme\/article__list,rm_theme\/article__suggested_content,rm_theme\/article_meta,rm_theme\/byline,rm_theme\/byline_item,rm_theme\/caption,rm_theme\/form_select,rm_theme\/form_text,rm_theme\/global,rm_theme\/intro_text,rm_theme\/language_switcher__flags,rm_theme\/mailchimp_popup_block,rm_theme\/menu,rm_theme\/profile,rm_theme\/section,rm_theme\/share_buttons,rm_theme\/tags,rm_theme\/text_paragraph,social_media_links\/fontawesome.component,social_media_links\/social_media_links.theme,system\/base,thunder_media\/gallery,views\/views.module","theme":"hnn_theme","theme_token":null},"ajaxTrustedUrl":{"\/en\/search":true},"google_analytics":{"trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"quicktabs":{"qt_most_popular_latest_articles":{"tabs":[{"title":"Popular","weight":0,"type":"block_content","content":{"view_content":{"options":{"vid":"articles_list","display":"default","args":""}},"node_content":{"options":{"nid":"","view_mode":"full","hide_title":true}},"block_content":{"options":{"bid":"views_block:articles_list-popular","block_title":"","display_title":false}},"qtabs_content":{"options":{"machine_name":""}}},"tab_page":0},{"title":"Latest","weight":0,"type":"block_content","content":{"view_content":{"options":{"vid":"articles_list","display":"default","args":""}},"node_content":{"options":{"nid":"","view_mode":"full","hide_title":true}},"block_content":{"options":{"bid":"views_block:articles_list-latest","block_title":"","display_title":false}},"qtabs_content":{"options":{"machine_name":""}}},"tab_page":1}]}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":null,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"user":{"uid":0,"permissionsHash":"f4f99fac0cb116b38b3284481b106974fc4082c8031689014a758cec1c1fc1a0"}}</script>
+<script src="/sites/default/files/js/js_yIImLtuF1DH3mREYl-uizTs4H6cARQT7sZLUx3U2YrY.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/reframe.js/3.0.2/reframe.min.js"></script>
+<script src="/sites/default/files/js/js__5KWErqxgkz70LzChfOrik0upBLHLHjK3ojWXhe9SlU.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="/sites/default/files/js/js_uWkNuIyXoHKK1pWJcODIvN1UDde9njeTTDguZqyxIVU.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"258a197b3e","applicationID":"180632083","transactionName":"YAEANhRWWUQHUEBQW1lLIwESXlhZSXdGTERWCD4MCVNSayVcWk1GWAgOBxRreVgCVmJQUUAnDQwSRVhbClZGFApBDQcV","queueTime":0,"applicationTime":419,"atts":"TEYDQFxMSko=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

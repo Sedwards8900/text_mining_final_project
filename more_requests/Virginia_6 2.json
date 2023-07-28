@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 55600000,
+        "search_time": 0.45,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:59.615Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Virginia+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_4) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.3 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_9n3axt8empn"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/local/high-winds-heavy-rains-from-michael-cause-school-delays-and-morning-commute-problems/2018/10/12/bccec5b4-ce05-11e8-a360-85875bac0b1f_story.html",
+            "display_link": "https://www.washingtonpost.com \u203a local \u203a 2018/10/12",
+            "title": "Five dead in Virginia from Hurricane Michael",
+            "description": "Gift Article. Share. The worst of Hurricane Michael's remnants were supposed to track south of tiny Charlotte County in southern Virginia, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 12, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2022/01/04/weather/winter-weather-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-weather-tuesday",
+            "title": "Virginia's I-95 reopens after winter storm strands drivers",
+            "description": "A 50-mile stretch of Interstate 95 in eastern Virginia reopened Tuesday night after a severe winter storm left some motorists stranded on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 5, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwjnm9SQ462AAxXIMlkFHWlUBFk4ERDm3gJ6BAgYEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.pahomepage.com/news/national/virginia-preps-for-more-bad-weather-amid-storm-of-questions/",
+            "display_link": "https://www.pahomepage.com \u203a news \u203a national \u203a vir...",
+            "title": "Virginia preps for more bad weather amid storm of questions",
+            "description": "(AP) \u2014 With more bad weather looming, Virginia officials sought to ... This is an archived article and the information in the article may be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "http://www.virginiaplaces.org/climate/4storms.html",
+            "display_link": "http://www.virginiaplaces.org \u203a climate \u203a 4storms",
+            "title": "Storms in Virginia",
+            "description": "However, a few frontal cyclones, such as Hurricane Camille, can migrate all the way north from the Gulf of Mexico before drenching Virginia. Such storms can ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwjnm9SQ462AAxXIMlkFHWlUBFk4ERDm3gJ6BAgNEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.novec.com/About_NOVEC/Virginias-Historic-Snowstorms.cfm",
+            "display_link": "https://www.novec.com \u203a About_NOVEC \u203a Virginias-...",
+            "title": "Virginia's Historic Snowstorms",
+            "description": "In the Mid-Atlantic, weather stations recorded their lowest pressure ever when the storm's center passed. Blizzard conditions in portions of Northern Virginia ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/01/04/storm-strands-hundreds-overnight-on-virginia-highway/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/01/04 \u203a storm-...",
+            "title": "Storm strands hundreds overnight on Virginia highway",
+            "description": "What is article sharing? Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 4, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.virginia.org/plan-your-trip/seasons-and-climate/",
+            "display_link": "https://www.virginia.org \u203a plan-your-trip \u203a seasons-an...",
+            "title": "Seasons & Climate - Virginia Weather",
+            "description": "Virginia's weather has been described as a \"Goldilocks Climate\" \u2013 not too hot and not too cold \u2013 and is officially considered a humid, subtropical region ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/virginia/articles/2023-05-01/virginia-beach-struck-by-tornado-dozens-of-homes-damaged",
+            "display_link": "https://www.usnews.com \u203a News \u203a Science News",
+            "title": "Tornadoes in Virginia and Florida, Flooding in Other States",
+            "description": "Officials are assessing tornado damage after a storm tore through Virginia Beach on Sunday, wrecking homes, downing trees and causing gas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/List_of_storms_named_Virginia",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_storms_name...",
+            "title": "List of storms named Virginia",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The name Virginia has been used for eight tropical cyclones in the Western Pacific Ocean.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://va.ng.mil/News/Article/2495497/virginia-national-guard-staged-ready-for-possible-response-to-hurricane-dorian/",
+            "display_link": "https://va.ng.mil \u203a News \u203a Article \u203a virginia-national-g...",
+            "title": "Virginia National Guard staged, ready for possible response to ...",
+            "description": "The VNG also has two rotary wing aviation rescue hoist crews on standby. \u201cWhether we are mobilizing 60 Soldiers in two key locations for possible Hurricane ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

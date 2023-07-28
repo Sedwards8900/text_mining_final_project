@@ -1,0 +1,252 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29900000,
+        "search_time": 0.84,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kentucky storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:06.653Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kentucky+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_zs0xo6aqkjq"
+    },
+    "organic": [
+        {
+            "link": "https://www.wlwt.com/article/kentucky-severe-weather-threat-storms-tornado-beshear/43176558",
+            "display_link": "https://www.wlwt.com \u203a article \u203a kentucky-severe-wea...",
+            "title": "Kentucky Gov. Beshear issues state of emergency ahead ...",
+            "description": "\"Kentucky is facing dangerous weather, with severe storms, damaging winds and the possibility of tornadoes and flooding. I want to make sure we ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.newsweek.com/photos-show-aftermath-deadly-kentucky-storm-over-400k-lost-power-1785538",
+            "display_link": "https://www.newsweek.com \u203a photos-show-aftermath-...",
+            "title": "Photos Show Aftermath of Deadly Kentucky Storm as Over ...",
+            "description": "Lexington and the central Kentucky region experienced severe weather on Friday afternoon as high-speed winds and two tornadoes swept through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.richmondregister.com/kentucky/nearly-17-000-without-power-reports-of-nonfunctioning-emergency-alarms-following-severe-storm/article_c9c1f518-13db-11ee-8405-a72efa754788.html",
+            "display_link": "https://www.richmondregister.com \u203a kentucky \u203a article_c...",
+            "title": "Nearly 17000 without power, reports of nonfunctioning ...",
+            "description": "The storm blew across Kentucky, causing nearly 100,000 homes across the Bluegrass to lose power. Residents reported large hail and property ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnbc.com/2021/12/13/kentucky-tornadoes-governor-says-64-are-dead-cost-of-recovery-unknown.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/12/13 \u203a kentucky-tornado...",
+            "title": "Kentucky tornadoes: 74 confirmed dead, Biden to visit ...",
+            "description": "People embrace as tornado damage is seen after extreme weather hit the region December 12, 2021, in Mayfield, Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 13, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://data.courier-journal.com/rolling-storm-damage-report/",
+            "display_link": "https://data.courier-journal.com \u203a rolling-storm-damag...",
+            "title": "Rolling storm damage reports in Kentucky",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Date/Time",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Scale*",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Location",
+                                "rank": 3
+                            },
+                            {
+                                "text": "County, State",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 9:10 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "UNK",
+                                "rank": 2
+                            },
+                            {
+                                "text": "1 NW Libertyville",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Lake County, IL",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 9:04 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "UNK",
+                                "rank": 2
+                            },
+                            {
+                                "text": "2 NW Hawthorn Woods",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Lake County, IL",
+                                "rank": 4
+                            }
+                        ],
+                        [
+                            {
+                                "text": "July 26, 2023 9:01 a.m. CDT",
+                                "rank": 1
+                            },
+                            {
+                                "text": "UNK",
+                                "rank": 2
+                            },
+                            {
+                                "text": "2 SE Wauconda",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Lake County, IL",
+                                "rank": 4
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://news.yahoo.com/more-bad-weather-projected-kentucky-124456636.html",
+            "display_link": "https://news.yahoo.com \u203a more-bad-weather-projected...",
+            "title": "More bad weather projected as Kentucky communities ...",
+            "description": "Torrential rainfall and damaging winds are expected to be the main hazards in a storm system taking aim at Kentucky.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wowktv.com/news/local/kentucky-under-state-of-emergency-for-severe-storms/",
+            "display_link": "https://www.wowktv.com \u203a news \u203a local \u203a kentucky-u...",
+            "title": "Kentucky under state of emergency for severe storms",
+            "description": "Kentucky Governor Andy Beshear has declared a State of Emergency in the Bluegrass State as severe storms begin Friday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wsiltv.com/news/kentucky/severe-storms-cause-damage-throughout-western-kentucky-southern-illinois/article_4adf300e-d3ed-11ed-aca0-a794caa61b04.html",
+            "display_link": "https://www.wsiltv.com \u203a news \u203a kentucky \u203a article_4adf...",
+            "title": "Severe storms cause damage throughout Western ...",
+            "description": "MURRAY, Ky. -- Communities in multiple western Kentucky counties received damage after storms swept through the area Wednesday afternoon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.lpm.org/investigate/2021-12-17/in-western-kentucky-tornadoes-are-frequent-and-put-billions-at-risk",
+            "display_link": "https://www.lpm.org \u203a investigate \u203a in-western-kentuc...",
+            "title": "In western Kentucky, tornadoes are frequent",
+            "description": "The threat is especially high in the counties in the path of last week's deadly tornado front: Fulton, Hickman, Graves, Marshall, Lyon, Caldwell ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://whnt.com/news/kentucky-death-toll-likely-70-100-lost-lives-after-tornado-gov-beshear-says/",
+            "display_link": "https://whnt.com \u203a news \u203a kentucky-death-toll-likely-...",
+            "title": "Kentucky tornado death toll likely '70-100 lost lives,' Gov. ...",
+            "description": "Kentucky tornado death toll likely '70-100 lost lives,' Gov. Beshear says ... This is an archived article and the information in the article may ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 11, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 84600000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:39:35.484Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_wn5ggh1yar"
+    },
+    "organic": [
+        {
+            "link": "https://dep.nj.gov/sandy-10/",
+            "display_link": "https://dep.nj.gov \u203a sandy-10",
+            "title": "Remembering Superstorm Sandy | Home - NJDEP",
+            "description": "New Jersey is experiencing more extreme weather because of climate change. Ten years ago, Superstorm Sandy devastated the East Coast. The ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 26, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwj6sIjK4K2AAxXLAzQIHYU5BNc4ERDm3gJ6BAgdEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.northjersey.com/story/news/new-jersey/2021/09/02/storm-ida-2021-deadliest-storms-hit-new-jersey/5704497001/",
+            "display_link": "https://www.northjersey.com \u203a new-jersey \u203a 2021/09/02",
+            "title": "Hurricane Ida one of deadliest storms to hit New Jersey",
+            "description": "Twenty-three deaths in Tropical Storm Ida makes it one of the deadliest in New Jersey history.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 2, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.fox29.com/news/cleanup-underway-after-severe-storms-sweep-through-south-jersey",
+            "display_link": "https://www.fox29.com \u203a news \u203a cleanup-underway-afte...",
+            "title": "Cleanup underway, roads closed after severe storms ...",
+            "description": "MARLTON, N.J. - Cleanup is underway in parts of Southern New Jersey after damaging storms swept through the area on Tuesday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwj6sIjK4K2AAxXLAzQIHYU5BNc4ERDm3gJ6BAgeEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://nj1015.com/nj-storm-update-thursday-we-get-soaked-friday-we-freeze/",
+            "display_link": "https://nj1015.com \u203a nj-storm-update-thursday-we-get...",
+            "title": "NJ storm update: Thursday we get soaked, Friday we freeze",
+            "description": "A powerful storm system will impact New Jersey through one of the busiest travel periods of the year, leading up to Christmas. It is NOT a \"snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/new-jersey/trenton",
+            "display_link": "https://www.theweathernetwork.com \u203a trenton",
+            "title": "3-Day Severe Weather Outlook: Trenton, New Jersey",
+            "description": "Trenton, NJ. The Severe Weather Outlook helps you prepare for significant weather, such as an upcoming storm, that could result in weather warnings or ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.weathernj.com/",
+            "display_link": "https://www.weathernj.com",
+            "title": "WeatherNJ.com | All Weather. All New Jersey.\u2122",
+            "description": "It is our great honor to provide a Weather NJ Special Event Forecast for the 8th annual 2019 Operation Halloween... Read More. 1 2 3 \u2026",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.mcall.com/2023/02/22/new-jersey-storms-tornado-warning/",
+            "display_link": "https://www.mcall.com \u203a 2023/02/22 \u203a new-jersey-sto...",
+            "title": "Storms ravage New Jersey after rare winter tornado warning",
+            "description": "February 22, 2023 at 9:00 a.m.. Loading your audio article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://kennedyslaw.com/en/thought-leadership/article/nj-supreme-court-adopts-the-ongoing-storm-rule-with-two-notable-exceptions/",
+            "display_link": "https://kennedyslaw.com \u203a thought-leadership \u203a article",
+            "title": "NJ Supreme Court adopts the \"Ongoing Storm Rule\" with ...",
+            "description": "A recent decision by the Supreme Court of New Jersey has clarified the duty of commercial landowners to clear ice and snow from their ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/new-jersey/ash-wednesday-storm-nj/",
+            "display_link": "https://www.onlyinyourstate.com \u203a new-jersey \u203a ash-w...",
+            "title": "A Terrifying, Deadly Storm Struck New Jersey In 1962 ...",
+            "description": "This deadly, devastating storm wreaked havoc along much of the New Jersey coast, destroying over 45000 homes and leading to several deaths.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 4, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

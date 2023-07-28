@@ -1,0 +1,153 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 310000000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Washington storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:37.688Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Washington+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_u497nhd61"
+    },
+    "organic": [
+        {
+            "link": "https://en.wikipedia.org/wiki/Pacific_Northwest_windstorm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Pacific_Northwest_wi...",
+            "title": "Pacific Northwest windstorm",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. Pacific Northwest windstorms, sometimes colloquially known as Big Blows, are extratropical ... Hanukkah Eve windstorm of 2006 off the Washington Coast on December 15, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weather.gov/safety/winter-noreaster",
+            "display_link": "https://www.weather.gov \u203a safety \u203a winter-noreaster",
+            "title": "What is a Nor'easter?",
+            "description": "Weather forecasters at NWS local forecast offices around the country and at the National Centers for Environmental Prediction near Washington, D.C., ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/5/1520-0493_1931_59_195_gdsiwa_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre \u203a 1...",
+            "title": "GREAT DUST STORM IN WASHINGTON AND OREGON ...",
+            "description": "Abstract SYNOPSIS A considerable part of Washington and Oregon experienced on April 21\u201324, 1931, an extraordinary dust storm borne on strong northeast winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DC CAMERON",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 8",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcwashington.com/weather/current_forecast_dc/91018/",
+            "display_link": "https://www.nbcwashington.com \u203a current_forecast_dc",
+            "title": "Storm Team4 Forecast: Stretch of very hot, humid days arrive",
+            "description": "Here's the forecast and latest weather for D.C., Maryland and Virginia. By Storm Team4 and NBC Washington Staff \u2022 Published June 2, 2023 \u2022 Updated 28 mins ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.climate.washington.edu/stormking/October1962.html",
+            "display_link": "https://www.climate.washington.edu \u203a October1962",
+            "title": "1962 Columbus Day Storm AKA Terrible Tempest of the 12th",
+            "description": "Harper (see articles, below). This is a very accessable account of the storm's progress through California, Oregon, Washington and British Columbia. 2) Lucia, ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://abcnews.go.com/US/storm-spawned-tornado-washington-state-now-moving-eastern/story?id=59903884",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Storm that spawned tornado in Washington state now moving ...",
+            "description": "A major storm is now moving out of the Northwest, but not before spinning up a tornado west of Seattle, delivering damaging winds of nearly ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wusa9.com/article/weather/severe-storms-dmv-hail-wind-severe-storm-watch-warning/65-84ff3884-550b-403a-9071-057a939c4a47",
+            "display_link": "https://www.wusa9.com \u203a article \u203a weather \u203a severe-st...",
+            "title": "Timeline: When to expect storms tonight",
+            "description": "Severe storms with gusty winds, hail, severe weather, ... WASHINGTON \u2014 A Severe Thunderstorm Watch has been issued for metro DC and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-64733809",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-64733809",
+            "title": "Winter storm: North America hit by blizzards and heat wave",
+            "description": "Meanwhile, high temperatures in Washington DC are expected to break a nearly ... This article contains content provided by Twitter.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxnews.com/us/us-braces-arctic-christmas-weather-winter-storm-warning-issued-washington",
+            "display_link": "https://www.foxnews.com \u203a us-braces-arctic-christmas...",
+            "title": "US braces for Arctic Christmas weather; winter storm ...",
+            "description": "Check out what's clicking on Foxnews.com. A winter storm warning was issued Monday in Seattle and Western Washington as the rest of the country ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

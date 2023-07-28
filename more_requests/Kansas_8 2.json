@@ -1,0 +1,139 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 19000000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:38.209Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_sm7k1bg20sn"
+    },
+    "organic": [
+        {
+            "link": "https://fox4kc.com/weather/best-worst-times-for-holiday-travel-during-kansas-city-area-winter-storm/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a best-worst-times-for-h...",
+            "title": "Kansas City weather: Best, worst times for travel during storm",
+            "description": "This is an archived article and the information in the article may be ... Chill Warning and a Winter Storm Watch for the Kansas City area.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://finance.yahoo.com/news/storm-producing-strong-winds-damaging-130342403.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a storm-producing-s...",
+            "title": "Storm producing strong winds, damaging hail could hit ...",
+            "description": "Kansas City Star McClatchy Articles. Kansas City Star McClatchy Articles. Car plunges off I-435 overpass during Kansas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/07/02/unpredicted-tornado-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/07/02 \u203a unpr...",
+            "title": "Southwestern Kansas sees tornado after forecast for no ...",
+            "description": "There was a zero percent chance of rain or severe storms. Then a tornado touched down. Meteorologists say the Kansas storm was completely ' ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://kids.nationalgeographic.com/science/article/tornado",
+            "display_link": "https://kids.nationalgeographic.com \u203a article \u203a tornado",
+            "title": "Tornadoes",
+            "description": "Though the storms can happen at any time of the year, tornado season in Texas, Oklahoma, and Kansas occurs in May through early June.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/twisters-return-kansas-oklahoma-more-severe-weather-tap",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a twisters-retur...",
+            "title": "Twisters Return to Kansas, Oklahoma; More Severe ...",
+            "description": "Twisters Return to Kansas, Oklahoma; More Severe Weather on Tap. Bob Henson \u00b7 May 2, 2018, 10:13 AM EDT. article image ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/kansas/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "Kansas \u2014 Weather",
+            "description": "It suffers from extreme weather conditions in both summer and winter, with yearly temperatures ranging from 17\u00b0F in January to 90\u00b0F in July. Heavy rains, ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nssl.noaa.gov/education/svrwx101/tornadoes/",
+            "display_link": "https://www.nssl.noaa.gov \u203a svrwx101 \u203a tornadoes",
+            "title": "Severe Weather 101: Tornado Basics",
+            "description": "Basic information about tornadoes, from the NOAA National Severe Storms Laboratory. ... Texas, Oklahoma, and Kansas) is from May into early June.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.jstor.org/stable/3626989",
+            "display_link": "https://www.jstor.org \u203a stable",
+            "title": "Bibliography of Kansas Meteorology: Severe Local Storms",
+            "description": "This type of search brings to light articles that would other- ... Electrical storms in Kansas: Monthly Weather Review, v. 26, p. 216.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DH Lokke",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1961",
+                    "rank": 2
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.kshs.org/p/kansas-historical-quarterly-dust-storms-part-one-1850-1860/13024",
+            "display_link": "https://www.kshs.org \u203a ... \u203a Kansas Historical Quarterly",
+            "title": "Dust Storms: Part One, 1850-1860",
+            "description": "It is not the purpose of this article to discuss these theories or to pass judgment upon their validity, only to describe historically something of the ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.kctv5.com/",
+            "display_link": "https://www.kctv5.com",
+            "title": "KCTV | Kansas Local News, Weather, Sports | Fairway, KS",
+            "description": "KCTV | Kansas Local News, Weather, Sports | Fairway, KS.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

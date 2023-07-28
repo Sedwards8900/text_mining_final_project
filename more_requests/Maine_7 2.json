@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31300000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:31:21.630Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_d1ccjx7n8v7"
+    },
+    "organic": [
+        {
+            "link": "https://www.centralmaine.com/2023/05/23/commentary-the-climate-crisis-is-maines-storm-of-the-century/",
+            "display_link": "https://www.centralmaine.com \u203a 2023/05/23 \u203a commenta...",
+            "title": "Commentary: The climate crisis is Maine's storm of the century",
+            "description": "An error has occurred. Please try again. Send! ... With a Press Herald subscription, you can gift 5 articles each month. ... It looks like you do ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.yahoo.com/lifestyle/massive-winter-storm-unload-snow-182008039.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a massive-winter-st...",
+            "title": "Massive winter storm to unload snow from Illinois to Maine",
+            "description": "A dynamic cross-country storm has unleashed a slew of problems as it sweeps from the South Central states to the Midwest late this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://patch.com/maine/across-me/bomb-cyclone-bring-heavy-snow-rain-maine-weekend",
+            "display_link": "https://patch.com \u203a maine \u203a across-me \u203a bomb-cyclon...",
+            "title": "'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow",
+            "description": "Maine Weather: 'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow - Across Maine, ME - A winter storm warning is in effect from 5 a.m. ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://92moose.fm/heres-how-much-snow-central-maine-is-going-to-get-from-this-noreaster/",
+            "display_link": "https://92moose.fm \u203a heres-how-much-snow-central-...",
+            "title": "Here's How Much Snow Central Maine is Going to Get ...",
+            "description": "As far as the winter storm warning goes, Central Maine will remain ... Sorry for saying 'bitch' in an article about snow accumulations.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-02-21-winter-storm-olive-why-so-expansive",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Winter Storm Olive Is A Big Snowstorm. Here's Why.",
+            "description": "Article image. S\u200bo why is this storm so big? February winter storms like Olive typically occupy a lot of real estate because cold air is usually plentiful ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://weather.com/news/news/2020-04-12-maine-power-outages-wind-snowstorm-outages",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2020-04-12-mai...",
+            "title": "Tens of Thousands in Maine Still Without Electricity After ...",
+            "description": "A potent April snowstorm packing heavy, wet snow knocked out power to more than 250000 people in Maine. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsj.com/articles/major-winter-storm-brings-outages-canceled-flights-and-heavy-snow-c2ae1747",
+            "display_link": "https://www.wsj.com \u203a articles \u203a major-winter-storm-brin...",
+            "title": "Winter Storm Brings Heavy Snow, Ice From California ...",
+            "description": "Winter Storm Brings Heavy Snow, Ice From California to Maine, Grounding More ... \u2014Alison Sider and Talal Ansari contributed to this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.npr.org/2023/03/14/1163334629/noreaster-storm-snow-new-england-outages",
+            "display_link": "https://www.npr.org \u203a 2023/03/14 \u203a noreaster-storm-sno...",
+            "title": "Nor'easter dumps snow on New York, Massachusetts ...",
+            "description": "The storm is dropping massive amounts of snow less than a week before the ... Massachusetts, New Hampshire, Vermont, Maine, Connecticut and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.penbaypilot.com/article/federal-government-says-no-disaster-funds-maine-following-ice-storm-2013/30669",
+            "display_link": "https://www.penbaypilot.com \u203a article \u203a federal-gover...",
+            "title": "Federal government says no disaster funds for Maine ...",
+            "description": "Remember the December 2013 ice storm? When approximately 500000 Maine residents were without power, many for at least a week?",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2014",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://digitalcommons.library.umaine.edu/cgi/viewcontent.cgi?article=1005&context=cie_facpub",
+            "display_link": "https://digitalcommons.library.umaine.edu \u203a cgi",
+            "title": "DigitalCommons@UMaine - The University of Maine",
+            "description": "In this paper, we present observations from another recent windstorm which created inland storm surges in Maine. We improve on the analysis of SP19 by including ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by P Spicer",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 5",
+                    "rank": 3
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

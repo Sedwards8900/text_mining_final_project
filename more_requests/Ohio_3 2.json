@@ -1,0 +1,187 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31500000,
+        "search_time": 0.59,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Ohio storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:42:31.270Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Ohio+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.5 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_wdtwiilnui"
+    },
+    "organic": [
+        {
+            "link": "https://www.daytondailynews.com/news/the-most-destructive-storms-ohio-history-here-are-their-stories/1DF4WmGmPMWfnEshl5yZBI/",
+            "display_link": "https://www.daytondailynews.com \u203a news \u203a the-most-...",
+            "title": "5 of the most destructive storms in Ohio history",
+            "description": "More than 1000 tornadoes have touched down in Ohio since 1950, ... An F5 tornado in Xenia, with winds estimated between 261 and 318 mph, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 16, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/6/1520-0493_1931_59_241b_tcosj_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre",
+            "title": "THE CLEVELAND, OHIO, STORM, JUNE 26, 1931 in",
+            "description": "Previous Article \u00b7 Next Article. Editorial Type: Article. Article Type: Research Article. THE CLEVELAND, OHIO, STORM, JUNE 26, 1931. G. HAROLD NOYES.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by GH NOYES",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-64401720",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-64401720",
+            "title": "Ohio busts snowfall record as winter storm moves north",
+            "description": "The National Weather Service issued multiple tornado warnings on Wednesday, as the storm moved across north-west Florida and southern Georgia.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/06/25/ohio-valley-severe-weather-tornadoes/70355151007/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/06/25 \u203a oh...",
+            "title": "US severe weather: 'Notable risk for tornadoes' in Ohio Valley",
+            "description": "Destructive hail and scattered damaging winds are the primary threats but numerous tornado watches were issued in parts of the Ohio Valley.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/ohio-storms-bd187beb9c824142b7e4247beddcecfd",
+            "display_link": "https://apnews.com \u203a article \u203a ohio-storms-bd187beb9...",
+            "title": "Weekend storm could pelt Northeast Ohio with significant ...",
+            "description": "CLEVELAND, Ohio \u2013 The next round of winter storms are headed for Northeast Ohio, loaded with significant snow -- and a glazing of ice -- Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.news5cleveland.com/weather/weather-news/tracking-the-tropics-will-tropical-storm-nicole-impact-northeast-ohio",
+            "display_link": "https://www.news5cleveland.com \u203a weather-news \u203a tra...",
+            "title": "The Remnants of Hurricane Nicole will bring tropical ...",
+            "description": "Tracking the tropics: Tropical Storm Nicole is moving inland. News 5's Katie McGraw discusses potential impacts for Northeast Ohio.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.kulr8.com/news/national/us-severe-storms-hit-northeast-ohio-tornado-warning-issued/video_bd377566-4323-5d81-aa11-d5dae0d47ad6.html",
+            "display_link": "https://www.kulr8.com \u203a news \u203a national \u203a us-severe-stor...",
+            "title": "US: Severe Storms Hit Northeast Ohio, Tornado Warning ...",
+            "description": "Strong storms hit Northeast Ohio on Thursday, July 20. Tornado Warning and Severe Thunderstorm Warning were issued across the are.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cleveland.com/weather/2023/06/northeast-ohio-will-get-hit-with-severe-storms-sunday-long-periods-of-rain-through-tuesday-as-storms-make-way-from-upper-midwest-to-northeast-meteorologists-say.html",
+            "display_link": "https://www.cleveland.com \u203a weather \u203a 2023/06 \u203a northe...",
+            "title": "Northeast Ohio will get hit with severe storms Sunday, long ...",
+            "description": "CLEVELAND, Ohio -- Northeast Ohio will be under a threat of severe weather from Sunday afternoon to Sunday night, followed by a prolonged ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nytimes.com/2019/05/28/us/ohio-tornadoes-dayton.html",
+            "display_link": "https://www.nytimes.com \u203a 2019/05/28 \u203a ohio-tornadoes...",
+            "title": "Tornadoes Rip Through Ohio, Killing at Least 1",
+            "description": "Give this article. Read in app. Storm damage on Tuesday in Brookville, Ohio, northwest of Dayton.Credit...John Minchillo/Associated Press.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 28, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://spectrumnews1.com/oh/columbus/weather/2023/07/25/threat-for-severe-weather-returns-wednesday",
+            "display_link": "https://spectrumnews1.com \u203a weather \u203a 2023/07/25 \u203a t...",
+            "title": "The threat for severe weather returns on Wednesday",
+            "description": "The Storm Prediction Center (SPC) has put most of Ohio under some ... the latest weather updates, and keep up with this article for the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

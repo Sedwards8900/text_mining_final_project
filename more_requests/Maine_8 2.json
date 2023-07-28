@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 25700000,
+        "search_time": 0.5,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:31:24.907Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.1 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_3lv0rw8gixt"
+    },
+    "organic": [
+        {
+            "link": "https://92moose.fm/heres-how-much-snow-central-maine-is-going-to-get-from-this-noreaster/",
+            "display_link": "https://92moose.fm \u203a heres-how-much-snow-central-...",
+            "title": "Here's How Much Snow Central Maine is Going to Get ...",
+            "description": "As far as the winter storm warning goes, Central Maine will remain ... Sorry for saying 'bitch' in an article about snow accumulations.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://pubs.usgs.gov/pp/1087/report.pdf",
+            "display_link": "https://pubs.usgs.gov \u203a report",
+            "title": "MAINE COASTAL STORM AND FLOOD OF FEBRUARY 2, ...",
+            "description": "(Geological Survey professional paper ; 1087). Bibliography: p. 1. Bangor, Me. Flood, 1976. 2. Bangor, Me. Storm, 1976. 3. Storm surges Maine Bangor.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsj.com/articles/major-winter-storm-brings-outages-canceled-flights-and-heavy-snow-c2ae1747",
+            "display_link": "https://www.wsj.com \u203a articles \u203a major-winter-storm-brin...",
+            "title": "Winter Storm Brings Heavy Snow, Ice From California ...",
+            "description": "Winter Storm Brings Heavy Snow, Ice From California to Maine, Grounding More ... \u2014Alison Sider and Talal Ansari contributed to this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://digitalcommons.library.umaine.edu/cgi/viewcontent.cgi?article=1005&context=cie_facpub",
+            "display_link": "https://digitalcommons.library.umaine.edu \u203a cgi",
+            "title": "DigitalCommons@UMaine - The University of Maine",
+            "description": "In this paper, we present observations from another recent windstorm which created inland storm surges in Maine. We improve on the analysis of SP19 by including ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by P Spicer",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2021",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 5",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.newsbreak.com/sebago-me/3071032038307-storms-take-down-wires-wash-out-roads-in-parts-of-maine",
+            "display_link": "https://www.newsbreak.com \u203a Sebago, ME",
+            "title": "Storms take down wires, wash out roads in parts of Maine",
+            "description": "Local Maine State. First responders prepare for more potential flooding in western Maine \u00b7 Fryeburg, ME2 hours ago. article cover.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nbcboston.com/weather/winter-storm-warnings-issued-as-late-week-storm-moves-in/2920041/",
+            "display_link": "https://www.nbcboston.com \u203a weather \u203a winter-storm-...",
+            "title": "Winter Storm Warnings Issued As Late Week Storm Moves In",
+            "description": "Western Mass., Vermont, New Hampshire & Maine will see accumulating to plowable snow from a storm moving in late week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 14, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://themainemonitor.org/storms-expected-to-become-more-frequent-damaging-as-sea-levels-rise/",
+            "display_link": "https://themainemonitor.org \u203a storms-expected-to-bec...",
+            "title": "Maine storms likely to be more frequent, damaging",
+            "description": "As sea levels continue to rise, Maine will see worse damage more frequently, largely from storms. Storm surge in Camden pushed water onto public ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.ncei.noaa.gov/news/1993-snow-storm-of-the-century",
+            "display_link": "https://www.ncei.noaa.gov \u203a news \u203a 1993-snow-storm...",
+            "title": "On This Day: The 1993 Storm of the Century | News",
+            "description": "In March 1993, the Storm of the Century struck the U.S. East Coast, ... From Florida to Maine, nearly 10 million people and businesses lost electricity.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://texmex.mit.edu/pub/emanuel/Powerpoint/Maine%20Hurricanes_Wells_Reserve.pdf",
+            "display_link": "https://texmex.mit.edu \u203a emanuel \u203a Powerpoint",
+            "title": "Hurricanes in Maine: Past, Present, & Future",
+            "description": "Landfall near Eastport as a Category 2 hurricane\u2026probably strongest hurricane to strike Maine in recorded history. Page 23. Two deaths in Maine from ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.penbaypilot.com/article/winter-storm-closes-maine-state-offices-thursday-closes-delays-knox-county-organizati/170944",
+            "display_link": "https://www.penbaypilot.com \u203a article \u203a winter-storm-...",
+            "title": "Winter storm closes Maine State offices Thursday",
+            "description": "The National Weather Service has forecast that southern and western Maine could see up to a foot of snow, with areas of eastern Maine and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

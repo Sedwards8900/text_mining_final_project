@@ -1,0 +1,183 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 31300000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:30:58.292Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_xzud5dnld98"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2020/12/05/us/winter-storm-noreaster.html",
+            "display_link": "https://www.nytimes.com \u203a winter-storm-noreaster",
+            "title": "Than 90000 Without Power After New England Winter Storm",
+            "description": "Around 85,000 customers in Maine alone still don't have electricity after a nor'easter brought high winds and heavy snow. Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/millions-us-winter-alerts-cities-california-maine-brace-snow-rcna71563",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a millions-u...",
+            "title": "Millions across U.S. under winter alerts as cities from ...",
+            "description": "Millions across U.S. under winter alerts as cities from California to Maine brace for snow \u00b7 Sprawling U.S. winter storm system set to slam ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.mainebiz.biz/article/pre-christmas-storm-wreaks-havoc-on-travel-and-business-in-maine",
+            "display_link": "https://www.mainebiz.biz \u203a article \u203a pre-christmas-stor...",
+            "title": "Pre-Christmas storm wreaks havoc on travel and business ...",
+            "description": "Flooded roads, high winds and rain caused disruptions throughout Maine, as winter storm Elliott barreled up the East Coast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://wgme.com/news/local/powerful-storm-set-to-pack-a-punch-in-maine-thursday-friday-rain-strong-winds-flooding-storms-scattered-power-outages-warning-new-england-mpactful-weather-storms-cloudy-skies-winds-wind-gusts-storm-system-showers-10-13-2022",
+            "display_link": "https://wgme.com \u203a news \u203a local \u203a powerful-storm-set...",
+            "title": "Powerful Storm Set to Pack a Punch in Maine",
+            "description": "PORTLAND (WGME)--- A powerful storm system will bring a long stretch of heavy rain and strong winds to Maine, which will lead to flooding in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/21/weather/winter-storm-us-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-tuesday",
+            "title": "Winter storm set to impact millions stretching from the West ...",
+            "description": "A massive winter storm bringing a mix of heavy snow, rain and gusty winds ... stretching from the West Coast all the way to Maine this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.bangordailynews.com/2023/05/01/weather/maine-spring-storm-flooding-winds/",
+            "display_link": "https://www.bangordailynews.com \u203a News",
+            "title": "Spring storm hits Maine island with 70 mph gusts",
+            "description": "A storm with heavy rain and gusts knocked out power for tens of thousands of homes and businesses in Maine and washed out some roads there ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.sunjournal.com/2022/01/17/winter-storm-sweeps-through-maine-leaving-snow-icy-roads-and-power-outages-in-its-wake/",
+            "display_link": "https://www.sunjournal.com \u203a 2022/01/17 \u203a winter-stor...",
+            "title": "Winter storm sweeps through Maine, bringing snow, icy ...",
+            "description": "Tractor-trailer crashes into house in Woodstock, causing significant damage. ... Loading.... ... You can share 5 more gift articles this month.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.centralmaine.com/2021/06/30/intense-storms-cut-power-to-hundreds-in-central-maine/",
+            "display_link": "https://www.centralmaine.com \u203a 2021/06/30 \u203a intense-st...",
+            "title": "A few hundred customers remain without power after intense ...",
+            "description": "A Central Maine Power spokesperson said the outages were likely weather-related as strong storms moved across the region, bringing high wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.centralmaine.com/2023/05/23/commentary-the-climate-crisis-is-maines-storm-of-the-century/",
+                    "display_link": "https://www.centralmaine.com \u203a 2023/05/23 \u203a commenta...",
+                    "title": "Commentary: The climate crisis is Maine's storm of the century",
+                    "description": "An error has occurred. Please try again. Send! ... With a Press Herald subscription, you can gift 5 articles each month. ... It looks like you do ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "May 23, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 9,
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.yahoo.com/lifestyle/massive-winter-storm-unload-snow-182008039.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a massive-winter-st...",
+            "title": "Massive winter storm to unload snow from Illinois to Maine",
+            "description": "A dynamic cross-country storm has unleashed a slew of problems as it sweeps from the South Central states to the Midwest late this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

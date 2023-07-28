@@ -1,0 +1,611 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Storm Surge Overview</title>
+            
+        <!-- include header body -->
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+
+    <link href="/css/NHC.css?new2" rel="stylesheet" type="text/css">
+  </head>
+  <div class="skipheader">
+     <a href="#contents"><img height="1" alt="Skip Navigation Links" src="/css/images/skipgraphic.gif" width="1" border="0"></a>
+  </div>
+
+  <body>
+
+<!-- Top Menu Navigation Section -->
+    <div class="altformatcenter">
+      <div class="altformatcontent">
+        <div class="altformat">
+          <div class="format-type">
+            <a href="/index.shtml">Home</a>
+          </div>
+          <div class="format-type">
+            <a href="/mobile">Mobile Site</a>
+          </div>
+          <div class="format-type">
+            <a href="?text">Text Version</a>
+          </div>
+          <div class="format-type">
+            <a href="/aboutrss.shtml">RSS</a>
+          </div>
+
+          <div class="local-forecast">
+            <form name="getForecast" id="getForecast" action="https://forecast.weather.gov/zipcity.php" method="get">
+        <!--    <label for="inputstring">Local forecast by "City, St" or ZIP code</label> -->
+            <input id="inputstring" name="inputstring" type="text" size="8" value="Enter City,St or ZIP code" onclick="this.value=''">
+            <input name="btnSearch" id="btnSearch" type="submit" value="Go">
+            </form>
+          </div>
+          <div class="forecast-description">
+            <a href="https://www.weather.gov">Local Forecast</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="header">
+      <div class="header-content">
+        <a href="https://www.noaa.gov" class="header-noaa-icon"><img style="border:none" src="/css/images/noaa-emblem-70x75.png" alt="NOAA"></a>
+        <a href="https://www.weather.gov" class="header-nws-icon"><img style="border:none" src="/css/images/header-nws.png" alt="NOAA"></a>
+        <a href="https://www.commerce.gov" class="header-doc"><img style="border:none" src="/css/images/header_doc.png" alt="United States Department of Commerce"></a>
+        <div class="header-center-text"><a class="header-center-text" href="/index.php">NATIONAL HURRICANE CENTER and<br>CENTRAL PACIFIC HURRICANE CENTER</a></div>
+        <div class="header-noaa-text"><a class="header-noaa-text" href="https://www.noaa.gov">National Oceanic and Atmospheric Administration</a></div>
+      </div>
+    </div>
+    <div class="header-shadow"><div class="header-shadow-content"></div></div>
+    <div class="center">
+      <div class="content">
+<!-- Top Menu Content -->
+        <div class="topnav">
+          <ul id="topnav">
+  
+    <!-- Forecast Links -->
+            <li>
+              <div class="left-section-link" style="vertical-align:top">
+                <a href="/cyclones">Analyses & Forecasts</a>
+              </div>
+               <div class="drop">
+                <ul>
+                  <li><a href="/cyclones">Tropical Cyclone Products</a></li>
+                  <li><a href="/gtwo.php">Tropical Weather Outlooks</a></li>
+                  <li><a href="/marine">Marine Products</a></li>
+                  <li><a href="/audio">Audio/Podcasts</a></li>
+                  <li><a href="/aboutrss.shtml">RSS Feeds</a></li>
+                  <li><a href="/gis/">GIS Products</a></li>
+                  <li><a href="/aboutalternate.shtml">Alternate Formats</a></li>
+                  <li><a href="/aboutnhcprod.shtml">Tropical Cyclone Product Descriptions</a></li>
+                  <li><a href="/productexamples/">Tropical Cyclone Product Examples</a></li>
+                  <li><a href="/abouttafbprod.shtml">Marine Product Descriptions</a></li>
+                </ul>
+              </div>
+            </li>
+    <!-- Forecast Links -->
+            <li>
+              <div class="pull-down-arrow">
+                <a href="/cyclones">&#9662</a>
+              </div>
+            </li>  
+ 
+    <!-- Tools & Data -->
+            <li>
+              <div class="center-section-link">
+                <a href="/analysis_tools.php">Data & Tools</a>
+              </div>
+              <div class="drop">
+                <ul>
+                  <li><a href="/satellite.php">Satellite Imagery</a></li>
+                  <li><a href="/radar.php">Radar Imagery</a></li>
+                  <li><a href="/recon.php">Aircraft Reconnaissance</a></li>
+                  <li><a href="/analysis_tools.php">Tropical Analysis Tools</a></li>
+                  <li><a href="/experimental/">Experimental Products</a></li>
+                  <li><a href="/gccalc.shtml">Lat/Lon Distance Calculator</a></li>
+                  <li><a href="/tracking_charts.shtml">Blank Tracking Maps</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="pull-down-arrow">
+                <a href="/data/">&#9662</a>
+              </div>
+            </li>  
+
+    <!-- Outreach & Education-->
+            <li>
+              <div class="center-section-link">
+                <a href="/outreach/">Educational Resources</a>
+              </div>
+              <div class="drop">
+                <ul>
+                  <li><a href="https://www.weather.gov/wrn/hurricane-preparedness">Be Prepared!<br>NWS Hurricane<br>Prep Week</a></li>
+                  <li><a href="https://www.nws.noaa.gov/om/hurricane/index.shtml">NWS Hurricane Safety</a></li>
+                  <li><a href="/outreach">Outreach Documents</a></li>
+                  <li><a href="/surge/">Storm Surge</a></li>
+                  <li><a href="/breakpoints/">Watch/Warning Breakpoints</a></li>
+                  <li><a href="/climo/">Climatology</a></li>
+                  <li><a href="/aboutnames.shtml">Tropical Cyclone Names</a></li>
+                  <li><a href="/aboutsshws.php">Wind Scale</a></li>
+                  <li><a href="/dcmi.shtml">Records and Facts</a></li>
+                  <li><a href="/outreach/history">Historical Hurricane Summaries</a></li>
+                  <li><a href="/modelsummary.shtml">Forecast Models</a></li>
+                  <li><a href="/aboutpubs.shtml">NHC Publications</a></li>
+                  <li><a href="/aboutgloss.shtml">NHC Glossary</a></li>
+                  <li><a href="/acronyms.shtml">Acronyms</a></li>
+                  <li><a href="/faq.shtml">Frequent Questions</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="pull-down-arrow">
+                <a href="/prepare/">&#9662</a>
+              </div>
+            </li>  
+
+    <!-- Archives -->
+            <li>
+              <div class="center-section-link">
+                <a href="/data/">Archives</a>
+              </div>
+              <div class="drop">
+                <ul>
+                  <li><a href="/archive/2023/">Tropical Cyclone Advisories</a></li>
+                  <li><a href="/archive/xgtwo/gtwo_archive.php">Tropical Weather Outlooks</a></li>
+                  <li><a href="/data/tcr/index.php">Tropical Cyclone Reports</a></li>
+                  <li><a href="/verification/">Tropical Cyclone Forecast Verification</a></li> 
+                  <li><a href="/text/MIATWSAT.shtml">Atlantic Current Season Summary</a></li>
+                  <li><a href="/text/MIATWSEP.shtml">E. Pacific Current Season Summary</a></li>
+                  <li><a href="/text/HFOTWSCP.shtml">C. Pacific Current Season Summary</a></li>
+                  <li><a href="/newsarchive.shtml">NHC News Archive</a></li>
+                  <li><a href="/notices.shtml">Product & Service Announcements</a></li>
+                  <li><a href="/data/">Other Archives: HURDAT, <br>Track Maps, <br>Marine Products,<br>and more</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="pull-down-arrow">
+                <a href="/data/">&#9662</a>
+              </div>
+            </li>  
+
+    <!-- About NHC/CPHC -->
+            <li>
+              <div class="center-section-link">
+                <a href="/aboutintro.shtml">About</a>
+              </div>
+              <div class="drop">
+                <ul>
+                  <li><a href="/aboutintro.shtml">National Hurricane Center</a></li>
+                  <li><a href="/aboutcphc.php">Central Pacific<br>Hurricane Center</a></li>
+                  <!--<li><a href="/mission.shtml">Mission & Vision</a></li>
+                  <li><a href="/aboutstaff.shtml">Staff</a></li>-->
+                  <!-- <li><a href="/aboutlibrary.php">Library</a></li> -->
+                  <!--<li><a href="/nhctour.shtml">Virtual Tour</a></li>
+                  <li><a href="/aboutvisitor.shtml">Visiting NHC</a></li>-->
+                  <li><a href="/contact.shtml">Contact Us</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li>
+              <div class="pull-down-arrow">
+                <a href="/aboutintro.shtml">&#9662</a>
+              </div>
+            </li>  
+
+    <!-- Gov Search -->
+            <li>
+              <div class="right-section-link">
+                <a href="https://www.weather.gov/search">Search</a>
+              </div>
+              <div class="dropsearch">
+                <div class="site-search">
+                  <form method="get" action="https://search.usa.gov/search" style="margin-bottom: 0; margin-top: 0;">
+                    <input type="hidden" name="v:project" value="firstgov">
+                    <label for="query">Search For</label>
+                    <input type="text" name="query" id="query" size="12">
+                    <input type="submit" value="Go">
+                    <p>
+                      <input type="radio" name="affiliate" checked="checked" value="nws.noaa.gov" id="nws">
+                      <label for="nws" class="search-scope">NWS</label>
+                      <input type="radio" name="affiliate" value="noaa.gov" id="noaa">
+                      <label for="noaa" class="search-scope">All NOAA</label>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="pull-down-arrow">
+                <a href="https://www.weather.gov/search">&#9662</a>
+              </div>
+            </li>  
+
+
+
+ 
+          </ul><!-- End of top nav ul -->
+        </div><!-- End of topnav content div -->
+
+        <a name="contents" id="contents"></a>
+        <!-- Message for all pages -->
+        <!--
+        <br>
+        <table style="border:1px solid red; font-weight:normal; width:100%; padding-top:2px; padding-bottom:2px; padding-left:5px; padding-right:5px;">
+        <tr><td>
+        <div class="tiny" style="text-align:left;">The U.S. Federal Government is currently closed. However, because the information this site 
+provides is necessary to protect life and property, it will be updated and maintained during the Federal Government shutdown. <b>For critical weather
+information, please visit <a href="http://www.weather.gov">www.weather.gov</a>. Visit <a href="https://www.noaa.gov">NOAA.gov</a> to learn more.</b>
+        </div>
+        </td></tr>
+        </table>
+        -->
+
+        <!-- include Google Analytics tracking -->
+        <!-- BEGIN Google Analytics code -->
+<script type="text/javascript" async="true" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NHC&pua=ua-49829254-1">
+</script>
+
+<!-- END Google Analytics code -->
+
+        <h2 align="center" style="width: 100%;">Storm Surge Overview</h2><hr noshade width="100%" align="left">
+        <a name="contents"></a><br>
+        <!-- START OF CONTENT -->
+<!-- Content here -->
+<style type="text/css">
+.currentPage {
+ color: gray;
+}
+</style>
+
+<div class="tiny" style="text-align:center; font-weight:bold;">
+<span class="currentPage">Surge Overview</span> | <a href="/nationalsurge/">National Surge Hazard Maps</a> | <a href="/surge/international/">International Surge Viewer</a> | <a href="/surge/ssu.php">Storm Surge Unit</a> | <a href="/surge/slosh.php">SLOSH</a> | <a href="/surge/products.php">Surge Products</a> | <a href="/surge/local.php">Local Impacts</a> | <a href="/surge/faq.php">FAQ</a> | <a href="/surge/resources.php">Resources</a><hr noshade align="left" width="100%" /></b></div>
+
+<h5>Contents</h5>
+ <ul>
+  <li><a href="#INTRO">Introduction</a></li>
+  <li><a href="#TIDE">Storm Surge vs. Storm Tide</a></li>
+  <li><a href="#IMPACT">Factors Impacting Surge</a></li>
+  <li><a href="#EVENTS">Notable Surge Events</a></li>
+  <li><a href="#FACTS">Surge Vulnerability Facts</a></li>
+ </ul> 
+
+
+<p class="reg">
+<a name="INTRO"></a>
+<h4>Introduction</h4>
+Along the coast, storm surge is often the greatest threat to life and property from a hurricane.  
+In the past, large death tolls have resulted from the rise of the ocean 
+associated with many of the major hurricanes that have made landfall. 
+Hurricane Katrina (2005) is a prime example of the damage and devastation 
+that can be caused by surge.  At least 1500 persons lost their lives during Katrina and many 
+of those deaths occurred directly, or indirectly, as a result of storm surge.
+</p>
+
+<p class="reg">
+<a name="TIDE"></a>
+<h4>Storm Surge vs. Storm Tide</h4>
+Storm surge is an abnormal rise of water generated by a storm, over and above 
+the predicted astronomical <a href="http://tidesandcurrents.noaa.gov">tides</a>.  
+Storm surge should not be confused with 
+storm tide, which is defined as the water level rise due to the combination of 
+storm surge and the astronomical tide.   This rise in water level can cause 
+extreme flooding in coastal areas particularly when storm surge coincides 
+with normal high tide, resulting in storm tides reaching up to 20 feet 
+or more in some cases. 
+</p>
+<center><a href="images/stormsurgevsstormtide.jpg"><img
+src="images/stormsurgevsstormtide_sm.jpg" width="500" ></img></a>
+<br>Storm Surge vs. Storm Tide</center>
+
+<p class="reg">
+<a name="IMPACT"></a>
+<h4>Factors Impacting Surge</h4>
+Storm surge is produced by water being pushed toward the shore by the 
+force of the winds moving cyclonically around the storm.  The impact on surge of the 
+low pressure associated with intense storms is minimal in comparison to the 
+water being forced toward the shore by the wind.
+</p>
+<center><a href="images/surgebulge_COMET.jpg"><img
+src="images/surgebulge_COMET_sm.jpg" width="500"></img></a><br>
+Wind and Pressure Components of Hurricane Storm Surge</center>
+
+
+<p class="reg" style="width: 100%">
+The maximum potential storm surge for a particular location depends on a 
+number of different factors.  Storm surge is a very complex phenomenon because 
+it is sensitive to the slightest changes in storm intensity, forward 
+speed, size (radius of maximum winds-RMW), angle of approach to the coast, central 
+pressure (minimal contribution in comparison to the wind), and the shape and 
+characteristics of coastal features such as bays and estuaries.
+</p>
+<center>
+<a href="/futureMedia.shtml">
+<img src="animations/hurricane_stormsurge.png" width="300"></img></a><br>Click on Image to Play Video
+</center>
+
+<p class="reg" style="clear:left; width: 100%">
+Other factors which can impact storm surge are the width and slope of 
+the continental shelf.  A shallow slope will potentially produce a greater 
+storm surge than a steep shelf.  For example, a Category 4 storm hitting the 
+Louisiana coastline, which has a very wide and shallow continental shelf, 
+may produce a 20-foot storm surge, while the same hurricane in a place like 
+Miami Beach, Florida, where the continental shelf drops off very quickly, 
+might see an 8 or 9-foot surge.  More information regarding storm surge 
+impacts and their associated generalizations can be found in the <a
+href="faq.php#2">FAQ</a> section.
+</p>
+<center><a href="/futureMedia.shtml">
+<br><img src="animations/surgea.png"></img></a>
+<br>Surge animation with shallow continental shelf (Click on Image to Play
+Video)
+<a href="/futureMedia.shtml">
+<br><br><img src="animations/surgeb.png"></img></a>
+<br>Surge animation with steep continental shelf (Click on Image to Play Video)
+</center>
+
+
+
+<p class="reg" style="width: 100%">
+Adding to the destructive power of surge, battering waves may increase damage 
+to buildings directly along the coast.  Water weighs approximately 1,700 
+pounds per cubic yard; extended pounding by frequent waves can demolish 
+any structure not specifically designed to withstand such forces.  The two elements work together
+to increase the impact on land because the surge makes it possible for waves to extend inland.
+ <br><center><img
+src="images/Fallen_house.jpg" width="400"></img>
+<br>Although elevated, this house in North Carolina could not withstand
+the 15 ft (4.5 m) of storm surge that came with Hurricane Floyd (1999)</center>
+</p>
+
+<p class="reg" style="width: 100%">
+Additionally, currents created by tides combine with the waves to severely 
+erode beaches and coastal highways. Buildings that survive hurricane winds 
+can be damaged if their foundations are undermined and weakened by erosion. 
+<br><center><img
+src="images/road_erosion.jpg" width="400"></img>
+<br>Beachfront road and boardwalk damaged by Hurricane Jeanne (2004)</center>
+</p>
+
+<p class="reg" style="width: 100%">
+In confined harbors, the combination of storm tides, waves, and currents 
+can also severely damage marinas and boats.  In estuaries and bayous, salt 
+water intrusion endangers the public health, kills vegetation, and can send animals, such as 
+snakes and alligators,�fleeing from flooded areas.
+<br><center><img
+src="images/Battered_Marina.jpg"  width="400"></img>
+<br>Damaged boats in a marina</center>
+</p>
+
+
+<p class="reg">
+<a name="EVENTS"></a>
+<h4>Notable Surge Events</h4>
+ <UL>
+  <LI><b>Ike 2008</b> (<a href="HistoricalRuns/?large&parm=2008_ike#contents">SLOSH Historical Run</a>)<br><br>
+Hurricane Ike made landfall near the north end of Galveston Island as a 
+Category 2 hurricane.  Storm surges of 15-20 feet above normal tide levels 
+occurred along the Bolivar Peninsula of Texas and in much of the Galveston 
+Bay area.  Property damage from Ike is estimated at $24.9 
+billion. <a href="/outreach/history/#ike">More...</a><br><br> 
+ 
+ <LI><b>Katrina 2005</b> (<a href="HistoricalRuns/?large&parm=2005_katrina#contents">SLOSH Historical Run</a>)<br><br>
+Katrina was one of the most devastating hurricanes in the history 
+of the United States. It produced catastrophic damage - estimated at $75 
+billion in the New Orleans area and along the Mississippi coast - and is 
+the costliest U. S. hurricane on record.  Storm surge flooding of 25 to 
+28 feet above normal tide levels was associated with Katrina. <a href="/outreach/history/#katrina">More...</a><br><br> 
+
+ <LI><b>Dennis 2005</b> (<a href="HistoricalRuns/?large&parm=2005_dennis#contents">SLOSH Historical Run</a>)<br><br>
+Dennis affected much of Florida, and its effects extended well inland over 
+portions of the southeastern United States with the maximum amount rainfall of 12.80 
+inches occuring near Camden, Alabama.  Storm surge flooding of 7-9 ft produced considerable storm surge-related damage 
+near St. Marks, Florida, well to the east of the landfall location.  
+The damage associated with Dennis in the United States is estimated at 
+$2.23 billion.  <a href="/outreach/history/#dennis">More...</a><br><br> 
+
+ <LI><b>Isabel 2003</b> (<a href="HistoricalRuns/?large&parm=2003_isabel#contents">SLOSH Historical Run</a>)<br><br>
+Isabel was the worst hurricane to affect the Chesapeake Bay region since 
+1933. Storm surge values of more than 8 feet flooded rivers that flowed 
+into the bay across Virginia, Maryland, Delaware, and Washington, D.C.  
+Isabel was the most intense hurricane of the 2003 season and directly resulted in 17 
+deaths and more than $3 billion in damages. 
+  <a href="/outreach/history/#isabel">More...</a><br><br> 
+  
+  <LI><b>Opal 1995</b> (<a href="HistoricalRuns/?large&parm=1995_opal#contents">SLOSH Historical Run</a>)<br><br>
+Hurricane Opal made landfall near Pensacola Beach, Florida as a Category 
+3 hurricane. The storm caused extensive storm surge damage from Pensacola 
+Beach to Mexico Beach (a span of 120 miles) with a maximum storm tide of 
+24 feet, recorded near Fort Walton Beach. Damage estimates for Opal were 
+near $3 billion.
+  <a href="/outreach/history/#opal">More...</a><br><br> 
+  
+  <LI><b>Hugo 1989</b> (<a href="HistoricalRuns/?large&parm=1989_hugo#contents">SLOSH Historical Run</a>)<br><br>
+Hugo impacted the southeastern United States, including 
+South Carolina cities Charleston and Myrtle Beach. Hugo was responsible 
+for 60 deaths and $7 billion in damages, with the highest storm surge estimated 
+at 19.8 feet at Romain Retreat, South Carolina.
+  <a href="/outreach/history/#hugo">More...</a><br><br> 
+  
+   <LI><b>Camille 1969</b> (<a href="HistoricalRuns/?large&parm=1969_camille#contents">SLOSH Historical Run</a>)<br><br>
+Camille was a Category 5 hurricane, the most powerful on the Saffir-Simpson Hurricane Wind Scale with 
+maximum winds of more than 155 mph and storm surge flooding of 24 feet that devastated the Mississippi 
+coast. The final death count for the U.S. is  listed at 256. This includes 143 on the 
+Gulf coast and another 113 from the Virginia floods.
+  <a href="/outreach/history/#camille">More...</a><br><br> 
+  
+   <LI><b>Audrey 1957</b> (<a href="HistoricalRuns/?large&parm=1957_audrey#contents">SLOSH Historical Run</a>)<br><br>
+There were 390 deaths associated with Audrey as the result of a storm surge in excess of 12 feet, 
+which inundated the flat coast of southwestern Louisiana as far as 25 miles 
+inland in some places. 
+  <a href="/outreach/history/#audrey">More...</a><br><br> 
+  
+  <LI><b>New England 1938</b> (<a href="HistoricalRuns/?large&parm=1938_newengland#contents">SLOSH Historical Run</a>)<br><br>
+The Long Island Express was a fast-moving Category 3 hurricane that struck Long 
+Island and New England with little warning on September 21. A storm surge of 
+10 to 12 ft inundated the  coasts of Rhode Island, Connecticut, southeastern 
+Massachusetts, and Long Island, NY, especially in Narragansett Bay and 
+Buzzards Bay. Six hundred people died due to the storm.
+  <a href="/outreach/history/#new">More...</a><br><br> 
+  
+   <LI><b>Galveston 1900</b> (<a href="HistoricalRuns/?large&parm=1900_galveston#contents">SLOSH Historical Run</a>)<br><br>
+At least 8,000 people died when hurricane storm tides 
+(the surge plus the astronomical tide) of 8-15 feet inundated most of the  
+island city of Galveston, TX and adjacent areas on the mainland.
+  <a href="/outreach/history/#galveston">More...</a><br><br> 
+  
+
+ </UL> 
+</p>
+
+
+<p class="reg">
+<a name="FACTS"></a>
+<h4>Surge Vulnerability Facts</h4>
+ <ul>
+  <li>From 1990-2008, population density increased by 
+  32% in Gulf coastal counties, 17% in Atlantic coastal counties, and 16% in
+  Hawaii (U.S. Census Bureau 2010)</li>
+  <li>Much of the United States' densely populated Atlantic and Gulf Coast 
+  coastlines lie less than 10 feet above mean sea level</li>
+  <li>Over half of the Nation's economic productivity is located within coastal zones</li>
+  <li>72% of ports, 27% of major roads, and 9% of rail lines within the Gulf 
+  Coast region are at or below 4 ft elevation (CCSP, SAP 4-7)</li>
+  <li>A storm surge of 23 ft has the ability to inundate 67% of 
+  interstates, 57% of arterials, almost half of rail miles, 29 airports, 
+  and virtually all ports in the Gulf Coast area (CCSP SAP 4-7)</li>
+ </ul> 
+</p>  
+
+<!-- End content -->
+
+        <!-- END OF CONTENT -->
+        <br><br>
+        <div class="footer">
+          <div class="footer-content">
+            <div class='footer-header'>
+               Quick Links and Additional Resources<br>
+            </div>
+            <div class='footer-column'>
+              <a class='footer-column-head' href='/cyclones/'>Tropical Cyclone Forecasts</a><br>
+              <a href='/cyclones'>Tropical Cyclone Advisories</a><br>
+              <a href='/gtwo.php'>Tropical Weather Outlook</a><br>
+              <a href='/audio'>Audio/Podcasts</a><br>
+              <a href='/aboutnhcprod.shtml'>About Advisories</a><br>
+              <br>
+              <a class='footer-column-head' href='/marine'>Marine Forecasts</a><br>
+              <a href='/marine/offshores.php'>Offshore Waters Forecasts</a><br>
+              <a href='/marine/grids.php'>Gridded Forecasts</a><br>
+              <a href='/marine/graphicast.php'>Graphicast</a><br>
+              <a href='/abouttafbprod.shtml'>About Marine</a><br>
+            </div>
+            <div class='footer-column'>
+              <a class='footer-column-head' href='/twitter.php'>Social Media</a><br>
+              <a href="/nhcexit.php?outurl=http://www.facebook.com/NWSNHC"><img src="/css/images/f_logo.png" alt="Follow the National Hurricane Center on Facebook" width="15" height="15"> &nbsp; NHC on Facebook</a><br>
+              <a href="/twitter.php"><img src="/css/images/twitter_logo.png" alt="Follow the National Hurricane Center on Twitter" height="15" width="15"> &nbsp; Twitter</a><br>
+              <a href="/nhcexit.php?outurl=http://www.youtube.com/user/NWSNHC"><img src="/css/images/youtube_logo.png" alt="Subscribe the National Hurricane Center on YouTube" height="12" width="15"> &nbsp; YouTube</a><br>
+              <a href="/nhcexit.php?outurl=http://noaanhc.wordpress.com/"><img src="/css/images/w_logo.png" alt="Read the National Hurricane Center Inside the Eye blog on WordPress" height="15" width="15"> &nbsp; NHC Blog:<br>&nbsp; &nbsp; &nbsp; "Inside the Eye" </a><br>
+              <br>
+              <a class='footer-column-head' href="/prepare">Hurricane Preparedness</a><br>
+              <a href="https://www.weather.gov/safety/hurricane-plan">Preparedness Guide</a><br>
+              <a href="/prepare/hazards.php">Hurricane Hazards</a><br>
+              <a href="https://www.weather.gov/safety/hurricane-ww">Watches and Warnings</a><br>
+              <a href="/prepare/marine.php">Marine Safety</a><br>
+              <a href="http://www.ready.gov/hurricanes">Ready.gov Hurricanes</a> | <a href="https://www.listo.gov/es/huracanes">en Espa&ntilde;ol</a><br>
+              <a href="https://www.weather.gov/wrn/force">Weather-Ready Nation</a><br>
+              <a href="http://www.fema.gov/emergency-management-agencies">Emergency Management Offices</a><br>
+            </div>
+            <div class='footer-column'>
+           <!--   <a class='footer-column-head' href="/newsarchive.shtml">News</a><br>
+              <a href="/newsarchive.shtml">NHC News Archive</a><br>
+              <a href="/notices.shtml">Product and Service Announcements</a><br>
+              <a href="http://www.weather.gov/news">NWS News</a><br>
+              <br> -->
+              <a class='footer-column-head' href='/aboutresearch.shtml'>Research and Development</a><br>
+              <a href="http://www.aoml.noaa.gov/hrd/">NOAA Hurricane Research Division</a><br>
+              <a href="/hot/">Hurricane and Ocean Testbed (HOT)</a><br>
+              <a href="/nhcexit.php?outurl=http://www.hfip.org">Hurricane Forecast Improvement Program</a><br>
+              <br>
+              <a class='footer-column-head' href='/aboutintro.shtml'>Other Resources</a><br>
+              <a href="/qa/">Q & A with NHC</a><br>
+              <a href="http://www.aoml.noaa.gov/general/lib/lib1/nhclib/">NHC/AOML Library Branch</a><br>
+              <a href="http://www.aoml.noaa.gov/hrd/tcfaq/tcfaqHED.html">NOAA: Hurricane FAQs</a><br>
+              <a href="/nhop.html">National Hurricane Operations Plan</a><br>
+              <a href="/nhcexit.php?outurl=http://www.wx4nhc.org">WX4NHC Amateur Radio</a><br>
+            </div>
+            <div class='footer-column'>
+              <a class='footer-column-head' href="http://www.ncep.noaa.gov">NWS Forecast Offices</a><br>
+              <a href="http://www.wpc.ncep.noaa.gov">Weather Prediction Center</a><br>
+              <a href="http://www.spc.noaa.gov">Storm Prediction Center</a><br>
+              <a href="https://ocean.weather.gov">Ocean Prediction Center</a><br>
+              <a href="http://www.weather.gov">Local Forecast Offices</a><br>
+              <br>
+              <a class='footer-column-head' href="/aboutrsmc.shtml">Worldwide Tropical Cyclone Centers</a><br>
+              <a href="/nhcexit.php?outurl=http://www.ec.gc.ca/ouragans-hurricanes/">Canadian Hurricane Centre</a><br>
+              <a href="/nhcexit.php?outurl=https://www.metoc.navy.mil/jtwc/jtwc.html">Joint Typhoon Warning Center</a><br>
+              <a href="/aboutrsmc.shtml">Other Tropical Cyclone Centers</a><br>
+              <a href="/nhcexit.php?outurl=http://severe.worldweather.org">WMO Severe Weather Info Centre</a>
+            </div>
+
+          </div>
+        </div>
+
+<!-- legal footer area -->
+	<div class="footer-legal">
+          <div class="footer-legal-content">
+            <div class="footer-legal-gov">
+              <a href="http://www.usa.gov"><img src="/css/images/usa_gov.png" alt="usa.gov" width="110" height="30"></a>
+            </div> 
+            <div class="footer-legal-column" style="width:200px;">
+              <p> 
+                  <a href="http://www.commerce.gov">US Dept of Commerce</a><br>
+                  <a href="http://www.noaa.gov">National Oceanic and Atmospheric Administration</a><br>
+                  National Hurricane Center<br>
+                  11691 SW 17th Street<br>
+                  Miami, FL, 33165<br>
+                  <a href='mailto:nhcwebmaster@noaa.gov'>nhcwebmaster@noaa.gov</a>
+              </p>
+            </div>
+
+            <div class="footer-legal-column" style="width:200px;">
+              <p>
+                  Central Pacific Hurricane Center<br>
+                  2525 Correa Rd<br>
+                  Suite 250<br>
+                  Honolulu, HI 96822<br>
+                  <a href='mailto:W-HFO.webmaster@noaa.gov'>W-HFO.webmaster@noaa.gov</a>
+              </p>
+            </div>
+ 
+ 	    <div class="footer-legal-column2">
+            <p>
+              <a href="http://www.weather.gov/disclaimer">Disclaimer</a><br>
+              <a href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html">Information Quality</a><br>
+              <a href="http://www.weather.gov/help">Help</a><br>
+              <a href="http://www.weather.gov/glossary">Glossary</a>
+            </p>
+            </div>
+
+   	    <div class="footer-legal-column3">
+            <p>
+              <a href="http://www.weather.gov/privacy">Privacy Policy</a><br>
+              <a href="https://www.noaa.gov/information-technology/foia">Freedom of Information Act (FOIA)</a><br>
+              <a href="http://www.weather.gov/about">About Us</a><br>
+              <a href="http://www.weather.gov/careers">Career Opportunities</a>
+            </p>
+            </div>
+          </div>
+	
+        </div><!-- end of <div class="footer-legal"> -->
+
+      </div><!-- End of content div -->
+    </div><!-- End of center div -->
+    <div id="wrap"> </div> 
+  </body>
+</html>

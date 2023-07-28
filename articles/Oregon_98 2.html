@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"959a8d97de",applicationID:"146857664"};;/*! For license information please see nr-loader-rum-1.236.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={5763:(e,t,n)=>{n.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>_,lF:()=>E,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>j});var r=n(8632),i=n(9567);const o={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,r.Qy)(e,a[e],"info")}var d=n(7056);const u=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},harvest:{tooManyRequestsDelay:60},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,u()),(0,r.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var n=f(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const h={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},v={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!v[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return v[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");v[e]=(0,i.D)(t,h),(0,r.Qy)(e,v[e],"loader_config")}const y=(0,r.mF)().o;var w=n(385),A=n(6818);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function _(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function j(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,r.Qy)(e,D[e],"runtime")}function E(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(n).length?e:n;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?n[a]=i(e[a],t[a]):n[a]=e[a]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>o,q4:()=>r});const r="1.236.0",i="PROD",o="CDN"},385:(e,t,n)=>{n.d(t,{FN:()=>a,IF:()=>d,Nk:()=>l,Tt:()=>s,_A:()=>o,il:()=>r,pL:()=>c,v6:()=>i,w1:()=>u});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=""+o?.location,s=/iPad|iPhone|iPod/.test(navigator.userAgent),c=s&&"undefined"==typeof SharedWorker,d=(()=>{const e=navigator.userAgent.match(/Firefox[/\s](\d+\.\d+)/);return Array.isArray(e)&&e.length>=2?+e[1]:0})(),u=Boolean(r&&window.document.documentMode),l=!!navigator.sendBeacon},1117:(e,t,n)=>{n.d(t,{w:()=>o});var r=n(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(2177),i=n(1284),o=n(4322),a=n(3325);const s={};function c(e,t){const n={staged:!1,priority:a.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const n=[...s[e]];function a(t){const n=e?r.ee.get(e):r.ee,a=o.X.handlers;if(n.backlog&&a){var s=n.backlog[t],c=a[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete a[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],o=e[3],a=e[2];i.apply(o,a)}}))}},2177:(e,t,n)=>{n.d(t,{ee:()=>d});var r=n(8632),i=n(2210),o=n(1284),a=n(5763),s="nr@context";let c=(0,r.fP)();var d;function u(){}function l(){return new u}function f(){d.aborted=!0,d.backlog={}}c.ee?d=c.ee:(d=function e(t,n){var r={},c={},g={},p=!1;try{p=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var h={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:v,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:n,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return h;function v(e){return e&&e instanceof u?e:e?(0,i.X)(e,s,l):l()}function m(e,n,r,i,o){if(!1!==o&&(o=!0),!d.aborted||i){t&&o&&t.emit(e,n,r);for(var a=v(r),s=w(e),u=s.length,l=0;l<u;l++)s[l].apply(a,n);var f=_()[c[e]];return f&&f.push([h,e,n,a]),a}}function b(e,t){r[e]=w(e).concat(t)}function y(e,t){var n=r[e];if(n)for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)}function w(e){return r[e]||[]}function A(t){return g[t]=g[t]||e(h,t)}function x(e,t){var n=_();h.aborted||(0,o.D)(e,(function(e,r){t=t||"feature",c[r]=t,t in n||(n[t]=[])}))}function D(e){return!!_()[c[e]]}function _(){return h.backlog}}(void 0,"globalEE"),c.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(2177).ee.get("handle");function i(e,t,n,i,o){o?(o.buffer([e],i),o.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>o});var r=n(5546);o.on=a;var i=o.handlers={};function o(e,t,n,o){a(o||r.E,i,e,t,n)}function a(e,t,n,i,o){o||(o="feature"),e||(e=r.E);var a=t[o]=t[o]||{};(a[n]=a[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var r=n(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(n,r))}},4402:(e,t,n)=>{n.d(t,{Rl:()=>a,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++n).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(n,++i).toString(16));return a.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>o,oD:()=>i});const r="NRBA",i=144e5,o=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(2177),i=n(5546),o=n(8e3),a=n(3325);const s={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]};function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(Object.entries(e).forEach((e=>{let[t,r]=e;void 0===d[t]&&(s[t]?s[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r))})),Object.keys(s).forEach((e=>{void 0===d[e]&&(s[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),(0,o.L)(t,a.D.pageViewEvent))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>o});var r=n(2177);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>a,b:()=>o});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,r.bP)("load",e,t)}function a(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[n]:t}},i}function d(e,t){a()[e]=t}function u(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>o,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>a});const r=n(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>r});const r=n(3325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>o});var r=n(5763),i=n(2177);class o{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},9144:(e,t,n)=>{n.d(t,{j:()=>v});var r=n(3325),i=n(5763),o=n(5546),a=n(2177),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...r))})),o.length>1?o:o[0]}(t,...r)}}))}var h=n(2587);function v(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},v=arguments.length>2?arguments[2]:void 0,m=arguments.length>3?arguments[3]:void 0,{init:b,info:y,loader_config:w,runtime:A={loaderType:v},exposed:x=!0}=t;const D=(0,g.gG)();y||(b=D.init,y=D.info,w=D.loader_config),(0,i.Dg)(e,b||{}),(0,i.GE)(e,w||{}),(0,i.sU)(e,A),y.jsAttributes??={},u.v6&&(y.jsAttributes.isWorker=!0),(0,i.CX)(e,y),p();const _=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,o){const a=(0,i.C5)(e);return null===n?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:n}}),A(v,r,!0,o||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(v,e,!0,"api"))),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],n),a)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function x(){n.e(439).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>x()),!0):x(),g}(e,m);return(0,g.Qy)(e,_,"api"),(0,g.Qy)(e,x,"exposed"),(0,g.EZ)("activatedFeatures",h.T),_}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var o=r[e]={exports:{}};return n[e](o,o.exports,i),o.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",733:"session_trace-aggregate",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"ac76d497",147:"3dc53903",148:"1a20d5fe",242:"2a64278a",317:"49e41428",348:"bd6de33a",412:"2f55ce66",439:"30bd804e",538:"1b18459f",590:"cf0efb30",675:"ae9f91a8",733:"83105561",786:"06482edd",860:"03a8b7a5",873:"e6b09d52",898:"998ef92b"}[e]+"-1.236.0.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(n,r,o,a)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==o)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=6,i.p="https://js-agent.newrelic.com/",(()=>{var e={6:0,352:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var o=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var o=n&&("load"===n.type?"missing":n.type),a=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,o,[a,s,c]=n,d=0;if(a.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<a.length;d++)o=a[d],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},n=window.webpackChunkNRBA=window.webpackChunkNRBA||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})();var o={};(()=>{i.r(o);var e=i(3325),t=i(5763);const n=Object.values(e.D);function r(e){const r={};return n.forEach((n=>{r[n]=function(e,n){return!1!==(0,t.Mt)(n,"".concat(e,".enabled"))}(n,e)})),r}var a=i(9144);var s=i(5546),c=i(385),d=i(8e3),u=i(5938),l=i(3960),f=i(50);class g extends u.W{constructor(e,t,n){let r=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=r,this.abortHandler,this.featAggregate,this.onAggregateImported,r&&(0,d.R)(e,n)}importAggregator(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate||!this.auto)return;const n=c.il&&!0===(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let r;this.onAggregateImported=new Promise((e=>{r=e}));const o=async()=>{let t;try{if(n){const{setupAgentSession:e}=await Promise.all([i.e(860),i.e(242)]).then(i.bind(i,3228));t=e(this.agentIdentifier)}}catch(e){(0,f.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",e)}try{if(!this.shouldImportAgg(this.featureName,t))return void(0,d.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:n}=await i.e(412).then(i.bind(i,8582)),{Aggregate:o}=await n(this.featureName,"aggregate");this.featAggregate=new o(this.agentIdentifier,this.aggregator,e),r(!0)}catch(e){(0,f.Z)("Downloading and initializing ".concat(this.featureName," failed..."),e),this.abortHandler?.(),r(!1)}};c.il?(0,l.b)((()=>o()),!0):o()}shouldImportAgg(n,r){return n!==e.D.sessionReplay||!1!==(0,t.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!r?.isNew||!!r?.state.sessionReplay)}}var p=i(7633),h=i(7894);class v extends g{static featureName=p.t9;constructor(n,r){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(n,r,p.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.Tt)&&"undefined"!=typeof PerformanceTiming){const r=(0,t.OP)(n);r[p.Dz]=Math.max(Date.now()-r.offset,0),(0,l.K)((()=>r[p.qw]=Math.max((0,h.z)()-r[p.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();r[p.OJ]=Math.max(t-r[p.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var m=i(1117),b=i(1284);class y extends m.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var o=this.getBucket(e,t,n,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,b.D)(e,(function(e,n){t[e]=w(n,t[e])})),t}(r,o.metrics),o}merge(e,t,n,r,i){var o=this.getBucket(e,t,r,i);if(o.metrics){var a=o.metrics;a.count+=n.count,(0,b.D)(n,(function(e,t){if("count"!==e){var r=a[e],i=n[e];i&&!i.c?a[e]=w(i.t,r):a[e]=function(e,t){if(!t)return e;t.c||(t=A(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=w(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=x(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function w(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=A(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function A(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function x(e){return"object"!=typeof e?[]:(0,b.D)(e,D)}function D(e,t){return t}var _=i(8632),j=i(4402),E=i(4351);var k=i(7956),T=i(3239),I=i(9251);class N extends g{static featureName=I.t;constructor(e,n){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,n,I.t,r),c.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,k.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,I.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,I.t,this.ee))),this.importAggregator())}}var P=i(3081);class S extends g{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);c._A?(this.agentIdentifier=t,this.sharedAggregator=new y({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(v),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()):(0,f.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const n=r(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,n)=>e.p[t.featureName]-e.p[n.featureName])),i.forEach((t=>{if(n[t.featureName]||t.featureName===e.D.pageViewEvent){const r=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.sessionReplay:return[e.D.sessionTrace];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);r.every((e=>n[e]))||(0,f.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(r),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,f.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const n=(0,_.fP)();return delete n.initializedAgents[this.agentIdentifier]?.api,delete n.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,n.ee?.abort(),delete n.ee?.get(this.agentIdentifier),!1}}}({features:[v,N,S],loaderType:"lite"})})(),window.NRBA=o})();</script>
+<noscript><style>form.antibot * :not(.antibot-message) { display: none !important; }</style>
+</noscript><script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"US","siteName":"Portland.gov","entityCreated":"1602720114","entityLangcode":"en","entityStatus":"1","entityUid":"282","entityUuid":"69b84f30-65ad-4e7a-b64e-4651c7aba0d1","entityVid":"263319","entityName":"Stacy Brewster","entityType":"node","entityBundle":"page","entityId":"14999","entityTitle":"Winter Weather Basics and FAQ","entityTaxonomy":{"page_type":{"39":"Information"},"topics":{"2":"Transportation and roads","32":"Parking","328":"Operating a Business in Portland","30":"Community education and outreach"}},"userUid":0});</script>
+<meta name="description" content="Residents, property owners and our business community are an essential part of helping the city rebound quickly after a storm. Emergency resources, winter weather basics for residents and businesses, and how the Portland Bureau of Transportation (PBOT) prepares for and responds to winter weather." />
+<meta name="geo.region" content="US-OR" />
+<meta name="geo.placename" content="Portland" />
+<meta name="geo.position" content="45.515012;-122.679096" />
+<link rel="canonical" href="https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq" />
+<meta property="og:site_name" content="Portland.gov" />
+<meta property="og:url" content="https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq" />
+<meta property="og:title" content="Winter Weather Basics and FAQ" />
+<meta property="og:description" content="Residents, property owners and our business community are an essential part of helping the city rebound quickly after a storm. Emergency resources, winter weather basics for residents and businesses, and how the Portland Bureau of Transportation (PBOT) prepares for and responds to winter weather." />
+<meta property="og:image" content="https://www.portland.gov/sites/default/files/styles/facebook/public/2020/faq.png?itok=CY-0W0O5" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="winter weather basics and faq" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Residents, property owners and our business community are an essential part of helping the city rebound quickly after a storm. Emergency resources, winter weather basics for residents and businesses, and how the Portland Bureau of Transportation (PBOT) prepares for and responds to winter weather." />
+<meta name="twitter:title" content="Winter Weather Basics and FAQ" />
+<meta name="twitter:url" content="https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq" />
+<meta name="twitter:image:alt" content="winter weather basics and faq" />
+<meta name="twitter:image" content="https://www.portland.gov/sites/default/files/styles/twitter/public/2020/faq.png?itok=6XdlYzuT" />
+<meta name="twitter:image:height" content="628" />
+<meta name="twitter:image:width" content="1100" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta class="swiftype" name="domain-identifier" data-type="string" content="portland.gov" />
+<meta class="swiftype" name="site-priority" data-type="integer" content="2" />
+<link rel="alternate" hreflang="x-default" href="https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq" />
+<link rel="icon" href="/themes/custom/cloudy/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq" />
+<script src="/sites/default/files/google_tag/portland.gov/google_tag.script.js?ry6kc7" defer></script>
+
+    <title>Winter Weather Basics and FAQ | Portland.gov</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_D2rt9pph8tlHyVilqxCDDHHn5GPMnTz17gMLZyGQSSE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_7nReK5rGpAsYTBw5n5HZSUYyD05V8W-0Sf6ruKbU7Jk.css" />
+
+          
+    
+    <script>
+        /*to prevent Firefox FOUC, this must be here*/
+        let FF_FOUC_FIX;
+    </script>
+  </head>
+  <body class="group-page path-node page-node-type-page">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DGTRSB&gtm_auth=gX0sWBBfUHwzWER-y90CyQ&gtm_preview=env-1&gtm_cookies_win=x" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      
+
+  
+      <div class="region region-pre-header">
+      <div class="views-element-container block block-views block-views-blockalerts-block-1" id="block-cloudy-views-block-alerts-block-1" data-block-plugin-id="views_block:alerts-block_1">
+  
+    
+      <div class="content">
+      <div><div class="view view-alerts view-id-alerts view-display-id-block_1 js-view-dom-id-aacf9b1733b890708f878fd754676473a9ae9e948c58ded3721a0d49c7a61577">
+  
+    
+      
+      <div class="view-content">
+              <div class="views-row">
+        
+<div class="alert alert--warning"
+   data-nid="36645"
+         data-changed="1690175313"
+      >
+  <div class="container">
+        <div class="alert__wrapper">
+        <span class="icon icon--size-s"><svg id="icon-danger" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 14.2" width="16" height="14.2"><title>danger</title><path fill="currentColor" d="M15.8 12.2c.5.9-.1 2-1.2 2H1.3c-1 0-1.7-1.1-1.2-2L6.8.7c.5-.9 1.8-.9 2.3 0l6.7 11.5zM8 9.8c-.7 0-1.3.6-1.3 1.3s.6 1.3 1.3 1.3 1.3-.6 1.3-1.3S8.7 9.8 8 9.8zM6.8 5.2 7 9c0 .2.2.3.3.3h1.3c.3 0 .4-.1.4-.3l.2-3.8c0-.2-.1-.4-.3-.4H7.1c-.2.1-.3.2-.3.4z" /></svg></span>
+      <div class="alert__wrapper-inner">
+        <div class="alert__title fw-bold"><span class="field field--name-title field--type-string field--label-hidden">Response to possible asbestos material from the fire at former Kmart</span>
+</div><div class="alert__body">
+
+
+
+<div class="clearfix text-formatted field field--label-hidden field--name-field-alert-text field--type-text-long"><div class="field__item"><p>Current information is at the <a href="https://deqblog.com/2023/07/21/kmart-fire-asbestos-response-ne-portland/">Oregon Department of Environmental Quality’s website</a>, where you can learn about safely cleaning up debris and find answers to frequently asked questions.</p></div></div></div>
+              </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+    </div>
+  
+
+  <header role="banner" id="header" class="cloudy-header" aria-label="Site header">
+    <div
+      class="cloudy-header__wrapper d-flex justify-content-between align-items-center flex-wrap px-0">
+            
+      <div class="region region-header cloudy-header__logo-wrapper">
+        <a href="/" class="align-self-center" aria-label="Go to the official City of Portland, Oregon website homepage." title="Go to the official City of Portland, Oregon website homepage." rel="home">
+          <picture>
+        <source media="(max-width: 767.98px)" 
+            srcset="/themes/custom/cloudy/images/brand/seal-logo-mobile.png, 
+            /themes/custom/cloudy/images/brand/seal-logo-mobile-2x.png 2x,
+            /themes/custom/cloudy/images/brand/seal-logo-mobile-3x.png 3x" />
+        <source media="(min-width: 768px)" 
+            srcset="/themes/custom/cloudy/images/brand/seal-logo.png, 
+            /themes/custom/cloudy/images/brand/seal-logo-2x.png 2x,
+            /themes/custom/cloudy/images/brand/seal-logo-3x.png 3x" />
+        <img src="/themes/custom/cloudy/images/brand/seal-logo.png" 
+            alt="Official City of Portland seal. The image depicts Portlandia holding her trident backdropped by mountain and river, accompanied by the text 'City of Portland, Oregon 1851'" 
+            class="img-fluid" />
+      </picture>
+        
+  </a>
+
+    </div>
+  
+
+      
+                            
+        <button type="button" data-bs-toggle="collapse" aria-expanded="false" role="button" data-bs-target="#cloudy-search" aria-controls="cloudy-search" aria-label="toggle site search" class="btn cloudy-header__toggle cloudy-header__toggle--search">
+          <span class="toggle__label">
+            <span class="icon toggle-icon icon-search"></span>
+            Search
+          </span>
+        </button>
+      
+                    <div id="cloudy-search" class="cloudy-header__search-wrapper collapse">
+          <div class="d-flex px-4 py-6 px-md-0 py-lg-0 align-items-center">
+            
+      <div class="region region-header-form cloudy-header__search-region">
+      
+
+
+
+
+
+<div class="search-api-page-block-form-search-portland-gov search-api-page-block-form search-form search-block-form container-inline cloudy-search-form cloudy-search-form--small block block-search-api-page block-search-api-page-form-block d-block d-lg-flex align-items-center" data-drupal-selector="search-api-page-block-form-search-portland-gov" novalidate="" id="block-searchapipagesearchblockform" data-block-plugin-id="search_api_page_form_block">
+      
+        
+        <div class="content w-100">
+      
+<form action="/search" method="get" id="search-api-page-block-form-search-portland-gov" accept-charset="UTF-8">
+        <div class="js-form-item form-item js-form-type-search-api-autocomplete form-item-keys js-form-item-keys form-no-label">
+          <label for="edit-keys" class="visually-hidden">Search</label>
+                
+
+  <input placeholder="Search Portland.gov" aria-label="Search Portland.gov" title="Search Portland.gov" size="20" data-twig-suggestion="search-api-page-block-form-search-portland-gov" data-drupal-selector="edit-keys" data-search-api-autocomplete-search="search_portland_gov" class="form-autocomplete cloudy-search-form__input" data-autocomplete-path="/search_api_autocomplete/search_portland_gov" type="search" id="edit-keys" name="keys" value="" maxlength="128" />
+
+                  </div>
+<div data-twig-suggestion="search-api-page-block-form-search-portland-gov" data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions">
+
+    <input data-twig-suggestion="search-api-page-block-form-search-portland-gov" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="" class="button js-form-submit form-submit cloudy-btn--icon" aria-label="submit"/>
+  
+</div>
+
+  </form>
+
+    </div>
+  </div>
+
+    </div>
+  
+
+                        <button type="button" data-bs-toggle="collapse" aria-expanded="false" role="button" data-bs-target="#cloudy-search" aria-controls="cloudy-search" aria-label="close site search" class="cloudy-header__close-search">
+              <span class="icon icon--size-s m-0"><svg id="icon-close" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="16" height="16"><title>close</title><path fill="currentColor" d="M9.61001 7.66556L13.5381 3.73744C13.7334 3.54217 13.7334 3.22561 13.5381 3.03034L12.6542 2.14645C12.459 1.95118 12.1424 1.95118 11.9471 2.14645L8.01902 6.07457L4.09099 2.14653C3.89572 1.95126 3.57916 1.95126 3.38388 2.14653L2.5 3.03042C2.30473 3.22569 2.30473 3.54225 2.5 3.73752L6.42803 7.66556L2.75475 11.3388C2.55948 11.5341 2.55948 11.8507 2.75475 12.0459L3.63863 12.9298C3.8339 13.1251 4.15047 13.1251 4.34574 12.9298L8.01902 9.25655L11.6924 12.9299C11.8877 13.1252 12.2042 13.1252 12.3995 12.9299L13.2834 12.046C13.4787 11.8508 13.4787 11.5342 13.2834 11.3389L9.61001 7.66556Z" /></svg></span>            </button>
+          </div>
+        </div>
+      
+            
+            <button type="button" data-bs-toggle="collapse" aria-expanded="false" role="button" data-bs-target="#cloudy-menu" aria-controls="cloudy-menu" aria-label="toggle site menu" class="btn cloudy-header__toggle cloudy-header__toggle--menu">
+        <span class="toggle__label">
+          <span class="icon toggle-icon icon-menu"></span>
+          Menu
+        </span>
+      </button>
+    </div>
+
+        <div id="cloudy-menu" class="cloudy-header__menu-wrapper collapse">
+      
+      <div class="container py-4 region region-primary-menu">
+      
+
+
+
+
+
+<nav id="block-cloudy-main-menu" data-block-plugin-id="system_menu_block:main" class="block block-system block-system-menu-blockmain mb-4">
+      
+          <h2 class="h3">General Information</h2>
+        
+      
+  
+
+<ul class="list-unstyled mb-0 mx-n4 tiles">
+                <li class="d-flex">
+          
+
+<a href="/advisory-groups" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Advisory Groups</span>
+      <span class="text-dark">Groups, boards, and commissions.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/bureaus-offices" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Bureaus and Offices</span>
+      <span class="text-dark">City departments.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/events" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Calendar of Events</span>
+      <span class="text-dark">Events, public meetings, and hearings.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/charter-code-policies" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Charter, Code, Policies</span>
+      <span class="text-dark">Official City documents.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/council-clerk" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">City Council</span>
+      <span class="text-dark">Live sessions, agendas, and archives.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/construction" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Construction Projects</span>
+      <span class="text-dark">Building, transportation, maintenance, and sewer projects.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/parks/search" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Find a Park</span>
+      <span class="text-dark">Parks, facilities, and reservations.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/neighborhoods" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Neighborhoods</span>
+      <span class="text-dark">Neighborhood directory.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/news" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">News</span>
+      <span class="text-dark">Articles, blogs, press releases, public notices, and newsletters.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/projects" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Projects</span>
+      <span class="text-dark">Planning, outreach and education, strategic, and technology projects.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="/services" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Services and Resources</span>
+      <span class="text-dark">Service and resource directory.</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+              <li class="d-flex">
+          
+
+<a href="https://www.governmentjobs.com/careers/portlandor" class="mega-menu__link--gtm tile d-flex  text-decoration-none p-4 flex-grow-1">
+                      <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">Jobs with the City</span>
+      <span class="text-dark">Opportunities posted to governmentjobs.com</span>
+    </div>
+  
+              <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>            </a>
+        </li>
+          </ul>
+
+</nav>
+
+
+
+
+
+
+<nav class="views-element-container block block-views block-views-blockelected-official-menu-mega-menu-block mb-0" id="block-views-block-elected-official-menu-mega-menu-block" data-block-plugin-id="views_block:elected_official_menu-mega_menu_block">
+      
+          <h2 class="h3">Elected Officials</h2>
+        
+        <div><div class="view view-elected-official-menu view-id-elected_official_menu view-display-id-mega_menu_block js-view-dom-id-e95df5a98609023a30cac9be7e1206d1a2195f5f397b60b968ba0d6f0feb05ec">
+  
+    
+      
+      <div class="view-content">
+      <div>
+  
+  <ul class="tiles list-unstyled mb-0 mx-n4">
+
+          <li class="d-flex">
+
+<a href="/wheeler" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2022/wheeler-headshot-2022.jpg?itok=6iJB3OUT 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2022/wheeler-headshot-2022.jpg?itok=aej9Jmel 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2022/wheeler-headshot-2022.jpg?itok=aej9Jmel 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2022/wheeler-headshot-2022.jpg?itok=6iJB3OUT" alt="Mayor Wheeler in front of City Hall" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Ted Wheeler</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">Mayor</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+          <li class="d-flex">
+
+<a href="/rubio" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/carmen-rubio.jpg?itok=F5_1Tp2p 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/carmen-rubio.jpg?itok=iAvpf1Ii 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/carmen-rubio.jpg?itok=iAvpf1Ii 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/carmen-rubio.jpg?itok=F5_1Tp2p" alt="Commissioner Carmen Rubio photo" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Carmen Rubio</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">City Commissioner</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+          <li class="d-flex">
+
+<a href="/ryan" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/katalina-berbari-2_0.jpg?itok=ppO0piHB 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/katalina-berbari-2_0.jpg?itok=dPCRA5ae 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/katalina-berbari-2_0.jpg?itok=dPCRA5ae 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/katalina-berbari-2_0.jpg?itok=ppO0piHB" alt="Commissioner Dan Ryan" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Dan Ryan</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">City Commissioner</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+          <li class="d-flex">
+
+<a href="/gonzalez" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2023/951a2438.jpg?itok=BkSQTjkE 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2023/951a2438.jpg?itok=6Hw4P7Yr 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2023/951a2438.jpg?itok=6Hw4P7Yr 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2023/951a2438.jpg?itok=BkSQTjkE" alt="Commissioner Rene Gonalez" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Rene Gonzalez</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">City Commissioner</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+          <li class="d-flex">
+
+<a href="/mapps" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/minguswattributionjpegcrop2_0.jpg?itok=1EafYxZs 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/minguswattributionjpegcrop2_0.jpg?itok=B3r9zjsb 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2021/minguswattributionjpegcrop2_0.jpg?itok=B3r9zjsb 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2021/minguswattributionjpegcrop2_0.jpg?itok=1EafYxZs" alt="Commissioner Mapps" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Mingus Mapps</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">City Commissioner</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+          <li class="d-flex">
+
+<a href="/auditor/rede" class="tile d-flex align-items-center text-decoration-none p-4 flex-grow-1">
+      <div class="me-4">
+      
+
+
+
+<div class="field field--label-hidden field--name-field-person-image field--type-entity-reference"><div class="mb-0"><div class="media media--type-image media--view-mode-elected-official-thumbnail"><div class="field field--label-hidden field--name-image field--type-image mb-0"><div class="mb-0"><picture><source srcset="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2022/auditor-simone-rede_1.jpg?itok=FZLghPzN 1x" media="all and (min-width: 992px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2022/auditor-simone-rede_1.jpg?itok=Qa0dbxAX 1x" media="all and (min-width: 576px)" type="image/jpeg"/><source srcset="/sites/default/files/styles/elected_official_thumbnail_64x64/public/2022/auditor-simone-rede_1.jpg?itok=Qa0dbxAX 1x" media="all and (max-width: 575px)" type="image/jpeg"/><img is_rounded src="/sites/default/files/styles/elected_official_thumbnail_80x80/public/2022/auditor-simone-rede_1.jpg?itok=FZLghPzN" alt="Auditor Simone Rede with cherry blossom trees in background" class="rounded-circle img-fluid"/></picture></div></div></div></div></div>
+    </div>
+            <div class="d-flex flex-column">
+      <span class="h5 mb-0 text-primary">
+
+
+
+<div class="field field--label-hidden field--name-field-name field--type-string"><div class="mb-0">Simone Rede</div></div></span>
+      <span class="text-dark">
+
+
+
+<div class="field field--label-hidden field--name-field-official-title field--type-string"><div class="mb-0">City Auditor</div></div></span>
+    </div>
+  
+    <i class="d-md-none me-0 ms-auto align-self-center text-muted fas fa-angle-right"></i>  </a>
+</li>
+    
+  </ul>
+
+</div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </nav>
+
+    </div>
+  
+    </div>
+  </header>
+
+  
+  <div class="bg-light admin-tabs" role="navigation" id="tabs">
+    <div class="region region-tabs">
+      
+    </div>
+  </div>
+
+
+  
+      <div class="region region-messages">
+      <div data-drupal-messages-fallback class="hidden"></div>
+
+    </div>
+  
+
+  
+  <section class="pre-content container d-print-block">
+    
+
+
+
+
+
+<div id="block-cloudy-breadcrumbs" data-block-plugin-id="system_breadcrumb_block" class="block block-system block-system-breadcrumb-block mb-6">
+      
+        
+        <div class="content">
+      
+  <nav class="breadcrumb" role="navigation" aria-label="breadcrumb">
+  <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
+  <ol class="breadcrumb__list">
+            <li class="breadcrumb__item">
+                <a href="/">Home</a>
+      </li>
+                <li class="breadcrumb__item">
+                  <span class="breadcrumb__divider" aria-hidden="true">/</span>
+                <a href="/transportation">Transportation</a>
+      </li>
+                <li class="breadcrumb__item">
+                  <span class="breadcrumb__divider" aria-hidden="true">/</span>
+                <a href="/transportation/weather">Weather</a>
+      </li>
+        </ol>
+</nav>
+
+    </div>
+  </div>
+
+  </section>
+
+
+
+
+<main id="main-content" class="d-print-block" role="main" data-swiftype-index="true">
+      <div class="main-content container">
+      <div >
+        <div >
+                      
+      <div class="region region-content">
+      
+
+
+
+
+
+<div id="block-cloudy-page-title" data-block-plugin-id="page_title_block" class="block block-core block-page-title-block mb-6">
+      
+        
+        <div class="content">
+      
+  <h1 class="page-title"><span class="field field--name-title field--type-string field--label-hidden">Winter Weather Basics and FAQ</span>
+</h1>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+<div id="block-cloudy-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block mb-6">
+      
+        
+        <div class="content">
+      <div class="row">
+  <div class="cloudy-content col-lg-8 col-md-12">
+    <article  role="article">
+      
+  
+
+<div class="badge rounded-pill text-wrap text-left bg-light mb-4">
+          Information
+      </div>
+      	
+<div class="media media--type-image media--view-mode-banner"><img srcset="/sites/default/files/styles/2_1_400w/public/2020/faq.png?itok=kMprxPNk 400w, /sites/default/files/styles/2_1_800w/public/2020/faq.png?itok=AHojWckd 800w, /sites/default/files/styles/2_1_1600w/public/2020/faq.png?itok=FBmMjPYc 1600w" sizes="(min-width: 992px) 66vw, 100vw" src="/sites/default/files/styles/2_1_400w/public/2020/faq.png?itok=kMprxPNk" alt="winter weather basics and faq" class="img-fluid"/></div>
+
+      
+
+
+
+
+<div class="field field--label-hidden field--name-field-summary field--type-string"><div class="cloudy-lead-text">Residents, property owners and our business community are an essential part of helping the city rebound quickly after a storm. Emergency resources, winter weather basics for residents and businesses, and how the Portland Bureau of Transportation (PBOT) prepares for and responds to winter weather. </div></div>
+            
+      <div  class="node__content clearfix">
+        
+<div id="sticky-anchor"></div>
+<div  class="toc-js" id="toc-js-node-14999" data-selectors="h2" data-selectors-minimum="0" data-container=".field--name-field-body-content" data-prefix="toc" data-list-type="ul" data-back-to-top="0" data-back-to-top-label="Back to top" data-smooth-scrolling="0" data-scroll-to-offset="0" data-highlight-on-scroll="1" data-highlight-offset="100" data-sticky="0" data-sticky-offset="0" data-sticky-stop="" data-sticky-stop-padding="0">
+  <div  class="toc-title h2">On this page</div>
+  <nav aria-label="On this page"></nav>
+</div>
+
+
+
+
+<div class="clearfix text-formatted field field--label-hidden field--name-field-body-content field--type-text-long"><div class="field__item"><h2>How to get emergency information</h2><p>What you need to know now in the event of a winter storm.</p><p><a class="btn-cta" href="https://www.portlandoregon.gov/transportation/article/620347"><strong>ROAD CLOSURES</strong></a>  Current PBOT winter weather road closures and chain advisories. To report road hazards, call PBOT Maintenance emergency dispatch 24/7 at <strong>503-823-1700</strong></p><p><a class="btn-cta" href="https://pdx.maps.arcgis.com/apps/MapSeries/index.html?appid=935da87d18d148d784d164adcb7218df"><strong>WINTER WEATHER CENTER</strong></a>  Interactive map showing PBOT’s snow and ice routes, where we deploy salt, as well as real-time traffic, weather, road closure, and plow information.</p><p><a class="btn-cta" href="http://www.publicalerts.org/"><strong>PUBLIC ALERTS</strong></a>  Sign up for emergency notifications via text, email, or phone from regional agencies including PBOT, the Oregon Department of Transportation (ODOT), TriMet, and Multnomah County.</p><p><a class="btn-cta" href="https://tripcheck.com/"><strong>ODOT’s TripCheck</strong></a>Weather and road conditions for area highways as well as U.S. and state routes in Portland such as:</p><ul><li>SW Macadam Avenue (OR-43)</li><li>SW Barbur Boulevard (OR-99W)</li><li>SE Powell Boulevard (US-26)</li><li>N Lombard Street and outer SE Sandy Boulevard (US-30B).</li></ul><p><a class="btn-cta" href="https://multco.us/roads/current-road-closures"><strong>MULTNOMAH COUNTY</strong></a>  Bridge closures and county road closures.</p><p><a class="btn-cta" href="https://www.portland.gov/transportation/get-home-safe-winter-travel-tips"><strong>GET HOME SAFE: Winter Travel Tips</strong></a>  How to plan ahead for winter weather, plus essential tips for taking transit, walking, biking, and driving in winter weather.</p><p><a class="btn-cta" href="https://public.govdelivery.com/accounts/ORPORTLAND/subscriber/new?topic_id=ORPORTLAND_172"><strong>PBOT NOTIFICATIONS</strong></a>  Choose the PBOT notifications you want to receive via email or text including news releases, traffic advisories, and winter weather information.</p><p><strong>...AND BE SURE TO FOLLOW PBOT ON SOCIAL MEDIA. </strong>Visit <a href="https://www.facebook.com/PBOTInfo/"><strong>PBOT on Facebook</strong></a> or follow <a href="https://twitter.com/PBOTinfo"><strong>@PBOTInfo</strong></a> on Twitter for news, alerts, road closures, advisories and more during winter weather.</p><hr /><h2>FAQ for Residents and Businesses</h2><p>Residents, property owners and our business community are an essential part of helping the city rebound quickly after a storm. Clearing sidewalks and other pathways of snow and ice is vital for everyone who relies on public transit in winter weather, as well as for seniors and people with disabilities. Make sure your family and your fellow employees have a plan to get home safe and that you check on vulnerable neighbors who may need assistance, supplies, or medication.</p><h3><strong>PREPARATION</strong></h3><ul><li><strong>How do I plan ahead?</strong> See our <a href="https://www.portlandoregon.gov/transportation/article/319804"><strong>GET HOME SAFE: Winter Travel Tips</strong></a>for how to plan before winter hits and how to travel in severe weather. See our Emergency Information above for where to find the latest road closures, chain advisories, and the best bookmarks and alerts to keep you up-to-date on winter weather.</li></ul><ul><li><strong>How do I stay informed?</strong> Stay informed and heed severe weather warnings. See our Emergency Information section above for latest road closures, chain advisories, and the best bookmarks and alerts to stay informed on winter weather.</li></ul><h3><strong>CLEARING SIDEWALKS AND OTHER HAZARDS</strong> </h3><ul><li><strong>What do I have to do to clear sidewalks and driveways?</strong> By <a href="https://www.portlandoregon.gov/citycode/article/19574"><strong>city code</strong></a>, property owners, tenants, and businesses MUST clear their sidewalks and the path across their driveway as soon as possible after a storm. PBOT does NOT remove snow and ice from sidewalks. Be prepared with ice melt to treat your sidewalks and driveways before winter weather hits and keep a snow shovel at the ready to clear a path at least 3-feet wide as soon as possible after a storm.</li></ul><ul><li><strong>What do I have to do to clear my catch basins?</strong> Keep your catch basins clear of snow, ice, slippery leaves, and debris whenever possible. To report blocked catch basins you cannot clear, PBOT Maintenance emergency dispatch is available 24/7 at 503-823-1700.</li></ul><ul><li><strong>What do I have to do to warn the public of overhead hazards?</strong> Property owners, tenants, and businesses MUST warn the public about the danger of falling snow, ice, or other debris around your property. Be prepared to post an advisory sign or sandwich board and eliminate the hazard as soon as possible.</li></ul><h3><strong>FROZEN PIPES</strong></h3><ul><li><strong>What if my water pipes break or freeze?</strong> If your pipes break, shut off your water and water heater immediately. If you are unable to find your water shut-off valve, call Emergency Dispatch 503-823-4874 for assistance. If your pipes freeze, thaw plumbing lines safely with a hair dryer or heat lamp. Leave a small amount of water running so the pipe doesn’t re-freeze. DO NOT open the water meter box near the curb as this could increase the chance of freezing water at the meter. More tips from the <strong><a href="https://www.portland.gov/water/prepare-winter">Portland Water Bureau</a></strong>.</li></ul><h3><strong>VEHICLES AND DRIVING</strong></h3><ul><li><strong>Do I need to move my parked car out of the way of snowplows?</strong> If you live on a snow and ice route, move your car off-street whenever possible. Also be prepared that snow berms may block your car or driveway. If you need to remove these berms be sure to shovel snow where it can be absorbed in the ground, not in the street, sidewalk, or other pathways.</li></ul><ul><li><strong>Where are traction devices required?</strong> During major events, PBOT will require traction devices -- traction tires or chains -- for W Burnside Street (west of NW 23rd Avenue) and SW Sam Jackson Park Road. These requirements will be enforced by the Portland Police Bureau and Oregon Health &amp; Science University (OHSU) Police. Electronic message boards will indicate when chains are required. There will be areas set aside to chain your vehicle. Failure to use vehicle traction devices where required is a Class C traffic violation (<a href="https://www.oregonlaws.org/ors/815.140">ORS 815.140</a>) with a presumptive fine of $170. PBOT advises the use of traction devices to get to or from our snow and ice routes and to use EXTREME CAUTION driving at higher elevations. Use this same caution in areas more prone to freezing first such as bridges, overpasses, and steep hills. Examples in the west hills include NW Cornell Road, NW Germantown Road, NW Skyline Boulevard, SW Bancroft Street, and SW Hamilton Street. Examples on the eastside include SE Flavel Road, Marine Drive, and the areas surrounding Mount Scott, Mount Tabor, and Rocky Butte. Check our <a href="https://www.portlandoregon.gov/transportation/article/620347"><strong>Winter Weather Road Closures and Chain Advisories</strong></a> page for latest closures. See below for information on studded tires.</li></ul><ul><li><strong>When can I use studded tires?</strong> Oregon law permits the use of studded tires from Nov. 1 to April 1. Use of studded tires outside of these dates is a Class C traffic violation (<a href="https://www.oregonlaws.org/ors/815.160">ORS 815.160</a>) with a presumptive fine of $170. PBOT and ODOT encourage drivers to consider other types of traction tires because of the costly damage studded tires inflict on our roads. Non-studded traction tires that have passed industry standards for winter traction performance are entitled to display a three-peaked mountain and snowflake symbol on their sidewalls. Research shows these tires provide better traction than studded tires when used on bare pavement and in most winter-driving conditions.</li></ul><hr /><h2>How PBOT prepares and responds to winter weather</h2><p>PBOT is ready to respond to weather emergencies 24/7. A single storm can produce wildly different road conditions throughout the city based on timing, weather patterns, and geography. Moisture and cold temperature combine in myriad ways to create hazardous conditions on our roads. Here’s how we prepare and respond in all conditions.</p><h3><strong>PREPARATION</strong></h3><ul><li><strong>How does PBOT prepare?</strong> PBOT is in ready mode for winter weather from Nov. 1 to March 15. Early fall, we clean, test, and repair all essential equipment and review any changes to our snow and ice plan for the year. We also make sure our crews have practiced using winter equipment, checked their routes for changes or hazards in the right-of-way, and are generally ready for any weather scenario. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for an interactive map of our snow and ice routes and where we deploy salt.</li><li><strong>How does PBOT monitor weather forecasts? </strong>PBOT works with a contracted meteorologist, follows national and local weather forecasts, and talks with crews on the ground monitoring real-time conditions. Portland’s average annual snowfall is 4.5 inches per year. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for an interactive map of our snow and ice routes and for real-time weather and road closure information.</li><li><strong>Who takes the lead during winter weather?</strong> PBOT is the lead agency for snow and ice response in Portland. When there is the threat of snow or ice, PBOT moves to the National Incident Management System (NIMS) Incident Command System (ICS) model. In extreme storm events, the city's Emergency Coordination Center (ECC) may be activated to respond to the event in coordination with other public agencies. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for our snow and ice routes, live traffic cameras, as well as real-time road closure, weather, and plow information. More resources above under Emergency Information. For information on winter weather warming shelters, dial 2-1-1 toll free or visit <strong><a href="http://211info.org/">211info.org</a></strong>.</li></ul><h3><strong>SNOW AND ICE ROUTES</strong></h3><ul><li><strong>What are PBOT’s snow and ice routes?</strong> In the event of winter weather, PBOT works to keep vital transit lines and emergency routes open in winter weather. These snow and ice routes are the most critical for our city’s police and fire stations, hospitals, schools, frequent bus routes, the downtown core, and major business districts -- about a third of our entire street grid. PBOT’s mission is to provide at least one passable lane in each direction on these routes so that vehicles with front wheel drive or traction devices can get through. Depending on the severity of snow and ice, it can take up to three 12-hour shifts for our crews to sufficiently treat our routes with anti-icer. In a major snowfall, it can take our crews up to one 12-hour shift to plow our routes. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for a full interactive map of our routes.</li><li><strong>Why doesn’t PBOT treat or plow local side streets and residential streets?</strong> PBOT does NOT treat or plow local side streets outside our snow and ice routes. PBOT does NOT treat or plow any street with a grade steeper than 14% because of the danger to our crews and equipment. PBOT maintains over 4,875 lane miles in the city. Without nonstop focus on our snow and ice routes -- about 1,749 lane miles -- we could risk impairing emergency response, public transit operations, and general mobility throughout the city. See our <a href="https://www.portlandoregon.gov/transportation/article/319804"><strong>Get Home Safe: Winter Travel Tips</strong></a>for more information on how to plan ahead to get around in winter weather.</li><li><strong>Why doesn’t PBOT treat or plow state roads and highways in Portland?</strong> While PBOT covers its snow and ice routes, the Oregon Department of Transportation (ODOT) handles interstate highways as well as U.S. and state routes in Portland such as those listed below. Go to <a href="https://tripcheck.com/"><strong>ODOT’s TripCheck</strong></a> for the latest information on these routes. 
+	<ul><li>SW Macadam Avenue (OR-43)</li><li>SW Barbur Boulevard (OR-99W)</li><li>SE Powell Boulevard (US-26)</li><li>N Lombard Street and outer SE Sandy Boulevard (US-30B)</li></ul></li><li><strong>How do emergency vehicles get to the streets PBOT doesn’t treat or plow?</strong> PBOT and emergency services are in constant contact during winter weather. If emergency vehicles need assistance to access local and residential streets outside our snow and ice routes, PBOT dispatches plows or other equipment to assist.</li></ul><h3><strong><strong>ANTI-ICING, SALT, GRAVEL, AND PLOWS</strong></strong></h3><ul><li><strong>How does PBOT treat the roads?</strong> In winter weather, PBOT treats our roads with liquid anti-icing and deicing chemicals, spreads road salt and gravel, plows, and removes snow from the road. PBOT takes care to monitor air and road surface temperatures around the city, among many factors, to determine the best combination of these approaches on our routes. The intensity of one storm and the amount of accumulation can differ widely throughout the city because of altitude, temperature, and geographical differences. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for our snow and ice routes, where we deploy salt, and to track our equipment in real time.</li><li><strong>Where does PBOT use anti-icing and deicing chemicals?</strong> PBOT uses liquid anti-icing chemicals on roads prone to icing such as exposed bridges and overpasses, hilly areas, and elsewhere throughout our snow and ice routes. For these applications, PBOT uses liquid magnesium chloride (MgCl<sub>2</sub>), a salt brine that lowers the freezing temperature of water. PBOT treats these routes before storms hit whenever possible. We monitor conditions closely because above-freezing temperatures combined with rain could wash away the treatment before a winter storm. Our crews apply jets of this liquid in the travel lanes after the evening peak traffic period and before the morning rush. After storms, as well as at night when temperatures drop, PBOT uses a heavier application of these chemicals to deice, helping break the bond of packed snow and ice on the pavement. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> for a map of our anti-icing routes and to watch our equipment in real time.</li><li><strong>Where does PBOT use road salt?</strong> PBOT uses road salton the sections of our snow and ice routes most prone to closure during severe winter storms – up to 136 lane miles, depending on conditions. These tend to be steep hills, vital routes for our hospitals and business districts, as well as roads that our neighboring counties use to connect to Portland. Our road salt has anti-corrosive additives to protect vehicle wear and tear. We plan with our partners in the Bureau of Environmental Services to minimize the impact of salination to our rivers and streams. See our <a href="https://www.portlandoregon.gov/winter"><strong>Winter Weather Center</strong></a> route map for where we spread road salt and to watch our equipment in real time.</li><li><strong>Where does PBOT spread gravel?</strong> PBOT spreads quarter-ten gravel to provide extra traction and break up compacted snow and ice in locations where deicing is less effective. PBOT uses gravel sparingly because of its negative impacts to our environment and the costly, time-consuming work of cleaning it up after a storm. For information on how gravel is cleaned up, see the second to last paragraph of our <strong>During and after a storm: parking, towing, and road hazards</strong> section below.</li><li><strong>How much snow until PBOT starts plowing?</strong> PBOT plows snow after an accumulation of one-half inch or more. PBOT plows snow into berms curbside, not into the center of the street. This way, PBOT minimizes road hazards and allows for the greatest amount of coverage and visibility for all road users, including pedestrians. Our crews plow to within one-half inch of the pavement itself, to prevent damage to the road and our equipment. If the pavement is dry and blowing snow is light and cold, plowing is not always necessary.</li><li><strong>How does PBOT treat and plow downtown Portland?</strong> The streets in our downtown core and transit mall are part of our snow and ice routes. By <a href="https://www.portlandoregon.gov/citycode/article/19574"><strong>city code</strong></a>, property owners, tenants, and businesses downtown--same as throughout the city--are responsible for keeping their sidewalks and pathways across driveways clear from snow, ice, and other hazards. Property owners are also responsible for warning the public of the dangers of falling snow or ice around their property. See our Residents and Businesses section on how best to prepare for winter weather and keep our city moving.</li><li><strong>How much equipment does PBOT have?</strong> For winter weather PBOT operates:
+	<ul><li>56 trucks equipped with snowplows and gravel spreaders</li><li>12 salt trucks equipped with snowplows</li><li>12 service trucks</li><li>7 anti-icing trucks</li><li>4 street-closure trucks</li><li>4 loaders</li><li>3 backhoes</li><li>2 road graders</li><li>1 enclosed bike-lane sweeper with plow, sander, and snow tires</li><li>1 enclosed bobcat with plow and sander</li><li>1 fuel truck.</li><li>+ PBOT also has agreements in place with the Portland Water Bureau, private plow companies, and regional agencies like the Seattle Department of Transportation to help out in bigger storms.</li></ul></li><li><strong>How much salt, gravel, and anti-icer does PBOT have?</strong> PBOT is ready with 114,000 gallons of liquid magnesium chloride for anti-icing and deicing, 2,700 cubic yards of road salt, and supplies of quarter-ten gravel across six locations, with capacity to store more.</li><li><strong>Where is PBOT’s equipment during a storm?</strong> PBOT pre-stages our equipment and supplies throughout the city to respond as quickly as possible when winter weather hits. See our <strong><a href="https://www.portlandoregon.gov/winter">Winter Weather Center</a></strong> to track our equipment in real time during the storm.</li><li><strong>What do we do when we see PBOT crews?</strong> Give PBOT crews time and space to do their work in winter weather. Our crews drive equipment in low visibility and extreme weather. DO NOT cut in front of them or try and pass them at any time. Even if they are going slow, you will find the road much clearer and safer behind a snowplow than in front! Don’t assume you know what their job is. Our crews perform multiple jobs with their trucks, not just plowing. If you see a truck with its plow up, they may be travelling between points on their route, refueling, responding to an emergency, or otherwise doing tasks to keep the city moving during winter weather. Thank our PBOT crews. Our Maintenance division works around the clock to keep our routes clear, respond to emergencies, close dangerous roads and help our city keep moving in winter weather. Visit <a href="https://www.facebook.com/PBOTInfo/"><strong>PBOT on Facebook</strong></a> or follow <a href="https://twitter.com/PBOTinfo"><strong>@PBOTInfo</strong></a> on Twitter to thank them for their work.</li></ul><hr /><h2><strong>During and after a storm: parking, towing, and road hazards</strong></h2><ul><li><strong>How does PBOT enforce parking during a storm? </strong>PBOT still enforces parking regulations in winter weather. However, some severe storms hit forecasters and Portland commuters by surprise. In these cases, PBOT may implement a parking amnesty in downtown metered districts so people can take transit home, then recover their vehicles after a specified time. Subscribe to <a href="https://public.govdelivery.com/accounts/ORPORTLAND/subscriber/new?topic_id=ORPORTLAND_81"><strong>PBOT Notifications</strong></a> for alerts via text or email of news releases, traffic advisories, and winter weather alerts such as parking amnesty announcements.</li><li><strong>What happens to vehicles abandoned in the road?</strong> Any vehicle creating a safety hazard is subject to citation, tow, and impound. The cost of a tow for abandoned vehicles preventing free passage is $206. This is <em>in addition to </em>the citation cost of a Class B traffic violation (<a href="https://www.oregonlaws.org/ors/819.100">ORS 819.100</a>) with a presumptive fine of $270. Additional costs to store a towed vehicle longer than four hours is $28 per day. To locate an abandoned vehicle which was towed, visit <strong><a href="https://search.autoreturn.com/">search.autoreturn.com</a></strong> or call Police Auto Records at 503-823-0044.</li><li><strong>How do I report road hazards?</strong> PBOT Maintenance emergency dispatch is available 24/7 at 503-823-1700.</li><li><strong>What if I my vehicle was cited or towed?</strong> Parking and road safety regulations are enforceable during a winter storm. Any vehicle creating a safety hazard is subject to citation, tow, and impound. See our <a href="https://www.portlandoregon.gov/transportation/article/319804"><strong>Get Home Safe: Winter Travel Tips</strong></a> for PBOT’s best advice for planning ahead for winter weather travel to avoid getting you or your vehicle stuck. The cost of a citation and tow for abandoned vehicles preventing free passage is $206. This is <em>in addition to </em>the citation cost of a Class B traffic violation (<a href="https://www.oregonlaws.org/ors/819.100">ORS 819.100</a>) with a presumptive fine of $270. Additional costs to store a towed vehicle longer than four hours is $28 per day. To recover an abandoned vehicle which was towed, call Police Auto Records at 503-823-0044. Follow the instructions on your citation to contest or resolve it with the <a href="https://www.courts.oregon.gov/courts/multnomah/Pages/default.aspx"><strong>County Circuit Court</strong></a>. In some severe storms, PBOT may institute a parking amnesty in downtown metered districts to encourage people to take public transit home. For parking amnesty alerts, check <a href="https://www.portlandoregon.gov/transportation/39132"><strong>PBOT News</strong></a> or subscribe to <a href="https://public.govdelivery.com/accounts/ORPORTLAND/subscriber/new?topic_id=ORPORTLAND_81"><strong>PBOT Notifications</strong></a> via text or email.</li><li><strong>How long does it take to remove gravel?</strong> PBOT deploys street sweepers to pick up gravel from affected streets as soon as possible after a snow and ice event. Ice on the roadway can damage these vehicles, so PBOT deploys our sweepers once there’s a thaw and temperatures are above 40 degrees. PBOT’s first priority for gravel removal is bike lanes on major arterial streets. Gravel and other debris are more hazardous to cyclists and other vulnerable road users than they are to vehicles. Cleanup is slow. PBOT sweepers travel at only 3 mph to pick up gravel, a fraction of the speed from when we lay it down. Please be patient as we work our way through our routes. We recover as much as 75% of the gravel we lay down for reuse.</li><li><strong>Why are manhole covers worse than the rest of the road?</strong> During severe snow and ice storms, humps of compacted snow and ice may appear around manholes and utility vault covers because of continued warming and thawing from below. These are hard to plow over and level out. Drive carefully. It may take warmer, sunnier conditions to thaw these areas.</li></ul><hr /><h2>Other city resources for winter weather</h2><p>Find out about winter weather services including:</p><ul><li>Portland Parks &amp; Recreation policies and closures</li><li>Reporting downed trees</li><li>Shelters provided by Homeless Services</li><li>Home safety </li><li>Garbage, recycling, and composting</li></ul><p>..by visiting the city's <strong><a href="https://www.portland.gov/omf/winterweatherservices">Winter weather and City of Portland services</a></strong> page</p></div></div><div class="views-element-container"></div>
+
+      </div>
+
+                            </article>
+  </div>
+  <div class="cloudy-side col-lg-4 col-md-12">
+                    
+
+
+
+<div class="field field--label-above field--name-field-contact field--type-entity-reference"><h2 class="field__label">Contact</h2><div class="field__items"><div class="field__item"><div class="cloudy-contact-item"><h3 class="h5">PBOT 24/7 Maintenance Dispatch</h3><div class="cloudy-contact__resource"><div class="cloudy-contact-item__resource-wrapper"><a href="mailto:PDXroads@portlandoregon.gov" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-email" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="16" height="16"><title>email</title><path fill="currentColor" d="M14.5 2H1.5C0.671562 2 0 2.67156 0 3.5V12.5C0 13.3284 0.671562 14 1.5 14H14.5C15.3284 14 16 13.3284 16 12.5V3.5C16 2.67156 15.3284 2 14.5 2ZM14.5 3.5V4.77516C13.7993 5.34575 12.6822 6.233 10.2942 8.10297C9.76787 8.51694 8.72537 9.51147 8 9.49988C7.27475 9.51159 6.23191 8.51678 5.70584 8.10297C3.31813 6.23328 2.20078 5.34584 1.5 4.77516V3.5H14.5ZM1.5 12.5V6.69994C2.21606 7.27028 3.23153 8.07063 4.77931 9.28263C5.46234 9.82028 6.6585 11.0072 8 11C9.33491 11.0072 10.5159 9.8375 11.2204 9.28288C12.7682 8.07091 13.7839 7.27034 14.5 6.69997V12.5H1.5Z"/></svg></span><span>PDXroads@portlandoregon.gov</span></a></div><div class="cloudy-contact-item__resource-wrapper"><a href="tel:503-823-1700" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><title>phone number</title><path fill="currentColor" d="M15.9059 0.771335L12.6537 0.0208469C12.487 -0.0208469 12.3202 0 12.1534 0.0833876C11.9866 0.166775 11.872 0.281433 11.8094 0.427362L10.3085 3.92964C10.2459 4.09642 10.2355 4.26319 10.2772 4.42997C10.3189 4.5759 10.4023 4.70098 10.5274 4.80521L12.4036 6.36873C11.8407 7.57785 11.0798 8.66189 10.1208 9.62085C9.18274 10.5798 8.0987 11.3407 6.86873 11.9036L5.33648 10.0274C5.23225 9.88143 5.09674 9.79805 4.92997 9.7772C4.76319 9.73551 4.60684 9.74593 4.46091 9.80847L0.958632 11.3094C0.791857 11.372 0.666775 11.4866 0.583388 11.6534C0.5 11.8202 0.479153 11.987 0.520847 12.1537L1.27134 15.4059C1.29218 15.5935 1.37557 15.7394 1.5215 15.8436C1.66743 15.9479 1.82378 16 1.99055 16C4.61726 16 7.05635 15.3433 9.30782 14.03C11.4967 12.7375 13.2375 10.9967 14.53 8.80782C15.8433 6.55635 16.5 4.11726 16.5 1.49055C16.5 1.32378 16.4479 1.16743 16.3436 1.0215C16.2394 0.87557 16.0935 0.792182 15.9059 0.771335Z" /></svg></span><span>503-823-1700</span></a><span class="d-block ms-6">Available 24/7 for emergency road hazards.</span></div></div></div></div></div></div>
+    
+    
+
+
+
+<div class="field field--label-above field--name-field-related-content field--type-entity-reference"><h2 class="field__label">Related</h2><div class="field__items"><div class="field__item"><a href="/transportation/weather/resources/winter-weather-center" hreflang="en">Winter Weather Center</a></div><div class="field__item"><a href="/transportation/weather/get-home-safe-severe-weather-travel-tips" hreflang="en">GET HOME SAFE: Severe Weather Travel Tips</a></div><div class="field__item"><a href="/transportation/weather/winter-weather-road-closures-and-chain-advisories" hreflang="en">Winter Weather Road Closures and Chain Advisories</a></div><div class="field__item"><a href="/omf/winterweatherservices" hreflang="en">Winter weather and City of Portland services</a></div></div></div>
+    
+
+
+
+<div class="field field--label-above field--name-field-topics field--type-entity-reference"><h2 class="field__label">Topics</h2><div class="field__items"><div class="field__item"><a href="/transportation-and-roads" hreflang="en">Transportation and roads</a></div><div class="field__item"><a href="/transportation-and-roads/parking" hreflang="en">Parking</a></div><div class="field__item"><a href="/operating-business-portland" hreflang="en">Operating a Business in Portland</a></div><div class="field__item"><a href="/community-education-and-outreach" hreflang="en">Community education and outreach</a></div></div></div>
+              
+
+
+
+
+
+<div class="views-element-container block block-views block-views-blocknews-on-content-block-2 mb-6" data-block-plugin-id="views_block:news_on_content-block_2">
+      
+          <h2>News and notices</h2>
+        
+        <div class="content">
+      <div><div class="view view-news-on-content view-id-news_on_content view-display-id-block_2 js-view-dom-id-04c6353a53ed79b1b7afd3bc881caaf3f41b650627e929d9443c6854aa1ca8e9">
+  
+    
+      
+      <div class="view-content">
+              <div class="views-row">
+      <div class="views-field views-field-rendered-entity"><span class="field-content">
+<div class="morsel  mb-4"><div class="d-flex flex-column align-items-start"><h3 class="h4 order-1 mb-2"><a href="/transportation/news/2023/3/23/winter-travel-advisory-snow-hail-could-create-hazardous-travel"><span class="field field--name-title field--type-string field--label-hidden">Winter Travel Advisory: Snow, hail could create hazardous travel conditions Friday and Saturday</span></a></h3><div class="badge rounded-pill text-wrap text-left bg-light mb-2">
+          Traffic Advisory
+      </div></div><div class="row g-0"><div class="col-12 col-md"><div class="field field--label-visually_hidden field--name-field-published-on field--type-datetime mb-2 align-items-baseline"><div class="field__label visually-hidden mb-0">Published</div><div class="field__item"><time datetime="2023-03-23T17:46:16Z" class="datetime">March 23, 2023 10:46 am</time></div></div></div></div></div></span></div>
+    </div>
+          <div class="views-row">
+      <div class="views-field views-field-rendered-entity"><span class="field-content">
+<div class="morsel  mb-4"><div class="d-flex flex-column align-items-start"><h3 class="h4 order-1 mb-2"><a href="/transportation/news/2023/2/26/winter-travel-advisory-more-snow-could-create-hazardous-travel"><span class="field field--name-title field--type-string field--label-hidden">Winter Travel Advisory: More snow could create hazardous travel conditions Monday and Tuesday mornings</span></a></h3><div class="badge rounded-pill text-wrap text-left bg-light mb-2">
+          Traffic Advisory
+      </div></div><div class="row g-0"><div class="col-12 col-md"><div class="field field--label-visually_hidden field--name-field-published-on field--type-datetime mb-2 align-items-baseline"><div class="field__label visually-hidden mb-0">Published</div><div class="field__item"><time datetime="2023-02-26T23:46:16Z" class="datetime">February 26, 2023 3:46 pm</time></div></div></div></div></div></span></div>
+    </div>
+          <div class="views-row">
+      <div class="views-field views-field-rendered-entity"><span class="field-content">
+<div class="morsel  mb-4"><div class="d-flex flex-column align-items-start"><h3 class="h4 order-1 mb-2"><a href="/transportation/news/2023/2/24/winter-travel-advisory-more-snow-way-pbot-continues-24-hour-snow-and"><span class="field field--name-title field--type-string field--label-hidden">Winter Travel Advisory: More snow on the way as PBOT continues 24-hour snow and ice response</span></a></h3><div class="badge rounded-pill text-wrap text-left bg-light mb-2">
+          Traffic Advisory
+      </div></div><div class="row g-0"><div class="col-12 col-md"><div class="field field--label-visually_hidden field--name-field-published-on field--type-datetime mb-2 align-items-baseline"><div class="field__label visually-hidden mb-0">Published</div><div class="field__item"><time datetime="2023-02-25T00:01:16Z" class="datetime">February 24, 2023 4:01 pm</time></div></div></div></div></div></span></div>
+    </div>
+          <div class="views-row">
+      <div class="views-field views-field-rendered-entity"><span class="field-content">
+<div class="morsel  mb-4"><div class="d-flex flex-column align-items-start"><h3 class="h4 order-1 mb-2"><a href="/transportation/news/2023/2/23/winter-travel-advisory-pbot-waives-parking-citations-cars-left-city"><span class="field field--name-title field--type-string field--label-hidden">Winter Travel Advisory: PBOT waives parking citations for cars left in city meter districts, time stays, or abandoned on streets after surprise snow storm</span></a></h3><div class="badge rounded-pill text-wrap text-left bg-light mb-2">
+          Traffic Advisory
+      </div></div><div class="row g-0"><div class="col-12 col-md"><div class="field field--label-inline field--name-field-updated-on field--type-datetime d-flex"><div class="field__label">Updated</div><div class="field__item"><time datetime="2023-02-23T20:49:16Z" class="datetime">February 23, 2023 12:49 pm</time></div></div></div></div></div></span></div>
+    </div>
+  
+    </div>
+  
+          <div class="more-link"><a href="/transportation/weather/winter-weather-basics-and-faq/news">more</a></div>
+
+      </div>
+</div>
+
+    </div>
+  </div>
+
+                  
+                  
+                  
+      </div>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+<div id="block-feedbacklink" data-block-plugin-id="block_content:7dc74839-c339-461f-9344-87a6db099602" class="block block-block-content block-block-content7dc74839-c339-461f-9344-87a6db099602 mt-8 mb-4">
+      
+        
+        <div class="content">
+      
+
+
+
+<div class="clearfix text-formatted field field--label-hidden field--name-body field--type-text-with-summary"><div class="field__item"><p>See something we could improve on this page? <a href="/feedback">Give website feedback</a>.</p></div></div>
+    </div>
+  </div>
+
+    </div>
+  
+                  </div>
+        
+        
+      </div>
+    </div>
+  </main>
+
+  <footer class="cloudy-footer" role="contentinfo">
+          <section class="cloudy-footer--top">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 order-2 order-md-1">
+              
+      <div class="region region-footer-top">
+      
+
+
+
+
+
+<div id="block-footeraccessibilitystatement" data-block-plugin-id="block_content:02922411-4e28-4548-bc1c-9996d35127fc" class="block block-block-content block-block-content02922411-4e28-4548-bc1c-9996d35127fc mb-6">
+      
+        
+        <div class="content">
+      
+
+
+
+<div class="clearfix text-formatted field field--label-hidden field--name-body field--type-text-with-summary"><div class="field__item"><p>The City of Portland ensures meaningful access to City programs, services, and activities to comply with Civil Rights Title VI and ADA Title II laws and reasonably provides: translation, interpretation, modifications, accommodations, alternative formats, auxiliary aids and services.  Request these services <a href="/311/ada-request">online</a> or call <a href="tel:5038234000">503-823-4000</a>, Relay Service: <a href="tel:711">711</a>. </p><p><a href="tel:5038234000">503-823-4000</a>  Traducción e Interpretación | Biên Dịch và Thông Dịch  | 口笔译服务  |  Устный и письменный перевод  |  Turjumaad iyo Fasiraad | Письмовий і усний переклад  |  Traducere și interpretariat  |  Chiaku me Awewen Kapas | अनुवादन तथा व्याख्या </p></div></div>
+    </div>
+  </div>
+
+    </div>
+  
+            </div>
+            <div class="col-12 order-1 col-md-4 order-md-2 align-self-center mb-8 mb-md-0">
+                            
+<a href="/services" class="cloudy-link cloudy-link--has-background" ><span>Explore all services</span><span class="icon icon--size-xs"><svg id="icon-arrow-right" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="16" height="16"><title>arrow right</title><path fill="currentColor" d="M14.5303 8.53033C14.8232 8.23744 14.8232 7.76256 14.5303 7.46967L9.75736 2.6967C9.46447 2.40381 8.98959 2.40381 8.6967 2.6967C8.40381 2.98959 8.40381 3.46447 8.6967 3.75736L12.9393 8L8.6967 12.2426C8.40381 12.5355 8.40381 13.0104 8.6967 13.3033C8.98959 13.5962 9.46447 13.5962 9.75736 13.3033L14.5303 8.53033ZM0 8.75H14V7.25H0V8.75Z" /></svg></span></a>            </div>
+          </div>
+        </div>
+      </section>
+    
+                    <section class="cloudy-footer--bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 mb-8">
+                            
+                            <div>
+                                
+
+<div class="cloudy-contact-item">
+  
+      <h2 class="h6">General information</h2>
+    
+    <div class="cloudy-contact__resource">
+          <div class="cloudy-contact-item__resource-wrapper">
+        
+<a href="mailto:311@portlandoregon.gov" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-email" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="16" height="16"><title>email</title><path fill="currentColor" d="M14.5 2H1.5C0.671562 2 0 2.67156 0 3.5V12.5C0 13.3284 0.671562 14 1.5 14H14.5C15.3284 14 16 13.3284 16 12.5V3.5C16 2.67156 15.3284 2 14.5 2ZM14.5 3.5V4.77516C13.7993 5.34575 12.6822 6.233 10.2942 8.10297C9.76787 8.51694 8.72537 9.51147 8 9.49988C7.27475 9.51159 6.23191 8.51678 5.70584 8.10297C3.31813 6.23328 2.20078 5.34584 1.5 4.77516V3.5H14.5ZM1.5 12.5V6.69994C2.21606 7.27028 3.23153 8.07063 4.77931 9.28263C5.46234 9.82028 6.6585 11.0072 8 11C9.33491 11.0072 10.5159 9.8375 11.2204 9.28288C12.7682 8.07091 13.7839 7.27034 14.5 6.69997V12.5H1.5Z"/></svg></span><span>311@portlandoregon.gov</span></a>                </div>
+              <div class="cloudy-contact-item__resource-wrapper">
+        
+<a href="tel:311" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><title>phone number</title><path fill="currentColor" d="M15.9059 0.771335L12.6537 0.0208469C12.487 -0.0208469 12.3202 0 12.1534 0.0833876C11.9866 0.166775 11.872 0.281433 11.8094 0.427362L10.3085 3.92964C10.2459 4.09642 10.2355 4.26319 10.2772 4.42997C10.3189 4.5759 10.4023 4.70098 10.5274 4.80521L12.4036 6.36873C11.8407 7.57785 11.0798 8.66189 10.1208 9.62085C9.18274 10.5798 8.0987 11.3407 6.86873 11.9036L5.33648 10.0274C5.23225 9.88143 5.09674 9.79805 4.92997 9.7772C4.76319 9.73551 4.60684 9.74593 4.46091 9.80847L0.958632 11.3094C0.791857 11.372 0.666775 11.4866 0.583388 11.6534C0.5 11.8202 0.479153 11.987 0.520847 12.1537L1.27134 15.4059C1.29218 15.5935 1.37557 15.7394 1.5215 15.8436C1.66743 15.9479 1.82378 16 1.99055 16C4.61726 16 7.05635 15.3433 9.30782 14.03C11.4967 12.7375 13.2375 10.9967 14.53 8.80782C15.8433 6.55635 16.5 4.11726 16.5 1.49055C16.5 1.32378 16.4479 1.16743 16.3436 1.0215C16.2394 0.87557 16.0935 0.792182 15.9059 0.771335Z" /></svg></span><span>311</span></a>        <span class="ps-1">City of Portland general information hotline</span>
+      </div>
+              <div class="cloudy-contact-item__resource-wrapper">
+        
+<a href="tel:503-823-4000" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><title>phone number</title><path fill="currentColor" d="M15.9059 0.771335L12.6537 0.0208469C12.487 -0.0208469 12.3202 0 12.1534 0.0833876C11.9866 0.166775 11.872 0.281433 11.8094 0.427362L10.3085 3.92964C10.2459 4.09642 10.2355 4.26319 10.2772 4.42997C10.3189 4.5759 10.4023 4.70098 10.5274 4.80521L12.4036 6.36873C11.8407 7.57785 11.0798 8.66189 10.1208 9.62085C9.18274 10.5798 8.0987 11.3407 6.86873 11.9036L5.33648 10.0274C5.23225 9.88143 5.09674 9.79805 4.92997 9.7772C4.76319 9.73551 4.60684 9.74593 4.46091 9.80847L0.958632 11.3094C0.791857 11.372 0.666775 11.4866 0.583388 11.6534C0.5 11.8202 0.479153 11.987 0.520847 12.1537L1.27134 15.4059C1.29218 15.5935 1.37557 15.7394 1.5215 15.8436C1.66743 15.9479 1.82378 16 1.99055 16C4.61726 16 7.05635 15.3433 9.30782 14.03C11.4967 12.7375 13.2375 10.9967 14.53 8.80782C15.8433 6.55635 16.5 4.11726 16.5 1.49055C16.5 1.32378 16.4479 1.16743 16.3436 1.0215C16.2394 0.87557 16.0935 0.792182 15.9059 0.771335Z" /></svg></span><span>503-823-4000</span></a>              </div>
+                  <div class="cloudy-contact-item__resource-wrapper">
+        
+<a href="tel:711" class="cloudy-link   cloudy-link--has-icon" ><span class="icon icon--size-xs"><svg id="icon-oregon-relay" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><title>Oregon Relay Service</title><path fill="currentColor" d="M7.59728 0.0622559C4.92023 0.0622559 0.5 1.99222 0.5 7.84436C0.769779 5.74838 2.61673 1.61868 7.59728 1.61868C12.5778 1.61868 13.0136 6.53696 13.0136 6.22568C13.0136 0.0622559 7.90856 0.0622559 7.59728 0.0622559Z" /><path fill="currentColor" d="M9.09144 16C11.7685 16 16.1887 14.07 16.1887 8.2179C15.9189 10.3139 14.072 14.4436 9.09144 14.4436C4.1109 14.4436 3.6751 9.52529 3.6751 9.83657C3.6751 16 8.78016 16 9.09144 16Z" /><path fill="currentColor" d="M7.22373 1.99222C8.75102 1.99222 9.97957 2.5897 10.7715 3.17393C10.9859 3.33208 10.7976 3.62297 10.5374 3.56606C7.43698 2.8881 3.30155 5.01081 3.30155 10.0233C3.30155 15.6265 7.97081 15.9377 6.47665 15.9377C4.98249 15.9377 0.749023 13.572 0.749023 9.02724C0.749023 4.48249 4.42218 1.99222 7.22373 1.99222Z" /><path fill="currentColor" d="M9.52725 13.9455C7.99996 13.9455 6.7714 13.348 5.9795 12.7638C5.76513 12.6057 5.95334 12.3148 6.21359 12.3717C9.31399 13.0496 13.4494 10.9269 13.4494 5.9144C13.4494 0.311285 8.78016 9.53674e-07 10.2743 9.53674e-07C11.7685 9.53674e-07 16.002 2.36576 16.002 6.91051C16.002 11.4553 12.3288 13.9455 9.52725 13.9455Z" /></svg></span><span>711</span></a>        <span class="ps-1">Oregon Relay Service</span>
+      </div>
+                  <h2 class="h6 mt-8">Follow on Social Media</h2>
+              <div class="cloudy-contact-item__resource-wrapper">
+          <a href="http://facebook.com/PortlandORGov" class="cloudy-link   cloudy-link--has-icon"  aria-label="Facebook" ><span class="icon icon--size-xs"><svg role="img" aria-hidden="true" focusable="false" width="16" height="16" viewBox="-4 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M7.0068 9L7.3957 6.10437H4.96453V4.22531C4.96453 3.43313 5.30414 2.66094 6.393 2.66094H7.4982V0.195625C7.4982 0.195625 6.4952 0 5.53629 0C3.53418 0 2.22551 1.38688 2.22551 3.8975V6.10437H0V9H2.22551V16H4.96453V9H7.0068Z"/></svg></span><span>PortlandORGov</span></a>        </div>
+                    <div class="cloudy-contact-item__resource-wrapper">
+          <a href="http://twitter.com/PortlandGov" class="cloudy-link   cloudy-link--has-icon"  aria-label="Twitter" ><span class="icon icon--size-xs"><svg role="img" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 -1.5 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M14.3554 3.23858C14.3655 3.3807 14.3655 3.52286 14.3655 3.66498C14.3655 8 11.066 12.995 5.03555 12.995C3.17767 12.995 1.45179 12.4569 0 11.5229C0.26397 11.5533 0.517752 11.5635 0.791878 11.5635C2.32485 11.5635 3.73605 11.0457 4.86296 10.1625C3.42133 10.132 2.2132 9.18785 1.79694 7.88834C2.00001 7.91878 2.20304 7.93909 2.41626 7.93909C2.71067 7.93909 3.00511 7.89847 3.2792 7.82744C1.77666 7.52284 0.649721 6.20306 0.649721 4.60914V4.56855C1.08625 4.81221 1.59391 4.96449 2.13195 4.98477C1.24869 4.39592 0.670034 3.39086 0.670034 2.25379C0.670034 1.64466 0.832441 1.08629 1.11672 0.598971C2.73095 2.58882 5.15736 3.8883 7.87816 4.03045C7.82741 3.7868 7.79694 3.53301 7.79694 3.2792C7.79694 1.47207 9.25888 0 11.0761 0C12.0203 0 12.8731 0.395939 13.4721 1.03554C14.2132 0.89341 14.9238 0.619284 15.5533 0.243657C15.3096 1.0051 14.7919 1.64469 14.1117 2.05076C14.7716 1.97973 15.4112 1.79694 16 1.54316C15.5534 2.19288 14.995 2.77154 14.3554 3.23858Z"/></svg></span><span>PortlandGov</span></a>        </div>
+                                    </div>
+</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-8">
+                            <div>
+                                
+      <div class="region region-footer-second">
+      <nav role="navigation" aria-labelledby="block-terms-policies-menu" id="block-terms-policies" data-block-plugin-id="system_menu_block:terms-policies" class="block block-menu navigation menu--terms-policies">
+      
+  <h2 id="block-terms-policies-menu">Terms, policies</h2>
+  
+
+        
+  
+  
+  
+  
+  
+            <ul class="menu">
+              <li class="menu-item">
+        <a href="/311/ada-request" title="Request accommodations under the Americans with Disabilities Act" data-drupal-link-system-path="node/25709">ADA Accommodation</a>
+              </li>
+          <li class="menu-item">
+        <a href="/captioning-transcription-policy" title="Policies regarding the captioning and transcription of video and audio" data-drupal-link-system-path="node/569">Captioning, transcription</a>
+              </li>
+          <li class="menu-item">
+        <a href="/privacy-policy">Privacy policy</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+    </div>
+  
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-2 order-md-last">
+                            
+      <div class="region region-footer-third">
+      <nav role="navigation" aria-labelledby="block-portlandgov-menu" id="block-portlandgov" data-block-plugin-id="system_menu_block:footer" class="block block-menu navigation menu--footer">
+      
+  <h2 id="block-portlandgov-menu">Portland.gov</h2>
+  
+
+        
+  
+  
+  
+  
+  
+            <ul class="menu">
+              <li class="menu-item">
+        <a href="/help/about" data-drupal-link-system-path="node/6008">About this Website</a>
+              </li>
+          <li class="menu-item">
+        <a href="https://www.portlandoregon.gov/employee" title="Employee information on PortlandOregon.gov">Employee Portal</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+
+
+
+
+
+<div id="block-portlandloginblock" data-block-plugin-id="portland_login_block" class="block block-portland block-portland-login-block mb-6">
+      
+        
+        <div class="content">
+      <a href="/user/login?destination=/transportation/weather/winter-weather-basics-and-faq">Editor log in</a>
+    </div>
+  </div>
+
+    </div>
+  
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 mb-2 order-lg-first">
+                            <h2>City of Portland, Oregon</h2>
+                            <p>
+                                <source media="" srcset="/themes/custom/cloudy/images/city-seal.png"/>
+                                <img src="/themes/custom/cloudy/images/city-seal.png" alt="Official City of Portland seal. The image depicts Portlandia holding her trident backdropped by mountain and river, accompanied by the text 'City of Portland, Oregon 1851'" class="img-fluid"/>
+                            </p>
+                            <p>&copy; Copyright 2018-2023</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </footer>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/14999","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"classy\/base,classy\/messages,cloudy\/bootstrap,cloudy\/global,cloudy\/styles,core\/normalize,core\/picturefill,datalayer\/behaviors,extlink\/drupal.extlink,filter\/caption,search_api_autocomplete\/search_api_autocomplete,system\/base,toc_js\/toc,views\/views.module","theme":"cloudy","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0},"es":{"id":"es","name":"Spanish","direction":"ltr","weight":1},"vi":{"id":"vi","name":"Vietnamese","direction":"ltr","weight":2},"zh-hans":{"id":"zh-hans","name":"Chinese, Simplified","direction":"ltr","weight":3},"ru":{"id":"ru","name":"Russian","direction":"ltr","weight":4},"uk":{"id":"uk","name":"Ukrainian","direction":"ltr","weight":5},"ro":{"id":"ro","name":"Romanian","direction":"ltr","weight":6},"ne":{"id":"ne","name":"Nepali","direction":"ltr","weight":7},"ja":{"id":"ja","name":"Japanese","direction":"ltr","weight":8},"ko":{"id":"ko","name":"Korean","direction":"ltr","weight":9},"fil":{"id":"fil","name":"Filipino\/Tagalog","direction":"ltr","weight":10},"lo":{"id":"lo","name":"Lao","direction":"ltr","weight":11},"ar":{"id":"ar","name":"Arabic","direction":"rtl","weight":12},"km":{"id":"km","name":"Khmer","direction":"ltr","weight":13},"so":{"id":"so","name":"Somali","direction":"ltr","weight":14},"chk":{"id":"chk","name":"Chuukese","direction":"ltr","weight":15}}},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"#toolbar-administration, .field--name-field-facebook, .field--name-field-twitter, .field--name-field-instagram, .field--name-field-youtube, .field--name-field-linkedin, .field--name-field-nextdoor, .cloudy-global-menu, .block-cloudy-main-menu","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":true,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link-alt","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["portland.gov","www.portland.gov","portlandoregon.gov","www.portlandoregon.gov","efiles.portlandoregon.gov","portlandmaps.com","www.portlandmaps.com","www.governmentjobs.com"]}},"search_api_autocomplete":{"search_portland_gov":{"delay":60,"auto_submit":true,"min_length":3}},"ajax":[],"user":{"uid":0,"permissionsHash":"9016f703723f5994d0226837c8603d536b3e3e185f878227f4c7148bc84e39ac"}}</script>
+<script src="/sites/default/files/js/js_G5HO1tkjlNTDjWyvWY8Lk-FOl8JaTuyyW528mTuuUMo.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"959a8d97de","applicationID":"146857664","transactionName":"YlRaMUNYWhZRUBVaX1seeQZFUFsLH3cTRkBUXWQLXl1ROXNcD0dCWl1UAENlegpUVjdaVUJyVwtFS1sJXFYTHg5DWF0S","queueTime":0,"applicationTime":1562,"atts":"ThNZRwtCSRg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

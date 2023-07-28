@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39500000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:46:14.482Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Carolina+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_zp89ycn3dr"
+    },
+    "organic": [
+        {
+            "link": "https://www.pbs.org/newshour/nation/ian-regains-hurricane-strength-as-it-moves-toward-south-carolina",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a nation \u203a ian-regains...",
+            "title": "Ian regains hurricane strength as it moves toward South ...",
+            "description": "CHARLESTON, S.C. (AP) \u2014 A revived Hurricane Ian set its sights on South Carolina's coast Friday and the historic city of Charleston, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2022/09/30/weather/weather-forecast-south-carolina-charleston/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/09/30 \u203a weather \u203a weather-...",
+            "title": "South Carolina: Ian is no longer a normal hurricane as it ...",
+            "description": "Category 1 Hurricane Ian makes landfall in South Carolina ... article originally appeared in the weekly weather newsletter, the CNN Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cbsnews.com/live-updates/hurricane-ian-florida-damage-south-carolina-forecast-path-2022-09-29/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Hurricane Ian heads for South Carolina after devastating ...",
+            "description": "It could bring a \"life-threatening\" storm surge to South Carolina, forecasters say. Ian left catastrophic destruction in Florida and is ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.weather.gov/ilm/hurricaneprepsc",
+            "display_link": "https://www.weather.gov \u203a ilm \u203a hurricaneprepsc",
+            "title": "Hurricane Preparedness Webpage for South Carolina",
+            "description": "The National Weather Service and the South Carolina Emergency Management Division are teaming up to bring this hurricane safety campaign to all of South ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wcnc.com/article/weather/severe-weather/hurricane-ian-impact-north-carolina-south-carolina/275-f1b5a633-844b-485b-a83e-eb15cdd755db",
+            "display_link": "https://www.wcnc.com \u203a weather \u203a severe-weather \u203a h...",
+            "title": "Ian moves away from Charlotte, leaving damage ...",
+            "description": "Ian made landfall in Georgetown, South Carolina, battering the coast with 85 mph winds, torrential rain and dangerous storm surges on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 1, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.charleston-sc.gov/974/Hurricane-Information",
+            "display_link": "https://www.charleston-sc.gov \u203a Hurricane-Information",
+            "title": "Hurricane Information | Charleston, SC - Official Website",
+            "description": "General Information about hurricanes and how to prepare your home and your family for a storm. Updates on active storms that may affect the Charleston ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wspa.com/news/local-news/severe-weather-causing-storm-damage-in-the-upstate/",
+            "display_link": "https://www.wspa.com \u203a news \u203a local-news \u203a severe-w...",
+            "title": "Severe weather causing storm damage in the Upstate",
+            "description": "TAYLORS, S.C. (WSPA) \u2013 Severe weather is causing power outages and storm damage throughout the Upstate on Sunday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.postandcourier.com/news/charleston-area-escapes-brunt-of-storm-that-caused-damage-floods-deaths-across-south/article_444c58ac-48f4-11ea-8c4d-93325b385d68.html",
+            "display_link": "https://www.postandcourier.com \u203a news \u203a article_444c58...",
+            "title": "Charleston area escapes brunt of storm that caused ...",
+            "description": "A storm system that pummeled the South Carolina Midlands and Upstate for much of Thursday afternoon advanced into the Lowcountry by ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 6, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nhc.noaa.gov/surge/",
+            "display_link": "https://www.nhc.noaa.gov \u203a surge",
+            "title": "Storm Surge Overview - National Hurricane Center",
+            "description": "Along the coast, storm surge is often the greatest threat to life and property ... Hugo impacted the southeastern United States, including South Carolina ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://scdhec.gov/news-releases/dhec-stresses-importance-being-prepared-severe-weather-hurricane-season-begins",
+            "display_link": "https://scdhec.gov \u203a news-releases \u203a dhec-stresses-imp...",
+            "title": "DHEC Stresses Importance of Being Prepared for Severe ...",
+            "description": "COLUMBIA, S.C. \u2013 The 2023 hurricane season officially began on June 1, and the South Carolina Department of Health and Control (DHEC) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

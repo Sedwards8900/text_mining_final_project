@@ -1,0 +1,263 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 46600000,
+        "search_time": 0.52,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:41.587Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Virginia+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/610.3.7.1.9 (KHTML, like Gecko) Version/14.0.2 Safari/610.3.7.1.9",
+        "request_id": "hl_c3a9eb28_8p3ft9v28l9"
+    },
+    "organic": [
+        {
+            "link": "https://richmond.com/news/state-and-regional/ig-virginia-failed-to-prepare-for-unexpected-with-snow-that-crippled-i-95/article_91e21255-0363-5908-acfa-640d29921fbf.html",
+            "display_link": "https://richmond.com \u203a news \u203a state-and-regional \u203a articl...",
+            "title": "IG: Virginia failed to prepare for unexpected with snow that ...",
+            "description": "No one was injured, but according to the National Weather Service two or three pet dogs in that area were killed by the storm. Richmond ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://richmond.com/news/local/weather/update-strong-storm-races-through-richmond-area-causing-damage-power-outages/article_20bbaa1b-3c48-5b15-8791-1f3ef31ee402.html",
+                    "display_link": "https://richmond.com \u203a news \u203a local \u203a weather \u203a article_...",
+                    "title": "UPDATE: Strong storm races through Richmond area ...",
+                    "description": "Thunderstorms formed in the early afternoon in Northern Virginia and strengthened as they raced southward, effectively paralleling ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 22, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2022/01/04/weather/winter-weather-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-weather-tuesday",
+            "title": "Virginia's I-95 reopens after winter storm strands drivers",
+            "description": "A 50-mile stretch of Interstate 95 in eastern Virginia reopened Tuesday night after a severe winter storm left some motorists stranded on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 5, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwilh7GH462AAxUlqpUCHc7ECmE4CxDm3gJ6BAgTEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.washingtonpost.com/local/high-winds-heavy-rains-from-michael-cause-school-delays-and-morning-commute-problems/2018/10/12/bccec5b4-ce05-11e8-a360-85875bac0b1f_story.html",
+            "display_link": "https://www.washingtonpost.com \u203a local \u203a 2018/10/12",
+            "title": "Five dead in Virginia from Hurricane Michael",
+            "description": "Gift Article. Share. The worst of Hurricane Michael's remnants were supposed to track south of tiny Charlotte County in southern Virginia, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 12, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wtvr.com/news/local-news/virginia-storm-damage-june-16-2023",
+            "display_link": "https://www.wtvr.com \u203a news \u203a local-news \u203a virginia-s...",
+            "title": "Storm damages homes, trees, and cars; knocks out power ...",
+            "description": "The storms that rolled through Central Virginia on Friday damaged homes, caused power outages and prompted emergency highway repairs.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 16, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwilh7GH462AAxUlqpUCHc7ECmE4CxDm3gJ6BAgVEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.vdh.virginia.gov/environmental-health/onsite-sewage-water-services-updated/before-and-after-the-storm-private-wells-and-onsite-sewage-systems/",
+            "display_link": "https://www.vdh.virginia.gov \u203a environmental-health",
+            "title": "Before and After the Storm \u2013 Private Wells and Onsite Sewage ...",
+            "description": "Below are some concerns about private wells and onsite sewage systems when Virginia faces major storms or flooding followed by links to other sources of ...",
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.glenallenweather.com/historylinks/history2/vawxhistory.pdf",
+            "display_link": "https://www.glenallenweather.com \u203a vawxhistory",
+            "title": "Virginia's Weather History",
+            "description": "Virginia's Weather History \u2022 Virginia Weather and Disaster Statistics \u2022 Presidentially ... Jefferson, and journals and articles written by early settlers.",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "14 pages",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/01/06/facing-criticism-after-last-storm-virginia-braces-for-more/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/01/06 \u203a facing-...",
+            "title": "Facing criticism after last storm, Virginia braces for more",
+            "description": "Loading your audio article. By Sarah Rankin | Associated Press. RICHMOND, Va. \u2014 With more bad weather looming, Virginia officials sought to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "http://www.virginiaplaces.org/climate/4storms.html",
+            "display_link": "http://www.virginiaplaces.org \u203a climate \u203a 4storms",
+            "title": "Storms in Virginia",
+            "description": "However, a few frontal cyclones, such as Hurricane Camille, can migrate all the way north from the Gulf of Mexico before drenching Virginia. Such storms can ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwilh7GH462AAxUlqpUCHc7ECmE4CxDm3gJ6BAgtEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        }
+    ],
+    "images": [
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Virginia Beach Begins Cleanup After Tornado Damage - The New ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1mTgqdlalIp5eIVQ1Orhu5TXQ366IXzGjLnC8ZxXQRl06RZm8WEjufXO4-JB&s",
+            "image_alt": "Virginia Beach tornado: Up to 100 homes damaged and schools ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1mTgqdlalIp5eIVQ1Orhu5TXQ366IXzGjLnC8ZxXQRl06RZm8WEjufXO4-JB&s",
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Risk for tidal flooding during winter storm",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwEEBQAG/8QAPRAAAgEDAwEFBQQIBQUAAAAAAQIRAAMhBBIxQQUTIlFhMnGBkqEUU5HRBhUWIyRCcrEzUoLB8TRDYmPw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EAB0RAQACAwEBAQEAAAAAAAAAAAABAhITURExQQP/2gAMAwEAAhEDEQA/AEXdPesjg3LfXrFVkuFb5BuQCvhraDQai/obOqXcoCXPPoffVmFZqu5tbm27ts7hxQl9sSTER/UaYmmu2f3V9CNkhT0YdM0lluEqRKmJJP8AeoDtPu8SgAjG+MT+dG5IYmTAXiOaXY3bYukED0zTFcMAwkHrQdP2exsVZIGJ86gFmTCkgdYqLYVTv3OZ6selOm5eP7qP6ugoFhCSB4pWDheKJmcLFwMQc+IRRraKLgn4HBotzBCH3AHjdn60CwCUAUnaOmKNYUQwEmlW1ZQzMevIpgOAIEigIAjCnnjoKcjlWyB6tPFJDkEwTEcGDFSXnmZiKB4bxQOgpincFVgCZ4PFU+F3EkT605W/zQepJxQOuW1tMdrEj/LNQ90XLcg/vMgiKr3HgNJx76QHBfmATFA6/dLvyVxjPNLkw6sdpUyDS3JTxbpnEmgDkMQcA8GgtNqFuOpCiYIMdSePwJqWAuu7d73KkiDMTiqcnf5SaarDau72QMdaIvsINcl7awE0TztacxwazMu0l2UnpFUbvg1FvY4kf2rH11h9O3iZip9kqOa63rLuk1CpqCptP7NwDHurYubblva2Qw5qDCPhXdk7R7yahCSfZETktR6m13OoNllYowkNuqAq7YUQB0FFEiI7HvBQBDbukkzBxmi27SPTqea6VOG46SKB1poEnIPNExh8QQecUoEABVPGYriCRuUQBzmKBJtqzhgxXYx9n+amskDcATJ5Bpey411WgBR1AjFWfCpkwfSopWTBEEAZx/vTCFa2TtI9I/tQoAACMelEpK486qIQAA8/jRD2ZLEMPWgZOq8eVTBGYnFAm5O4+Z6UuY5E+nlTXeeREeVL54mRREl5QqRPlSwYbqRBxU8AfQ+tC0d2POeKK64YZYMiPrTUVtoxwKr3LfsAHA4FWcnBag073iRgeIjFZ6Wg8iSY6+dX7jSrCCBMTVGzb2ubS4AyKqG3NLbv21tuxwZFXVtk2e5mDyjeRpASOc09PFthoIM0FI3heDWbwKXBgg9D6VWI7o7TyMe+tbV6C3qlN4AreXhl5PpWTesXH0wZlAvoJOfpUAybhItxPr0pmxUbxHcx6gCqdm4jKAYHoKsAhYlyMc1FOYLcXGR6dKgnu0LElV4zSl1ZS6ttbZNs4LzmanXvGnYcgwKoGzrg93u4JxzVgE4IAjoD5VmdnhftBJGAv4Vf1N0WkDGCzHbPEVAQuT7MyvkaNoIDZB4g0izLpuPB6elWAvhBAzEfCqCVuMTUPniogDnn0qSwA61fEL2yCIzSiCpII5PNN3YkEzUND8gUCXAUY45oAAcHM9abggqPrQjaAaggId6yZp6gAQQaBQN07qaojn6UVdYEhwDk8Ui0pUtcYzMY6ioW6VGTPWal33JP41UMFw+lSLkVX3V0mqi4mpK8fWguOLjbuDVYNXT60DSg6Ip+AoG2hc2gQOm0GuVz50zmgFVRubQE54iqXbFhrFpeqMef9q0BgzS+09Oz6S66gspAaPIjrUlYZPZybnfEiM1fu27d0BXSdtVezlKo5gyTFaAtw+7M9fI1AsgDjA6VPSJomUdKHaOlBG6MdKhzIqYIz0qG91AvNTtgc0QAIIIriygUUG0N191SqDnNKd8+Hzpsiqie78QKmKYF9QDQgwKn30HJ4rYMR6Uq4e7tMwOOtGgYKIGRggmlPfW2Srso99VE97iSQJ4oTdIUk8DM1n32zus3AwmYxiqjX3PLGoraN2FJPQTUDVLnPHM1id68EbjBoSxMSeKDfbVIBMirmgYakwrA/GvJzXouwALGn7w8uZ+FPRsnRXBwVNJ1Fx7NlkZCCRirTOby7LT7fMgxBqmt832fSao7iBIYdYp6Kek1K6m6bRuKCBIJ6VeNpWSO/tz8am/aVnHcKJIyFFCNPeB/wn/CgF9LdQxvRgeDMYpV6w6wzY8iDNXbqizogdQNpRsH0rtqtoi4YXFwwCnIoKMDZt5pZkU97YRiZJHmYoIED1qKrtiZpZOCZn3U68GPsqSOsGg7s21aYILdDNEV2mDER6mnA4A5oLiMTAI44iotrdDbe7kRzQNZ446USviqt037YRjbMcGDxXfaFFuZ5PlQadzBmKranS2tTbKsM9D1FWyIGfjSCY5rSMI9najeVUKYMbiYmrCdg6plkvZX4k/7Vd1ABBOR0qzYvRaksQQDB4BNRVFP0ZvEjdqUznCn86Yn6OpsltS2/wAoAFaKdoIbIfcUMwQcEVWv9oW+6uXFkupyCY91QLHYujtbWdXc9QX/ACrr8rq0WztFtVA2j0NIua43gVyonn0od3iDcmgupdu9/cLEKu4wF8qW2oIu3LgzDFaX3ri8NqMUIyQpPT0obts29amxNlnblT/mj8qimLqr1s2ypJiWMen/ADVkdpaq4o3uFHqap6oslpri+ERGOpkGPpWcNY5wxievlVHprGoN+0RehwGG2RVbRXCmshSIyI9KzdBdvW1d3aQHQEEz1pFrUPZ1oIAPj4+NBsWrivb3bQd3n0riynlB+FcytMAg0pnRTDOoPXxUWImfiXVWBHsz5Cq7Wbi+xdZo4B4p26198o/1V02+O/Wf6qerhbigRdtNvuwR6U1dYJgMB7zVhdMNS/d22FxjwoINC/6PXzkW3Hpj86eszEx9ANVu8PhYH1ok0CkvbN3aqEZ+FVrvZN+xdCvau+YKqDVtu/T2kQ/1YojQaIn8apahjaO85TgQKr/riebE/wCqlXu0e9tNbFrapHnXfTfjWFlwOlxMZHFVN0AoGJSeOlKGtK2woQSOT50rv/8AxppvxcLLLPA5NJe71BgRFLa7uA8NSt5ZBZNwXgTxU034YSdYRrjScepo9QRa2gH1NKGsI5SfjSr17vSPDEU034YS0tLfvM0aeN7dDxUXdb3hQ3GHJkjjFZi3ntgd2dpE594ihJm2Ejippvwwsfd1K3mMAm2Ok80Ie1wNL9TSrBFlyxG4ERFN7+D7J/Gmm5hYeitsb+2GRG+nlWo2l0q3d6JLTO4nms9dft/7f1ox2oQZ7oH3mppuuFmmG9BSNO4XtT2Qd52RHnHr9ap/rT/1fWrKW97LfVyjGGECYrNqWr9dv5TFJnL9Xdt1VUXf3AgqLhAJU78D4gRT1z4PsyYB3JyVBnH9+Jql++mftTn3qD5flUgX8fxb4EeyDPvxn41hqb1n9RauLd7Vcom0Cy6xHkkUy6ptpLoveKZxwcdetBprK2NT3xJuSGBGBMiKurcsRHcfHefT8qOX97VtaMTXUizYW37Itjg+ppbWWb2rYb3wa59QTtCLsVVgCZqPtDf/AAo4l/qjR4/gbhkTh2o27G0C7f4RyCoJ8TYzWa/bTlSBduSxgQxn31R1XbGqu7Rbv3kieHImumy/VyluN2RoxunQXTE/zt0pn6k0PdbhpHJBIK72nArA0+p1reK5rNQFHA7w5qw3aGo4XUXQOnjNNl+nstdexNCyknSOpDhY3NwRzQ/qbRyv8E5JiYdsT/z9DWV9v1RONRd+c1P2zVAf9Te+c02W6ez1s6XsLQX0LXNLctkHguc4p37Odm/cv85rzv27UznU3vnNIv67VhyPtV8Y+8NNluns9eo/Zzs37p/nNd+znZv3LfOa8pqdfq1FqNVfHgE/vDRaHW627ca39pvNvHJuHHrPSmy3TKevUfs72b903zmo/Z3s37pvnNZCnU2nYDVXWZeQbpNQNRqRjvr/AJ5Y02W6ez1sfs92d9y3zmo/Z7s77pvnNZP2rUTm9d+Y1I1N/wC+ufMabLdMpah/R7s77lvnNZ9y2tq61tMKpgUI1N77658xoSxJkySfrWZtM/U9mfoqke+hEzwamoODMGgmj7w9aAgsMESM0VtQ2Jz1oDD++p3HoTUBQOtTtoPNJ/jr7x/eotZuic5611dRF69h2jzP96FeRXV1FMHWi6V1dQK/nqrqeT8K6uoO1fK/0irPZhIViMGurqgcrNvY7jz501Xbd7R/GurqB9wk2smcik1NdSBIpi9aiuqg+tceKiuoJH8tGn+IK6uqAVJ8WaJSY5rq6g//2Q==",
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAMhAAAgIBBAEDBAECBAcAAAAAAQIAEQMEEiExQRNRYSIycYGxBZEUIzOhJFKCwdHh8P/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDr46hFzfxKECj1+Ixwn4Ek9R9wA80BLUyBY7lgwCWpmcpTA1uUHMzEcDUOZavcxEsQOkGOQplwHCKEByR5jkiAzFcDEYCJkkxmSYHlqP3GJ0+np7Isg+eZzH7u+AeIFrHXVSbqWDzAIQqo/MBBY6riB4MtRZgA4HMociIr4l40Y+IAstRcraEFmQ2QMCqde9QNbAmimxc5sKFyD1+p1jheIAI6krdcijKgKpI7lE0JimW3og2feBrUREqx+PzAiBmZJmhHxIIHvA85NTjOVgFcdWe/EzsbifBMXrYEyt9XqFqNJ4lAdt4PUCgaqPbfjmZ0wA46milrFDgwK5ogjn+Y1mqpuHIljGvgfuBgFvsczVMZq5oNqj3mOQZsuUbcbEDohqEDX6EFkwDDIDTfody00zKgFrurmZDTek5yZGSgOlWoE5L2jcdoHuKv+8007rlWsYpQaqYnUepkC3jZSeABzO/FjCr1zAdUscDyQI6gZesPYwGZSeiJpsU+BFsUeBAYMW6BHtFXvACw8yb/AOVv0ZjrMwwYdwPJNTLCWZebsm+e4HTkCv8A6m5a8+Je0Ee4mW505sFfaoBsR5Den+6uB4uNiMjXpbNDo9TpTd9Njg+PaaDTBmJfkexPH9pqdq/T23sO4EKh6qV6mLHxvQH2upzZtUQ9emzLXSzky7cjbhi9MVZN8mB7SFWFg7vx1Ecn1bQNx+Jz6R2z6dTe0fHHE60xNt/yiFrzVyCkxFuX6/ibpjTGKRQL5PzMCmpAsZUPwVqZafWPmsEDjyPzUo6suUIJgfqpm6/mZnLsV3f7fmGic519Q9NzXtA6cWMXuI58TYRCOA5LdRxNAFAA4kswXvr3grbUWwbr2nNnd/Uw302Sv9jA6UdXBI95nqSBiI3UW4HzM9LlGU5NooK238mPVYXy7NhAKsG5+IHm63JvVPrDKBdCdmlG4Xd8CRq9L/iH34s6oCoFFO/maaPE+DH6bBS1k2oqB0iBWx0P7ShJa/EDjrI45/y1+PumbnYjbFNAeBdzqu+AOI9sDxTqMJNZOCOuOZni9XIvqNjbKCeh2f8A1PWfBiDFyAT7kTkbPn9UjHh3IOmBgQ+p1LYUw48S6dmYKvFcT2Vx7Mf0fd2eezPFzZ8qJvKhW66sn4ixf1PVY0pdJuAvoEQPT/qWUppNh4bJ9PfjzOX+nPxkLHgcD8TBdWNeQM2DYVvad5scH/xMnytXooCpfix8XKO3Kx1LHHz9Qr8D3no6fCuLGqqOBObRYdlntjySZ3DqQMShEBKEAkt4lSW7EDPJlGHEXbody7FWv1fiBQMpDCwewYba64FVUCCExngAXyZLEOh5HtJ1GD1hyQD4JFziOi1AWjlFJ9gAq/8A79wN9MmJ2emcup2sN3E6CpBsZCPggGcugbIC+Jxbg2zDq/adoPHII/MBgWO7gRJ9QJQbi+vmaDkXA5bCw2lvj4nFrvWyYK07ANfd1x8TjI1yq7Z8/BQqoU3yeL8dQOrJqcWR3Vcyv6Zpgo4Uy1Jbheh5nm4sLVj02AMVBBN/yZ7BXYhqBOP02y7MgBC0QD7yte2AaVnyDleR4Nzg/wAUoLKxCkNX0kfxKbLidT6iM6A82vLfiBwZCrm03glQeeT+vYTv/p2kJYO4o+L8fMyx4FzapsiWE8+L+P8Aae1ixbErz5mqLRQooeJoIgJYmQRwhAJDfcsuQfu/UChCQ77ROV9UMOQA+YHbUhk3DupStuUGu44HGNApB9SnazTeajGjCteN3Q/DmdkKgcWXS58iMvrAgjjet1N8ON0xIrsGYCiR5m0IHzq670foYcjq1IuJvV1x24lYWbL8gT0MeLe1mdIAQUOIGODAmBPnyfJmWockEKZebMLIDfmRgxeqwdgdvj5gTg0aUMmRBdcfEDotOWv0ls9cTqY7fwO5eJLO736gPBgXGAFAAE3qAFRwCFQjgEIRwFIPcsyO7/MDDU6nFiIx5lJDgmx4nHjOmXVKGZnHAXi+zxc9JsOPJ96K35FzMaLTqAq4lVQQwC8ciB0VJPEYBAAuHcAEqRtoyoBCOKBy8IKE5dRqKPpg8ytRnGPgfcehOPEpz5Co8/c3vA0wYjnexfpjs3907N207RxKAGPGFUc1QmZBJpeSe4FoN5qvpE6lFSMSBRQAE0gOEIxAKgI4QCEIjARkg9fMGkj7lHsDAskKpJNASMedMrfQbocymUOhU9Gc+n0hw5Nxb4oSDru4o4pQ45IN3GYBCST8XCB4WQn1dQb5Cividn9NH/DiEIGzf6h/EMf3mEIHWv2iOEIBHCEBwhCARGEIEN1EPv8A+kf94oQNBGYQgExb7jCEDVPtjjhAmEIQP//Z",
+            "image_alt": "Snowstorm Strands Drivers Overnight on I-95",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 13
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxR4F0a7LNEjNSLk1iCC41BSEx6t2kxZU6ylzSKJRe4g&s",
+            "image_alt": "Understanding the damage from the EF-3 tornado that hit Virginia Beach",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxR4F0a7LNEjNSLk1iCC41BSEx6t2kxZU6ylzSKJRe4g&s",
+            "rank": 5,
+            "global_rank": 14
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPLIIzkScr21_syApwrowSIRp1NFtcsJv8Bri9Hzh5w&s",
+            "image_alt": "Virginia Beach first responders discuss weather preparedness in wake of  hurricane season",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdPLIIzkScr21_syApwrowSIRp1NFtcsJv8Bri9Hzh5w&s",
+            "rank": 6,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8VrkdLnN1Bxc423bxm1qzvlOUUeDjEt8Z-sg3gFqvA&s",
+            "image_alt": "Tornado strikes Virginia coast, leaving behind trail of damage",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8VrkdLnN1Bxc423bxm1qzvlOUUeDjEt8Z-sg3gFqvA&s",
+            "rank": 7,
+            "global_rank": 16
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgjnRWTftlAqIPjkXzhhmTbyexzTnm2XLp8u5CUVrHjQ&s",
+            "image_alt": "Tropics Update: Hurricane Ian makes Florida landfall, where will it go next",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgjnRWTftlAqIPjkXzhhmTbyexzTnm2XLp8u5CUVrHjQ&s",
+            "rank": 8,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHw8HdpSTwG-CLfqjATC0AaO0TZL3zKa7sfQLyznCXg&s",
+            "image_alt": "Storms bring tornado, flooding to the east coast",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHw8HdpSTwG-CLfqjATC0AaO0TZL3zKa7sfQLyznCXg&s",
+            "rank": 9,
+            "global_rank": 18
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvc96riuht4Pc5iN0w4W3GDccCr4EkBshLbuQ1nZT0Fw&s",
+            "image_alt": "Carolinas and Virginia Hit With Unusual Ice and Snow Storm ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvc96riuht4Pc5iN0w4W3GDccCr4EkBshLbuQ1nZT0Fw&s",
+            "rank": 10,
+            "global_rank": 19
+        }
+    ]
+}

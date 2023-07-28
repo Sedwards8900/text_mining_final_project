@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 76100000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Minnesota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:28.210Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Minnesota+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_ojfhly9vhf9"
+    },
+    "organic": [
+        {
+            "link": "https://kstp.com/kstp-news/top-news/overnight-storms-cause-thousands-to-be-without-power-across-minnesota-wisconsin/",
+            "display_link": "https://kstp.com \u203a kstp-news \u203a top-news \u203a overnight-st...",
+            "title": "Overnight storms cause thousands to be without power ...",
+            "description": "Power crews are back out Wednesday morning after overnight thunderstorms moved through Minnesota and Wisconsin and left thousands of people ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "14 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://patch.com/minnesota/minneapolis/another-6-inches-snow-possible-upcoming-storm-mn-weather",
+            "display_link": "https://patch.com \u203a minnesota \u203a minneapolis \u203a another...",
+            "title": "Another 6 Inches Of Snow Possible In Upcoming Winter ...",
+            "description": "Another 6 Inches Of Snow Possible In Upcoming Winter Storm: MN Weather - Minneapolis, MN - Yet another winter storm is headed for the Twin ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.voiceofalexandria.com/news/local/another-late-season-winter-storm-set-to-hit-minnesota-tuesday-and-wednesday/article_00976a3a-d20c-11ed-8b74-138bfec55534.html",
+            "display_link": "https://www.voiceofalexandria.com \u203a news \u203a local \u203a artic...",
+            "title": "Another late season winter storm set to hit Minnesota ...",
+            "description": "This email arrives only when there are cancellations or delays in the area. Manage your lists. Trending Articles.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.mercurynews.com/2021/12/16/storm-expected-to-pack-thunderstorms-damaging-winds-and-possibly-tornadoes-in-december/",
+            "display_link": "https://www.mercurynews.com \u203a 2021/12/16 \u203a storm-...",
+            "title": "'Unprecedented' storm brings Minnesota's first reported ...",
+            "description": "Loading your audio article. A late-season severe weather system blew through the Twin Cities on Wednesday night, bringing with it thunder, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/second-major-winter-storm-bring-snow-danger-large-parts-us-rcna71912",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a second-ma...",
+            "title": "Second round of major winter storm to bring snow and ...",
+            "description": "Minnesota Gov. Tim Walz said in a statement Wednesday that while \"Minnesotans are no strangers to extreme weather,\" this storm \"could break ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.fox9.com/weather/minnesota-weather-rain-snow-possible-tuesday-night",
+            "display_link": "https://www.fox9.com \u203a weather \u203a minnesota-weather-rai...",
+            "title": "Minnesota weather: Rain, snow possible Tuesday night - FOX 9",
+            "description": "The slow melt continues during the day Tuesday as temperatures climb. But precipitation is in the forecast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.kaaltv.com/news/top-news/minnesota-iowa-slammed-with-severe-weather/",
+            "display_link": "https://www.kaaltv.com \u203a news \u203a top-news \u203a minnesot...",
+            "title": "Minnesota, Iowa slammed with severe weather - ABC 6 News",
+            "description": "(ABC 6 News) \u2013 Friday, southeastern Minnesota and northern Iowa got hit with storm systems carrying heavy rain, hail and strong winds.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "Blizzard Dumps Over A Foot Of Snow From Utah to ...",
+            "description": "Article image Estimated snowfall from April 2 through April 5 at 8 a.m. EDT from Winter Storm Vanessa from the West to the Northern Plains.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/12/15/wind-storm-tornado-minnesota-iowa/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/12/15 \u203a wind...",
+            "title": "Derecho, rare tornadoes strike Upper Midwest amid wind ...",
+            "description": "As the derecho tore through the Upper Midwest, western and central Iowa and, possibly, Minnesota saw their first December tornadoes on record, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.yahoo.com/entertainment/minnesota-weather-winter-storm-watch-221900231.html",
+            "display_link": "https://www.yahoo.com \u203a entertainment \u203a minnesota-wea...",
+            "title": "Minnesota weather: Winter storm watch in effect for metro",
+            "description": "A winter storm watch has been issued for much of central Minnesota, stretching into the Twin Cities metro on Friday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

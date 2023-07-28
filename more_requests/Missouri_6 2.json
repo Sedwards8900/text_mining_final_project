@@ -1,0 +1,218 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 180000000,
+        "search_time": 0.3,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Missouri storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:36:04.425Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Missouri+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_dfzv6i8g95p"
+    },
+    "organic": [
+        {
+            "link": "https://www.ksdk.com/article/weather/severe-weather/severe-weather-crawford-county-missouri/63-66c8ab80-0910-4b37-914d-108bc2cfef57",
+            "display_link": "https://www.ksdk.com \u203a weather \u203a severe-weather \u203a se...",
+            "title": "Severe weather causes damage to buildings in Crawford ...",
+            "description": "SULLIVAN, Mo. \u2014 On Saturday night, downed powerlines bordered scattered metal and debris from buildings in Sullivan, Missouri. Severe storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://fox4kc.com/weather/missouri-storms-leave-thousands-without-power-heading-into-july-4th-weekend/",
+            "display_link": "https://fox4kc.com \u203a weather \u203a missouri-storms-leave-...",
+            "title": "Missouri weather: Storms leave thousands without power",
+            "description": "MARYVILLE, Mo. \u2014 People in northern Missouri are cleaning up after a Thursday morning storm ripped through their communities.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://nypost.com/2023/04/05/missouri-tornado-kills-multiple-people-wreaks-havoc/",
+            "display_link": "https://nypost.com \u203a 2023/04/05 \u203a missouri-tornado-k...",
+            "title": "Multiple dead after tornado wreaks havoc in Missouri",
+            "description": "The Missouri State Highway Patrol confirmed multiple fatalities and injuries after a tornado touched down right before dawn Wednesday in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://fox2now.com/news/missouri/lingering-storm-damage-power-outages-across-jefferson-county/",
+            "display_link": "https://fox2now.com \u203a news \u203a missouri \u203a lingering-sto...",
+            "title": "Lingering storm damage, power outages across Jefferson ...",
+            "description": "Storm damage in Hillsboro, Missouri, includes dozens of homes, the fire station, the Community Civic Club, and the roof at Hillsboro ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://abc17news.com/news/2021/10/24/parts-of-missouri-left-with-storm-damage-after-severe-weather-sweeps-through-the-state/",
+            "display_link": "https://abc17news.com \u203a news \u203a 2021/10/24 \u203a parts-of...",
+            "title": "Parts of Missouri left with storm damage after severe ...",
+            "description": "More information about Sunday night's storms is available on ABC 17's Weather Alert blog. Article Topic Follows: News. Jump to comments \u2193.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://extension.missouri.edu/publications/emw1019",
+            "display_link": "https://extension.missouri.edu \u203a publications \u203a emw1019",
+            "title": "Tornado Season: Are You Ready?",
+            "description": "Missouri is considered at high risk from tornadoes and is in \u201ctornado alley,\u201d which places the state in the top five for tornado activity.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.voanews.com/a/tornado-strikes-missouri-amid-severe-weather-threat-in-us-/7037258.html",
+            "display_link": "https://www.voanews.com \u203a tornado-strikes-missouri-a...",
+            "title": "Tornado Strikes Missouri Amid Severe Weather Threat in US",
+            "description": "A tornado struck Missouri on Wednesday morning, causing an unknown number of injuries, as severe thunderstorms packing the threat of more ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/missouri/articles/2023-05-07/storm-tears-roofs-off-buildings-in-northern-missouri",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Missouri News",
+            "title": "Storm Tears Roofs off Buildings in Northern Missouri",
+            "description": "TRENTON, Mo. (AP) \u2014 Severe storms tore the roofs off several buildings in northern Missouri and pelted the region with softball-sized hail.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Deadly Tornado Leaves Trail of Destruction South of St. Louis",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 9
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Hear sirens, take action: Missouri enters peak tornado ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIAggMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEAACAgEDAwMDBQAAAAAAAAAAAQIREgMhMQQTUSIyQRRhkSNSYnGB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/AO1FpjWp/GP4Ceq9vTE6MghumUtdw4q0RLWWo/Wl/gQZj7gduMvbKivprjtO5FE90XcKh0zu9RpLwbdnR8fhgc2bY4w1Jq4xbR146NVig7sY7RpL7Eqxgul1HzSCXSTXymbd9N8msZZIUjzJRcW01uTR29XBOOS5OMqJaBQb4RcVb4OrS0lFXJb+BRxdqX7QPSteAJojlQNWiEyrCsJtqTIbNNX3EUioIzcXZtHqGjGkGKA6PqLJ7zMkki7TAfel5DJy5IUdzaCinfJFa6eknG2bQ9OyZgpjjL1Iitdb1Ro5HFxdUdM3sTaQRnFb8GuVcizRjPU3A3zEc3c+4FKVjyM8h5oBajbZnZcpozbKh2PIzsLA1yGpGNhkBvmPuGGQZEV0qZpCW6RxqRt07vU/oDs1HUTm7odRqfBzuRBtLUM3IzchORUXkBnYFBkGRFhYReQrJsLAqxWTYWBVhZIAVY7IsdkVVnV0vtkzjs7On20QrDVleoyLFJ+pk2BVisViKirAkAKCxAEACAAAAALCwERTCxAFVZ1aEv0jkOnT9OkRXO3uxWJiAYE2BUVYE2ARYCAoYEgAwEBAwFYmyLw7AVhZGlx3aRrqyqNGMXujTV3pkGQAIoAAZUKgGAqQAICoYCEAxkjsKVgS2FmWlWFk2KwLTNXvAwTNIy9DIJYrE2FgOyjOyrKKsCbABgKwszrq5MASXgKQ10zwBQbANdM8LFixHdBl9hrqwsRNPwXk/ArJoiKfhlRb8FZMWTFIl2SaXIMmKRnY0ysmGTfwKQrALYF0kXQ6VcABhsUq4BJY8ABA6XgEl4AChtKuCHygAIaB8gACYIAAGyQAKXyC9oAESAAB/9k=",
+            "image_alt": "New round of severe weather hits the heartland",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIAggMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAApEAACAgEDAwMDBQAAAAAAAAAAAQIREgMhMQQTUSIyQRRhkSNSYnGB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/AO1FpjWp/GP4Ceq9vTE6MghumUtdw4q0RLWWo/Wl/gQZj7gduMvbKivprjtO5FE90XcKh0zu9RpLwbdnR8fhgc2bY4w1Jq4xbR146NVig7sY7RpL7Eqxgul1HzSCXSTXymbd9N8msZZIUjzJRcW01uTR29XBOOS5OMqJaBQb4RcVb4OrS0lFXJb+BRxdqX7QPSteAJojlQNWiEyrCsJtqTIbNNX3EUioIzcXZtHqGjGkGKA6PqLJ7zMkki7TAfel5DJy5IUdzaCinfJFa6eknG2bQ9OyZgpjjL1Iitdb1Ro5HFxdUdM3sTaQRnFb8GuVcizRjPU3A3zEc3c+4FKVjyM8h5oBajbZnZcpozbKh2PIzsLA1yGpGNhkBvmPuGGQZEV0qZpCW6RxqRt07vU/oDs1HUTm7odRqfBzuRBtLUM3IzchORUXkBnYFBkGRFhYReQrJsLAqxWTYWBVhZIAVY7IsdkVVnV0vtkzjs7On20QrDVleoyLFJ+pk2BVisViKirAkAKCxAEACAAAAALCwERTCxAFVZ1aEv0jkOnT9OkRXO3uxWJiAYE2BUVYE2ARYCAoYEgAwEBAwFYmyLw7AVhZGlx3aRrqyqNGMXujTV3pkGQAIoAAZUKgGAqQAICoYCEAxkjsKVgS2FmWlWFk2KwLTNXvAwTNIy9DIJYrE2FgOyjOyrKKsCbABgKwszrq5MASXgKQ10zwBQbANdM8LFixHdBl9hrqwsRNPwXk/ArJoiKfhlRb8FZMWTFIl2SaXIMmKRnY0ysmGTfwKQrALYF0kXQ6VcABhsUq4BJY8ABA6XgEl4AChtKuCHygAIaB8gACYIAAGyQAKXyC9oAESAAB/9k=",
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBQQG/8QANBAAAgIBAgMGAwYHAQAAAAAAAAECEQMSITFBUQQTMmFxgQUikSNCQ2Kh8FJTcoKSscEU/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAABEBEiEC/9oADAMBAAIRAxEAPwBLiaNpmaKRSmi0iUWioaHQIaAaGIYDW7o9SdQMccFxLabRj61rBF27LcqRmtuZlkyckZaVORhOXIHJmbtujSAUpUgk0jJvUyiXcpbFqFIcVpQ2ypGTJbLnRnZUNMLEIDdFIlFIMqRaJRSCqiUSMB2O7RNgRW0NkU57GSlsS5GNxpU5dDFu2O2JFFcjOUqKlKkY7zfkUJJzZosew40kMqJ7t9SXA1FVsg80kyNEuh6nDcdFpHlp80CieiUdjOhSGikSi0VhSKRKKQVQCGFAAIB2KwAgCWugxrZNjRlLoVFJIS3djGLpgABAMQAFgJiEU2Q4ooQEIpEItFRaKRCKQFAIAGIBWA7CxWKwGVk2SiiY+JBN3JmdXCAQyoAAAALAQAACAAEAVCLRCLQWKRSJRSBDAABAJjEwEIYiUVHZNk8xt/KkSQMAApAMQAgAAAQAACAAKIRaJSKSM1vnVIpCSGhSKAAJVhAMQpEsTYpMlsqRTYWZ2FkRpZRnFmiDUAUAAgoQwFOSEUFCnKBWquxzajG2ebHkhHHHLllSkqVlSNnkjFXKSS6tgssKvXGutnzU28iUcmTI0tkmiO5h/FP6EmL3r6pZoN1GcW/JlqS6nyaxxT2lJex6MXaMuJvTmnuq3V0Jid6+l1oNZ83DteeDclmbk+co2bY/iGeMalkhN9Wh4da7usTyHCy9tzZElHNCFc4oxhkyQnq7+76seHWu7LIkyHmRyv8A1zf38b9yX2mfHXBehfEuur3i6h3y6nJ7+b/EQ12iS4yiy+JddrFkTNHOnGubOJDtmSMk1OLXQt9vzNp6saryM+Nda7WoNRxZ/EczVRlji/qSviHaNNOcG/JDw6129QajkR+JTSqUIyfW6CXxLK/DGC9Wx4nWuvqDWcZ/EO0PdKC8iJ9t7XPhOMF+UTDrXYz5dGGbe1Re55oYVlgp9pS4LTBvwo5WXN2rIpKWW1Lkbdm7XmxJrLWW+be5fEusU+sl6UNPfjXqjFylw2fXYerJbppJmWmybutS+iKTk6WqK9jDXNK+8XkO5P8AGa9gPQ9W3zL/ABBKbpWtvIw1Si0lkl6jUpLjObrkQeipvdSX0CprfUq9Dz3cfHJu+ewcE03L6hW67zlKPukChNp1KLrcwuqq6a6j106SbYRsoPj9l+gJOvDiXlsYqcuGl17hKU2vDXsBrot7d0n7D0cGljV+m5inl5oE572twNnBLase/khabvbH14IjVlfL6AnNO9L8wqq/LCq8itD46IfoZ/aO+K8+QPW6S4yWzCNdL4LHEWidK8cURUl0XPiSoSe6a48ArR45LjBelCeOX8qyGuWuMeqoag3wyKgjxR5+iNFwADSLr5fYcvu/0sAAUXbV9Ah4p+qACDak+SHSpbLgAEaEfGhSbvj+7AANIbtrzK5sAAWd1HbYmLeuG78IAAuEWxS8b/fQAAtL7X3f/S0lq4IAAhpOUti6Wr+5f6EADpLgkvmIfiAAP//Z",
+            "image_alt": "Severe weather hits Midwest, tornadoes tear across Iowa",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBQQG/8QANBAAAgIBAgMGAwYHAQAAAAAAAAECEQMSITFBUQQTMmFxgQUikSNCQ2Kh8FJTcoKSscEU/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGREBAQEBAQEAAAAAAAAAAAAAABEBEiEC/9oADAMBAAIRAxEAPwBLiaNpmaKRSmi0iUWioaHQIaAaGIYDW7o9SdQMccFxLabRj61rBF27LcqRmtuZlkyckZaVORhOXIHJmbtujSAUpUgk0jJvUyiXcpbFqFIcVpQ2ypGTJbLnRnZUNMLEIDdFIlFIMqRaJRSCqiUSMB2O7RNgRW0NkU57GSlsS5GNxpU5dDFu2O2JFFcjOUqKlKkY7zfkUJJzZosew40kMqJ7t9SXA1FVsg80kyNEuh6nDcdFpHlp80CieiUdjOhSGikSi0VhSKRKKQVQCGFAAIB2KwAgCWugxrZNjRlLoVFJIS3djGLpgABAMQAFgJiEU2Q4ooQEIpEItFRaKRCKQFAIAGIBWA7CxWKwGVk2SiiY+JBN3JmdXCAQyoAAAALAQAACAAEAVCLRCLQWKRSJRSBDAABAJjEwEIYiUVHZNk8xt/KkSQMAApAMQAgAAAQAACAAKIRaJSKSM1vnVIpCSGhSKAAJVhAMQpEsTYpMlsqRTYWZ2FkRpZRnFmiDUAUAAgoQwFOSEUFCnKBWquxzajG2ebHkhHHHLllSkqVlSNnkjFXKSS6tgssKvXGutnzU28iUcmTI0tkmiO5h/FP6EmL3r6pZoN1GcW/JlqS6nyaxxT2lJex6MXaMuJvTmnuq3V0Jid6+l1oNZ83DteeDclmbk+co2bY/iGeMalkhN9Wh4da7usTyHCy9tzZElHNCFc4oxhkyQnq7+76seHWu7LIkyHmRyv8A1zf38b9yX2mfHXBehfEuur3i6h3y6nJ7+b/EQ12iS4yiy+JddrFkTNHOnGubOJDtmSMk1OLXQt9vzNp6saryM+Nda7WoNRxZ/EczVRlji/qSviHaNNOcG/JDw6129QajkR+JTSqUIyfW6CXxLK/DGC9Wx4nWuvqDWcZ/EO0PdKC8iJ9t7XPhOMF+UTDrXYz5dGGbe1Re55oYVlgp9pS4LTBvwo5WXN2rIpKWW1Lkbdm7XmxJrLWW+be5fEusU+sl6UNPfjXqjFylw2fXYerJbppJmWmybutS+iKTk6WqK9jDXNK+8XkO5P8AGa9gPQ9W3zL/ABBKbpWtvIw1Si0lkl6jUpLjObrkQeipvdSX0CprfUq9Dz3cfHJu+ewcE03L6hW67zlKPukChNp1KLrcwuqq6a6j106SbYRsoPj9l+gJOvDiXlsYqcuGl17hKU2vDXsBrot7d0n7D0cGljV+m5inl5oE572twNnBLase/khabvbH14IjVlfL6AnNO9L8wqq/LCq8itD46IfoZ/aO+K8+QPW6S4yWzCNdL4LHEWidK8cURUl0XPiSoSe6a48ArR45LjBelCeOX8qyGuWuMeqoag3wyKgjxR5+iNFwADSLr5fYcvu/0sAAUXbV9Ah4p+qACDak+SHSpbLgAEaEfGhSbvj+7AANIbtrzK5sAAWd1HbYmLeuG78IAAuEWxS8b/fQAAtL7X3f/S0lq4IAAhpOUti6Wr+5f6EADpLgkvmIfiAAP//Z",
+            "rank": 4,
+            "global_rank": 12
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq_n2_LR8jNxaJSrT_TZWAmsuLFLSrqHNh2tqhYcMc-Q&s",
+            "image_alt": "60 million people under threat of severe weather across the US",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq_n2_LR8jNxaJSrT_TZWAmsuLFLSrqHNh2tqhYcMc-Q&s",
+            "rank": 5,
+            "global_rank": 13
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pFWChdA8tsyw6rFC8JGpNu_o_-2tD8AGuS_ng3oKfA&s",
+            "image_alt": "Stunning Iowa tornado tears through central part of state",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6pFWChdA8tsyw6rFC8JGpNu_o_-2tD8AGuS_ng3oKfA&s",
+            "rank": 6,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNxgsprb8O2gsn6YAK2VINihkpAPLULkBoSB_CqB38w&s",
+            "image_alt": "Tornado warnings reported in northern Missouri - Linneus tornado",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdNxgsprb8O2gsn6YAK2VINihkpAPLULkBoSB_CqB38w&s",
+            "rank": 7,
+            "global_rank": 15
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSfwgpHI3Ms7Vyn9ZxUsEMbQNUf6cAnsEEzObeC4NEQ&s",
+            "image_alt": "Missouri tornado kills 5 in latest wave of severe weather ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSfwgpHI3Ms7Vyn9ZxUsEMbQNUf6cAnsEEzObeC4NEQ&s",
+            "rank": 8,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6pBbzBj0dbi6ZWTIDfrwsCBoWAGt7AsJq10jVJw1aA&s",
+            "image_alt": "Missouri Tornado Death Toll Climbs; 2 Twisters Leave Damage ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt6pBbzBj0dbi6ZWTIDfrwsCBoWAGt7AsJq10jVJw1aA&s",
+            "rank": 9,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8ZNVDqZ6uLD8J_gR6eCso92RgUVa5DKlF1fjhb_52Q&s",
+            "image_alt": "A Missouri tornado left at least 5 people dead : NPR",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8ZNVDqZ6uLD8J_gR6eCso92RgUVa5DKlF1fjhb_52Q&s",
+            "rank": 10,
+            "global_rank": 18
+        }
+    ]
+}

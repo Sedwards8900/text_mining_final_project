@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 23700000,
+        "search_time": 0.53,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "West Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:50.488Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=West+Virginia+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_fnl89lc895"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2016/06/27/us/battered-by-storms-west-virginia-struggles-to-recover.html",
+            "display_link": "https://www.nytimes.com \u203a 2016/06/27 \u203a battered-by-...",
+            "title": "Battered by Storms, West Virginia Struggles to Recover",
+            "description": "The storms that swept West Virginia last Thursday created historic flooding and in the aftermath left hundreds of homes, buildings, bridges, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 26, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "http://www.climate.gov/news-features/event-tracker/thousand-year-downpour-led-deadly-west-virginia-floods",
+            "display_link": "http://www.climate.gov \u203a news-features \u203a event-tracker",
+            "title": "'Thousand-year' downpour led to deadly West Virginia floods",
+            "description": "A storm system that initially formed closer to the Great Lakes brought repeated rounds of torrential thunderstorms across the state. Rainfall ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 8, 2016",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.thedaonline.com/weather/justice-issues-state-of-emergency-for-west-virginia-ahead-of-winter-storm/article_5597cde6-8229-11ed-873f-a7e3bbd6d8ed.html",
+            "display_link": "https://www.thedaonline.com \u203a weather \u203a article_5597cd...",
+            "title": "Justice issues State of Emergency for West Virginia ahead ...",
+            "description": "Gov. Jim Justice has declared a State of Emergency for all of West Virginia ahead of a winter storm that will continue into the holiday weekend.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wvnews.com/theet/news/fall-storm-season-starting-in-west-virginia-how-to-prepare/article_218fd156-3b5c-11ed-9199-83ecf9f703d3.html",
+            "display_link": "https://www.wvnews.com \u203a theet \u203a news \u203a article_218fd...",
+            "title": "Fall storm season starting in West Virginia; how to prepare",
+            "description": "CLARKSBURG, W.Va. (WV News) \u2014 Along with cooler temperatures and changing leaves, fall often brings the inherent risk of storms as the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.thecentersquare.com/west_virginia/article_90351df0-809e-11ed-b9dd-eb14f1c24059.html",
+            "display_link": "https://www.thecentersquare.com \u203a west_virginia \u203a articl...",
+            "title": "All 55 West Virginia counties under state of preparedness ...",
+            "description": "The National Weather Service in Charleston, West Virginia, is forecasting a \u201clarge and intense\u201d winter storm system will begin impacting parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.fayettetribune.com/news/justice-declares-state-of-emergency-for-all-55-counties-in-wv-ahead-of-winter-storm/article_f660994a-827b-11ed-82c2-a37a6ef81bed.html",
+            "display_link": "https://www.fayettetribune.com \u203a news \u203a article_f660994...",
+            "title": "Justice declares State of Emergency for all 55 counties in ...",
+            "description": "\u201cAll West Virginians need to absolutely be ready for the potential impact this winter storm may bring to our state,\u201d Gov. Justice said. \u201cWest ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.newsbreak.com/charleston-wv/2968879963721-storm-headed-into-west-virginia-packs-a-punch",
+            "display_link": "https://www.newsbreak.com \u203a Charleston, WV",
+            "title": "Storm headed into West Virginia packs a punch",
+            "description": "CHARLESTON, W.Va. \u2014 The National Weather Service says high winds and rainfall are already striking along the Ohio side of the Ohio River and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.reuters.com/article/usa-weather-power/update-3-west-virginia-struggles-with-power-outages-amid-new-storms-idUKL2E8I5DVF20120706",
+            "display_link": "https://www.reuters.com \u203a article \u203a usa-weather-power",
+            "title": "UPDATE 3-West Virginia struggles with power outages ...",
+            "description": "LEWISBURG, W.V., July 5 (Reuters) - Six days after violent storms hit the eastern United States, the state of West Virginia was struggling to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.channel3000.com/news/national-and-world-news/oh-ohio-west-virginia-storm-damage/video_6fef144a-7081-52f3-8adf-1984190ee8e9.html",
+            "display_link": "https://www.channel3000.com \u203a national-and-world-news",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.2news.com/weather/ap_weather_headlines/oh-ohio-west-virginia-storm-damage/video_7b7c2fa1-5fce-55ed-9b9f-f7d75308d7cf.html",
+            "display_link": "https://www.2news.com \u203a weather \u203a ap_weather_headlines",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE | Weather - KTVN",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}
