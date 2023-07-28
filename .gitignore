@@ -1,1 +1,6 @@
 .env
+.DS_Store
+*.db
+*.pkl
+*.w2v
+*.ftz
