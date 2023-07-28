@@ -1,6 +1,8 @@
 .env
 .DS_Store
-*.db
-*.pkl
+articles_cleaned.pkl
+articles_extended.pkl
+articles_cleaned.db
+articles_extended.db
 *.w2v
 *.ftz
