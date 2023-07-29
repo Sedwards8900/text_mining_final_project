@@ -6,4 +6,4 @@ articles_cleaned.db
 articles_extended.db
 *.w2v
 *.ftz
-k_clusters_25.pkl
+clusters_pickles/
