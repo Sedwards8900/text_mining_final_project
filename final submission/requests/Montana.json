@@ -1,0 +1,347 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 49700000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Montana storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:09:43.792Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Montana+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_bff26t88qv"
+    },
+    "organic": [
+        {
+            "link": "https://www.forbes.com/sites/brianbushard/2022/12/22/montana-hits49-f-as-once-in-a-generation-storm-brings-record-lows-across-us-heres-where-its-coldest/",
+            "display_link": "https://www.forbes.com \u203a brianbushard \u203a 2022/12/22",
+            "title": "Montana Hits -49 F As Once-In-A-Generation Storm Brings ...",
+            "description": "Winter Storm Elliott brought record-low temperatures in Montana and Wyoming on Tuesday as the once-in-a-generation storm barrels through the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kbzk.com/weather/one-of-biggest-snow-storms-of-season-impacting-sw-montana-right-now",
+            "display_link": "https://www.kbzk.com \u203a weather \u203a one-of-biggest-sno...",
+            "title": "One of biggest snow storms of season impacting SW ...",
+            "description": "BOZEMAN \u2013 An impressive snowstorm is impacting SW Montana Friday night through Sunday night. As of noon on Saturday we are getting numerous ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+storm+%22article%22&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ5t4CegQILxAB",
+                    "rank": 3
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.kbzk.com/weather/powerful-storm-taking-aim-at-eastern-montana",
+                    "display_link": "https://www.kbzk.com \u203a weather \u203a powerful-storm-tak...",
+                    "title": "Powerful storm taking aim at eastern Montana",
+                    "description": "Snow, heavy at times, and wind gusts over 30 mph will produce difficult to hazardous conditions especially on the Idaho side of Monida Pass.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 11, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.npr.org/2022/12/22/1144970060/winter-storm-holiday-travel",
+            "display_link": "https://www.npr.org \u203a 2022/12/22 \u203a winter-storm-holida...",
+            "title": "A massive U.S. winter storm makes holiday travel dangerous",
+            "description": "A massive winter storm is sweeping across the U.S., making holiday ... winds and dangerous precipitation to states from Montana to Alabama.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/buffalo-storms-accidents-vermont-climate-and-environment-83fb35d2302eaa17ebabd297cd4cb0d8",
+            "display_link": "https://apnews.com \u203a article \u203a buffalo-storms-accidents...",
+            "title": "Weather Updates | Blizzard warning in effect in Montana",
+            "description": "A blizzard warning was in effect until the middle of Christmas Day in western Montana along the eastern side of the Rocky Mountains.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 24, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/storms-north-dakota-weather-climate-and-environment-05de0195231bd5a560727e6afa6ed549",
+                    "display_link": "https://apnews.com \u203a article \u203a storms-north-dakota-we...",
+                    "title": "1st winter storm of season rolling through Montana, Dakotas",
+                    "description": "The first winter storm of the season to blast off from the Rockies is unloading its energy primarily in North Dakota, where it could dump up ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Nov 10, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nytimes.com/2019/09/27/us/montana-snow-storm.html",
+            "display_link": "https://www.nytimes.com \u203a 2019/09/27 \u203a montana-snow...",
+            "title": "Montana Hunkers Down as Snow Piles Up by the Foot. In ...",
+            "description": "Montana is skipping straight to winter, as a weekend storm has begun to bury much of the state under feet of snow. Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/severe-storms-affect-60-million-people-montana-atlantic-rcna36655",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a severe-stor...",
+            "title": "Severe storms could affect more than 60 million people ...",
+            "description": "More than 60 million people are at risk for severe storms Tuesday across a 1800-mile stretch from central Montana to the mid-Atlantic.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.greatfallstribune.com/story/news/local/2022/11/03/montana-weather-forecast-winter-storm-winds-temperatures-2022/69617647007/",
+            "display_link": "https://www.greatfallstribune.com \u203a local \u203a 2022/11/03",
+            "title": "First major winter storm forecast for northcentral Montana",
+            "description": "\"A strong cold front moving into the Plains will produce areas of heavy snow across the Inter-mountain west and Rockies, and will bring a threat ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 3, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://abcnews.go.com/US/78-million-americans-face-severe-weather-montana-washington/story?id=86300447",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "78 million Americans face severe weather, from Montana to ...",
+            "description": "There have been more than 250 damaging storm reports from Montana to South Carolina, including three tornadoes in Virginia, Maryland and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+snow+storm+today&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg7EAE",
+            "text": "montana snow storm today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+coldest+temperature+2023&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg8EAE",
+            "text": "montana coldest temperature 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Massive+winter+storm+2023&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg6EAE",
+            "text": "massive winter storm 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Coldest+temperature+in+Montana&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg5EAE",
+            "text": "coldest temperature in montana",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+coldest+temperature+2022&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg4EAE",
+            "text": "montana coldest temperature 2022",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Montana+temperature+by+month&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg3EAE",
+            "text": "montana temperature by month",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Coldest+temperature+in+USA+2023&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg2EAE",
+            "text": "coldest temperature in usa 2023",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Bozeman+snowfall+last+72+hours&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQ1QJ6BAg0EAE",
+            "text": "bozeman snowfall last 72 hours",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What is the coldest town in Montana?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+coldest+town+in+Montana%3F&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQzmd6BAgdEAY",
+            "answer_source": "Discover the Coldest Place in Montana (-70\u00b0F!) - AZ Animals",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-coldest-place-in-montana/",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-coldest-pla...https://a-z-animals.com \u203a blog \u203a discover-the-coldest-pla...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB0QBQ\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQu04oAHoECB0QBQ\"><div id=\"opnBZI6kDfuWxc8P1cyeGA__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Roger's Pass is known for being the coldest place in the state, with temperatures regularly dropping below freezing, even in the summer months.</span></span><span class=\"kX21rb ZYHQ7e\">May 31, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Roger's Pass is known for being the coldest place in the state, with temperatures regularly dropping below freezing, even in the summer months.May 31, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What is the highest temperature ever recorded in Montana?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+highest+temperature+ever+recorded+in+Montana%3F&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQzmd6BAgXEAY",
+            "answer_source": "Montana's unpredictable climate: Unveiling the hottest temperature ...",
+            "answer_link": "https://m.economictimes.com/news/international/us/montanas-unpredictable-climate-unveiling-the-hottest-temperature-ever-recorded/articleshow/100918291.cms",
+            "answer_display_link": "https://m.economictimes.com \u203a international \u203a articleshowhttps://m.economictimes.com \u203a international \u203a articleshow",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQu04oAHoECBcQBQ\"><div id=\"opnBZI6kDfuWxc8P1cyeGA__18\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBoQAA\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQtwcoAHoECBoQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"117 \u00b0F.\"><div class=\"IZ6rdc\">117 \u00b0F.</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"opnBZI6kDfuWxc8P1cyeGA__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">Montana's hottest temperature on record is a scorching <b>117 \u00b0F</b>. This exceptionally high temperature was recorded on July 20, 1893, in Glendive. Additionally, Medicine Lake, a small town in Sheridan County, Montana, experienced the same extreme temperature on July 5, 1937.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 11, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "117 \u00b0F.",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Montana's hottest temperature on record is a scorching 117 \u00b0F. This exceptionally high temperature was recorded on July 20, 1893, in Glendive. Additionally, Medicine Lake, a small town in Sheridan County, Montana, experienced the same extreme temperature on July 5, 1937.Jun 11, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What is the coldest temperature ever recorded in Montana?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+coldest+temperature+ever+recorded+in+Montana%3F&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQzmd6BAgZEAY",
+            "answer_source": "Discover the Coldest Temperature Ever Recorded in Montana",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-coldest-temperature-ever-recorded-in-montana/",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-coldest-tem...https://a-z-animals.com \u203a blog \u203a discover-the-coldest-tem...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQu04oAHoECBkQBQ\"><div id=\"opnBZI6kDfuWxc8P1cyeGA__22\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBMQAA\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQtwcoAHoECBMQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"-70\u00b0 Fahrenheit\"><div class=\"IZ6rdc\">-70\u00b0 Fahrenheit</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"opnBZI6kDfuWxc8P1cyeGA__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">Montana has harsh winters and temperatures. It holds the record for the all-time coldest temperature ever recorded in the lower 48 states (excluding Alaska and Hawaii). On January 20, 1954, a temperature of <b>-70\u00b0 Fahrenheit</b> was recorded at Rogers Pass on the Continental Divide.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 4, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "-70\u00b0 Fahrenheit",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Montana has harsh winters and temperatures. It holds the record for the all-time coldest temperature ever recorded in the lower 48 states (excluding Alaska and Hawaii). On January 20, 1954, a temperature of -70\u00b0 Fahrenheit was recorded at Rogers Pass on the Continental Divide.Feb 4, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "What is the coldest wind chill ever recorded?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+the+coldest+wind+chill+ever+recorded%3F&sa=X&ved=2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQzmd6BAgYEAY",
+            "answer_source": "Coldest Windchill ever recorded in US at minus 108 degrees F, says ...",
+            "answer_link": "https://m.economictimes.com/news/international/us/coldest-windchill-ever-recorded-in-us-at-minus-108-degrees-f-says-report-check-saturday-forecast/articleshow/97607022.cms",
+            "answer_display_link": "https://m.economictimes.com \u203a international \u203a articleshowhttps://m.economictimes.com \u203a international \u203a articleshow",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQu04oAHoECBgQBQ\"><div id=\"opnBZI6kDfuWxc8P1cyeGA__26\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBQQAA\" data-ved=\"2ahUKEwiO_Y3Usa2AAxV7S_EDHVWmBwMQtwcoAHoECBQQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"minus 108 degrees F\"><div class=\"IZ6rdc\">minus 108 degrees F</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"opnBZI6kDfuWxc8P1cyeGA__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">FAQs: What is the coldest wind chill ever recorded in the US? Coldest wind chill was recorded at <b>minus 108 degrees F</b> in Mount Washington.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 4, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "minus 108 degrees F",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "FAQs: What is the coldest wind chill ever recorded in the US? Coldest wind chill was recorded at minus 108 degrees F in Mount Washington.Feb 4, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

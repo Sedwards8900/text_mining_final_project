@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 22700000,
+        "search_time": 0.44,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wisconsin storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:52:33.544Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wisconsin+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.1 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_jhwdav33bac"
+    },
+    "organic": [
+        {
+            "link": "https://kstp.com/kstp-news/top-news/pop-up-storms-cause-damage-in-east-metro-western-wisconsin/",
+            "display_link": "https://kstp.com \u203a kstp-news \u203a top-news \u203a pop-up-stor...",
+            "title": "Pop-up storms cause damage in east metro, western ...",
+            "description": "Crews are working hard to restore power to thousands of people Tuesday as extremely hot temperatures move into Minnesota and Wisconsin.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wkow.com/news/severe-storms-continue-across-southeast-wisconsin/article_ae2bf5ca-1b28-11ee-b195-2b0efb809d0d.html",
+            "display_link": "https://www.wkow.com \u203a news \u203a article_ae2bf5ca-1b28-...",
+            "title": "Storms wrap up overnight | News",
+            "description": "Copy article link; Save. Download the 27 StormTrack app to receive mobile weather alerts. MADISON (WKOW) - A few weak storms are still ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cbs58.com/news/massive-storm-brings-rain-then-snow-to-southeast-wisconsin",
+            "display_link": "https://www.cbs58.com \u203a news \u203a massive-storm-brings-r...",
+            "title": "Massive storm brings rain, then snow, to southeast Wisconsin",
+            "description": "Download the CBS 58 Ready Weather app to track all the rain and snow with the interactive radar. Share this article: facebook \u00b7 twitter ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 13, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nationalguard.mil/News/Article/575550/nearly-250-soldiers-on-winter-storm-duty-in-iowa-minnesota-and-wisconsin/",
+            "display_link": "https://www.nationalguard.mil \u203a News \u203a Article \u203a near...",
+            "title": "Nearly 250 Soldiers on winter storm duty in Iowa ...",
+            "description": "MADISON, Wis. - Gov. Scott Walker called the Wisconsin National Guard to state active duty ahead of a strong winter storm that could bring more than 12 ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://yaleclimateconnections.org/2021/07/fierce-winds-tornado-threat-looming-for-wisconsin/",
+            "display_link": "https://yaleclimateconnections.org \u203a 2021/07 \u203a fierce-...",
+            "title": "Fierce winds, tornado threat looming for Wisconsin",
+            "description": "Fierce winds, tornado threat looming for Wisconsin ... See more below on this multi-billion-dollar windstorm. (Image credit: Peter Speck via ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 28, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://badgerherald.com/?p=309139",
+            "display_link": "https://badgerherald.com \u203a ...",
+            "title": "Wisconsin is woefully unprepared for increase in severe ...",
+            "description": "On average, Wisconsin gets around 3-5 severe winter storms per season and a significant ice storm every 4-5 years. The effects of these storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2019/07/24/heres-how-two-derechos-slammed-wisconsin-ravaging-an-area-five-times-bigger-than-washington-dc-with-mph-winds/",
+            "display_link": "https://www.washingtonpost.com \u203a 2019/07/24 \u203a here...",
+            "title": "Here's how two derechos ravaged Wisconsin last week.",
+            "description": "National Weather Service radar showed the bow-shaped line of storms pummeling northern Wisconsin. Known as a \u201cderecho,\u201d these wind storms start ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 24, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wearegreenbay.com/weather/winter-storm-arrives-tonight-thursday/",
+            "display_link": "https://www.wearegreenbay.com \u203a weather \u203a winter-st...",
+            "title": "Winter Storm arrives tonight into Thursday",
+            "description": "An updated weather article can be found here. The latest northeast Wisconsin weather forecast from Storm Team 5\u2026 Calm before the storm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcnews.com/news/weather/may-snowstorm-record-books-blankets-parts-wisconsin-michigan-rcna82226",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a weather \u203a may-sn...",
+            "title": "May snowstorm for the record books blankets parts of ...",
+            "description": "A record-setting May snowstorm is in the making, which could bring historic snow totals to parts of Wisconsin and the Upper Peninsula of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://apnews.com/article/wisconsin-storms-madison-weather-thunderstorms-10d6444cfef341799c261659d362b90f",
+            "display_link": "https://apnews.com \u203a article \u203a wisconsin-storms-madis...",
+            "title": "Severe weather possible in southern Wisconsin the next ...",
+            "description": "After Madison got seven inches of snow two weeks ago, severe thunderstorms are possible over the next few days, forecasters say.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

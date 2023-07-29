@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33700000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Vermont storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:19.049Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Vermont+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_rjl1x2j5vgl"
+    },
+    "organic": [
+        {
+            "link": "https://www.wsj.com/articles/flash-floods-swamp-new-york-state-killing-at-least-one-e265da8f",
+            "display_link": "https://www.wsj.com \u203a articles",
+            "title": "Deadly Flash Floods, Storms Wreak Havoc on New York ...",
+            "description": "Vermont Gov. Phil Scott declared a state of emergency on Sunday before the eye of the storm reached the state. He compared the heavy rains to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-12283465/Deadly-storm-heads-Vermont-flash-floods-upstate-New-York.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12283465",
+            "title": "Deadly storm heads for Vermont after flash floods in ...",
+            "description": "Share or comment on this article: Deadly storm heads for Vermont after flash floods in upstate New York.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://vtdigger.org/2023/07/09/catastrophic-life-threatening-flooding-expected-in-vermont-starting-sunday/",
+            "display_link": "https://vtdigger.org \u203a 2023/07/09 \u203a catastrophic-life-th...",
+            "title": "Catastrophic, life-threatening flooding expected in Vermont ...",
+            "description": "The National Weather Service expects two to five inches of rain throughout much of the state and more than seven inches in some areas. Gov. Phil ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wcax.com/2023/07/13/watch-live-gov-scott-hold-media-briefing/",
+            "display_link": "https://www.wcax.com \u203a 2023/07/13 \u203a watch-live-gov-sc...",
+            "title": "Vt. officials say dangerous storms will complicate flood ...",
+            "description": "Vermont officials Thursday urged extreme caution as another round of dangerous weather arrives Thursday afternoon, bringing more rain and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.theguardian.com/world/live/2023/jul/13/us-severe-weather-warning-record-heat-wildfire-tornado-live-updates",
+            "display_link": "https://www.theguardian.com \u203a world \u203a live \u203a jul \u203a us-...",
+            "title": "Vermont governor seeks major disaster declaration from ...",
+            "description": "Latest storm warning comes just days after areas of Vermont and New York were hit with flash flooding, raising concerns over more damage.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.bostonglobe.com/2023/07/18/metro/vermont-tourism-takes-hit-flooding-extreme-weather/",
+            "display_link": "https://www.bostonglobe.com \u203a 2023/07/18 \u203a metro \u203a ve...",
+            "title": "Vermont tourism takes a hit from flooding and extreme ...",
+            "description": "But owner Steve Brownlee said on Friday the business had lost between $5,000 and $10,000 following the floods. Read full article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://nypost.com/2023/07/13/more-flash-flooding-looms-for-vermont-as-severe-storms-tornadoes-likely-to-erupt-across-northeast-on-thursday/",
+            "display_link": "https://nypost.com \u203a 2023/07/13 \u203a more-flash-floodin...",
+            "title": "More flash flooding looms for Vermont as severe storms, ...",
+            "description": "\u201cWe're just days off of a Flash Flood Emergency in the lower Hudson Valley and Vermont,\u201d FOX Weather meteorologist Britta Merwin said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cbsnews.com/news/vermont-flooding-railroad-track-suspended-mid-air/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Vermont flooding leaves railroad track \"dangling\" mid-air ...",
+            "description": "The intense flooding that has overtaken Vermont in recent days after a devastating storm swept through on Sunday has isolated towns, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornadoes-midwest-floods-northeast-heat-southwest/story?id=101204375",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Fatality confirmed in Vermont flooding amid extreme weather ...",
+            "description": "Extreme weather continues to affect most of the country. ... At least one person was killed by the raging floodwaters in Vermont this week, state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/live-blog/floods-vermont-weather-rain-storms-new-england-live-updates-rcna93587",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a live-blog",
+            "title": "Vermont floods have led to more than 100 rescues, officials ...",
+            "description": "More than 9 inches of rain recorded in parts of Vermont ... Torrents of rainfall drenched Vermont yesterday, with 9.05 inches recorded in Plymouth ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

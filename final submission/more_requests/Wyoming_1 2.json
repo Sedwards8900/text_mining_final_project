@@ -1,0 +1,162 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47300000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:52:49.486Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&start=12&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_7no0nvz23em"
+    },
+    "organic": [
+        {
+            "link": "https://kgab.com/update-18-inches-of-snow-55-mph-winds-possible-with-se-wyoming-storm/",
+            "display_link": "https://kgab.com \u203a update-18-inches-of-snow-55-mph...",
+            "title": "18 Inches Of Snow, 55 MPH Winds Possible With SE ...",
+            "description": "A winter storm beginning late Sunday night is set to cause major impacts to portions of southeast Wyoming and western Nebraska due to heavy ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Wyoming+storm+%22article%22&sa=X&ved=2ahUKEwjQmvrE462AAxUrkYkEHczeCg44DBDm3gJ6BAgeEAE",
+                    "rank": 3
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://kgab.com/se-wyoming-braces-for-major-winter-storm-12-18-inches-of-snow-possible/",
+                    "display_link": "https://kgab.com \u203a se-wyoming-braces-for-major-wint...",
+                    "title": "SE Wyoming Braces For Major Winter Storm, 12-18 Inches ...",
+                    "description": "A Winter Storm Watch goes into effect Sunday for much of southeast Wyoming and the Nebraska Panhandle and lasts through Wednesday. Exact ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 1, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.npr.org/2022/12/22/1144970060/winter-storm-holiday-travel",
+            "display_link": "https://www.npr.org \u203a 2022/12/22 \u203a winter-storm-holida...",
+            "title": "A massive U.S. winter storm makes holiday travel dangerous",
+            "description": "The cold front has moved so swiftly that temperatures across the Rocky Mountains plunged at record paces. On Wednesday night in Cheyenne, Wyo., ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.newsbreak.com/cheyenne-wy/2978410086340-se-wyoming-storm-could-bring-over-a-foot-of-snow-strong-winds",
+            "display_link": "https://www.newsbreak.com \u203a Cheyenne, WY",
+            "title": "SE Wyoming Storm Could Bring Over A Foot Of Snow, Strong ...",
+            "description": "SE Wyoming Storm Could Bring Over A Foot Of Snow, Strong Winds. By Doug Randall,. 7 days ago. article cover. By Doug Randall,. 7 days ago.",
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/22/weather/winter-storm-us-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/02/22 \u203a winter-storm-us-we...",
+            "title": "Winter storm in the North and heat wave in the South ...",
+            "description": "Much of Montana, Wyoming and the Dakotas had temperatures below zero Wednesday afternoon, including minus 9 degrees in Cut Bank, Montana. At the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.axios.com/2023/02/22/massive-winter-storm-affects-lower-48-states-blizzard",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "\"Massive\" winter storm to impact entire Lower 48",
+            "description": "South of the wintry weather, temperatures could hit 80\u00b0F in Washington, ... into negative numbers in Montana and eventually Wyoming as well.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nytimes.com/1875/11/20/archives/heavy-snowstorm-in-wyoming.html",
+            "display_link": "https://www.nytimes.com \u203a archives \u203a heavy-snowstorm-...",
+            "title": "HEAVY SNOW-STORM IN WYOMING.",
+            "description": "Full text is unavailable for this digitized archive article. Subscribers may view the full text of this article in its original form through TimesMachine.",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://mybighornbasin.com/winter-storm-closes-roads-in-wyoming-colorado-nebraska/",
+            "display_link": "https://mybighornbasin.com \u203a winter-storm-closes-roads-...",
+            "title": "Winter storm closes roads in Wyoming, Colorado, Nebraska",
+            "description": "A powerful late winter snowstorm intensified over the central Rocky Mountains on Sunday with heavy snow and wind leading to airport and road closures, ...",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://law.justia.com/codes/wyoming/2019/title-40/chapter-12/article-7/section-40-12-704/",
+            "display_link": "https://law.justia.com \u203a article-7 \u203a section-40-12-704",
+            "title": "Wyoming Statutes \u00a7 40-12-704 (2019) - Disclosure ...",
+            "description": "2019 Wyoming Statutes Title 40 - Trade and Commerce Chapter 12 - Consumer Protection Article 7 - Exterior Storm Damage Repair Contracts Section 40-12-704 - ...",
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.bostonglobe.com/2022/12/22/nation/see-photos-videos-severe-winter-storm-hitting-states-like-colorado-wyoming/",
+            "display_link": "https://www.bostonglobe.com \u203a 2022/12/22 \u203a nation \u203a se...",
+            "title": "See photos and videos of the severe winter storm hitting ...",
+            "description": "States including Wyoming, Colorado, and Iowa experienced dramatic and even record-breaking temperature drops Thursday morning, as wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

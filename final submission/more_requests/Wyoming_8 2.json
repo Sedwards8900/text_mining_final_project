@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47300000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:53:08.026Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/611.3.10.1.5 (KHTML, like Gecko) Version/14.1.2 Safari/611.3.10.1.5",
+        "request_id": "hl_c3a9eb28_5p8itdzicur"
+    },
+    "organic": [
+        {
+            "link": "https://mybighornbasin.com/winter-storm-closes-roads-in-wyoming-colorado-nebraska/",
+            "display_link": "https://mybighornbasin.com \u203a winter-storm-closes-roads-...",
+            "title": "Winter storm closes roads in Wyoming, Colorado, Nebraska",
+            "description": "A powerful late winter snowstorm intensified over the central Rocky Mountains on Sunday with heavy snow and wind leading to airport and road closures, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://law.justia.com/codes/wyoming/2019/title-40/chapter-12/article-7/section-40-12-704/",
+            "display_link": "https://law.justia.com \u203a article-7 \u203a section-40-12-704",
+            "title": "Wyoming Statutes \u00a7 40-12-704 (2019) - Disclosure ...",
+            "description": "2019 Wyoming Statutes Title 40 - Trade and Commerce Chapter 12 - Consumer Protection Article 7 - Exterior Storm Damage Repair Contracts Section 40-12-704 - ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/03/17/wyoming-cheyenne-blizzard-nws/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/03/17 \u203a wyo...",
+            "title": "Wyoming got buried beneath a record blizzard, trapping ...",
+            "description": "More than 30 inches of snow fell at the National Weather Service office, setting a new single-day record.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.bostonglobe.com/2022/12/22/nation/see-photos-videos-severe-winter-storm-hitting-states-like-colorado-wyoming/",
+            "display_link": "https://www.bostonglobe.com \u203a 2022/12/22 \u203a nation \u203a se...",
+            "title": "See photos and videos of the severe winter storm hitting ...",
+            "description": "States including Wyoming, Colorado, and Iowa experienced dramatic and even record-breaking temperature drops Thursday morning, as wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://globalnews.ca/tag/wyoming-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a wyoming-storm",
+            "title": "wyoming storm | News, Videos & Articles",
+            "description": "wyoming storm videos and latest news articles; GlobalNews.ca your source for the latest news on wyoming storm .",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2021/mar/13/powerful-snow-storm-western-us-colorado-nebreska-wyoming",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a powe...",
+            "title": "Powerful snow storm with high winds headed toward ...",
+            "description": "Blizzard warnings issued for Wyoming and Nebraska and 2ft of snow expected in Colorado over the ... This article is more than 2 years old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.onlyinyourstate.com/wyoming/snow-storms-in-wyoming-2020-wy/",
+            "display_link": "https://www.onlyinyourstate.com \u203a wyoming \u203a snow-s...",
+            "title": "2020 Snow Storms In Wyoming Have Dumped A Record ...",
+            "description": "Wyoming's snowy winter isn't over yet - there's more snow in the forecast. Wyoming snow storms are predicted to dump at least another six inches ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 29, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://apnews.com/article/2694403c28b94e7c9b756e1c3645dfec",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "98 mph wind gusts rip through Wyoming during winter storm",
+            "description": "CASPER, Wyo. (AP) \u2014 The National Weather Service says wind gusts reached as fast as 98 mph (158 kph) during a winter storm in Wyoming.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.thecheyennepost.com/news/winter-storm-olive-expected-to-bring-severe-cold-temperatures-and-heavy-snow/article_fc64af7e-b238-11ed-8241-73de26d9b327.html",
+            "display_link": "https://www.thecheyennepost.com \u203a news \u203a article_fc64a...",
+            "title": "Winter Storm Olive Expected to Bring Severe Cold ...",
+            "description": "Black Hills Energy is closely monitoring weather conditions and forecasts for a winter storm predicted to impact many of our Wyoming service ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://capcity.news/community/2021/10/10/winter-storm-this-week-could-make-travel-very-difficult-to-impossible-on-wyoming-roadways/",
+            "display_link": "https://capcity.news \u203a Latest News",
+            "title": "Winter storm this week could make travel 'very difficult to ...",
+            "description": "CASPER, Wyo. \u2014 A \u201clarge, potent weather system\u201d creeping into northwest Wyoming Sunday night will bring ... Article continues below\u2026",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 10, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

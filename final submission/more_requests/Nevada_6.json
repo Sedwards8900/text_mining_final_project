@@ -1,0 +1,252 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 34000000,
+        "search_time": 0.3,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Nevada storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:37:59.302Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Nevada+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_xauowm7v4hj"
+    },
+    "organic": [
+        {
+            "link": "https://thehill.com/policy/energy-environment/3795001-california-nevada-face-flooding-power-outages-amid-winter-storm/",
+            "display_link": "https://thehill.com \u203a policy \u203a energy-environment \u203a 3...",
+            "title": "California, Nevada face flooding, power outages amid ...",
+            "description": "Northern California and western Nevada were slammed over the weekend by a powerful winter storm that deluged towns and counties with several ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.reviewjournal.com/news/nation-and-world/record-breaking-storm-blasts-northern-nevada-california-2502972/",
+            "display_link": "https://www.reviewjournal.com \u203a ... \u203a Nation and World",
+            "title": "Record-breaking storm blasts Northern Nevada, California",
+            "description": "A storm in the mountains of Northern California and Nevada closed key highways Monday while recent snowfall has smashed the snowiest ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wunderground.com/article/safety/winter/news/2019-02-05-sierra-nevada-snow-siege-california-february-2018",
+            "display_link": "https://www.wunderground.com \u203a winter \u203a news \u203a 20...",
+            "title": "What 11 Feet of Snow In Four Days Looks Like ...",
+            "description": "Article image Mammoth Mountain Ski Area in the Sierra Nevada early Tuesday. Two winter storms, Kai and Lucian, have pummeled California's Sierra Nevada ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/11/02/storm-drops-12-inches-of-snow-in-sierra-nevada-with-more-likely-to-come/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/11/02 \u203a storm-...",
+            "title": "Storm drops 12 inches of snow in Sierra Nevada, with more ...",
+            "description": "What is article sharing? Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://wfaprofootball.com/team/nevada-storm/",
+            "display_link": "https://wfaprofootball.com \u203a team \u203a nevada-storm",
+            "title": "Nevada Storm",
+            "extensions": [
+                {
+                    "type": "table",
+                    "data": [
+                        [
+                            {
+                                "text": "Date",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Home",
+                                "rank": 2
+                            },
+                            {
+                                "text": "Results",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Away",
+                                "rank": 4
+                            },
+                            {
+                                "text": "League",
+                                "rank": 5
+                            },
+                            {
+                                "text": "Home",
+                                "rank": 6
+                            }
+                        ],
+                        [
+                            {
+                                "text": "2023\u201104\u201122 18:00:00 April 22, 2023",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Mile High Blaze",
+                                "rank": 2
+                            },
+                            {
+                                "text": "27 \u2011 7",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Nevada Storm",
+                                "rank": 4
+                            },
+                            {
+                                "text": "WFA",
+                                "rank": 5
+                            },
+                            {
+                                "text": "Den...",
+                                "rank": 6
+                            }
+                        ],
+                        [
+                            {
+                                "text": "2023\u201104\u201129 18:00:00 April 29, 2023",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Nevada Storm",
+                                "rank": 2
+                            },
+                            {
+                                "text": "14 \u2011 45",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Cali War",
+                                "rank": 4
+                            },
+                            {
+                                "text": "WFA",
+                                "rank": 5
+                            },
+                            {
+                                "text": "Ren...",
+                                "rank": 6
+                            }
+                        ],
+                        [
+                            {
+                                "text": "2023\u201105\u201106 18:00:00 May 6, 2023",
+                                "rank": 1
+                            },
+                            {
+                                "text": "Capital Pioneers",
+                                "rank": 2
+                            },
+                            {
+                                "text": "0 \u2011 31",
+                                "rank": 3
+                            },
+                            {
+                                "text": "Nevada Storm",
+                                "rank": 4
+                            },
+                            {
+                                "text": "WFA",
+                                "rank": 5
+                            },
+                            {
+                                "text": "Sale...",
+                                "rank": 6
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cortezmasto.senate.gov/news/press-releases/cortez-masto-rosen-horsford-urge-administration-to-declare-a-major-disaster-in-nevada-after-severe-winter-storms",
+            "display_link": "https://www.cortezmasto.senate.gov \u203a press-releases",
+            "title": "U.S. Senator Catherine Cortez Masto of Nevada",
+            "description": "Cortez Masto, Rosen, Horsford Urge Administration to Declare a Major Disaster in Nevada After Severe Winter Storms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://mynews4.com/news/local/how-massive-sierra-storms-are-helping-nevada-drought-conditions-reno",
+            "display_link": "https://mynews4.com \u203a news \u203a local \u203a how-massive-si...",
+            "title": "How massive Sierra storms are helping Nevada's drought ...",
+            "description": "KRNV NBC Reno covers news, sports, weather and traffic for the Reno, Nevada area including Sparks, Carson City, Virginia City, Silver City, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://forecast.weather.gov/MapClick.php?zoneid=NVZ004",
+            "display_link": "https://forecast.weather.gov \u203a MapClick",
+            "title": "Western Nevada Basin and Range including Pyramid Lake",
+            "description": "Excessive Heat Warnings continue over parts of Arizona, Nevada, and southern California with Heat Advisories scattered ... Hazardous Weather Conditions.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxweather.com/category/nevada",
+            "display_link": "https://www.foxweather.com \u203a category \u203a nevada",
+            "title": "Nevada",
+            "description": "Articles and videos on Fox Weather. ... Delta passengers, flight attendants fall ill awaiting takeoff in Las Vegas amid 114-degree temps \u00b7 Weather News ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.2news.com/",
+            "display_link": "https://www.2news.com",
+            "title": "KTVN",
+            "description": "Nevada State Police say the crash happened just before 1:30 p.m. ... 2 Weather Alerts. See All > ... CBS News: No Federal Plea Deal in Hunter Biden Case.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

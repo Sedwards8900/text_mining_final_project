@@ -1,0 +1,167 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 50300000,
+        "search_time": 0.56,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:51:02.938Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Virginia+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_t23vz8x6qds"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnn.com/2022/01/04/weather/winter-weather-tuesday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-weather-tuesday",
+            "title": "Virginia's I-95 reopens after winter storm strands drivers",
+            "description": "A 50-mile stretch of Interstate 95 in eastern Virginia reopened Tuesday night after a severe winter storm left some motorists stranded on ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 5, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwif_u2R462AAxVyplYBHVGRC5c4EhDm3gJ6BAgLEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.pahomepage.com/news/national/virginia-preps-for-more-bad-weather-amid-storm-of-questions/",
+            "display_link": "https://www.pahomepage.com \u203a news \u203a national \u203a vir...",
+            "title": "Virginia preps for more bad weather amid storm of questions",
+            "description": "(AP) \u2014 With more bad weather looming, Virginia officials sought to ... This is an archived article and the information in the article may be ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "http://www.virginiaplaces.org/climate/4storms.html",
+            "display_link": "http://www.virginiaplaces.org \u203a climate \u203a 4storms",
+            "title": "Storms in Virginia",
+            "description": "However, a few frontal cyclones, such as Hurricane Camille, can migrate all the way north from the Gulf of Mexico before drenching Virginia. Such storms can ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Virginia+storm+%22article%22&sa=X&ved=2ahUKEwif_u2R462AAxVyplYBHVGRC5c4EhDm3gJ6BAgfEAE",
+                    "rank": 2
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "http://www.virginiaplaces.org/climate/hurricanes.html",
+                    "display_link": "http://www.virginiaplaces.org \u203a climate \u203a hurricanes",
+                    "title": "Hurricanes in Virginia",
+                    "description": "if a Class 3 hurricane pushed a storm surge into Chesapeake Bay at high tide, flooding in Hampton Roads would be massive. Source: Virginia Department of ...",
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.insidenova.com/headlines/nearly-30-000-without-power-as-strong-storms-roll-through-northern-virginia/article_9e1a5f24-f27e-11ec-96a0-9f88e587085b.html",
+            "display_link": "https://www.insidenova.com \u203a headlines \u203a article_9e1a5f...",
+            "title": "Nearly 30000 without power as strong storms roll through ...",
+            "description": "Storm damage in Loudoun County, June 22, 2022. ... Northern Virginia Electric Cooperative reported 2,100 customers without power as of 7:15 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.novec.com/About_NOVEC/Virginias-Historic-Snowstorms.cfm",
+            "display_link": "https://www.novec.com \u203a About_NOVEC \u203a Virginias-...",
+            "title": "Virginia's Historic Snowstorms",
+            "description": "In the Mid-Atlantic, weather stations recorded their lowest pressure ever when the storm's center passed. Blizzard conditions in portions of Northern Virginia ...",
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/List_of_storms_named_Virginia",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_storms_name...",
+            "title": "List of storms named Virginia",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. The name Virginia has been used for eight tropical cyclones in the Western Pacific Ocean.",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.virginia.org/plan-your-trip/seasons-and-climate/",
+            "display_link": "https://www.virginia.org \u203a plan-your-trip \u203a seasons-an...",
+            "title": "Seasons & Climate - Virginia Weather",
+            "description": "Virginia's weather has been described as a \"Goldilocks Climate\" \u2013 not too hot and not too cold \u2013 and is officially considered a humid, subtropical region ...",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/tornado-strikes-virginia-coast-damaging-homes-leaving-power-rcna82184",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a tornado-st...",
+            "title": "Tornado strikes Virginia Beach, damaging homes and ...",
+            "description": "Dozens of homes were damaged, trees were downed, and more than 2,000 utility customers were briefly without power Sunday evening after a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.mercurynews.com/2022/01/04/storm-strands-hundreds-overnight-on-virginia-highway/",
+            "display_link": "https://www.mercurynews.com \u203a 2022/01/04 \u203a storm-...",
+            "title": "Storm strands hundreds overnight on Virginia highway",
+            "description": "What is article sharing? Subscribers are entitled to 10 gift sharing articles each month. These can be shared with friends and family who are ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 4, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,156 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 40300000,
+        "search_time": 0.38,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Rhode Island storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:45:46.887Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Rhode+Island+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_fkt7ypazmq"
+    },
+    "organic": [
+        {
+            "link": "http://www.crmc.ri.gov/coastalstorms.html",
+            "display_link": "http://www.crmc.ri.gov \u203a coastalstorms",
+            "title": "RI CRMC Hurricanes and Coastal Storms",
+            "description": "STORMTOOLS. Illustrates and displays storm inundation, with and without sea level rise, for different types of storms that could occur along Rhode Island's ...",
+            "subresults": [
+                {
+                    "link": "https://www.ri.gov/hurricane/",
+                    "display_link": "https://www.ri.gov \u203a hurricane",
+                    "title": "Hurricane Preparedness",
+                    "description": "Hurricane Preparedness. Prepare Now! We cannot predict when disasters or emergencies will strike. But we can work to make sure that all households, ...",
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.thedartmouth.com/article/2021/08/tropical-storm-henri-makes-landfall-in-rhode-island-to-bring-high-winds-and-heavy-rain-to-upper-valley",
+            "display_link": "https://www.thedartmouth.com \u203a article \u203a 2021/08 \u203a tr...",
+            "title": "Tropical storm Henri makes landfall in Rhode Island, to ...",
+            "description": "The storm will weaken rapidly over land, but still poses a danger, the National Hurricane Center says.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://apnews.com/article/tropical-storm-henri-hurricanes-35b9448730d64a02ca81da6cbbd6dc18",
+            "display_link": "https://apnews.com \u203a article \u203a tropical-storm-henri-hur...",
+            "title": "Slow-moving storm Henri drenches Northeast US",
+            "description": "Rhode Island has been hit by hurricanes and tropical storms periodically \u2014 including Superstorm Sandy in 2012, Irene in 2011 and Hurricane Bob ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 22, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://news.yahoo.com/winter-isnt-done-powerful-storm-130123777.html",
+            "display_link": "https://news.yahoo.com \u203a winter-isnt-done-powerful-st...",
+            "title": "Winter isn't done: Powerful storm will bring snow, rain ...",
+            "description": "Offshore waves could reach 25 feet. This article originally appeared on The Providence Journal: RI Weather: Winter storm warning means snow, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2021/08/24/henri-heads-out-sea-leaving-behind-12-billion-damage-northeast/8253458002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2021/08/24 \u203a he...",
+            "title": "Henri leaves $12B in damage in Northeast. Some have lost ...",
+            "description": "The storm, downgraded to a post-tropical cyclone, was centered 50 miles east of Providence, Rhode Island, and headed east.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 24, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.providenceri.gov/pema/hurricanes/",
+            "display_link": "https://www.providenceri.gov \u203a pema \u203a hurricanes",
+            "title": "Hurricanes and Tropical Storms",
+            "description": "Although the Fox Point Hurricane Barrier has significantly reduced the risk of flooding within Providence, a powerful hurricane is the natural hazard that ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Rhode+Island+storm+%22article%22&sa=X&ved=2ahUKEwi80Jn74a2AAxW5nGoFHftODuQ4DhDm3gJ6BAgUEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://stories.usatodaynetwork.com/risingthreat/home/",
+            "display_link": "https://stories.usatodaynetwork.com \u203a risingthreat",
+            "title": "Can Providence's hurricane barrier withstand sea-level rise?",
+            "description": "PROVIDENCE \u2014 Crews from the U.S. Army Corps of Engineers arrived at the Fox Point Hurricane Barrier the night before Superstorm Sandy was due to hit the ...",
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://floodlist.com/tag/rhode-island",
+            "display_link": "https://floodlist.com \u203a tag \u203a rhode-island",
+            "title": "Rhode Island",
+            "description": "The storm brought heavy rainfall to the region before landfall. A record 1.94 inches (49.28 mm)\u2026 Read Full Article ...",
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://thepublicsradio.org/article/storm-brings-downed-power-lines-and-some-flooding-to-ri-and-the-south-coast",
+            "display_link": "https://thepublicsradio.org \u203a article \u203a storm-brings-do...",
+            "title": "Storm brings outages, flooding to RI and MA",
+            "description": "Forecasters here expect wind gusts, storm surge and rain, ... Storm brings outages, flooding to RI and MA; frigid temperatures expected over ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 23, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

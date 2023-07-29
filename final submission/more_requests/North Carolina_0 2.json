@@ -1,0 +1,180 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 50200000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:40:42.462Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Carolina+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_f12b2a6q7uk"
+    },
+    "organic": [
+        {
+            "link": "https://www.scientificamerican.com/article/north-carolinas-natural-hurricane-defenses-are-disappearing/",
+            "display_link": "https://www.scientificamerican.com \u203a article \u203a north-c...",
+            "title": "North Carolina's Natural Hurricane Defenses Are ...",
+            "description": "As Hurricane Florence bears down on the North Carolina coast, residents of the state's Outer Banks\u2014the string of barrier islands sitting ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 13, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2020/08/03/us/isaias-storm-updates.html",
+            "display_link": "https://www.nytimes.com \u203a isaias-storm-updates",
+            "title": "Hurricane Makes Landfall in North Carolina",
+            "description": "Flash flooding and tornadoes are possible. Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 3, 2020",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2017/09/08/us/north-carolina-hurricane-rebuild.html",
+                    "display_link": "https://www.nytimes.com \u203a 2017/09/08 \u203a north-carolina-...",
+                    "title": "North Carolina, Still Reeling From Hurricane Matthew ...",
+                    "description": "North Carolina, Still Reeling From Hurricane Matthew, Stares at Irma. Give this article. Read in app. Most of the storefronts in downtown ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 8, 2017",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/07/19/north-carolina-tornado-i95-rockymount-dortches/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/19 \u203a nort...",
+            "title": "North Carolina sees strongest July tornado on record ...",
+            "description": "The article has been corrected. A large and destructive tornado tore a path across Interstate 95 in North Carolina during the early ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/heat-wave-arizona-flooding-climate-change-b7377765a8a0c2b1fd46107261e79e9d",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Tornado damages Pfizer plant in North Carolina as ...",
+            "description": "A tornado has heavily damaged a major Pfizer pharmaceutical plant in North Carolina \u2014 the latest in a string of extreme weather events ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://spectrumlocalnews.com/nc/charlotte/news/2023/07/19/photos--these-images-show-n-c--tornado-damage",
+            "display_link": "https://spectrumlocalnews.com \u203a news \u203a 2023/07/19",
+            "title": "Photos: These images show N.C. tornado damage",
+            "description": "According to the NWS storm survey, 16 people were hurt. Related article: EF3 tornado hits eastern N.C., leaving 16 injured and damaging ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.deq.nc.gov/about/divisions/coastal-management/coastal-management-oceanfront-shorelines/coastal-storms/storm-tracking",
+            "display_link": "https://www.deq.nc.gov \u203a divisions \u203a coastal-storms",
+            "title": "Storm Tracking | NC DEQ",
+            "description": "National Weather Service's Newport, N.C., station -- Forecasts, radar, ... radar, storm watches and other weather information for North Carolina's central ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=North+Carolina+storm+%22article%22&sa=X&ved=2ahUKEwi945Xq4K2AAxVDg4kEHfFKBJQ4CxDm3gJ6BAgTEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://abcnews.go.com/US/ef3-tornado-north-carolina-extreme-weather-nationwide/story?id=101510966",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "EF3 tornado rips through North Carolina amid extreme ...",
+            "description": "A powerful tornado ripped through central North Carolina for more than a dozen miles on Wednesday, destroying homes and injuring residents, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.charlotteobserver.com/news/weather-news/",
+            "display_link": "https://www.charlotteobserver.com \u203a news \u203a weather-news",
+            "title": "Charlotte North Carolina Weather News & Reports",
+            "description": "Follow the latest Charlotte, NC and the Piedmont North Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cbsnews.com/live-news/hurricane-florence-aftermath-weather-flooding-power-outage-death-toll-fema-latest-forecast-live/",
+            "display_link": "https://www.cbsnews.com \u203a live-news \u203a hurricane-flor...",
+            "title": "Hurricane Florence aftermath: Flooding crisis in North and ...",
+            "description": "Death toll rises to 35. CBS News has confirmed 35 deaths are being attributed to the storm as of Monday evening: Twenty-seven in North Carolina, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 19, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

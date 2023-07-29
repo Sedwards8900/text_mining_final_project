@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 38700000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "West Virginia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:52:08.567Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=West+Virginia+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.2 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_dca5lmm4cup"
+    },
+    "organic": [
+        {
+            "link": "https://www.2news.com/weather/ap_weather_headlines/oh-ohio-west-virginia-storm-damage/video_7b7c2fa1-5fce-55ed-9b9f-f7d75308d7cf.html",
+            "display_link": "https://www.2news.com \u203a weather \u203a ap_weather_headlines",
+            "title": "OH: OHIO, WEST VIRGINIA STORM DAMAGE | Weather - KTVN",
+            "description": "OH: OHIO, WEST VIRGINIA STORM DAMAGE ... OH: Power restoration efforts, damage assessments continue following severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "7 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.register-herald.com/news/local_news/breaking-news-updated-with-photos-storm-prompts-state-of-emergency-motorists-stranded-thousands-without-power/article_32e11727-8623-5466-beae-b231d9b4fa6c.html",
+            "display_link": "https://www.register-herald.com \u203a news \u203a local_news \u203a a...",
+            "title": "Storm prompts state of emergency; motorists stranded ...",
+            "description": "The worst winter storm to hit southern West Virginia in nearly 12 years paralyzed much of the region Friday night and early Saturday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2009",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/03/west-virginia-record-may-snow/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/03 \u203a west...",
+            "title": "West Virginia sees biggest May snowfall on record with up ...",
+            "description": "The cause: A slow-moving zone of low pressure \u00b7 Historic West Virginia snow \u00b7 A storm for the books \u00b7 Storm to exit.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wsaz.com/weather/towercams.shtml",
+            "display_link": "https://www.wsaz.com \u203a weather \u203a towercams",
+            "title": "WSAZ Weather | First Warning Forecast | dual doppler radar",
+            "description": "Showers and storms largely avoided the region last night, though some rain clipped parts of southeastern Kentucky and far southern West Virginia. What did occur ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Mount_Storm,_West_Virginia",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Mount_Storm,_West...",
+            "title": "Mount Storm, West Virginia",
+            "description": "Mount Storm is an unincorporated community in Grant County, West Virginia, United States. Mount Storm lies on the Northwestern Turnpike (U.S. Route 50) at ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://wchstv.com/weather/blog/gallery/significant-snow-event-increasingly-likely-late-thursday-into-friday",
+            "display_link": "https://wchstv.com \u203a weather \u203a blog \u203a gallery \u203a signifi...",
+            "title": "Winter storm brings heavy snow to Tri-State and West ...",
+            "description": "Still a few days off, but be prepared for some wintry weather late this week. (WCHS){p}{/p}",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.newsbreak.com/charleston-wv/2968879963721-storm-headed-into-west-virginia-packs-a-punch",
+            "display_link": "https://www.newsbreak.com \u203a Charleston, WV",
+            "title": "Storm headed into West Virginia packs a punch",
+            "description": "CHARLESTON, W.Va. \u2014 The National Weather Service says high winds and rainfall are already striking along the Ohio side of the Ohio River and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.king5.com/article/weather/blizzard-in-west-virginia-as-storm-blows-through-appalachia/281-330702581",
+            "display_link": "https://www.king5.com \u203a article \u203a weather \u203a blizzard-i...",
+            "title": "Blizzard in West Virginia as storm blows through Appalachia",
+            "description": "ELKINS, W.Va. -- Wet snow and high winds spinning off the edge of superstorm Sandy spread blizzard conditions over parts of West Virginia ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 30, 2012",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wtae.com/article/roofs-ripped-off-buildings-as-strong-storm-hits-morgantown/39874563",
+            "display_link": "https://www.wtae.com \u203a article \u203a roofs-ripped-off-buil...",
+            "title": "Morgantown storm damage: Severe weather rips roofs off ...",
+            "description": "The National Weather Service said a thunderstorm with straight-line winds estimated at 60 mph to 70 mph hit the Morgantown, West Virginia ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://floodlist.com/tag/west-virginia",
+            "display_link": "https://floodlist.com \u203a tag \u203a west-virginia",
+            "title": "West Virginia",
+            "description": "A flash flood emergency has been declared for parts of Kentucky, USA, after heavy rainfall from 28 February. Several locations in the state saw more than 5 ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

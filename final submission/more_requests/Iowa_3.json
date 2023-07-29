@@ -1,0 +1,157 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 15400000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Iowa storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:28:23.245Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Iowa+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0.1 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_xaqef96j32"
+    },
+    "organic": [
+        {
+            "link": "https://www.stormlake.com/",
+            "display_link": "https://www.stormlake.com",
+            "title": "Storm Lake Times",
+            "description": "A former northwest Iowa congressman who has recently spoken out against the use of eminent domain to build carbon dioxide pipelines will be excluded from...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.iowapbs.org/article/9543/swirling-new-stormy-season",
+            "display_link": "https://www.iowapbs.org \u203a article \u203a swirling-new-stor...",
+            "title": "Swirling into a New Stormy Season",
+            "description": "Storm chasing and severe weather safety are top of mind this spring. Learn more and join us for Iowa's Wild Weather April 19.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://apnews.com/article/storms-tornadoes-severe-weather-south-midwest-b6f9db8292e112fa78a9e9ccf462909d",
+            "display_link": "https://apnews.com \u203a article \u203a storms-tornadoes-severe...",
+            "title": "Severe storms including hail, tornadoes hit Midwest, South",
+            "description": "DES MOINES, Iowa (AP) \u2014 People still sorting through the wreckage of their homes after a weekend of deadly weather braced for another wave ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.mississippivalleypublishing.com/daily_gate/terrible-tempest-sweeps-through-keokuk/article_4d8d31c0-1691-11ee-acfc-d7054c516c13.html",
+            "display_link": "https://www.mississippivalleypublishing.com \u203a daily_gate",
+            "title": "Terrible tempest sweeps through Keokuk | Daily Gate City",
+            "description": "A severe storm lashed Keokuk Thursday morning, ... \u201cauthorized under Iowa state statute and will execute the expenditure of emergency funds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.southeastiowaunion.com/news/breaking-friday-night-storm-hits-wellman-hard/",
+            "display_link": "https://www.southeastiowaunion.com \u203a News",
+            "title": "BREAKING Friday night storm hits Wellman hard",
+            "description": "WELLMAN \u2014 For much of Washington County, a storm front around rush hour Friday night was a worrying, but ultimately low-damage event.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wqad.com/article/weather/grand-mound-tornado-survey/526-aa669faf-65a6-484f-a833-3afd05cd75c7",
+            "display_link": "https://www.wqad.com \u203a grand-mound-tornado-survey",
+            "title": "Weather service confirms 12 tornadoes so far from Friday ...",
+            "description": "Weather service confirms 12 tornadoes so far from Friday night storms \u00b7 Related Articles \u00b7 More videos on YouTube.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.thegazette.com/photos-videos/photos-storm-damage-across-eastern-iowa/",
+            "display_link": "https://www.thegazette.com \u203a Photos & Videos",
+            "title": "Photos: Storm damage across Eastern Iowa | The Gazette",
+            "description": "Share this article ... campus sidewalks in Cedar Rapids after a powerful storm with straight-line winds moved through Iowa on Monday, Aug.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 10, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kaaltv.com/news/top-news/minnesota-iowa-slammed-with-severe-weather/",
+            "display_link": "https://www.kaaltv.com \u203a news \u203a top-news \u203a minnesot...",
+            "title": "Minnesota, Iowa slammed with severe weather - ABC 6 News",
+            "description": "In eastern Iowa, multiple tornadoes leaving a path of damage in their wake. Most of these weather impacts were seen south of the Minnesota state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.kimt.com/news/cerro-gordo-county/storm-photos-and-videos-tornadoes-in-north-iowa-during-a-stormy-wednesday/article_a2d37cf0-25e3-5293-af0c-d69353c64d36.html",
+            "display_link": "https://www.kimt.com \u203a news \u203a cerro-gordo-county \u203a art...",
+            "title": "Storm photos and videos: Tornadoes in North Iowa during ...",
+            "description": "Here's The Average Price Of Gutter Protection In The U.S. LeafFilter Partner ; Always Place a Toilet Paper Roll Under the Toilet Seat at Night, Here's Why.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wattagnet.com/home/article/15531637/iowa-farmers-devastated-after-catastrophic-storms-wattagnet",
+            "display_link": "https://www.wattagnet.com \u203a home \u203a article \u203a iowa-far...",
+            "title": "Iowa farmers devastated after catastrophic storms",
+            "description": "The perfect storm that has been 2020 continues, and this time it is actually weather-related. Most of Iowa seemed to be back to normal as ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 13, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 40500000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Hawaii storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:25:40.234Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Hawaii+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_zoroe6zgidi"
+    },
+    "organic": [
+        {
+            "link": "https://www.staradvertiser.com/2023/07/18/breaking-news/calvin-on-track-to-pound-hawaii-island-with-heavy-rain-high-winds/",
+            "display_link": "https://www.staradvertiser.com \u203a breaking-news \u203a calv...",
+            "title": "Calvin brings heavy rain, strong winds as it passes south of ...",
+            "description": "A flood watch is in effect through Wednesday afternoon for all Hawaiian islands as a weakening Tropical Storm Calvin moves west.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnbc.com/2018/08/25/tropical-storm-lane-dumps-rain-on-hawaii-as-flood-hazard-lingers---.html",
+            "display_link": "https://www.cnbc.com \u203a 2018/08/25 \u203a tropical-storm-lan...",
+            "title": "Tropical storm Lane threatens more Hawaii floods before ...",
+            "description": "Tropical Storm Lane threatened to drench Hawaii's most populated island of Oahu on Saturday, after lingering just south of the U.S. state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 25, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.kitv.com/news/tropical-storm-calvin-is-affecting-travel-for-hawaii-island/article_3df9bca8-2643-11ee-b3d3-33596e2fbac8.html",
+            "display_link": "https://www.kitv.com \u203a news \u203a article_3df9bca8-2643-1...",
+            "title": "Tropical Storm Calvin is affecting travel for Hawaii Island",
+            "description": "Two major airlines are preparing for Tropical Storm Calvin's impact on Hawaii Island for Wednesday. Hawaiian Airlines and Southwest issued ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.koco.com/article/hawaii-state-of-emergency-tropical-storm-calvin/44587817",
+            "display_link": "https://www.koco.com \u203a article \u203a hawaii-state-of-emer...",
+            "title": "Tropical Storm Calvin brings torrential rain to the Big Island",
+            "description": "\"Calvin has almost completed its passage south of Hawaii County,\" the hurricane center said. \"Expect periods of flash flooding, dangerous surf ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.vox.com/energy-and-environment/2018/8/22/17768094/hurricane-lane-hawaii-honolulu-forecast",
+            "display_link": "https://www.vox.com \u203a energy-and-environment \u203a hu...",
+            "title": "Hawaii is facing a rare threat: a major hurricane - Vox",
+            "description": "Lane will pass dangerously close to the main Hawaiian Islands as a hurricane Thursday and Friday, and is expected to bring damaging winds. These ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 23, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.khon2.com/hawaii-hurricane/agencies-utilities-across-the-state-prepare-for-tropical-storm-calvin/",
+            "display_link": "https://www.khon2.com \u203a hawaii-hurricane \u203a agencies...",
+            "title": "Agencies, utilities across the state prepare for Tropical ...",
+            "description": "HONOLULU (KHON2) \u2014 The Hawaii Department of Transportation crews are focusing efforts on Hawaii Island County as floods and road closures ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.greenmatters.com/weather-and-global-warming/big-island-storm-damage",
+            "display_link": "https://www.greenmatters.com \u203a big-island-storm-dam...",
+            "title": "Big Island Storm Damage Results From Hawaii's ...",
+            "description": "Kona Low Weather System Results in Widespread Damage Across Hawaii's Big Island ... A major winter storm called Kona Low Storm System slammed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 20, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://kauainownews.com/2023/07/19/tropical-storm-calvin-passed-hawai%CA%BBi-island-overnight-continues-to-move-well-south-of-kaua%CA%BBi/",
+            "display_link": "https://kauainownews.com \u203a 2023/07/19 \u203a tropical-sto...",
+            "title": "UPDATE: Calvin no longer a tropical storm",
+            "description": "Tropical storm conditions have ended in Hawai\u02bbi. Locally gusty winds will likely continue today before easing tonight. ARTICLE CONTINUES ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.reviewjournal.com/news/nation-and-world/maui-big-island-saturated-as-tropical-storm-moves-on-from-hawaii/",
+            "display_link": "https://www.reviewjournal.com \u203a ... \u203a Nation and World",
+            "title": "Maui, Big Island saturated as tropical storm moves on from ...",
+            "description": "The central Pacific gets fewer hurricanes than other regions, with only about four or five named storms a year. Hawaii rarely gets hit. The last ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 26, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.insurancejournal.com/news/west/2020/12/02/592437.htm",
+            "display_link": "https://www.insurancejournal.com \u203a west \u203a 2020/12/02",
+            "title": "Hawaii Gets Through 2020 Hurricane Season Sans Major ...",
+            "description": "While hurricane season officially ended Monday, meteorologists warn tropical storms can develop during any month. Was this article valuable? Yes",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 2, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

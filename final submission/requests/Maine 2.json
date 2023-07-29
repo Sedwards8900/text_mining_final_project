@@ -1,0 +1,302 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 22100000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:40.298Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.2 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_elcip1meiqh"
+    },
+    "organic": [
+        {
+            "link": "https://www.newscentermaine.com/article/news/local/winter-storm-damage-christmas-eve-disaster-declaration-president-joe-biden/97-f833ef81-dc16-49a9-a937-9b5f61243cd7",
+            "display_link": "https://www.newscentermaine.com \u203a news \u203a local \u203a wi...",
+            "title": "Winter storm damage leads to disaster declaration in Maine",
+            "description": "In Maine, more than 300000 homes and businesses lost electricity over the course of the storm that began on Dec. 23.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.newscentermaine.com/article/weather/weather-blog/maine-snow-totals-weather-forecast-storm-march-winter/97-3ab557e6-27c0-47e3-92fa-d77b55070bc2",
+                    "display_link": "https://www.newscentermaine.com \u203a weather-blog \u203a m...",
+                    "title": "One storm down, two more to go in Maine",
+                    "description": "The active weather week in Maine continues with two more snow chances on the way. ... PORTLAND, Maine \u2014 Three storms in one week is a lot.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 1, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wmtw.com/article/1-to-2-of-snow-an-hour-in-maine-with-near-blizzard-conditions/43188543",
+            "display_link": "https://www.wmtw.com \u203a article \u203a 1-to-2-of-snow-an-...",
+            "title": "Maine snowstorm moves out: What it left behind",
+            "description": "Maine's Winter Storm moves out, leaving piles of heavy snow in its wake. Heavy snow and gusty winds continue through early afternoon.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wmtw.com/article/first-impactful-storm-of-spring-hits-maine-this-weekend/43386602",
+                    "display_link": "https://www.wmtw.com \u203a article \u203a first-impactful-stor...",
+                    "title": "Spring storm brings wet snow and rain to Maine this weekend",
+                    "description": "Central and northern Maine could see roughly 3-6 inches. Better news is that Sunday afternoon may feature at least some sunshine across the area ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 23, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.pressherald.com/2023/03/10/march-storm-to-dump-heavy-snow-and-rain-on-maine/",
+            "display_link": "https://www.pressherald.com \u203a 2023/03/10 \u203a march-stor...",
+            "title": "March storm to dump heavy snow and rain on Maine",
+            "description": "Winter is not done with us yet, and a powerful March storm will bring wintry precipitation to the state early to the middle of next week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 5
+        },
+        {
+            "link": "https://maineanencyclopedia.com/weather-severe-events/",
+            "display_link": "https://maineanencyclopedia.com \u203a weather-severe-ev...",
+            "title": "Weather, Severe Events | Maine",
+            "description": "Blizzards, floods and hurricanes are occasional weather events, but often sudden and severe in Maine. This is a chronicle of some of the most significant ...",
+            "rank": 4,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.islandjournal.com/history/is-maine-still-hurricane-proof/",
+            "display_link": "https://www.islandjournal.com \u203a Articles \u2013 old \u203a History",
+            "title": "Is Maine Still Hurricane-Proof?",
+            "description": "Nor'easters and blizzards are Maine's primary destructive storms. The state is more likely to get the winds, some flooding and rain as the aftermath rather than ...",
+            "rank": 5,
+            "global_rank": 7
+        },
+        {
+            "link": "http://www.maine.gov/bhr/state-employees/winter-weather",
+            "display_link": "http://www.maine.gov \u203a bhr \u203a state-employees \u203a winte...",
+            "title": "Winter Weather | Bureau of Human Resources",
+            "description": "State employees should plan now for winter storms. On stormy days, be sure to check alerts on maine.gov, sign up for Citizen Alert emails, call the State ...",
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.nytimes.com/2020/12/05/us/winter-storm-noreaster.html",
+            "display_link": "https://www.nytimes.com \u203a winter-storm-noreaster",
+            "title": "Than 90000 Without Power After New England Winter Storm",
+            "description": "Around 85,000 customers in Maine alone still don't have electricity after a nor'easter brought high winds and heavy snow. Give this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://apnews.com/article/maine-gust-wind-rain-power-outages-7cf507b6e602b6ba2c4ad79a7f4b6095",
+            "display_link": "https://apnews.com \u203a article \u203a maine-gust-wind-rain-p...",
+            "title": "Winds, heavy rain cause outages in Maine, wash out NH ...",
+            "description": "PORTLAND, Maine (AP) \u2014 A storm with heavy rain and gusts knocked out power for tens of thousands of homes and businesses in Maine and washed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Maine+snow+storm+this+week&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAhDEAE",
+            "text": "maine snow storm this week",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Maine+snowfall+totals+by+town&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAhCEAE",
+            "text": "maine snowfall totals by-town",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Maine+Weather&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAhAEAE",
+            "text": "maine weather",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Maine+news&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAhBEAE",
+            "text": "maine news",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=nor%27easter+maine+this+week&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAg_EAE",
+            "text": "nor'easter maine this week",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snowfall+totals+Maine+yesterday&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAg9EAE",
+            "text": "snowfall totals maine yesterday",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=NEWS+CENTER+Maine&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAg8EAE",
+            "text": "news center maine",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Snow+storm+Maine&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ1QJ6BAg-EAE",
+            "text": "snow storm maine",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "How many people died in the Great Blizzard of 1888?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=How+many+people+died+in+the+Great+Blizzard+of+1888%3F&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzmd6BAg2EAY",
+            "answer_source": "Great Blizzard of 1888 | Facts, New York City, & Overview - Britannica",
+            "answer_link": "https://www.britannica.com/event/Great-Blizzard-of-1888#:~:text=Great%20Blizzard%20of%201888%2C%20winter,sailors%2C%20across%20the%20Eastern%20Seaboard.",
+            "answer_display_link": "https://www.britannica.com \u203a event \u203a Great-Blizzard-of-...https://www.britannica.com \u203a event \u203a Great-Blizzard-of-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDYQBQ\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQu04oAHoECDYQBQ\"><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__15\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDgQAA\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ4dMGegQIOBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDgQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CDMQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYu8bo\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQyQ0oAHoECDMQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;UJgjgXbc9nvyvM;AYu8bk\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"UJgjgXbc9nvyvM\" data-lpage=\"https://www.britannica.com/event/Great-Blizzard-of-1888\" data-ni=\"1\" data-ref-docid=\"9xNmm12MB5LKlM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CDcQAA\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzkx6BAg3EAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-4px;width:213px\" alt=\"Great Blizzard of 1888 | Facts, New York City, &amp; Overview ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT37hTrARH1FIQJwnhpJfF9y-53WARH82V_BxkXfF1udw&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__18\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCwQAA\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQtwcoAHoECCwQAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"400 people\"><div class=\"IZ6rdc\">400 people</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCAQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">Great Blizzard of 1888, winter storm that pummeled the Atlantic coast of the United States, from the Chesapeake Bay to Maine, in March 1888. The blizzard caused more than $20 million in property damage in New York City alone and killed <b>more than 400 people</b>, including about 100 sailors, across the Eastern Seaboard.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 17, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "400 people",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Great Blizzard of 1888, winter storm that pummeled the Atlantic coast of the United States, from the Chesapeake Bay to Maine, in March 1888. The blizzard caused more than $20 million in property damage in New York City alone and killed more than 400 people, including about 100 sailors, across the Eastern Seaboard.Jul 17, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 1,
+            "global_rank": 8
+        },
+        {
+            "question": "What happened in the Great Blizzard of 1888?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+happened+in+the+Great+Blizzard+of+1888%3F&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzmd6BAgnEAY",
+            "answer_source": "Introduction - Great Blizzard of 1888: Topics in Chronicling America",
+            "answer_link": "https://guides.loc.gov/chronicling-america-great-blizzard-1888#:~:text=Over%20a%20three%2Dday%20period,in%20New%20York%20City%20alone.",
+            "answer_display_link": "https://guides.loc.gov \u203a chronicling-america-great-blizzar...https://guides.loc.gov \u203a chronicling-america-great-blizzar...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCcQBQ\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQu04oAHoECCcQBQ\"><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__22\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Over a three-day period, upwards of three feet of snow falls as a huge, destructive blizzard roars across the east coast from Delaware to Montreal. Supplies of fuel and food dwindle, power lines snap, trains are buried, and an estimated 800 people are killed in New York City alone.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Over a three-day period, upwards of three feet of snow falls as a huge, destructive blizzard roars across the east coast from Delaware to Montreal. Supplies of fuel and food dwindle, power lines snap, trains are buried, and an estimated 800 people are killed in New York City alone."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 9
+        },
+        {
+            "question": "Where did the blizzard of 1888 take place?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+did+the+blizzard+of+1888+take+place%3F&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzmd6BAgmEAY",
+            "answer_source": "Great Blizzard of '88 hits East Coast",
+            "answer_link": "https://www.history.com/this-day-in-history/great-blizzard-of-88-hits-east-coast#:~:text=On%20March%2011%2C%201888%2C%20one,powerful%20winds%20from%20the%20storm.",
+            "answer_display_link": "https://www.history.com \u203a this-day-in-history \u203a great-bli...https://www.history.com \u203a this-day-in-history \u203a great-bli...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCYQBQ\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQu04oAHoECCYQBQ\"><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__25\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">On March 11, 1888, one of the worst blizzards in American history strikes the Northeast, killing more than 400 people and dumping as much as 55 inches of snow in some areas. New York City ground to a near halt in the face of massive snow drifts and powerful winds from the storm.</span></span><span class=\"kX21rb ZYHQ7e\">Nov 13, 2009</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "On March 11, 1888, one of the worst blizzards in American history strikes the Northeast, killing more than 400 people and dumping as much as 55 inches of snow in some areas. New York City ground to a near halt in the face of massive snow drifts and powerful winds from the storm.Nov 13, 2009"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 10
+        },
+        {
+            "question": "What was the worst blizzard in history?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+blizzard+in+history%3F&sa=X&ved=2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzmd6BAg1EAY",
+            "answer_source": "Blizzard - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Blizzard#:~:text=The%201972%20Iran%20blizzard%2C%20which,it%20completely%20covered%20200%20villages.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Blizzardhttps://en.wikipedia.org \u203a wiki \u203a Blizzard",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDUQBQ\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQu04oAHoECDUQBQ\"><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__28\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDIQAA\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQ4dMGegQIMhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBwQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AYu8a0\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQyQ0oAHoECBwQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;beofd8mcecLDwM;AYu8bA\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"beofd8mcecLDwM\" data-lpage=\"https://en.wikipedia.org/wiki/Blizzard\" data-ni=\"1\" data-ref-docid=\"jRtXvvclV457DM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCMQAA\" data-ved=\"2ahUKEwjftNu3sa2AAxWtALkGHdLBAhEQzkx6BAgjEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-17px;width:240px\" alt=\"Blizzard - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCUVFfAdEY90v9UZyeI0LXdvyC4J-_v-_oPDkoBxPJLQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"ZpnBZN_pKK2B5OUP0oOLiAE__31\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCEQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The <b>1972 Iran blizzard</b>, which caused 4,000 reported deaths, was the deadliest blizzard in recorded history. Dropping as much as 26 feet (7.9 m) of snow, it completely covered 200 villages.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The 1972 Iran blizzard, which caused 4,000 reported deaths, was the deadliest blizzard in recorded history. Dropping as much as 26 feet (7.9 m) of snow, it completely covered 200 villages."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 11
+        }
+    ]
+}

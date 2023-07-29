@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 22900000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Iowa storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:06.773Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Iowa+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_61ul5tx21s"
+    },
+    "organic": [
+        {
+            "link": "https://www.weatherandradar.com/weather-news/severe-storms-bring-giant-hail-tornadoes-to-iowa--b72a49bc-9b30-4102-8b8e-1d29680a4291",
+            "display_link": "https://www.weatherandradar.com \u203a weather-news \u203a se...",
+            "title": "Severe storms bring giant hail, tornadoes to Iowa",
+            "description": "Several tornadoes raged Saturday afternoon and evening in Iowa. \u00b7 By Sunday, the local National Weather Service offices continue to survey damage ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wqad.com/article/weather/grand-mound-tornado-survey/526-aa669faf-65a6-484f-a833-3afd05cd75c7",
+            "display_link": "https://www.wqad.com \u203a grand-mound-tornado-survey",
+            "title": "Weather service confirms 12 tornadoes so far from Friday ...",
+            "description": "Weather service confirms 12 tornadoes so far from Friday night storms \u00b7 Related Articles \u00b7 More videos on YouTube.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.mississippivalleypublishing.com/daily_gate/terrible-tempest-sweeps-through-keokuk/article_4d8d31c0-1691-11ee-acfc-d7054c516c13.html",
+            "display_link": "https://www.mississippivalleypublishing.com \u203a daily_gate",
+            "title": "Terrible tempest sweeps through Keokuk | Daily Gate City",
+            "description": "A severe storm lashed Keokuk Thursday morning, ... \u201cauthorized under Iowa state statute and will execute the expenditure of emergency funds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.kaaltv.com/news/top-news/minnesota-iowa-slammed-with-severe-weather/",
+            "display_link": "https://www.kaaltv.com \u203a news \u203a top-news \u203a minnesot...",
+            "title": "Minnesota, Iowa slammed with severe weather - ABC 6 News",
+            "description": "In eastern Iowa, multiple tornadoes leaving a path of damage in their wake. Most of these weather impacts were seen south of the Minnesota state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.thegazette.com/weather/severe-storms-bring-high-winds-hail-and-downed-trees-to-eastern-iowa/",
+            "display_link": "https://www.thegazette.com \u203a Weather",
+            "title": "Severe storms bring high winds, hail and downed trees to ...",
+            "description": "According to National Weather Service storm reports, the bad weather in the ... City north of Des Moines to as far east as Bellevue on the Iowa-Illinois border.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.southeastiowaunion.com/news/breaking-friday-night-storm-hits-wellman-hard/",
+            "display_link": "https://www.southeastiowaunion.com \u203a News",
+            "title": "BREAKING Friday night storm hits Wellman hard",
+            "description": "WELLMAN \u2014 For much of Washington County, a storm front around rush hour Friday night was a worrying, but ultimately low-damage event.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://iowaweathercenter.com/articles/",
+            "display_link": "https://iowaweathercenter.com \u203a articles",
+            "title": "Articles - Iowa Weather Center",
+            "description": "Significant Winter Storm Triggers Watches and Warnings Across Iowa. Moderate to heavy snow is expected with wind gusts as high as 50MPH on Thursday and Friday ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2021/dec/16/great-plains-storms-tornadoes-tear-through-midwest",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a dec \u203a great-...",
+            "title": "'Really abnormal' storms and tornadoes tear through Great ...",
+            "description": "Iowa. This article is more than 1 year old ... spawning hurricane-force winds and possible tornadoes in Nebraska, Iowa and Minnesota.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://weather.com/news/news/2023-03-31-tornadoes-storms-arkansas-tennessee-illinois-mississippi-missouri",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-03-31-tornad...",
+            "title": "Tornadoes, Storms Slam Arkansas, Illinois, Iowa",
+            "description": "T\u200bhis article is no longer being updated. Please click here for the latest on this story. Powerful tornadoes and storms roared across ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.kare11.com/article/weather/powerful-derecho-leaves-path-of-devastation-across-midwest/89-9f2b1636-cf5c-4e7e-94a8-10bda611b4c7",
+            "display_link": "https://www.kare11.com \u203a article \u203a weather \u203a powerfu...",
+            "title": "Powerful derecho leaves path of devastation across Midwest",
+            "description": "A rare wind storm with power similar to an inland hurricane swept across ... IOWA CITY, Iowa \u2014 A rare storm packing 100 mph winds and with ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 10, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

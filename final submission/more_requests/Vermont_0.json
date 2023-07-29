@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 67400000,
+        "search_time": 0.44,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Vermont storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:16.611Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Vermont+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_4cqw52aia0j"
+    },
+    "organic": [
+        {
+            "link": "https://www.axios.com/2023/07/10/northeast-storms-flash-flooding-new-york-vermont",
+            "display_link": "https://www.axios.com \u203a Science",
+            "title": "Historic flooding hits Vermont as storm slams Northeast",
+            "description": "Vermont communities evacuated from historic flooding as storm slams Northeast \u00b7 The NWS said 9 inches of rain had fallen in some parts of Vermont ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnbc.com/2023/07/11/flooding-threatens-vermonts-capital-as-crews-rescue-more-than-100.html",
+            "display_link": "https://www.cnbc.com \u203a 2023/07/11 \u203a flooding-threatens...",
+            "title": "Flooding threatens Vermont's capital as crews rescue more ...",
+            "description": "A storm that dumped up to two months of rain in two days in Vermont and other parts of the Northeast brought more flooding Tuesday to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsj.com/articles/flash-floods-swamp-new-york-state-killing-at-least-one-e265da8f",
+            "display_link": "https://www.wsj.com \u203a articles",
+            "title": "Deadly Flash Floods, Storms Wreak Havoc on New York ...",
+            "description": "Vermont Gov. Phil Scott declared a state of emergency on Sunday before the eye of the storm reached the state. He compared the heavy rains to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-12283465/Deadly-storm-heads-Vermont-flash-floods-upstate-New-York.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-12283465",
+            "title": "Deadly storm heads for Vermont after flash floods in ...",
+            "description": "Share or comment on this article: Deadly storm heads for Vermont after flash floods in upstate New York.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://vtdigger.org/2023/07/09/catastrophic-life-threatening-flooding-expected-in-vermont-starting-sunday/",
+            "display_link": "https://vtdigger.org \u203a 2023/07/09 \u203a catastrophic-life-th...",
+            "title": "Catastrophic, life-threatening flooding expected in Vermont ...",
+            "description": "The National Weather Service expects two to five inches of rain throughout much of the state and more than seven inches in some areas. Gov. Phil ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wcax.com/2023/07/13/watch-live-gov-scott-hold-media-briefing/",
+            "display_link": "https://www.wcax.com \u203a 2023/07/13 \u203a watch-live-gov-sc...",
+            "title": "Vt. officials say dangerous storms will complicate flood ...",
+            "description": "Vermont officials Thursday urged extreme caution as another round of dangerous weather arrives Thursday afternoon, bringing more rain and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.theguardian.com/world/live/2023/jul/13/us-severe-weather-warning-record-heat-wildfire-tornado-live-updates",
+            "display_link": "https://www.theguardian.com \u203a world \u203a live \u203a jul \u203a us-...",
+            "title": "Vermont governor seeks major disaster declaration from ...",
+            "description": "Latest storm warning comes just days after areas of Vermont and New York were hit with flash flooding, raising concerns over more damage.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.bostonglobe.com/2023/07/18/metro/vermont-tourism-takes-hit-flooding-extreme-weather/",
+            "display_link": "https://www.bostonglobe.com \u203a 2023/07/18 \u203a metro \u203a ve...",
+            "title": "Vermont tourism takes a hit from flooding and extreme ...",
+            "description": "But owner Steve Brownlee said on Friday the business had lost between $5,000 and $10,000 following the floods. Read full article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://nypost.com/2023/07/13/more-flash-flooding-looms-for-vermont-as-severe-storms-tornadoes-likely-to-erupt-across-northeast-on-thursday/",
+            "display_link": "https://nypost.com \u203a 2023/07/13 \u203a more-flash-floodin...",
+            "title": "More flash flooding looms for Vermont as severe storms, ...",
+            "description": "\u201cWe're just days off of a Flash Flood Emergency in the lower Hudson Valley and Vermont,\u201d FOX Weather meteorologist Britta Merwin said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cbsnews.com/news/vermont-flooding-railroad-track-suspended-mid-air/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Vermont flooding leaves railroad track \"dangling\" mid-air ...",
+            "description": "The intense flooding that has overtaken Vermont in recent days after a devastating storm swept through on Sunday has isolated towns, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

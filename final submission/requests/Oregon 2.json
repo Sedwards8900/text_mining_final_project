@@ -1,0 +1,317 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 51500000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:29.072Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.2 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_7jnngw6wrxf"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/weather-natural-disasters-california-storms-f3ae833d1f1aec40554353bcd6f10e50",
+            "display_link": "https://apnews.com \u203a article \u203a weather-natural-disasters...",
+            "title": "Winter storms sow more chaos, shut down much of Portland",
+            "description": "(AP) \u2014 Winter storms sowed more chaos across the U.S. on Thursday, shutting down much of Oregon's largest city with almost a foot of snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/weather-oregon-natural-disasters-climate-and-environment-e17ab85e58c1f65b3e41935d1299b5de",
+                    "display_link": "https://apnews.com \u203a article \u203a weather-oregon-natural-...",
+                    "title": "Deaths, flooding as storm hit Oregon and Washington state",
+                    "description": "PORTLAND, Ore. (AP) \u2014 A winter storm that brought powerful wind gusts to Oregon on Tuesday caused at least two fatal car accidents that left ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 28, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.opb.org/article/2022/12/27/winter-weather-storm-oregon-washington-updates/",
+            "display_link": "https://www.opb.org \u203a article \u203a 2022/12/27 \u203a winter-w...",
+            "title": "Thousands without power as another storm brings heavy ...",
+            "description": "A deep low pressure near the Oregon coast will bring another burst of strong winds through this afternoon as the low moves onshore. High Wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.opb.org/article/2023/03/04/winter-storm-hits-southern-oregon/",
+                    "display_link": "https://www.opb.org \u203a article \u203a 2023/03/04 \u203a winter-st...",
+                    "title": "Winter storm hits Southern Oregon - OPB",
+                    "description": "March 4, 2023 9:12 a.m.. Much of Southern Oregon is getting hit by a winter storm. The National Weather Service on Saturday morning said the region south of ...",
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.statesmanjournal.com/story/news/2023/03/08/oregon-cascade-mountain-passes-snow-rain-in-willamette-valley/69986734007/",
+            "display_link": "https://www.statesmanjournal.com \u203a news \u203a 2023/03/08",
+            "title": "Winter storm warning issued for Oregon passes, 2 feet ...",
+            "description": "A winter storm warning has been issued for Oregon mountain roads above 3,000 feet, where 8 to 16 inches of snow is forecast. Snowfall could ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nytimes.com/2023/02/23/us/california-weather-snow-blizzard.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/02/23 \u203a california-weat...",
+            "title": "Storm Wallops Portland as California Braces for Rare ...",
+            "description": "After the West Coast storm battered parts of Oregon, officials warned California residents to prepare for dangerous weather through the weekend.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.oregonlive.com/commuting/2023/02/snow-storm-could-snarl-portland-area-commutes-with-slippery-conditions-freezing-temperatures.html",
+            "display_link": "https://www.oregonlive.com \u203a commuting \u203a 2023/02 \u203a s...",
+            "title": "Snow storm snarls Portland area commutes with slippery ...",
+            "description": "A February snowstorm hit the Portland metro area midday Wednesday, causing traffic jams and delays on most major roads.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.oregonlive.com/weather/2023/04/winter-storm-warning-issued-heavy-snow-forecast-in-oregon-cascades.html",
+                    "display_link": "https://www.oregonlive.com \u203a weather \u203a 2023/04 \u203a wint...",
+                    "title": "Winter storm warning issued: heavy snow forecast in ...",
+                    "description": "Oregon spring break travelers should expect heavy snow in the Cascades until Sunday night, the National Weather Service said in a winter ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 3, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 8,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kgw.com/article/weather/severe-weather/oregon-radar-gap-snowstorm-coast/283-8b48af92-8b2c-4df5-8cc5-f172bc99a8f4",
+            "display_link": "https://www.kgw.com \u203a weather \u203a severe-weather \u203a or...",
+            "title": "Oregon's radar gap helped a snowstorm take Portland by ...",
+            "description": "The Feb. 22 storm is a good example because it involved a band of moisture moving in over Oregon's central coast \u2014 right where a radar gap ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.kgw.com/article/news/local/north-coast/high-winds-waves-storm-oregon-coast/283-449ba1ad-1630-4c08-a1b7-56634ad80d54",
+                    "display_link": "https://www.kgw.com \u203a news \u203a local \u203a north-coast \u203a h...",
+                    "title": "High winds, waves and flooding slam the Oregon coast",
+                    "description": "A heavy storm slammed into western Oregon Monday and Tuesday, bringing strong winds and high waves and causing flooding issues up and down ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 27, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 14,
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 13
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Portland,+Oregon+snow+storm&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgwEAE",
+            "text": "portland, oregon snow storm",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Oregon+Storm+football&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgvEAE",
+            "text": "oregon storm football",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Portland+Oregon+storm+news&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAguEAE",
+            "text": "portland oregon storm news",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Portland+weather&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgtEAE",
+            "text": "portland weather",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Oregon+weather+news&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgrEAE",
+            "text": "oregon weather news",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Winter+storm&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgsEAE",
+            "text": "winter storm",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=weather+in+portland,+oregon+10+days&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgyEAE",
+            "text": "weather in portland, oregon 10 days",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=California+snow+storm&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQ1QJ6BAgxEAE",
+            "text": "california snow storm",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Did winter storms shut down much of Portland paralyze travel?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+winter+storms+shut+down+much+of+Portland+paralyze+travel%3F&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQzmd6BAg8EAY",
+            "answer_source": "Winter storms shut down much of Portland, paralyzes travel",
+            "answer_link": "https://www.dailyherald.com/news/20230223/winter-storms-shut-down-much-of-portland-paralyzes-travel#:~:text=PORTLAND%2C%20Ore.,way%20to%20the%20northern%20Plains.",
+            "answer_display_link": "https://www.dailyherald.com \u203a news \u203a winter-storms-shut...https://www.dailyherald.com \u203a news \u203a winter-storms-shut...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDwQBQ\" data-ved=\"2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQu04oAHoECDwQBQ\"><div id=\"1JnBZILxCoeoqtsPkZmNiAo__60\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CD8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">PORTLAND, Ore. (AP) -- Winter storms sowed more chaos across the U.S. on Thursday, shutting down much of Portland after the city experienced its second snowiest day in history and paralyzing travel from parts of the Pacific Coast all the way to the northern Plains.</span></span><span class=\"kX21rb ZYHQ7e\">Feb 23, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "PORTLAND, Ore. (AP) -- Winter storms sowed more chaos across the U.S. on Thursday, shutting down much of Portland after the city experienced its second snowiest day in history and paralyzing travel from parts of the Pacific Coast all the way to the northern Plains.Feb 23, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 9
+        },
+        {
+            "question": "Will it snow in Portland 2023?",
+            "question_link": "https://www.google.com/search?hl=en&q=Will+it+snow+in+Portland+2023%3F&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQzmd6BAg6EAY",
+            "answer_source": "Long-Range Weather Forecast for Portland, OR",
+            "answer_link": "https://www.almanac.com/weather/longrange/OR/Portland#:~:text=November%202022%20to%20October%202023,will%20be%20in%20mid%2DNovember.",
+            "answer_display_link": "https://www.almanac.com \u203a weather \u203a Portlandhttps://www.almanac.com \u203a weather \u203a Portland",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDoQBQ\" data-ved=\"2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQu04oAHoECDoQBQ\"><div id=\"1JnBZILxCoeoqtsPkZmNiAo__63\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">November 2022 to October 2023. Winter temperatures will be milder than normal, with <b>slightly below-normal precipitation and snowfall</b>. The coldest periods will be in mid-November and early and late December. The snowiest period will be in mid-November.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "November 2022 to October 2023. Winter temperatures will be milder than normal, with slightly below-normal precipitation and snowfall. The coldest periods will be in mid-November and early and late December. The snowiest period will be in mid-November."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 10
+        },
+        {
+            "question": "What caused the Columbus Day Storm in Oregon?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+caused+the+Columbus+Day+Storm+in+Oregon%3F&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQzmd6BAg9EAY",
+            "answer_source": "60 years later: The Columbus Day Storm of 1962 - Portland - KGW",
+            "answer_link": "https://www.kgw.com/article/news/history/columbus-day-storm-of-1962-60-years-later/283-553060d4-148c-4928-ad27-d578e9016e4d#:~:text=Mass%20said%20the%20historic%20event,still%20producing%20extremely%20strong%20winds.",
+            "answer_display_link": "https://www.kgw.com \u203a article \u203a news \u203a history \u203a colum...https://www.kgw.com \u203a article \u203a news \u203a history \u203a colum...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CD0QBQ\" data-ved=\"2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQu04oAHoECD0QBQ\"><div id=\"1JnBZILxCoeoqtsPkZmNiAo__66\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Mass said the historic event originated from <b>the remnants of Typhoon Freda</b>, which had formed weeks before in the middle of the Pacific Ocean. By the time Freda moved along the coast, it wasn't a typhoon anymore but it was still producing extremely strong winds.</span></span><span class=\"kX21rb ZYHQ7e\">Oct 12, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Mass said the historic event originated from the remnants of Typhoon Freda, which had formed weeks before in the middle of the Pacific Ocean. By the time Freda moved along the coast, it wasn't a typhoon anymore but it was still producing extremely strong winds.Oct 12, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "question": "Why doesn t Portland have snow plows?",
+            "question_link": "https://www.google.com/search?hl=en&q=Why+doesn+t+Portland+have+snow+plows%3F&sa=X&ved=2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQzmd6BAg7EAY",
+            "answer_source": "Winter Weather Basics and FAQ | Portland.gov",
+            "answer_link": "https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq#:~:text=Why%20doesn't%20PBOT%20treat,to%20our%20crews%20and%20equipment.",
+            "answer_display_link": "https://www.portland.gov \u203a transportation \u203a winter-weath...https://www.portland.gov \u203a transportation \u203a winter-weath...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDsQBQ\" data-ved=\"2ahUKEwiCq_frsa2AAxUHlGoFHZFMA6EQu04oAHoECDsQBQ\"><div id=\"1JnBZILxCoeoqtsPkZmNiAo__69\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CDkQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Why doesn't PBOT treat or plow local side streets and residential streets? PBOT does NOT treat or plow local side streets outside our snow and ice routes. PBOT does NOT treat or plow any street with a grade steeper than 14% because of the danger to our crews and equipment.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Why doesn't PBOT treat or plow local side streets and residential streets? PBOT does NOT treat or plow local side streets outside our snow and ice routes. PBOT does NOT treat or plow any street with a grade steeper than 14% because of the danger to our crews and equipment."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 12
+        }
+    ]
+}

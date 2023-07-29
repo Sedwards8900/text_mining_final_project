@@ -1,0 +1,211 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 127000000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arizona storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:19:36.057Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arizona+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_zo88054oalh"
+    },
+    "organic": [
+        {
+            "link": "https://www.azfamily.com/2023/07/12/first-alert-weather-monsoon-storm-chances-forecast-again-parts-arizona/",
+            "display_link": "https://www.azfamily.com \u203a 2023/07/12 \u203a first-alert-weat...",
+            "title": "Monsoon storms possible for parts of Arizona as Phoenix ...",
+            "description": "A streak of very hot days continues for Phoenix, while storm chances bring rain relief to the mountains of AZ.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Arizona_Storm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Arizona_Storm",
+            "title": "Arizona Storm",
+            "description": "Arizona Storm was a professional indoor soccer team based in Phoenix, Arizona. ... This article may rely excessively on sources too closely associated with ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://news.yahoo.com/why-monsoon-storm-arizonas-weather-163839171.html",
+            "display_link": "https://news.yahoo.com \u203a why-monsoon-storm-arizon...",
+            "title": "Why a monsoon storm, Arizona's weather bad girl, beguiles ...",
+            "description": "Why a monsoon storm, Arizona's weather bad girl, beguiles us. Read full article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.reviewjournal.com/news/nation-and-world/winter-storm-slams-northern-arizona-shuts-down-i-40-2729934/",
+            "display_link": "https://www.reviewjournal.com \u203a ... \u203a Nation and World",
+            "title": "Winter storm slams Northern Arizona, shuts down I-40",
+            "description": "A winter storm packing gusty winds and heavy snow shut down schools and stretches of highways in northern Arizona and New Mexico on Wednesday.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.iexplore.com/articles/travel-guides/north-america/united-states/arizona/weather",
+            "display_link": "https://www.iexplore.com \u203a travel-guides \u203a united-states",
+            "title": "Arizona \u2014 Weather",
+            "description": "Arizona has two distinct climates that depend largely on the landscape. ... cities like Phoenix and Tucson, hot and dry weather with mild winters dominate.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.azmirror.com/2021/10/04/climate-change-will-make-arizonas-monsoon-more-extreme-and-erratic/",
+            "display_link": "https://www.azmirror.com \u203a 2021/10/04 \u203a climate-cha...",
+            "title": "Climate change will make Arizona's monsoon more ...",
+            "description": "Lightning during a monsoon storm in southern Arizona, Saguaro National Park. ... This article is republished from The Conversation under a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 4, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://pullasidestayalive.org/home",
+            "display_link": "https://pullasidestayalive.org \u203a ...",
+            "title": "Pull Aside Stay Alive: Home",
+            "description": "In Arizona, dust storms most frequently occur during monsoon season ... Articles on Dust Storms, Dust Detection, and best practices for driving when dust ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://original.newsbreak.com/@arizona-weatherman-1653400/3072727029461-first-east-pacific-tropical-storm-adrian-forms-tracking-its-path-and-potential-arizona-monsoon-thunderstorm-impacts",
+            "display_link": "https://original.newsbreak.com \u203a 3072727029461-first...",
+            "title": "First East Pacific Tropical Storm Adrian forms: Tracking its path ...",
+            "description": "Currently certified AZ STEM teacher online. News articles will focus on Arizona weather, events, and military aircraft. ... Benson, AZ.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://original.newsbreak.com/@arizona-weatherman-1653400/3043429301714-correction-to-a-raiden-storm-quote-about-the-arizona-monsoon-season-forecast",
+                    "display_link": "https://original.newsbreak.com \u203a 3043429301714-cor...",
+                    "title": "Correction to a Raiden Storm quote about the Arizona ...",
+                    "description": "Arizona Weatherman, in a recent article, Updated Arizona monsoon forecast after discussion with Raiden Storm unintentionally misquoted ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "May 31, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 9,
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Heavy storms, winds moved through Valley on Saturday",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Haboobs' Cause a Storm of Complaints in Arizona - The New ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Arizona's biggest weather stories of the decade 2010-2019",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Sky 12 captures wall of dust in San Tan Valley",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmT8oUeUXL5I7LmVggmTuhJO7Wh7LsJd2IWL3ZrXP9Ug&s",
+            "image_alt": "How A Productive Burst Of Winter Moisture May (Or May Not ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmT8oUeUXL5I7LmVggmTuhJO7Wh7LsJd2IWL3ZrXP9Ug&s",
+            "rank": 5,
+            "global_rank": 14
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbz8iNKeyV-vJErgPf7lM8CBjns7p4jni8ePT3eIQgQ&s",
+            "image_alt": "Widespread storms bring rain, dust and wind to Arizona",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsbz8iNKeyV-vJErgPf7lM8CBjns7p4jni8ePT3eIQgQ&s",
+            "rank": 6,
+            "global_rank": 15
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtG6ASIqnvXxnk1BhMWCROAj00rgxiiKN1lnOXyebaHw&s",
+            "image_alt": "Confronting the Storm: Arizona's Innovative Dust Detection ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtG6ASIqnvXxnk1BhMWCROAj00rgxiiKN1lnOXyebaHw&s",
+            "rank": 7,
+            "global_rank": 16
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvK8IF2_zVPtpdCiN0RuedXnLbOfGZmP0aNHxnLs89mA&s",
+            "image_alt": "Drone footage: Lightning, dust storm approach Phoenix area",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvK8IF2_zVPtpdCiN0RuedXnLbOfGZmP0aNHxnLs89mA&s",
+            "rank": 8,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7nmDroKPuN5etM9ARFFu5aX7IR7SeEo7pE4ZFwrj1Q&s",
+            "image_alt": "Basics of the Arizona Monsoon & Desert Meteorology | School ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7nmDroKPuN5etM9ARFFu5aX7IR7SeEo7pE4ZFwrj1Q&s",
+            "rank": 9,
+            "global_rank": 18
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Q70I2UJwr0Szbnq-hbJ2CvdaZ-2VjEP15-rs3U62Jg&s",
+            "image_alt": "Major region of Arizona rattled by monsoon rain, winds, dust",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6Q70I2UJwr0Szbnq-hbJ2CvdaZ-2VjEP15-rs3U62Jg&s",
+            "rank": 10,
+            "global_rank": 19
+        }
+    ]
+}

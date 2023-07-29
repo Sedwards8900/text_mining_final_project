@@ -1,0 +1,321 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 60900000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-26T22:09:57.434Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_6fsaorcjr0k"
+    },
+    "organic": [
+        {
+            "link": "https://www.nj.com/weather/2023/04/nj-weather-nasty-weekend-storms-to-hit-state-with-3-inches-of-rain-50-mph-wind-gusts.html",
+            "display_link": "https://www.nj.com \u203a weather \u203a 2023/04 \u203a nj-weather-na...",
+            "title": "Nasty weekend storms to hit state with 3 inches of rain, 50 ...",
+            "description": "Heavy rain is expected Friday night and could continue through the overnight. Isolated thunderstorms also can't be ruled out in South Jersey.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nj.com/weather/",
+                    "display_link": "https://www.nj.com \u203a weather",
+                    "title": "Weather",
+                    "description": "N.J. weather: Severe thunderstorms with winds up to 60 mph could trigger flash flooding. Latest forecast. An early round of thunderstorms swept through New ...",
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.inquirer.com/weather/microburst-new-jersey-philadelphia-weather-storms-20230705.html",
+            "display_link": "https://www.inquirer.com \u203a weather \u203a microburst-new...",
+            "title": "'Microbursts' pounded South Jersey on July 4th, and Philly ...",
+            "description": "'Microbursts' pounded South Jersey on July 4th, and Philly heat may have been a factor. Heat coming off steamy Philly may have given the storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cbsnews.com/newyork/live-updates/severe-weather-new-york-new-jersey-connecticut-tornado/",
+            "display_link": "https://www.cbsnews.com \u203a ... \u203a Local News",
+            "title": "Severe storms cause widespread damage across New ...",
+            "description": "The National Weather Service on Sunday confirmed a tornado touched down in New Jersey during Saturday's fierce storm. The tornado touched down ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ5t4CegQIERAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.weather.gov/media/phi/current_briefing.pdf",
+            "display_link": "https://www.weather.gov \u203a phi \u203a current_briefing",
+            "title": "Coastal Storm March 13-15, 2023",
+            "description": "Strongest winds this afternoon and evening. Coastal. Flooding. Some minor coastal flooding. Mainly NJ coast of. Monmouth and Ocean.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "6 pages",
+                    "rank": 2
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 3
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ5t4CegQIEBAB",
+                    "rank": 4
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Sandy_in_New_Jersey",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane...",
+            "title": "Effects of Hurricane Sandy in New Jersey",
+            "description": "Hurricane Sandy was the costliest natural disaster in the history of New Jersey, with economic losses to businesses of up to $30 billion.",
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.nytimes.com/2021/09/03/nyregion/new-jersey-ida-deaths.html",
+            "display_link": "https://www.nytimes.com \u203a new-jersey-ida-deaths",
+            "title": "New Jersey's Stunning Storm Toll Includes Many Who ...",
+            "description": "New Jersey's Stunning Storm Toll Includes Many Who Drowned in Cars. Hurricane Ida killed at least 25 people in New Jersey \u2014 more fatalities than ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 3, 2021",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2021/09/02/nyregion/new-york-new-jersey-ida-damage.html",
+                    "display_link": "https://www.nytimes.com \u203a 2021/09/02 \u203a nyregion \u203a ne...",
+                    "title": "New York and New Jersey, Blindsided by Storm, Survey ...",
+                    "description": "Remnants of Hurricane Ida, which left at least 43 people dead as the storm roared through New York and New Jersey, scattered cars and shut ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 2, 2021",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 12,
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://patch.com/new-jersey/across-nj/snow-ice-wind-flooding-njs-storm-forecast-latest-timeline",
+            "display_link": "https://patch.com \u203a new-jersey \u203a across-nj \u203a snow-ice-...",
+            "title": "Snow In Wednesday Forecast For NJ: See Storm Timeline",
+            "description": "Here's the National Weather Service's latest North Jersey forecast: Tuesday: Partly sunny, with a high near 44. West wind 11 to 17 mph. Tuesday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nature.org/en-us/about-us/where-we-work/united-states/new-jersey/stories-in-new-jersey/sandy-one-year-later/",
+            "display_link": "https://www.nature.org \u203a en-us \u203a sandy-one-year-later",
+            "title": "TNC Lessons from Hurricane Sandy",
+            "description": "Hurricane Sandy is the most destructive and costliest hurricane ever recorded in New Jersey, inflicting $37 billion in damages. Accelerating sea-level rise ...",
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+in+New+Jersey+10+days&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg8EAE",
+            "text": "weather in new jersey 10 days",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+in+New+Jersey+today&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg7EAE",
+            "text": "storm in new jersey today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=NJ+storm+damage+today&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg6EAE",
+            "text": "nj storm damage today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Weather+in+New+Jersey+tomorrow&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg5EAE",
+            "text": "weather in new jersey tomorrow",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+weather+forecast+New+Jersey&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg4EAE",
+            "text": "snow storm weather forecast new jersey",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+warning+New+Jersey+today&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg3EAE",
+            "text": "tornado warning new jersey today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=When+will+it+snow+in+New+Jersey+2023&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg2EAE",
+            "text": "when will it snow in new jersey 2023",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=30+day+weather+forecast+new+jersey&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ1QJ6BAg1EAE",
+            "text": "30 day weather forecast new jersey",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Where in New Jersey did the tornado hit?",
+            "question_link": "https://www.google.com/search?hl=en&q=Where+in+New+Jersey+did+the+tornado+hit%3F&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzmd6BAglEAY",
+            "answer_source": "4 tornadoes touch down in New Jersey: National Weather Service",
+            "answer_link": "https://whyy.org/articles/cinnaminson-tornado-new-jersey-jackson-township-howell/#:~:text=Cleanup%20is%20underway%20in%20New,Sea%20Grit%2C%20and%20Howell%20Township.",
+            "answer_display_link": "https://whyy.org \u203a articles \u203a cinnaminson-tornado-new-je...https://whyy.org \u203a articles \u203a cinnaminson-tornado-new-je...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCUQBQ\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQu04oAHoECCUQBQ\"><div id=\"tJnBZP_kDf6viLMP5PivOA__15\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCkQAA\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ4dMGegQIKRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCkQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBkQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AcboRk\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQyQ0oAHoECBkQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;PuI42OLIGMD9MM;AcboRs\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"PuI42OLIGMD9MM\" data-lpage=\"https://whyy.org/articles/cinnaminson-tornado-new-jersey-jackson-township-howell/\" data-ni=\"1\" data-ref-docid=\"c1i-VIjpv8_7KM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCEQAA\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzkx6BAghEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-39px;width:285px\" alt=\"4 tornadoes touch down in New Jersey: NWS - WHYY\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3x2UtsV0j1YehHLdZdfz3-PuS8iw_TY_qSrJsDZxsQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"tJnBZP_kDf6viLMP5PivOA__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Cleanup is underway in New Jersey after four confirmed tornadoes ripped through neighborhoods, tearing trees from their roots and snapping telephone poles. The National Weather Service confirmed Sunday that tornadoes hit <b>Cinnaminson, Jackson Township, Sea Grit, and Howell Township</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 2, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Cleanup is underway in New Jersey after four confirmed tornadoes ripped through neighborhoods, tearing trees from their roots and snapping telephone poles. The National Weather Service confirmed Sunday that tornadoes hit Cinnaminson, Jackson Township, Sea Grit, and Howell Township.Apr 2, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "Is it possible for a tornado to hit New Jersey?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+it+possible+for+a+tornado+to+hit+New+Jersey%3F&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzmd6BAgiEAY",
+            "answer_source": "Tornado Climatology of New Jersey - Rutgers Climate Lab",
+            "answer_link": "https://climate.rutgers.edu/stateclim/climatologies/njtornado.html#:~:text=Tornadoes%20are%20dangerous%20natural%20disasters,of%20yards%20to%20several%20miles.",
+            "answer_display_link": "https://climate.rutgers.edu \u203a climatologies \u203a njtornadohttps://climate.rutgers.edu \u203a climatologies \u203a njtornado",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCIQBQ\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQu04oAHoECCIQBQ\"><div id=\"tJnBZP_kDf6viLMP5PivOA__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCoQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Tornadoes are dangerous natural disasters that most commonly occur in the southern and central United States. <b>They are much less common in New Jersey</b>, with the state averaging around two each year. Most NJ twisters are relatively weak, short-lived, and travel from hundreds of yards to several miles.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Tornadoes are dangerous natural disasters that most commonly occur in the southern and central United States. They are much less common in New Jersey, with the state averaging around two each year. Most NJ twisters are relatively weak, short-lived, and travel from hundreds of yards to several miles."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Did a tornado touch down in Jackson New Jersey?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+a+tornado+touch+down+in+Jackson+New+Jersey%3F&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzmd6BAgjEAY",
+            "answer_source": "Tornado touches down in Jackson, New Jersey - YouTube",
+            "answer_link": "https://www.youtube.com/watch?v=Qv_OQHREVEk",
+            "answer_display_link": "https://www.youtube.com \u203a watchhttps://www.youtube.com \u203a watch",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCMQBQ\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQu04oAHoECCMQBQ\"><div id=\"tJnBZP_kDf6viLMP5PivOA__24\"><div class=\"wDYxhc NFQFxe\" data-md=\"294\"><div jscontroller=\"vvvZqd\" jsdata=\"QeZRUb;_;AcboRg\" jsaction=\"rcuQ6b:npT2md;lQqO9c:TvD9Pc;sYd32b:kv4lH;BUYwVb:kv4lH\"><div><div class=\"L2AgXb\" data-hveid=\"CB8QAA\"><div class=\"qvSLpc dnEV5c\"><a jsname=\"JUCs7e\" style=\"display:none\" href=\"https://www.youtube.com/watch?v=Qv_OQHREVEk\" jsaction=\"ti6hGc\" data-jsarwt=\"1\" data-usg=\"AOvVaw2iRoERFpvLSOFcMIVriScK\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQg_QBegQIHxAC\"></a><div role=\"button\" tabindex=\"0\" jsaction=\"ti6hGc\" class=\"aavBce\" aria-label=\"A span of a video titled Tornado touches down in Jackson, New Jersey - YouTube. The suggested span starts from 72 second and ends at 111 second, with duration of 39 seconds\"><div class=\"vfO4k\" style=\"width:100%\"><div style=\"width:100%;padding-top:56.25%\"></div><div class=\"MnwSrc\" style=\"position:absolute;top:0;left:0;right:0;bottom:0;overflow:hidden;display:flex;align-items:center\"><div style=\"display:flex;flex-direction:column;align-items:center;width:100%\"><g-img style=\"width:100%\"><img data-src=\"\" class=\"YQ4gaf zr758c\" alt=\"Part of a video titled Tornado touches down in Jackson, New Jersey - YouTube\"></g-img></div></div><div class=\"fi3CNb\"></div><div class=\"Do1FMc\"><span style=\"height:48px;line-height:48px;width:48px\" class=\"z1asCe UIgqBe\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z\"></path></svg></span></div><div style=\"position:absolute;left:0;right:0;padding:0 16px;vertical-align:center;display:flex;bottom:0;color:#fff\"><div class=\"kAoFgd\"><div style=\"padding-bottom:1px;padding-left:calc(59.02% - 19px);line-height:12px\"><div style=\"position:relative\"><div class=\"NWd2Ib\"><span class=\"MF6MAc\">1:12</span></div><svg overflow=\"visible\" style=\"position:absolute;top:17px;left:15.5px;height:6px;width:9px\"><polygon fill=\"#fff\" points=\"0 0, 4.5 6, 9 0\"></polygon></svg></div></div><svg height=\"26\" width=\"100%\"><g opacity=\"0.54\"><rect fill=\"#fff\" height=\"4\" rx=\"2\" ry=\"2\" stroke=\"none\" width=\"100%\" y=\"3\"></rect></g><g><rect fill=\"#fff\" x=\"59.02%\" height=\"10\" stroke=\"none\" width=\"2\" y=\"0\"></rect><rect fill=\"#fff\" x=\"-90.98%\" height=\"10\" stroke=\"none\" transform=\"scale(-1 1)\" width=\"2\" y=\"0\"></rect><rect fill=\"#fff\" height=\"4\" width=\"31.77%\" x=\"59.12%\" y=\"3\" stroke=\"none\"></rect></g><svg x=\"75.00%\" overflow=\"visible\" y=\"14\"><polygon fill=\"#e8f0fe\" points=\"0,0 10,12 10,14, -10,14 -10,12\"></polygon></svg></svg></div><div class=\"ClE1Nc\"><span class=\"yp0ec\">2:02</span></div></div></div></div><div><g-lightbox jscontroller=\"ggQ0Zb\" data-df=\"false\" jsshadow=\"\" jsaction=\"rcuQ6b:npT2md\"><div><div jsname=\"jt9vfc\" aria-hidden=\"true\" role=\"button\" tabindex=\"0\" jsaction=\"focus:sT2f3e\" style=\"display:none\"></div><div jsname=\"AHe6Kc\" class=\"ynlwjd VDgVie DvHOIf xUZ4Hc\" style=\"display:none;outline:none\" role=\"dialog\" tabindex=\"-1\" jsaction=\"klllfd:hfClUb;QFR3de:vhMcte;pD9K6e:FL9aIe;KbF57e:DlGmce;mLt3mc\"><div class=\"dtCYCd VDgVie\" jsaction=\"yZGKvf\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ-UN6BAgfEAQ\"><g-loading-icon jsname=\"aZ2wEe\" class=\"Xfh32\" style=\"display:none;height:24px;width:24px\"><img height=\"24\" src=\"//www.gstatic.com/ui/v1/activityindicator/loading_24.gif\" width=\"24\" alt=\"Loading...\" role=\"progressbar\"></g-loading-icon></div><div class=\"Xvesr BV6uAb\" aria-label=\"Close\" role=\"button\" tabindex=\"0\" jsaction=\"yZGKvf\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ-EN6BAgfEAY\"></div><div jsname=\"Sx9Kwc\" class=\"AU64fe zsYMMe TUOsUe\" style=\"display:none\"><span jsslot=\"\"><div class=\"VFlF2c\"><div class=\"pE7Yzc\"><div class=\"tBZiXd\"><div class=\"jTSIHb\"><div><a href=\"https://www.youtube.com/watch?v=Qv_OQHREVEk\" data-jsarwt=\"1\" data-usg=\"AOvVaw2iRoERFpvLSOFcMIVriScK\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ-4ACegQIHxAH\"><div><span>Tornado touches down in Jackson, New Jersey - YouTube</span></div><div style=\"opacity:0.7\">YouTube</div></a></div></div><div jsname=\"haAclf\" data-ves=\"111\" data-vid=\"Qv_OQHREVEk\" data-vss=\"72\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQpfQBegQIHxAI\"><iframe jsname=\"vLxpee\" allow=\"autoplay ;fullscreen\" frameborder=\"0\" height=\"100%\" width=\"100%\"></iframe></div><div style=\"flex-grow:1\"><div jsname=\"OGEiTb\" class=\"GoIRO\"><div jsname=\"zVT96b\">Start of suggested clip</div><div jsname=\"Me5Zx\" style=\"display:none\">End of suggested clip</div></div></div></div></div></div></span></div></div><div jsname=\"qngMid\" aria-hidden=\"true\" role=\"button\" tabindex=\"0\" jsaction=\"focus:tuePCd\" style=\"display:none\"></div></div></g-lightbox></div></div><div class=\"jRFvfe\" style=\"background-color:#e8f0fe\"><div class=\"UAMSo\" data-hveid=\"CB8QCQ\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQmdMFegQIHxAJ\"><div><div class=\"iMCzjd\"><div jscontroller=\"EAZJjb\"><span jsname=\"pQcl6\"><span class=\"XdBtEc\" aria-label=\"A part of the suggested span transcript before expanded is On the local level. But they&amp;#39;re hoping the federal government will step in to provide more resources. You can view more by clicking More button at the end of this text\">On the local level. But they're hoping the federal government will step in to provide more resources</span><span jsname=\"FZud5\" class=\"w90itc\" role=\"button\" tabindex=\"0\" jsaction=\"JzCzbc\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQwJ0GegQIHxAK\">More<span style=\"margin-left:1px;height:12px;line-height:12px;width:12px\" class=\"z1asCe QFl0Ff\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z\"></path></svg></span></span></span><span jsname=\"EVvVid\" class=\"CTkDab\"><span class=\"XdBtEc\" aria-label=\"A part of the suggested span transcript after expanded is On the local level. But they&amp;#39;re hoping the federal government will step in to provide more resources like they have in Arkansas Indiana. And Delaware.\">On the local level. But they're hoping the federal government will step in to provide more resources like they have in Arkansas Indiana. And Delaware.</span></span></div></div></div></div></div></div></div></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "video",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Did Hurricane Katrina hit New Jersey?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+Hurricane+Katrina+hit+New+Jersey%3F&sa=X&ved=2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzmd6BAgkEAY",
+            "answer_source": "List of New Jersey hurricanes - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/List_of_New_Jersey_hurricanes#:~:text=August%2030%2C%202005%20%E2%80%94%20The%20remnants,power%20outages%20and%20downed%20trees.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_New_Jersey_hu...https://en.wikipedia.org \u203a wiki \u203a List_of_New_Jersey_hu...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCQQBQ\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQu04oAHoECCQQBQ\"><div id=\"tJnBZP_kDf6viLMP5PivOA__27\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCcQAA\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQ4dMGegQIJxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCcQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AcboRc\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQyQ0oAHoECBoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;qDXfAn7u_Cn08M;AcboRo\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"qDXfAn7u_Cn08M\" data-lpage=\"https://en.wikipedia.org/wiki/List_of_New_Jersey_hurricanes\" data-ni=\"1\" data-ref-docid=\"cKDbRvN6TdIUTM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCAQAA\" data-ved=\"2ahUKEwj_jtncsa2AAxX-F2IAHWT8CwcQzkx6BAggEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:131px;width:204px\"><img style=\"margin-left:-6px;width:217px\" alt=\"List of New Jersey hurricanes - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRDcS9zoKDB98-MxBE454zF_moPjdH_tHSssBeBFNxoA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"tJnBZP_kDf6viLMP5PivOA__30\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>August 30, 2005</b> \u2014 The remnants of Hurricane Katrina produced heavy rainfall and high winds, causing power outages and downed trees.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "August 30, 2005 \u2014 The remnants of Hurricane Katrina produced heavy rainfall and high winds, causing power outages and downed trees."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

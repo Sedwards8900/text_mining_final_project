@@ -1,0 +1,177 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 66400000,
+        "search_time": 0.52,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Texas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:46.728Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Texas+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15",
+        "request_id": "hl_c3a9eb28_fjjiho18xz"
+    },
+    "organic": [
+        {
+            "link": "https://www.nature.com/articles/s41599-022-01353-8",
+            "display_link": "https://www.nature.com \u203a ... \u203a articles",
+            "title": "Community-scale big data reveals disparate impacts of the ...",
+            "description": "From February 13 through 17, 2021, a severe and icy winter storm, Winter Storm Uri, affected most of North America and the entire state of Texas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by CC Lee",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2022",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 27",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.dallasnews.com/news/weather/2023/02/02/winter-storm-blamed-for-7-deaths-across-texas/",
+            "display_link": "https://www.dallasnews.com \u203a News \u203a Weather",
+            "title": "Winter storm blamed for 7 deaths across Texas",
+            "description": "AUSTIN, Texas (AP) \u2014 A mess of ice, sleet and snow lingered across much of the southern U.S. as thousands in Texas endured freezing ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.khou.com/article/weather/texas-winter-storm-2023/285-93a67ef4-7fcd-4422-b575-912cf8212ead",
+            "display_link": "https://www.khou.com \u203a article \u203a weather \u203a texas-wint...",
+            "title": "Winter Storm Texas: Ice event unfolding for millions of Texans",
+            "description": "Part of this winter storm was caused by a cold front that stalled off the Texas coast, allowing for cold air to filter through the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/260000-power-tornado-sirens-sound-winds-hit-texas-south-rcna73210",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a 260000-p...",
+            "title": "Over 100000 without power as heavy winds hit the South",
+            "description": "Tornado sirens sounded in Dallas and in other parts of Texas Thursday and high winds overturned multiple tractor-trailers as severe weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nationalguard.mil/News/Article-View/Article/575428/texas-army-guard-responds-to-winter-storm-helps-stranded-motorists/",
+            "display_link": "https://www.nationalguard.mil \u203a News",
+            "title": "Texas Army Guard responds to winter storm, helps ...",
+            "description": "DENISON, Texas - Soldiers with the Texas Army National Guard's 176th Engineer Brigade provided support to state and local officials during Winter Storm ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.thedailybeast.com/why-a-historic-winter-storm-has-caused-chaos-across-texas",
+            "display_link": "https://www.thedailybeast.com \u203a why-a-historic-winter...",
+            "title": "Why a Historic Winter Storm Has Caused Chaos Across ...",
+            "description": "Listen to article ... The border city of Brownsville, Texas, declared its first winter storm watch in a decade, reporting snow for just the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://texashelp.tamu.edu/wp-content/uploads/2018/08/how-to-prepare-for-winter-storms.pdf",
+            "display_link": "https://texashelp.tamu.edu \u203a uploads \u203a 2018/08",
+            "title": "How to Prepare for Winter Storms in Texas",
+            "description": "In many parts of Texas, severe winter weather can threaten your safety and the ... Even if you think you are safe and warm at home, a winter storm can.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.ncei.noaa.gov/news/great-texas-freeze-february-2021",
+            "display_link": "https://www.ncei.noaa.gov \u203a news \u203a great-texas-freeze...",
+            "title": "The Great Texas Freeze: February 11-20, 2021 | News",
+            "description": "The Great Texas Freeze: February 11-20, 2021 \u00b7 On February 11-20, 2021, a historical winter event occurred that set many records, including being ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://people.com/human-interest/texas-ice-storm-kills-at-least-8-leaves-400000-without-power/",
+            "display_link": "https://people.com \u203a human-interest \u203a texas-ice-storm-...",
+            "title": "'Epic' Texas Ice Storm Kills at Least 8 and Leaves ...",
+            "description": "The prolonged storm, which has featured an icy mix of precipitation, has resulted in repeated rounds of winter weather over Texas since ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.kvue.com/article/weather/tuesday-storms-hail-damaging-winds/269-f820eccd-83fa-46ab-a110-4a4afdbb3234",
+            "display_link": "https://www.kvue.com \u203a article \u203a weather \u203a tuesday-st...",
+            "title": "Central Texas strong storms with potential for hail - Austin",
+            "description": "AUSTIN, Texas \u2014 Editor's note: This article will no longer be updated. Further information regarding upcoming weather can be found here.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

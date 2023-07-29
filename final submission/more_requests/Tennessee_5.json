@@ -1,0 +1,168 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 35000000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Tennessee storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:09.012Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Tennessee+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0.1 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_hhkngabitwd"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/climate-environment/2023/03/04/winter-storms-power-outage/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/03/04 \u203a wint...",
+            "title": "Winter storms wreak havoc for millions across Midwest, South",
+            "description": "In Alabama, three people were killed by falling trees, and storm-related deaths were also reported in Arkansas, Mississippi and Tennessee, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://whnt.com/news/reports-of-damage-after-severe-storms-moved-through-the-tennessee-valley/",
+            "display_link": "https://whnt.com \u203a news \u203a reports-of-damage-after-sev...",
+            "title": "Reports of damage after severe storms move through the ...",
+            "description": "News 19 is monitoring multiple reports of damage and people without power as strong storms moved through the Tennessee Valley in the early ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsmv.com/2023/04/01/pictures-storm-damage-across-middle-tennessee-southern-kentucky/",
+            "display_link": "https://www.wsmv.com \u203a 2023/04/01 \u203a pictures-storm-d...",
+            "title": "PICTURES: Storm damage across Middle Tennessee ... - WSMV",
+            "description": "NASHVILLE, Tenn. (WSMV) - Severe storms threatened Middle Tennessee and Southern Kentucky from Friday evening until 4 a.m. Saturday morning.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Tennessee+storm+%22article%22&sa=X&ved=2ahUKEwjdiOnb4q2AAxUNGxAIHaGACIU4EBDm3gJ6BAgbEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wgnsradio.com/article/80229/red-cross-urges-tennessee-residents-to-prepare-for-severe-weather",
+            "display_link": "https://www.wgnsradio.com \u203a article \u203a red-cross-urges...",
+            "title": "Red Cross Urges Tennessee Residents to Prepare for ...",
+            "description": "TENNESSEE - The National Weather Service has issued an update on the potential for strong to severe thunderstorms late Friday night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.timesfreepress.com/news/2022/nov/29/storms-could-spawn-major-tornadoes-floods-in-several-states-tfp/",
+            "display_link": "https://www.timesfreepress.com \u203a news \u203a nov \u203a storms...",
+            "title": "Storms cause tornadoes, flooding around the South",
+            "description": "More than 25 million people were at risk as the vast storm system. ... Memphis and Nashville in Tennessee; and Birmingham, Alabama.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://wreg.com/weather/weather-weather/storm-survey-says-4-tornadoes-straight-line-winds-blasted-through-mid-south-killing-17/",
+            "display_link": "https://wreg.com \u203a weather \u203a weather-weather \u203a storm...",
+            "title": "NWS storm survey says 4 tornadoes, straight line winds ...",
+            "description": "MEMPHIS, Tenn. \u2014 At least four tornadoes ripped across the Mid-South on Friday, according to a preliminary survey from the National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsj.com/articles/more-than-100-000-still-in-dark-after-winter-storm-11644173783",
+            "display_link": "https://www.wsj.com \u203a articles \u203a more-than-100-000-still...",
+            "title": "Tens of Thousands Still in Dark in Tennessee After Winter ...",
+            "description": "Storm damage on Thursday in Memphis, Tenn., where thousands were left without power. ... Continue reading your article with",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Tornado_outbreak_of_March_2%E2%80%933,_2020",
+            "display_link": "https://en.wikipedia.org \u203a wiki",
+            "title": "Tornado outbreak of March 2\u20133, 2020",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. A small but deadly tornado outbreak affected West and Middle Tennessee on the night of March ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.newschannel5.com/",
+            "display_link": "https://www.newschannel5.com",
+            "title": "NewsChannel 5 Nashville WTVF - Breaking News, Weather ...",
+            "description": "Get the latest local breaking news, Storm 5 Weather and sports for Nashville, Clarksville, Murfreesboro, Franklin and all of Middle Tennessee.",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.tml1.org/town-and-city/northwest-middle-tennessee-struck-fatal-mutli-state-tornado",
+            "display_link": "https://www.tml1.org \u203a town-and-city \u203a northwest-mid...",
+            "title": "Northwest, Middle Tennessee struck by fatal mutli-state ...",
+            "description": "Kentucky was the hardest hit by the storm with at least 64 confirmed deaths. Four fatalities were also reported in Tennessee. A father and his 12-year-old son ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

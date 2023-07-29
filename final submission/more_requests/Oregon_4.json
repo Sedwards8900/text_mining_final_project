@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47100000,
+        "search_time": 0.61,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:26.553Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_q1e3lqw3gip"
+    },
+    "organic": [
+        {
+            "link": "https://www.triplicate.com/news/peak-winter-storm-season-draws-storm-watchers-to-a-singular-stretch-of-the-oregon-coast/article_a5781a65-09dd-5afb-aaf7-31b8cd64cb52.html",
+            "display_link": "https://www.triplicate.com \u203a news \u203a article_a5781a65-09...",
+            "title": "Peak winter storm season draws storm watchers to a ...",
+            "description": "It's the heart of winter on the Oregon Coast, which means gargantuan Pacific Ocean swells, roaring sea winds and exploding clouds of foam ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://ktvz.com/weather/2023/03/20/rain-snow-then-a-break-before-another-storm-system-rolls-through-central-oregon/",
+            "display_link": "https://ktvz.com \u203a weather \u203a 2023/03/20 \u203a rain-snow-t...",
+            "title": "Rain, snow, then a break before another storm system rolls ...",
+            "description": "There's a chance of a new storm system arriving on the High Desert by Wednesday night. HAVE A SPARKLING DAY IN CENTRAL OREGON! Article Topic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wweek.com/news/2019/11/26/a-bomb-cyclone-snow-storm-headed-to-southwest-oregon-is-likely-to-affect-regional-travel/",
+            "display_link": "https://www.wweek.com \u203a news \u203a 2019/11/26 \u203a a-bomb-...",
+            "title": "A \u201cBomb Cyclone\u201d Snow Storm Headed to Southwest ...",
+            "description": "A strong \u201cbomb cyclone\u201d snow storm is moving over Southwest Oregon and could bring a light dusting to Portland later tonight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 26, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.koin.com/weather/portlands-snow-timeline-totals-with-next-winter-storm/",
+            "display_link": "https://www.koin.com \u203a weather \u203a portlands-snow-tim...",
+            "title": "Portland Oregon snow timeline, totals with next winter storm",
+            "description": "Snowfall totals from the first few snowflakes to Sunday morning is expected to near 0.5-2 inches in downtown Portland. The greatest amounts of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.theweathernetwork.com/us/severe-weather-outlook/oregon/coos-bay",
+            "display_link": "https://www.theweathernetwork.com \u203a coos-bay",
+            "title": "3-Day Severe Weather Outlook: Coos Bay, Oregon",
+            "description": "The Severe Weather Outlook helps you prepare for significant weather such as an upcoming storm that could result in weather warnings or alerts being issued.",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://katu.com/news/local/winter-storm-blankets-western-oregon-sw-wash-in-snow-cold-dry-pattern-ahead-forecast-portland-metro-road-conditions",
+            "display_link": "https://katu.com \u203a news \u203a local \u203a winter-storm-blanket...",
+            "title": "Winter storm blankets Western Oregon, SW. Wash. in snow ...",
+            "description": "KATU ABC 2 offers coverage of news, weather, sports and community events for Portland, Oregon and surrounding towns, including Beaverton, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/59/5/1520-0493_1931_59_195_gdsiwa_2_0_co_2.xml",
+            "display_link": "https://journals.ametsoc.org \u203a view \u203a journals \u203a mwre \u203a 1...",
+            "title": "GREAT DUST STORM IN WASHINGTON AND OREGON ...",
+            "description": "Abstract SYNOPSIS A considerable part of Washington and Oregon experienced on April 21\u201324, 1931, an extraordinary dust storm borne on strong northeast winds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by DC CAMERON",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1931",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 8",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts of ... to 3 feet in high elevations and mountain peaks of western Oregon; ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://backyardbend.com/winter-storm-warning-issued/",
+            "display_link": "https://backyardbend.com \u203a Trending",
+            "title": "heavy snow forecast in Oregon Cascades, some in Coast ...",
+            "description": "Winter storm warning issued: heavy snow forecast in Oregon Cascades, some in Coast Range ... SEE THE ORIGINAL ARTICLE BY THE OREGONIAN HERE.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

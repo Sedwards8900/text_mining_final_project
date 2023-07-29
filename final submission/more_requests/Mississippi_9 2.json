@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 162000000,
+        "search_time": 0.29,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Mississippi storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:35:09.189Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Mississippi+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_u1q96uezsxd"
+    },
+    "organic": [
+        {
+            "link": "https://www.sunherald.com/news/weather-news/article277103878.html",
+            "display_link": "https://www.sunherald.com \u203a news \u203a article277103878",
+            "title": "Mississippi is seeing more tornadoes, hail and flooding. ...",
+            "description": "Mississippi tornadoes between 1950 and 2022 \u00b7 Between 1950 and 1970, there wasn't a year with 50 or more tornadoes reported and in six years ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-65072195",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-65072195",
+            "title": "Mississippi tornado: Why was it so destructive?",
+            "description": "Preliminary findings have registered the tornado a four on the Enhanced Fujita (EF) scale, meaning it had a three-second gust of 166 to 200 mph, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wjtv.com/weather/severe-weather/nearly-200-mississippi-structures-damaged-by-recent-storms/",
+            "display_link": "https://www.wjtv.com \u203a weather \u203a severe-weather \u203a ne...",
+            "title": "Nearly 200 Mississippi structures damaged by recent storms",
+            "description": "JASPER COUNTY, Miss. (WHLT) \u2013 Nearly 200 homes and businesses have been damaged from this week's deadly storms in Mississippi.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/2023/06/19/weather/severe-storm-threat-southern-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/06/19 \u203a weather \u203a severe-st...",
+            "title": "1 killed and almost 2 dozen injured in overnight storms in ...",
+            "description": "A storm system spawned a reported tornado late Sunday in Mississippi, leaving injuries and structural damage around Bay Springs and Louin in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.abc.net.au/news/2023-03-26/us-deadly-tornado-and-storms-in-mississipi/102146074",
+            "display_link": "https://www.abc.net.au \u203a news \u203a us-deadly-tornado-an...",
+            "title": "US tornado and storms kill at least 25 people in state of ...",
+            "description": "Mississippi, Alabama receive 24 reports of tornadoes ... At least 24 reports of tornadoes were issued to the National Weather Service on Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.localmemphis.com/article/news/local/entergy-issues-open-letter-to-customers-following-unprecedented-storms-in-mississippi-power-outages-restored-ceo-statement-electricity/522-a8ef3ecc-00b8-44fb-ace0-9317d8711d78",
+            "display_link": "https://www.localmemphis.com \u203a article \u203a news \u203a local",
+            "title": "Entergy issues open letter to customers after Mississippi storms",
+            "description": "The CEO and president of Mississippi power supplier Entergy sent out an open letter to customers following \"unprecedented\" storms that ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.ctvnews.ca/climate-and-environment/daunting-recovery-underway-in-tornado-devastated-mississippi-1.6329511",
+            "display_link": "https://www.ctvnews.ca \u203a climate-and-environment \u203a dau...",
+            "title": "Mississippi tornado: Daunting recovery underway after 25 ...",
+            "description": "The tornado that slammed into Rolling Fork tore across Mississippi for about 59 miles over a period that lasted more than one hour, the National ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.foxnews.com/us/tornadoes-tear-through-mississippi-leaving-100-mile-destruction-path-fatalities-reported",
+            "display_link": "https://www.foxnews.com \u203a tornadoes-tear-through-m...",
+            "title": "Mississippi tornadoes: Violent twisters kill at least 25 and ...",
+            "description": "\"The State of Mississippi is continuing to respond to the devastating deadly tornadoes that swept through the state overnight on March 24, 2023, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.aljazeera.com/news/2023/3/26/my-city-is-gone-many-dead-as-tornado-tears-across-mississippi",
+            "display_link": "https://www.aljazeera.com \u203a news \u203a my-city-is-gone-...",
+            "title": "US: Biden declares emergency for Mississippi's storm ...",
+            "description": "The tornado stayed on the ground for about an hour and cut a path of destruction some 274km (170 miles) long across Mississippi late on Friday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.clarionledger.com/story/weather/hurricane/2021/08/30/hurricane-ida-updates-tracking-storm-moves-through-mississippi/5643331001/",
+            "display_link": "https://www.clarionledger.com \u203a weather \u203a 2021/08/30",
+            "title": "Ida track updates: Mississippi to send National Guard ...",
+            "description": "Follow here for live updates as Hurricane Ida moves through Mississippi after making landfall Sunday as a Category 4 storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 30, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

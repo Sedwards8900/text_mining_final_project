@@ -1,0 +1,192 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 58600000,
+        "search_time": 0.54,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Tennessee storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:17.202Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Tennessee+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_5df5m0io2a9"
+    },
+    "organic": [
+        {
+            "link": "https://www.cnn.com/2023/03/31/weather/severe-storms-south-central-us-friday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/03/31 \u203a weather \u203a severe-st...",
+            "title": "At least 3 dead, dozens hospitalized after violent tornadoes ...",
+            "description": "britley ritz tornado forecast 4 1 23 ... The storm that pummeled Wynne prompted a tornado emergency in neighboring Tennessee, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.theatlantic.com/photo/2021/08/photos-deadly-flash-floods-hit-tennessee-after-torrential-storm/619868/",
+            "display_link": "https://www.theatlantic.com \u203a photo \u203a 2021/08 \u203a phot...",
+            "title": "Photos: Deadly Flash Floods Hit Tennessee After a ...",
+            "description": "After a stalled storm dropped 17 inches of rain in a 24-hour period, buildings and vehicles were swept away.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 23, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wsmv.com/2023/04/01/pictures-storm-damage-across-middle-tennessee-southern-kentucky/",
+            "display_link": "https://www.wsmv.com \u203a 2023/04/01 \u203a pictures-storm-d...",
+            "title": "PICTURES: Storm damage across Middle Tennessee ... - WSMV",
+            "description": "NASHVILLE, Tenn. (WSMV) - Severe storms threatened Middle Tennessee and Southern Kentucky from Friday evening until 4 a.m. Saturday morning.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Tennessee+storm+%22article%22&sa=X&ved=2ahUKEwiY09_f4q2AAxXYGFkFHdQ1Dps4EhDm3gJ6BAgYEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://wreg.com/news/local/bill-lee-visits-west-tennessee-following-storm-damage/",
+            "display_link": "https://wreg.com \u203a news \u203a local \u203a bill-lee-visits-west-te...",
+            "title": "Bill Lee visits West Tennessee following storm damage",
+            "description": "MEMPHIS, Tenn. \u2014 Tennessee Governor Bill Lee visited West Tennessee Saturday after storms caused heavy damage and killed nine people in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://whnt.com/news/reports-of-damage-after-severe-storms-moved-through-the-tennessee-valley/",
+            "display_link": "https://whnt.com \u203a news \u203a reports-of-damage-after-sev...",
+            "title": "Reports of damage after severe storms move through the ...",
+            "description": "News 19 is monitoring multiple reports of damage and people without power as strong storms moved through the Tennessee Valley in the early ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.al.com/news/2021/02/winter-storm-tornado-kill-at-least-15-in-north-carolina-tennessee-texas.html",
+            "display_link": "https://www.al.com \u203a news \u203a 2021/02 \u203a winter-storm-tor...",
+            "title": "Winter storm, tornado kill at least 15 in North Carolina ...",
+            "description": "In west Tennessee, a 10-year-old boy died after falling into an ice-covered pond on Sunday during a winter storm, fire officials said. Several ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.timesfreepress.com/news/2023/mar/03/marion-county-officials-report-storm-has-passed/",
+            "display_link": "https://www.timesfreepress.com \u203a news \u203a mar \u203a mario...",
+            "title": "Marion County officials report storm has passed leaving ...",
+            "description": "A strong line of storms passing through Southeast Tennessee downed trees and power lines across the region Friday afternoon, but there were ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wrex.com/news/strong-tornado-tears-through-nashville-central-tennessee-early-tuesday/article_4515f64e-76a4-5f01-b8aa-2a0e3260d7f1.html",
+            "display_link": "https://www.wrex.com \u203a news \u203a article_4515f64e-76a...",
+            "title": "Strong tornado tears through Nashville, Central Tennessee ...",
+            "description": "Middle Tennessee, including the Nashville area, bore the brunt of a strong and nearly direct hit by a tornado early Tuesday morning.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wgnsradio.com/article/80229/red-cross-urges-tennessee-residents-to-prepare-for-severe-weather",
+            "display_link": "https://www.wgnsradio.com \u203a article \u203a red-cross-urges...",
+            "title": "Red Cross Urges Tennessee Residents to Prepare for ...",
+            "description": "TENNESSEE - The National Weather Service has issued an update on the potential for strong to severe thunderstorms late Friday night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/tornado-touches-down-nashville-area-damaging-homes-buildings-n1147701",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a tornado-to...",
+            "title": "At least 24 dead after tornado rips through Nashville and ...",
+            "description": "Nashville tornado death toll rises to at least 24; dozens still missing ... At least 24 people were killed, several others injured and tens of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33000000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Utah storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:52.257Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Utah+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_xxm72atyp3"
+    },
+    "organic": [
+        {
+            "link": "https://www.sltrib.com/news/2023/04/05/end-utahs-surprising-spring-snow/",
+            "display_link": "https://www.sltrib.com \u203a news \u203a 2023/04/05 \u203a end-uta...",
+            "title": "The end of Utah's unusual spring snowstorm is almost here",
+            "description": "According to the National Weather Service, Utah set a record for snow water equivalency for the 2023 water year, hitting 29.4 inches on Tuesday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://kutv.com/news/local/weather-forecast-salt-lake-city-davis-weber-morgan-cache-utah-juab-millard-beaver-iron-washington-county-road-conditions-today-april-storm-spring-snowstorm-utah-udot-snow-plows-utah-department-of-transportation-first-alert",
+            "display_link": "https://kutv.com \u203a news \u203a local \u203a weather-forecast-salt...",
+            "title": "Winter storm continues to strengthen as it moves into Utah",
+            "description": "Heavy snow is now moving in to central and southern Utah. Round two of the storm will move in tonight along the Wasatch Front.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://kutv.com/news/local/first-alert-weather-widespread-snow-leaves-roads-a-mess-for-morning-commute",
+                    "display_link": "https://kutv.com \u203a news \u203a local \u203a first-alert-weather-wi...",
+                    "title": "Snowstorm ranks 2nd biggest February storm in Utah's ...",
+                    "description": "This article is being updated throughout Wednesday with the latest forecasts and weather information you'll need to know.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Feb 22, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.abc4.com/weather/storm-of-the-season-moves-into-utah/",
+            "display_link": "https://www.abc4.com \u203a weather \u203a storm-of-the-seaso...",
+            "title": "'Storm of the Season' moves into Utah",
+            "description": "The most significant storm of the season is upon us with heavy snow, whipping winds and winter travel expected through tomorrow night. Always ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://hazards.utah.gov/severe-weather/",
+            "display_link": "https://hazards.utah.gov \u203a severe-weather",
+            "title": "Severe Weather | State of Utah Hazard Mitigation",
+            "description": "Hazards caused by weather events such as lightning strikes, tornadoes, winter storms and extreme temperatures claim the lives of around 500 Americans ...",
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.ksl.com/article/50604973/no-spring-in-sight-more-winter-storm-warnings-afoot-in-utah",
+            "display_link": "https://www.ksl.com \u203a article \u203a no-spring-in-sight-mor...",
+            "title": "'No spring in sight': More winter storm warnings afoot in Utah",
+            "description": "A stronger second wave of storm activity could provide up to another 2 feet of snow in some mountain areas and produce some snow ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.ksl.com/article/50596657/another-big-storm-set-to-bring-rain-snow-in-utah-flooding-possible-in-some-areas",
+                    "display_link": "https://www.ksl.com \u203a article \u203a another-big-storm-set-t...",
+                    "title": "Another big storm set to bring rain, snow in Utah; flooding ...",
+                    "description": "The weather service issued a winter storm warning for a storm that has the potential to deliver 1 to 2 feet of snow or more in Utah's mountains.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 9, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 7,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.thespectrum.com/story/news/2023/03/06/storms-likely-to-impact-travel-across-utah/69976136007/",
+            "display_link": "https://www.thespectrum.com \u203a news \u203a 2023/03/06 \u203a s...",
+            "title": "More winter storms likely to impact travel across Utah",
+            "description": "Another wave of winter storms are set to blow through Utah this week, bringing cold temperatures, gray skies and snow to some ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.dailymail.co.uk/news/article-11784845/Historic-Winter-Storm-dumps-TWO-FEET-snow-Utah-begins-spread-Midwest-Northeast.html",
+            "display_link": "https://www.dailymail.co.uk \u203a news \u203a article-11784845",
+            "title": "Historic Winter Storm dumps TWO FEET of snow in Utah ...",
+            "description": "Share or comment on this article: Historic Winter Storm dumps TWO FEET of snow in Utah and begins to spread from Midwest to Northeast.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 9
+        },
+        {
+            "link": "https://kslnewsradio.com/1988889/massive-storm-coming-set-to-add-even-more-to-strong-utah-snowpack/",
+            "display_link": "https://kslnewsradio.com \u203a massive-storm-coming-set-t...",
+            "title": "Storm approaching Utah will add significantly to strong ...",
+            "description": "The National Weather Service said this storm will bring from 8 to 16 inches of snow to the valley and foothills, more in the mountains.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+weather&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAg0EAE",
+            "text": "utah weather",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+snow+storm&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAg1EAE",
+            "text": "utah snow storm",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Snow+storm+Utah+today&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAg3EAE",
+            "text": "snow storm utah today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+News&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAgyEAE",
+            "text": "utah news",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Salt+Lake+City+weather&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAgwEAE",
+            "text": "salt lake city weather",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+snowpack&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAgzEAE",
+            "text": "utah snowpack",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+Storm+Olive&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAgxEAE",
+            "text": "utah storm olive",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Utah+snowfall+2023&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ1QJ6BAg2EAE",
+            "text": "utah snowfall 2023",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "How many inches of snow has Utah gotten 2023?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+many+inches+of+snow+has+Utah+gotten+2023%3F&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQzmd6BAhBEAY",
+            "answer_source": "Utah's Deepest Winter is No Fluke",
+            "answer_link": "https://www.skiutah.com/blog/authors/lexi/whale",
+            "answer_display_link": "https://www.skiutah.com \u203a blog \u203a authors \u203a lexi \u203a whalehttps://www.skiutah.com \u203a blog \u203a authors \u203a lexi \u203a whale",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEEQBQ\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQu04oAHoECEEQBQ\"><div id=\"65nBZPmNC7SliLMPtaCg0A8__65\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Alta recorded a mind-boggling <b>186 inches</b> in the month of January 2023 and March eclipsed that with 206\". March 24, 2023 was a milestone, as Utah careened past its statewide record for snowpack.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 1, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Alta recorded a mind-boggling 186 inches in the month of January 2023 and March eclipsed that with 206\". March 24, 2023 was a milestone, as Utah careened past its statewide record for snowpack.Apr 1, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "question": "Does Utah have storms?",
+            "question_link": "https://www.google.com/search?hl=en&q=Does+Utah+have+storms%3F&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQzmd6BAhAEAY",
+            "answer_source": "Number of spring thunderstorms considered normal for Utah",
+            "answer_link": "https://kslnewsradio.com/2010550/number-of-spring-thunderstorms-considered-normal-for-utah/",
+            "answer_display_link": "https://kslnewsradio.com \u203a number-of-spring-thunderstor...https://kslnewsradio.com \u203a number-of-spring-thunderstor...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEAQBQ\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQu04oAHoECEAQBQ\"><div id=\"65nBZPmNC7SliLMPtaCg0A8__70\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Thunderstorms sticking around in Utah<br><br> <b>Normally, thunderstorms come and go, not lasting more than a day</b>. \u201cThese were actual little stalled frontal boundaries, which never moved. So that moisture stayed there for multiple days on end, and then each day they fired up these afternoon thunderstorms,\u201d Eubank said.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 2, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Thunderstorms sticking around in Utah Normally, thunderstorms come and go, not lasting more than a day. \u201cThese were actual little stalled frontal boundaries, which never moved. So that moisture stayed there for multiple days on end, and then each day they fired up these afternoon thunderstorms,\u201d Eubank said.Jun 2, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "question": "What is the number one weather related killer in Utah?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+is+the+number+one+weather+related+killer+in+Utah%3F&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQzmd6BAhEEAY",
+            "answer_source": "Severe Weather | State of Utah Hazard Mitigation",
+            "answer_link": "https://hazards.utah.gov/severe-weather/",
+            "answer_display_link": "https://hazards.utah.gov \u203a severe-weatherhttps://hazards.utah.gov \u203a severe-weather",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEQQBQ\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQu04oAHoECEQQBQ\"><div id=\"65nBZPmNC7SliLMPtaCg0A8__74\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CD4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Extreme heat</b> is the leading weather-related killer in the US and particularly affects vulnerable people like the elderly, children, outdoor workers and agriculture.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Extreme heat is the leading weather-related killer in the US and particularly affects vulnerable people like the elderly, children, outdoor workers and agriculture."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "question": "What is the record breaking snowfall in Utah?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+is+the+record+breaking+snowfall+in+Utah%3F&sa=X&ved=2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQzmd6BAhGEAY",
+            "answer_source": "Utah Snowfall Record Broken with Earliest - Thrillist",
+            "answer_link": "https://www.thrillist.com/news/nation/utah-snowfall-record-snow-ski-resorts",
+            "answer_display_link": "https://www.thrillist.com \u203a news \u203a nation \u203a utah-snowfall...https://www.thrillist.com \u203a news \u203a nation \u203a utah-snowfall...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEYQBQ\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQu04oAHoECEYQBQ\"><div id=\"65nBZPmNC7SliLMPtaCg0A8__77\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CEcQAA\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQ4dMGegQIRxAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CEcQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CDgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AfDXo8\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQyQ0oAHoECDgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;9izLiBqMET83FM;AfDXpA\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"9izLiBqMET83FM\" data-lpage=\"https://www.thrillist.com/news/nation/utah-snowfall-record-snow-ski-resorts\" data-ni=\"1\" data-ref-docid=\"EBidxW7oYTGDBM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CD8QAA\" data-ved=\"2ahUKEwi5r_P2sa2AAxW0EmIAHTUQCPoQzkx6BAg_EAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-53px;width:304px\" alt=\"Utah Snowfall Record Broken with Earliest - Thrillist\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRypjNcM8Hmi9saOnXlRnHtRSSxhTQiZPuRodg_clr_mg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"65nBZPmNC7SliLMPtaCg0A8__80\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Utah Just Recorded a Record-Breaking <b>700 Inches</b> of Snow<br><br> According to an official announcement, this is the earliest the region has recorded such a number since it began keeping track of snowfall back in 1943. It might be hard to grasp the concept of more than 700 inches of white stuff, so let us help you picture it.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 27, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Utah Just Recorded a Record-Breaking 700 Inches of Snow According to an official announcement, this is the earliest the region has recorded such a number since it began keeping track of snowfall back in 1943. It might be hard to grasp the concept of more than 700 inches of white stuff, so let us help you picture it.Mar 27, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 13
+        }
+    ]
+}

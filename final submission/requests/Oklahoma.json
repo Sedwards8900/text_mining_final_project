@@ -1,0 +1,320 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 23100000,
+        "search_time": 0.42,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oklahoma storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:26.780Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oklahoma+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_ts26nt148ws"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2023/06/21/us/oklahoma-heat-power.html",
+            "display_link": "https://www.nytimes.com \u203a oklahoma-heat-power",
+            "title": "Extreme Heat and More Storms Threaten an Already ...",
+            "description": "Battered by severe storms that killed at least two people and left thousands without electricity, Oklahoma faced relentless heat and more ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2023/02/26/us/oklahoma-severe-weather-winds.html",
+                    "display_link": "https://www.nytimes.com \u203a 2023/02/26 \u203a oklahoma-seve...",
+                    "title": "Tornadoes Injure at Least a Dozen in Oklahoma",
+                    "description": "At least a dozen people were injured in Oklahoma after two tornadoes rushed through the state on Sunday evening, the authorities said.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Feb 26, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.koco.com/article/oklahoma-severe-weather-storms-damage-yale-oilton/44252998",
+            "display_link": "https://www.koco.com \u203a article \u203a oklahoma-severe-we...",
+            "title": "Oklahoma officials confirm death, damage reported after ...",
+            "description": "The storms that swept through Oklahoma on Saturday brought extremely strong winds, caused damage and left many in the dark.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.koco.com/article/oklahoma-severe-storms-weather-tornado-hail-saturday/44233131",
+                    "display_link": "https://www.koco.com \u203a article \u203a oklahoma-severe-sto...",
+                    "title": "Severe storms, strong winds cause widespread damage ...",
+                    "description": "Severe storms with tornadoes and high winds caused widespread damage across Oklahoma. KOCO 5 First Alert Storm Chasers are tracking severe ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 18, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-oklahoma-storms-b5ef82c8939d0b56eeb828fd80753e7f",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-oklahoma-sto...",
+            "title": "'The damage is unbelievable:' Tornadoes kill 3 in Oklahoma",
+            "description": "Crews scrambled to restore power to thousands of residents after tornadoes plowed through Oklahoma during another deadly spring storm in the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/1-dead-possible-tornado-oklahoma-storms-hit-state-rcna80578",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a 1-dead-po...",
+            "title": "3 dead in Oklahoma as tornadoes hit the state",
+            "description": "Three people are dead in Oklahoma after a tornado struck Wednesday night, authorities said. The McClain County Sheriff's Office confirmed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.weather.gov/oun/tornadodata-okc",
+            "display_link": "https://www.weather.gov \u203a oun \u203a tornadodata-okc",
+            "title": "Tornadoes in the Oklahoma City, Oklahoma Area Since 1890",
+            "description": "The F5 tornado that struck the OKC metro area on May 3,1999 was the deadliest (36 killed), second costliest ($1 billion in damage), and the first and only F5 ...",
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornadoes-touch-kansas-oklahoma-massive-winter-storm-moves/story?id=97484567",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Tornadoes touch down in Oklahoma as massive winter storm ...",
+            "description": "At least nine tornadoes were reported in Kansas and Oklahoma on Sunday night as a massive winter storm moves eastward across the country.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.cbsnews.com/news/winter-weather-oklahoma-tornado-michigan-power-line-work-continues-california-gets-breather/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Tornado races through Norman, Oklahoma, injures at least ...",
+            "description": "Powerful storms with widespread wind gusts and reported tornadoes swept across Oklahoma and Kansas, leaving at least a dozen people injured, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.okhistory.org/publications/enc/entry?entry=TO008",
+            "display_link": "https://www.okhistory.org \u203a publications \u203a enc \u203a entry",
+            "title": "Tornadoes | The Encyclopedia of Oklahoma History and ...",
+            "description": "The two deadliest tornadoes to strike Oklahoma occurred on April 9, 1947, at Woodward and on May 10, 1905, at Snyder in present southwestern Oklahoma. More than ...",
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Oklahoma tornado map today",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9r3T4qnwfgQgnTAqOqekBuWB2faxsUbLN9V85g2K1gsJkOXttwX_YQ&s=0",
+            "image_alt": "Image of Oklahoma tornado map today",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa9r3T4qnwfgQgnTAqOqekBuWB2faxsUbLN9V85g2K1gsJkOXttwX_YQ&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "text": "Oklahoma tornado map 2023",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vC3TIr3DoXB-5pEMvXWh00NSTFLGnmPU7w61BTStFS7_RZOnTTeLPw&s=0",
+            "image_alt": "Image of Oklahoma tornado map 2023",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vC3TIr3DoXB-5pEMvXWh00NSTFLGnmPU7w61BTStFS7_RZOnTTeLPw&s=0",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "text": "Oklahoma City tornado",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnEaMdb8oUpgln7iDV-yD6St6wC-SeFhLXEfD&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlnEaMdb8oUpgln7iDV-yD6St6wC-SeFhLXEfD&s=0",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Oklahoma+tornado&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhHEAE",
+            "text": "oklahoma tornado",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Oklahoma+tornado+today&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhEEAE",
+            "text": "oklahoma tornado today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Oklahoma+storm+damage&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhFEAE",
+            "text": "oklahoma storm damage",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornadoes+in+Oklahoma+last+night&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhDEAE",
+            "text": "tornadoes in oklahoma last night",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Norman,+Oklahoma+tornado+today&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhIEAE",
+            "text": "norman, oklahoma tornado today",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+Oklahoma+2023&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ1QJ6BAhGEAE",
+            "text": "tornado oklahoma 2023",
+            "rank": 9,
+            "global_rank": 23
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Where do most tornadoes hit in Oklahoma?",
+            "question_link": "https://www.google.com/search?hl=en&q=Where+do+most+tornadoes+hit+in+Oklahoma%3F&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQzmd6BAggEAY",
+            "answer_source": "Discover the Oklahoma Town Most Likely to Be Hit By a Tornado",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-oklahoma-town-most-likely-to-be-hit-by-a-tornado/#:~:text=Valley%20Brook%2C%20Oklahoma%2C%20is%20identified,location's%20relative%20risk%20for%20tornadoes.",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-oklahoma-t...https://a-z-animals.com \u203a blog \u203a discover-the-oklahoma-t...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCAQBQ\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQu04oAHoECCAQBQ\"><div id=\"z5nBZKiTLtmt5NoPkYKTCA__13\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Valley Brook, Oklahoma</b>, is identified as the town with the highest likelihood of being struck by a tornado in the state. The tornado risk index score provides a measure of a specific location's relative risk for tornadoes.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 9, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Valley Brook, Oklahoma, is identified as the town with the highest likelihood of being struck by a tornado in the state. The tornado risk index score provides a measure of a specific location's relative risk for tornadoes.Jul 9, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What does Deratio mean?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+does+Deratio+mean%3F&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQzmd6BAgrEAY",
+            "answer_source": "What Is A Derecho? Is It Worse Than A Tornado? - Southern Living",
+            "answer_link": "https://www.southernliving.com/what-is-a-derecho-7546883#:~:text=A%20derecho%20is%20a%20damaging,long%20and%2060%20miles%20wide.",
+            "answer_display_link": "https://www.southernliving.com \u203a what-is-a-derecho-754...https://www.southernliving.com \u203a what-is-a-derecho-754...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCsQBQ\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQu04oAHoECCsQBQ\"><div id=\"z5nBZKiTLtmt5NoPkYKTCA__16\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">A derecho is <b>a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher</b>. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "A derecho is a damaging wind event with clusters of severe thunderstorms capable of producing winds over 58 miles per hour and as high as 100 miles per hour or higher. The damage caused by a derecho is spread out over at a region at least 400 miles long and 60 miles wide.Jul 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Why is Oklahoma considered to be in Tornado Alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Why+is+Oklahoma+considered+to+be+in+Tornado+Alley%3F&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQzmd6BAgsEAY",
+            "answer_source": "Oklahoma tornado: What causes storms in 'Tornado Alley'? - BBC",
+            "answer_link": "https://www.bbc.com/news/av/world-us-canada-22612496#:~:text=The%20geography%20and%20climate%20of,eastern%20part%20of%20the%20country.",
+            "answer_display_link": "https://www.bbc.com \u203a news \u203a world-us-canada-22612496https://www.bbc.com \u203a news \u203a world-us-canada-22612496",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCwQBQ\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQu04oAHoECCwQBQ\"><div id=\"z5nBZKiTLtmt5NoPkYKTCA__19\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>The geography and climate of the region frequently create the conditions for huge thunderstorms</b> - with warm, wet air blowing in from the Gulf of Mexico meeting cold, dry air coming from the massive Rocky Mountain range, hemmed in by air masses on the eastern part of the country.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The geography and climate of the region frequently create the conditions for huge thunderstorms - with warm, wet air blowing in from the Gulf of Mexico meeting cold, dry air coming from the massive Rocky Mountain range, hemmed in by air masses on the eastern part of the country."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Is Oklahoma still Tornado Alley?",
+            "question_link": "https://www.google.com/search?hl=en&q=Is+Oklahoma+still+Tornado+Alley%3F&sa=X&ved=2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQzmd6BAgtEAY",
+            "answer_source": "Tornado Alley - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Tornado_Alley#:~:text=As%20a%20colloquial%20term%20there,and%20eastern%20portions%20of%20Colorado",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Tornado_Alleyhttps://en.wikipedia.org \u203a wiki \u203a Tornado_Alley",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC0QBQ\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQu04oAHoECC0QBQ\"><div id=\"z5nBZKiTLtmt5NoPkYKTCA__22\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCUQAA\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQ4dMGegQIJRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCUQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBEQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AdvyAs\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQyQ0oAHoECBEQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;K-tZTeJD1ftEHM;AdvyAw\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"K-tZTeJD1ftEHM\" data-lpage=\"https://en.wikipedia.org/wiki/Tornado_Alley\" data-ni=\"1\" data-ref-docid=\"lw9EgD4XumZW_M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBYQAA\" data-ved=\"2ahUKEwjotunpsa2AAxXZFlkFHRHBBAEQzkx6BAgWEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:138px;width:204px\"><img style=\"margin-left:-6px;width:216px\" alt=\"Tornado Alley - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7qeM4XaVl9ywJ3erEB2StvxUJhla3LOGtiT9OfgpUGg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"z5nBZKiTLtmt5NoPkYKTCA__25\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">As a colloquial term there are no definitively set boundaries of Tornado Alley, but the area common to most definitions extends from Texas, through Oklahoma, Kansas, Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, Illinois, Indiana, Missouri, Arkansas, North Dakota, Montana, Ohio, and eastern portions of Colorado ...</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "As a colloquial term there are no definitively set boundaries of Tornado Alley, but the area common to most definitions extends from Texas, through Oklahoma, Kansas, Nebraska, South Dakota, Iowa, Minnesota, Wisconsin, Illinois, Indiana, Missouri, Arkansas, North Dakota, Montana, Ohio, and eastern portions of Colorado ..."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

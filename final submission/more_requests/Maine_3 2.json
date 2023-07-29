@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33300000,
+        "search_time": 0.54,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maine storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:31:07.321Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maine+storm+article&start=14&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_3wnm4roja9i"
+    },
+    "organic": [
+        {
+            "link": "https://www.bangordailynews.com/2023/05/01/weather/maine-spring-storm-flooding-winds/",
+            "display_link": "https://www.bangordailynews.com \u203a News",
+            "title": "Spring storm hits Maine island with 70 mph gusts",
+            "description": "A storm with heavy rain and gusts knocked out power for tens of thousands of homes and businesses in Maine and washed out some roads there ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.sunjournal.com/2022/01/17/winter-storm-sweeps-through-maine-leaving-snow-icy-roads-and-power-outages-in-its-wake/",
+            "display_link": "https://www.sunjournal.com \u203a 2022/01/17 \u203a winter-stor...",
+            "title": "Winter storm sweeps through Maine, bringing snow, icy ...",
+            "description": "Tractor-trailer crashes into house in Woodstock, causing significant damage. ... Loading.... ... You can share 5 more gift articles this month.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.centralmaine.com/2023/05/23/commentary-the-climate-crisis-is-maines-storm-of-the-century/",
+            "display_link": "https://www.centralmaine.com \u203a 2023/05/23 \u203a commenta...",
+            "title": "Commentary: The climate crisis is Maine's storm of the century",
+            "description": "An error has occurred. Please try again. Send! ... With a Press Herald subscription, you can gift 5 articles each month. ... It looks like you do ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.yahoo.com/lifestyle/massive-winter-storm-unload-snow-182008039.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a massive-winter-st...",
+            "title": "Massive winter storm to unload snow from Illinois to Maine",
+            "description": "A dynamic cross-country storm has unleashed a slew of problems as it sweeps from the South Central states to the Midwest late this week.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://patch.com/maine/across-me/bomb-cyclone-bring-heavy-snow-rain-maine-weekend",
+            "display_link": "https://patch.com \u203a maine \u203a across-me \u203a bomb-cyclon...",
+            "title": "'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow",
+            "description": "Maine Weather: 'Bomb Cyclone' Could Dump 18\" Of New, Heavy Snow - Across Maine, ME - A winter storm warning is in effect from 5 a.m. ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://92moose.fm/heres-how-much-snow-central-maine-is-going-to-get-from-this-noreaster/",
+            "display_link": "https://92moose.fm \u203a heres-how-much-snow-central-...",
+            "title": "Here's How Much Snow Central Maine is Going to Get ...",
+            "description": "As far as the winter storm warning goes, Central Maine will remain ... Sorry for saying 'bitch' in an article about snow accumulations.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://themainemonitor.org/storms-expected-to-become-more-frequent-damaging-as-sea-levels-rise/",
+            "display_link": "https://themainemonitor.org \u203a storms-expected-to-bec...",
+            "title": "Maine storms likely to be more frequent, damaging",
+            "description": "As sea levels continue to rise, Maine will see worse damage more frequently, largely from storms. Storm surge in Camden pushed water onto public ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2022/12/17/holiday-weather-major-christmas-snowstorm-central-eastern-united-states/10916381002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2022/12/17 \u203a ho...",
+            "title": "White Christmas? Major snowstorm may hit swath of US ...",
+            "description": "Winter weather warnings are in effect through Saturday in parts of Maine, New Hampshire, Vermont and New York, which may see dangerous ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.penbaypilot.com/article/federal-government-says-no-disaster-funds-maine-following-ice-storm-2013/30669",
+            "display_link": "https://www.penbaypilot.com \u203a article \u203a federal-gover...",
+            "title": "Federal government says no disaster funds for Maine ...",
+            "description": "Remember the December 2013 ice storm? When approximately 500000 Maine residents were without power, many for at least a week?",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2014",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://weather.com/news/news/2023-03-14-winter-storm-sage-live-updates",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2023-03-14-wint...",
+            "title": "Winter Storm Sage: Difficult Commutes Ahead",
+            "description": "Articles from The Weather Channel | weather.com. ... trailers have jackknifed on Interstate 95 at the Maine-New Hampshire state line.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

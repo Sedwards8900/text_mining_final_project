@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93100000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Texas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:48.451Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Texas+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_shik369qsy"
+    },
+    "organic": [
+        {
+            "link": "https://www.theguardian.com/us-news/2022/dec/21/texas-weather-winter-storm-freeze",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a dec \u203a texas-...",
+            "title": "Texans brace for freezing weather in hopes storm won't be ...",
+            "description": "Experts say temperatures won't get as cold as 2021 storm, with expected minimum around ... Texas. This article is more than 6 months old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.buzzfeednews.com/article/peteraldhous/texas-winter-storm-power-outage-death-toll",
+            "display_link": "https://www.buzzfeednews.com \u203a article \u203a peteraldhous",
+            "title": "Texas's Winter Storm Killed Hundreds More Than Reported",
+            "description": "The Texas Winter Storm And Power Outages Killed Hundreds More People Than ... On paper, Gonzales's death has nothing to do with the storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 26, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wfaa.com/article/news/local/energy-expert-shares-what-winter-weather-revealed-about-texas-power-grid/287-413f2d2c-4234-4f26-a1ad-44cd6f6aee79",
+            "display_link": "https://www.wfaa.com \u203a article \u203a news \u203a local \u203a energ...",
+            "title": "How did the Texas power grid do during recent winter storm",
+            "description": "Energy expert shares what last week's winter weather revealed about Texas' power grid \u00b7 Related Articles \u00b7 More videos on YouTube.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/2021/02/21/weather/texas-winter-storm-timeline/index.html",
+            "display_link": "https://www.cnn.com \u203a 2021/02/21 \u203a texas-winter-storm-...",
+            "title": "Winter storm in Texas: Here's how a week of frigid weather ...",
+            "description": "Temperatures across the state are historically low: Dallas dips to 5 degrees Fahrenheit \u2013 the coldest temperature the city has seen since 1989, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.bbc.com/news/world-us-canada-65886206",
+            "display_link": "https://www.bbc.com \u203a world-us-canada-65886206",
+            "title": "US weather: Texas braces for heatwave after deadly tornado",
+            "description": "Record-breaking temperatures could hit Texas as the danger of a storm subsides, officials say.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.vox.com/the-goods/22295826/texas-power-outage-water-winter-storm-uri",
+            "display_link": "https://www.vox.com \u203a the-goods \u203a texas-power-outa...",
+            "title": "What I wish I'd had in Texas - Vox",
+            "description": "Help in Texas for those affected by Winter Storm Uri. Find a warming shelter with this state ... You've read 1 article in the last 30 days.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 23, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.wsj.com/articles/winter-storm-causes-power-outages-and-more-flight-cancellations-11675250136",
+            "display_link": "https://www.wsj.com \u203a articles \u203a winter-storm-causes-po...",
+            "title": "Texas Ice Storm Cancels Thousands of Flights, Causes ...",
+            "description": "She also urged residents to avoid unnecessary travel. \u2014Talal Ansari contributed to this article. Write to Gareth Vipers at gareth.vipers@wsj.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.houstonchronicle.com/news/houston-texas/trending/article/weather-texas-winter-storm-videos-austin-dallas-17753668.php",
+            "display_link": "https://www.houstonchronicle.com \u203a Local \u203a Trending",
+            "title": "Texas winter storm wreaks havoc on Austin; downed trees ...",
+            "description": "Photos and videos on social media show severe winter weather in Austin and Dallas, from dangerous road conditions to hail and snow.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.12newsnow.com/article/weather/severe-weather/damage-severe-storms/502-8583a672-85d9-417f-aa1f-36991fc5fa92",
+            "display_link": "https://www.12newsnow.com \u203a article \u203a severe-weather",
+            "title": "Severe storms leave damage to Southeast Texas ... - KBMT",
+            "description": "Southeast Texans spend Sunday assessing damage, cleaning up after severe storms \u00b7 More videos on YouTube \u00b7 Related Articles.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://twitter.com/TxStormChasers",
+            "display_link": "https://twitter.com \u203a TxStormChasers",
+            "title": "Texas Storm Chasers \u26a1 (@TxStormChasers) / Twitter",
+            "description": "Get your local forecasts, weather articles, and video forecasts from the Texas Storm Chasers, along with interactive weather radar in TSC's Mobile App.",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

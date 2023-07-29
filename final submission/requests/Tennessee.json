@@ -1,0 +1,319 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 55800000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Tennessee storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:47.856Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Tennessee+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_i2303si8nj"
+    },
+    "organic": [
+        {
+            "link": "https://www.wkrn.com/news/local-news/damage-reported-throughout-middle-tennessee-following-strong-storms/",
+            "display_link": "https://www.wkrn.com \u203a news \u203a local-news \u203a damage-...",
+            "title": "Storm damage in Middle TN | July 20",
+            "description": "NASHVILLE, Tenn. (WKRN) \u2013 Another round of storms blew through Middle Tennessee Thursday, leaving behind extensive damage.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/at-least-22-killed-by-overnight-tornadoes-in-middle-tennessee",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a at-least-22-ki...",
+            "title": "Dozens Killed by Overnight Tornadoes in Middle Tennessee",
+            "description": "A long-track tornadic supercell ripped across central parts of Tennessee in the overnight hours early Tuesday. Major damage occurred in the Nashville area, ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://fox17.com/news/local/some-damage-reported-as-storms-roll-through-middle-tennessee",
+            "display_link": "https://fox17.com \u203a news \u203a local \u203a some-damage-repo...",
+            "title": "Some damage reported as storms hit Middle Tennessee",
+            "description": "NASHVILLE, Tenn. (WZTV) \u2014 Viewers are sharing photos with FOX 17 News as storms hit the Midstate late Friday night.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Tennessee+storm+%22article%22&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ5t4CegQIHhAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nytimes.com/2023/03/04/us/kentucky-tennessee-alabama-storms.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/03/04 \u203a kentucky-tenn...",
+            "title": "At Least 12 Dead After Storms Sweep the South",
+            "description": "Heavy rains, severe winds and tornadoes damaged homes and businesses in Alabama, Arkansas, the Carolinas, Kentucky, Mississippi, Tennessee and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wbir.com/article/news/local/east-tennessee-storm-damage/51-ab2fc40a-ecbd-4143-8c59-67c42b325a9d",
+            "display_link": "https://www.wbir.com \u203a east-tennessee-storm-damage",
+            "title": "East TN sees damage, power outages after strong storms",
+            "description": "KNOXVILLE, Tenn. \u2014 Strong storms roared through East Tennessee on Friday, leaving thousands without power and toppling several trees across ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wbir.com/article/weather/tennessee-storm-east-tornado/51-8adf3fd1-8a55-4785-a350-1555f997e08d",
+                    "display_link": "https://www.wbir.com \u203a tennessee-storm-east-tornado",
+                    "title": "Damage reported in East Tennessee after strong storms",
+                    "description": "NWS: 2 EF-0 tornadoes reported in Jefferson Co. and 1 in Meigs Co. during East TN storms Thursday \u00b7 Related Articles \u00b7 More videos on YouTube.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jan 12, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2023/apr/02/deadly-storms-tornadoes-kill-people-several-us-states-tennessee",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a apr \u203a deadl...",
+            "title": "Deadly storms and tornadoes kill at least 32 people in ...",
+            "description": "Tennessee, one of the hardest-hit states, had nine deaths related to the weather, according to the Memphis-based news channel WREG.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.localmemphis.com/article/news/local/one-dead-tipton-county-storms-damaged-area-tornado-covington-schools-crestview-elementary-middle-roads-closed-where-limbs-trees-block-streets/522-e97a09b4-7ce5-48e0-b520-88b7275adff1",
+            "display_link": "https://www.localmemphis.com \u203a article \u203a news \u203a local",
+            "title": "At least one dead in Tipton County after storm damage",
+            "description": "At least one dead, major damage reported in Tipton County, Tennessee after tornado. So far, one person is confirmed to have died in the area ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.localmemphis.com/article/weather/severe-weather/bill-lee-tornado-storm-damage-tour-local/522-beb7af2f-3da0-4af7-89fa-da64c8b7125a",
+                    "display_link": "https://www.localmemphis.com \u203a severe-weather \u203a bill...",
+                    "title": "Gov. Lee visits tornado-stricken communities in west Tennessee",
+                    "description": "MCNAIRY COUNTY, Tenn. \u2014 Governor Bill Lee visited areas of west Tennessee hit hard by Friday's outbreak of tornadoes and severe storms.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 1, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 13,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.weather.gov/ohx/calendar",
+            "display_link": "https://www.weather.gov \u203a ohx \u203a calendar",
+            "title": "Calendar of Significant Weather Events in Middle Tennessee",
+            "description": "1960- A winter storm brings heavy snowfall to much of Middle Tennessee. Crossville measures 8\" of snow, while Tullahoma reports 7.9\", and Nashville, 7.3\".",
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Tennessee storm damage map",
+            "list_group": true,
+            "expanded": false,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBu7haZWkrUOj3DalKSj9ctZLf2PMG0kkTsHwPuZedhjsbjF2YZKsIBQ&s=0",
+            "image_alt": "Image of Tennessee storm damage map",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBu7haZWkrUOj3DalKSj9ctZLf2PMG0kkTsHwPuZedhjsbjF2YZKsIBQ&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Storm+damage+in+TN+today&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAg9EAE",
+            "text": "storm damage in tn today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornadoes+in+TN+2023&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAgyEAE",
+            "text": "tornadoes in tn 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Nashville+storm+damage+today&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAg8EAE",
+            "text": "nashville storm damage today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tennessee+tornado+today&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAg0EAE",
+            "text": "tennessee tornado today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Tornado+in+Nashville+today&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAgzEAE",
+            "text": "tornado in nashville today",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Nashville+storm+damage+last+night&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAg7EAE",
+            "text": "nashville storm damage last night",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Nashville+tornado+2023&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQ1QJ6BAg-EAE",
+            "text": "nashville tornado 2023",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What part of Tennessee got hit with a tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Tennessee+got+hit+with+a+tornado%3F&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQzmd6BAgXEAY",
+            "answer_source": "'Things started crashing': At least 4 tornadoes strike East Tennessee ...",
+            "answer_link": "https://www.wbir.com/article/weather/severe-weather/severe-storms-damage-tornado-tennessee/51-f6c76c20-cfa9-4a47-9f86-32fcae2e9108#:~:text=National%20Weather%20Service%20survey%20teams,tornado%20touched%20down%20in%20Crossville.",
+            "answer_display_link": "https://www.wbir.com \u203a article \u203a weather \u203a severe-weatherhttps://www.wbir.com \u203a article \u203a weather \u203a severe-weather",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQu04oAHoECBcQBQ\"><div id=\"5pnBZIbWNuKu5NoPnP6l2AY__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">National Weather Service survey teams in Nashville and Morristown confirmed that there were at least four tornadoes that struck East Tennessee on Sunday, hitting <b>Cumberland, Scott and Fentress counties</b>. NWS Morristown said an EF-1 tornado touched down in Crossville.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 11, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "National Weather Service survey teams in Nashville and Morristown confirmed that there were at least four tornadoes that struck East Tennessee on Sunday, hitting Cumberland, Scott and Fentress counties. NWS Morristown said an EF-1 tornado touched down in Crossville.Jun 11, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "How many people died in the Covington tornado?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+many+people+died+in+the+Covington+tornado%3F&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQzmd6BAgaEAY",
+            "answer_source": "One person dead, 28 injured in Covington from tornado, NWS says",
+            "answer_link": "https://www.fox13memphis.com/news/one-person-dead-28-injured-in-covington-from-tornado-nws-says/article_d0c77404-d255-11ed-ba4e-eb1e8a5e9f44.html#:~:text=COVINGTON%2C%20Tenn.,National%20Weather%20Service%20(NWS).&text=The%20storm%20that%20took%20that,the%20night%20of%20the%20storm.",
+            "answer_display_link": "https://www.fox13memphis.com \u203a news \u203a article_d0c77...https://www.fox13memphis.com \u203a news \u203a article_d0c77...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQu04oAHoECBoQBQ\"><div id=\"5pnBZIbWNuKu5NoPnP6l2AY__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">COVINGTON, Tenn. - <b>One person lost their life</b> and another 28 people were injured after an EF-3 tornado ripped through Covington, Tennessee on Friday, March 31, according to the National Weather Service (NWS). The storm that took that life left the city \"impassable\", Covington Police said on the night of the storm.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "COVINGTON, Tenn. - One person lost their life and another 28 people were injured after an EF-3 tornado ripped through Covington, Tennessee on Friday, March 31, according to the National Weather Service (NWS). The storm that took that life left the city \"impassable\", Covington Police said on the night of the storm.Jun 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What part of Tennessee does not get tornadoes?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+part+of+Tennessee+does+not+get+tornadoes%3F&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQzmd6BAgYEAY",
+            "answer_source": "Do the Great Smoky Mountains really protect Knoxville from tornadoes?",
+            "answer_link": "https://www.knoxnews.com/story/news/local/2023/07/11/do-great-smoky-mountains-protect-knoxville-east-tennessee-from-tornadoes/70292336007/#:~:text=On%20average%2C%20East%20Tennessee%20does,to%20the%20Tennessean%20in%202021.",
+            "answer_display_link": "https://www.knoxnews.com \u203a news \u203a local \u203a 2023/07/11https://www.knoxnews.com \u203a news \u203a local \u203a 2023/07/11",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQu04oAHoECBgQBQ\"><div id=\"5pnBZIbWNuKu5NoPnP6l2AY__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">On average, <b>East Tennessee</b> does get fewer tornadoes than the middle and western parts of the state. That's because those other areas are flatter and more exposed, University of Tennessee climatology professor Kelsey Ellis explained to the Tennessean in 2021.</span></span><span class=\"kX21rb ZYHQ7e\">Jul 11, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "On average, East Tennessee does get fewer tornadoes than the middle and western parts of the state. That's because those other areas are flatter and more exposed, University of Tennessee climatology professor Kelsey Ellis explained to the Tennessean in 2021.Jul 11, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Did the tornado affect Tennessee?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+the+tornado+affect+Tennessee%3F&sa=X&ved=2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQzmd6BAgbEAY",
+            "answer_source": "Deadly tornado outbreak causes damage across Tennessee",
+            "answer_link": "https://wpln.org/post/tornado-outbreak-causes-damage-across-tennessee/#:~:text=Storm%20damage%20was%20reported%20in,Memphis%20area%20of%20West%20Tennessee.",
+            "answer_display_link": "https://wpln.org \u203a post \u203a tornado-outbreak-causes-damag...https://wpln.org \u203a post \u203a tornado-outbreak-causes-damag...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiG4e30sa2AAxViF1kFHRx_CWsQu04oAHoECBsQBQ\"><div id=\"5pnBZIbWNuKu5NoPnP6l2AY__23\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Storm damage was reported in Covington, Tennessee, on Friday</b>. The city of Covington, in Tipton County, reported damage to a hospital and many impassable streets. As of 5 a.m. Saturday, an estimated 50,000 customers were without power in Tennessee, mostly in the Memphis area of West Tennessee.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 1, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Storm damage was reported in Covington, Tennessee, on Friday. The city of Covington, in Tipton County, reported damage to a hospital and many impassable streets. As of 5 a.m. Saturday, an estimated 50,000 customers were without power in Tennessee, mostly in the Memphis area of West Tennessee.Apr 1, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

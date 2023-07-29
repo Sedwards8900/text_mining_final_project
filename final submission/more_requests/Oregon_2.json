@@ -1,0 +1,179 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 47100000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oregon storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:20.610Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oregon+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_2nhq9j2dq9b"
+    },
+    "organic": [
+        {
+            "link": "https://www.climate.washington.edu/stormking/January1880.html",
+            "display_link": "https://www.climate.washington.edu \u203a stormking \u203a Jan...",
+            "title": "The January 9, 1880 Storm King",
+            "description": "Whereas in Clackamas County, the Oregon City Enterprise reported, ... In an article titled, \"The Storm,\" which also appeared on January 10th, it is reported ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by W Read",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 1",
+                    "rank": 2
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.insurancejournal.com/news/west/2023/01/03/701471.htm",
+            "display_link": "https://www.insurancejournal.com \u203a west \u203a 2023/01/03",
+            "title": "Deaths, Flooding as Storm Hit Oregon And Washington State",
+            "description": "A winter storm that brought powerful wind gusts to Oregon on last week was found to have caused at least two fatal car accidents that left ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.triplicate.com/news/peak-winter-storm-season-draws-storm-watchers-to-a-singular-stretch-of-the-oregon-coast/article_a5781a65-09dd-5afb-aaf7-31b8cd64cb52.html",
+            "display_link": "https://www.triplicate.com \u203a news \u203a article_a5781a65-09...",
+            "title": "Peak winter storm season draws storm watchers to a ...",
+            "description": "It's the heart of winter on the Oregon Coast, which means gargantuan Pacific Ocean swells, roaring sea winds and exploding clouds of foam ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.portland.gov/transportation/weather/winter-weather-basics-and-faq",
+            "display_link": "https://www.portland.gov \u203a transportation \u203a winter-we...",
+            "title": "Winter Weather Basics and FAQ",
+            "description": "Why doesn't PBOT treat or plow state roads and highways in Portland? While PBOT covers its snow and ice routes, the Oregon Department of Transportation (ODOT) ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://ktvz.com/weather/2023/03/20/rain-snow-then-a-break-before-another-storm-system-rolls-through-central-oregon/",
+            "display_link": "https://ktvz.com \u203a weather \u203a 2023/03/20 \u203a rain-snow-t...",
+            "title": "Rain, snow, then a break before another storm system rolls ...",
+            "description": "There's a chance of a new storm system arriving on the High Desert by Wednesday night. HAVE A SPARKLING DAY IN CENTRAL OREGON! Article Topic ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.koin.com/local/be-a-little-extra-careful-local-officials-warn-of-landslides-and-flooding-after-storm/",
+            "display_link": "https://www.koin.com \u203a local \u203a be-a-little-extra-carefu...",
+            "title": "Oregon officials warn of landslides and flooding after heavy ...",
+            "description": "The storms immediately caused power outages through some parts of the area, but the biggest causes for concern are in sites of recent wildfires.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.beachconnection.net/news/storm_stories_deaths122822.php",
+            "display_link": "https://www.beachconnection.net \u203a news \u203a storm_stori...",
+            "title": "Storm Stories, Damage Along Oregon Coast: Deaths ...",
+            "description": "Storm Stories, Damage Along Oregon Coast: Deaths, Closures, Misadventures, Images - Downed trees, flooded roads, power outages, damage to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.motor1.com/news/654416/portland-highway-standstill-during-winter-storm/",
+            "display_link": "https://www.motor1.com \u203a News \u203a Crashes / Wrecks",
+            "title": "Portland, Oregon Highway Becomes Parking Lot During ...",
+            "description": "In all, the storm dropped 10.8 inches of snow, making it the second-largest snowstorm in the region's history. It was enough to turn roads into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.wweek.com/news/2019/11/26/a-bomb-cyclone-snow-storm-headed-to-southwest-oregon-is-likely-to-affect-regional-travel/",
+            "display_link": "https://www.wweek.com \u203a news \u203a 2019/11/26 \u203a a-bomb-...",
+            "title": "A \u201cBomb Cyclone\u201d Snow Storm Headed to Southwest ...",
+            "description": "A strong \u201cbomb cyclone\u201d snow storm is moving over Southwest Oregon and could bring a light dusting to Portland later tonight.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 26, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cbsnews.com/news/atmospheric-river-oregon-washington-pacific-northwest-flooding-power-outages-today-2022-12-28/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Deadly crashes, mass power outages reported as ...",
+            "description": "An atmospheric river brought monster waves, high tides and strong winds to batter western Oregon and Washington. The weather led to fatal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 20700000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:47:31.973Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Dakota+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.1; rv:112.0) Gecko/20100101 Firefox/112.0",
+        "request_id": "hl_c3a9eb28_m933we5gjh"
+    },
+    "organic": [
+        {
+            "link": "https://www.mitchellrepublic.com/news/local/severe-storms-to-roll-across-eastern-sd-tuesday-featuring-winds-up-to-90-mph-lime-sized-hail",
+            "display_link": "https://www.mitchellrepublic.com \u203a news \u203a local \u203a sev...",
+            "title": "Severe storms to roll across eastern SD Tuesday, featuring ...",
+            "description": "EDITOR'S NOTE: The information in this article was derived from data published by the National Weather Service, which is current and valid as of 12:30 p.m. on ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://dot.sd.gov/travelers/travelers/winter-storm-information",
+            "display_link": "https://dot.sd.gov \u203a travelers \u203a travelers \u203a winter-storm...",
+            "title": "Winter Storm Information - dot.sd.gov - State of South Dakota",
+            "description": "Safety on the roadways, for plow operations and the traveling public, is our number one priority. Please use available resources (like SD511) when planning ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=South+Dakota+storm+%22article%22&sa=X&ved=2ahUKEwjAhsOt4q2AAxVZFlkFHfNfDOk4EBDm3gJ6BAgYEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://earthobservatory.nasa.gov/images/92401/hail-cuts-swaths-of-damage-across-south-dakota",
+            "display_link": "https://earthobservatory.nasa.gov \u203a images \u203a hail-cuts-...",
+            "title": "Hail Cuts Swaths of Damage Across South Dakota",
+            "description": "With wind-driven hail capable of shredding the vegetation, the storm damage becomes visible in satellite imagery,\u201d explained Bell. Following a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://rapidcityjournal.com/community/weather-wallop-winter-storm-to-bring-significant-snow-wind-to-western-south-dakota/article_3c72e739-0f0e-54e7-9074-eef930b6fa62.html",
+            "display_link": "https://rapidcityjournal.com \u203a community \u203a article_3c72...",
+            "title": "Weather wallop: Winter storm to bring significant snow ...",
+            "description": "Blizzard warnings extend across Western South Dakota and into Nebraska, Wyoming and North Dakota Monday. A powerful storm is expected to dump ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/133/1/mwr-2856.1.xml",
+            "display_link": "https://journals.ametsoc.org \u203a mwre \u203a mwr-2856.1.xml",
+            "title": "The 30 May 1998 Spencer, South Dakota, Storm. Part II",
+            "description": "Abstract A violent supercell tornado passed through the town of Spencer, South Dakota, on the evening of 30 May 1998 producing large gradients in damage ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by J Wurman",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2005",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 187",
+                    "rank": 3
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://espnsiouxfalls.com/8-most-horrifying-disasters-that-happened-in-south-dakota/",
+            "display_link": "https://espnsiouxfalls.com \u203a 8-most-horrifying-disaster...",
+            "title": "8 of the Most Horrifying Natural Disasters in South Dakota",
+            "description": "How bad can the weather get in South Dakota? ... With destruction spanning 14 miles, this F4 tornado destroyed this community of 320, killing six ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.southdakotamagazine.com/farmhouse-refuge",
+            "display_link": "https://www.southdakotamagazine.com \u203a farmhouse-r...",
+            "title": "Farmhouse Refuge",
+            "description": "This storm that took place on March 2-5, 1966 took the lives of at least 18 people, and over 100,000 sheep, cattle and hogs. Winds blew with gusts up to 70 mph, ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.news8000.com/news/national-world/rare-clockwise-spinning-tornado-touches-down-in-south-dakota/article_27bc649d-2df6-511d-9a12-0a62455a59bf.html",
+            "display_link": "https://www.news8000.com \u203a news \u203a national-world \u203a ar...",
+            "title": "Rare, clockwise-spinning tornado touches down in South ...",
+            "description": "South Dakota doesn't get a lot of tornadoes, but a twister there last weekend was particularly rare \u2014 because it was spinning clockwise.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.sdhspress.com/journal/south-dakota-history-29-4/its-going-down-in-history-the-blizzards-of-1949/vol-29-no-4-its-going-down-in-history.pdf",
+            "display_link": "https://www.sdhspress.com \u203a journal \u203a vol-29-n...",
+            "title": "It's \"Going Down in History\": The Blizzards of 1949",
+            "description": "Tho.se who waited out the storm at home found themselves virtuat prisor^ers when the blizzard stoj:ped. Copyright \u00a9 2000 by the South Dakota State Historical ...",
+            "rank": 9,
+            "global_rank": 9
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAOhAAAgIBAgMEBwQJBQAAAAAAAAECEQMSIQQxUUFhcYEFExQiMpGhQ1JT0SMzQmJygpLB4RU0sfDx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABoRAQEBAQEBAQAAAAAAAAAAAAARARIhAgP/2gAMAwEAAhEDEQA/APWdMlo1ku4zZ0c2bJLYmgJaJLZIUmg0lpFNJIisgAaMtGIZDZlSbIbG2QzKpkZyRo0S0RWQFUSyhMQ+Y6AQqKAD6CUbMZROlyjRjNLsO7iy0i0mi57ladrIMHAnTRrIl2FTHmEnT3Fe5OR2RUalY7M0tyjOrirJbAlmWgyWMmTIpNksTluLUQJ8xMG6ZLmupQ6ANVhYCACWB9FOK6mUtjSWOSM2muZ2cYISCUtqIZLkStZhOVEPIKTIbIqpTIcybJbAtO2WZwNDOrhEstkMyqWZyZcjJ8yjOViUhyaRlPJFLluUGTJRkp9WZyuTb5lww69qZYjVT2KjKxQ4aK5mqxqPIyuGkDiUhkafTZdo7o4pvc7s62ODJaZ0rmykzNsqRmwJbIZTIYCbIbGyGBpje5sc2N+8dCdomrgJZYmjCspcjGaZ0NESiKrmcXRhPFKT2OySHCG1stSOfFw+mk9+p0xgkiqoGTdXCoWkLCyKTQUOwsD6WT1czCeJSPOl6X03cI7c/eM5em4/dR0cnVkhTMJIxn6V1Ne5G2+8yfpFNXoRVbshnPLjXa/Rt2JcTOX2fMUashinla/Yb8HZOPIsjacZQrtlsmLiC6dnTjlaMZYpVJ6G9k1UluF+qel6rq6oaY6bDUjnWaPa/kmJZW42ufgYarpbRDMnklTqL7gc7aUVJ+7b27tyLWom6MJZn6tShjcpdsbVorHkxuKeeahK9Lhe9iLVORDmdrwYVzxy+bJ9Tw/4cvqXlK4XkoFkTN+I9lwuvUttq95Ucs/0i1QxqEV2xQ5XptqJczKMna1vZ9qW6LjjUt05eSJuFS8sGm9adPqiNa5pxRWjHHm15IHKHWT8jFckqV/aPyQSyZ2v0fETj/JH+6K1Q6MFNPZRLdURnnqvXzbvnoin4ciovJo0uUq7ydWm628yXOcuUb8jN1GlK/j+pMrptapeDJjLJfTwH7/bJghpUm7ruCM7duSVd4kq5v6BKMHzVsEVLJjdapN1vUUax4j7sUu9sw91dge6W6rXJJzXxpSfandFYko3qlJ2qdLn8jL3UuYrXj5lzdKtrHGWpQaa5bf2Ix5pwTTVrsV8vohvlz+pOlrluW6XVTzub1OWWMqr3ZDjxWWKa9bN395J0Z6H0YaX0JfoutcuZZWnOMrSrZhHMownBRembvd8jHTLvDTPvF+k9bxzxxS1KDuupjOeKU5SrInJ26yMTxz/AOon1c+4X6X0kpdteRWja3LYcYy0RfvVXZHmRPHzuTS71uT1YbnijdPUJ59qiqM9Sh0aF616ru/AzrKtTve2aqcknUW6MXk6F4JJzSnq3+FLtYzcMjeNtWyqs14bDLiIOUYtU63ZrLhJQi5Nclfxf4O0jblpdBpLocXEek8fD5NE8OS6vZoyXprA2ksOTf8AeRR6Q7HwsXxMpKMaUa3b52dHsU+qBXKA+FUuIyTjoUdPbq5nV7FLqhCuSwsOGUs+aeNpR03v5nV7E+q+TEK5QFwyyZ+JyY5KCUL5Xb38Ts9i/eEK5LAXDxyZOLy4pSWmF7qKOz2P99/KP5FhXIFkcNDLk4zLillemLaXuR6+B3exr8SXyj+RIV4ftufQ4rLKvHf5mduW7k2dj4Th6uMszfRtfkbQcIRqPD4/Fybf/By53Wedeamuy2Uu/c9PThnjqcGm+en8yVh4VfZN+MmTjU5cKaq2PDJevxXzc1t5ndo4dfYRfi2DjhcWlggr7hn5nLv9F/7eX8bOrP8AqMn8LPCWLQqhPJBd0iZ4sklpjmn5yZ3vjUeP6XTlxqjFNtxWxzQ4fL6yF45bvoev/p2Rz1e0S702y4cA/wBriMj/AJn+ZFev6MSjLJv0PQbXU+fjwWKLvd+O43wuJ9fLYuabjr9GySz5baX/AKej6yHbKPzPCXA8Ovs78Rvg+HcX+jrvTX5DNiR0cDkhHjc2qcVu+b7z0faMP4uP+pHix4Dhou1B33v/AAa+qxclHkM1Yrhc2OHH5nKa0ty38z0PbMH4iPO9XBdn1GowTvSnXVikLBmhj4/LNtqDvejv9twff+hxKOKXJJL5iccaW2jyFInBnhj9IZZu9Em96O727B2OX9Jw3jXQXrMa5tEpC7EOeyAAoXIpCAAj2+IPkwABx+BijyfgAAEv1aJyNrk2AAZuUtvefzIyTkltJ/MAIJ1zr4pfMSnLV8T+YABSb6sUuSfeAAVS22L0quSAAHFVFVsUubAABcl4DgAAf//Z",
+            "image_alt": "Severe weather hits the Heartland and moves East",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Timelapse video shows storms moving into Sioux Falls, South Dakota area",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 11
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "South Dakota's Blizzard of Bad Weather - The New York Times",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Photographer captures wall of dust in South Dakota as storm ...",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QANBAAAgIBAwIEBQIDCQAAAAAAAQIAEQMEEiExQRMiUWEFFHGBkUKxMqHhIzNDYnKCktHw/8QAGAEBAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAeEQEBAQEBAAIDAQAAAAAAAAAAARECMRIhExQyA//aAAwDAQACEQMRAD8A9KOKOaZEUcREkVxSqhUkUYEKlASIqFSgJVQRAeWTU1A4i2xSAIVNNsNsEzqFS9sdSTOo6qVUnmRImK5VQ2wSYSqiqSZxwEc0yBHFKEkVR7ZQEdQSKjAl7YVIpEoCOoCSAEsLKUDvBmAlpwbJNSl5l8Q1Yy2w2y2kky1J2xFZY54g8kjbArJsg2YwwJgcLbM2NGaswAmLtZhqwqiqWOY9s2yipoiXzKC8RF6FS1YsLXeKxM/EJkloaca7oXMwYboaca3CY7o98NWNWehxIGT1mTPJuxLTjpGbiI5fQzkZjXEjefWGtY6zmN9Za5hOLdFuo9ZDHoeJRg2S1nIpJqaXDThlyYg9STIMNS2yXMixMckyLcZaleMJz3ETOmueOvxhUhslznFmWIacXcRMLgZki4FojILSKy0W6ZFpJeKaO0S5OJg+WSrXzLE6GbiRume6UOTJKL9JoiXyYLj3ETdRDSYWoR3xJMygZmYyZmWkVSGMYMR6ySjJlGKdGFJwJV1IBoRM0EvdFukdojIrZpg+QymPEwbrGQK3E94uYDiMxDLILkqWXiUx5uuJSY2c+VCfpJKTzmp1Jj7d4tPpcim2FTobACvmJr0uZp1G9E4LCx2HJmb6zGjgEMAf1VxOhcSKAAomGtUMVsdpnDqw4ZdysGB7gwucHhlDeJip7zoxM7J/aAD0I7wOtGbic7PzKZuZJqRLfF4tdYjJvmaDsMIoiZpkyZJgWHrAGzQBP0lg1O6LdKK+39Zl4dtYuK02aZi7m4xA9TUoIg6VJMgJSpvO0CVwJemI8ViRYA7QLfBpkVAXQFvWb7aA8tCTZB9q+8e43yTNRhoyMgBPfpIbpFcjI1LwC3sJVRpvTaFCnd0JrpxOXUEB1JFgBv2m+xtu7aa63U5dVyyfeYrROuM5qW1Wz9plqcYVtnBIJoiHmHY8yDmrU42bmgbFdY85oviLccE3Dz0TVAe86t2FygNVbX/OpWXCGQKGFEiavInVcZehcz3AmbvpH5AFiTj0bH9QH1mbMbnWtHJyY1ZHYbiSPL2hjU2fEfjaKIqyfxHuJyCt2wcDr0g2ZPCUBicgNMRc0wzHib0Quq72q9vIEWo0+F/ED5fE2ckOWIP2Br0merxZnXci5GZRQAYjnv0+0rPo00yA5M7l2q0XJZI9evrIYjTNiTIUxsEW+l8Hn0M62e9xVFHoN84/lsmFldFyZLHAGT8dTO3Bi1mVVX5XLjPcnp+8V9JDMF3EL9A/tMXfI2Bs4zDEi8kKoPU0OsQcqz49RlIJY8hHoD61Us/Dm2rWViHF7lykjrM3rJtMm/UaI5KCwGfvXHFd/SbaVlZWZlKntOQYMq42XT2+SuC7gd/czuxabOEB8Innk3cJd8N5sv2tWqxVKvQVX/ukoZAQG2kcdD1g2LIg3MrevAiCt12tXuDNsmuXev8AAUo9D34El2AqzL8NiSALoWZlqlOJwjVYFwvhnqvm2I2EDaCy3d8UOes5s+RdyGxxfXpKKMo3FRx+OJhmJsXRv0Ew1JCwPXhlwqEbLAb/ACrff1sfaPUuMuTA22qI3ANfbmTRWr6GLU5cmjxDKEDHoA3TkiMFkanFjYHaWvigfTj+s6dq/K7RywFD1me9nYqVQDbuupthK+HRYC+ajbVJGAXMreXICKvk9ZqfE8NWat3Q1M7XaCXAFS1yYSpVsgIvsYW2rJHAGJ/w/wAsTKAFf3S8+0YuMCWRrCCIeuLH/wARMn0OF3DgFGUUNrUAPYToEckw0+kGHLjy7jkyISQXAN/WdGr1Ov1JC42Gnxr08J6J+pqEdx0ZHn4n+NIz+LqchB/hrJYU9uses+I58aqNSzc8blNA/id9xFEbqoP2meufl66f59/juyPDORnQOtDEzVZeiDOrTfGc+kSseddg7Egz0Rixg2EUH/SJXToIfGTx0/Y6v9SV0fBvjGbWnIM6p5eVdOhuewuVD+sX6XPABb3mi58q/qFehm9x57Nr3uD2ufHfHdTkX4jqgrkBSAOa7CewusZeoX7GpnlbT5yTkBBPcqGErR8WPzTtiA8hW3F3ztpaP7zDK9qOhnYcGnCb3zYiFskhdpr8zHF8pqEHy4bIw5piRC0yY5jkAw4wSisQoA68+keVv7GjVHsROjWabDlxJsVEyI+5fMOeKnI4ZcW2vNwOsdc7UPqilEMikiqZjbdpriz/ADGhbJiyKNQuRVONmqxz/OcOr0mdlTIjor4juClwGP0l/C9FqiWyNnOMt1HBuWwxeRFOfGy6prLFWQlrU+8Q1l5mxeFkyOBd7Qf3noL8E0+9smRnyFuoYiv2nUuk06ihhSh6gR+RxyRwhMtgRwhJCEIRQjhCSEYJ9YoQQaJesISSiOJn+qOEkjXsyZSEJUbRwDU85mZgbJP1MITj165dJXr/ALYdoQhXMf8AUASCaPeEIQLGR1B2uw57Ge3o2ZsCliSfcwhOkdeH/9k=",
+            "rank": 4,
+            "global_rank": 13
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qzOUC1XoUJDeri0fa5MqsO4sKq0ZoBKqdzd_07wTIw&s",
+            "image_alt": "Intense winds bring dust storm to Sioux Falls, South Dakota",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8qzOUC1XoUJDeri0fa5MqsO4sKq0ZoBKqdzd_07wTIw&s",
+            "rank": 5,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhVP_vtKVIyYJuevR2_oh6sNq4cQG7uUj7CvC_2TH8SQ&s",
+            "image_alt": "The term 'derecho' disappeared for nearly a century. They ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhVP_vtKVIyYJuevR2_oh6sNq4cQG7uUj7CvC_2TH8SQ&s",
+            "rank": 6,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74RhcxhS3WvtupjURM1EHhf19aTdmv7lSFqEMDPYDsg&s",
+            "image_alt": "Ominous green sky amid severe weather in South Dakota",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ74RhcxhS3WvtupjURM1EHhf19aTdmv7lSFqEMDPYDsg&s",
+            "rank": 7,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXM_sjAuFVEv5XQVLsdhY4ohUqVfyYoDO2E3qtYwGaA&s",
+            "image_alt": "Severe thunderstorms push through south-central South Dakota ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVXM_sjAuFVEv5XQVLsdhY4ohUqVfyYoDO2E3qtYwGaA&s",
+            "rank": 8,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBwuFA4DitO0PLuKrDSZY4PXLqGpBCL6vIrBGcwjHOvA&s",
+            "image_alt": "South Dakota Tornado Saturday Damaged One Home, Virtually ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBwuFA4DitO0PLuKrDSZY4PXLqGpBCL6vIrBGcwjHOvA&s",
+            "rank": 9,
+            "global_rank": 18
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTE2goL7KSDOMBNa7EEbCp_lLu2aL2HhNBE9Q60F4o5w&s",
+            "image_alt": "Strong Storm Turns Sky Green in South Dakota",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTE2goL7KSDOMBNa7EEbCp_lLu2aL2HhNBE9Q60F4o5w&s",
+            "rank": 10,
+            "global_rank": 19
+        }
+    ]
+}

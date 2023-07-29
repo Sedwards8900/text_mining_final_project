@@ -1,0 +1,341 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 101000000,
+        "search_time": 0.37,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arkansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:48.616Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arkansas+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_j4g2h33tik"
+    },
+    "organic": [
+        {
+            "link": "https://www.thv11.com/article/weather/severe-thunderstorms-central-arkansas/91-0420ae00-6887-4474-b26a-f446e72b29ed",
+            "display_link": "https://www.thv11.com \u203a article \u203a weather \u203a severe-th...",
+            "title": "Central Arkansas storms leave over 100000 with no power",
+            "description": "Storms in Central Arkansas cause downed trees, over 100,000 power outages. As severe thunderstorms rolled through parts of Central Arkansas they ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 4
+        },
+        {
+            "link": "https://apnews.com/article/tornado-arkansas-storm-concert-79fe2da8a6b8bd92970032530b760d20",
+            "display_link": "https://apnews.com \u203a article \u203a tornado-arkansas-storm-...",
+            "title": "At least 26 dead after tornadoes rake US Midwest, South",
+            "description": "Storms that dropped possibly dozens of tornadoes killed at least 26 people in small towns and big cities across the South and Midwest.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/us-storms-tornadoes-midwest-south-4d35ce15af18e6cd50fda3aeb7a57176",
+                    "display_link": "https://apnews.com \u203a article \u203a us-storms-tornadoes-mi...",
+                    "title": "Storms strike Arkansas, Illinois, Indiana; 7 reported dead",
+                    "description": "Storms strike Arkansas, Illinois, Indiana; 7 reported dead. A tornado plowed through Little Rock and surrounding areas on Friday afternoon, ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 1, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.5newsonline.com/article/weather/severe-weather/photos-severe-weather-debris-arkansas-oklahoma/527-f404af1c-6b4d-4826-bcbd-abe8a33b3cfb",
+            "display_link": "https://www.5newsonline.com \u203a article \u203a photos-sever...",
+            "title": "Photos: Severe weather debris in Arkansas and Oklahoma",
+            "description": "Severe weather on Saturday, June 17, left thousands without power, broken fences, snapped trees, and more.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.arkansasonline.com/news/news/weather/",
+            "display_link": "https://www.arkansasonline.com \u203a news \u203a news \u203a weat...",
+            "title": "Latest Weather",
+            "description": "Friday night storms in Arkansas caused outages in at least three counties that extended into Saturday, an Entergy Arkansas spokesperson said.",
+            "rank": 4,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.cbsnews.com/news/dangerous-storms-tornadoes-midwest-south-fatalities-injuries-arkansas-illinois/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "At least 3 killed, dozens hurt as powerful storm system hits ...",
+            "description": "Severe Weather Arkansas Trees are down after a tornado swept through Little Rock, Ark., Friday, March 31, 2023. A tornado raced through ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.nytimes.com/2023/03/31/us/midwest-storms-flood-weather.html",
+            "display_link": "https://www.nytimes.com \u203a midwest-storms-flood-weather",
+            "title": "At Least 32 Killed as Tornadoes Tear Through the Midwest ...",
+            "description": "Officials said five people died in Arkansas, including an unidentified man in North Little Rock and four in Wynne, about 100 miles to the east, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 14
+        },
+        {
+            "link": "https://www.wsj.com/articles/large-tornado-hits-little-rock-ark-as-central-u-s-braces-for-severe-weather-fb9d781",
+            "display_link": "https://www.wsj.com \u203a articles",
+            "title": "Three Dead After Large Tornadoes Hit Arkansas",
+            "description": "The powerful supercell thunderstorm that spawned at least one tornado in Arkansas dumped hail the size of golf balls. More than 75,000 homes and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 15
+        },
+        {
+            "link": "https://www.entergynewsroom.com/article/entergy-arkansas-storm-update-6-18-23-8-30-p-m/",
+            "display_link": "https://www.entergynewsroom.com \u203a article \u203a entergy...",
+            "title": "Entergy Arkansas storm update \u2013 6/18/23, 8:30 p.m.",
+            "description": "Crews continue to restore power to thousands of customers who lost it in heavy wind, hail and rain today across the state.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 16
+        }
+    ],
+    "videos": [
+        {
+            "link": "https://www.youtube.com/watch?v=9Vd3bdmsgXw",
+            "duration": "2:21",
+            "duration_sec": 141,
+            "title": "Central Arkansas storms leave over 100,000 without power",
+            "source": "YouTube",
+            "author": "YouTube  THV11",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.wsj.com/video/storms-rip-through-multiple-states-killing-three/224607DB-256F-41D0-AC4C-54BE67752BEB.html",
+            "duration": "1:09",
+            "duration_sec": 69,
+            "title": "Storms Rip Through Multiple States, Killing Three",
+            "source": "The Wall Street Journal",
+            "author": "The Wall Street Journal",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.4029tv.com/article/arkansas-storm-photos-videos/44198456",
+            "duration": "1:03",
+            "duration_sec": 63,
+            "title": "This week's storms in photos & videos",
+            "source": "KHBS",
+            "author": "KHBS",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAGAAIDBAUBB//EADsQAAIBAwMBBQUHAgQHAAAAAAECAwAEEQUSITEGE0FRYSIycZGhFFJigbHB8ELhIySi0RUzNENjcpP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAgMBBAX/xAAfEQACAgMBAAMBAAAAAAAAAAAAAQIRAyExEgQiQTL/2gAMAwEAAhEDEQA/ADIDmpMeVcU5HIp68V0EiC5mFvE0rKSF8BUwNVNdlWPTnbbuwy8A/iFS/aI9oZiyA+LqQPn0+tAUWkYeNOEgqCMhxlCGHmDTtpoAsqwIqOTio4i+PbAB9K62TQA3dTlaubTThGawB4fiu76aExXCDQA/vK7moeRTucUASZpZqLmnjpQAKdupcPZx+jt+lYIdRZnPlWl25kzqcKfdhB+ZP+1YRfMe09DxXPNfY6YfyF+mxFbCBR/TGo+grtaWkwd5anHRW2j5ClV0cr6TBqeGoa1m61G1k75bdxAn/cicnI9RTl7RpLDG0YPJCSg8FD5gnj9KPaNNbVgHt40PIaZB9a0Qqj3fZ+FCB1ju7lIbiaN4RKHUrksPH+Yrl12tVb7NqzNEOGSTAHx6ZrPaALXji5eSIcDO9Rz9Oa891zV1TU5ZtOurlF3gsTISMgY908jxoim7TqdKNxbKn2neEWJjndz4dKC9ZngluDKu5DJIxmi5wDnw3UmSWtAHvY/Vp9TtphdndJG3vbNvB8KIMCvJtPvRFbTW0LvFvwdwHtHHIA8ueaP+zmq/b7IiaUGeM7WzxkYyD65FPCVoDVu50tbaSeQgKgycnH1oZ1DttaLARZK7vJESrY5Rs9CPrW1rd7DZaXPPcqzwhcPtTfgHjJHlXjzXHeyuyMvLZVlRhkc8jA+HXzokzT0DsPrN1d3sltcSmVHQupbqMH+9G2BXjmjam+mXJu4o8uFIA6cnxx416X2f1J76xhM8iNP3YZ8cHkkZx4dBRF2Ya5QGkAASPSmFwoyc/kM01ZU3tlhkkKPXjNMBMVz0FN2YpB6oaxqn/DkR2UMpzkE4+tY3XQSsCe2km7Xph9xEH0z+9Y8R3TRL5uo+tTa5fR3+r3NzHkJI/s564AA/aq9md17APx5+XNR7IvyIeWmvLYw9yIC5zkncBXKGLpwZm4B9TSqnpEKM+y1q6uU3/amhB4J3cE/DxpkizSkymUOpPLINufiB4+tYmmma2t+/lhl7pj7DmNsH/wBTjB8qsNcgRtiSQ5BwrJtC+n8FczuwH3LSIVzPuZs+zt/cVFEpAdu7LY67eTn1qo1xLIVCh2XOdpOefhVuG9CqiM2FXwxTGmzFqsEemn7ZDFcO5KoQpUx+u4DGaqWtu+p3IkRGmVid/OD861NNudGvNOezvGcKwHtmMHa2fCirR7S0toALfu2AHVaJMpHG3sH9L7F37zLNHdojKcqGU5/WivROyc9hb3H2ovJLJkM+eMHoPToKuxTYYY4xWvb69bwkLdPtOMbh+/nS+/JvhGM2jhrVbeU78e8SPequdHtLaP2IlLeQAoxlaK4i3woHU9GTofjWZcWDyAtGpPoMVjm2WjBUeca7oyHvZoUUSFTnI645H89ah7Lanb6a00t3L7f/AClAGWI4PPoMUY31jJyDG2fXJoS1Ts608vexHunU5+NUhIlkx1tB1HOsiBkIZT4ioiymeM8ZDs2fyx+9Zek3MVppgRgEEC8qBz/eqKa1Ib6INEO7ZiB4YBNdJCmFYcedC/ba4/y8Yz97HzojUgj2SD5YPWgrt5MQiAcYjJ/Wp5eFMXQNt3JySevNaGmnN9H+HJ+mKx45NoGK0dKl/wAyW8kP8+lTj0eXC/Ncf4rcDrSqoZRk5PPwpVjIgq1zNGhhV/8ADJzjHGfOtnsrcWY1JBq6mSB/ZOC2U8iMeP5VgHJIypqRWIGCFA88DNaOG2r3mmaXrqXCW8tzaOM73lDMx59Bg89aGpb6O6uCYou79o4GSeM8Zz6VSlfvAh3uzDqD0AqNFYOCA2fQUNDWr2EVqCwG4f2olsu9Xu5O+JdRgEHwoT0y6OQkqN8cGiSzcIAR0rkyNo93Bjx5Ma8hZY3++PbOCxx1HBp8mmx3bB0lkz6nNYcMyHkMynx5rTtLkqMiYZ8yOa5JZZfpGfx1F8CLS++sFx9o9n8VbttqUEvsl493o1CcF0sgAeVfyrQgSzOHkmOB5t0q2LK3oScINbCR3WRcbgw8mFZ13p4kGe6GPSs6ftBp1gmFnjBH3jQN2s7dTzAwWs7FD73dNtH0rriceT66C7UdGi7mSR1OwcMVXOPlQk8tnE4nWZwqj2MjJ6HwrBstVukgMUVzKkTnLxiU7WPTJFK41SKJUEgA2jkA9aoptHPJpm9b9op4F3wxSPbq20uykgHyz51mduZ9zgf+Nc/IVUt761vJEgCMd/AUtlSfPHnTO28o+3zIPBwvyrZS9BBUDm/pV6wkI70j7tZhPSrWm7pLpYgQA+c5+FC0azYtrVrmPvAsh5wdqE12poFntkKQXIRSckBj1+VdrbQhGIIh0ij/APmKngtxIcIij1CgVc7pcdBU8A2cjFJ6KUZstuyHaP0FRESDjB/I1r8FjnFNdVJzn6VtmeTJRZWbG1vmaIrPTozaK0ysJD5tVNVUHOPmKvC7Kx4FFJrZTHknjdxZSMMixiRTlTzSid8+8B8auRHvAEAqK6sSwyBg+lcuT497R6uP5cMiqRIkwIAG3d5h6600mMY/1Vnm0dOdzU+EOrcsceVThgp7NyzjFaKl9C0zkEkVDFoCyqWPIPpWuRlnOOGrWsYx3Cgiu6EEkeTmyucrBhOzHOUkx8M1Bedl5jgG4dlB4BOcUd7AB0qu0W9qfyiFgXpXZ64ttSt5BJuUSLnK+Geay+1U/e6hKR4yE16VFCI23N4AmvJ9ak33jHP9RpGqY8eFTNWdLLLd7wjsAp9wZNVBW52aTDs/4P3oAzZjcLKwDSsM8E5BpUWnOeKVLozyXTyMk1xfdpUqUocHWpABiu0q0w7IBsqBkUHp9aVKtAu6aoL9OlasijHSlSp48FfShcKvtcVTA5rlKkfR03RKgrUtegpUqaPRJF09BTEPtj1NKlVBB91xbyY+436V4zqf/U/P9aVKkl0dcKx90/CijswAYW4/oWu0qx8NNgouelKlSqZp/9k=",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 3
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+storm+article+today&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgwEAE",
+            "text": "Arkansas storm article today",
+            "rank": 1,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+storm+article+for+students&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAg3EAE",
+            "text": "Arkansas storm article for students",
+            "rank": 2,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+storm+damage+last+night&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgvEAE",
+            "text": "arkansas storm damage last night",
+            "rank": 3,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+damage+in+Arkansas+today&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAg2EAE",
+            "text": "storm damage in arkansas today",
+            "rank": 4,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+tornado+2023&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgtEAE",
+            "text": "arkansas tornado 2023",
+            "rank": 5,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+tornado+today&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgsEAE",
+            "text": "arkansas tornado today",
+            "rank": 6,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Wynne,+Arkansas+tornado+map&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgrEAE",
+            "text": "wynne, arkansas tornado map",
+            "rank": 7,
+            "global_rank": 23
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Arkansas+storms&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ1QJ6BAgpEAE",
+            "text": "arkansas storms",
+            "rank": 8,
+            "global_rank": 24
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Is Arkansas the new Tornado Alley?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Is+Arkansas+the+new+Tornado+Alley%3F&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQzmd6BAgWEAY",
+            "answer_source": "Discover the Arkansas Town Most Likely to Be Hit By a Tornado",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-arkansas-town-most-likely-to-be-hit-by-a-tornado/#:~:text=Fayetteville%2C%20Arkansas%20isn't%20technically,edge%20of%20the%20Sooner%20State.",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-arkansas-to...https://a-z-animals.com \u203a blog \u203a discover-the-arkansas-to...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBYQBQ\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQu04oAHoECBYQBQ\"><div id=\"MpnBZJmvKo2akdUPt52s4AM__8\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Fayetteville, Arkansas isn't technically in tornado alley</b>, though the prospect of western parts of Arkansas being in the alley is often a part of the discussion. The natural state sits against the eastern border of Oklahoma, taking up all but the northeast edge of the Sooner State.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 20, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Fayetteville, Arkansas isn't technically in tornado alley, though the prospect of western parts of Arkansas being in the alley is often a part of the discussion. The natural state sits against the eastern border of Oklahoma, taking up all but the northeast edge of the Sooner State.Jun 20, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "How many died in Wynne AR?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=How+many+died+in+Wynne+AR%3F&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQzmd6BAgbEAY",
+            "answer_source": "Family mourn the loss of young couple killed during last week's tornados ...",
+            "answer_link": "https://www.actionnews5.com/2023/04/05/family-mourn-loss-young-couple-killed-during-last-weeks-tornados-wynne/#:~:text=MEMPHIS%2C%20Tenn.,shortly%20after%20the%20tornado%20hit.",
+            "answer_display_link": "https://www.actionnews5.com \u203a 2023/04/05 \u203a family-mo...https://www.actionnews5.com \u203a 2023/04/05 \u203a family-mo...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQu04oAHoECBsQBQ\"><div id=\"MpnBZJmvKo2akdUPt52s4AM__11\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-md=\"25\" style=\"clear:none\"><div class=\"HwtpBd gsrt PZPZlf kTOYnf\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB8QAA\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQtwcoAHoECB8QAA\"><div class=\"Z0LcW AZCkJd d2J77b t2b5Cf\" data-tts=\"answers\" data-tts-text=\"4 people died\"><div class=\"IZ6rdc\">4 people died</div></div><div class=\"yxAsKe\"></div></div></div></div><div id=\"MpnBZJmvKo2akdUPt52s4AM__12\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBQQAA\"><span class=\"ILfuVd NA6bn\" lang=\"en\"><span class=\"hgKElc\">MEMPHIS, Tenn. (WMC) - A young couple died during Friday's tornado in Wynne Arkansas. In total <b>4 people</b> died in Wynne Including a 21-year-old woman and her boyfriend who died while trying to hunker down at her mother's home. Branden Williams says a family member called him shortly after the tornado hit.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "exact_answer",
+                    "title": "4 people died",
+                    "rank": 1
+                },
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "MEMPHIS, Tenn. (WMC) - A young couple died during Friday's tornado in Wynne Arkansas. In total 4 people died in Wynne Including a 21-year-old woman and her boyfriend who died while trying to hunker down at her mother's home. Branden Williams says a family member called him shortly after the tornado hit.Apr 5, 2023"
+                    },
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Has Arkansas ever had an F5 tornado?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+Arkansas+ever+had+an+F5+tornado%3F&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQzmd6BAgYEAY",
+            "answer_source": "NWS Little Rock, AR - The F5 Tornado of April 10, 1929",
+            "answer_link": "https://www.weather.gov/lzk/tor041029a.htm#:~:text=In%20the%20picture%3A%20The%20only,through%20the%20community%20of%20Sneed.",
+            "answer_display_link": "https://www.weather.gov \u203a lzkhttps://www.weather.gov \u203a lzk",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQu04oAHoECBgQBQ\"><div id=\"MpnBZJmvKo2akdUPt52s4AM__15\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCYQAA\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQ4dMGegQIJhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCYQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBcQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AWQVDU\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQyQ0oAHoECBcQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;lLFst1wn__Ra1M;AWQVDQ\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"lLFst1wn__Ra1M\" data-lpage=\"https://www.weather.gov/lzk/tor041029a.htm\" data-ni=\"1\" data-ref-docid=\"aGWulPADXIxrfM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBkQAA\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQzkx6BAgZEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:148px\"><img style=\"margin-left:-16px;width:181px\" alt=\"NWS Little Rock, AR - The F5 Tornado of April 10, 1929\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ3p_7JSRVWizhxWIg_55sTayvRMvx38jazlSW2mT6jw&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"MpnBZJmvKo2akdUPt52s4AM__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">In the picture: <b>The only documented F5 tornado in Arkansas tracked through northeast sections of the state on April 10, 1929</b>. The tornado killed 23 people. The tornado reached its maximum intensity in Jackson County around Pleasant Valley, also known locally as Possum Trot, and then on through the community of Sneed.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "In the picture: The only documented F5 tornado in Arkansas tracked through northeast sections of the state on April 10, 1929. The tornado killed 23 people. The tornado reached its maximum intensity in Jackson County around Pleasant Valley, also known locally as Possum Trot, and then on through the community of Sneed."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "Has Arkansas ever had a tornado?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Has+Arkansas+ever+had+a+tornado%3F&sa=X&ved=2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQzmd6BAgaEAY",
+            "answer_source": "Arkansas Tornado Database (2013 - Present) - ArcGIS StoryMaps",
+            "answer_link": "https://storymaps.arcgis.com/stories/3305bcd0832e4591a08aaeee59303cb1#:~:text=For%20the%20period%20of%202013,yearly%20average%20of%2032%20tornadoes.",
+            "answer_display_link": "https://storymaps.arcgis.com \u203a storieshttps://storymaps.arcgis.com \u203a stories",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiZkPeesa2AAxUNTaQEHbcOCzwQu04oAHoECBoQBQ\"><div id=\"MpnBZJmvKo2akdUPt52s4AM__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>For the period of 2013 to 2022, 321 tornadoes either began in or moved into and impacted Arkansas</b>. 2020 saw the most tornadoes within the state with a total of 45, with a yearly average of 32 tornadoes.</span></span><span class=\"kX21rb ZYHQ7e\">May 10, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "For the period of 2013 to 2022, 321 tornadoes either began in or moved into and impacted Arkansas. 2020 saw the most tornadoes within the state with a total of 45, with a yearly average of 32 tornadoes.May 10, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

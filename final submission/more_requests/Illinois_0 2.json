@@ -1,0 +1,204 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 236000000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Illinois storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:26:27.632Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Illinois+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_rd7a1ua3yai"
+    },
+    "organic": [
+        {
+            "link": "https://www.nbcchicago.com/news/local/intense-storms-damage-buildings-topple-trees-across-illinois/3109508/",
+            "display_link": "https://www.nbcchicago.com \u203a news \u203a local \u203a intense-...",
+            "title": "Illinois Storms Damage Buildings, Down Trees Across State",
+            "description": "Fierce storms with wind gusts exceeding 60 miles per hour ripped across Illinois late Friday, leading to a partial building collapse at a ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nbcchicago.com/weather/overnight-thunderstorms-possible-with-marginal-severe-weather-threat/3169737/",
+                    "display_link": "https://www.nbcchicago.com \u203a weather \u203a overnight-th...",
+                    "title": "Severe thunderstorm warnings issued in northern Illinois, ...",
+                    "description": "The main threats from the storms would be heavy rain and gusty winds, but small hail and even an isolated tornado can't be ruled out. According ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 24, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://abc7chicago.com/chicago-weather-forecast-radar-hourly-10-day/13439778/",
+            "display_link": "https://abc7chicago.com \u203a chicago-weather-forecast-ra...",
+            "title": "Chicago Weather: Rain and storms help clear out ...",
+            "description": "Chicago weather today includes rounds of thunderstorms and downpours, but severe storm ... Major storm damage reported in Central Illinois.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Illinois+storm+%22article%22&sa=X&ved=2ahUKEwiKndPS3a2AAxWfF1kFHRwpDzg4CxDm3gJ6BAgTEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wandtv.com/photos-thursdays-severe-weather-across-central-illinois/collection_a815cba2-16aa-11ee-ab67-a725b369cdb7.html",
+            "display_link": "https://www.wandtv.com \u203a photos-thursdays-severe-weat...",
+            "title": "PHOTOS: Thursday's severe weather across Central Illinois",
+            "description": "Articles \u00b7 Area fireworks displays canceled \u00b7 Springfield Mayor extends local State of Emergency \u00b7 SNAP customers may be eligible for replacement ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://iema.illinois.gov/content/dam/soi/en/web/iema/preparedness/documents/severeweatherpreparedness.pdf",
+            "display_link": "https://iema.illinois.gov \u203a soi \u203a iema \u203a documents",
+            "title": "Illinois Severe Weather Preparedness Guide",
+            "description": "The majority of Illinois tornadoes have occurred between April ... Make an inventory of your possessions using paper lists, photographs and/or videotapes.",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "15 pages",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cbsnews.com/news/powerful-storms-tornadoes-midwest-south-iowa-illinois/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Another round of powerful storms hitting Midwest, South",
+            "description": "Early Wednesday, the National Weather Service posted a tornado watch for parts of Arkansas, Illinois and Missouri until 9 a.m. local time.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.isws.illinois.edu/pubdoc/iem/iswsiem2006-06.pdf",
+            "display_link": "https://www.isws.illinois.edu \u203a iswsiem2006-06",
+            "title": "Severe Storms in the Midwest",
+            "description": "Champaign, IL. Illinois State Water Survey Report I/EM 2006-06 ... weather systems to warm-season precipitation in the U.S. Journal Applied Meteorology, 25:.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by SA Changnon",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 28",
+                    "rank": 2
+                },
+                {
+                    "type": "text",
+                    "text": "84 pages",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.thecentersquare.com/illinois/article_29548878-16c1-11ee-913b-ef3ec1b9e7c3.html",
+            "display_link": "https://www.thecentersquare.com \u203a illinois \u203a article_2954...",
+            "title": "Illinois quick hits: Storms bring damage across state",
+            "description": "Storms bring damage across state. ... FILE - Illinois storm damage ... Strong thunderstorms moved through Illinois Thursday, downing trees, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornadoes-midwest-floods-northeast-heat-southwest/story?id=101204375",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Fatality confirmed in Vermont flooding amid extreme weather ...",
+            "description": "Storms spawned multiple twisters across northern Illinois on Wednesday evening that knocked down trees, ripped off roofs and disrupted hundreds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.fox32chicago.com/news/weather-service-governor-to-survey-illinois-storm-damage",
+            "display_link": "https://www.fox32chicago.com \u203a news \u203a weather-service...",
+            "title": "Weather service, governor to survey Illinois storm damage",
+            "description": "Weather service, governor to survey Illinois storm damage ... article. OTTAWA, Ill. (AP) - The National Weather Service says survey teams ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 1, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

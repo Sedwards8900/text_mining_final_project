@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 39700000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Utah storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:50:10.982Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Utah+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_5gcorb3ijh4"
+    },
+    "organic": [
+        {
+            "link": "https://www.visitutah.com/plan-your-trip/Weather",
+            "display_link": "https://www.visitutah.com \u203a plan-your-trip \u203a Weather",
+            "title": "Statewide Utah Weather Updates",
+            "description": "Utah's Seasons \u00b7 \"There are four strong Utah seasons that have distinct weather patterns \u2014 the most pleasant weather usually occurs between late April to mid- ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://gephardtdaily.com/local/national-weather-service-prophecizes-another-winter-storm/",
+            "display_link": "https://gephardtdaily.com \u203a Local Utah News",
+            "title": "National Weather Service prophecizes another Utah winter ...",
+            "description": "SALT LAKE CITY, Utah, Feb. 14, 2023 (Gephardt Daily) -- Although March is closer than ever, the National Weather Service is forecasting ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.usu.edu/today/story/state-climate-officer-explains-the-winter-snow-surge-and-what-it-means-for-utahs-water-future",
+            "display_link": "https://www.usu.edu \u203a today \u203a story \u203a state-climate-offic...",
+            "title": "State Climate Officer Explains the Winter Snow Surge and ...",
+            "description": "Utah State University researcher and assistant state climatologist Jon Meyer sat down with Utah State Today to explain the current weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://photojeepers.com/utah-weather-in-the-fall/",
+            "display_link": "https://photojeepers.com \u203a utah-weather-in-the-fall",
+            "title": "Utah Weather in the Fall",
+            "description": "It's all about the weather when deciding the best time of year to plan a vacation. This article details the Utah weather in the fall and what you can expect ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.weather.gov/gjt/HistoricThanksgiving1919SnowStorm_112719",
+            "display_link": "https://www.weather.gov \u203a gjt \u203a HistoricThanksgiving...",
+            "title": "Historic Thanksgiving 1919 Snow Storm",
+            "description": "A newspaper article from Ouray, Colorado mentioned that Dallas Divide, sitting at an ... Storm Total Snowfall Amounts from Across Eastern Utah and Western ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.powder.com/trending-news/winter-storm-utah-ski",
+            "display_link": "https://www.powder.com \u203a winter-storm-utah-ski",
+            "title": "(Another) Major Winter Storm Warning Issued For Utah's ...",
+            "description": "It's April 3rd, and winter is far from over in Utah. The National Weather Service has issued a Winter Storm Warning for the Wasatch ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.npr.org/2023/04/19/1170803173/utah-state-of-emergency-flooding",
+            "display_link": "https://www.npr.org \u203a 2023/04/19 \u203a utah-state-of-emerg...",
+            "title": "Utah is in a state of emergency as melting snow is likely ...",
+            "description": "A record-breaking snow season has raised fears of spring flooding throughout Utah as the weather in mountain regions warms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://ut.ng.mil/Home/Public-Notice-Article-Display/Article/2348017/utah-national-guard-responds-to-utahs-windstorm-emergency-cleanup/",
+            "display_link": "https://ut.ng.mil \u203a Home \u203a Article \u203a utah-national-guar...",
+            "title": "Utah National Guard responds to Utah's windstorm ...",
+            "description": "The Governor of Utah has activated members of the Utah National Guard to assist with cleanup efforts following a hurricane-level storm which caused severe ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.foxnews.com/us/hurricane-force-wind-utah-trucks-flipped-disaster-severe-weather-power-outages-salt-lake-city",
+            "display_link": "https://www.foxnews.com \u203a hurricane-force-wind-uta...",
+            "title": "Hurricane-force winds in Utah flip 45 semitrucks, kill 1 ...",
+            "description": "Tens of thousands remain without power in Utah after hurricane-force winds blasted portions of the state earlier this week, causing major ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 10, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.draperutah.gov/974/Storm-Water-Management-Plan-SWMP",
+            "display_link": "https://www.draperutah.gov \u203a Storm-Water-Managem...",
+            "title": "Storm Water Management Plan",
+            "description": "Attendance at Salt Lake County Storm Water Coalition Log*; Attendance at Utah Storm Water Advisory Committee Log*; Articles Published in Newsletter (link to ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

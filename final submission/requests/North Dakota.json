@@ -1,0 +1,315 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 17100000,
+        "search_time": 0.47,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:18.019Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Dakota+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_q9sgakln54"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/north-dakota-storms-c369ec3bdbb2d48fb668adc7104a2b4c",
+            "display_link": "https://apnews.com \u203a article \u203a north-dakota-storms-c3...",
+            "title": "Severe storms cause damage in parts of western and ...",
+            "description": "Severe storms have caused damage in parts of North Dakota. KFYR-TV reported that a storm Wednesday night wrecked a manufactured home near ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/north-dakota/articles/2023-06-23/severe-storms-cause-damage-in-parts-of-western-and-central-north-dakota",
+            "display_link": "https://www.usnews.com \u203a ... \u203a North Dakota News",
+            "title": "Severe Storms Cause Damage in Parts of Western and ...",
+            "description": "SELFRIDGE, N.D. (AP) \u2014 Severe storms caused damage this week in parts of North Dakota. KFYR-TV reported that a storm Wednesday night wrecked ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://bismarcktribune.com/news/local/weather/storm-blows-into-northwestern-north-dakota-bismarck-snow-record-might-be-threatened/article_33f861e0-dec3-11ed-9cac-271d8014cd49.html",
+            "display_link": "https://bismarcktribune.com \u203a news \u203a local \u203a weather \u203a a...",
+            "title": "Storm blows into northwestern North Dakota",
+            "description": "An April 2022 blizzard downed thousands of power poles in western North Dakota and cut power to thousands of people in the region. U.S. Sen.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 19, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://bismarcktribune.com/news/local/weather/weekend-blizzard-set-to-roar-into-north-dakota-winter-now-fourth-snowiest-in-bismarck-history/article_20677ba6-bf52-11ed-ba87-27db3119e827.html",
+                    "display_link": "https://bismarcktribune.com \u203a news \u203a local \u203a weather \u203a a...",
+                    "title": "Weekend blizzard set to roar into North Dakota; winter now ...",
+                    "description": "Bismarck is expected to get 4-8 inches of snow. \"We do have a good signal for inch-an-hour rates\" of snowfall in some area, said Jason Anglin, ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 10, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.inforum.com/news/north-dakota/april-snowstorm-presents-major-hurdle-for-north-dakota-but-state-leaders-say-theyre-ready",
+            "display_link": "https://www.inforum.com \u203a news \u203a north-dakota \u203a apr...",
+            "title": "April snowstorm presents 'major hurdle' for North Dakota ...",
+            "description": "BISMARCK \u2014 A blizzard rolling through North Dakota this week is expected to dump more than a foot of snow on the eastern part of the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.kxnet.com/weather/latest-north-dakota-april-blizzard-updates/",
+            "display_link": "https://www.kxnet.com \u203a weather \u203a latest-north-dakota-a...",
+            "title": "Latest North Dakota April Blizzard Updates",
+            "description": "A Blizzard Warning has been issued for the counties shown below until 12 AM CDT. Threats include between 4 and 12 inches of snow to the West and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 3, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.grandforksherald.com/news/north-dakota/north-dakotas-2022-was-characterized-by-repeated-blizzards-bone-chilling-cold",
+            "display_link": "https://www.grandforksherald.com \u203a north-dakota \u203a n...",
+            "title": "North Dakota's 2022 was characterized by repeated ...",
+            "description": "A significant winter storm brought widespread blizzard conditions to western and central North Dakota from April 12 to 14, bringing with it feet ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.grandforksherald.com/weather/blizzard-fred-prompts-closure-of-interstates-and-roads-throughout-eastern-north-dakota",
+                    "display_link": "https://www.grandforksherald.com \u203a weather \u203a blizzar...",
+                    "title": "Blizzard Fred prompts closure of interstates and roads ...",
+                    "description": "A treacherous spring snowstorm, named Blizzard Fred by the Grand ... A number of other roads are closed in eastern North Dakota, as well.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Apr 5, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 12,
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.weather.gov/bis/events",
+            "display_link": "https://www.weather.gov \u203a bis \u203a events",
+            "title": "Event Summaries - Bismarck, ND",
+            "description": "The following summaries cover \"significant\" or widespread thunderstorm outbreaks and tornadoes. Tornadoes, hail, wind damage, and flooding impacts can be ...",
+            "subresults": [
+                {
+                    "link": "https://www.weather.gov/fgf/blizzardof66",
+                    "display_link": "https://www.weather.gov \u203a fgf \u203a blizzardof66",
+                    "title": "The Historic Blizzard of March 2-5, 1966",
+                    "description": "One of the most severe blizzards on record to impact the Northern Plains occurred 50 years ago between March 2-5 of 1966. The blizzard was ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 5, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 14,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+News&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg6EAE",
+            "text": "north dakota news",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+weather&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg5EAE",
+            "text": "north dakota weather",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+blizzard+today&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg4EAE",
+            "text": "north dakota blizzard today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+capital&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg3EAE",
+            "text": "north dakota capital",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+blizzard+warning&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg2EAE",
+            "text": "north dakota blizzard warning",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=North+Dakota+blizzard+snow+totals&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg1EAE",
+            "text": "north dakota blizzard snow totals",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Winter+storm+Fargo+North+Dakota&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAg0EAE",
+            "text": "winter storm fargo north dakota",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=94+North+Dakota&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q1QJ6BAgzEAE",
+            "text": "94 north dakota",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Did North Dakota get 40 ft of snow?",
+            "question_link": "https://www.google.com/search?hl=en&q=Did+North+Dakota+get+40+ft+of+snow%3F&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qzmd6BAgpEAY",
+            "answer_source": "Blizzard of March 2-5, 1966 Storm Data - National Weather Service",
+            "answer_link": "https://www.weather.gov/fgf/blizzardof66_stormdata#:~:text=In%20the%201966%20storm%2C%20winds,many%20places%20over%20the%20state.",
+            "answer_display_link": "https://www.weather.gov \u203a fgf \u203a blizzardof66_stormdatahttps://www.weather.gov \u203a fgf \u203a blizzardof66_stormdata",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCkQBQ\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qu04oAHoECCkQBQ\"><div id=\"yJnBZL_yA-2D0PEP-PiX8AY__38\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCsQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">In the 1966 storm, winds reported over 70 mph continued unabated for up to four days in some areas. <b>Snowfall, reported as much as 38 inches in the northeastern part of the state, was piled into mountainous drifts 30 to 40 feet high in many places over the state.</b></span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "In the 1966 storm, winds reported over 70 mph continued unabated for up to four days in some areas. Snowfall, reported as much as 38 inches in the northeastern part of the state, was piled into mountainous drifts 30 to 40 feet high in many places over the state."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "What was the storm of 1997 North Dakota?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+was+the+storm+of+1997+North+Dakota%3F&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qzmd6BAgmEAY",
+            "answer_source": "20 Year Anniversary of the 1997 Blizzard - National Weather Service",
+            "answer_link": "https://www.weather.gov/bis/20YearAnniversayofthe1997Blizzard#:~:text=20%20years%20ago%20(April%204,MPH%2C%20resulted%20in%20widespread%20impacts.",
+            "answer_display_link": "https://www.weather.gov \u203a bishttps://www.weather.gov \u203a bis",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCYQBQ\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qu04oAHoECCYQBQ\"><div id=\"yJnBZL_yA-2D0PEP-PiX8AY__41\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">20 years ago (April 4-7, 1997) North Dakota was hit with a Major Blizzard, bringing much of the state to a complete halt. Heavy snowfall (as much as 2 feet in some areas), and winds to 65 MPH, resulted in widespread impacts.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "20 years ago (April 4-7, 1997) North Dakota was hit with a Major Blizzard, bringing much of the state to a complete halt. Heavy snowfall (as much as 2 feet in some areas), and winds to 65 MPH, resulted in widespread impacts."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "How many people died in the 1966 North Dakota blizzard?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+many+people+died+in+the+1966+North+Dakota+blizzard%3F&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qzmd6BAgoEAY",
+            "answer_source": "The Historic Blizzard of March 2-5, 1966",
+            "answer_link": "https://www.weather.gov/fgf/blizzardof66#:~:text=News%20accounts%20vary...but,people%20died%20in%20South%20Dakota.",
+            "answer_display_link": "https://www.weather.gov \u203a fgf \u203a blizzardof66https://www.weather.gov \u203a fgf \u203a blizzardof66",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCgQBQ\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qu04oAHoECCgQBQ\"><div id=\"yJnBZL_yA-2D0PEP-PiX8AY__44\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCwQAA\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Q4dMGegQILBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCwQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCcQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AdYKf0\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4QyQ0oAHoECCcQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;SfPXFH5mvJddFM;AdYKfo\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"SfPXFH5mvJddFM\" data-lpage=\"https://www.weather.gov/fgf/blizzardof66\" data-ni=\"1\" data-ref-docid=\"tLSKq_Mcwv8O_M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCQQAA\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qzkx6BAgkEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"width:205px\" alt=\"The Historic Blizzard of March 2-5, 1966\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQ_g6qDGp2BjhdVqt41PIl3ZoiXUNoQtWP6YOmbVN1g&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"yJnBZL_yA-2D0PEP-PiX8AY__47\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">News accounts vary...but at least 18 reported deaths occurred across the Great Plains states due to the blizzard. <b>At least nine</b> people were killed across North Dakota (5) and Minnesota (4), and at least another 6 (possibly more) people died in South Dakota.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "News accounts vary...but at least 18 reported deaths occurred across the Great Plains states due to the blizzard. At least nine people were killed across North Dakota (5) and Minnesota (4), and at least another 6 (possibly more) people died in South Dakota.Mar 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "What does El Nino mean for North Dakota?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+does+El+Nino+mean+for+North+Dakota%3F&sa=X&ved=2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qzmd6BAgqEAY",
+            "answer_source": "NOAA Has Issued An El Nino Watch: What It Means For North Dakota",
+            "answer_link": "https://us1033.com/noaa-has-issued-an-el-nino-watch-what-it-means-for-north-dakota/#:~:text=It%20means%20less%20snow%20for,period%20this%20spring%20and%20summer.",
+            "answer_display_link": "https://us1033.com \u203a noaa-has-issued-an-el-nino-watch-...https://us1033.com \u203a noaa-has-issued-an-el-nino-watch-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCoQBQ\" data-ved=\"2ahUKEwi_9pPmsa2AAxXtATQIHXj8BW4Qu04oAHoECCoQBQ\"><div id=\"yJnBZL_yA-2D0PEP-PiX8AY__50\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CC8QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">It means <b>less snow for North Dakota</b>. On average 3 to 6 inches during a typical season. That may not sound like a lot but as you know it all adds up. Again, El Nino doesn't typically affect our summer and fall weather patterns so this doesn't necessarily mean we are going into a dry period this spring and summer.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 20, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "It means less snow for North Dakota. On average 3 to 6 inches during a typical season. That may not sound like a lot but as you know it all adds up. Again, El Nino doesn't typically affect our summer and fall weather patterns so this doesn't necessarily mean we are going into a dry period this spring and summer.Apr 20, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

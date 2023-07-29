@@ -1,0 +1,177 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 70600000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Connecticut storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:19.409Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Connecticut+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.1 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_ggkdjzw7m1a"
+    },
+    "organic": [
+        {
+            "link": "https://www.greenwichtime.com/news/article/winter-storm-snow-ct-litchfield-county-friday-17813740.php",
+            "display_link": "https://www.greenwichtime.com \u203a News",
+            "title": "Second winter storm could hit parts of CT Friday, NWS says",
+            "description": "The winter storm could bring moderate to heavy snow to northwestern Connecticut Friday into Saturday, according to the National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.darientimes.com/news/article/ct-weather-thunderstorms-rain-wind-today-17872864.php",
+            "display_link": "https://www.darientimes.com \u203a News",
+            "title": "NWS: Fierce winds, thunderstorms possible in CT",
+            "description": "The National Weather Service says there is a \"slight risk\" of severe thunderstorms with damaging winds Saturday night in Connecticut.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.newstimes.com/news/article/ct-weather-winter-storm-snow-ice-coastal-flooding-17815235.php",
+            "display_link": "https://www.newstimes.com \u203a News",
+            "title": "Storm will bring mix of rain, snow and ice to CT, weather ...",
+            "description": "Connecticut is expected to get a winter storm Friday night through Saturday that could produce coastal flooding, the National Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://opencommons.uconn.edu/cgi/viewcontent.cgi?article=1067&context=wracklines&httpsredir=1&referer=",
+            "display_link": "https://opencommons.uconn.edu \u203a viewcontent",
+            "title": "Tropical Storm Irene Delivered a Sunday Punch to Connecticut",
+            "description": "By the time she reached the shores of Connecticut on. Sunday August 28, 2011, Irene had been downgraded from a Category 1 Hurricane to a Tropical Storm. In ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by M Hart",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2011",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 2",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/deadly-high-winds-sweep-pennsylvania-connecticut",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a deadly-high-...",
+            "title": "Deadly High Winds Sweep from Pennsylvania to Connecticut",
+            "description": "Several discrete supercell storms swept from west to east across the area before the storms morphed into a powerful wind-packing squall line (or mesoscale ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.courant.com/2023/03/13/noreaster-to-strike-parts-of-ct-with-heavy-snow-gusty-winds-tuesday/",
+            "display_link": "https://www.courant.com \u203a 2023/03/13 \u203a noreaster-to-...",
+            "title": "Nor'easter to strike parts of CT with heavy snow, gusty winds",
+            "description": "A Winter Storm Watch is in effect from the NWS for the Hartford area starting Monday night through Wednesday morning. The weather service said ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://libguides.ctstatelibrary.org/c.php?g=212426&p=8246950",
+            "display_link": "https://libguides.ctstatelibrary.org \u203a c.php",
+            "title": "Blizzard of 1888 - Weather",
+            "description": "Blizzard of 1888; Archives; Newspapers, Articles, and more; Sources ... The Blizzard of 1888, also known as the \"Great White Hurricane,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.nytimes.com/2023/03/13/us/winter-storm-noreaster-snow-forecast.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/03/13 \u203a winter-storm-n...",
+            "title": "Late-Winter Storm Brings Heavy Snow and Rain to the ...",
+            "description": "Give this article ... The storm was more tame in portions of New Jersey, Connecticut and New York City, where either rain or light flurries ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 15, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://lewisbrisbois.com/newsroom/legal-alerts/ongoing-storm-rules-for-the-northeast-connecticut-massachusetts-new-jersey",
+            "display_link": "https://lewisbrisbois.com \u203a newsroom \u203a legal-alerts \u203a o...",
+            "title": "\"Ongoing Storm\" Rules for the Northeast (Connecticut, ...",
+            "description": "\"Ongoing Storm\" Rules for the Northeast (Connecticut, Massachusetts, New Jersey, New York & Rhode Island). (February 4, 2021) - The winter storm that ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.stamfordadvocate.com/news/article/Tropical-Storm-Nicole-CT-towns-prepare-17573751.php",
+            "display_link": "https://www.stamfordadvocate.com \u203a News",
+            "title": "How CT towns are preparing for remnants of Tropical ...",
+            "description": "Its effects won't be felt in Connecticut until Friday afternoon. The remnants of the storm will bring rain to Connecticut, along with southerly ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

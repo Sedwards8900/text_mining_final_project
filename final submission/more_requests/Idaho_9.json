@@ -1,0 +1,173 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 16900000,
+        "search_time": 0.64,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Idaho storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:26:23.638Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Idaho+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_nj1uwyzgb7"
+    },
+    "organic": [
+        {
+            "link": "https://liteonline.com/major-winter-storm-approaching-idaho-6-experts-weigh-in-on-snowfall-in-boise/",
+            "display_link": "https://liteonline.com \u203a major-winter-storm-approachi...",
+            "title": "Winter Storm Approaching Idaho; Expert Boise Snowfall ...",
+            "description": "Major Winter Storm Approaching Idaho; 6 Experts Weigh In on Snowfall in ... the harder the winter is what inspired us to write this article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.kpvi.com/news/local_news/severe-weather-strikes-east-idaho/article_7a001ef4-fa06-11ed-9ee5-c799008fe832.html",
+            "display_link": "https://www.kpvi.com \u203a severe-weather-strikes-east-idaho",
+            "title": "Severe weather strikes East Idaho | Local News",
+            "description": "Tuesday was a wild weather day across East Idaho. Thunderstorms produced flash flooding in Idaho Falls, Blackfoot, and Rexburg.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.newsbreak.com/ada-county-id/3051135246253-storm-on-tuesday-likely-cause-of-several-crashes",
+            "display_link": "https://www.newsbreak.com \u203a Boise, ID",
+            "title": "Storm on Tuesday likely cause of several crashes",
+            "description": "BOISE, Idaho (CBS2) \u2014 Ada County Sheriff's Office reports 24 non-injury crashes on...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://apnews.com/article/483e857818524900aa5d090ff3823adf",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Much of Idaho facing 'widespread destruction' in storm's ...",
+            "description": "The National Weather Service said the water level of the Portneuf River will begin to recede Monday morning, but flooding is still expected ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 12, 2017",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.krem.com/article/news/local/idaho/windstorm-north-idaho-residents-weather/293-3215d84e-4691-433d-8910-a0729e2dce2c",
+            "display_link": "https://www.krem.com \u203a article \u203a news \u203a local \u203a winds...",
+            "title": "How Friday's windstorm impacted North Idaho residents",
+            "description": "Related Articles \u00b7 Long lines form into Spokane waste facility as people recover from storm \u00b7 Spokane gets first snowfall of the season, few ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://idahonews.com/",
+            "display_link": "https://idahonews.com",
+            "title": "KBOI: Boise News, Weather, Sports, Breaking News",
+            "description": "KBOI-TV CBS 2 covers news, sports, traffic, and weather in the Treasure Valley and Boise, Idaho and nearby communities, including Meridian, Nampa, ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.pressherald.com/2022/12/12/millions-in-central-u-s-brace-for-snow-rain-and-floods/",
+            "display_link": "https://www.pressherald.com \u203a 2022/12/12 \u203a millions-in-...",
+            "title": "Millions in central U.S. brace for snow, rain and floods",
+            "description": "The National Weather Service warned that there would be 'numerous, ... 6, roll the largest snowball at Camel's Back Park in Boise, Idaho, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://localnews8.com/news/idaho-falls/2023/06/01/idaho-falls-homeowners-face-rough-road-to-recover-after-flood-damage/",
+            "display_link": "https://localnews8.com \u203a idaho-falls \u203a 2023/06/01 \u203a id...",
+            "title": "Idaho Falls homeowners face rough road to recover after ...",
+            "description": "During the storm, waves of water came crashing into the numbered streets and remained for days. Homeowners like Melody Byers struggled in vain ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.ksl.com/article/50673189/unsettled-weather-causes-very-brief-tornado-in-eastern-idaho",
+            "display_link": "https://www.ksl.com \u203a article \u203a unsettled-weather-caus...",
+            "title": "Unsettled weather causes 'very brief' tornado in eastern ...",
+            "description": "Get informative articles and interesting stories delivered to your inbox weekly. Subscribe to the KSL.com Trending 5. Sign Me Up. By subscribing ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://kool965.com/severe-storm-risk-twin-falls/",
+            "display_link": "https://kool965.com \u203a severe-storm-risk-twin-falls",
+            "title": "Severe Storm Risk Twin Falls",
+            "description": "Severe Storm Risk For Parts Of Southern Idaho Including The Magic Valley ... of miles,\u201d wrote Hannah Fry in a 2019 New Yorker article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

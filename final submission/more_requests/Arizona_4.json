@@ -1,0 +1,141 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 450000000,
+        "search_time": 0.28,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arizona storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:19:41.737Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arizona+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_dwxtn1nc1wi"
+    },
+    "organic": [
+        {
+            "link": "https://www.oceancitytoday.com/news/national/us-dust-storm-sweeps-through-phoenix-metropolitan-area-arizona-3/video_b9f3d1ed-5c55-5ab6-b36e-6aa1c9daa638.html",
+            "display_link": "https://www.oceancitytoday.com \u203a news \u203a national \u203a us-...",
+            "title": "Dust Storm Sweeps Through Phoenix Metropolitan Area ...",
+            "description": "US: Dust Storm Sweeps Through Phoenix Metropolitan Area, Arizona 3 \u00b7 Facebook \u00b7 Twitter \u00b7 WhatsApp \u00b7 SMS \u00b7 Email \u00b7 Print \u00b7 Copy article link \u00b7 Save.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.abc15.com/",
+            "display_link": "https://www.abc15.com",
+            "title": "ABC15 Arizona: Phoenix, Arizona News and Weather",
+            "description": "Arizona's source for breaking news, weather, traffic and in-depth investigations from ABC15 Arizona in Phoenix.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.azfamily.com/",
+            "display_link": "https://www.azfamily.com",
+            "title": "AZ Family | 3TV & CBS 5 News | Phoenix, Arizona",
+            "description": "Arizona's Family (KTVK/KPHO) is the premier news, weather, sports, and entertainment destination in Arizona.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.timeanddate.com/weather/usa/phoenix",
+            "display_link": "https://www.timeanddate.com \u203a Weather \u203a USA",
+            "title": "Weather for Phoenix, Arizona, USA",
+            "description": "Weather in Phoenix, Arizona, USA ... Partly cloudy. Feels Like: 109 \u00b0F Forecast: 117 / 93 \u00b0F Wind: 12 mph \u2191 from West ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/",
+            "display_link": "https://www.signalsaz.com \u203a articles \u203a will-the-2023-ar...",
+            "title": "Will the 2023 Arizona Monsoon Bring Another Summer of ...",
+            "description": "Article audio is made possible by CAST11 Prescott Podcast Network. A Talking Glass Media production.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/07/07/southwest-arizona-california-extreme-heat-wave/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/07/07 \u203a sout...",
+            "title": "Extreme heat wave bound for Phoenix and Southwest ...",
+            "description": "The National Weather Service office in Phoenix says it will \u201crival some of the worst heat waves this area has ever seen.\u201d.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://azdailysun.com/news/local/weather/winter-storm-brings-more-snow-flood-watch-to-northern-arizona/article_26300586-c767-11ed-9997-3ff4163b6af9.html",
+            "display_link": "https://azdailysun.com \u203a news \u203a local \u203a weather \u203a article_...",
+            "title": "Winter storm brings more snow, flood watch to northern ...",
+            "description": "Between Tuesday and Wednesday, northern Arizona should expected to see precipitation shift back and forth between snow and rain.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/Haboob",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a Haboob",
+            "title": "Haboob - Wikipedia",
+            "description": "In North America, the most common terms for these events are either dust storm or sandstorm. In the U.S., they frequently occur in the deserts of Arizona, ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://ktar.com/story/5456951/powerful-storm-sweeps-across-arizona-takes-out-power-and-cancels-flights/",
+            "display_link": "https://ktar.com \u203a story \u203a powerful-storm-sweeps-acro...",
+            "title": "Powerful storm sweeps across Arizona, takes out ...",
+            "description": "Blasting winds disrupted flights out of Phoenix and shut down roads around the north on Wednesday as a major winter storm hit.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cnn.com/weather",
+            "display_link": "https://www.cnn.com \u203a weather",
+            "title": "Weather news and local forecast",
+            "description": "Get the latest weather news and forecasts from CNN's meteorologists, watch extreme weather videos, learn about climate change and follow major hurricanes ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

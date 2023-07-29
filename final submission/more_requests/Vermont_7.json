@@ -1,0 +1,181 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 33700000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Vermont storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:50:32.593Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Vermont+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_dcfl6fz85ml"
+    },
+    "organic": [
+        {
+            "link": "https://www.bostonglobe.com/2023/07/18/metro/vermont-tourism-takes-hit-flooding-extreme-weather/",
+            "display_link": "https://www.bostonglobe.com \u203a 2023/07/18 \u203a metro \u203a ve...",
+            "title": "Vermont tourism takes a hit from flooding and extreme ...",
+            "description": "But owner Steve Brownlee said on Friday the business had lost between $5,000 and $10,000 following the floods. Read full article.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://nypost.com/2023/07/13/more-flash-flooding-looms-for-vermont-as-severe-storms-tornadoes-likely-to-erupt-across-northeast-on-thursday/",
+            "display_link": "https://nypost.com \u203a 2023/07/13 \u203a more-flash-floodin...",
+            "title": "More flash flooding looms for Vermont as severe storms, ...",
+            "description": "\u201cWe're just days off of a Flash Flood Emergency in the lower Hudson Valley and Vermont,\u201d FOX Weather meteorologist Britta Merwin said.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.cbsnews.com/news/vermont-flooding-railroad-track-suspended-mid-air/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "Vermont flooding leaves railroad track \"dangling\" mid-air ...",
+            "description": "The intense flooding that has overtaken Vermont in recent days after a devastating storm swept through on Sunday has isolated towns, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://abcnews.go.com/US/tornadoes-midwest-floods-northeast-heat-southwest/story?id=101204375",
+            "display_link": "https://abcnews.go.com \u203a story",
+            "title": "Fatality confirmed in Vermont flooding amid extreme weather ...",
+            "description": "Extreme weather continues to affect most of the country. ... At least one person was killed by the raging floodwaters in Vermont this week, state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/live-blog/floods-vermont-weather-rain-storms-new-england-live-updates-rcna93587",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a live-blog",
+            "title": "Vermont floods have led to more than 100 rescues, officials ...",
+            "description": "More than 9 inches of rain recorded in parts of Vermont ... Torrents of rainfall drenched Vermont yesterday, with 9.05 inches recorded in Plymouth ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://newrepublic.com/article/174295/vermont-flooding-irene-investment-mitigation",
+            "display_link": "https://newrepublic.com \u203a article \u203a vermont-flooding-i...",
+            "title": "How Vermont Learned Its Climate Lesson the Hard Way",
+            "description": "The floods that hit the state this week were intense\u2014but spending after Hurricane Irene helped to keep a total catastrophe at bay.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.pressdemocrat.com/article/news/vermont-braces-for-more-rain-in-wake-of-historic-flooding/",
+            "display_link": "https://www.pressdemocrat.com \u203a News \u203a Nation",
+            "title": "Vermont braces for more rain in wake of historic flooding",
+            "description": "Vermont prepared for the next round of storms \u2014 and possibly a tornado \u2014 as people took advantage of calm weather Thursday to clean up from ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://weather.com/safety/floods/news/2023-07-10-flooding-northeast-vermont-new-york",
+            "display_link": "https://weather.com \u203a safety \u203a floods \u203a news \u203a 2023-07-...",
+            "title": "Vermont, New York Hit With Destructive Flooding",
+            "description": "Here is our full recap of this major flash flood event. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.burlingtonfreepress.com/story/news/local/vermont/2023/07/13/severe-weather-more-rain-vermont-flash-flood-concerns/70409602007/",
+            "display_link": "https://www.burlingtonfreepress.com \u203a 2023/07/13 \u203a s...",
+            "title": "'This isn't over' says Gov. Scott as Vermont's recovery may ...",
+            "description": "As Vermont turns its focus to recovering from massive flooding, an ominous forecast with heavy rain and severe weather threatens to put ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wbur.org/news/2023/07/10/vermont-flooding-northeast-storm-rain",
+            "display_link": "https://www.wbur.org \u203a news \u203a 2023/07/10 \u203a vermont...",
+            "title": "Flooding hits Vermont communities hard, and it's not over yet",
+            "description": "Phil Scott said severe flooding across Vermont Monday morning \u201cmay be just the start\u201d of the most severe weather event to hit the state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

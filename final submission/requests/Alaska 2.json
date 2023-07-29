@@ -1,0 +1,365 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 91500000,
+        "search_time": 0.32,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Alaska storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:38.761Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Alaska+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.4 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_ftv1v2azukw"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2022/09/16/us/alaska-storm-typhoon-merbok.html",
+            "display_link": "https://www.nytimes.com \u203a alaska-storm-typhoon-merbok",
+            "title": "Western Alaska Lashed by Strongest Storm in Years",
+            "description": "A powerful storm slammed western parts of Alaska on Saturday as a dangerous weather system brought winds of around 90 miles per hour and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2022/09/17/us/alaska-storm.html",
+                    "display_link": "https://www.nytimes.com \u203a 2022/09/17 \u203a alaska-storm",
+                    "title": "Storm Surge in Alaska Pulls Homes From Their Foundations",
+                    "description": "Communities along Alaska's western coast were evacuating to higher ground and assessing damage from the remnants of Typhoon Merbok on Saturday.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 17, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.washingtonpost.com/business/2022/09/18/alaska-storm-typhoon-merbok/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/09/18 \u203a alask...",
+            "title": "Western Alaska confronts damage after historic storm",
+            "description": "The remnants of a typhoon have left low-lying parts of western Alaska's coast underwater, but the full impact may not be known for days.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 18, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.washingtonpost.com/climate-environment/2022/09/16/coastal-alaska-storm-surge-flooding-winds/",
+                    "display_link": "https://www.washingtonpost.com \u203a 2022/09/16 \u203a coast...",
+                    "title": "Strongest storm in decades battering Alaska",
+                    "description": "A powerful ocean cyclone is blasting the western coast of Alaska \u2014 bringing major flooding to coastal communities and wind gusts to 90 mph.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Sep 16, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://apnews.com/article/floods-storms-weather-patterns-typhoons-438fe387b3e5c8047bf052fb13756d8b",
+            "display_link": "https://apnews.com \u203a article \u203a floods-storms-weather-p...",
+            "title": "Storm battering western Alaska causes widespread flooding",
+            "description": "ANCHORAGE, Alaska (AP) \u2014 A powerful storm sweeping north through the Bering Strait on Saturday caused widespread flooding in several western ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/alaska-prepares-powerful-storm-said-strongest-decade-rcna48167",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a alaska-pre...",
+            "title": "Powerful storm strikes Alaska bringing historic surge ...",
+            "description": "One of the strongest storms in at least a decade struck Alaska Saturday with hurricane force winds, high seas and rain that caused coastal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2022/sep/16/storm-alaska-typhoon-merbok-flooding",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a sep \u203a storm-...",
+            "title": "Severe storm headed for Alaska could bring devastating ...",
+            "description": "The remnants of Typhoon Merbok, now swirling over the Bering Sea, are predicted to deliver devastating levels of flooding and damaging wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.npr.org/2022/09/16/1123512183/alaska-typhoon-merbok-storm-coast",
+            "display_link": "https://www.npr.org \u203a alaska-typhoon-merbok-storm-coast",
+            "title": "A 'historically powerful' storm brings seas of up to 54 feet ...",
+            "description": "\"Typhoon Merbok has transitioned into a historically powerful Alaskan storm in the Bering Sea,\" the National Weather Service said on Friday.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 16, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+storm+%22article%22&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q5t4CegQIRBAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.cbsnews.com/news/alaska-storm-major-flooding-residents-evacuated/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "As massive storm batters Alaska coastal towns, residents ...",
+            "description": "A massive, potentially record-breaking storm brought major flooding and damage to coastal towns in Alaska Saturday, and some residents were ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+storm+%22article%22&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q5t4CegQIQhAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2022/09/17/alaska-expects-floods-typhoon-merboks-remnants/10410998002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2022/09/17 \u203a ala...",
+            "title": "'Angry sea': Huge storm floods roads, homes in Alaska as ...",
+            "description": "Alaska Gov. Mike Dunleavy declared a state of disaster Saturday as a powerful storm threatens huge swaths of the state's vast and sparsely ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 17, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+storm+%22article%22&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q5t4CegQIQRAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Typhoons in Alaska",
+            "list_group": true,
+            "expanded": true,
+            "more_link": "https://www.google.com/search?gl=us&hl=en&q=Hurricane+Ioke&stick=H4sIAAAAAAAAAOOQUeLUz9U3SM8qLjYzEiqpLMjIz88rVsjMU0jMSSzOTowScQTTCsUl-UW5ColFJZnJOamnGBG6TjFyg9iGRgblGcWVpxi5QDyjgiRT0zyoMhPLlGKzX4xCIUimQ0xtYGFcxMrnUVpUlJmcmJeq4JmfnXqLTZLh1ooeFdXkya7Tnz7c9kdGfl30xhc3d-36dBEAV3iLEa8AAAA&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qs9oBKAB6BAgwEAI",
+            "more_text": "Hurricane IokeTyphoon PhanfoneTropical Storm ZeldaHurricane John",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfB9p0HtFhBujyAu3UffYj5AvqbK9TTdoNrrv&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgfB9p0HtFhBujyAu3UffYj5AvqbK9TTdoNrrv&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+hurricane+2023&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhHEAE",
+            "text": "alaska hurricane 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+in+alaska+today+2023&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhGEAE",
+            "text": "storm in alaska today 2023",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+Typhoon+2022&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhFEAE",
+            "text": "alaska typhoon 2022",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Flooding+in+Alaska+today&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhJEAE",
+            "text": "flooding in alaska today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Typhoon+Merbok+Alaska&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhLEAE",
+            "text": "typhoon merbok alaska",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Alaska+weather&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhIEAE",
+            "text": "alaska weather",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Big+storm+Alaska&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhDEAE",
+            "text": "big storm alaska",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+hits+western+Alaska&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q1QJ6BAhKEAE",
+            "text": "storm hits western alaska",
+            "rank": 9,
+            "global_rank": 23
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What was the storm that hit Alaska?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+storm+that+hit+Alaska%3F&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qzmd6BAgZEAY",
+            "answer_source": "Typhoon Merbok spotlights Alaska's need for science and climate ...",
+            "answer_link": "https://www.ktoo.org/2022/09/28/typhoon-merbok-alaska-climate-change/#:~:text=Typhoon%20Merbok%20spotlights%20Alaska's%20need%20for%20science%20and%20climate%2Dresilient%20infrastructure,-September%2028%2C%202022&text=When%20the%20remnants%20of%20Typhoon,meteorologists%20knew%20what%20was%20coming.",
+            "answer_display_link": "https://www.ktoo.org \u203a 2022/09/28 \u203a typhoon-merbok-a...https://www.ktoo.org \u203a 2022/09/28 \u203a typhoon-merbok-a...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qu04oAHoECBkQBQ\"><div id=\"KJnBZICdHO7h4-EP8uWu8AY__15\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Typhoon Merbok</b> spotlights Alaska's need for science and climate-resilient infrastructure. When the remnants of Typhoon Merbok were barreling toward western Alaska to unleash what turned out to be the region's strongest storm in more than half a century, meteorologists knew what was coming.</span></span><span class=\"kX21rb ZYHQ7e\">Sep 28, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Typhoon Merbok spotlights Alaska's need for science and climate-resilient infrastructure. When the remnants of Typhoon Merbok were barreling toward western Alaska to unleash what turned out to be the region's strongest storm in more than half a century, meteorologists knew what was coming.Sep 28, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What caused the Alaska storm?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+caused+the+Alaska+storm%3F&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qzmd6BAgaEAY",
+            "answer_source": "Alaska reels from historic storm that caused widespread flooding - Axios",
+            "answer_link": "https://www.axios.com/2022/09/19/alaska-historic-storm-flood-damage#:~:text=Our%20thought%20bubble%3A%20The%20Alaska,in%20parts%20of%20the%20Pacific.",
+            "answer_display_link": "https://www.axios.com \u203a 2022/09/19 \u203a alaska-historic-sto...https://www.axios.com \u203a 2022/09/19 \u203a alaska-historic-sto...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qu04oAHoECBoQBQ\"><div id=\"KJnBZICdHO7h4-EP8uWu8AY__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Our thought bubble: The Alaska storm resulted from <b>a rare combination of events that have a climate change tie</b>. It started with Typhoon Merbok, which formed in an unusual spot for this time of year, thanks to warmer than usual waters in parts of the Pacific.</span></span><span class=\"kX21rb ZYHQ7e\">Sep 18, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Our thought bubble: The Alaska storm resulted from a rare combination of events that have a climate change tie. It started with Typhoon Merbok, which formed in an unusual spot for this time of year, thanks to warmer than usual waters in parts of the Pacific.Sep 18, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What was the worst storm in Alaska history?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+storm+in+Alaska+history%3F&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qzmd6BAgbEAY",
+            "answer_source": "November 2011 Bering Sea cyclone - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/November_2011_Bering_Sea_cyclone#:~:text=December%207%2C%201950%3A%20Saw%20the,the%20far%20west%20Aleutian%20Islands.",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a November_2011_Berin...https://en.wikipedia.org \u203a wiki \u203a November_2011_Berin...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qu04oAHoECBsQBQ\"><div id=\"KJnBZICdHO7h4-EP8uWu8AY__21\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CB0QAA\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Q4dMGegQIHRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CB0QAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBYQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AVxFoo\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24QyQ0oAHoECBYQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;jBHpQA92vAvXLM;AVxFok\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"jBHpQA92vAvXLM\" data-lpage=\"https://en.wikipedia.org/wiki/November_2011_Bering_Sea_cyclone\" data-ni=\"1\" data-ref-docid=\"tncO775PJuUhMM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBcQAA\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qzkx6BAgXEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-4px;width:214px\" alt=\"November 2011 Bering Sea cyclone - Wikipedia\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVezdcrKCvOzVkF7kYkIhNp9nLpKeirBemVmSQ0log-g&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"KJnBZICdHO7h4-EP8uWu8AY__24\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>December 7, 1950</b>: Saw the strongest wind gust ever recorded in Alaska, with a maximum gust of 159 mph (256 km/h) measured at Attu in the far west Aleutian Islands.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "December 7, 1950: Saw the strongest wind gust ever recorded in Alaska, with a maximum gust of 159 mph (256 km/h) measured at Attu in the far west Aleutian Islands."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Where did Typhoon Merbok hit?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Where+did+Typhoon+Merbok+hit%3F&sa=X&ved=2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qzmd6BAgYEAY",
+            "answer_source": "Typhoon Merbok, fueled by unusually warm Pacific Ocean, pounded ...",
+            "answer_link": "https://theconversation.com/typhoon-merbok-fueled-by-unusually-warm-pacific-ocean-pounded-alaskas-vulnerable-coastal-communities-at-a-critical-time-190898#:~:text=The%20powerful%20remnants%20of%20Typhoon,berms%20as%20water%20flooded%20communities.",
+            "answer_display_link": "https://theconversation.com \u203a typhoon-merbok-fueled-b...https://theconversation.com \u203a typhoon-merbok-fueled-b...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwiA0Yaasa2AAxXu8DgGHfKyC24Qu04oAHoECBgQBQ\"><div id=\"KJnBZICdHO7h4-EP8uWu8AY__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The powerful remnants of Typhoon Merbok pounded Alaska's western coast on Sept. 17, 2022, pushing homes off their foundations and tearing apart protective berms as water flooded communities.</span></span><span class=\"kX21rb ZYHQ7e\">Sep 19, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The powerful remnants of Typhoon Merbok pounded Alaska's western coast on Sept. 17, 2022, pushing homes off their foundations and tearing apart protective berms as water flooded communities.Sep 19, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

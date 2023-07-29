@@ -1,0 +1,327 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 131000000,
+        "search_time": 0.41,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Arizona storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:07:43.043Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Arizona+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_sck1twc04pd"
+    },
+    "organic": [
+        {
+            "link": "https://www.fox10phoenix.com/news/monsoon-phoenix-area-watches-and-waits-as-parts-of-the-state-see-stormy-weather",
+            "display_link": "https://www.fox10phoenix.com \u203a news \u203a monsoon-phoe...",
+            "title": "Monsoon Watch: Blowing dust in far East Valley as storms ...",
+            "description": "In a video captured by University of Arizona cameras, a storm can be seen developing over the Tucson area during the afternoon hours of July 17.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.fox10phoenix.com/tag/weather",
+            "display_link": "https://www.fox10phoenix.com \u203a tag \u203a weather",
+            "title": "Weather",
+            "description": "Arizona weather forecast: The chance for rain begins to increase. Another day, another record! Phoenix Sky Harbor hit 119 degrees Tuesday afternoon. The ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Arizona+storm+%22article%22&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ5t4CegQIHBAB",
+                    "rank": 2
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.weather.gov/psr/Arizona_historic_storms",
+            "display_link": "https://www.weather.gov \u203a Arizona_historic_storms",
+            "title": "Historical Arizona Storms of the 20th Century",
+            "description": "Historical Arizona Storms of the 20th Century \u00b7 1916 Severe Winter Floods \u00b7 1962 Tropical Storm Claudia \u00b7 1964 San Xavier Tornado \u00b7 1965 Heavy Winter Rain and Snow.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.signalsaz.com/articles/arizona-monsoon-and-common-weather-occurrences/",
+            "display_link": "https://www.signalsaz.com \u203a articles \u203a arizona-monsoo...",
+            "title": "Arizona Monsoon and Common Weather Occurrences",
+            "description": "We start to see clouds buildup in the skies of Northern and Central Arizona and monsoon storms roll on through dropping much-needed moisture.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.azcentral.com/story/news/local/arizona-weather/2023/02/28/winter-storm-watch-heavy-snow-in-northern-arizona-rain-in-phoenix/69954393007/",
+            "display_link": "https://www.azcentral.com \u203a news \u203a local \u203a 2023/02/28",
+            "title": "Winter storm watch: Heavy snow in northern Arizona, rain ...",
+            "description": "Northern Arizona is expected to receive up to 22 inches of snow, while metro Phoenix will see strong wind gusts and the possibility of rain.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.12news.com/article/weather/live-blog-winds-picking-up-ahead-of-strong-storm-weather-forecast-recap/75-8081e249-4ace-43a6-8eae-2998a8a5c712",
+            "display_link": "https://www.12news.com \u203a article \u203a weather \u203a live-blo...",
+            "title": "RECAP: Arizona gets battered by winter storm",
+            "description": "PHOENIX \u2014 A massive winter storm hit Arizona on Wednesday, bringing high winds, heavy snow, and thunderstorms to the Valley.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.12news.com/article/weather/another-winter-storm-arizona-snow/75-3376be52-2798-4c67-9da0-41ff1c260372",
+            "display_link": "https://www.12news.com \u203a article \u203a weather \u203a another...",
+            "title": "Winter storm causes 'extreme weather conditions' in north ...",
+            "description": "ARIZONA, USA \u2014 Yet another winter storm has made it to Arizona, bringing snow and high winds to the Flagstaff area and rain to the Valley.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://ein.az.gov/hazards/dust-storms",
+            "display_link": "https://ein.az.gov \u203a hazards \u203a dust-storms",
+            "title": "Dust Storms - Arizona Emergency Information Network - az.gov",
+            "description": "Dust storms (also called \u201chaboobs\u201d) are unexpected, unpredictable and can sweep across Arizona's desert landscape at any time. Dust storms can be miles long ...",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?gl=us&hl=en&q=Arizona+storm+%22article%22&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ5t4CegQIQRAB",
+                    "rank": 2
+                }
+            ],
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://azclimate.asu.edu/weather/weather-safety/",
+            "display_link": "https://azclimate.asu.edu \u203a weather \u203a weather-safety",
+            "title": "Weather Safety | Arizona State Climate Office",
+            "description": "Arizona Weather Hazards \u00b7 Extreme Heat \u00b7 Lightning \u00b7 Flash Floods \u00b7 Dust Storms \u00b7 Wildfires \u00b7 Tornadoes \u00b7 Winter Storms \u00b7 Hail.",
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://apnews.com/article/weather-storms-arizona-natural-disasters-phoenix-237e967fa057de75dbc78d898a4834e6",
+            "display_link": "https://apnews.com \u203a article \u203a weather-storms-arizona-...",
+            "title": "Storm dumps heavy snow in northern Arizona, rain in desert",
+            "description": "A winter storm dumped several inches of snow in northern Arizona, and more is expected through the new year. (AP Photo/Felicia Fonseca).",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storms+in+Arizona+today&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg9EAE",
+            "text": "storms in arizona today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Dust+storm+Arizona+2023&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg8EAE",
+            "text": "dust storm arizona 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Dust+storm+in+Phoenix+TODAY&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg7EAE",
+            "text": "dust storm in phoenix today",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Dust+storm+in+Arizona+today&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg6EAE",
+            "text": "dust storm in arizona today",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Phoenix+storm+damage+today&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg5EAE",
+            "text": "phoenix storm damage today",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Types+of+storms+in+Arizona&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg4EAE",
+            "text": "types of storms in arizona",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Strongest+storm+heading+to+Arizona&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg2EAE",
+            "text": "strongest storm heading to arizona",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=When+was+the+last+Hurricane+in+Arizona&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ1QJ6BAg3EAE",
+            "text": "when was the last hurricane in arizona",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What is predicted for the monsoon in Arizona 2023?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+is+predicted+for+the+monsoon+in+Arizona+2023%3F&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzmd6BAgvEAY",
+            "answer_source": "Will the 2023 Arizona Monsoon Bring Another Summer of Rain?",
+            "answer_link": "https://www.signalsaz.com/articles/will-the-2023-arizona-monsoon-bring-another-summer-of-rain/",
+            "answer_display_link": "https://www.signalsaz.com \u203a articles \u203a will-the-2023-ariz...https://www.signalsaz.com \u203a articles \u203a will-the-2023-ariz...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC8QBQ\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQu04oAHoECC8QBQ\"><div id=\"LZnBZPL9IeHa1sQPlpOHUA__40\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">2023 Monsoon Outlook<br><br> Western Arizona (Lake Havasu, Kingman, and Yuma) are predicted to have <b>equal chances of a normal, dry, or wet monsoon season</b>.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 30, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "2023 Monsoon Outlook Western Arizona (Lake Havasu, Kingman, and Yuma) are predicted to have equal chances of a normal, dry, or wet monsoon season.Jun 30, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 7
+        },
+        {
+            "question": "What are Arizona storms called?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+are+Arizona+storms+called%3F&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzmd6BAgwEAY",
+            "answer_source": "Why do we call dust storms 'haboobs?' - ABC15 Arizona",
+            "answer_link": "https://www.abc15.com/weather/monsoon/arizona-monsoon-what-is-a-haboob",
+            "answer_display_link": "https://www.abc15.com \u203a weather \u203a monsoon \u203a arizona-...https://www.abc15.com \u203a weather \u203a monsoon \u203a arizona-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CDAQBQ\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQu04oAHoECDAQBQ\"><div id=\"LZnBZPL9IeHa1sQPlpOHUA__43\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDIQAA\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ4dMGegQIMhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCoQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AWAoxA\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQyQ0oAHoECCoQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;H63ee3-M8ulNsM;AWAow4\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"H63ee3-M8ulNsM\" data-lpage=\"https://www.abc15.com/weather/monsoon/arizona-monsoon-what-is-a-haboob\" data-ni=\"1\" data-ref-docid=\"5VS1KSVDEKdkmM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCgQAA\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzkx6BAgoEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-39px;width:285px\" alt=\"Why do we call dust storms 'haboobs?'\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVMD26_DtaIDggsPBT2vK9PU_rCjy1OGooMRbYDdfusg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"LZnBZPL9IeHa1sQPlpOHUA__46\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Dust storms</b> can be some of the most dramatic weather events we see in the Valley each year. Another word for a dust storm is \u201chaboob,\u201d which is Arabic for the word blown. Haboobs are giant walls of dust created from high winds rushing out of a collapsing thunderstorm.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 15, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Dust storms can be some of the most dramatic weather events we see in the Valley each year. Another word for a dust storm is \u201chaboob,\u201d which is Arabic for the word blown. Haboobs are giant walls of dust created from high winds rushing out of a collapsing thunderstorm.Jun 15, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 8
+        },
+        {
+            "question": "Why is Arizona so cold 2023?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Why+is+Arizona+so+cold+2023%3F&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzmd6BAgtEAY",
+            "answer_source": "March 2023 is coldest March on record for Phoenix in 30 years",
+            "answer_link": "https://www.azcentral.com/story/news/local/phoenix-weather/2023/04/01/march-2023-coldest-march-on-record-for-phoenix-since-turn-of-century/70071896007/",
+            "answer_display_link": "https://www.azcentral.com \u203a local \u203a phoenix-weatherhttps://www.azcentral.com \u203a local \u203a phoenix-weather",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC0QBQ\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQu04oAHoECC0QBQ\"><div id=\"LZnBZPL9IeHa1sQPlpOHUA__49\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The drop in this March's seasonal averages is the result of <b>several Pacific weather patterns that brought rain, winds and cool temperatures to the Valley as they moved over Arizona</b>, according to Sean Benedict, a meteorologist for the weather service in Phoenix.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 15, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The drop in this March's seasonal averages is the result of several Pacific weather patterns that brought rain, winds and cool temperatures to the Valley as they moved over Arizona, according to Sean Benedict, a meteorologist for the weather service in Phoenix.Mar 15, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 9
+        },
+        {
+            "question": "What was the worst disaster in Arizona?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+worst+disaster+in+Arizona%3F&sa=X&ved=2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzmd6BAguEAY",
+            "answer_source": "Natural Disasters in Arizona: What Are The Risks? - Primal Survivor",
+            "answer_link": "https://www.primalsurvivor.net/natural-disasters-arizona/",
+            "answer_display_link": "https://www.primalsurvivor.net \u203a natural-disasters-arizonahttps://www.primalsurvivor.net \u203a natural-disasters-arizona",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CC4QBQ\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQu04oAHoECC4QBQ\"><div id=\"LZnBZPL9IeHa1sQPlpOHUA__52\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CDEQAA\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQ4dMGegQIMRAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CDEQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCwQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AWAoxE\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQyQ0oAHoECCwQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;GzBAsFBNO_ExPM;AWAow8\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"GzBAsFBNO_ExPM\" data-lpage=\"https://www.primalsurvivor.net/natural-disasters-arizona/\" data-ni=\"1\" data-ref-docid=\"6l1B4gZnpNgIAM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CCkQAA\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQzkx6BAgpEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:159px;width:204px\"><img style=\"margin-left:-56px;width:318px\" alt=\"Natural Disasters in Arizona: What Are The Risks?\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRntUkrEn4UDBXQwjsFKW13OYqCc6lep33qB4n_imHlQ&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"LZnBZPL9IeHa1sQPlpOHUA__55\"><div class=\"wDYxhc\" data-md=\"83\"><div class=\"di3YZe\"><div class=\"co8aDb\" aria-level=\"3\" role=\"heading\"><b>Worst Natural Disasters in Arizona Since 2000</b></div><div class=\"RqBzHd\"><ul class=\"i8Z77e\"><li class=\"TrT0Xe\">2012 US Drought and Heat Wave: $38.7 billion and 123 deaths.</li><li class=\"TrT0Xe\">2017 Western Wildfires: $21.4 billion and 54 deaths.</li><li class=\"TrT0Xe\">2020 Western Wildfires: $18.4 billion and 46 deaths.</li><li class=\"TrT0Xe\">2011 Southern Plains/SW Drought and Heat Wave: $15.9 billion and 95 deaths.</li></ul><div class=\"u9iNfb\"><div class=\"ZGh7Vc\"><a class=\"truncation-information\" href=\"https://www.primalsurvivor.net/natural-disasters-arizona/\" data-jsarwt=\"1\" data-usg=\"AOvVaw3XBThzxm6RWLFD6SOkVCOp\" data-ved=\"2ahUKEwiyyL2csa2AAxVhrZUCHZbJAQoQnLoEegQIKxAB\">More items...</a></div><div class=\"rvIhN\">\u2022</div><div class=\"Od5Jsd\">Jun 7, 2023</div></div></div></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "unordered_list",
+                    "title": "Worst Natural Disasters in Arizona Since 2000",
+                    "items": [
+                        {
+                            "value": "2012 US Drought and Heat Wave: $38.7 billion and 123 deaths.",
+                            "rank": 1
+                        },
+                        {
+                            "value": "2017 Western Wildfires: $21.4 billion and 54 deaths.",
+                            "rank": 2
+                        },
+                        {
+                            "value": "2020 Western Wildfires: $18.4 billion and 46 deaths.",
+                            "rank": 3
+                        },
+                        {
+                            "value": "2011 Southern Plains/SW Drought and Heat Wave: $15.9 billion and 95 deaths.",
+                            "rank": 4
+                        }
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 10
+        }
+    ]
+}

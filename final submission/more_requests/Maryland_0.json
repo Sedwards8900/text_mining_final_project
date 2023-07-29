@@ -1,0 +1,125 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 101000000,
+        "search_time": 0.31,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Maryland storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:31:31.660Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Maryland+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/610.4.3.1.7 (KHTML, like Gecko) Version/14.0.3 Safari/610.4.3.1.7",
+        "request_id": "hl_c3a9eb28_y03vi3vtml"
+    },
+    "organic": [
+        {
+            "link": "https://www.foxweather.com/weather-news/severe-weather-threat-ohio-valley-gulf-coast-friday-saturday",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a severe-...",
+            "title": "Tornado confirmed in Maryland as storms move through I- ...",
+            "description": "The final day of a multiday severe weather event brought the threat of damaging winds and hail to millions from eastern Pennsylvania and New ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://justinweather.com/",
+            "display_link": "https://justinweather.com",
+            "title": "Just In Weather: Home",
+            "description": "July 25 NOAA Severe Storm Risk Today Then Our Heat Wave ... and sweatpants containing various maryland logo designs and the Faith in the Flakes emblem!",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://mde.maryland.gov/programs/water/stormwatermanagementprogram/pages/swm2007.aspx",
+            "display_link": "https://mde.maryland.gov \u203a water \u203a pages \u203a swm2007",
+            "title": "Maryland's Stormwater Management Act of 2007",
+            "description": "... the 2000 Maryland Stormwater Design Manual, and other guidance materials. Provisions of the Stormwater Management Act (Environment Article 4 \u00a7201.1 and ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wboc.com/news/maryland-observes-severe-storm-awareness-week/article_cffa0014-d7c8-11ed-9a29-1748d6b10fdd.html",
+            "display_link": "https://www.wboc.com \u203a news \u203a article_cffa0014-d7c8-1...",
+            "title": "Maryland Observes Severe Storm Awareness Week",
+            "description": "The Maryland Department of Emergency Management and the National Weather Service are urging Maryland natives and visitors to educate ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/List_of_Maryland_hurricanes_(1950%E2%80%93present)",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a List_of_Maryland_h...",
+            "title": "List of Maryland hurricanes (1950\u2013present)",
+            "description": "Article Talk. Language; Watch \u00b7 Edit. Since 1950, 143 known hurricanes, tropical storms and tropical depressions have affected the ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.nbcwashington.com/weather/national-weather-service-confirms-tornado-in-poolesville-during-saturdays-storms/3334431/",
+            "display_link": "https://www.nbcwashington.com \u203a weather \u203a national-...",
+            "title": "Tornado Touches Down in Poolesville, Maryland",
+            "description": "The National Weather Service says a tornado went through Poolesville, Maryland, during Saturday's severe afternoon storms.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.baltimorecountymd.gov/departments/environment/stormwater/",
+            "display_link": "https://www.baltimorecountymd.gov \u203a environment",
+            "title": "Stormwater Management",
+            "description": "To improve the effects of stormwater runoff, and thereby improve the quality of the Chesapeake Bay, the Maryland legislature passed the Storm Water ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://modernremodelingmd.com/storm/",
+            "display_link": "https://modernremodelingmd.com \u203a storm",
+            "title": "Storm Damage \u00b7 Modern Remodeling MD",
+            "description": "Maryland weather is known for its unpredictability and extremes, which makes our state one of the most prone to storm damage year-round.",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.mdrealtor.org/News-and-Events/Maryland-REALTORS-Online/a-hurricane-as-a-metaphor",
+            "display_link": "https://www.mdrealtor.org \u203a News-and-Events \u203a a-hur...",
+            "title": "Maryland REALTORS\u00ae Online | A Hurricane as a Metaphor",
+            "description": "Another useful article features the voices of our various local Government Affairs Directors (GADs). Lobby Day in Annapolis is coming soon on February 7. Read ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://health.frederickcountymd.gov/183/Severe-Weather",
+            "display_link": "https://health.frederickcountymd.gov \u203a Severe-Weather",
+            "title": "Severe Weather | Frederick County Health Department, MD",
+            "description": "Weather Related Health Message. ... As temperatures in Maryland start heating up, make sure to take the necessary precautions to avoid heat-related ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

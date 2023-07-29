@@ -1,0 +1,167 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29100000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Idaho storm article - Google Search",
+        "code_version": "1.105",
+        "timestamp": "2023-07-27T01:25:42.569Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Idaho+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/611.1.21.161.7 (KHTML, like Gecko) Version/14.1 Safari/611.1.21.161.7",
+        "request_id": "hl_c3a9eb28_vflwq9fwar"
+    },
+    "organic": [
+        {
+            "link": "https://www.idahopress.com/video-tuesdays-storm-rolls-through-boises-north-end/video_400afa40-0558-11ee-ad1e-7f13b5159fce.html",
+            "display_link": "https://www.idahopress.com \u203a video-tuesdays-storm-rolls...",
+            "title": "VIDEO: Tuesday's storm rolls through Boise's North End",
+            "description": "... \u00a9 Copyright 2023 Idaho Press 1618 N. Midland Blvd., Nampa, ID | Terms of Use | Privacy Policy. Powered by BLOX Content Management System ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "1 month ago",
+                    "rank": 1
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "0:17",
+            "duration_sec": 17,
+            "date": "1 month ago",
+            "source": "Idaho Press",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.mtexpress.com/news/environment/after-a-long-snowy-winter-storms-still-marching-into-south-central-idaho/article_c1e842e2-00ae-11ee-ad95-abd3f846f30e.html",
+            "display_link": "https://www.mtexpress.com \u203a news \u203a environment \u203a artic...",
+            "title": "After a long, snowy winter, storms still marching into south- ...",
+            "description": "Most of Idaho is likely to have normal precipitation over the next three months, the National Weather Service has predicted. Graphic courtesy of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.bigcountrynewsconnection.com/idaho/lewiston-police-city-crews-hard-at-work-after-friday-afternoon-storm-causes-flooding-on-many/article_4c8c624a-0715-11ee-8c8d-d71bc711fb9b.html",
+            "display_link": "https://www.bigcountrynewsconnection.com \u203a idaho \u203a ar...",
+            "title": "Lewiston Police, City Crews Hard at Work After Friday ...",
+            "description": "LEWISTON, ID - A heavy storm that moved through the Lewiston area Friday ... Photo showing flooding on Idaho Street in Lewiston on 6/9/23.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 9, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://eswl.com/26ssu/article.php?id=idaho-storm-soccer-players",
+            "display_link": "https://eswl.com \u203a article \u203a id=idaho-storm-soccer-play...",
+            "title": "idaho storm soccer players",
+            "description": "Idaho Storm Soccer is an Idaho Youth Soccer Association affiliated competitive soccer club in the Treasure Valley Area of Idaho (Boise, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "4 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.idahoares.info/current_weather.php",
+            "display_link": "https://www.idahoares.info \u203a current_weather",
+            "title": "Current Weather Information",
+            "description": "Coastal Flood Advisory. Costal Flood Statement. Costal Flood Warning. Coastal Flood Watch. Dense Fog Advisory. Dense Smoke Advisory. Dust Storm Warning.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.weather.gov/boi/",
+            "display_link": "https://www.weather.gov \u203a boi",
+            "title": "Boise, ID",
+            "description": "Click a location below for detailed forecast. Last Map Update: Wed, Jul. 26, 2023 at 6:40:05 pm MDT.",
+            "extensions": [
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 1
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Idaho+storm+%22article%22&sa=X&ved=2ahUKEwifk5293a2AAxUwmIkEHcFbBhk4CxDm3gJ6BAgVEAE",
+                    "rank": 2
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.idahomagazine.com/article/storm-on-the-salmon/",
+            "display_link": "https://www.idahomagazine.com \u203a Articles",
+            "title": "Storm on the Salmon",
+            "description": "And Flood on the Snake. By Ray Brooks. After a winter of drought, the Salmon River was running unusually low in late June 1994.",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://idahonews.com/",
+            "display_link": "https://idahonews.com",
+            "title": "KBOI: Boise News, Weather, Sports, Breaking News",
+            "description": "KBOI-TV CBS 2 covers news, sports, traffic, and weather in the Treasure Valley and Boise, Idaho and nearby communities, including Meridian, Nampa, ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://finance.yahoo.com/news/idaho-agency-asks-residents-consider-000215825.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a idaho-agency-asks...",
+            "title": "Idaho agency asks Boise residents to consider buying ...",
+            "description": "One storm dumped 1.47 inches of rain in parts of downtown Boise and 1.77 in the North End in less than 90 minutes.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.kpvi.com/news/local_news/severe-weather-strikes-east-idaho/article_7a001ef4-fa06-11ed-9ee5-c799008fe832.html",
+            "display_link": "https://www.kpvi.com \u203a severe-weather-strikes-east-idaho",
+            "title": "Severe weather strikes East Idaho | Local News",
+            "description": "Tuesday was a wild weather day across East Idaho. Thunderstorms produced flash flooding in Idaho Falls, Blackfoot, and Rexburg.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 24, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

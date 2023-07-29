@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 40500000,
+        "search_time": 0.4,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Hawaii storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:25:12.646Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Hawaii+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_dy2v7l1c87n"
+    },
+    "organic": [
+        {
+            "link": "https://fox59.com/news/national-world/dangerous-storm-socks-hawaiian-islands-may-last-until-wednesday/",
+            "display_link": "https://fox59.com \u203a news \u203a national-world \u203a dangerou...",
+            "title": "Dangerous storm socks Hawaiian Islands, may last until ...",
+            "description": "An unusually strong winter storm is clobbering the Hawaiian Islands and ... This is an archived article and the information in the article may be outdated.",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.scientificamerican.com/article/flooding-rains-and-blizzard-conditions-hit-hawaii/",
+            "display_link": "https://www.scientificamerican.com \u203a article \u203a floodin...",
+            "title": "Flooding Rains--and Blizzard Conditions--Hit Hawaii",
+            "description": "The primary climate signature of this storm is extreme precipitation and hurricane-force winds that are worsening flash flooding in coastal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://abcnews.go.com/US/wireStory/tropical-storm-calvin-passes-hawaii-leaving-minor-flooding-101504150",
+            "display_link": "https://abcnews.go.com \u203a wireStory \u203a tropical-storm-c...",
+            "title": "Tropical Storm Calvin passes over Hawaii and leaves minor ...",
+            "description": "Tropical Storm Calvin has brought high surf, heavy rain and gusts to parts of Hawaii's Big Island but left only minor flooding in its wake.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://nypost.com/2021/12/07/dangerous-storm-threatens-havoc-across-hawaiian-archipelago/",
+            "display_link": "https://nypost.com \u203a 2021/12/07 \u203a dangerous-storm-th...",
+            "title": "Dangerous storm threatens havoc across Hawaii",
+            "description": "Dangerous storm threatens havoc across Hawaii ... HONOLULU \u2014 From the empty shores of Oahu's Waikiki Beach to the snowy summit of the Big Island's ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 7, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.staradvertiser.com/2023/07/18/breaking-news/calvin-on-track-to-pound-hawaii-island-with-heavy-rain-high-winds/",
+            "display_link": "https://www.staradvertiser.com \u203a breaking-news \u203a calv...",
+            "title": "Calvin brings heavy rain, strong winds as it passes south of ...",
+            "description": "A flood watch is in effect through Wednesday afternoon for all Hawaiian islands as a weakening Tropical Storm Calvin moves west.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.kitv.com/news/tropical-storm-calvin-is-affecting-travel-for-hawaii-island/article_3df9bca8-2643-11ee-b3d3-33596e2fbac8.html",
+            "display_link": "https://www.kitv.com \u203a news \u203a article_3df9bca8-2643-1...",
+            "title": "Tropical Storm Calvin is affecting travel for Hawaii Island",
+            "description": "Two major airlines are preparing for Tropical Storm Calvin's impact on Hawaii Island for Wednesday. Hawaiian Airlines and Southwest issued ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnbc.com/2018/08/25/tropical-storm-lane-dumps-rain-on-hawaii-as-flood-hazard-lingers---.html",
+            "display_link": "https://www.cnbc.com \u203a 2018/08/25 \u203a tropical-storm-lan...",
+            "title": "Tropical storm Lane threatens more Hawaii floods before ...",
+            "description": "Tropical Storm Lane threatened to drench Hawaii's most populated island of Oahu on Saturday, after lingering just south of the U.S. state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 25, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.khon2.com/hawaii-hurricane/agencies-utilities-across-the-state-prepare-for-tropical-storm-calvin/",
+            "display_link": "https://www.khon2.com \u203a hawaii-hurricane \u203a agencies...",
+            "title": "Agencies, utilities across the state prepare for Tropical ...",
+            "description": "HONOLULU (KHON2) \u2014 The Hawaii Department of Transportation crews are focusing efforts on Hawaii Island County as floods and road closures ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.gohawaii.com/trip-planning/weather",
+            "display_link": "https://www.gohawaii.com \u203a trip-planning \u203a weather",
+            "title": "Weather in Hawaii",
+            "description": "It is this weather phenomenon that creates Hawai\u02bbi's rich, green, tropical environment. The wettest months are from November to March, but winter rains do not ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://kauainownews.com/2023/07/19/tropical-storm-calvin-passed-hawai%CA%BBi-island-overnight-continues-to-move-well-south-of-kaua%CA%BBi/",
+            "display_link": "https://kauainownews.com \u203a 2023/07/19 \u203a tropical-sto...",
+            "title": "UPDATE: Calvin no longer a tropical storm",
+            "description": "Tropical storm conditions have ended in Hawai\u02bbi. Locally gusty winds will likely continue today before easing tonight. ARTICLE CONTINUES ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

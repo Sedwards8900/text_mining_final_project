@@ -1,0 +1,171 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93100000,
+        "search_time": 0.51,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Texas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:49:24.931Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Texas+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.1.1 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_33wd5hgb72t"
+    },
+    "organic": [
+        {
+            "link": "https://abcnews.go.com/US/live-updates/texas-ice-storm/?id=96813963",
+            "display_link": "https://abcnews.go.com \u203a live-updates \u203a texas-ice-storm",
+            "title": "Texas ice storm updates: Over 350000 customers without power",
+            "description": "Millions of people are on alert for dangerously cold weather, ice and flooding. ... The ice storm that stretched from Texas to West Virginia has ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.worldscientific.com/doi/10.1142/S2345737621500226",
+            "display_link": "https://www.worldscientific.com \u203a doi",
+            "title": "Winter Storm Uri: A Test of Texas' Water Infrastructure and ...",
+            "description": "We synthesize the interconnected impacts of Texas' water and energy resources ... resilience to other extreme weather events not discussed in this paper.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://comptroller.texas.gov/economy/fiscal-notes/2021/oct/winter-storm-impact.php",
+            "display_link": "https://comptroller.texas.gov \u203a winter-storm-impact",
+            "title": "Winter Storm Uri 2021 - Texas Comptroller",
+            "description": "Winter Storm Uri, the severe weather event of February 2021, will long be etched into many Texans' minds. What might have been a rare opportunity for ...",
+            "subresults": [
+                {
+                    "link": "https://www.tdem.texas.gov/disasters/winter-storm-uri",
+                    "display_link": "https://www.tdem.texas.gov \u203a disasters \u203a winter-storm-...",
+                    "title": "Texas Severe Winter Storm DR-4586",
+                    "description": "Winter Storm Uri dumped record amounts of snow on Texas, with the frigid temperatures and severe weather impacting all 254 counties in the state in February ...",
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.pbs.org/wgbh/nova/article/texas-winter-storm-uri/",
+            "display_link": "https://www.pbs.org \u203a wgbh \u203a nova \u203a article \u203a texas-w...",
+            "title": "Why Texas was not prepared for Winter Storm Uri | NOVA",
+            "description": "Ice and snow cover plants in the Texas Hill Country on February 15, 2021. Winter storm Uri brought historic cold weather, power outages, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 25, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://environmentamerica.org/texas/center/articles/the-texas-freeze-timeline-of-events/",
+            "display_link": "https://environmentamerica.org \u203a center \u203a articles \u203a th...",
+            "title": "The Texas Freeze: Timeline of events",
+            "description": "In early February 2021, Winter Storm Uri hit Texas and crippled the state as temperatures dropped to as low as six degrees.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 31, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nature.com/articles/s41599-022-01353-8",
+            "display_link": "https://www.nature.com \u203a ... \u203a articles",
+            "title": "Community-scale big data reveals disparate impacts of the ...",
+            "description": "From February 13 through 17, 2021, a severe and icy winter storm, Winter Storm Uri, affected most of North America and the entire state of Texas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by CC Lee",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2022",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 27",
+                    "rank": 3
+                }
+            ],
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.chron.com/weather/article/texas-winter-storm-houston-17730646.php",
+            "display_link": "https://www.chron.com \u203a Weather | Chron",
+            "title": "Texas may see snow, hazardous winter storm in coming ...",
+            "description": "An incoming system will \"bring both rain and wintry precipitation\" to Texas on Tuesday, according to Space City Weather's Matt Lanza's Friday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.dallasnews.com/news/weather/2023/02/02/winter-storm-blamed-for-7-deaths-across-texas/",
+            "display_link": "https://www.dallasnews.com \u203a News \u203a Weather",
+            "title": "Winter storm blamed for 7 deaths across Texas",
+            "description": "AUSTIN, Texas (AP) \u2014 A mess of ice, sleet and snow lingered across much of the southern U.S. as thousands in Texas endured freezing ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.kvue.com/article/weather/tuesday-storms-hail-damaging-winds/269-f820eccd-83fa-46ab-a110-4a4afdbb3234",
+            "display_link": "https://www.kvue.com \u203a article \u203a weather \u203a tuesday-st...",
+            "title": "Central Texas strong storms with potential for hail - Austin",
+            "description": "AUSTIN, Texas \u2014 Editor's note: This article will no longer be updated. Further information regarding upcoming weather can be found here.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 23, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

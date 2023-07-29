@@ -1,0 +1,160 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 93400000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Connecticut storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:22:26.733Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Connecticut+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0.5 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_jq5o7agjbhd"
+    },
+    "organic": [
+        {
+            "link": "https://mansfieldct-history.org/80-years-ago-the-hurricane-of-1938-struck-connecticut/",
+            "display_link": "https://mansfieldct-history.org \u203a 80-years-ago-the-hurr...",
+            "title": "80 Years Ago: The Hurricane of 1938 Struck Connecticut",
+            "description": "For three hours, wind and rain ravaged the countryside. The wind averaged 110 mph, peaking at 180 mph. Four previous days of heavy rain had ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 18, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://connecticuthistory.org/topics-page/weather/",
+            "display_link": "https://connecticuthistory.org \u203a Topics",
+            "title": "Weather - Connecticut History | a CTHumanities Project",
+            "description": "In earlier centuries, foul weather could bring starvation, death at sea, and other grave. ... Articles. Shea, Jim. \u201cBlizzards: By Any Tally, 1888 Is First.",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://fairfieldmuseum.omeka.net/exhibits/show/risingtides/rising-tides/extreme-weather/connecticut-storms",
+            "display_link": "https://fairfieldmuseum.omeka.net \u203a extreme-weather",
+            "title": "A Century of Connecticut Storms \u00b7 Rising Tides",
+            "description": "A Century of Connecticut Storms \u00b7 Early Accounts \u00b7 1938, September 21: The Great New England Hurricane \u00b7 1944, September 14: The Great Atlantic Hurricane \u00b7 1954, ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.wfsb.com/",
+            "display_link": "https://www.wfsb.com",
+            "title": "WFSB Connecticut News, Weather and Sports",
+            "description": "WFSB - Connecticut News, Weather, Breaking News and Traffic.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://uwc.211ct.org/get-help/warmingcenters/",
+            "display_link": "https://uwc.211ct.org \u203a get-help \u203a warmingcenters",
+            "title": "Storm & Cold Weather Information",
+            "description": "Click on the links below for local, state and federal information and resources available to Connecticut residents regarding winter storm and extreme cold ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://a-z-animals.com/blog/the-biggest-april-snowstorm-in-connecticut-history-will-blow-your-mind/",
+            "display_link": "https://a-z-animals.com \u203a blog \u203a the-biggest-april-sno...",
+            "title": "The Biggest April Snowstorm in Connecticut History Will ...",
+            "description": "This storm cut off electricity to more than 300,000 people in the affected area. It also closed off roads and halted service at airports. In ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=B1F61T2-WrQ",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Possible strong to severe storms this afternoon in Connecticut",
+            "description": "Read the full forecast here: https://www.fox61.com/article/weather/forecast/hartford-new-haven-waterbury-weather-forecast-connecticut/520- ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "FOX 61",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "5 days ago",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "duration": "2:08",
+            "duration_sec": 128,
+            "author": "FOX 61",
+            "date": "5 days ago",
+            "source": "YouTube",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.politico.com/news/2022/12/27/connecticut-hurricane-sandy-recovery-00074134",
+            "display_link": "https://www.politico.com \u203a news \u203a 2022/12/27 \u203a conn...",
+            "title": "'This makes my brain hurt': Connecticut used disaster aid to ...",
+            "description": "Bridgeport homeowners were hit hard by Sandy, according to the state: The storm damaged 574 homes, the third-highest toll among Connecticut ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.darientimes.com/news/article/ct-weather-thunderstorms-rain-wind-today-17872864.php",
+            "display_link": "https://www.darientimes.com \u203a News",
+            "title": "NWS: Fierce winds, thunderstorms possible in CT",
+            "description": "The National Weather Service says there is a \"slight risk\" of severe thunderstorms with damaging winds Saturday night in Connecticut.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 1, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.sheltonherald.com/news/article/thunderstorm-watch-ct-weather-18259831.php",
+            "display_link": "https://www.sheltonherald.com \u203a News",
+            "title": "Flooding expected for some parts of CT amid ...",
+            "description": "Between 2 and 4 inches of rain had fallen in northwestern Hartford and Tolland counties as of 4:10 p.m. Tuesday, the weather service said. Rain ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

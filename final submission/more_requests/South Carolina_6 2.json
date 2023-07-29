@@ -1,0 +1,153 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 52700000,
+        "search_time": 0.49,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Carolina storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:46:29.237Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Carolina+storm+article&start=17&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/109.0",
+        "request_id": "hl_c3a9eb28_hc4x44c7w"
+    },
+    "organic": [
+        {
+            "link": "https://www.bloomberg.com/news/articles/2022-07-02/surprise-tropical-storm-colin-brings-rain-to-south-carolina",
+            "display_link": "https://www.bloomberg.com \u203a news \u203a articles \u203a surpris...",
+            "title": "Surprise Tropical Storm Colin Brings Rain to South Carolina",
+            "description": "This Article is for Subscribers Only. Tropical Storm Colin formed \u201cunexpectedly\u201d early Saturday along the South Carolina coast and will ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://muse.jhu.edu/article/429626/pdf",
+            "display_link": "https://muse.jhu.edu \u203a article \u203a pdf",
+            "title": "Hurricane Hugo and its Impact on South Carolina",
+            "description": "For additional information about this article. [ Access provided at 19 Jun 2023 04:21 ... In 1989 South Carolina was long overdue for a major hurricane; it.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by RL Janiskee",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1990",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 12",
+                    "rank": 3
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.thestate.com/news/weather-news/",
+            "display_link": "https://www.thestate.com \u203a news \u203a weather-news",
+            "title": "Columbia South Carolina Weather News & Reports",
+            "description": "Follow the latest Columbia, SC and the midlands South Carolina region weather updates, know when severe rain storms and hurricanes will hit the area.",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.postandcourier.com/hurricanewire/storm-atlantic-impact-south-carolina/article_36ebdf76-2af9-11ee-b99e-6b4b0a99ce0a.html",
+            "display_link": "https://www.postandcourier.com \u203a hurricanewire \u203a article...",
+            "title": "Storm in Atlantic not immediate concern for South Carolina",
+            "description": "Disturbance south of Bermuda could move close to US coast, but no immediate concern for SC \u00b7 Sign up for The Post and Courier's Hurricane Wire ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "1 day ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/Expect-Storm-Surge-15-20-Feet-Landfalling-Category-4-Storm-Carolinas",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a Expect-Stor...",
+            "title": "20 Feet in a Landfalling Category 4 Storm in the Carolinas",
+            "description": "If Florence hits the coast of North or South Carolina as a Category 3 or stronger hurricane, we should expect to see record storm surge heights, with a 15 ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.cityofgoosecreek.com/article/storm-aftermath-please-use-caution-county-provides-link-report-damage",
+            "display_link": "https://www.cityofgoosecreek.com \u203a article \u203a storm-aft...",
+            "title": "Please use caution; County provides link to report damage",
+            "description": "Please report storm damage to Berkeley County at this link: - Mon, ... A Hurricane Watch has been issued for South Carolina's Lowcountry, including Goose ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://scdhec.gov/news-releases/dhec-stresses-importance-being-prepared-severe-weather-hurricane-season-begins",
+            "display_link": "https://scdhec.gov \u203a news-releases \u203a dhec-stresses-imp...",
+            "title": "DHEC Stresses Importance of Being Prepared for Severe ...",
+            "description": "COLUMBIA, S.C. \u2013 The 2023 hurricane season officially began on June 1, and the South Carolina Department of Health and Control (DHEC) ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 7, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.nhc.noaa.gov/surge/",
+            "display_link": "https://www.nhc.noaa.gov \u203a surge",
+            "title": "Storm Surge Overview - National Hurricane Center",
+            "description": "Along the coast, storm surge is often the greatest threat to life and property ... Hugo impacted the southeastern United States, including South Carolina ...",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.dominionenergy.com/our-stories/south-carolina-storm-response",
+            "display_link": "https://www.dominionenergy.com \u203a Our Stories",
+            "title": "South Carolina Storm Response",
+            "description": "Article Summary \u00b7 Dominion Energy crews restore energy under challenging circumstances \u00b7 Energy restoration in coastal SC following Hurricane Ian ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 6, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.scemd.org/prepare/types-of-disasters/hurricanes/",
+            "display_link": "https://www.scemd.org \u203a prepare \u203a types-of-disasters",
+            "title": "Hurricanes",
+            "description": "The greatest threat to life and property associated with a hurricane and tropical storm is storm surge. Other effects include high winds, tornadoes, and inland ...",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

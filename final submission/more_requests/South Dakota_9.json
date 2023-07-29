@@ -1,0 +1,169 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 20700000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "South Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:48:17.378Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=South+Dakota+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_hufbb8v2fbi"
+    },
+    "organic": [
+        {
+            "link": "https://journals.ametsoc.org/view/journals/mwre/133/1/mwr-2856.1.xml",
+            "display_link": "https://journals.ametsoc.org \u203a mwre \u203a mwr-2856.1.xml",
+            "title": "The 30 May 1998 Spencer, South Dakota, Storm. Part II",
+            "description": "Abstract A violent supercell tornado passed through the town of Spencer, South Dakota, on the evening of 30 May 1998 producing large gradients in damage ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by J Wurman",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2005",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 187",
+                    "rank": 3
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://espnsiouxfalls.com/8-most-horrifying-disasters-that-happened-in-south-dakota/",
+            "display_link": "https://espnsiouxfalls.com \u203a 8-most-horrifying-disaster...",
+            "title": "8 of the Most Horrifying Natural Disasters in South Dakota",
+            "description": "How bad can the weather get in South Dakota? ... With destruction spanning 14 miles, this F4 tornado destroyed this community of 320, killing six ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 17, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.southdakotamagazine.com/farmhouse-refuge",
+            "display_link": "https://www.southdakotamagazine.com \u203a farmhouse-r...",
+            "title": "Farmhouse Refuge",
+            "description": "This storm that took place on March 2-5, 1966 took the lives of at least 18 people, and over 100,000 sheep, cattle and hogs. Winds blew with gusts up to 70 mph, ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.news8000.com/news/national-world/rare-clockwise-spinning-tornado-touches-down-in-south-dakota/article_27bc649d-2df6-511d-9a12-0a62455a59bf.html",
+            "display_link": "https://www.news8000.com \u203a news \u203a national-world \u203a ar...",
+            "title": "Rare, clockwise-spinning tornado touches down in South ...",
+            "description": "South Dakota doesn't get a lot of tornadoes, but a twister there last weekend was particularly rare \u2014 because it was spinning clockwise.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 19, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.sdhspress.com/journal/south-dakota-history-29-4/its-going-down-in-history-the-blizzards-of-1949/vol-29-no-4-its-going-down-in-history.pdf",
+            "display_link": "https://www.sdhspress.com \u203a journal \u203a vol-29-n...",
+            "title": "It's \"Going Down in History\": The Blizzards of 1949",
+            "description": "Tho.se who waited out the storm at home found themselves virtuat prisor^ers when the blizzard stoj:ped. Copyright \u00a9 2000 by the South Dakota State Historical ...",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.fox9.com/news/photographer-captures-wall-of-dust-in-south-dakota-as-storm-approaches",
+            "display_link": "https://www.fox9.com \u203a news \u203a photographer-captures-...",
+            "title": "Photographer captures wall of dust in South Dakota as storm ...",
+            "description": "article. A wall of clouds and dust can be seen in an image captured over South Dakota by Rayce Monahan. (FOX 9) - Inclement weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 12, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.ncronline.org/earthbeat/science/south-dakota-among-states-badly-hit-once-generation-storm",
+            "display_link": "https://www.ncronline.org \u203a earthbeat \u203a science \u203a sout...",
+            "title": "South Dakota is among states 'badly hit' by 'once-in-a- ...",
+            "description": "A man walks on the street as cars pass by in Amherst, N.Y., Dec. 26, 2022, during a deadly winter storm that hit the Buffalo region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.9news.com/article/weather/thursdays-dust-storm-compares-to-dust-bowl/73-bf4f994d-c7c0-42b3-9a61-236643f7a9a1",
+            "display_link": "https://www.9news.com \u203a article \u203a weather \u203a thursdays...",
+            "title": "South Dakota dust storm versus Dust Bowl - Denver",
+            "description": "Thursday's dust storm was caused by a line of thunderstorms called a derecho. Satellite images show lightning highlighting a squall line.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 16, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://hurricanes.einnews.com/state/southdakota",
+            "display_link": "https://hurricanes.einnews.com \u203a state \u203a southdakota",
+            "title": "South Dakota Hurricane Newswire - EIN Presswire",
+            "description": "Canva Record rainfall in every state Person with rain jacket in storm. Flooding is the most common and expensive natural disaster in the United States, costing ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.siouxfallslive.com/news/south-dakota/south-dakotas-weather-was-wild-in-2022-these-events-made-for-the-biggest-headlines",
+            "display_link": "https://www.siouxfallslive.com \u203a news \u203a south-dakota",
+            "title": "South Dakota's weather was wild in 2022. These events ...",
+            "description": "With temperatures peaking in the low-90s in Mitchell and Sioux Falls, a storm system pushed up from central Nebraska that would devastate ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

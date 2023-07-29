@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 135000000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "California storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:20:55.121Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=California+storm+article&start=18&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:111.0) Gecko/20100101 Firefox/111.0",
+        "request_id": "hl_c3a9eb28_patplp5d5w"
+    },
+    "organic": [
+        {
+            "link": "https://www.theguardian.com/us-news/2023/mar/29/powerful-storm-more-wind-rain-snow-california-damage",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a powe...",
+            "title": "Powerful storm brings more wind, rain and snow to California",
+            "description": "This article is more than 3 months old ... Storm impacts were more modest in southern California, where precipitation was expected to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.theguardian.com/us-news/2023/mar/12/california-suffers-power-losses-and-two-deaths-after-latest-storms",
+                    "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a califo...",
+                    "title": "Another 'atmospheric river' threatens to hit California as ...",
+                    "description": "This article is more than 4 months old ... Another \u201catmospheric river\u201d storm was expected to hit California on Monday, after thousands of ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 12, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.pbs.org/newshour/show/climate-change-increasing-chance-of-mega-storm-in-california-scientists-say",
+            "display_link": "https://www.pbs.org \u203a newshour \u203a show \u203a climate-cha...",
+            "title": "Climate change increasing chance of 'mega storm' in ...",
+            "description": "California is no stranger to extreme weather. It typically comes in the form of severe drought and wildfires, but a new study suggests the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.scientificamerican.com/article/why-california-is-being-deluged-by-atmospheric-rivers/",
+            "display_link": "https://www.scientificamerican.com \u203a article \u203a why-cal...",
+            "title": "Why California Is Being Deluged by Atmospheric Rivers",
+            "description": "California is taking a beating from what the National Weather Service has called a \u201cseemingly never ending parade\u201d of strong storm systems, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/01/11/california-storms-atmospheric-rivers-end/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/01/11 \u203a calif...",
+            "title": "California's onslaught of storms is far from over. Will it ever ...",
+            "description": "Storminess targets areas of Northern California through Friday. The National Weather Service's forecast for how much liquid-equivalent ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 10, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.washingtonpost.com/weather/2023/03/08/california-atmospheric-river-flood-threat/",
+                    "display_link": "https://www.washingtonpost.com \u203a 2023/03/08 \u203a calif...",
+                    "title": "California faces new cycle of storms with escalating flood ...",
+                    "description": "Gift Article. Share. Much of California enjoyed a relative lull Wednesday ahead of what could be another series of strong storms in a winter ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Mar 8, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 6,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.factcheck.org/2023/01/its-too-soon-to-attribute-the-california-storms-to-climate-change-experts-say/",
+            "display_link": "https://www.factcheck.org \u203a 2023/01 \u203a its-too-soon-to...",
+            "title": "It's Too Soon to Attribute the California Storms to Climate ...",
+            "description": "The relentless storms that hit California from Dec. 27 to Jan. 16 caused extreme flooding and extensive damage in most of the state, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 30, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.cbsnews.com/news/california-blizzards-floods-multistate-storm-los-angeles-snow/",
+            "display_link": "https://www.cbsnews.com \u203a U.S.",
+            "title": "California faces more blizzards, floods in multistate storm",
+            "description": "A powerful winter storm lashing California is still threatening floods, blizzards and avalanches while adding frigid temperatures to the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 25, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.cnbc.com/2023/01/04/california-braces-for-powerful-atmospheric-river-storm.html",
+            "display_link": "https://www.cnbc.com \u203a 2023/01/04 \u203a california-braces-f...",
+            "title": "California braces for powerful atmospheric river storm",
+            "description": "The new storm in California is part of a series of atmospheric river storms that climate scientists forecast will continue this month.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/01/11/california-storms-live-updates-damage-death-toll/11030769002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/01/11 \u203a cal...",
+            "title": "more flooding possible: California storm updates",
+            "description": "\"The atmospheric river has refocused over northern and central California,'' the National Weather Service said. \"Heavy rain on saturated soils ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 11, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 10
+        }
+    ]
+}

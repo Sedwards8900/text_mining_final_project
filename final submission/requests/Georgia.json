@@ -1,0 +1,313 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 78300000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Georgia storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:06.811Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Georgia+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:114.0) Gecko/20100101 Firefox/114.0",
+        "request_id": "hl_c3a9eb28_eq64v0xwgpw"
+    },
+    "organic": [
+        {
+            "link": "https://www.11alive.com/article/weather/severe-thunderstorms-metro-atlanta/85-a488ad40-1a8c-4dcc-a6be-29516fc043e8",
+            "display_link": "https://www.11alive.com \u203a article \u203a weather \u203a severe-thu...",
+            "title": "Strong storms leave damage across metro Atlanta and ...",
+            "description": "A round of severe storms is moving through metro Atlanta Thursday, ... thousands of Georgia Power customers are being impacted by outages.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.13wmaz.com/article/weather/strong-winds-knocks-down-trees-damages-homes-in-ga/93-e6a67f16-2ff6-40b7-a475-b70c7a8a409f",
+            "display_link": "https://www.13wmaz.com \u203a article \u203a weather \u203a strong-...",
+            "title": "Strong winds cause damage in Central GA",
+            "description": "MARSHALLVILLE, Ga. \u2014 A strong storm known as a MCS (Mesoscale Convective System), tracked across Central Georgia Friday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "4 days ago",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.13wmaz.com/article/weather/live-updates-road-closures-storm-damage-and-more-in-georgia/93-5d2eec04-a832-4319-8585-7f49e9f0b51d",
+                    "display_link": "https://www.13wmaz.com \u203a article \u203a weather \u203a live-up...",
+                    "title": "Road closures, storm damage and more in Central Georgia",
+                    "description": "Strong storms have moved through Central Georgia bringing damage to Macon, Milledgeville and other locations.",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jun 14, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://apnews.com/article/storms-tornadoes-damage-texas-georgia-alabama-7db6ee2cb28cca3794a7f074d3129071",
+            "display_link": "https://apnews.com \u203a article \u203a storms-tornadoes-damag...",
+            "title": "Punishing winds, possible tornadoes inflict damage as ...",
+            "description": "ALBANY, Ga. (AP) \u2014 Damaging winds and possible tornadoes toppled trees, damaged buildings and blew cars off a highway Wednesday as powerful ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 14, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.nbcnews.com/news/us-news/georgia-governor-issues-state-emergency-multiple-tornadoes-batter-stat-rcna76726",
+            "display_link": "https://www.nbcnews.com \u203a news \u203a us-news \u203a georgia-g...",
+            "title": "Georgia governor declares state of emergency after ...",
+            "description": "A severe storm system made its way into Georgia on Sunday, producing \"thunderstorms, high-velocity straight-line winds, and multiple tornadoes,\" ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 26, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.weather.gov/ffc/past_events",
+            "display_link": "https://www.weather.gov \u203a ffc \u203a past_events",
+            "title": "Past Weather Events Across North and Central Georgia",
+            "description": "Past Weather Events Across North and Central Georgia \u00b7 Remnants of Tropical Storm Fred Affect Georgia (August 17, 2021) \u00b7 May 3-4, 2021 Severe Thunderstorms (May ...",
+            "rank": 5,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.wjcl.com/article/georgia-tornadoes-weather-state-of-emergency/43426657",
+            "display_link": "https://www.wjcl.com \u203a article \u203a georgia-tornadoes-we...",
+            "title": "Georgia: State of emergency issued after deadly storms ...",
+            "description": "Georgia under state of emergency following storm system, tornadoes that killed nearly 30. Another round of severe thunderstorms may bring ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.nytimes.com/2023/01/13/us/tornado-storms-alabama-georgia.html",
+            "display_link": "https://www.nytimes.com \u203a 2023/01/13 \u203a tornado-storms...",
+            "title": "At Least 9 Dead After Tornadoes Shred Through Alabama ...",
+            "description": "Rescue and recovery efforts were underway after powerful storms spawned tornadoes and strong winds across Alabama, Georgia and Mississippi.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jan 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.nytimes.com/2023/01/12/us/tornadoes-severe-storms-weather-south.html",
+                    "display_link": "https://www.nytimes.com \u203a 2023/01/12 \u203a tornadoes-seve...",
+                    "title": "At Least 8 Are Killed as Severe Weather Sweeps the South",
+                    "description": "More than 6.8 million people across Alabama and Georgia had been under a tornado watch on Thursday, and the governors of both states ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jan 13, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 13,
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/georgia/articles/2022-12-21/georgia-leaders-warn-of-harm-from-storms-winds-and-cold",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Georgia News",
+            "title": "Georgia Leaders Warn of Harm From Storm's Winds and ...",
+            "description": "ATLANTA (AP) \u2014 Georgia officials are warning residents to take ... high winds and bitterly cold temperatures from an approaching winter storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Georgia+tornado+today&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAg3EAE",
+            "text": "georgia tornado today",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Tornado+in+georgia+june+25+2023&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAg2EAE",
+            "text": "tornado in georgia june 25 2023",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Georgia+tornado+yesterday&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAg1EAE",
+            "text": "georgia tornado yesterday",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Georgia+tornado+March+25,+2023&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAg0EAE",
+            "text": "georgia tornado march 25, 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Ga+tornado+damage&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAgzEAE",
+            "text": "ga tornado damage",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Georgia+Power&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAgyEAE",
+            "text": "georgia power",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Severe+weather+in+Georgia&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAgxEAE",
+            "text": "severe weather in georgia",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Central+Georgia+tornado&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ1QJ6BAgwEAE",
+            "text": "central georgia tornado",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Is Georgia a tornado alley?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Is+Georgia+a+tornado+alley%3F&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQzmd6BAgnEAY",
+            "answer_source": "Discover the Georgia Town Most Likely to Be Hit By a Tornado",
+            "answer_link": "https://a-z-animals.com/blog/discover-the-georgia-town-most-likely-to-be-hit-by-a-tornado/",
+            "answer_display_link": "https://a-z-animals.com \u203a blog \u203a discover-the-georgia-to...https://a-z-animals.com \u203a blog \u203a discover-the-georgia-to...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCcQBQ\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQu04oAHoECCcQBQ\"><div id=\"RZnBZIGqEfiUwbkP5cCImAM__15\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CBQQAA\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQ4dMGegQIFBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CBQQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBMQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AXJDhY\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQyQ0oAHoECBMQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;xQikjNu9Acy69M;AXJDg8\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"xQikjNu9Acy69M\" data-lpage=\"https://a-z-animals.com/blog/discover-the-georgia-town-most-likely-to-be-hit-by-a-tornado/\" data-ni=\"1\" data-ref-docid=\"5Go7iTBKURG_uM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBAQAA\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQzkx6BAgQEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-17px;width:241px\" alt=\"Discover the Georgia Town Most Likely to Be Hit By a Tornado ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWbVmpTKHfjFhB70fV8QliG4Q7xzInE1HyGSyIFTuD_Q&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"RZnBZIGqEfiUwbkP5cCImAM__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCoQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Although <b>Georgia is outside of tornado alley</b> (the midwest region in the US that sees the most tornadoes per year), the \u201cPeach State\u201d has its share of destructive tornadoes.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 21, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Although Georgia is outside of tornado alley (the midwest region in the US that sees the most tornadoes per year), the \u201cPeach State\u201d has its share of destructive tornadoes.Jun 21, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What storms does Georgia get?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=What+storms+does+Georgia+get%3F&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQzmd6BAgXEAY",
+            "answer_source": "Storms & Disasters | Georgia Emergency Management and ...",
+            "answer_link": "https://gema.georgia.gov/plan-prepare/storms-disasters",
+            "answer_display_link": "https://gema.georgia.gov \u203a plan-prepare \u203a storms-disastershttps://gema.georgia.gov \u203a plan-prepare \u203a storms-disasters",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBcQBQ\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQu04oAHoECBcQBQ\"><div id=\"RZnBZIGqEfiUwbkP5cCImAM__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBUQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Hurricanes</b>. As a coastal state, Georgia is particularly at risk for hurricanes. Storms that form in the southern Atlantic Ocean, Caribbean Sea and Gulf of Mexico have the potential to affect our state.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Hurricanes. As a coastal state, Georgia is particularly at risk for hurricanes. Storms that form in the southern Atlantic Ocean, Caribbean Sea and Gulf of Mexico have the potential to affect our state."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "Are there a lot of storms in Georgia?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Are+there+a+lot+of+storms+in+Georgia%3F&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQzmd6BAgYEAY",
+            "answer_source": "Severe Storm Climatology for North and Central Georgia",
+            "answer_link": "https://www.weather.gov/ffc/svrclimo",
+            "answer_display_link": "https://www.weather.gov \u203a ffc \u203a svrclimohttps://www.weather.gov \u203a ffc \u203a svrclimo",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBgQBQ\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQu04oAHoECBgQBQ\"><div id=\"RZnBZIGqEfiUwbkP5cCImAM__24\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBYQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Severe weather is common in Peachtree City's County Warning Area (CWA)</b>. Damaging thunderstorm winds, large hail, and tornadoes strike the area each year. Damaging winds occur, on average, 19 days per year.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Severe weather is common in Peachtree City's County Warning Area (CWA). Damaging thunderstorm winds, large hail, and tornadoes strike the area each year. Damaging winds occur, on average, 19 days per year."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "Did the tornado hit Cochran GA?",
+            "question_link": "https://www.google.com/search?sca_esv=551283584&hl=en&q=Did+the+tornado+hit+Cochran+GA%3F&sa=X&ved=2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQzmd6BAgpEAY",
+            "answer_source": "Tornado confirmed among Bleckley County's Thursday storm - WGXA",
+            "answer_link": "https://wgxa.tv/news/local/tornado-confirmed-among-bleckley-countys-thursday-storm",
+            "answer_display_link": "https://wgxa.tv \u203a news \u203a local \u203a tornado-confirmed-amo...https://wgxa.tv \u203a news \u203a local \u203a tornado-confirmed-amo...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CCkQBQ\" data-ved=\"2ahUKEwjB4OWnsa2AAxV4SjABHWUgAjMQu04oAHoECCkQBQ\"><div id=\"RZnBZIGqEfiUwbkP5cCImAM__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCwQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">According to the National Weather Service, <b>an EF-0 tornado touched down in the northeastern part of Cochran</b>, ripping the roof from a peanut stand near Dykes Street and the traveled northeast to Bleckley County High School, tearing siding from the gym.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 14, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "According to the National Weather Service, an EF-0 tornado touched down in the northeastern part of Cochran, ripping the roof from a peanut stand near Dykes Street and the traveled northeast to Bleckley County High School, tearing siding from the gym.Apr 14, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

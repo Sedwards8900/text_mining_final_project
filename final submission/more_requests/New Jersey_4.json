@@ -1,0 +1,152 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 84600000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "New Jersey storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:39:28.125Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=New+Jersey+storm+article&start=15&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_2humj02fkf9"
+    },
+    "organic": [
+        {
+            "link": "https://www.nbcnewyork.com/weather/weather-nyc-today-rain-tomorrow-cold-and-winter-storm-see-10-day-forecast-outlook-here/4114794/",
+            "display_link": "https://www.nbcnewyork.com \u203a weather \u203a weather-ny...",
+            "title": "Tornado Warning in NJ; NYC Weather Forecast Details Here",
+            "description": "Weather in NYC the next 10 days, from Brooklyn to Queens and the Bronx, looks iffy thanks to the winter storm. Here's the latest NYC ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnbc.com/2021/10/26/noreaster-spurs-rescues-in-new-jersey-as-areas-brace-for-hurricane-force-wind-gusts.html",
+            "display_link": "https://www.cnbc.com \u203a 2021/10/26 \u203a noreaster-spurs-re...",
+            "title": "Nor'easter spurs rescues in New Jersey as areas brace for ...",
+            "description": "And as the rain winds down, the winds were expected to wind up. Wind gusts of 30-40 mph were forecast for New York City, while Boston can expect ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 26, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://twitter.com/myWeatherNJ",
+            "display_link": "https://twitter.com \u203a myWeatherNJ",
+            "title": "Weather NJ (@myWeatherNJ) / Twitter",
+            "description": "A KABOOM warning has been issued for all parts of New Jersey along and SE of the ... I should have a winter storm article with initial impact map posted ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://impact.rutgers.edu/the-rising-tide/",
+            "display_link": "https://impact.rutgers.edu \u203a the-rising-tide",
+            "title": "Saving New Jersey from the Rising Tide - Rutgers Impact",
+            "description": "Rutgers experts provide recommendations to help New Jersey adapt to rising seas, flooding, storms and other threats from climate change.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.guttenbergnj.org/_Content/pdf/flyers/NJ-Hurricane-Survival-Guide.pdf",
+            "display_link": "https://www.guttenbergnj.org \u203a pdf \u203a flyers \u203a N...",
+            "title": "Hurricane Survival Guide for New Jersey",
+            "description": "Weather Service NYC (NE NJ Counties) - www.weather.gov/nyc ... National Weather Service NYC (for NE NJ Counties) ... Toilet paper & towelettes.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.palegaladvice.com/blog/ongoing-storm-rule-in-new-jersey/",
+            "display_link": "https://www.palegaladvice.com \u203a Philly Injury Blog",
+            "title": "Ongoing Storm Rule In New Jersey",
+            "description": "A recent court ruling helps people injured during snow and ice storms. Related Article: 2021 Ongoing Storm Rule Updated. icy sidewalk injury lawyer in new ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://floodlist.com/tag/new-jersey",
+            "display_link": "https://floodlist.com \u203a tag \u203a new-jersey",
+            "title": "New Jersey",
+            "description": "The storm brought heavy rainfall to the region before landfall. A record 1.94 inches (49.28 mm)\u2026 Read Full Article ...",
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.fox29.com/news/cleanup-underway-after-severe-storms-sweep-through-south-jersey",
+            "display_link": "https://www.fox29.com \u203a news \u203a cleanup-underway-afte...",
+            "title": "Cleanup underway, roads closed after severe storms ...",
+            "description": "MARLTON, N.J. - Cleanup is underway in parts of Southern New Jersey after damaging storms swept through the area on Tuesday evening.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 5, 2023",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=New+Jersey+storm+%22article%22&sa=X&ved=2ahUKEwjQ6fPG4K2AAxWkElkFHZh4AY44DxDm3gJ6BAgfEAE",
+                    "rank": 3
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://pix11.com/news/new-jersey-seeing-flooding-after-national-weather-service-set-alerts-for-nj-and-ny/",
+            "display_link": "https://pix11.com \u203a news \u203a new-jersey-seeing-floodin...",
+            "title": "Storms cause flooding in parts of New Jersey",
+            "description": "NEW YORK (PIX11) \u2014 The National Weather Service issued flooding advisories Saturday as a major storm pummeled the tri-state area with heavy ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://whyy.org/articles/cinnaminson-tornado-new-jersey-jackson-township-howell/",
+            "display_link": "https://whyy.org \u203a articles \u203a cinnaminson-tornado-new...",
+            "title": "4 tornadoes touch down in New Jersey: NWS",
+            "description": "The National Weather Service confirmed Sunday that tornadoes hit Cinnaminson, Jackson Township, and Howell Township, New Jersey.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

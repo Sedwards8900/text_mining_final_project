@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 18700000,
+        "search_time": 0.33,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oklahoma storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:44:11.235Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oklahoma+storm+article&start=20&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_1ddk3oum1ej"
+    },
+    "organic": [
+        {
+            "link": "https://timesofindia.indiatimes.com/world/us/tornadoes-strike-texas-oklahoma-more-storms-in-forecast/articleshow/91359307.cms",
+            "display_link": "https://timesofindia.indiatimes.com \u203a ... \u203a US News",
+            "title": "Tornadoes strike Texas, Oklahoma; more storms in forecast",
+            "description": "US News: SEMINOLE: A storm system spawned several tornadoes that whipped through areas of Texas and Oklahoma, causing damage to a school, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://yaleclimateconnections.org/2023/02/tornado-studded-thunderstorms-rake-west-texas-and-oklahoma/",
+            "display_link": "https://yaleclimateconnections.org \u203a 2023/02 \u203a tornad...",
+            "title": "Tornado-studded thunderstorms rake West Texas and ...",
+            "description": "A thunderstorm squall line moving at freight-train speeds ripped through the eastern Texas Panhandle and across Oklahoma on Sunday night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.foxweather.com/weather-news/tornado-norman-oklahoma-city-gust-114-memphis-texas-severe-thunderstorms-midwest",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a tornad...",
+            "title": "1 dead, 15 hurt as tornadoes tear through Oklahoma City ...",
+            "description": "FOX Weather's Brandy Campbell is in Norman, Oklahoma checking on residents and tornado damage after Sunday's severe weather. \"The windows ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/pii/S2212420915301138",
+            "display_link": "https://www.sciencedirect.com \u203a science \u203a article \u203a pii",
+            "title": "Oklahoma tornado risk and variability: A statistical model",
+            "description": "The limitations and uncertainties of developed model are also discussed. Previous article in issue; Next article ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by D Romanic",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2016",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 31",
+                    "rank": 3
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://news.okstate.edu/articles/agriculture/2020/stotts_tornado_prep.html",
+            "display_link": "https://news.okstate.edu \u203a articles \u203a stotts_tornado_prep",
+            "title": "Prepare for tornado season before the sirens sound",
+            "description": "Preparation is a key component of navigating post-tornado damage afterward. (Photo by Todd Johnson, Oklahoma State University Agricultural ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 11, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.wunderground.com/cat6/twisters-return-kansas-oklahoma-more-severe-weather-tap",
+            "display_link": "https://www.wunderground.com \u203a cat6 \u203a twisters-retur...",
+            "title": "Twisters Return to Kansas, Oklahoma; More Severe ...",
+            "description": "Twisters Return to Kansas, Oklahoma; More Severe Weather on Tap. Bob Henson \u00b7 May 2, 2018, 10:13 AM EDT. article image ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.5newsonline.com/article/weather/severe-weather/photos-severe-weather-debris-arkansas-oklahoma/527-f404af1c-6b4d-4826-bcbd-abe8a33b3cfb",
+            "display_link": "https://www.5newsonline.com \u203a article \u203a photos-sever...",
+            "title": "Photos: Severe weather debris in Arkansas and Oklahoma",
+            "description": "Related Articles. River Valley tornado hit early Father's Day morning \u00b7 Overnight severe weather leaves thousands without power.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.nationalgeographic.com/science/article/130521-oklahoma-city-tornado-natural-disasters-science",
+            "display_link": "https://www.nationalgeographic.com \u203a science \u203a article",
+            "title": "Oklahoma Tornado: Why So Destructive, Unpredictable?",
+            "description": "Hurricanes are relatively easy to predict, but not tornadoes. ... A massive tornado that tore through the Oklahoma City suburb of Moore on Monday ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 22, 2013",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.nbcdfw.com/news/local/texas-news/tornadoes-strike-texas-oklahoma-more-storms-in-forecast/2959781/",
+            "display_link": "https://www.nbcdfw.com \u203a news \u203a local \u203a texas-news",
+            "title": "Tornadoes Strike Texas, Oklahoma; More Storms in Forecast",
+            "description": "WATCH: Storms Bring Tornadoes and Chaos to South. Video shows a frightening scene in Oklahoma as drivers try to escape furious storm. Published ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 5, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.4029tv.com/article/tornado-storms-cause-damage-in-oklahoma/25365373",
+            "display_link": "https://www.4029tv.com \u203a article \u203a tornado-storms-ca...",
+            "title": "People wake up to tornado damage in Oklahoma",
+            "description": "Storms and a tornado caused widespread damage in eastern Oklahoma Friday night. Advertisement. A mobile home was destroyed off Highway 100 ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 3, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

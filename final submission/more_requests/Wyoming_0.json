@@ -1,0 +1,165 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 19300000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Wyoming storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:52:46.861Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Wyoming+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.3 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_y5b4c8fpoq"
+    },
+    "organic": [
+        {
+            "link": "https://weather.com/storms/winter/news/2023-03-31-snow-wind-blizzard-early-april-storm",
+            "display_link": "https://weather.com \u203a storms \u203a winter \u203a news \u203a 2023-0...",
+            "title": "Blizzard Sets Snowstorm Record In Casper, Wyoming",
+            "description": "This one was right out of the spring snowstorm textbook. Here were the highlights. - Articles from The Weather Channel | weather.com.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://oilcity.news/community/weather/2023/02/21/central-wyoming-braces-as-winter-storm-with-possibly-18-inches-of-snow-high-winds-approaches/",
+            "display_link": "https://oilcity.news \u203a Latest News",
+            "title": "Central Wyoming braces as winter storm with possibly 18 ...",
+            "description": "CASPER, Wyo. \u2013 Nearly all of Wyoming will be under winter storm or blizzard warnings as a significant storm makes its way through the state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 21, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.npr.org/2022/12/22/1144970060/winter-storm-holiday-travel",
+            "display_link": "https://www.npr.org \u203a 2022/12/22 \u203a winter-storm-holida...",
+            "title": "A massive U.S. winter storm makes holiday travel dangerous",
+            "description": "The cold front has moved so swiftly that temperatures across the Rocky Mountains plunged at record paces. On Wednesday night in Cheyenne, Wyo., ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nytimes.com/1875/11/20/archives/heavy-snowstorm-in-wyoming.html",
+            "display_link": "https://www.nytimes.com \u203a archives \u203a heavy-snowstorm-...",
+            "title": "HEAVY SNOW-STORM IN WYOMING.",
+            "description": "Full text is unavailable for this digitized archive article. Subscribers may view the full text of this article in its original form through TimesMachine.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/22/weather/winter-storm-us-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/02/22 \u203a winter-storm-us-we...",
+            "title": "Winter storm in the North and heat wave in the South ...",
+            "description": "Much of Montana, Wyoming and the Dakotas had temperatures below zero Wednesday afternoon, including minus 9 degrees in Cut Bank, Montana. At the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.axios.com/2023/02/22/massive-winter-storm-affects-lower-48-states-blizzard",
+            "display_link": "https://www.axios.com \u203a Energy & Environment",
+            "title": "\"Massive\" winter storm to impact entire Lower 48",
+            "description": "South of the wintry weather, temperatures could hit 80\u00b0F in Washington, ... into negative numbers in Montana and eventually Wyoming as well.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.bostonglobe.com/2022/12/22/nation/see-photos-videos-severe-winter-storm-hitting-states-like-colorado-wyoming/",
+            "display_link": "https://www.bostonglobe.com \u203a 2022/12/22 \u203a nation \u203a se...",
+            "title": "See photos and videos of the severe winter storm hitting ...",
+            "description": "States including Wyoming, Colorado, and Iowa experienced dramatic and even record-breaking temperature drops Thursday morning, as wind ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 22, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://globalnews.ca/tag/wyoming-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a wyoming-storm",
+            "title": "wyoming storm | News, Videos & Articles",
+            "description": "wyoming storm videos and latest news articles; GlobalNews.ca your source for the latest news on wyoming storm .",
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2021/mar/13/powerful-snow-storm-western-us-colorado-nebreska-wyoming",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a mar \u203a powe...",
+            "title": "Powerful snow storm with high winds headed toward ...",
+            "description": "Blizzard warnings issued for Wyoming and Nebraska and 2ft of snow expected in Colorado over the ... This article is more than 2 years old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 14, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2021/03/17/wyoming-cheyenne-blizzard-nws/",
+            "display_link": "https://www.washingtonpost.com \u203a 2021/03/17 \u203a wyo...",
+            "title": "Wyoming got buried beneath a record blizzard, trapping ...",
+            "description": "More than 30 inches of snow fell at the National Weather Service office, setting a new single-day record.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 17, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 51600000,
+        "search_time": 0.46,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Iowa storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:28:20.693Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Iowa+storm+article&start=13&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/606.1.36 (KHTML, like Gecko) Version/12.0.2 Safari/606.1.36",
+        "request_id": "hl_c3a9eb28_t5xubuln2fp"
+    },
+    "organic": [
+        {
+            "link": "https://www.mississippivalleypublishing.com/daily_gate/terrible-tempest-sweeps-through-keokuk/article_4d8d31c0-1691-11ee-acfc-d7054c516c13.html",
+            "display_link": "https://www.mississippivalleypublishing.com \u203a daily_gate",
+            "title": "Terrible tempest sweeps through Keokuk | Daily Gate City",
+            "description": "A severe storm lashed Keokuk Thursday morning, ... \u201cauthorized under Iowa state statute and will execute the expenditure of emergency funds ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 29, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://who13.com/news/severe-storm-risk-increasing-for-friday-afternoon/",
+            "display_link": "https://who13.com \u203a news \u203a severe-storm-risk-increasi...",
+            "title": "Tornado risk increasing in Iowa for Friday afternoon",
+            "description": "The risk of severe storms that include hail, damaging winds and tornados is increasing for much of Iowa this afternoon. The eastern half of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://nonpareilonline.com/news/local/weather/weather-forecast-iowa-storms-severe-cold-front/article_24b68a6c-df7d-53f2-bccf-6359e949aeae.html",
+            "display_link": "https://nonpareilonline.com \u203a news \u203a local \u203a weather \u203a ar...",
+            "title": "Severe storms possible in western Iowa Wednesday",
+            "description": "Stormy weather continues in Nebraska and western Iowa Wednesday; severe storms in spots \u00b7 States with the most severe summer weather \u00b7 States with ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.nssl.noaa.gov/education/svrwx101/tornadoes/",
+            "display_link": "https://www.nssl.noaa.gov \u203a svrwx101 \u203a tornadoes",
+            "title": "Severe Weather 101: Tornado Basics",
+            "description": "Basic information about tornadoes, from the NOAA National Severe Storms Laboratory. ... Nebraska, Iowa, Minnesota), tornado season is in June or July.",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.kaaltv.com/news/top-news/minnesota-iowa-slammed-with-severe-weather/",
+            "display_link": "https://www.kaaltv.com \u203a news \u203a top-news \u203a minnesot...",
+            "title": "Minnesota, Iowa slammed with severe weather - ABC 6 News",
+            "description": "In eastern Iowa, multiple tornadoes leaving a path of damage in their wake. Most of these weather impacts were seen south of the Minnesota state ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.theguardian.com/us-news/2020/aug/10/us-midwest-derecho-storm-widespread-damage",
+            "display_link": "https://www.theguardian.com \u203a us-news \u203a aug \u203a us-mi...",
+            "title": "Inland hurricane-like storm sweeps US midwest, leaving ...",
+            "description": "Destructive 'wall of wind' tears through Iowa and Chicago \u2013 video. US news. This article is more than 2 years old ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 11, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://weather.com/news/news/2022-03-06-iowa-tornadoes-severe-storms",
+            "display_link": "https://weather.com \u203a news \u203a news \u203a 2022-03-06-iowa-t...",
+            "title": "Iowa Tornadoes: Survivors Describe Storms, Aftermath",
+            "description": "Deadly tornadoes ripped through Iowa Saturday. Here's a look at some of the stories that emerged. - Articles from The Weather Channel ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 7, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.yahoo.com/lifestyle/second-round-severe-storms-could-125907282.html",
+            "display_link": "https://www.yahoo.com \u203a lifestyle \u203a second-round-sev...",
+            "title": "Multiple storms moved through Iowa Wednesday. ...",
+            "description": "Most of central Iowa is also under a severe thunderstorm watch until 11 ... This article originally appeared on Des Moines Register: Power ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 18
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-iowa-nebraska-storms-kansas-ee9378aae1cb74911e0f9842a01ccaa1",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-iowa-nebrask...",
+            "title": "At least 5 dead as Midwest rocked by hurricane-force winds",
+            "description": "Authorities say at least five people died when a powerful storm system ... hurricane-force winds and likely tornadoes in Nebraska, Iowa and ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 19
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Tornadoes in Iowa Leave at Least 7 Dead",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 8
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAIRABAQACAQQDAQEAAAAAAAAAAAECERIDEyExQVFhMnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A5zIDSlREVBVKiZTgLBAFHCMFRUTFQFReKYqCrTkeyEKKhHBVRriyjTEF/K56SvH0DzcoTs9jKocqNnKK02qVntUoNDRKrYKikSqlBUXGcqpQaRW0SjYq9hMMFw0ynsFRpjWU20xgNZd+m3Tx8MY26dQeV2NkFZVs4k4KuVUqIYNJVSs4qAvapWcVAXtUrMwazJW2Mq5kK1g2iXZguVUZyrw81BpjGuMRjG/TmvYKmO2vSx9+FY4xv08JAeKsJVSrJmUMFHEnBVRSYqAqKiIoFDZQ4BqiVQVUUiKlQUvD2zi8PNgOvGeq33OP6nDVxipiDfpZbkldGPpx9PHVdEyB5DKM77aZ1nfasiGRimcIAuHEw4CoqJioCjSqIGcI4BqSYqmnTnK+GTbof2Ds6WNkbyVnhWkoLnhUrPkOQPLVNihpWUmNDQpwAwEUmKA4qJikDVEnAUZAFHKmKgqmnTy43bKKgO7HPx4XM3HjnqK7gOvuDuOTnT5g+QadjkIrQ0nkOQHo9J5HyBUh6RyHMGkhs5nRzoNjY8zmYNgy5nzoNVRjzPuforbZ7Yd2fZd78B08j5OS9e/ET3sgd3KfY7kcHeyHdyvyDLyFBBIUAToaqjKJ1T0YsAp5Hgaxxno9T1oC3iOU+IfGDjiCeQ5KuE+BMJ8gnmXJfHEcMfvQI5HtXDH7Ptz7BGxtfb/R2/0Gextp259i4T7oJAAAAAAYQAAAs/5v+I+YAoozCAP4gAooAVCx/pcMAIcAAvkqAD//2Q==",
+            "image_alt": "Massive tornado rips through Iowa",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAIRABAQACAQQDAQEAAAAAAAAAAAECERIDEyExQVFhMnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A5zIDSlREVBVKiZTgLBAFHCMFRUTFQFReKYqCrTkeyEKKhHBVRriyjTEF/K56SvH0DzcoTs9jKocqNnKK02qVntUoNDRKrYKikSqlBUXGcqpQaRW0SjYq9hMMFw0ynsFRpjWU20xgNZd+m3Tx8MY26dQeV2NkFZVs4k4KuVUqIYNJVSs4qAvapWcVAXtUrMwazJW2Mq5kK1g2iXZguVUZyrw81BpjGuMRjG/TmvYKmO2vSx9+FY4xv08JAeKsJVSrJmUMFHEnBVRSYqAqKiIoFDZQ4BqiVQVUUiKlQUvD2zi8PNgOvGeq33OP6nDVxipiDfpZbkldGPpx9PHVdEyB5DKM77aZ1nfasiGRimcIAuHEw4CoqJioCjSqIGcI4BqSYqmnTnK+GTbof2Ds6WNkbyVnhWkoLnhUrPkOQPLVNihpWUmNDQpwAwEUmKA4qJikDVEnAUZAFHKmKgqmnTy43bKKgO7HPx4XM3HjnqK7gOvuDuOTnT5g+QadjkIrQ0nkOQHo9J5HyBUh6RyHMGkhs5nRzoNjY8zmYNgy5nzoNVRjzPuforbZ7Yd2fZd78B08j5OS9e/ET3sgd3KfY7kcHeyHdyvyDLyFBBIUAToaqjKJ1T0YsAp5Hgaxxno9T1oC3iOU+IfGDjiCeQ5KuE+BMJ8gnmXJfHEcMfvQI5HtXDH7Ptz7BGxtfb/R2/0Gextp259i4T7oJAAAAAAYQAAAs/5v+I+YAoozCAP4gAooAVCx/pcMAIcAAvkqAD//2Q==",
+            "rank": 2,
+            "global_rank": 9
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Derecho Leaves Trail Of Damage Across Illinois, Iowa ...",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 10
+        },
+        {
+            "tag": "Video",
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Multiple tornadoes reported across Iowa; forecast calls for more rain",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 11
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Ew1gP7WXuVTskZqthCBVLfeLRKOKK98hs2zK_fAppQ&s",
+            "image_alt": "Tornadoes and high winds hit central U.S.",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Ew1gP7WXuVTskZqthCBVLfeLRKOKK98hs2zK_fAppQ&s",
+            "rank": 5,
+            "global_rank": 12
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6bKL9Jao68xLELqDpkzq9JSLVa4tkjhkJ1iomRy8Vw&s",
+            "image_alt": "Severe thunderstorms in Sioux Falls, South Dakota illuminate sky with green  hue",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6bKL9Jao68xLELqDpkzq9JSLVa4tkjhkJ1iomRy8Vw&s",
+            "rank": 6,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlXuyGW6ntOpo5v1rSmwQt_NeEQDyj5VFV81V5tBkRZQ&s",
+            "image_alt": "7 tornadoes, EF-4 damage reported in Iowa on March 31 ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlXuyGW6ntOpo5v1rSmwQt_NeEQDyj5VFV81V5tBkRZQ&s",
+            "rank": 7,
+            "global_rank": 14
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPcHuFCyO4odrfeWLDVmshHH0V1eWs3wmKJGPGlFj60Q&s",
+            "image_alt": "Iowa storm damage clean up underway after 'off the charts ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPcHuFCyO4odrfeWLDVmshHH0V1eWs3wmKJGPGlFj60Q&s",
+            "rank": 8,
+            "global_rank": 15
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSH2uo_6k4EOMTvxr3ZNk1zdDfBqeRXGZkBhoFZX5-DQ&s",
+            "image_alt": "New and powerful storm system takes aim at storm-weary locations",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSH2uo_6k4EOMTvxr3ZNk1zdDfBqeRXGZkBhoFZX5-DQ&s",
+            "rank": 9,
+            "global_rank": 16
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYLWy3Kf2SMS4XNz2waGkLscCa-o0nmP4o9aHAedLiw&s",
+            "image_alt": "Tornado-Ravaged Iowa Towns Covered By Snow Less Than 48 ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYLWy3Kf2SMS4XNz2waGkLscCa-o0nmP4o9aHAedLiw&s",
+            "rank": 10,
+            "global_rank": 17
+        }
+    ]
+}

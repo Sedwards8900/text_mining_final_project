@@ -1,0 +1,359 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 382000000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Washington storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:11:04.454Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Washington+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/607.1.40 (KHTML, like Gecko) Version/12.1 Safari/607.1.40",
+        "request_id": "hl_c3a9eb28_qsrk4ev1qmf"
+    },
+    "organic": [
+        {
+            "link": "https://apnews.com/article/weather-oregon-natural-disasters-climate-and-environment-e17ab85e58c1f65b3e41935d1299b5de",
+            "display_link": "https://apnews.com \u203a article",
+            "title": "Deaths, flooding as storm hit Oregon and Washington state",
+            "description": "PORTLAND, Ore. (AP) \u2014 A winter storm that brought powerful wind gusts to Oregon on Tuesday caused at least two fatal car accidents that left ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.king5.com/article/weather/timeline-severe-winds-flooding-western-washington/281-f0d623ad-3e3c-4b57-8567-c35b9a779969",
+            "display_link": "https://www.king5.com \u203a article \u203a weather \u203a timeline-s...",
+            "title": "Severe winds, flooding impacting western Washington ...",
+            "description": "A strong storm system is expected to bring heavy rains that will exacerbate flooding concerns and increase the risk of mud and landslides.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.king5.com/article/weather/freezing-rain-snow-hazardous-travel-power-outages-western-washington/281-f28899a8-a811-47b1-9aba-d36239c98f8e",
+                    "display_link": "https://www.king5.com \u203a article \u203a weather \u203a freezing-r...",
+                    "title": "Freezing rain, snow on way to western Washington ...",
+                    "description": "SEATTLE \u2014 A winter storm that lingered through Friday is subsiding in western Washington. A Winter Storm Warning expired for the Puget Sound ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 22, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 3,
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.nytimes.com/2022/11/30/us/power-outage-winter-weather-northwest.html",
+            "display_link": "https://www.nytimes.com \u203a 2022/11/30 \u203a power-outage-...",
+            "title": "Power Outages Hit Northwest as Winter Storm Moves ...",
+            "description": "More than 70,000 customers across Washington and Oregon were still without power on Wednesday after strong winds and a winter storm slammed ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 30, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2022/12/08/winter-storm-blizzard-severe-weather/",
+            "display_link": "https://www.washingtonpost.com \u203a 2022/12/08 \u203a wint...",
+            "title": "A major storm is brewing for the western and central U.S.",
+            "description": "The storm will bring heavy rain and mountain snow to the Pacific Northwest and California between Saturday and Monday, before sweeping into the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 8, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.washingtonpost.com/weather/2022/12/20/blizzard-bomb-cyclone-cold-storm/",
+                    "display_link": "https://www.washingtonpost.com \u203a 2022/12/20 \u203a blizz...",
+                    "title": "Fierce 'bomb cyclone' to disrupt holiday travel, unleash ...",
+                    "description": "The storm could bring blizzard conditions, 'life-threatening' cold, extreme wind chills and travel headaches for large parts of the Lower 48 ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 20, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 10,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.wunderground.com/article/news/weather/news/2022-11-05-washington-oregon-british-columbia-power-outages-from-atmospheric",
+            "display_link": "https://www.wunderground.com \u203a weather \u203a news \u203a 2...",
+            "title": "Northwest Sees Brutal, Windy Storm That Downed Power ...",
+            "description": "More than 200,000 customers in the state of Washington were without power due to a storm that brought gusty winds, downing trees and power lines.",
+            "rank": 5,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.usnews.com/news/best-states/washington/articles/2022-12-19/winter-storm-warning-issued-for-seattle-western-washington",
+            "display_link": "https://www.usnews.com \u203a ... \u203a Washington News",
+            "title": "Winter Storm Warning Issued for Seattle, Western ...",
+            "description": "A winter storm warning has been issued for the city Seattle and much of Western Washington through Tuesday. By Associated Press.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.seattletimes.com/seattle-news/weather/after-wild-weather-day-in-western-wa-coastal-flood-warning-remains/",
+            "display_link": "https://www.seattletimes.com \u203a Local News \u203a Weather",
+            "title": "Wild weather calms in Western WA; forecasters warn of ...",
+            "description": "A break in steady rain on Wednesday reduced the threat of severe landslides on Thursday, according to the National Weather Service. A coastal ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 28, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "missing",
+                    "text": "article",
+                    "rank": 2
+                },
+                {
+                    "type": "must_include",
+                    "text": "article",
+                    "link": "https://www.google.com/search?hl=en&q=Washington+storm+%22article%22&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ5t4CegQIRBAB",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.krem.com/article/weather/wind-storm-impacts-washington-state-tuesday-night/293-2ca0c084-22df-47f6-88fe-28ce6d81d445",
+            "display_link": "https://www.krem.com \u203a article \u203a weather \u203a wind-stor...",
+            "title": "Wind Storm impacts Washington Tuesday night",
+            "description": "\u2014 A powerful low-pressure region spinning off the coast of Washington is creating high winds across the state, with the strongest impacts yet to ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 27, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Washington+State+weather&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg-EAE",
+            "text": "washington state weather",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Seattle+weather&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg7EAE",
+            "text": "seattle weather",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Washington+state+schools&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg5EAE",
+            "text": "washington state schools",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=KING+5+breaking+news+live&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg8EAE",
+            "text": "king 5 breaking news live",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Auburn,+Washington&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg1EAE",
+            "text": "auburn, washington",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=COVID+mandates+Washington+state&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg9EAE",
+            "text": "covid mandates washington state",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Vaccine+mandate+Washington+state&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg0EAE",
+            "text": "vaccine mandate washington state",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?hl=en&q=Washington+state+education+budget+cuts&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ1QJ6BAg6EAE",
+            "text": "washington state education budget cuts",
+            "rank": 8,
+            "global_rank": 22
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What was the biggest storm in Washington?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+was+the+biggest+storm+in+Washington%3F&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQzmd6BAgVEAY",
+            "answer_source": "Columbus Day Storm of 1962 - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Columbus_Day_Storm_of_1962",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Columbus_Day_Storm_...https://en.wikipedia.org \u203a wiki \u203a Columbus_Day_Storm_...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBUQBQ\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQu04oAHoECBUQBQ\"><div id=\"9pnBZIvrMtem5NoP_7Gb0As__15\"><div class=\"wDYxhc\" data-md=\"135\"><div class=\"Crs1tb\" data-hveid=\"CBoQAA\"><div class=\"iKJnec\" aria-level=\"3\" role=\"heading\">Columbus Day Storm of 1962</div><div class=\"webanswers-webanswers_table__webanswers-table\"><table><tbody><tr class=\"ztXv9\"><th colspan=\"2\" style=\"text-align:center;padding-left:0\">Surface Analysis of the storm near its peak intensity</th></tr><tr><td style=\"padding-left:0\"><b>Highest gust</b></td><td><b>170 mph (270 km/h) (while extratropical)</b></td></tr><tr><td style=\"padding-left:0\">Lowest pressure</td><td>948 mbar (28.0 inHg) (960 mbar (28 inHg) while extratropical)</td></tr><tr><td style=\"padding-left:0\">Fatalities</td><td>46 fatalities</td></tr><tr><td style=\"padding-left:0\">Damage</td><td>$230 million (1962 USD)</td></tr></tbody></table><a class=\"w13wLe\" href=\"https://en.wikipedia.org/wiki/Columbus_Day_Storm_of_1962\" data-jsarwt=\"1\" data-usg=\"AOvVaw1SZEPKdCGZUNL3yT6anbzw\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQnLoEegQIGhAB\">15 more rows</a></div></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "table",
+                    "title": "Columbus Day Storm of 1962",
+                    "table_title": "Surface Analysis of the storm near its peak intensity",
+                    "more_link": "https://en.wikipedia.org/wiki/Columbus_Day_Storm_of_1962",
+                    "more_text": "15 more rows",
+                    "items": [
+                        [
+                            {
+                                "text": "Highest gust"
+                            },
+                            {
+                                "text": "170 mph (270 km/h) (while extratropical)"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Lowest pressure"
+                            },
+                            {
+                                "text": "948 mbar (28.0 inHg) (960 mbar (28 inHg) while extratropical)"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Fatalities"
+                            },
+                            {
+                                "text": "46 fatalities"
+                            }
+                        ],
+                        [
+                            {
+                                "text": "Damage"
+                            },
+                            {
+                                "text": "$230 million (1962 USD)"
+                            }
+                        ]
+                    ],
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "question": "What kind of storms does Washington have?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+kind+of+storms+does+Washington+have%3F&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQzmd6BAgdEAY",
+            "answer_source": "Windstorms - Emergency Management - Seattle.gov",
+            "answer_link": "https://www.seattle.gov/emergency-management/hazards/windstorms#:~:text=The%20Puget%20Sound%20region%20experiences,are%20wider%20that%20tropical%20storms.",
+            "answer_display_link": "https://www.seattle.gov \u203a hazards \u203a windstormshttps://www.seattle.gov \u203a hazards \u203a windstorms",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB0QBQ\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQu04oAHoECB0QBQ\"><div id=\"9pnBZIvrMtem5NoP_7Gb0As__18\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCAQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The Puget Sound region experiences <b>strong windstorms, including ones with hurricane force winds known as mid-latitude cyclones</b>. These storms are wider that tropical storms.</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The Puget Sound region experiences strong windstorms, including ones with hurricane force winds known as mid-latitude cyclones. These storms are wider that tropical storms."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "question": "What is the National Weather Service Bomb Cyclone?",
+            "question_link": "https://www.google.com/search?hl=en&q=What+is+the+National+Weather+Service+Bomb+Cyclone%3F&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQzmd6BAgeEAY",
+            "answer_source": "How The California Bomb Cyclone Happened | Weather.com",
+            "answer_link": "https://weather.com/storms/severe/news/2023-03-22-california-bomb-cyclone#:~:text=Reports%20of%20strong%20winds%20or,%2C%202023%2C%20California%20bomb%20cyclone.&text=The%20term%20bomb%20cyclone%20has,often%20accompanied%20by%20strong%20winds.",
+            "answer_display_link": "https://weather.com \u203a storms \u203a severe \u203a news \u203a 2023-03-...https://weather.com \u203a storms \u203a severe \u203a news \u203a 2023-03-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB4QBQ\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQu04oAHoECB4QBQ\"><div id=\"9pnBZIvrMtem5NoP_7Gb0As__21\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCEQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Reports of strong winds or wind damage received by the National Weather Service during the <b>March 21, 2023</b>, California bomb cyclone. The term bomb cyclone has become an increasingly common phrase to describe powerful low-pressure systems that intensify rapidly and are often accompanied by strong winds.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 22, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Reports of strong winds or wind damage received by the National Weather Service during the March 21, 2023, California bomb cyclone. The term bomb cyclone has become an increasingly common phrase to describe powerful low-pressure systems that intensify rapidly and are often accompanied by strong winds.Mar 22, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "question": "How will the bomb cyclone affect Washington state?",
+            "question_link": "https://www.google.com/search?hl=en&q=How+will+the+bomb+cyclone+affect+Washington+state%3F&sa=X&ved=2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQzmd6BAgcEAY",
+            "answer_source": "Western Washington will feel affects of CA bomb cyclone",
+            "answer_link": "https://www.thenewstribune.com/news/weather-news/article270777017.html#:~:text=In%20Washington%2C%20the%20outer%20bands,space%2C%20is%20not%20a%20hurricane.",
+            "answer_display_link": "https://www.thenewstribune.com \u203a article270777017https://www.thenewstribune.com \u203a article270777017",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBwQBQ\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQu04oAHoECBwQBQ\"><div id=\"9pnBZIvrMtem5NoP_7Gb0As__24\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCQQAA\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQ4dMGegQIJBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCQQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CBgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;Afm7Z0\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQyQ0oAHoECBgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;Dt5kja0q-6o90M;Afm7Z8\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"Dt5kja0q-6o90M\" data-lpage=\"https://www.thenewstribune.com/news/weather-news/article270777017.html\" data-ni=\"1\" data-ref-docid=\"zlmAz_eB8IBIlM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBsQAA\" data-ved=\"2ahUKEwiLvrr8sa2AAxVXE1kFHf_YBroQzkx6BAgbEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-25px;width:257px\" alt=\"Western Washington will feel affects of CA bomb cyclone ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTATBo4H3Zj4RYPzZOXgLMeobkHxDO5Kz-zQOTrYPJNg&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"9pnBZIvrMtem5NoP_7Gb0As__27\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CCMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">In Washington, <b>the outer bands of the counter-clockwise-spinning cyclone will swing in from the east bringing sustained winds of 30-40 miles per hour and gusts up to 55 miles per hour</b>, Kristell said. A bomb cyclone, which often looks like a cresting wave from space, is not a hurricane.</span></span><span class=\"kX21rb ZYHQ7e\">Jan 5, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "In Washington, the outer bands of the counter-clockwise-spinning cyclone will swing in from the east bringing sustained winds of 30-40 miles per hour and gusts up to 55 miles per hour, Kristell said. A bomb cyclone, which often looks like a cresting wave from space, is not a hurricane.Jan 5, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        }
+    ]
+}

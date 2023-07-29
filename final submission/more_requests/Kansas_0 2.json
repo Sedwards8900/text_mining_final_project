@@ -1,0 +1,232 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 29900000,
+        "search_time": 0.43,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Kansas storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:29:11.856Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Kansas+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:110.0) Gecko/20100101 Firefox/110.0",
+        "request_id": "hl_c3a9eb28_8qd9vsp1tgx"
+    },
+    "organic": [
+        {
+            "link": "https://abc7ny.com/norman-oklahoma-tornado-kansas-weather/12888537/",
+            "display_link": "https://abc7ny.com \u203a norman-oklahoma-tornado-kans...",
+            "title": "Tornadoes touch down in Oklahoma, Kansas as massive ...",
+            "description": "At least nine tornadoes were reported in Kansas and Oklahoma on Sunday night as a massive winter storm moves east across the U.S..",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nytimes.com/2021/12/15/us/kansas-fire-wind-storm.html",
+            "display_link": "https://www.nytimes.com \u203a 2021/12/15 \u203a kansas-fire-win...",
+            "title": "Winds in Kansas Whip Up Wildfires and Dust Storms",
+            "description": "Give this article ... Time-Lapse Shows Storm Sweeping Across Kansas ... High winds in Kansas caused dust storms and knocked over power lines ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 15, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://apnews.com/article/tornadoes-iowa-nebraska-storms-kansas-ee9378aae1cb74911e0f9842a01ccaa1",
+            "display_link": "https://apnews.com \u203a article \u203a tornadoes-iowa-nebrask...",
+            "title": "At least 5 dead as Midwest rocked by hurricane-force winds",
+            "description": "Authorities say at least five people died when a powerful storm system ... In southwestern Kansas, blinding dust kicked up by the storms ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://apnews.com/article/texas-storms-weather-kansas-city-climate-and-environment-b4542df736f408baee7e29759ffd5fc5",
+                    "display_link": "https://apnews.com \u203a article \u203a texas-storms-weather-ka...",
+                    "title": "US braces for dangerous blast of cold, wind and snow",
+                    "description": "KANSAS CITY, Mo. (AP) \u2014 A large swath of the U.S. braced for a dangerous mix of sub-zero temperatures, howling winds and blizzard conditions ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 20, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 4,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/27/weather/winter-storm-us-monday/index.html",
+            "display_link": "https://www.cnn.com \u203a weather \u203a winter-storm-us-monday",
+            "title": "Tornadoes and severe winds strike central US as another ...",
+            "description": "As severe storms prompted at least nine tornado reports in parts ... Two tornadoes were reported in Kansas and Missouri, and one in Texas.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 15
+        },
+        {
+            "link": "https://theconversation.com/hurricane-force-wind-gusts-in-colorado-dust-storms-in-kansas-tornadoes-in-iowa-in-december-heres-what-fueled-a-day-of-extreme-storms-173904",
+            "display_link": "https://theconversation.com \u203a hurricane-force-wind-gu...",
+            "title": "Hurricane-force wind gusts in Colorado, dust storms ...",
+            "description": "This article was updated with a National Weather Service meteorologist describing the storm as a \u201cserial derecho.\u201d Weather \u00b7 Extreme weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 16, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 16
+        },
+        {
+            "link": "https://finance.yahoo.com/news/storm-producing-strong-winds-damaging-130342403.html",
+            "display_link": "https://finance.yahoo.com \u203a news \u203a storm-producing-s...",
+            "title": "Storm producing strong winds, damaging hail could hit ...",
+            "description": "Kansas City Star McClatchy Articles. Kansas City Star McClatchy Articles. Car plunges off I-435 overpass during Kansas ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 17
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2020/07/02/unpredicted-tornado-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2020/07/02 \u203a unpr...",
+            "title": "Southwestern Kansas sees tornado after forecast for no ...",
+            "description": "There was a zero percent chance of rain or severe storms. Then a tornado touched down. Meteorologists say the Kansas storm was completely ' ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 2, 2020",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 18
+        },
+        {
+            "link": "https://kids.nationalgeographic.com/science/article/tornado",
+            "display_link": "https://kids.nationalgeographic.com \u203a article \u203a tornado",
+            "title": "Tornadoes",
+            "description": "Though the storms can happen at any time of the year, tornado season in Texas, Oklahoma, and Kansas occurs in May through early June.",
+            "rank": 8,
+            "global_rank": 19
+        }
+    ],
+    "images": [
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Twisters Return to Kansas, Oklahoma; More Severe Weather on ...",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QANRAAAgIBAgMGBAUCBwAAAAAAAAECEQMhMQQSQQUTIlFhkRVScYEUMkKh0YKSIzNDU2Jy4f/EABkBAQEBAQEBAAAAAAAAAAAAAAEAAgMFBP/EABsRAQEBAQADAQAAAAAAAAAAAAARARITIVEC/9oADAMBAAIRAxEAPwBXJYLxs7j7NpNJWzHk4WXPTjR1cnMcWVRtnw0o3oLfDz8iLK0VRpeGXkA8bXQEQ0C0PcAHAiWQJxKokGicpbRRJKouLoFlEhSYtyaCL+upAHNe4LQ5KPki24+SJM1Famh8oOiIEq/IYk30JeoalYp7nmXNvqBKKburZbaTJzpGW2PJNQnql7FucO7pU/QPLiWVPRe4EODyW3GUYp9CRKzYVPxQVfUdPHwk9pR12AydkOacnm8XkolrszFFcrcpP6ggS7NhLRNX5GLP2fPG9jXjWXhc7cHzpacsvI3ucc8WkuWXqSeblw0l0FSxNdDu8RwsoQ18bfuYocPknl5YrT1iKcxwYDgdvH2asydSprpRkzcJKEmmnp1JOa4lUaZ4xTgSLopoNwK5aIFNsqxklYPIxQbJVhLHbD5K2IA5VW+oNUx7gqu9QHEk9TPNS3sGOe3q6MLnZLEuljy2/Q1Qmq3ONGbQ+GdoyXVWVLSyp5oxi2c6OfxahScZu5O/QCriOJjKacYp1uFjnDIueKanHy6i8vB48lOK5ZegnDF4MvJkTae0kSdjH/iqsiTobDHCCqKoRimlFKxjyLzAmOkltp6GfMoTVSSJPLp6GXJlskCfB4ZS2oyZOCjG61NcXbG0VDlfD5z2Rnnwck2uXY76lS0ByRjLXYannJcNNfpBfDZErcWkeilihKK9BU1FpppMqHA5GugPKdTJGOyRmljtv0EMbsFml4ZPZWRcLkf6RDWg0BZaZE1BIWg0gaEmEpNFJF0ZJkczQSy63SsTRGipjT39lPNpuZrZVsKo0PNaqxXOArLoqodCQzvFRntoq2VUaYysbGmjGpNBxz09yB804/QU2mMjmUheat9hEDeON6WzBxbc8ijCKSGyk4umLlkt60IXw2CcL56XkaHNLoZu+pA95fUgnK09UFytHQ5FJbFPEmqasaWFOhkdRn4flV823QqEPEGtYOMbDUA4RpDFRlopYgZQoe5IRkzK6AluJFEtTTL7yKQJFEhTyoF5VuyQminS3FSz70Ilkbe4hpnkUI6iO8FuUpaSdgt+Qg+OflY95O8Ss5sp8qsrHxc09NhDbxGRRjS1MblqVLM57gXYhcpE5wWUTL0qhYnLzwTVu/OjUm70QTarVX9iactT6MJToLiYVPRaMTKLV+gE15vUCXENbCr8wHqwJks0nsBzSkTTSxsEuYGi4qbegzlDVRe6KlkjFb6gQd3e4E0loFzOTfQTJuUqsgj3oCRc9JJLV2DkpS3+oha1RaVoqOSCW4qWanoSDmWrQrYKcnJ2VRplaJZEiUIQhKLRJ6VSL50YlxuD/eh7klxuCK/zU/pqZpjVkUZ7i+5gZfiOC65pf2lrtHB87X1iyuGafPBHl8O5kfD5E6HLjcDbSyx09SnxeHplg/uVUIlhnF6qwXklHTqPnxOPlvnVGZ5cc34Zxf3C4gPK2/EwHmXMrYc4xa0MeRJt+Jab67D6VPycX4ag9RX4l7paiHHy2J6F6I5cRO27pi3mk3q7ZKsBxbeiL0DYyd2XzAqL8icoo2OoYqOwaZAdFgtksEuiFWSyTauysGv+Gl93/IfwzFvS9maX6xfuVaXl92eb3r65jM+y8VLwQf2DXZuJfogOcorZRLT61FMPJqmErs7F0xw9ifgF0jjX2HuUujS+pG5v9SLvTGLL2NjzNOcnaVeGXKgfgfDt+Lmfr3jN3eRj+bJAt54VpkiPk0TGRdj4UqV16zZcex+HgqjF/wB8h74nGv8AWenki48TF7Tl7F5NUwr4Xj+Ve7C+HxW8L+7/AJHfiVsud+tFwzuWvLNfYz2phHw/H1gv3Bn2didKULXpf8mvvZV+WW/kXHJN7xfsPSmMHwvh7T7tpram9P3C+HYY9J/3M6HeS1uJfeX0oe9+rnHNfA4k21B3/wBmV+DxNfka/qOk8n/FP7FucK8UV7F3v0c45D4HEtu9X9QL4LF8+VfV/wDh1+bH8ka9in3S/RS+tD3+vo5xx/wUb0yz/Yp8D8uaX3SOxyYZdP3B7vhpPSSVfQfJ+vq5xlrRluK5dkQhxIsaTg7Q5Qj8q38iEIglCNflW/kX3cPkj7EIRXHFj+SPsGsWNRdQjv5EIIWox10XsXFKmQhFTZKtKyyEhArdkIBH0ItiyCipN94tS8b0IQAib0V9CnsyEJLxpVsi3o3WhCCH/9k=",
+            "rank": 1,
+            "global_rank": 5
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Storm reports; Severe weather affecting parts of Kansas",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 6
+        },
+        {
+            "image": "data:image/jpeg;base64,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",
+            "image_alt": "Severe weather reported across Kansas",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAvEAACAgEDAwEGBQUAAAAAAAAAAQIREgMhMRNBUWEiMjNicYEEFHKRoSMkQlLw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAASEQH/2gAMAwEAAhEDEQA/ALZhWoQyNkdmHRmbMgpBysC2YeoRsNgV6gMidmsClhslYbArkHL1I5ByArkayWQcgHsGQlgAfI2fqIEB82B6jXYQDYFupsmu5uoSb9hfUXICbhJcphjptnS9RMSUq4ATospCCUWmL1DdQDYWx1ppcsTP1A9TYB9RLsSA9Qm9QB2wZE3MGQFsgqRDIOQHQmayHUN1SDoBZFaw3UQD5GyJ5oVzAo5Ct+HRPMGYHRKX9KP1EyFcv6EX8zJ5AdLbBbrc63FeASjcWio4pSoXNlJ6ErJvRkFL1GB6jG6MxZ6Uo8gDMDkKAgazWKYB7BkJYbvgBsjWKot9ii03XICWHNjdN+QdNgDJgtjdNmwAWzWNiBxAo3/bR/UyVlcX+XS+YliB7DAwgNIDJtFGBkE6Fkr5KCsKhPSirZzSVM7JcEJ0BEAzMkQKo2WhBIVIdMBkggCAGYwAMAJgABRb8fuYwDuD6aW3PkTH5or7jP4a+ohB6dgNYGzSNYGzWKwMxWwsSb2CpzZGTHkI+CBAm7AICmMmIMgKIIqYyAwDWYDAMAoxjAAd/CX1EHfwV+onZB2fmdP1/YH5jT8/wcTi/LCslxv9znfW5da19NJJv+ArWg+5x7/8ze16i+kux6kezFlJPuc3t9xW3dWxfSVpVYjYq9WBqxZIhQqtAbf0FknoHcW5Lhjpy7i1kMqHhK2C34QE/oLSTZLyaxZP6AsWSewWJZrvsWyT3sButxbXgDx8WKSVnJdBO/8AInY7UX+GjsqyJ4x7IUstmZMr0Zf6sy09R3jps5tpNsyk+50vQmkk4q368GX4aVXKkBz5Gq+x1r8LGqclYvRhFe8Bzb+Dc9joS013sDcE6adgQ+wFG3wdCUecWaoretgIOFdgYsukpLhX4AtO+1BEaZsGU6bXKMlXKQEqfqMoMp7N70u3Jm4VswErYCQVKPcpCWlVugJYgxb4KzemuGvsHS1dOt1uv5ADS/KxXzE4wsrenTkpbeCK1sXsNR2z1nB0uDS1skqtHPqPZciObUSNOuGpu03f24NqST73Zywm+w0tRvtQFdOVWy3V9ng5IyHsCnU23Qerw0lZGUqAppgVlJ4OqsWNOLc7v0JuSphhNYgxaTjjSFi4wVNWJnQG7Bh9SpO06ESre97AwxVMGNqqCipY79zRWlJbWmxnw0+BVGKSrsDE9XTS3TNpQjNu9iqaumBqKYMaWhCvZkFaSini+UJqScXQ/KW4DP8ADwwqTqXY5J6LVYnY5WqYqp9gmNL4aIS5ZjFVo+8U8mMAkxocGMQLqcGMYKHZgjwYwGfJSPADBDT95DLgxgMwS7GMBN+8UlygGAXV4KL3ImMBTS31YX5JP4kgmA//2Q==",
+            "image_alt": "Kansas tornado generated 165 mph winds as it destroyed homes ...",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXwBFRcXHhoeOyEhO3xTRlN8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fP/AABEIAIIArgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAABAgMABAX/xAAvEAACAgEDAwEGBQUAAAAAAAAAAQIREgMhMRNBUWEiMjNicYEEFHKRoSMkQlLw/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAASEQH/2gAMAwEAAhEDEQA/ALZhWoQyNkdmHRmbMgpBysC2YeoRsNgV6gMidmsClhslYbArkHL1I5ByArkayWQcgHsGQlgAfI2fqIEB82B6jXYQDYFupsmu5uoSb9hfUXICbhJcphjptnS9RMSUq4ATospCCUWmL1DdQDYWx1ppcsTP1A9TYB9RLsSA9Qm9QB2wZE3MGQFsgqRDIOQHQmayHUN1SDoBZFaw3UQD5GyJ5oVzAo5Ct+HRPMGYHRKX9KP1EyFcv6EX8zJ5AdLbBbrc63FeASjcWio4pSoXNlJ6ErJvRkFL1GB6jG6MxZ6Uo8gDMDkKAgazWKYB7BkJYbvgBsjWKot9ii03XICWHNjdN+QdNgDJgtjdNmwAWzWNiBxAo3/bR/UyVlcX+XS+YliB7DAwgNIDJtFGBkE6Fkr5KCsKhPSirZzSVM7JcEJ0BEAzMkQKo2WhBIVIdMBkggCAGYwAMAJgABRb8fuYwDuD6aW3PkTH5or7jP4a+ohB6dgNYGzSNYGzWKwMxWwsSb2CpzZGTHkI+CBAm7AICmMmIMgKIIqYyAwDWYDAMAoxjAAd/CX1EHfwV+onZB2fmdP1/YH5jT8/wcTi/LCslxv9znfW5da19NJJv+ArWg+5x7/8ze16i+kux6kezFlJPuc3t9xW3dWxfSVpVYjYq9WBqxZIhQqtAbf0FknoHcW5Lhjpy7i1kMqHhK2C34QE/oLSTZLyaxZP6AsWSewWJZrvsWyT3sButxbXgDx8WKSVnJdBO/8AInY7UX+GjsqyJ4x7IUstmZMr0Zf6sy09R3jps5tpNsyk+50vQmkk4q368GX4aVXKkBz5Gq+x1r8LGqclYvRhFe8Bzb+Dc9joS013sDcE6adgQ+wFG3wdCUecWaoretgIOFdgYsukpLhX4AtO+1BEaZsGU6bXKMlXKQEqfqMoMp7N70u3Jm4VswErYCQVKPcpCWlVugJYgxb4KzemuGvsHS1dOt1uv5ADS/KxXzE4wsrenTkpbeCK1sXsNR2z1nB0uDS1skqtHPqPZciObUSNOuGpu03f24NqST73Zywm+w0tRvtQFdOVWy3V9ng5IyHsCnU23Qerw0lZGUqAppgVlJ4OqsWNOLc7v0JuSphhNYgxaTjjSFi4wVNWJnQG7Bh9SpO06ESre97AwxVMGNqqCipY79zRWlJbWmxnw0+BVGKSrsDE9XTS3TNpQjNu9iqaumBqKYMaWhCvZkFaSini+UJqScXQ/KW4DP8ADwwqTqXY5J6LVYnY5WqYqp9gmNL4aIS5ZjFVo+8U8mMAkxocGMQLqcGMYKHZgjwYwGfJSPADBDT95DLgxgMwS7GMBN+8UlygGAXV4KL3ImMBTS31YX5JP4kgmA//2Q==",
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpZPSWep1oDoE6xHgjdpPlSe8DEHQWpWd2Oya2LfNqQ&s",
+            "image_alt": "Time-Lapse Shows Storm Sweeping Across Kansas",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpZPSWep1oDoE6xHgjdpPlSe8DEHQWpWd2Oya2LfNqQ&s",
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ1hRf_vUZ09ZqIhihPBFNTkWIj0guqAt-ztdlnPdekg&s",
+            "image_alt": "How climate change affects severe weather in Kansas City ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ1hRf_vUZ09ZqIhihPBFNTkWIj0guqAt-ztdlnPdekg&s",
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gFN5uhMoCfI8qISM6R853vbpReMHMKvPoZWwl1_acg&s",
+            "image_alt": "Tornadoes",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3gFN5uhMoCfI8qISM6R853vbpReMHMKvPoZWwl1_acg&s",
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbEP8u8-qgcDNLz7ffjEs8WDkaDW5fLGRInRz12IB1A&s",
+            "image_alt": "Southwestern Kansas sees tornado after forecast for no ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbEP8u8-qgcDNLz7ffjEs8WDkaDW5fLGRInRz12IB1A&s",
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPW5i91ySXqoBFudRH7jQ_Zw0rKv7DzGplvqT6nb3R6w&s",
+            "image_alt": "Storm reports; Severe weather affecting parts of Kansas",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPW5i91ySXqoBFudRH7jQ_Zw0rKv7DzGplvqT6nb3R6w&s",
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJo6UgEag_rFBm7Jr_ZrWSptxr3Y0YvW3Z9ixtur2ZKA&s",
+            "image_alt": "Storms and tornado rip through Kansas - CBS News",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJo6UgEag_rFBm7Jr_ZrWSptxr3Y0YvW3Z9ixtur2ZKA&s",
+            "rank": 10,
+            "global_rank": 14
+        }
+    ]
+}

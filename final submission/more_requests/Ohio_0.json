@@ -1,0 +1,159 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 103000000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Ohio storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:42:23.151Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Ohio+storm+article&start=11&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13.0 Safari/608.2.11",
+        "request_id": "hl_c3a9eb28_uoiuhev1d0n"
+    },
+    "organic": [
+        {
+            "link": "https://www.wtol.com/article/weather/climate-friday/climate-friday-severe-weather-more-common-ohio-climate-change/512-0eb8cc23-1144-4cdd-b4f9-6ceda512f205",
+            "display_link": "https://www.wtol.com \u203a weather \u203a climate-friday \u203a cli...",
+            "title": "Is climate change making severe weather more common in ...",
+            "description": "TOLEDO, Ohio \u2014 Severe weather season is right around the corner and the WTOL 11 ... How is climate change affecting our storm season?",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.weathersafety.ohio.gov/tornadofacts.aspx",
+            "display_link": "https://www.weathersafety.ohio.gov \u203a tornadofacts",
+            "title": "Tornado Facts & Safety Tips - Ohio.gov | OCSWA",
+            "description": "Tornado Safety Tips. Whether practicing in a tornado drill or sheltering during a warning, the Ohio Committee for Severe Weather Awareness encourages Ohioans to ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://fox8.com/news/stormy-weather-leads-to-damage-in-ne-ohio/",
+            "display_link": "https://fox8.com \u203a news \u203a stormy-weather-leads-to-da...",
+            "title": "Video: Stormy weather leads to damage in NE Ohio",
+            "description": "Storms blasted through much of Northeast Ohio Sunday afternoon into ... This is an archived article and the information in the article may ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 21, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.beaconjournal.com/story/weather/2022/12/19/winter-weather-radar-akron-ohio-snow-rain-freezing-temps-high-wind/69739632007/",
+            "display_link": "https://www.beaconjournal.com \u203a weather \u203a 2022/12/19",
+            "title": "'Dangerous' winter storm headed toward Ohio with travel ...",
+            "description": "A powerful storm is expected in Northeast Ohio Thursday with plunging temperatures, high winds and some snow in its wake Friday into ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 19, 2022",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.beaconjournal.com/story/weather/2022/12/20/dangerous-christmas-winter-storm-ohio-snow-blizzard-akron-canton/69742970007/",
+                    "display_link": "https://www.beaconjournal.com \u203a weather \u203a 2022/12/20",
+                    "title": "What know about the 'dangerous' Christmas winter storm ...",
+                    "description": "The National Weather Service and the Ohio Department of Transportation are urging folks to prepare and get holiday errands done before ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Dec 20, 2022",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 5,
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://ohiomemory.ohiohistory.org/timeline/severeweather.html",
+            "display_link": "https://ohiomemory.ohiohistory.org \u203a timeline \u203a sever...",
+            "title": "Severe Weather in Ohio - Ohio Memory",
+            "description": "Severe Weather in Ohio.",
+            "rank": 5,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.nytimes.com/1926/09/25/archives/ohio-storm-damage-increases.html",
+            "display_link": "https://www.nytimes.com \u203a 1926/09/25 \u203a archives \u203a ohio...",
+            "title": "Ohio Storm Damage Increases.",
+            "description": "Full text is unavailable for this digitized archive article. Subscribers may view the full text of this article in its original form through TimesMachine.",
+            "rank": 6,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.kulr8.com/news/national/us-severe-storms-hit-northeast-ohio-tornado-warning-issued/video_bd377566-4323-5d81-aa11-d5dae0d47ad6.html",
+            "display_link": "https://www.kulr8.com \u203a news \u203a national \u203a us-severe-stor...",
+            "title": "US: Severe Storms Hit Northeast Ohio, Tornado Warning ...",
+            "description": "Strong storms hit Northeast Ohio on Thursday, July 20. Tornado Warning and Severe Thunderstorm Warning were issued across the are.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 8
+        },
+        {
+            "link": "https://thecourier.com/news/465386/storms-cause-destruction-in-nw-ohio/",
+            "display_link": "https://thecourier.com \u203a news \u203a storms-cause-destructi...",
+            "title": "Storms cause destruction in NW Ohio",
+            "description": "The weather service conducted surveys Friday in Ohio to assess storm damage and confirm tornado reports. As of Friday evening, there were no ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 16, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 9
+        },
+        {
+            "link": "https://spectrumnews1.com/oh/columbus/weather/2023/07/25/severe-storms-possible-in-northern-ohio-wednesday-night",
+            "display_link": "https://spectrumnews1.com \u203a weather \u203a 2023/07/25",
+            "title": "Severe storms possible in Ohio Wednesday night",
+            "description": "By Spectrum News Weather Staff Ohio. PUBLISHED 1:30 PM ET Jul. ... Damaging wind, hail and isolated tornadoes are all possible.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "8 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 10
+        }
+    ]
+}

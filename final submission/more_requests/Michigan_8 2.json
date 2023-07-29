@@ -1,0 +1,149 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 84200000,
+        "search_time": 0.52,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Michigan storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:33:18.751Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Michigan+storm+article&start=19&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_5tnd25rcy6"
+    },
+    "organic": [
+        {
+            "link": "https://www.foxnews.com/us/severe-storms-leave-hundreds-of-thousands-without-power-across-wisconsin-michigan",
+            "display_link": "https://www.foxnews.com \u203a severe-storms-leave-hund...",
+            "title": "Storm leaves thousands without power across Michigan",
+            "description": "Severe storms leave hundreds of thousands without power across Wisconsin, Michigan \u00b7 A storm bringing dark clouds, strong winds and a drop in ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 21, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.manisteenews.com/news/article/severe-storms-crossing-lake-michigan-region-air-18261565.php",
+            "display_link": "https://www.manisteenews.com \u203a News",
+            "title": "Severe storms crossing Lake Michigan as region under air ...",
+            "description": "According to the National Weather Service forecasts, the storms are expected to strengthen and bring high winds with the potential for large ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "11 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.detroitnews.com/story/news/local/michigan/2023/03/04/power-michigan-second-winter-storm-week/69969169007/",
+            "display_link": "https://www.detroitnews.com \u203a michigan \u203a 2023/03/04",
+            "title": "200K without power in Mich. after second storm in nine days",
+            "description": "A second winter storm in nine days knocked out electricity to more than 200000 customers, including ones who lost power in the first storm.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 4, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.lansingstatejournal.com/story/news/local/2023/04/05/tornado-watch-issued-michigan-ingham-eaton-clinton-counties-lansing/70083904007/",
+            "display_link": "https://www.lansingstatejournal.com \u203a 2023/04/05 \u203a to...",
+            "title": "Severe weather threat dissipates as morning ...",
+            "description": "A tornado watch issued Wednesday morning was canceled as thunderstorms dissipated across southern Michigan. \"We continue to monitor storms over ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 5, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://upnorthlive.com/news/local/gallery/photos-wind-storm-damage-throughout-northern-michigan",
+            "display_link": "https://upnorthlive.com \u203a news \u203a local \u203a gallery \u203a phot...",
+            "title": "Photos: Wind storm damage throughout northern Michigan",
+            "description": "Photo from Jan Gill, Grayling.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.spc.noaa.gov/",
+            "display_link": "https://www.spc.noaa.gov",
+            "title": "NOAA/NWS Storm Prediction Center",
+            "description": "An Enhanced Risk of Severe Thunderstorms is Forecast Today and/or Tonight ... States affected: IN MI OH LE \u2013 Issued: 17 minutes ago ...",
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/05/02/historic-may-snow-cold-michigan-west-virginia/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/05/02 \u203a histo...",
+            "title": "Historic May snow in Michigan as unusually cold storm ...",
+            "description": "Two feet of snow has fell in high elevations around Marquette as that city recorded its snowiest May day. Wet snow is also plastering parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 2, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.wtol.com/article/news/local/morning-storm-delivers-rude-awakening-wrecking-campsites-and-tossing-rvs-in-southeast-michigan/512-d962961c-0c85-48c1-b392-a1cb345ccff0",
+            "display_link": "https://www.wtol.com \u203a article \u203a news \u203a local \u203a morni...",
+            "title": "Summer storms tear through southeast Michigan",
+            "description": "Morning storm delivers rude awakening, wrecking campsites and tossing RVs in southeast Michigan \u00b7 Related Articles \u00b7 More videos on YouTube.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Aug 12, 2021",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.thehour.com/news/article/severe-thunderstorms-blast-southern-michigan-18262946.php",
+            "display_link": "https://www.thehour.com \u203a News",
+            "title": "Severe thunderstorms blast southern Michigan, cutting ...",
+            "description": "1of11Motorists navigate a flooded road in Grosse Pointe Farms, Mich., after a severe storm Wednesday, July 26, 2023.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 hours ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        }
+    ]
+}

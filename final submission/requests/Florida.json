@@ -1,0 +1,322 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 69800000,
+        "search_time": 0.35,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Florida storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:08:03.335Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Florida+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/610.4.3.1.7 (KHTML, like Gecko) Version/14.0.3 Safari/610.4.3.1.7",
+        "request_id": "hl_c3a9eb28_eh0i5jhc69l"
+    },
+    "organic": [
+        {
+            "link": "https://www.floridadisaster.org/weather/",
+            "display_link": "https://www.floridadisaster.org \u203a weather",
+            "title": "Weather | Florida Disaster",
+            "description": "Current Weather Outlook ; Lightning, Tornado, Damaging Wind ; Big Bend & Northeast Florida. Central & South Florida Florida. Panhandle. Locally. Iso. Big Bend, ...",
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://apnews.com/article/florida-storms-flooding-daa30441eaa0113928df1745f0a75eac",
+            "display_link": "https://apnews.com \u203a article \u203a florida-storms-flooding-...",
+            "title": "Torrential storms batter South Florida, close key airport",
+            "description": "Nearly a foot of rain fell in a matter of hours in Fort Lauderdale \u2013 causing widespread flooding, the closure of the city's airport and the ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 12, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.wesh.com/article/don-tropical-storm-path/44619350",
+            "display_link": "https://www.wesh.com \u203a don-tropical-storm-path",
+            "title": "Don weakens into post-tropical cyclone",
+            "description": "ORLANDO, Fla. \u2014. Don weakened from a hurricane to a tropical storm over the weekend and Monday officially became a post-tropical cyclone.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2 days ago",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.nytimes.com/2022/09/29/us/hurricane-ian-florida-damage.html",
+            "display_link": "https://www.nytimes.com \u203a hurricane-ian-florida-damage",
+            "title": "Hurricane Ian Leaves Behind a Staggering Scale of ...",
+            "description": "Hurricane Ian's Staggering Scale of Wreckage Becomes Clearer in Florida. The extent of the damage was difficult to comprehend, even for ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 29, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 8
+        },
+        {
+            "link": "https://climatecenter.fsu.edu/topics/hurricanes",
+            "display_link": "https://climatecenter.fsu.edu \u203a topics \u203a hurricanes",
+            "title": "Hurricanes - Florida Climate Center - Florida State University",
+            "description": "Since 1850, all of Florida's coastline has been impacted by at least one hurricane. With its long coastline and location, Florida frequently finds itself in the ...",
+            "rank": 5,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.cnbc.com/2022/09/28/hurricane-ian-making-landfall-near-sanibel-captiva-islands-florida.html",
+            "display_link": "https://www.cnbc.com \u203a 2022/09/28 \u203a hurricane-ian-ma...",
+            "title": "Ian now tropical storm after hitting Florida as a category 4 ...",
+            "description": "Hurricane Ian, with sustained winds of 155 mph, is approaching Category 5 status as it heads toward Florida's southwest coast. Kevin Dietsch | ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 28, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 10
+        },
+        {
+            "link": "https://www.cnn.com/2022/09/28/weather/hurricane-ian-florida-path-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2022/09/28 \u203a weather \u203a hurrican...",
+            "title": "Hurricane Ian continues to batter Florida as a Category 1 ...",
+            "description": "Hurricane Ian continued to batter the Florida peninsula with a catastrophic trifecta of high winds, heavy rain and historic storm surge ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Sep 28, 2022",
+                    "rank": 1
+                },
+                {
+                    "type": "site_link",
+                    "link": "https://www.cnn.com/2022/09/28/weather/hurricane-ian-florida-path-wednesday/index.html#:~:text=CNN-,Hurricane%20Ian%20continues%20to%20batter%20Florida%20as%20a%20Category%201%20storm%20while%20officials%20warn%20the%20worst%20is%20yet%20to%20come",
+                    "text": "Hurricane Ian Continues To...",
+                    "rank": 2
+                },
+                {
+                    "type": "site_link",
+                    "link": "https://www.cnn.com/2022/09/28/weather/hurricane-ian-florida-path-wednesday/index.html#:~:text=%27The%20worst%20storm%20I%20have%20ever%20seen%27",
+                    "text": "'the Worst Storm I Have Ever...",
+                    "rank": 3
+                },
+                {
+                    "type": "site_link",
+                    "link": "https://www.cnn.com/2022/09/28/weather/hurricane-ian-florida-path-wednesday/index.html#:~:text=Where%20the%20hurricane%20is%20headed",
+                    "text": "Where The Hurricane Is...",
+                    "rank": 4
+                }
+            ],
+            "rank": 7,
+            "global_rank": 11
+        },
+        {
+            "link": "https://www.stateofflorida.com/articles/hurricane-preparedness-guide/",
+            "display_link": "https://www.stateofflorida.com \u203a articles \u203a hurricane-p...",
+            "title": "The Essential Guide to Hurricane Preparedness",
+            "description": "The essential guide to prepare for hurricane season including hurricane facts, common terms, hurricane kits, safety tips and more.",
+            "rank": 8,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.reuters.com/world/us/hurricane-nicole-barrels-into-floridas-atlantic-coast-2022-11-10/",
+            "display_link": "https://www.reuters.com \u203a world \u203a hurricane-nicole-barr...",
+            "title": "Tropical Storm Nicole lashes Florida, downing power lines ...",
+            "description": "Tropical Storm Nicole swept across Florida on Thursday, weakening but still carrying a powerful punch with a mix of heavy rains and fierce ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 10, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 13
+        },
+        {
+            "link": "https://www.npr.org/2022/11/09/1135674633/florida-braces-for-hurricane-nicole-a-rare-november-storm",
+            "display_link": "https://www.npr.org \u203a 2022/11/09 \u203a florida-braces-for-h...",
+            "title": "Florida braces for Hurricane Nicole, a rare November storm",
+            "description": "MIAMI \u2014 A Florida-bound storm strengthened into Hurricane Nicole on Wednesday evening as it pounded the Bahamas, and U.S. officials ordered ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Nov 9, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 14
+        }
+    ],
+    "related": [
+        {
+            "text": "Typhoon Florida",
+            "list_group": true,
+            "expanded": true,
+            "more_link": "https://www.google.com/search?gl=us&hl=en&q=Hurricane+Ian&stick=H4sIAAAAAAAAAOOQUeLVT9c3NCxJya7KjTc1MOIvqSzIyM_PU0jLyS_KTEmMEnWDMBSKS_KLchUSi0oyk3NSTzGi6oPxi5MK4k0qspNPMXLq5-obWBiVW6TB5NIMsqtKTFJMoHJAvmEGXC7F1MykoiIHKmecW5JmAGWbleRaFsHUZaQUVlhWJRfBzLfIy8v5xcgfAnU01K0NLIyLWHk9SouKMpMT81IVPBPzbrFJMtxa0aOi9N5w72rh7Sl-n1x9Axtld-yRn3YdANFRJsgGAQAA&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQs9oBKAB6BAhBEAI",
+            "more_text": "Hurricane IanHurricane Nicole1947 Fort Lauderdale hurricaneHurricane IrmaHurricane AndrewHurricane Michael",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lGQNFhOkqMKXeamB6uAuFQLnzP8O8Vxm451x&s=0",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4lGQNFhOkqMKXeamB6uAuFQLnzP8O8Vxm451x&s=0",
+            "rank": 1,
+            "global_rank": 15
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Storm+in+Florida+today&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhIEAE",
+            "text": "storm in florida today",
+            "rank": 2,
+            "global_rank": 16
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Is+there+a+hurricane+coming+to+Florida+right+now&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhHEAE",
+            "text": "is there a hurricane coming to florida right now",
+            "rank": 3,
+            "global_rank": 17
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Is+there+a+hurricane+coming+to+Florida+right+now+2023&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhGEAE",
+            "text": "is there a hurricane coming to florida right now 2023",
+            "rank": 4,
+            "global_rank": 18
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Florida+hurricane+season+by+month&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhFEAE",
+            "text": "florida hurricane season by month",
+            "rank": 5,
+            "global_rank": 19
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Florida+hurricane+history&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhEEAE",
+            "text": "florida hurricane history",
+            "rank": 6,
+            "global_rank": 20
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=When+is+peak+hurricane+season+in+Florida&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhCEAE",
+            "text": "when is peak hurricane season in florida",
+            "rank": 7,
+            "global_rank": 21
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Florida+weather+warning+today&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhDEAE",
+            "text": "florida weather warning today",
+            "rank": 8,
+            "global_rank": 22
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Hurricane+coming+this+weekend&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ1QJ6BAhJEAE",
+            "text": "hurricane coming this weekend",
+            "rank": 9,
+            "global_rank": 23
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "What was the storm that went through Florida?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+was+the+storm+that+went+through+Florida%3F&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQzmd6BAgbEAY",
+            "answer_source": "Hurricane Ian's track across land in Florida, path of destruction",
+            "answer_link": "https://www.usatoday.com/in-depth/graphics/2023/01/09/hurricane-ian-destruction-in-florida/10938513002/#:~:text=Hurricane%20Ian%2C%20one%20of%20the,%2412.6%20billion%20in%20insured%20losses.",
+            "answer_display_link": "https://www.usatoday.com \u203a graphics \u203a 2023/01/09 \u203a hu...https://www.usatoday.com \u203a graphics \u203a 2023/01/09 \u203a hu...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBsQBQ\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQu04oAHoECBsQBQ\"><div id=\"QpnBZJFatKGFsg-NlJ2gBA__14\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB0QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Hurricane Ian</b>, one of the most powerful storms ever to hit the U.S., made landfall on Florida's Gulf Coast on September 28. Ian's 150 mph winds and heavy rains knocked out power for 2.6 million residents and caused $12.6 billion in insured losses.</span></span><span class=\"kX21rb ZYHQ7e\">Jan 9, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Hurricane Ian, one of the most powerful storms ever to hit the U.S., made landfall on Florida's Gulf Coast on September 28. Ian's 150 mph winds and heavy rains knocked out power for 2.6 million residents and caused $12.6 billion in insured losses.Jan 9, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 3
+        },
+        {
+            "question": "Why is Florida so stormy?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Why+is+Florida+so+stormy%3F&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQzmd6BAgaEAY",
+            "answer_source": "Why has Central Florida been getting so much rain lately? - Click Orlando",
+            "answer_link": "https://www.clickorlando.com/weather/2023/06/22/why-has-central-florida-been-getting-so-much-rain-this-past-week/#:~:text=During%20the%20summer%20months%2C%20cold,into%20to%20produce%20heavy%20rain.",
+            "answer_display_link": "https://www.clickorlando.com \u203a weather \u203a 2023/06/22https://www.clickorlando.com \u203a weather \u203a 2023/06/22",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBoQBQ\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQu04oAHoECBoQBQ\"><div id=\"QpnBZJFatKGFsg-NlJ2gBA__17\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CB4QAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">During the summer months, <b>cold fronts come to a halt in our area.</b> <b>With little to no cold front moving through, the sea breezes continue to increase the moisture in the atmosphere</b>. So when thunderstorms get going, there's plenty of moisture for the storms to tap into to produce heavy rain.</span></span><span class=\"kX21rb ZYHQ7e\">Jun 22, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "During the summer months, cold fronts come to a halt in our area. With little to no cold front moving through, the sea breezes continue to increase the moisture in the atmosphere. So when thunderstorms get going, there's plenty of moisture for the storms to tap into to produce heavy rain.Jun 22, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 4
+        },
+        {
+            "question": "What parts of Florida did Ian hit?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=What+parts+of+Florida+did+Ian+hit%3F&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQzmd6BAgZEAY",
+            "answer_source": "Hurricane Ian ravaged Florida's west coast in 2022. Everything to know",
+            "answer_link": "https://www.news-press.com/story/weather/hurricane/2022/12/28/hurricane-ian-ravaged-floridas-west-coast-in-2022-everything-to-know/69759203007/#:~:text=What%20part%20of%20Florida%20did,barrier%20island%20of%20Cayo%20Costa.",
+            "answer_display_link": "https://www.news-press.com \u203a hurricane \u203a 2022/12/28https://www.news-press.com \u203a hurricane \u203a 2022/12/28",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CBkQBQ\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQu04oAHoECBkQBQ\"><div id=\"QpnBZJFatKGFsg-NlJ2gBA__20\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBcQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">What part of Florida did Hurricane Ian hit? Hurricane Ian barreled into Southwest Florida with 150 mph winds when it made landfall on the small barrier island of Cayo Costa.</span></span><span class=\"kX21rb ZYHQ7e\">Dec 28, 2022</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "What part of Florida did Hurricane Ian hit? Hurricane Ian barreled into Southwest Florida with 150 mph winds when it made landfall on the small barrier island of Cayo Costa.Dec 28, 2022"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 5
+        },
+        {
+            "question": "Did Fort Myers get hit by Ian?",
+            "question_link": "https://www.google.com/search?gl=us&hl=en&q=Did+Fort+Myers+get+hit+by+Ian%3F&sa=X&ved=2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQzmd6BAgfEAY",
+            "answer_source": "Fort Myers Beach slowly recovers six months after Hurricane Ian - NPR",
+            "answer_link": "https://www.npr.org/2023/03/28/1165410279/hurricane-ian-fort-myers-beach-slow-rebuilding#:~:text=struggling%20to%20rebuild.-,Fort%20Myers%20Beach%20was%20particularly%20hit,the%2015%2Dfoot%20storm%20surge.&text=FORT%20MYERS%20BEACH%2C%20Fla.,brought%20to%20Fort%20Myers%20Beach.",
+            "answer_display_link": "https://www.npr.org \u203a 2023/03/28 \u203a hurricane-ian-fort-...https://www.npr.org \u203a 2023/03/28 \u203a hurricane-ian-fort-...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CB8QBQ\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQu04oAHoECB8QBQ\"><div id=\"QpnBZJFatKGFsg-NlJ2gBA__23\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CCIQAA\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQ4dMGegQIIhAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CCIQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CCAQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;AW/EEw\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQyQ0oAHoECCAQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;TFThm7aWU9BJiM;AW/EEM\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"TFThm7aWU9BJiM\" data-lpage=\"https://www.npr.org/2023/03/28/1165410279/hurricane-ian-fort-myers-beach-slow-rebuilding\" data-ni=\"1\" data-ref-docid=\"zz7WB-jb73wfnM\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CBwQAA\" data-ved=\"2ahUKEwiRg56msa2AAxW0UEEAHQ1KB0QQzkx6BAgcEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-4px;width:213px\" alt=\"Fort Myers Beach slowly recovers six months after Hurricane ...\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSgGOgvKw75X5-iv31biz94zwXdSR8o-R3eW8-yBN9VA&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"QpnBZJFatKGFsg-NlJ2gBA__26\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CBgQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">Fort Myers Beach was particularly hit hard by the 15-foot storm surge. FORT MYERS BEACH, Fla. \u2014 <b>Few communities in the U.S. have seen the level of destruction Hurricane Ian brought to Fort Myers Beach.</b></span></span><span class=\"kX21rb ZYHQ7e\">Mar 28, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Fort Myers Beach was particularly hit hard by the 15-foot storm surge. FORT MYERS BEACH, Fla. \u2014 Few communities in the U.S. have seen the level of destruction Hurricane Ian brought to Fort Myers Beach.Mar 28, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 6
+        }
+    ]
+}

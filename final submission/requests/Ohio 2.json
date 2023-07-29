@@ -1,0 +1,405 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 26400000,
+        "search_time": 0.3,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Ohio storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-26T22:10:21.873Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Ohio+storm+article&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/611.1.21.161.7 (KHTML, like Gecko) Version/14.1 Safari/611.1.21.161.7",
+        "request_id": "hl_c3a9eb28_3fxaq3p44k1"
+    },
+    "organic": [
+        {
+            "link": "https://www.wkyc.com/article/weather/severe-weather/tens-of-thousands-northeast-ohio-without-power-severe-weather/95-ba7032e9-f1a5-4435-9319-e4b0c2f39333",
+            "display_link": "https://www.wkyc.com \u203a weather \u203a severe-weather \u203a t...",
+            "title": "Tens of thousands in Northeast Ohio without power due ...",
+            "description": "Thousands in Northeast Ohio without power following severe weather. Most of the current power outages are stemming from Cuyahoga County. Author: ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "6 days ago",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.wkyc.com/article/weather/severe-weather/northeast-ohio-communities-damage-flooding-outages-after-severe-storm/95-87811105-a2b9-4545-a851-92ab1352e2c9",
+                    "display_link": "https://www.wkyc.com \u203a weather \u203a severe-weather \u203a n...",
+                    "title": "Northeast Ohio communities cleaning up after severe storm ...",
+                    "description": "Northeast Ohio communities cleaning up after severe storm damage, outages, flooding. Thousands of residents across the area are still without ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "5 days ago",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 2,
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.cnn.com/2023/05/08/weather/severe-storms-summer-heat-monday-wxn/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/05/08 \u203a weather \u203a severe-st...",
+            "title": "Severe storms threaten to bring more damage to the Ohio ...",
+            "description": "\u201cTraining storms,\u201d as meteorologists call them, bring the threat of flooding as heavy rain falls over already saturated soils. The Weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 8, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.10tv.com/article/syndication/columbus-area-severe-weather/530-ca27c166-833a-4c9d-a3fd-1b835ebb8628",
+            "display_link": "https://www.10tv.com \u203a article \u203a syndication \u203a columb...",
+            "title": "Tracking severe weather in Columbus, Ohio",
+            "description": "COLUMBUS, Ohio \u2014 Heavy rain, large hail and damaging winds were the biggest threats from Thursday's storms as they rolled through the region ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jul 13, 2023",
+                    "rank": 1
+                }
+            ],
+            "subresults": [
+                {
+                    "link": "https://www.10tv.com/article/syndication/severe-weather-central-ohio-july-2023/530-ef87c8cc-28e2-4068-85cd-29e4b5b272e0",
+                    "display_link": "https://www.10tv.com \u203a article \u203a syndication \u203a severe-...",
+                    "title": "Storms, and heavy rain moving out of central Ohio",
+                    "description": "The storms brought gusty winds, heavy rain, hail and frequent lightning. The severe weather threat will diminish shortly after sunset but there ...",
+                    "extensions": [
+                        {
+                            "inline": true,
+                            "type": "text",
+                            "text": "Jul 2, 2023",
+                            "rank": 1
+                        }
+                    ],
+                    "global_rank": 13,
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 12
+        },
+        {
+            "link": "https://www.wtol.com/article/weather/climate-friday/climate-friday-severe-weather-more-common-ohio-climate-change/512-0eb8cc23-1144-4cdd-b4f9-6ceda512f205",
+            "display_link": "https://www.wtol.com \u203a weather \u203a climate-friday \u203a cli...",
+            "title": "Is climate change making severe weather more common in ...",
+            "description": "While the Toledo area will never join the ranks as part of Tornado Alley, it may see more frequent storms in the coming decades. Thunderstorm ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Mar 31, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 14
+        },
+        {
+            "link": "https://www.wunderground.com/article/storms/tornado/news/2023-02-13-severe-thunderstorm-tornado-forecast-south-ohio-valley",
+            "display_link": "https://www.wunderground.com \u203a tornado \u203a news \u203a 2...",
+            "title": "Severe Storms In The South And Ohio Valley Could ...",
+            "description": "W\u200bhere storms are right now: Scattered showers and thunderstorms are ongoing from portions of the South. A few of those storms have prompted severe thunderstorm ...",
+            "rank": 5,
+            "global_rank": 15
+        },
+        {
+            "link": "https://www.weather.gov/iln/events",
+            "display_link": "https://www.weather.gov \u203a iln \u203a events",
+            "title": "Significant Weather Event Archive",
+            "description": "The following summaries cover \"significant\" or widespread weather events that occurred in the region in 2023. Summaries are color coded in the following ...",
+            "rank": 6,
+            "global_rank": 16
+        }
+    ],
+    "videos": [
+        {
+            "link": "https://www.youtube.com/watch?v=GRACH3KCILw",
+            "duration": "7:21",
+            "duration_sec": 441,
+            "title": "Northeast Ohio weather forecast: Tracking severe storms",
+            "source": "YouTube",
+            "author": "YouTube  WKYC Channel 3",
+            "date": "5 days ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 1,
+            "global_rank": 3
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=mBTpgImicIU",
+            "duration": "6:08",
+            "duration_sec": 368,
+            "title": "Tracking storm damage and impacts across Northeast Ohio",
+            "source": "YouTube",
+            "author": "YouTube  WKYC Channel 3",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 2,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=G9AimvbS7rg",
+            "duration": "7:42",
+            "duration_sec": 462,
+            "title": "Northeast Ohio severe weather aftermath: Several counties hit ...",
+            "source": "YouTube",
+            "author": "YouTube  WKYC Channel 3",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 3,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=ioOn5-g6wns",
+            "duration": "3:00",
+            "duration_sec": 180,
+            "title": "Storms topple silos in Huron County after severe weather ...",
+            "source": "YouTube",
+            "author": "YouTube  WKYC Channel 3",
+            "date": "1 month ago",
+            "image": "data:image/jpeg;base64,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",
+            "image_base64": "data:image/jpeg;base64,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",
+            "rank": 4,
+            "global_rank": 6
+        }
+    ],
+    "images": [
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdlUIy_YB9CeZPqn2IHn4XIt05-UUp8gQAT8J9ZYjNg&s",
+            "image_alt": "Team coverage: Northeast Ohio prepares for snow, cold, ice",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdlUIy_YB9CeZPqn2IHn4XIt05-UUp8gQAT8J9ZYjNg&s",
+            "rank": 1,
+            "global_rank": 17
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_k12OXQziz-iBQRGvixk-t7rSFbsG3kG0QtmczPfOA&s",
+            "image_alt": "Severe Storms In The South And Ohio Valley Could Produce ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg_k12OXQziz-iBQRGvixk-t7rSFbsG3kG0QtmczPfOA&s",
+            "rank": 2,
+            "global_rank": 18
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiqkq5p5aJYTrtQK6N6bmhXbiUD7axPXwQsjPb1Asbg&s",
+            "image_alt": "Ohio winter storm: What is the weather near me",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRiqkq5p5aJYTrtQK6N6bmhXbiUD7axPXwQsjPb1Asbg&s",
+            "rank": 3,
+            "global_rank": 19
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwrHdLm7BLKxs6hA_Okg30SnpUWiCERWCu6fwitv_Bg&s",
+            "image_alt": "Cleveland weather forecast: Impending winter storm for Northeast Ohio",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbwrHdLm7BLKxs6hA_Okg30SnpUWiCERWCu6fwitv_Bg&s",
+            "rank": 4,
+            "global_rank": 20
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfaLW3YdAyv2mH8VgvAa49EQ5aOSKJhiGigVw1_6sHzg&s",
+            "image_alt": "Northeast Ohio: Winter Weather Advisory still in effect for parts of region",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfaLW3YdAyv2mH8VgvAa49EQ5aOSKJhiGigVw1_6sHzg&s",
+            "rank": 5,
+            "global_rank": 21
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdZEueXzkKOOAorc80HAT9zgGWB-Oxkrxfr1JzQAV8w&s",
+            "image_alt": "Winter Storm Kassandra Spread Snow Across Southwest ...",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQdZEueXzkKOOAorc80HAT9zgGWB-Oxkrxfr1JzQAV8w&s",
+            "rank": 6,
+            "global_rank": 22
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKBhbgVXz5oGtIXz6RzoARQzmX9tuvs8BKJz5UuRzFA&s",
+            "image_alt": "Climate Friday | Severe weather season is fast approaching",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKBhbgVXz5oGtIXz6RzoARQzmX9tuvs8BKJz5UuRzFA&s",
+            "rank": 7,
+            "global_rank": 23
+        },
+        {
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Mv65nu_Fk1-puXwYWHRL3lUz2gj50x4j8hunCJSOcA&s",
+            "image_alt": "Winter storm watch Ohio: how much snow",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0Mv65nu_Fk1-puXwYWHRL3lUz2gj50x4j8hunCJSOcA&s",
+            "rank": 8,
+            "global_rank": 24
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXRyymGn540jwvYnHAKdB9OlXwr9fN-5FM9S2VjogJXg&s",
+            "image_alt": "Columbus, Ohio weather forecast | June 14, 2022",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXRyymGn540jwvYnHAKdB9OlXwr9fN-5FM9S2VjogJXg&s",
+            "rank": 9,
+            "global_rank": 25
+        },
+        {
+            "tag": "Video",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuzpx282OMLbt935Vr4D_sLE6njriFWncD1wqDV-cOHA&s",
+            "image_alt": "Winter Storm Update: Columbus, Ohio weather forecast | Feb. 3, 2022",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuzpx282OMLbt935Vr4D_sLE6njriFWncD1wqDV-cOHA&s",
+            "rank": 10,
+            "global_rank": 26
+        }
+    ],
+    "related": [
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Ohio+tornado+today&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAgsEAE",
+            "text": "ohio tornado today",
+            "rank": 1,
+            "global_rank": 27
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Storm+damage+in+Ohio+today&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAglEAE",
+            "text": "storm damage in ohio today",
+            "rank": 2,
+            "global_rank": 28
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Storm+damage+Ohio&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAggEAE",
+            "text": "storm damage ohio",
+            "rank": 3,
+            "global_rank": 29
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Ohio+severe+weather&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAgfEAE",
+            "text": "ohio severe weather",
+            "rank": 4,
+            "global_rank": 30
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Tornado+warning+Ohio&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAgrEAE",
+            "text": "tornado warning ohio",
+            "rank": 5,
+            "global_rank": 31
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Power+outages+Northeast+Ohio&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAgnEAE",
+            "text": "power outages northeast ohio",
+            "rank": 6,
+            "global_rank": 32
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Northern+Ohio+tornado&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAgmEAE",
+            "text": "northern ohio tornado",
+            "rank": 7,
+            "global_rank": 33
+        },
+        {
+            "list_group": false,
+            "link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Peru+Ohio+tornado&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ1QJ6BAghEAE",
+            "text": "peru ohio tornado",
+            "rank": 8,
+            "global_rank": 34
+        }
+    ],
+    "people_also_ask": [
+        {
+            "question": "Why is it storming so much in Ohio?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Why+is+it+storming+so+much+in+Ohio%3F&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQzmd6BAg_EAY",
+            "answer_source": "Will severe weather become more common in northwest Ohio?",
+            "answer_link": "https://www.wtol.com/article/weather/climate-friday/climate-friday-severe-weather-more-common-ohio-climate-change/512-0eb8cc23-1144-4cdd-b4f9-6ceda512f205#:~:text=Climate%20change%20has%20elevated%20temperatures,in%20water%20vapor%20from%20evaporation.",
+            "answer_display_link": "https://www.wtol.com \u203a weather \u203a climate-friday \u203a cli...https://www.wtol.com \u203a weather \u203a climate-friday \u203a cli...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CD8QBQ\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQu04oAHoECD8QBQ\"><div id=\"y5nBZO__LobSwPAPsKiMqAc__68\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEQQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Climate change has elevated temperatures and thus moisture, causing increased evaporation and thunderstorm fuel</b>. In Toledo, spring temperatures have warmed up by 2 degrees in the last decade alone. Each degree of warming equates to a 4% rise in water vapor from evaporation.</span></span><span class=\"kX21rb ZYHQ7e\">Mar 31, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Climate change has elevated temperatures and thus moisture, causing increased evaporation and thunderstorm fuel. In Toledo, spring temperatures have warmed up by 2 degrees in the last decade alone. Each degree of warming equates to a 4% rise in water vapor from evaporation.Mar 31, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 8
+        },
+        {
+            "question": "What was the worst storm to hit Ohio?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=What+was+the+worst+storm+to+hit+Ohio%3F&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQzmd6BAhHEAY",
+            "answer_source": "Effects of Hurricane Ike in inland North America - Wikipedia",
+            "answer_link": "https://en.wikipedia.org/wiki/Effects_of_Hurricane_Ike_in_inland_North_America#:~:text=Ike%20caused%20%241.255%20billion%20in,(approximately%202.1%20million%20people).",
+            "answer_display_link": "https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane_I...https://en.wikipedia.org \u203a wiki \u203a Effects_of_Hurricane_I...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEcQBQ\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQu04oAHoECEcQBQ\"><div id=\"y5nBZO__LobSwPAPsKiMqAc__71\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEIQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\"><b>Ike caused $1.255 billion in damage in Ohio</b>. The Cincinnati metropolitan area was hit extremely hard, with over 927,000 households losing power in that region (approximately 2.1 million people).</span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "Ike caused $1.255 billion in damage in Ohio. The Cincinnati metropolitan area was hit extremely hard, with over 927,000 households losing power in that region (approximately 2.1 million people)."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 2,
+            "global_rank": 9
+        },
+        {
+            "question": "Can Ohio be hit by a hurricane?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Can+Ohio+be+hit+by+a+hurricane%3F&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQzmd6BAhFEAY",
+            "answer_source": "Natural Disaster Risks in Ohio - Brock Restoration",
+            "answer_link": "https://www.brockrestoration.com/2014/04/natural-disaster-risks-in-ohio/#:~:text=While%20Ohio%20doesn't%20register,Ohio%20and%20alter%20weather%20patterns.",
+            "answer_display_link": "https://www.brockrestoration.com \u203a 2014/04 \u203a natural-di...https://www.brockrestoration.com \u203a 2014/04 \u203a natural-di...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEUQBQ\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQu04oAHoECEUQBQ\"><div id=\"y5nBZO__LobSwPAPsKiMqAc__74\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEMQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">While Ohio doesn't register as an obvious high risk state for natural disasters like many coastal states or mountainous states along active faults, Ohio is still very susceptible to a variety of natural disasters. <b>Hurricane winds and rains can push as far inland as Ohio and alter weather patterns.</b></span></span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "While Ohio doesn't register as an obvious high risk state for natural disasters like many coastal states or mountainous states along active faults, Ohio is still very susceptible to a variety of natural disasters. Hurricane winds and rains can push as far inland as Ohio and alter weather patterns."
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 10
+        },
+        {
+            "question": "Can there be a tornado in Ohio?",
+            "question_link": "https://www.google.com/search?newwindow=1&gl=us&hl=en&q=Can+there+be+a+tornado+in+Ohio%3F&sa=X&ved=2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQzmd6BAhAEAY",
+            "answer_source": "Northern Ohio's 'Tornado Alley' - WEWS",
+            "answer_link": "https://www.news5cleveland.com/weather/severe-weather-awareness/northern-ohios-tornado-alley#:~:text=The%20clash%20of%20these%20two,averages%2019%20tornadoes%20per%20year.",
+            "answer_display_link": "https://www.news5cleveland.com \u203a weather \u203a northern-o...https://www.news5cleveland.com \u203a weather \u203a northern-o...",
+            "answer_html": "<div class=\"IZE3Td\" jsslot=\"\"><div jsname=\"oQYOj\" class=\"t0bRye r2fjmd\" data-hveid=\"CEAQBQ\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQu04oAHoECEAQBQ\"><div id=\"y5nBZO__LobSwPAPsKiMqAc__77\"><div class=\"wDYxhc NFQFxe oHglmf xzPb7d\" data-md=\"32\" style=\"clear:none\" data-hveid=\"CEwQAA\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQ4dMGegQITBAA\"><div style=\"position:relative;overflow:visible\" class=\"kno-mrg-si kno-mrg kno-swp\" id=\"media_result_group\" data-hveid=\"CEwQAQ\"><div class=\"kno-fiu kno-liu\"><div jsmodel=\"Wn3aEc\" data-count=\"1\" data-hveid=\"CEgQAA\"><div></div><div><div jsmodel=\"\" jscontroller=\"TcZDme\" jsaction=\"PdWSXe:h5M12e;rcuQ6b:npT2md;\" jsdata=\"X2sNs;_;Adjeu0\"><div class=\"RYdNQb\" data-h=\"130\" data-nr=\"1\" style=\"border-top-left-radius:8px;border-top-right-radius:8px\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQyQ0oAHoECEgQAg\"><div jsname=\"dTDiAc\" class=\"eA0Zlc WghbWd FnEtTd ivg-i PZPZlf img-kc-m GMCzAd\" jscontroller=\"Um3BXb\" data-sd=\"\" jsdata=\"j0Opre;EN6AQnFSKETIiM;Adjeuw\" aria-hidden=\"true\" data-attrid=\"image\" data-docid=\"EN6AQnFSKETIiM\" data-lpage=\"https://www.news5cleveland.com/weather/severe-weather-awareness/northern-ohios-tornado-alley\" data-ni=\"1\" data-ref-docid=\"uwvAZ3SMBhEI8M\" jsaction=\"rcuQ6b:npT2md;tuz4af:RrAr1;nptbHe:XEuVS;h5M12e\" data-hveid=\"CEkQAA\" data-ved=\"2ahUKEwivkfbnsa2AAxUGKRAIHTAUA3UQzkx6BAhJEAA\"><div jsname=\"IOBa3c\"><div jsname=\"qQjpJ\" class=\"XOEbc\" role=\"button\" tabindex=\"0\"><div><div data-bla=\"\" class=\"uhHOwf BYbUcd\" style=\"height:160px;width:204px\"><img style=\"margin-left:-45px;width:285px\" alt=\"Northern Ohio's 'Tornado Alley'\" data-src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQTNp2YqPkY474u91jlGWwjQV0q1eKvuN_6fvt1vuow&amp;s\" src=\"data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" jscontroller=\"R3fhkb\" jsaction=\"rcuQ6b:npT2md;BUYwVb:QT8fkf;LsLGHf:iSvHDf;DdQV6c:QT8fkf\"></div></div></div><div jsname=\"tdeeNb\" class=\"BfmEZb\"></div></div></div></div></div></div></div></div></div></div></div><div id=\"y5nBZO__LobSwPAPsKiMqAc__80\"><div class=\"wDYxhc\" data-md=\"61\" style=\"clear:none\"><div class=\"LGOjhe\" data-attrid=\"wa:/description\" aria-level=\"3\" role=\"heading\" data-hveid=\"CEEQAA\"><span class=\"ILfuVd\" lang=\"en\"><span class=\"hgKElc\">The clash of these two airmasses creates an explosion of weather energy in the form of severe thunderstorms, large hail and many tornadoes. <b>Ohio does see its share of tornadoes each year</b>, although certainly not the amount they have in the Plain States. Our state averages 19 tornadoes per year.</span></span><span class=\"kX21rb ZYHQ7e\">Apr 14, 2023</span></div></div></div></div></div>",
+            "answers": [
+                {
+                    "type": "answer",
+                    "value": {
+                        "text": "The clash of these two airmasses creates an explosion of weather energy in the form of severe thunderstorms, large hail and many tornadoes. Ohio does see its share of tornadoes each year, although certainly not the amount they have in the Plain States. Our state averages 19 tornadoes per year.Apr 14, 2023"
+                    },
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 11
+        }
+    ]
+}

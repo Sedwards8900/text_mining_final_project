@@ -1,0 +1,152 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 15400000,
+        "search_time": 0.39,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "North Dakota storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:41:43.105Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=North+Dakota+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:113.0) Gecko/20100101 Firefox/113.0",
+        "request_id": "hl_c3a9eb28_2oy1y18v7g6"
+    },
+    "organic": [
+        {
+            "link": "https://www.nytimes.com/2019/10/11/us/north-dakota-weather-blizzard.html",
+            "display_link": "https://www.nytimes.com \u203a north-dakota-weather-blizzard",
+            "title": "Storm Bringing 'Historic' Snowfall to Northern Plains",
+            "description": "Blizzard conditions closed roads and schools in parts of North Dakota on Friday, as temperatures plummeted across the region.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Oct 11, 2019",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=ukMg-2cLrQ4",
+            "display_link": "https://www.youtube.com \u203a watch",
+            "title": "Storm brings heavy snow, winds to North Dakota - YouTube",
+            "description": "Nearly a foot of snow is being dropped in parts of North Dakota.People in the Fargo-Moorhead area are digging out after nearly a fit of snow ...",
+            "extensions": [
+                {
+                    "type": "text",
+                    "text": "WKYC Channel 3",
+                    "rank": 1
+                },
+                {
+                    "type": "text",
+                    "text": "Mar 1, 2023",
+                    "rank": 2
+                }
+            ],
+            "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "image_base64": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFMAlAMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIEAwUG/8QALBAAAgIBAwMDAwMFAAAAAAAAAAECEQMEEiExQVEFEzIUYYEikcEVQlKhsf/EABkBAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EABwRAQADAQADAQAAAAAAAAAAAAABAhESITGBIv/aAAwDAQACEQMRAD8A1JFCA+m8JjJQXyBdhZNjCmFibEA9wXZIAVYrEADCybAodiAABsBCIHYE2BUXYWTYWRVWF8k2FgXYWTYWBVismw3AVYrJuwsCxWTYnyA7GmSj0vS9CtZvuUlsSdRjbY1YjWAR9D/RMOxOWXIrdPhI8/X6LDpdPHa8jyNJ22q5+34/4TqGppMQ84QMVlYTJ89QB0AFXwBNjsIdgSwTIqrE2KxWA7CyWxWBYEpjsCgEADO2LUZMKftZJQvrtdGKWZp0kVPLGK57hV6nV57lF58r5tXNkYpty/U266Nsz6jInTJxTbklfHci63tk2jms2Np/qXHdmbLqI+7UZJquw1G2wOSyprqIo0bR0F11v8ITm+0X+xWQ0FDu1ymhKSsijaJobkS+QM2q1UdPSlGbbXDUeL8WeVl1WoUPchqJpyV7UotdfDNvq2RwjiSSdy6PocNVKOs1cs+TJji5qtsU1/Jytaesd61rxsz5Zf6prfaUFSmnbns5l/H+j0fTNXlzQf1DuXZ1VmKWD0+tsskOvmRq9KyaLRTyVlx5d8HFRbap+VyZ2a+m8ref14+PUQzkptvgpZEup315pg/bTlffycfpm73zvk0xlF9GUEY56VuPEmc/p8kIt328noCcUxi68CcW3zZzprz+T6B44vqkRPT43/ajPK9PCbk31YHr/R4v8UMYa17hNnPf5LTTNMk7YPhFcE9wOe5kZIzmvlTO+0OERXja7S6jJBSUnJwdpWYZQ16SSeVJfdn0rpvkNkW/sZmrUWfNYNDrM0rcti8tGhem6nFUko5K5ddT3YqN1Q2qfA5g6ljx+60mrT+52UZNcs7Poc5S/cqJ9tr4vkqOScfkNPyDKjqskX3KMsodxKU10kxo1WJnFZmvkivdi+5dRVgLcvIASOIABTEAANt0c7dgBFKbaRUfiAEAi2AFEts5y6ABBMS10AAGyWAASyJ9AADmAAZV/9k=",
+            "duration": "1:10",
+            "duration_sec": 70,
+            "author": "WKYC Channel 3",
+            "date": "Mar 1, 2023",
+            "source": "YouTube",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://www.ndstudies.gov/gr8/content/unit-iii-waves-development-1861-1920/lesson-1-changing-landscapes/topic-5-blizzards-floods-and-drought/section-1-blizzards",
+            "display_link": "https://www.ndstudies.gov \u203a content \u203a section-1-blizza...",
+            "title": "Section 1: Blizzards | 8th Grade North Dakota Studies",
+            "description": "This article is posted courtesy of the Theodore Roosevelt Center at Dickinson State University. The Story of Hazel Miner. On March 15, 1920, a blizzard blew ...",
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://ndresponse.gov/severe-winter-weather",
+            "display_link": "https://ndresponse.gov \u203a severe-winter-weather",
+            "title": "Severe Winter Weather",
+            "description": "That could mean snow or subfreezing temperatures, as well as strong winds or even ice or heavy rain storms. One of the primary concerns is the winter weather's ...",
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.dnr.state.mn.us/climate/summaries_and_publications/winter_storms.html",
+            "display_link": "https://www.dnr.state.mn.us \u203a climate \u203a winter_storms",
+            "title": "Famous winter storms | Minnesota DNR",
+            "description": "Nov 26, 1896, famous Thanksgiving Day storm, rain and thunderstorms in southern Minnesota, snow and blizzard in ND and central and northern MN counties.",
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.govtech.com/em/safety/damage-from-blizzard-unprecedented-in-north-dakota",
+            "display_link": "https://www.govtech.com \u203a safety \u203a damage-from-bliz...",
+            "title": "Damage From Blizzard 'Unprecedented' in North Dakota",
+            "description": "(TNS) - A weekend blizzard that brought snow, rain, ice and strong winds to western North Dakota downed hundreds and possibly thousands of ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 26, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.cnn.com/2023/02/22/weather/winter-storm-us-wednesday/index.html",
+            "display_link": "https://www.cnn.com \u203a 2023/02/22 \u203a winter-storm-us-we...",
+            "title": "Winter storm in the North and heat wave in the South ...",
+            "description": "And more than 2 million were under blizzard warnings across parts of Wyoming, Minnesota, Wisconsin and the Dakotas. Meanwhile, warm weather ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 22, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.ndhorizons.com/articles/78/dakota-storm-stalker.aspx",
+            "display_link": "https://www.ndhorizons.com \u203a articles \u203a dakota-storm-...",
+            "title": "Dakota Storm Stalker",
+            "description": "North Dakota's weather is unique, covering blizzards, wind, sun, wind, storms, and wind. For Brian Heskin, his love of watching North ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Dec 3, 2018",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://en.wikipedia.org/wiki/December_2022_North_American_winter_storm",
+            "display_link": "https://en.wikipedia.org \u203a wiki \u203a December_2022_Nor...",
+            "title": "December 2022 North American winter storm",
+            "description": "More than 100 vehicles were left struck in intense snow on I-90 between Rapid City and Wall in South Dakota prompting authorities to move in to rescue all of ...",
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://globalnews.ca/tag/north-dakota-storm/",
+            "display_link": "https://globalnews.ca \u203a tag \u203a north-dakota-storm",
+            "title": "North Dakota storm | News, Videos & Articles",
+            "description": "North Dakota storm videos and latest news articles; GlobalNews.ca your source for the latest news on North Dakota storm .",
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}

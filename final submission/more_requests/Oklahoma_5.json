@@ -1,0 +1,185 @@
+{
+    "general": {
+        "search_engine": "google",
+        "results_cnt": 28300000,
+        "search_time": 0.36,
+        "language": "en",
+        "mobile": false,
+        "basic_view": false,
+        "search_type": "text",
+        "page_title": "Oklahoma storm article - Google Search",
+        "code_version": "1.106",
+        "timestamp": "2023-07-27T01:43:43.782Z"
+    },
+    "input": {
+        "original_url": "http://www.google.com/search?q=Oklahoma+storm+article&start=16&lum_json=1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/610.2.11 (KHTML, like Gecko) Version/14.0.1 Safari/610.2.11",
+        "request_id": "hl_c3a9eb28_yo5icsh57ne"
+    },
+    "organic": [
+        {
+            "link": "https://www.washingtonpost.com/weather/2023/02/27/tornado-warning-wind-oklahoma-kansas/",
+            "display_link": "https://www.washingtonpost.com \u203a 2023/02/27 \u203a torn...",
+            "title": "Tornadoes, severe winds hit Oklahoma, Texas, Kansas ...",
+            "description": "Violent windstorm, tornado swarm tear through Oklahoma, Texas Panhandle. A significant tornado touched down next to the National Weather Center ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 1,
+            "global_rank": 1
+        },
+        {
+            "link": "https://www.nssl.noaa.gov/",
+            "display_link": "https://www.nssl.noaa.gov",
+            "title": "NOAA National Severe Storms Laboratory",
+            "description": "The NOAA National Severe Storms Laboratory serves the nation by working to improve the leadtime and accuracy of severe weather warnings and forecasts in ...",
+            "rank": 2,
+            "global_rank": 2
+        },
+        {
+            "link": "https://yaleclimateconnections.org/2023/02/tornado-studded-thunderstorms-rake-west-texas-and-oklahoma/",
+            "display_link": "https://yaleclimateconnections.org \u203a 2023/02 \u203a tornad...",
+            "title": "Tornado-studded thunderstorms rake West Texas and ...",
+            "description": "A thunderstorm squall line moving at freight-train speeds ripped through the eastern Texas Panhandle and across Oklahoma on Sunday night, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 27, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 3,
+            "global_rank": 3
+        },
+        {
+            "link": "https://timesofindia.indiatimes.com/world/us/tornadoes-strike-texas-oklahoma-more-storms-in-forecast/articleshow/91359307.cms",
+            "display_link": "https://timesofindia.indiatimes.com \u203a ... \u203a US News",
+            "title": "Tornadoes strike Texas, Oklahoma; more storms in forecast",
+            "description": "US News: SEMINOLE: A storm system spawned several tornadoes that whipped through areas of Texas and Oklahoma, causing damage to a school, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 6, 2022",
+                    "rank": 1
+                }
+            ],
+            "rank": 4,
+            "global_rank": 4
+        },
+        {
+            "link": "https://www.foxweather.com/weather-news/tornado-norman-oklahoma-city-gust-114-memphis-texas-severe-thunderstorms-midwest",
+            "display_link": "https://www.foxweather.com \u203a weather-news \u203a tornad...",
+            "title": "1 dead, 15 hurt as tornadoes tear through Oklahoma City ...",
+            "description": "FOX Weather's Brandy Campbell is in Norman, Oklahoma checking on residents and tornado damage after Sunday's severe weather. \"The windows ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Feb 28, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 5,
+            "global_rank": 5
+        },
+        {
+            "link": "https://www.denverpost.com/2023/04/20/the-damage-is-unbelievable-tornadoes-kill-3-in-oklahoma/",
+            "display_link": "https://www.denverpost.com \u203a 2023/04/20 \u203a the-dama...",
+            "title": "'The damage is unbelievable:' Tornadoes kill 3 in Oklahoma",
+            "description": "Subscribers are entitled to 10 gift sharing articles each month. ... Strong storms, including tornadoes, winds and hail moved through parts ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 6,
+            "global_rank": 6
+        },
+        {
+            "link": "https://www.sciencedirect.com/science/article/pii/S2212420915301138",
+            "display_link": "https://www.sciencedirect.com \u203a science \u203a article \u203a pii",
+            "title": "Oklahoma tornado risk and variability: A statistical model",
+            "description": "The limitations and uncertainties of developed model are also discussed. Previous article in issue; Next article ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "by D Romanic",
+                    "rank": 1
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "2016",
+                    "rank": 2
+                },
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Cited by 31",
+                    "rank": 3
+                }
+            ],
+            "rank": 7,
+            "global_rank": 7
+        },
+        {
+            "link": "https://www.usatoday.com/story/news/nation/2023/04/20/thursday-severe-weather-forecast-updates/11698424002/",
+            "display_link": "https://www.usatoday.com \u203a nation \u203a 2023/04/20 \u203a th...",
+            "title": "Severe weather for 40M; 3 die in Oklahoma tornadoes",
+            "description": "3 dead in Oklahoma tornadoes; 40M in US under severe weather threat ... Three people are dead after tornadoes struck Oklahoma and about 40 million ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Apr 20, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 8,
+            "global_rank": 8
+        },
+        {
+            "link": "https://www.reuters.com/article/usa-weather-oklahoma/more-storms-headed-for-great-plains-after-tornadoes-kill-one-injure-12-in-oklahoma-idINKBN0NS08020150507",
+            "display_link": "https://www.reuters.com \u203a usa-weather-oklahoma \u203a m...",
+            "title": "More storms headed for Great Plains after tornadoes kill ...",
+            "description": "OKLAHOMA CITY (Reuters) - Thunderstorm and flash flood warnings were issued for several Great Plains states on Thursday, ...",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "May 6, 2015",
+                    "rank": 1
+                }
+            ],
+            "rank": 9,
+            "global_rank": 9
+        },
+        {
+            "link": "https://www.5newsonline.com/article/weather/severe-weather/photos-severe-weather-debris-arkansas-oklahoma/527-f404af1c-6b4d-4826-bcbd-abe8a33b3cfb",
+            "display_link": "https://www.5newsonline.com \u203a article \u203a photos-sever...",
+            "title": "Photos: Severe weather debris in Arkansas and Oklahoma",
+            "description": "Related Articles. River Valley tornado hit early Father's Day morning \u00b7 Overnight severe weather leaves thousands without power.",
+            "extensions": [
+                {
+                    "inline": true,
+                    "type": "text",
+                    "text": "Jun 18, 2023",
+                    "rank": 1
+                }
+            ],
+            "rank": 10,
+            "global_rank": 10
+        }
+    ]
+}
