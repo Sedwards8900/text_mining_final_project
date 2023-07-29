@@ -42,12 +42,12 @@ The following are the modules necessary to run the program:
 
 # 3. File organization
 
-## A. This project contains the following data files:
-- urls.txt, urls 2.txt, urls_all_sme.txt: Text files containing different versions of the links scraped throught the google Scraper API.
+## A. This project contains the following key data files:
+- *part_one.ipynb*: Jupyter Notebook containing code to scrape web content and text capable of allowing an user to get the number of desired links from the google search engine for a particular query.
 
-- part_one.ipynb: Jupyter Notebook containing code to scrape web content and text capable of allowing an user to get the number of desired links from the google search engine for a particular query.
+- *part_two.ipynb*: Jupyter Notebook containing code to clean, tokenize, POS tagging, and vectorization of words and documents within the set of texts from the files obtained with the help part_one.ipynb.
 
-- part_two.ipynb: Jupyter Notebook containing code to clean, tokenize, POS tagging, and vectorization of words and documents within the set of texts from the files obtained with the help part_one.ipynb.
+- *urls.txt, urls 2.txt, urls_all_sme.txt*: Text files containing different versions of the links scraped throught the google Scraper API.
 
 - orpheus_scraper.py and orpheus_cluster.py: Python files containing same code found in jupyter notebooks but for simplified use through implentation via console commands. You may run the files by using the following command:
 
@@ -56,3 +56,7 @@ The following are the modules necessary to run the program:
     or
     
     python orpheus_cluster.py
+
+    Please make sure to adjust the above command if your system uses 'python3' instead of 'python.'
+
+- *request/ and more_requests/ folders*: contain the json files downloaded via the API which are then used to extract the urls
